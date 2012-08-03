@@ -34,8 +34,8 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-03 13:42+0200\n"
-"Last-Translator: Christian Knoke <chrisk@cknoke.de>\n"
+"PO-Revision-Date: 2012-08-03 19:20+0200\n"
+"Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -401,7 +401,9 @@ msgstr "%s verkauft %s (unnötig) zum Preis von %d."
 msgid ""
 "This Freeciv compilation has no full threads implementation, threaded ai "
 "cannot be used."
-msgstr "Dieses Freeciv-Kompilat enthält keine vollständige Thread-Implementation, daher kann keine nebenläufige KI verwendet werden."
+msgstr ""
+"Dieses Freeciv-Kompilat enthält keine vollständige Thread-Implementation, "
+"daher kann keine nebenläufige KI verwendet werden."
 
 #: client/agents/cma_core.c:391
 #, c-format
@@ -1532,6 +1534,9 @@ msgid ""
 "Shortcut: t\n"
 "Select terrain type: shift+t or right-click here."
 msgstr ""
+"Geländeform ändern.\n"
+"Kürzel: t\n"
+"Geländetyp auswählen: [Shift]+[T] oder Rechtsklick hier."
 
 #: client/editor.c:144
 msgid "Terrain Resource"
@@ -1616,6 +1621,8 @@ msgid ""
 "Modify player's tile knowledge.\n"
 "Shortcut: v"
 msgstr ""
+"Kartenwissen eines Spielers verändern.\n"
+"Kürzel: v"
 
 #: client/editor.c:164 client/gui-gtk-2.0/editprop.c:655
 #: client/gui-gtk-3.0/editprop.c:655
@@ -1700,8 +1707,8 @@ msgstr "Puffer leer."
 #, c-format
 msgid "%d tile copied."
 msgid_plural "%d tiles copied."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Feld kopiert."
+msgstr[1] "%d Felder kopiert."
 
 #: client/ggzclient.c:100 server/ggzserver.c:266
 msgid "Only the GGZ client must call freeciv-client in ggz mode!\n"
@@ -1907,7 +1914,7 @@ msgstr "Verschmutzung:"
 
 #: client/gui-gtk-2.0/citydlg.c:684 client/gui-gtk-3.0/citydlg.c:706
 msgid "Plague Risk:"
-msgstr ""
+msgstr "Seuchengefahr:"
 
 #. TRANS: Overview tab in city dialog
 #. TRANS: Overview tab of foreign intelligence report dialog
@@ -2960,7 +2967,8 @@ msgstr "Feindliche Einheit _sabotieren"
 msgid ""
 "The current ruleset does not define any objects corresponding to this editor "
 "tool."
-msgstr "Der aktive Regelsatz definiert keine zu diesem Werkzeug passenden Objekte."
+msgstr ""
+"Der aktive Regelsatz definiert keine zu diesem Werkzeug passenden Objekte."
 
 #: client/gui-gtk-2.0/editgui.c:239 client/gui-gtk-3.0/editgui.c:239
 msgid "Global Observer"
@@ -3357,6 +3365,12 @@ msgid ""
 "the objects is taken from the editor tool state. So for example, the \"tool "
 "value\" of the unit tool and its \"count\" parameter affect unit creation."
 msgstr ""
+"Wenn Sie diesen Button klicken, wird ein neues Objekt vom selben Typ wie im "
+"aktuellen Eigenschaftsfenster erstellt und zur Seite hinzugefügt. Der genaue "
+"Typ und die Anzahl an Objekten sind vom momentanen Zustand des "
+"Bearbeitungswerkzeugs abhängig. Beispielsweise beeinflussen die \"Wert\"- "
+"und \"Anzahl\"-Eigenschaften des Einheitenwerkzeugs die Art und Weise der "
+"Einheitenerschaffung."
 
 #. TRANS: %s is a type of object that can be edited, such as "Tile",
 #. * "Unit", "Start Position", etc.
@@ -3378,9 +3392,9 @@ msgid ""
 msgstr ""
 "Angabe eines Filters, um die gezeigten Eigenschaften zu limitieren. Der "
 "Filter setzt sich aus einem oder mehreren Textmustern zusammen, welche durch "
-"| (\\\"oder\\\") bzw. & (\\\"und\\\") getrennt werden, das &-Symbol besitzt "
-"dabei eine höhere Priorität als |. Ein Muster kann durch voranstellen "
-"eines ! negiert werden."
+"| (\"oder\") bzw. & (\"und\") getrennt werden, das &-Symbol besitzt dabei "
+"eine höhere Priorität als |. Ein Muster kann durch voranstellen eines ! "
+"negiert werden."
 
 #: client/gui-gtk-2.0/editprop.c:4582 client/gui-gtk-3.0/editprop.c:4582
 msgid ""
@@ -3388,12 +3402,18 @@ msgid ""
 "selected in the object list to the server. Modified properties' names are "
 "shown in red in the properties panel."
 msgstr ""
+"Wenn Sie diesen Button klicken, werden alle veränderten Eigenschaften aller "
+"momentan in der Objektliste befindlichen Objekte an den Server gesendet. Die "
+"Namen geänderter Eigenschaften werden im Eigenschaftsfenster rot angezeigt."
 
 #: client/gui-gtk-2.0/editprop.c:4593 client/gui-gtk-3.0/editprop.c:4593
 msgid ""
 "Pressing this button will reset all modified properties of the selected "
 "objects to their current values (the values they have on the server)."
 msgstr ""
+"Wenn Sie diesen Button klicken, werden alle geänderten Eigenschaften der "
+"ausgewählten Objekte auf ihre momentanen Werte (d.h. auf die Werte, die sie "
+"auf dem Server beitzen) zurückgesetzt."
 
 #: client/gui-gtk-2.0/editprop.c:5745 client/gui-gtk-3.0/editprop.c:5751
 msgid "Property Editor"
@@ -3528,6 +3548,9 @@ msgid ""
 "after '--'. See the Gtk documentation.\n"
 "\n"
 msgstr ""
+"Dieser Klient akzeptiert die üblichen GTK-Kommandozeilenoptionen\n"
+"nach '--'. Siehe die GTK-Dokumentation\n"
+"\n"
 
 #. TRANS: No full stop after the URL, could cause confusion.
 #: client/gui-gtk-2.0/gui_main.c:283 client/gui-gtk-3.0/gui_main.c:268
@@ -3540,7 +3563,7 @@ msgstr ""
 "- über Programmfehler nach Möglichkeit in englischer Sprache im WWW unter "
 "%s\n"
 "- über Probleme mit der deutschen Übersetzung mit einer E-Mail an "
-"<chrisk@cknoke.de>\n"
+"<quintus@quintilianus.eu>\n"
 
 #: client/gui-gtk-2.0/gui_main.c:748 client/gui-gtk-2.0/gui_main.c:1553
 #: client/gui-gtk-3.0/gui_main.c:733 client/gui-gtk-3.0/gui_main.c:1589
@@ -3559,9 +3582,10 @@ msgstr "Fertig!"
 msgid "Shift+Return"
 msgstr "Shift+Eingabe"
 
+# MG: Gemeint ist der Kartentab.
 #: client/gui-gtk-2.0/gui_main.c:1289 client/gui-gtk-3.0/gui_main.c:1285
 msgid "?noun:View"
-msgstr ""
+msgstr "Karte"
 
 #: client/gui-gtk-2.0/gui_main.c:1401 client/gui-gtk-3.0/gui_main.c:1397
 msgid "Chat"
@@ -3622,6 +3646,7 @@ msgstr "Zufriedenheit"
 #: client/gui-gtk-2.0/happiness.c:252 client/gui-gtk-3.0/happiness.c:253
 msgid "Additional information is available via left click on the citizens."
 msgstr ""
+"Weitere Informationen sind über einen Linksklick auf die Bürger verfügbar."
 
 #: client/gui-gtk-2.0/helpdlg.c:95 client/gui-gtk-2.0/helpdlg.c:98
 #: client/gui-gtk-2.0/helpdlg.c:102 client/gui-gtk-3.0/helpdlg.c:95
@@ -3838,11 +3863,12 @@ msgstr "+%d Nahrung / %d"
 msgid "+%d Res. / %d"
 msgstr "+%d Prod. / %d"
 
+# MG: "BP" = Bewegungspunkte
 #. TRANS: "MP" = movement points
 #: client/gui-gtk-2.0/helpdlg.c:1177 client/gui-gtk-3.0/helpdlg.c:1186
 #, c-format
 msgid "%d MP"
-msgstr ""
+msgstr "%d BP"
 
 #: client/gui-gtk-2.0/inteldlg.c:48 client/gui-gtk-3.0/inteldlg.c:48
 msgid "Ruler:"
@@ -4018,9 +4044,10 @@ msgstr "Arbeits_listen"
 msgid "Client _Lua Script"
 msgstr "Client-L_ua-Skript"
 
+# MG: Gemeint ist das Menü "Zivilisation"->"Karte"
 #: client/gui-gtk-2.0/menu.c:1344 client/gui-gtk-3.0/menu.c:1344
 msgid "?noun:_View"
-msgstr "_Ansicht"
+msgstr "_Karte"
 
 #: client/gui-gtk-2.0/menu.c:1346 client/gui-gtk-2.0/menu.c:1473
 #: client/gui-gtk-2.0/unitselect.c:273 client/gui-gtk-3.0/menu.c:1346
@@ -4167,7 +4194,7 @@ msgstr "_Optionen beim Verlassen speichern"
 
 #: client/gui-gtk-2.0/menu.c:1422 client/gui-gtk-3.0/menu.c:1422
 msgid "_Editing Mode"
-msgstr "Editmodus"
+msgstr "_Editor-Modus"
 
 #: client/gui-gtk-2.0/menu.c:1426 client/gui-gtk-3.0/menu.c:1426
 msgid "Cit_y Outlines"
@@ -5032,7 +5059,7 @@ msgstr "Ziel"
 #. TRANS: As in 'Show all (even currently not reachable) techs'.
 #: client/gui-gtk-2.0/repodlgs.c:592 client/gui-gtk-3.0/repodlgs.c:615
 msgid "Show all"
-msgstr ""
+msgstr "Alle anzeigen"
 
 #: client/gui-gtk-2.0/repodlgs.c:750 client/gui-gtk-3.0/repodlgs.c:774
 msgid "?Building or Unit type:Name"
@@ -5880,7 +5907,7 @@ msgstr " Siegchance: A:%d%% V:%d%%"
 #: client/gui-sdl/dialogs.c:1270
 #, c-format
 msgid "Terrain Defense Bonus: +%d%% "
-msgstr ""
+msgstr "Verteidungsbonus durch Gelände: +%d%% "
 
 #: client/gui-sdl/dialogs.c:1295 client/gui-sdl/dialogs.c:1678
 msgid "Terrain Info"
@@ -5940,7 +5967,7 @@ msgstr "Alle Wartenden Bewachen"
 #: client/gui-sdl/dialogs.c:2033
 #, c-format
 msgid "Look up \"%s\" in the Help Browser"
-msgstr ""
+msgstr "Siehe \"%s\" im Hilfefenster"
 
 #: client/gui-sdl/dialogs.c:2455
 msgid "Choose Your New Government"
@@ -7134,6 +7161,10 @@ msgid ""
 "Pollution:    %4d\n"
 "Plague Risk:  %s"
 msgstr ""
+"Korruption:     %4d\n"
+"Müll:           %4d\n"
+"Verschmutzung:  %4d\n"
+"Seuchengefahr:  %s"
 
 #: client/gui-xaw/citydlg.c:262
 #, c-format
@@ -7274,6 +7305,9 @@ msgid ""
 "after '--'. See the X(7) man page.\n"
 "\n"
 msgstr ""
+"Dieser Klient akzeptiert die üblichen X-Toolkit-Kommandozeilenoptionen\n"
+"hinter '--'. Siehe die X(7) Manpage.\n"
+"\n"
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: client/gui-xaw/gui_main.c:346
@@ -7550,7 +7584,7 @@ msgstr "Raumschiff"
 
 #: client/gui-xaw/menu.c:241
 msgid "Editing Mode"
-msgstr "Editmodus"
+msgstr "Editor-Modus"
 
 #: client/gui-xaw/menu.c:242
 msgid "Tools"
@@ -7620,10 +7654,11 @@ msgstr "Gelände    Straße Bewässerung    Bergbau        Veränderung\n"
 #: client/helpdata.c:220
 msgid "Time taken for the following activities is independent of terrain:\n"
 msgstr ""
+"Die notwendige Zeit für die folgenden Aktionen ist unabhängig vom Gelände:\n"
 
 #: client/helpdata.c:223
 msgid "Activity            Time\n"
-msgstr ""
+msgstr "Aktion                          Zeit\n"
 
 #: client/helpdata.c:228
 #, c-format
@@ -7631,6 +7666,8 @@ msgid ""
 "\n"
 "Railroad           %3d"
 msgstr ""
+"\n"
+"Eisenbahn                       %3d"
 
 #: client/helpdata.c:231
 #, c-format
@@ -7639,7 +7676,7 @@ msgid ""
 "Clean pollution    %3d"
 msgstr ""
 "\n"
-"Umweltverschmutzung beseitigen %3d"
+"Umweltverschmutzung beseitigen  %3d"
 
 #: client/helpdata.c:234
 #, c-format
@@ -7648,7 +7685,7 @@ msgid ""
 "Clean fallout      %3d"
 msgstr ""
 "\n"
-"Fallout beseitigen             %3d"
+"Fallout beseitigen              %3d"
 
 #. TRANS: First %s is version string, e.g.,
 #. * "Freeciv version 2.3.0-beta1 (beta version)" (translated).
@@ -7890,6 +7927,8 @@ msgid ""
 "* A 'small wonder': at most one of your cities may possess this "
 "improvement.\n"
 msgstr ""
+"Ein 'kleines Wunder': Höchstens eine Ihrer Städte kann diese Erweiterungen "
+"besitzen.\n"
 
 #. TRANS: 'Allows all players with knowledge of atomic
 #. * power to build nuclear units.'
@@ -8292,6 +8331,8 @@ msgid ""
 "* Under certain conditions the shield upkeep of this unit can be converted "
 "to gold upkeep.\n"
 msgstr ""
+"* Unter bestimmten Bedingungen können die Schild-Erhaltungskosten für diese "
+"Einheit in Gold-Erhaltungskosten umgewandelt werden.\n"
 
 #: client/helpdata.c:1660
 #, c-format
@@ -8330,8 +8371,12 @@ msgid ""
 msgid_plural ""
 "To reach %s you need to obtain %d other technologies first. The whole "
 "project will require %d bulbs to complete."
-msgstr[0] "Die Erforschung von %s erfordert zunächst den Abschluss von %d anderen Forschungsprojekt. Insgesamt werden %d Punkte benötigt."
-msgstr[1] "Die Erforschung von %s erfordert zunächst den Abschluss von %d anderen Forschungsprojekten. Insgesamt werden %d Punkte benötigt."
+msgstr[0] ""
+"Die Erforschung von %s erfordert zunächst den Abschluss von %d anderen "
+"Forschungsprojekt. Insgesamt werden %d Punkte benötigt."
+msgstr[1] ""
+"Die Erforschung von %s erfordert zunächst den Abschluss von %d anderen "
+"Forschungsprojekten. Insgesamt werden %d Punkte benötigt."
 
 #: client/helpdata.c:1752
 msgid "You cannot research this technology."
@@ -8413,29 +8458,40 @@ msgstr "Betrifft nur %s.\n"
 msgid ""
 "  * Such units can move onto this tile even if it would not normally be "
 "suitable terrain.\n"
-msgstr "  * Solche Einheiten können dieses Feld sogar betreten, obwohl es normalerweise nicht möglich wäre.\n"
+msgstr ""
+"  * Solche Einheiten können dieses Feld sogar betreten, obwohl es "
+"normalerweise nicht möglich wäre.\n"
 
 #: client/helpdata.c:1944
 msgid ""
 "  * Such units situated here are not considered aggressive if this tile is "
 "within 3 tiles of a friendly city.\n"
-msgstr "  * Werden solche Einheiten hier platziert, werden sie dann nicht als aggressiv angesehen, wenn sich dieses Feld im Umfeld von 3 Feldern einer freundlichen Stadt befindet.\n"
+msgstr ""
+"  * Werden solche Einheiten hier platziert, werden sie dann nicht als "
+"aggressiv angesehen, wenn sich dieses Feld im Umfeld von 3 Feldern einer "
+"freundlichen Stadt befindet.\n"
 
 #: client/helpdata.c:1949
 msgid ""
 "  * Can be captured by such units if at war with the nation that currently "
 "owns it.\n"
 msgstr ""
+"  * Kann von solchen Einheiten gefangen genommen werden, wenn Sie mit der "
+"Nation, die sie besitzt, im Krieg sind.\n"
 
 #: client/helpdata.c:1954
 #, c-format
 msgid "  * Such units get a %d%% defense bonus on this tile.\n"
-msgstr "  * Solche Einheiten erhalten auf diesem Feld einen Verteidungsbonus von %d%%.\n"
+msgstr ""
+"  * Solche Einheiten erhalten auf diesem Feld einen Verteidungsbonus von %d"
+"%%.\n"
 
 #: client/helpdata.c:1961
 #, no-c-format
 msgid "  * Diplomatic units get a 25% defense bonus in diplomatic fights.\n"
-msgstr "  * Diplomatische Einheiten erhalten in diplomatischen Gefechten einen 25%igen Verteidungsbonus.\n"
+msgstr ""
+"  * Diplomatische Einheiten erhalten in diplomatischen Gefechten einen "
+"25%igen Verteidungsbonus.\n"
 
 #: client/helpdata.c:1969
 msgid "* Cannot be built.\n"
@@ -8448,7 +8504,9 @@ msgstr "* Kann von Einheiten geplündert werden.\n"
 #: client/helpdata.c:1978
 msgid ""
 "* Defeat of one unit does not cause death of all other units on this tile.\n"
-msgstr "* Niederlage einer einzelnen Einheit bedeutet nicht den Tod aller anderen Einheiten auf diesem Feld.\n"
+msgstr ""
+"* Niederlage einer einzelnen Einheit bedeutet nicht den Tod aller anderen "
+"Einheiten auf diesem Feld.\n"
 
 #: client/helpdata.c:1983
 #, fuzzy
@@ -8461,13 +8519,17 @@ msgstr "* Erweitert die Nationalgrenzen der bauenden Nation.\n"
 
 #: client/helpdata.c:1991
 msgid "* Grants permanent vision of an area around the tile to its owner.\n"
-msgstr "* Deckt einen Bereich rund um diesen Feld für seinen Eigentümer permanent auf.\n"
+msgstr ""
+"* Deckt einen Bereich rund um diesen Feld für seinen Eigentümer permanent "
+"auf.\n"
 
 #: client/helpdata.c:1996
 msgid ""
 "* Allows the owner to see normally invisible units in an area around the "
 "tile.\n"
-msgstr "Erlaubt es dem Eigentümer, in einem Bereich rund um das Feld normalerweise unsichtbare Einheiten zu sehen.\n"
+msgstr ""
+"Erlaubt es dem Eigentümer, in einem Bereich rund um das Feld normalerweise "
+"unsichtbare Einheiten zu sehen.\n"
 
 #: client/helpdata.c:2076
 msgid "Features:\n"
@@ -8487,16 +8549,24 @@ msgid ""
 msgid_plural ""
 "* Military units away from home and field units will each cause %d citizens "
 "to become unhappy.\n"
-msgstr[0] "* Kampfeinheiten im Einsatz und Luftangriffseinheiten machen jeweils %d Bürger unzufrieden.\n"
-msgstr[1] "* Kampfeinheiten im Einsatz und Luftangriffseinheiten machen jeweils %d Bürger unzufrieden.\n"
+msgstr[0] ""
+"* Kampfeinheiten im Einsatz und Luftangriffseinheiten machen jeweils %d "
+"Bürger unzufrieden.\n"
+msgstr[1] ""
+"* Kampfeinheiten im Einsatz und Luftangriffseinheiten machen jeweils %d "
+"Bürger unzufrieden.\n"
 
 #: client/helpdata.c:2177
 #, c-format
 msgid "* Each of your cities will avoid %d unhappiness caused by units.\n"
 msgid_plural ""
 "* Each of your cities will avoid %d unhappiness caused by units.\n"
-msgstr[0] "* Jede Ihrer Städte vermeidet %d durch Einheiten unzufrieden gemachten Bürger.\n"
-msgstr[1] "* Jede Ihrer Städte vermeidet %d durch Einheiten unzufrieden gemachte Bürger.\n"
+msgstr[0] ""
+"* Jede Ihrer Städte vermeidet %d durch Einheiten unzufrieden gemachten "
+"Bürger.\n"
+msgstr[1] ""
+"* Jede Ihrer Städte vermeidet %d durch Einheiten unzufrieden gemachte "
+"Bürger.\n"
 
 #: client/helpdata.c:2186
 #, c-format
@@ -8506,8 +8576,12 @@ msgid ""
 msgid_plural ""
 "* Each of your cities will avoid %d unhappiness, not including that caused "
 "by units.\n"
-msgstr[0] "* Jede Ihrer Städte vermeidet %d unzufriedenen Bürger, ausgenommen jene, die aufgrund von Militärpräsenz unzufrieden sind.\n"
-msgstr[1] "* Jede Ihrer Städte vermeidet %d unzufriedene Bürger, ausgenommen jene, die aufgrund von Militärpräsenz unzufrieden sind.\n"
+msgstr[0] ""
+"* Jede Ihrer Städte vermeidet %d unzufriedenen Bürger, ausgenommen jene, die "
+"aufgrund von Militärpräsenz unzufrieden sind.\n"
+msgstr[1] ""
+"* Jede Ihrer Städte vermeidet %d unzufriedene Bürger, ausgenommen jene, die "
+"aufgrund von Militärpräsenz unzufrieden sind.\n"
 
 #: client/helpdata.c:2195
 #, fuzzy, c-format
@@ -8517,8 +8591,12 @@ msgid ""
 msgid_plural ""
 "* Each of your cities will avoid %d unhappiness, including unhappiness "
 "caused by units.\n"
-msgstr[0] "Jede Ihrer Städte vermeidet %d unzufriedenen Bürger, eingeschlossen aufgrund von Militärpräsenz unzufriedene Bürger.\n"
-msgstr[1] "Jede Ihrer Städte vermeidet %d unzufriedene Bürger, eingeschlossen aufgrund von Militärpräsenz unzufriedene Bürger.\n"
+msgstr[0] ""
+"Jede Ihrer Städte vermeidet %d unzufriedenen Bürger, eingeschlossen aufgrund "
+"von Militärpräsenz unzufriedene Bürger.\n"
+msgstr[1] ""
+"Jede Ihrer Städte vermeidet %d unzufriedene Bürger, eingeschlossen aufgrund "
+"von Militärpräsenz unzufriedene Bürger.\n"
 
 #. TRANS: %s is the output type, like 'shield' or 'gold'.
 #: client/helpdata.c:2206
@@ -8560,6 +8638,8 @@ msgstr "* Jede Stadt erspart %d Goldstücke für den Unterhalt von Einheiten.\n"
 #, c-format
 msgid "* If you lose your capital, the chance of civil war is %d%%.\n"
 msgstr ""
+"* Wenn Sie Ihre Hauptstadt verlieren, beträgt die Chance eines Bürgerkrieges "
+"%d%%.\n"
 
 #. TRANS: %d should always be greater than 2.
 #: client/helpdata.c:2249
@@ -8626,7 +8706,7 @@ msgstr ""
 #: client/helpdata.c:2301
 #, c-format
 msgid " (Cities below size %d cannot grow in this way.)"
-msgstr ""
+msgstr " (Städte unter einer Größe von %d können nicht auf diese Art wachen.)"
 
 #: client/helpdata.c:2307
 msgid "* Your units cannot be bribed.\n"
@@ -8693,7 +8773,7 @@ msgstr ""
 #: client/helpdata.c:2369 client/helpdata.c:2385
 #, c-format
 msgid " (Cities below size %d will not celebrate.)"
-msgstr ""
+msgstr " (Städte unter einer Größe von %d werden nicht feiern.)"
 
 #. TRANS: %s is list of output types, with 'or'
 #: client/helpdata.c:2377
@@ -8809,6 +8889,7 @@ msgid ""
 "Starts with knowledge of %s in addition to the standard starting "
 "technologies.\n"
 msgstr ""
+"Startet mit dem Wissen um %s zusätzlich zu den üblichen Starttechnologien.\n"
 
 #. TRANS: %s is an and-separated list of techs
 #: client/helpdata.c:2557
@@ -8831,8 +8912,8 @@ msgstr "%s  %s (%s)"
 #, c-format
 msgid "Starts with the following additional unit: %s.\n"
 msgid_plural "Starts with the following additional units: %s.\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fängt mit der folgenden zusätzlichen Einheit an: %s.\n"
+msgstr[1] "Fängt mit den folgenden zusätzlichen Einheiten an: %s.\n"
 
 #. TRANS: %s is an and-separated list of improvements
 #: client/helpdata.c:2636
@@ -8840,17 +8921,18 @@ msgstr[1] ""
 msgid ""
 "First city will get %s for free in addition to the standard improvements.\n"
 msgstr ""
+"Die erste Stadt wird zusätzlich zu den Standardverbeserungen kostenlos %s "
+"erhalten.\n"
 
 #. TRANS: %s is an and-separated list of improvements
 #: client/helpdata.c:2641
 #, c-format
 msgid "First city will get %s for free.\n"
-msgstr ""
+msgstr "Die erste Stadt wird %s kostenlos erhalten.\n"
 
 #: client/luaconsole_common.c:111
-#, fuzzy
 msgid "This is the Client Lua Console."
-msgstr "Dialogeinstellungen"
+msgstr "Dies ist die Client-Lua-Konsole."
 
 #: client/mapctrl_common.c:397
 #, c-format
@@ -8869,17 +8951,17 @@ msgstr "Zwischenablage ist leer."
 #. TRANS: enum value for 'gui_gtk2/gtk3_message_chat_location'
 #: client/options.c:1662
 msgid "Split"
-msgstr ""
+msgstr "Aufspalten"
 
 #. TRANS: enum value for 'gui_gtk2/gtk3_message_chat_location'
 #: client/options.c:1664
 msgid "Separate"
-msgstr ""
+msgstr "Separat"
 
 #. TRANS: enum value for 'gui_gtk2/gtk3_message_chat_location'
 #: client/options.c:1666
 msgid "Merged"
-msgstr ""
+msgstr "Zusammen"
 
 #: client/options.c:1683
 msgid "Login name"
@@ -8954,7 +9036,7 @@ msgstr "Fortschritte\n"
 
 #: client/options.c:1722
 msgid "The name of the chat log file."
-msgstr ""
+msgstr "Der Name der Logdatei für den Chat."
 
 #: client/options.c:1727 client/options.c:1732 client/options.c:1737
 msgid "Theme"
@@ -8969,47 +9051,44 @@ msgid "Tileset"
 msgstr "Geländegrafik"
 
 #: client/options.c:1743
-#, fuzzy
 msgid ""
 "By changing this option you change the active tileset.  This is the same as "
 "using the -t command-line parameter."
 msgstr ""
-"Die verwendete Feldergrafik. Kann auch über den Kommandozeilenparameter -t "
-"gesetzt werden."
+"Mit dieser Option können sie den für die Felder verwendeten Grafiksatz "
+"(Tileset) festlegen. Das ist dasselbe wie der Kommandozeilenparameter -t."
 
 #: client/options.c:1749
-#, fuzzy
 msgid "Draw city outlines"
-msgstr "_Stadtgrenzen"
+msgstr "Stadtgrenzen zeichnen"
 
 #: client/options.c:1750
-#, fuzzy
 msgid "Setting this option will draw a line at the city workable limit."
-msgstr "Bei einer Stadtgründung wird das Stadtfenster automatisch geöffnet."
+msgstr ""
+"Ist diese Option aktiviert, wird eine Linie um das bewirtschaftbare Gebiet "
+"rund um eine Stadt angezeigt."
 
 #: client/options.c:1754
-#, fuzzy
 msgid "Draw city output"
-msgstr "Allgemeine Einstellungen"
+msgstr "Stadtertrag anzeigen"
 
 #: client/options.c:1755
-#, fuzzy
 msgid "Setting this option will draw city output for every citizen."
-msgstr "In der Übersicht werden die Städte angezeigt."
+msgstr ""
+"Ist diese Option aktiv, wird der Ertrag jedes Bürgers auf der Karte "
+"angezeigt."
 
 #: client/options.c:1759
-#, fuzzy
 msgid "Draw the map grid"
-msgstr "Zeige Kartengitter in Stadtanzeige"
+msgstr "Kartengitter zeigen"
 
 #: client/options.c:1760
 msgid "Setting this option will draw a grid over the map."
-msgstr ""
+msgstr "Ist diese Option gesetzt, wird ein Gitter über die Karte gelegt."
 
 #: client/options.c:1763
-#, fuzzy
 msgid "Draw the city bar"
-msgstr "Größere Stadtanzeige"
+msgstr "Stadtinfo anzeigen"
 
 #: client/options.c:1764
 #, fuzzy
@@ -9018,24 +9097,23 @@ msgid ""
 "beneath each city. Disabling this option will display only the city's name "
 "and, optionally, production."
 msgstr ""
-"Hiermit wird neben jeder Stadt eine Tafel mit nützlichen Informationen "
-"angezeigt. Anderenfalls wird nur der Stadtname und optional die Produktion "
+"Hiermit wird unter jeder Stadt eine Tafel mit nützlichen Informationen "
+"angezeigt. Andernfalls wird nur der Stadtname und optional die Produktion "
 "angezeigt."
 
 #: client/options.c:1770
-#, fuzzy
 msgid "Draw the city names"
-msgstr "Größere Stadtanzeige"
+msgstr "Stadtnamen zeigen"
 
 #: client/options.c:1771
-#, fuzzy
 msgid "Setting this option will draw the names of the cities on the map."
-msgstr "Hiermit können Sie die Kampfanimation von Einheiten einschalten."
+msgstr ""
+"Hiermit können Sie die Anzeige von Stadtnamen auf der Karte zulassen oder "
+"unterbinden."
 
 #: client/options.c:1775
-#, fuzzy
 msgid "Draw the city growth"
-msgstr "Größere Stadtanzeige"
+msgstr "Wachstumsrate von Städten anzeigen"
 
 #: client/options.c:1776
 #, fuzzy
@@ -9043,147 +9121,133 @@ msgid ""
 "Setting this option will draw in how many turns the cities will grow or "
 "shrink."
 msgstr ""
-"Mit dieser Option wird eine spezielle Schild-Graphik für die Flagge "
-"verwendet. Ohne die Option wird die ganze Flagge gezeichnet."
+"Diese Option legt fest, ob die Anzahl Runden, in denen eine Stadt wachsen "
+"oder schrumpfen wird, angezeigt werden soll."
 
 #: client/options.c:1780
-#, fuzzy
 msgid "Draw the city productions"
-msgstr "Größere Stadtanzeige"
+msgstr "Stadtproduktion anzeigen"
 
 #: client/options.c:1781
 msgid ""
 "Setting this option will draw what the cities are currently building on the "
 "map."
-msgstr ""
+msgstr "Hiermit wird auf der Karte angezeigt, was die Städe momentan bauen."
 
 #: client/options.c:1785
-#, fuzzy
 msgid "Draw the city buy costs"
-msgstr "Größere Stadtanzeige"
+msgstr "Projektkaufkosten anzeigen"
 
 #: client/options.c:1786
 msgid ""
 "Setting this option will draw how much gold is needed to buy the production "
 "of the cities."
 msgstr ""
+"Wenn Sie diese Option setzen, wird der Goldbetrag, der zum Kauf des "
+"momentanen Bauprojekts einer Stadt benötigt wird, neben dieser angezeigt."
 
 #: client/options.c:1790
-#, fuzzy
 msgid "Draw the city trade routes"
-msgstr "Größere Stadtanzeige"
+msgstr "Handelsrouten zeichnen"
 
 #: client/options.c:1791
 msgid ""
 "Setting this option will draw trade route lines between cities which have "
 "trade routes."
 msgstr ""
+"Wenn gesetzt, werden zwischen durch Handelsrouten verbundenen Städten Linien "
+"gezeichnet."
 
 #: client/options.c:1795
-#, fuzzy
 msgid "Draw the terrain"
-msgstr "Größere Stadtanzeige"
+msgstr "Gelände zeichnen"
 
 #: client/options.c:1796
-#, fuzzy
 msgid "Setting this option will draw the terrain."
-msgstr "In der Übersicht werden die Einheiten angezeigt."
+msgstr "Zeichnet das Gelände."
 
 #: client/options.c:1799
-#, fuzzy
 msgid "Draw the coast line"
-msgstr "Größere Stadtanzeige"
+msgstr "Küstenlinien nachziehen"
 
 #: client/options.c:1800
-#, fuzzy
 msgid ""
 "Setting this option will draw a line to separate the land from the ocean."
 msgstr ""
-"Mit dieser Option wird eine spezielle Schild-Graphik für die Flagge "
-"verwendet. Ohne die Option wird die ganze Flagge gezeichnet."
+"Diese Option zeichnet in der Karte spezielle Linien, sodass die Land- und "
+"Ozeanflächen besser voneinander unterschieden werden können."
 
 #: client/options.c:1804
-#, fuzzy
 msgid "Draw the roads and the railroads"
-msgstr "* Kann Straßen und Eisenbahnen bauen.\n"
+msgstr "Straßen und Eisenbahnen zeichnen"
 
 #: client/options.c:1805
-#, fuzzy
 msgid "Setting this option will draw the roads and the railroads on the map."
 msgstr ""
-"Mit dieser Option wird eine spezielle Schild-Graphik für die Flagge "
-"verwendet. Ohne die Option wird die ganze Flagge gezeichnet."
+"Hiermit können Sie die Anzeige von Straßen und Eisenbahnlinien auf der Karte "
+"aktivieren."
 
 #: client/options.c:1809
-#, fuzzy
 msgid "Draw the irrigation"
-msgstr "Verbinden/Bewässerung"
+msgstr "Bewässerungen zeichnen"
 
 #: client/options.c:1810
 #, fuzzy
 msgid "Setting this option will draw the irrigation systems on the map."
-msgstr "Hiermit können Sie die Kampfanimation von Einheiten einschalten."
+msgstr ""
+"Wenn aktiv, werden mit dieser Option auf der Karte Bewässerungssysteme "
+"eingezeichnet."
 
 #: client/options.c:1814
-#, fuzzy
 msgid "Draw the mines"
-msgstr "Größere Stadtanzeige"
+msgstr "Minen zeichnen"
 
 #: client/options.c:1815
-#, fuzzy
 msgid "Setting this option will draw the mines on the map."
-msgstr "In der Übersicht werden die Städte angezeigt."
+msgstr ""
+"Wenn aktiv, werden mit dieser Option auf der Karte Minen eingezeichnet."
 
 #: client/options.c:1818
-#, fuzzy
 msgid "Draw the bases"
-msgstr "Größere Stadtanzeige"
+msgstr "Basen zeichnen"
 
 #: client/options.c:1819
-#, fuzzy
 msgid "Setting this option will draw the bases on the map."
-msgstr "Ein/Ausschalten der Rollbalken für die Karte."
+msgstr "Zeichnet Basen auf der Karte ein."
 
 #: client/options.c:1822
-#, fuzzy
 msgid "Draw the specials"
-msgstr "Größere Stadtanzeige"
+msgstr "Ressourcen zeichnen"
 
 #: client/options.c:1823
-#, fuzzy
 msgid "Setting this option will draw the specials on the map."
-msgstr "Ein/Ausschalten der Rollbalken für die Karte."
+msgstr "Zeichnet Geländeressourcen auf der Karte ein."
 
 #: client/options.c:1827
 msgid "Draw the pollution/nuclear fallout"
-msgstr ""
+msgstr "Umweltverschmutzung/Nuklearen Fallout zeichnen"
 
 #: client/options.c:1828
-#, fuzzy
 msgid "Setting this option will draw pollution and nuclear fallout on the map."
 msgstr ""
-"Mit dieser Option wird eine spezielle Schild-Graphik für die Flagge "
-"verwendet. Ohne die Option wird die ganze Flagge gezeichnet."
+"(De)aktiviert das Einzeichnen von Umweltverschmutzung und nuklearem Fallout "
+"auf der Karte."
 
 #: client/options.c:1832
-#, fuzzy
 msgid "Draw the cities"
-msgstr "Größere Stadtanzeige"
+msgstr "Städte zeichnen"
 
 #: client/options.c:1833
-#, fuzzy
 msgid "Setting this option will draw the cities on the map."
-msgstr "In der Übersicht werden die Städte angezeigt."
+msgstr "Hiermit werden Städte auf der Karte eingezeichnet."
 
 #: client/options.c:1836
-#, fuzzy
 msgid "Draw the units"
-msgstr "Größere Stadtanzeige"
+msgstr "Einheiten zeichnen"
 
 #: client/options.c:1837
-#, fuzzy
 msgid "Setting this option will draw the units on the map."
-msgstr "In der Übersicht werden die Einheiten angezeigt."
+msgstr "Hiermit werden Einheiten auf der Karte eingezeichnet."
 
 #: client/options.c:1841
 msgid "Solid unit background color"
@@ -9211,7 +9275,7 @@ msgstr ""
 
 #: client/options.c:1852
 msgid "Draw the units in focus"
-msgstr ""
+msgstr "Zeichne fokussierte Einheiten"
 
 #: client/options.c:1853
 msgid ""
@@ -9219,45 +9283,48 @@ msgid ""
 "drawn, even if units are not otherwise being drawn (for instance if 'Draw "
 "the units' is unset)."
 msgstr ""
+"Diese Opton erlaubt es Ihnen festzulegen, dass momentan fokussierte "
+"Einheiten stets angezeigt werden, auch dann, wenn Einheiten normalerweise "
+"nicht gezeichnet werden (z.B. weil \"Einheiten zeichnen\" deaktiviert ist)."
 
 #: client/options.c:1859
-#, fuzzy
 msgid "Draw the fog of war"
-msgstr "Übersicht mit Nebel des Krieges"
+msgstr "Nebel des Krieges zeichnen"
 
 #: client/options.c:1860
 msgid "Setting this option will draw the fog of war."
-msgstr ""
+msgstr "Zeichnet den Nebel des Krieges auf die Karte."
 
 #: client/options.c:1863
-#, fuzzy
 msgid "Draw the borders"
-msgstr "Größere Stadtanzeige"
+msgstr "Grenzen zeichnen"
 
 #: client/options.c:1864
 msgid "Setting this option will draw the national borders."
-msgstr ""
+msgstr "Ist diese Option aktiviert, werden Nationalgrenzen gezeichnet."
 
 #: client/options.c:1867
-#, fuzzy
 msgid "Draw whether tiles are native"
-msgstr "Größere Stadtanzeige"
+msgstr "Unpassierbare Felder kennzeichnen"
 
 #: client/options.c:1868
-#, fuzzy
 msgid "Setting this option will draw the tiles that unit cannot enter."
-msgstr "In der Übersicht werden die Einheiten angezeigt."
+msgstr ""
+"Mit dieser Option werden Felder, die Einheiten normalerweise nicht betreten "
+"können, gesondert gekennzeichnet."
 
 #: client/options.c:1873
 msgid "Show dead players in Nations report"
-msgstr ""
+msgstr "Tote Spieler im Nationsbericht anzeigen"
 
 #: client/options.c:1874
 #, fuzzy
 msgid ""
 "This option controls whether defeated nations are shown on the Nations "
 "report page."
-msgstr "Diese Option speichert die Höhe der gewählten Bildschirmauflösung."
+msgstr ""
+"Wird diese Option aktiviert, so werden geschlagene Nationen im "
+"Nationsbericht angezeigt."
 
 #: client/options.c:1878
 msgid "Sound bell at new turn"
@@ -9340,7 +9407,7 @@ msgstr ""
 
 #: client/options.c:1919
 msgid "Color to highlight your player/user name"
-msgstr ""
+msgstr "Farbe zur Kennzeichnung Ihres Spieler- und Benutzernamens"
 
 #: client/options.c:1920
 msgid ""
@@ -9348,9 +9415,11 @@ msgid ""
 "highlighted using this color as background.  If not set, it will just not "
 "highlight anything."
 msgstr ""
+"Falls gesetzt, werden Ihr Spieler- und Benutzername in neuen Chatnachrichten "
+"mit dieser Hintergrundfarbe markiert. Ist diese Option nicht gesetzt, wird "
+"auch einfach nichts markiert."
 
 #: client/options.c:1925
-#, fuzzy
 msgid "Manual Turn Done in AI mode"
 msgstr "Rundenende auch im KI-Modus manuell bestätigen"
 
@@ -9363,7 +9432,6 @@ msgstr ""
 "'Fertig!' Knopf am Rundenende betätigen müssen."
 
 #: client/options.c:1930
-#, fuzzy
 msgid "Auto center on units"
 msgstr "Ansicht automatisch auf die aktive Einheit zentrieren"
 
@@ -9550,52 +9618,54 @@ msgstr ""
 "Ohne diese Option wird der Befehl nur aufgehoben, wenn neue Befehle erteilt "
 "werden oder die Leertaste gedrückt wird."
 
+# MG: "Abstimmbalken" klingt blöd. Andererseits sagt man im Deutschen auch "Fortschrittsbalken". Gegenvorschläge werden gerne angenommen.
 #: client/options.c:2012
 msgid "Enable vote bar"
-msgstr ""
+msgstr "Abstimmbalken aktivieren"
 
 #: client/options.c:2013
 msgid ""
 "If this option is turned on, the vote bar will be displayed to show vote "
 "information."
 msgstr ""
+"Setzen Sie diese Option, um den Abstimmbalken zu aktivieren. Er zeigt "
+"Informationen zu momentan laufenden Abstimmungen an."
 
 #: client/options.c:2017
 msgid "Always display the vote bar"
-msgstr ""
+msgstr "Abstimmbalken dauerhaft anzeigen"
 
 #: client/options.c:2018
-#, fuzzy
 msgid ""
 "If this option is turned on, the vote bar will never be hidden, even if "
 "there is no running vote."
 msgstr ""
-"Hiermit werden Berichte als Kartenreiter dargestellt, und nicht als separate "
-"Fenster."
+"Wenn diese Option aktiv ist, wird der Abstimmbalken auch dann nicht "
+"versteckt, wenn gar keine Abstimmung im Gange ist."
 
 #: client/options.c:2022
 msgid "Do not show vote bar if not a player"
-msgstr ""
+msgstr "Abstimmbalken nur bei Spielern anzeigen"
 
 #: client/options.c:2023
-#, fuzzy
 msgid ""
 "If this option is enabled, the client won't show the vote bar if you are not "
 "a player."
-msgstr "Der ganze Bildschirm wird zur Darstellung verwendet."
+msgstr ""
+"Hiermit legen Sie fest, ob der Klient Ihnen den Abstimmungsbalken nur zeigen "
+"soll, wenn Sie ein Spieler sind."
 
 #: client/options.c:2026
 msgid "Set new votes at front"
-msgstr ""
+msgstr "Neue Abstimmungen vorn platzieren"
 
 #: client/options.c:2027
-#, fuzzy
 msgid ""
 "If this option is enabled, then new votes will go to the front of the vote "
 "list."
 msgstr ""
-"Mit dieser Option wird allen Chat-Nachrichten die Uhrzeit in der Form "
-"[Stunde:Minute:Sekunde] vorangestellt."
+"Mit dieser Option werden neue Abstimmungen an den Anfang der "
+"Abstimmungsliste gesetzt."
 
 #: client/options.c:2032
 msgid "Background layer"
