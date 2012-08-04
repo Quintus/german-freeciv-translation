@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-03 19:20+0200\n"
+"PO-Revision-Date: 2012-08-04 03:09+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -8951,7 +8951,7 @@ msgstr "Zwischenablage ist leer."
 #. TRANS: enum value for 'gui_gtk2/gtk3_message_chat_location'
 #: client/options.c:1662
 msgid "Split"
-msgstr "Aufspalten"
+msgstr "Geteilt"
 
 #. TRANS: enum value for 'gui_gtk2/gtk3_message_chat_location'
 #: client/options.c:1664
@@ -8961,7 +8961,7 @@ msgstr "Separat"
 #. TRANS: enum value for 'gui_gtk2/gtk3_message_chat_location'
 #: client/options.c:1666
 msgid "Merged"
-msgstr "Zusammen"
+msgstr "Kombiniert"
 
 #: client/options.c:1683
 msgid "Login name"
@@ -9732,19 +9732,19 @@ msgstr "In der Übersicht wird der Nebel des Krieges angezeigt."
 
 #: client/options.c:2068
 msgid "Image format"
-msgstr ""
+msgstr "Bildformat"
 
 #: client/options.c:2069
 msgid "The image toolkit and file format used for map images."
-msgstr ""
+msgstr "Das Graphik-Toolkit und -Dateiformat für Kartenbilder."
 
 #: client/options.c:2074
 msgid "Zoom factor for map images"
-msgstr ""
+msgstr "Zoom für Kartenbilder"
 
 #: client/options.c:2075
 msgid "The magnification used for map images."
-msgstr ""
+msgstr "Der für Kartenbilder genutzte Vergrößerungsfaktor."
 
 #: client/options.c:2078
 #, fuzzy
@@ -9777,13 +9777,13 @@ msgstr ""
 "Fenster."
 
 #: client/options.c:2092
-#, fuzzy
 msgid "Show fog of war"
-msgstr "Übersicht mit Nebel des Krieges"
+msgstr "Nebel des Krieges zeigen"
 
 #: client/options.c:2093
 msgid "If set, the extent of fog of war is shown on the saved image."
 msgstr ""
+"Wenn gesetzt, wird der Nebel des Krieges auf dem gespeicherten Bild gezeigt."
 
 #: client/options.c:2097
 #, fuzzy
@@ -9954,7 +9954,7 @@ msgstr ""
 
 #: client/options.c:2183 client/options.c:2385
 msgid "Messages and Chat reports location"
-msgstr ""
+msgstr "Position des Nachrichtenreports und des Chats"
 
 #. TRANS: The strings used in the UI for 'Split' etc are
 #. * tagged 'gui_gtk2/gtk3_message_chat_location'
@@ -9970,10 +9970,22 @@ msgid ""
 "other reports; this allows a larger map view on small screens.\n"
 "This option requires a restart in order to take effect."
 msgstr ""
+"Legt fest, wo der Nachrichtenreport und der Chat relativ von der "
+"Kartenansicht aus betrachtet erscheinen sollen.\n"
+"'Geteilt' erlaubt es, alle drei gleichzeitig zu sehen, was für "
+"Mehrspielerpartien am interessantesten ist, aber auch ein großes Fenster "
+"erfordert.\n"
+"'Separat' öffnet Nachrichten und Chat in einer von der Hauptansicht "
+"separierten Karteileiste, sodass zumindest eins von beidem neben der "
+"Hauptansicht sichtbar ist.\n"
+"'Kombiniert' macht aus Nachrichten und Chat einen Reiter neben der Karte und "
+"anderen Berichten; das erlaubt auf kleinen Bildschirmen einen größeren "
+"Kartenausschnitt zu sehen.\n"
+"Diese Option erfordert einen Neustart des Programms, um wirksam zu werden."
 
 #: client/options.c:2202 client/options.c:2404
 msgid "Arrange widgets for small displays"
-msgstr ""
+msgstr "Steuerelemente auf kleine Bildschirme optimieren"
 
 #: client/options.c:2203 client/options.c:2405
 msgid ""
@@ -9983,45 +9995,56 @@ msgid ""
 "box will be extended over the entire left side of the window. This option "
 "requires a restart in order to take effect."
 msgstr ""
+"Wird diese Option aktiviert, so werden die Steuerelemente des Hauptfensters "
+"so angeordnet, dass sie den kleinstmöglichen Platz einnehmen. Insbesondere "
+"wird das linke Panel mit der Übersichtskarte, dem Spielerstatus und den "
+"Einheiteninformationen auf die gesamte linke Seite des Fensters vergrößert. "
+"Diese Option erfordert einen Neustart des Programms, um wirksam zu werden."
 
 #: client/options.c:2212 client/options.c:2414
 msgid "Mouse over the map widget selects it automatically"
-msgstr ""
+msgstr "Maus über Karte aktiviert diese automatisch"
 
 #: client/options.c:2213 client/options.c:2415
-#, fuzzy
 msgid ""
 "If this option is enabled, then the map will be focused when the mouse "
 "hovers over it."
 msgstr ""
-"Hiermit werden Berichte als Kartenreiter dargestellt, und nicht als separate "
-"Fenster."
+"Wenn Sie diese Option aktivieren, wird die Karte automatisch fokussiert, "
+"sobald der Cursor über sie gehalten wird."
 
 #: client/options.c:2217 client/options.c:2419
 msgid "Player or user name autocompletion"
-msgstr ""
+msgstr "Autovervollständigung von Spieler- oder Nutzernamen"
 
 #: client/options.c:2218 client/options.c:2420
 msgid ""
 "If this option is turned on, the tabulation key will be used in the chatline "
 "to complete the word you are typing with the name of a player or a user."
 msgstr ""
+"Ist diese Option aktiv, so können Sie in der Eingabezeile des Chats mithilfe "
+"der Tabulatortaste ein angefangenes Wort zu einem Spieler- oder "
+"Benutzernamen vervollständigen."
 
 #: client/options.c:2223 client/options.c:2425
 msgid "Width of the city dialog"
-msgstr ""
+msgstr "Breite des Stadtdialogs"
 
 #: client/options.c:2224 client/options.c:2426
 msgid "This value is only used if the width of the city dialog is saved."
 msgstr ""
+"Dieser Wert wird nur benutzt, wenn die Breite des Stadtdialogs abgespeichert "
+"wird."
 
 #: client/options.c:2230 client/options.c:2432
 msgid "Height of the city dialog"
-msgstr ""
+msgstr "Höhe des Stadtdialogs"
 
 #: client/options.c:2231 client/options.c:2433
 msgid "This value is only used if the height of the city dialog is saved."
 msgstr ""
+"Dieser Wert wird nur benutzt, wenn die Höhe des Stadtdialogs abgespeichert "
+"wird."
 
 #: client/options.c:2237 client/options.c:2439
 msgid "City Label"
@@ -10135,38 +10158,32 @@ msgid ""
 msgstr "1 erlaubt den Raumschiffbau."
 
 #: client/options.c:2518
-#, fuzzy
 msgid "Fullscreen"
 msgstr "Vollbildmodus"
 
 #: client/options.c:2519
-#, fuzzy
 msgid ""
 "If this option is set the client will use the whole screen area for drawing."
 msgstr "Der ganze Bildschirm wird zur Darstellung verwendet."
 
 #: client/options.c:2522
-#, fuzzy
 msgid "Screen resolution"
-msgstr "Was soll hergestellt werden?"
+msgstr "Bildschirmauflösung"
 
 #: client/options.c:2523
-#, fuzzy
 msgid "This option controls the resolution of the selected screen."
-msgstr "Diese Option speichert die Höhe der gewählten Bildschirmauflösung."
+msgstr "Diese Option legt die Auflösung des ausgewählten Bildschirms fest."
 
 #: client/options.c:2526
-#, fuzzy
 msgid "Do cursor animation"
-msgstr "Zeige drehenden Cursor"
+msgstr "Zeige animierten Cursor"
 
 #: client/options.c:2527
-#, fuzzy
 msgid ""
 "If this option is disabled, the cursor will always be displayed as static."
 msgstr ""
-"Hiermit werden Berichte als Kartenreiter dargestellt, und nicht als separate "
-"Fenster."
+"Ist diese Option nicht aktiviert, so wird der Mauszeiger immer als "
+"statisches Bild angezeigt."
 
 #: client/options.c:2530
 msgid "Use color cursors"
@@ -10241,10 +10258,11 @@ msgstr "Cannot find your home directory"
 #, c-format
 msgid "Didn't find '%s' option file, loading from '%s' instead."
 msgstr ""
+"Konnte die Konfigurationsdatei '%s' nicht finden, lade stattdessen '%s'."
 
 #: client/options.c:5025
 msgid "Didn't find the option file."
-msgstr ""
+msgstr "Konnte die Konfigurationsdatei nicht finden."
 
 #: client/options.c:5041 client/options.c:5162
 #, c-format
@@ -10366,34 +10384,38 @@ msgstr "Es konnten keine %s aufgelöst werden."
 #: client/servers.c:131
 #, c-format
 msgid "Latest %s release of freeciv is %s, this is %s."
-msgstr ""
+msgstr "Letztes %s-Release von Freeciv ist %s, dies ist %s."
 
 #: client/servers.c:135
 #, c-format
 msgid "There is no newer %s release of freeciv available."
-msgstr ""
+msgstr "Es ist kein aktuelleres %s-Release von Freeciv verfügbar."
 
 # CK: TECHNICAL
 #: client/servers.c:369 utility/netfile.c:102
 msgid "Could not open temp file."
 msgstr "Could not open temp file."
 
+# MG: TECHNICAL
 #: client/servers.c:393
 #, c-format
 msgid "Failed to read the metaserver data from http://%s."
-msgstr ""
+msgstr "Failed to read the metaserver data from http://%s"
 
+# MG: TECHNICAL
 #: client/servers.c:416
 #, c-format
 msgid ""
 "Failed to parse the metaserver data from http://%s:\n"
 "%s."
 msgstr ""
+"Failed to parse the metaserver data from http://%s:\n"
+"%s"
 
 #: client/servers.c:449
 msgid "Invalid $http_proxy or metaserver value, must start with 'http://'"
 msgstr ""
-"Ungültiger Eintrag in $http_proxy oder metaserver: Muß mit 'http://' "
+"Ungültiger Eintrag in $http_proxy oder metaserver: Muss mit 'http://' "
 "beginnen."
 
 #: client/servers.c:465
@@ -10500,22 +10522,22 @@ msgstr "Stadt: %s | %s (%s, %s)"
 #, c-format
 msgid " | Occupied with %d unit."
 msgid_plural " | Occupied with %d units."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " | Von %d Einheit besetzt."
+msgstr[1] " | Von %d Einheiten besetzt."
 
 #: client/text.c:252 client/text.c:258
 msgid " | Not occupied."
-msgstr ""
+msgstr " | Nicht besetzt."
 
 #: client/text.c:256
 msgid " | Occupied."
-msgstr ""
+msgstr " | Besetzt."
 
 #. TRANS: %s is a list of "and"-separated improvements.
 #: client/text.c:274
-#, fuzzy, c-format
+#, c-format
 msgid "   with %s."
-msgstr "( mit "
+msgstr "   mit %s."
 
 #. TRANS: "Trade from Warsaw: 5"
 #: client/text.c:285
@@ -10571,12 +10593,12 @@ msgstr "A:%d V:%d FK:%d TP:%d/%d (%s)"
 #: client/text.c:385
 #, c-format
 msgid "Bribe cost: %d"
-msgstr ""
+msgstr "Bestechungsgeld: %d Gold"
 
 #: client/text.c:388
 #, c-format
 msgid "Estimated bribe cost: > %d"
-msgstr ""
+msgstr "Geschätzter Kostenaufwand einer Bestechung: > %d Gold"
 
 #. TRANS: "5 more" units on this tile
 #: client/text.c:395
@@ -10650,13 +10672,13 @@ msgstr[1] ", %d Punkte/Runde im Team"
 #: client/text.c:786
 #, c-format
 msgid "Bulbs produced per turn: %d"
-msgstr ""
+msgstr "Je Runde produzierte Forschungspunkte: %d"
 
 #. TRANS: keep leading space; appended to "Bulbs produced per turn: %d"
 #: client/text.c:788
 #, c-format
 msgid " (needed for technology upkeep: %d)"
-msgstr ""
+msgstr " (für Bewahrung von Technologie erforderlich: %d)"
 
 #: client/text.c:814
 #, c-format
@@ -10756,12 +10778,12 @@ msgstr "Erforsche %s: %s"
 #: client/text.c:981
 #, c-format
 msgid "Bulbs per turn: %d - %d = %d"
-msgstr ""
+msgstr "Forschungspunkte pro Runde: %d - %d = %d"
 
 #: client/text.c:985
 #, c-format
 msgid "Bulbs per turn: %d"
-msgstr ""
+msgstr "Forschungspunkte pro Runde: %d"
 
 #: client/text.c:994
 #, c-format
@@ -10769,9 +10791,8 @@ msgid "Global warming chance: %d%% (%+d%%/turn)"
 msgstr "Gefahr der Globalen Erwärmung: %d%% (%+d%%/Runde)"
 
 #: client/text.c:997 client/text.c:1363
-#, fuzzy
 msgid "Global warming deactivated."
-msgstr "Es ist zu globaler Erwärmung gekommen!"
+msgstr "Globale Erderwärmung ist deaktiviert."
 
 #: client/text.c:1003
 #, c-format
@@ -10779,9 +10800,8 @@ msgid "Nuclear winter chance: %d%% (%+d%%/turn)"
 msgstr "Gefahr des Nuklearen Winters: %d%% (%+d%%/Runde)"
 
 #: client/text.c:1006 client/text.c:1387
-#, fuzzy
 msgid "Nuclear winter deactivated."
-msgstr "Es ist zu einem nuklearen Winter gekommen!"
+msgstr "Nuklearer Winter ist deaktiviert."
 
 #: client/text.c:1034
 #, c-format
@@ -11139,24 +11159,31 @@ msgstr "Using default tileset instead."
 msgid "Client does not support overhead view tilesets."
 msgstr "Client does not support overhead view tilesets."
 
+# MG: TECHNICAL
 #: client/tilespec.c:4411
 #, c-format
 msgid ""
 "Tileset \"%s\" doesn't support long goto paths, such as %d. Path not "
 "displayed as expected."
 msgstr ""
+"Tileset \"%s\" doesn't support long goto paths, such as %d. Path not "
+"displayed as expected."
 
+# MG: TECHNICAL
 #: client/tilespec.c:4736
 #, c-format
 msgid ""
 "Tileset \"%s\" doesn't support big cities size, such as %d. Size not "
 "displayed as expected."
 msgstr ""
+"Tileset \"%s\" doesn't support big cities size, such as %d. Size not "
+"displayed as expected."
 
+# MG: TECHNICAL
 #: common/ai.c:302
 #, c-format
 msgid "Too many AI modules. Max is %d."
-msgstr ""
+msgstr "Too many AI modules: Max is %d."
 
 #: common/city.c:84 data/civ1/techs.ruleset:566 data/civ2/techs.ruleset:733
 #: data/default/techs.ruleset:737 data/experimental/techs.ruleset:816
@@ -11165,14 +11192,12 @@ msgid "Trade"
 msgstr "Handel"
 
 #: common/city.c:639
-#, fuzzy
 msgid "?wonder:W"
 msgstr "?wonder:+"
 
 #: common/city.c:641
-#, fuzzy
 msgid "?destroyed:D"
-msgstr "Zerstörer"
+msgstr "?destroyed:!"
 
 #: common/city.c:643
 msgid "?built:B"
@@ -11187,19 +11212,16 @@ msgid "?redundant:*"
 msgstr "?redundant:*"
 
 #: common/connection.c:195 server/sernet.c:393 server/sernet.c:748
-#, fuzzy
 msgid "network exception"
-msgstr "Auswahl umkehren"
+msgstr "Netzwerkfehler"
 
 #: common/connection.c:209 server/sernet.c:339
-#, fuzzy
 msgid "lagging connection"
-msgstr "<keine Verbindungen>"
+msgstr "Verbindung hängt"
 
 #: common/connection.c:271
-#, fuzzy
 msgid "buffer overflow"
-msgstr "?duration:überschritten"
+msgstr "Pufferüberlauf"
 
 #: common/connection.c:463
 #, c-format
@@ -11208,9 +11230,9 @@ msgstr "%s von %s"
 
 #. TRANS: Appending the reason why a connection has closed.
 #: common/connection.c:470
-#, fuzzy, c-format
+#, c-format
 msgid " (%s)"
-msgstr " (Konsole)"
+msgstr " (%s)"
 
 #: common/connection.c:472
 msgid " (connection incomplete)"
@@ -11228,78 +11250,78 @@ msgstr " (Beobachter)"
 #: common/connection.c:860
 #, c-format
 msgid "\"%s\" is not a valid pattern type"
-msgstr ""
+msgstr "\"%s\" ist kein gültiger Typ für ein Muster"
 
 #: common/connection.c:871
 msgid "Missing pattern type"
-msgstr ""
+msgstr "Fehlender Mustertyp"
 
 #: common/connection.c:884
 msgid "Missing pattern"
-msgstr ""
+msgstr "Fehlendes Muster"
 
 #. TRANS: This and following strings are prefixes for event names, which
 #. * replace %s. For instance, "Technology: Selected New Goal".
 #: common/events.c:52
-#, fuzzy, c-format
+#, c-format
 msgid "Technology: %s"
-msgstr "Forschung"
+msgstr "Forschung: %s"
 
 #: common/events.c:53
-#, fuzzy, c-format
+#, c-format
 msgid "Improvement: %s"
-msgstr "Stadterweiterungen"
+msgstr "Stadterweiterung: %s"
 
 #: common/events.c:54
-#, fuzzy, c-format
+#, c-format
 msgid "City: %s"
-msgstr "Stadt: %s (%s)"
+msgstr "Stadt: %s"
 
 #: common/events.c:55
-#, fuzzy, c-format
+#, c-format
 msgid "Diplomat Action: %s"
-msgstr "Aktionen von Diplomaten"
+msgstr "Diplomatische Aktion: %s"
 
 #: common/events.c:56
-#, fuzzy, c-format
+#, c-format
 msgid "Enemy Diplomat: %s"
-msgstr "Feindliche Diplomatie"
+msgstr "Feindlicher Diplomat: %s"
 
 #: common/events.c:57
-#, fuzzy, c-format
+#, c-format
 msgid "Global: %s"
-msgstr "Global"
+msgstr "Global: %s"
 
 #: common/events.c:58
-#, fuzzy, c-format
+#, c-format
 msgid "Hut: %s"
-msgstr "Server: %s"
+msgstr "Hütte: %s"
 
 #: common/events.c:59
-#, fuzzy, c-format
+#, c-format
 msgid "Nation: %s"
-msgstr "Nationen"
+msgstr "Nation: %s"
 
 #: common/events.c:60
-#, fuzzy, c-format
+#, c-format
 msgid "Treaty: %s"
-msgstr "Abkommen"
+msgstr "Abkommen: %s"
 
 #: common/events.c:61
-#, fuzzy, c-format
+#, c-format
 msgid "Unit: %s"
-msgstr "Einheiten"
+msgstr "Einheit: %s"
 
 #. TRANS: "Vote" as a process
 #: common/events.c:63
-#, fuzzy, c-format
+#, c-format
 msgid "Vote: %s"
-msgstr "Server: %s"
+msgstr "Abstimmung: %s"
 
 #: common/events.c:64
-#, fuzzy, c-format
+#, c-format
 msgid "Wonder: %s"
-msgstr "Weltwunder: "
+msgstr "Weltwunder: %s"
 
 #. TRANS: this and following strings are names for events which cause the
 #. * server to generate messages. They are used in configuring how the client
@@ -11567,7 +11589,7 @@ msgstr "Veteranenstatus erlangt"
 
 #: common/events.c:163
 msgid "Lost outside battle"
-msgstr ""
+msgstr "Außerhalb der Schlacht verloren"
 
 #: common/events.c:164
 msgid "Production Upgraded"
@@ -11583,22 +11605,22 @@ msgstr "Befehle / Gehe nach"
 
 #: common/events.c:167
 msgid "Built unit with population cost"
-msgstr ""
+msgstr "Einheit auf Kosten der Bevölkerung ausgebildet"
 
 #. TRANS: "vote" as a process
 #: common/events.c:169 server/stdinhand.c:4164
 msgid "New vote"
-msgstr ""
+msgstr "Neue Abstimmung"
 
 #. TRANS: "Vote" as a process
 #: common/events.c:171
 msgid "Vote resolved"
-msgstr ""
+msgstr "Abstimmung abgeschlossen"
 
 #. TRANS: "Vote" as a process
 #: common/events.c:173
 msgid "Vote canceled"
-msgstr ""
+msgstr "Abstimmung abgebrochen"
 
 #: common/events.c:174
 msgid "Finished"
@@ -11705,99 +11727,90 @@ msgid "Year Advance"
 msgstr "Neues Jahr"
 
 #: common/fc_cmdhelp.c:110
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Usage: %s [option ...]\n"
 "Valid option are:\n"
 msgstr ""
-"Syntax: %s [option ...]\n"
+"Syntax: %s [Option ...]\n"
 "Gültige Optionen sind:\n"
 
 #: common/fc_cmdhelp.c:127
 #, c-format
 msgid "Try \"%s -- --help\" for more."
-msgstr ""
+msgstr "Versuchen Sie \"%s -- --help\" für mehr."
 
 #: common/fc_cmdhelp.c:133
-#, fuzzy
 msgid "Pass any following options to the UI."
-msgstr ""
-"      --\t\tNachfolgende Optionen an das UI weitergeben\n"
-"\t\t\tFür mehr Hilfe: \"%s -- --help\"\n"
+msgstr "Nachfolgende Optionen an das UI weitergeben."
 
 #. TRANS: year label (Anno Domini)
 #: common/game.h:580 data/civ1/game.ruleset:166 data/civ2/game.ruleset:160
 msgid "AD"
-msgstr ""
+msgstr "n.Chr."
 
 #. TRANS: year label (Before Christ)
 #: common/game.h:582 data/civ1/game.ruleset:168 data/civ2/game.ruleset:162
 msgid "BC"
-msgstr ""
+msgstr "v.Chr."
 
 #: common/government.c:403
-#, fuzzy, c-format
+#, c-format
 msgid "Mr. %s"
-msgstr "selten"
+msgstr "Herr %s"
 
 #: common/government.c:405
-#, fuzzy, c-format
+#, c-format
 msgid "Ms. %s"
-msgstr "Mansa"
+msgstr "Frau %s"
 
 #: common/mapimg.c:298
 msgid "not checked"
-msgstr ""
+msgstr "Nicht gewählt"
 
 #: common/mapimg.c:302
-#, fuzzy
 msgid "error"
-msgstr "Lesefehler"
+msgstr "Fehler"
 
 #: common/mapimg.c:426
 msgid "Standard ppm files"
-msgstr ""
+msgstr "Gewöhnliche PPM-Dateien"
 
 #: common/mapimg.c:431
 msgid "ImageMagick"
-msgstr ""
+msgstr "ImageMagick"
 
 #: common/mapimg.c:467
-#, fuzzy
 msgid "internal error"
-msgstr "Spiel"
+msgstr "Interner Fehler"
 
 #: common/mapimg.c:581
-#, fuzzy
 msgid "no players, only terrain"
-msgstr "<keine Verbindungen>"
+msgstr "keine Spieler, nur Gelände"
 
 #: common/mapimg.c:582
-#, fuzzy
 msgid "one image per player"
-msgstr "Goldstücke bei Spielbeginn"
+msgstr "ein Bild pro Spieler"
 
 #: common/mapimg.c:583
-#, fuzzy
 msgid "one image per human player"
-msgstr "Goldstücke bei Spielbeginn"
+msgstr "ein Bild pro menschlichem Spieler"
 
 #: common/mapimg.c:584
-#, fuzzy
 msgid "all players on a single image"
-msgstr "Alle Spieler sind bereit, das Spiel wird gestartet."
+msgstr "alle Spieler auf einem einzigen Bild"
 
 #: common/mapimg.c:585
 msgid "just the player named with 'plrname'"
-msgstr ""
+msgstr "nur der Spieler mit Namen 'plrname'"
 
 #: common/mapimg.c:586
 msgid "just the player specified with 'plrid'"
-msgstr ""
+msgstr "nur der über 'plrid' angegebene Spieler"
 
 #: common/mapimg.c:587
 msgid "one image per player in 'plrbv'"
-msgstr ""
+msgstr "ein Bild pro Spieler in 'plrbv'"
 
 #. TRANS: This is help for a server command, so keywords like
 #. * "define" in the first column are server keywords that must not
@@ -11852,6 +11865,57 @@ msgid ""
 " 'zoom=3:map=cu:show=plrbv:plrbv=010011:format=jpg'\n"
 " 'zoom=1:map=t:show=none:format=magick|jpg'"
 msgstr ""
+"Dieser Befehl kontrolliert die Erstellung von Kartenbildern. Unterstützte "
+"Argumente:\n"
+"  define <mapdef>  - Definiert ein Kartenbild: Gibt die numerische <id> "
+"zurück\n"
+"  show <id>|all    - Kartenbilddefinitionen auflisten oder ein bestimmtes "
+"zeigen\n"
+"  create <id>|all  - Manuell Bild(er) für den momentanen Kartenstatus "
+"speichern\n"
+"  delete <id>|all  Kartenbilddefiniton(en) entfernen\n"
+"  colortest        - Testbild(er) mit allen Farben erzeugen\n"
+"\n"
+"Mehrere Definitionen können gleichzeitig aktiv sein. Eine <mapdef>-"
+"Definition besteht aus einer durch Doppelpunkte getrennten Liste von "
+"Optionen:\n"
+"\n"
+"Option                     (Standardwert)  Beschreibung\n"
+"format=<[werkzeug|]format> %-15s Dateiformat\n"
+"show<zeige>                %-15s Welche Spieler zu zeigen\n"
+"  plrname=<name>                           Spielername\n"
+"  plrid=<id>                               Numerische Spieler-ID\n"
+"  plrbv=<bitvektor>                        Siehe Beispiel; erstes Zeichen = "
+"id 0\n"
+"turns=<turn>               %-15s Alle <turns> Runden ein Bild speichern\n"
+"                                           (0=kein automatisches Speichern, "
+"benutze 'create')\n"
+"zoom=<zoom>                %-15s Vergrößerungsfaktor (1-5)\n"
+"map=<karte>                %-15s Welche Kartenebenen zu zeichnen\n"
+"\n"
+"<[werkzeug|]format> = Benutze Bildformat <format>, optional mit dem Toolkit "
+"<werkzeug>. Die folgenden Toolkits und Formate sind fest einkompiliert:\n"
+"%s\n"
+"\n"
+"<zeige> legt fest, welche Spieler angezeigt und wie viele Bilder bei dieser "
+"Definition gespeichert werden:\n"
+"%s\n"
+"\n"
+"<karte> kann eine oder mehrere der folgenden Ebenen sein:\n"
+" - 'a': Zeige Gebiet innerhalb der Grenzen der angegebenen Spieler\n"
+" - 'b': Zeige Grenzen der angegebenen Spieler\n"
+" - 'c': Zeige Städte der angegebenen Spieler\n"
+" - 'f': Zeige Nebel des Krieges (nur Einzelspieler-Bilder)\n"
+" - 'k': Zeige nur das Kartenwissen des Spielers (nur Einzelspieler-Bilder)\n"
+" - 't': Vollständige Anzeige von Geländetypen\n"
+" - 'u': Zeige Einheiten der angegebenen Spieler\n"
+"\n"
+"Beispiele für <mapdef>:\n"
+" 'zoom=1:map=tcub:show=all:format=ppm|ppm'\n"
+" 'zoom=2:map=tcub:show=each:format=png'\n"
+" 'zoom=1:map=tcub:show=plrname:plrname=Otto:format=gif'\n"
+" 'zoom=3:map=cu:show=plrbv:plrbv=010011:format=jpg'\n"
+" 'zoom=1:map=t:show=none:format=magick|jpg'"
 
 #: common/mapimg.c:763
 #, fuzzy
