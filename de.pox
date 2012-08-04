@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-04 21:19+0200\n"
+"PO-Revision-Date: 2012-08-04 21:51+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -16142,10 +16142,10 @@ msgid ""
 "increased by 50%.  Also, damaged land units which stay in town for one full "
 "turn without moving are completely restored."
 msgstr ""
-"Ermöglicht es, Landeinheiten mit Veteran-Status herzustellen.\n"
-"\n"
-"Beschädigte Landeinheiten, die eine Runde in der Stadt bleiben, werden "
-"vollständig instandgesetzt."
+"Mit Kasernen ist eine Stadt in der Lage, Landeinheiten mit Veteranenstatus "
+"herzustellen, d.h. Einheiten, deren Angriffs- und Verteidungswerte um 50% "
+"erhöht sind. Außerdem werden Landeinheiten, die bewegungslos eine ganze "
+"Runde in der Stadt verweilen, vollständig kuriert."
 
 #: data/civ2/buildings.ruleset:182 data/default/buildings.ruleset:208
 #: data/experimental/buildings.ruleset:213
@@ -16160,9 +16160,10 @@ msgid ""
 "the number of unhappy citizens made content."
 msgstr ""
 "Eine Kathedrale macht 3 Unzufriedene einer Stadt zufrieden und erleichtert "
-"es somit, die Ordnung aufrecht zu erhalten. Nach Entdeckung der Theologie "
-"macht sie einen zusätzlichen Unzufriedenen zufrieden; nach Entdeckung des "
-"Kommunismus macht sie einen Unzufriedenen weniger zufrieden."
+"es somit, die Ordnung aufrecht zu erhalten; durch militärische Aktivitäten "
+"unzufrieden gemachte Bürger betrifft dies jedoch nicht. Nach Entdeckung der "
+"Theologie macht sie einen zusätzlichen Unzufriedenen zufrieden; nach "
+"Entdeckung des Kommunismus macht sie einen Unzufriedenen weniger zufrieden."
 
 #: data/civ2/buildings.ruleset:208 data/default/buildings.ruleset:234
 #: data/experimental/buildings.ruleset:239
@@ -16199,17 +16200,17 @@ msgstr ""
 "gegenüber angreifenden Marineeinheiten."
 
 #: data/civ2/buildings.ruleset:252
-#, fuzzy
 msgid ""
 "Entertains the citizens of a city, making 3 unhappy citizens content.  (Four "
 "after the discovery of Electronics.)  However, it does not affect citizens "
 "made unhappy by military activity."
 msgstr ""
-"Unterhält die Bürger einer Stadt und macht 3 (nach Entdeckung der Elektronik "
-"4) Unzufriedene zufrieden."
+"Unterhält die Bürger einer Stadt und stellt 3 (nach Entdeckung der "
+"Elektronik 4) Unzufriedene zufrieden, sofern sie nicht aufgrund "
+"militärischer Aktivitäten unzufrieden sind."
 
 #: data/civ2/buildings.ruleset:274
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Reduces the corruption and waste in a city by 50%.  Under a Democracy, a "
 "Courthouse also makes 1 unhappy citizen content (unless that citizen is "
@@ -16229,7 +16230,6 @@ msgstr "Hafen"
 #: data/civ2/buildings.ruleset:344 data/default/buildings.ruleset:371
 #: data/experimental/buildings.ruleset:376
 #: data/multiplayer/buildings.ruleset:369
-#, fuzzy
 msgid ""
 "Gives one extra food resource on all Oceanic tiles.  The city needs to be "
 "coastal to build this improvement."
@@ -16243,6 +16243,9 @@ msgid ""
 "Plant.  A city can only build a Hydro Plant if it is next to (or on) a "
 "Mountain or River tile."
 msgstr ""
+"Eine Stadt kann nur ein Kohle-, Wasser-, Kern- oder Solarkraftwerk besitzen. "
+"Ein Wasserkraftwerk kann nur errichtet werden, wenn die Stadt sich in der "
+"Nähe von (oder auf) einem Fluss- oder Bergfeld befindet."
 
 #: data/civ2/buildings.ruleset:458 data/default/buildings.ruleset:490
 #: data/experimental/buildings.ruleset:542
@@ -16262,6 +16265,7 @@ msgid ""
 "A city can only have one Power Plant, Hydro Plant, Nuclear Plant, or Solar "
 "Plant."
 msgstr ""
+"Eine Stadt kann nur ein Kohle-, Wasser-, Kern- oder Solarkraftwerk besitzen."
 
 #: data/civ2/buildings.ruleset:497 data/default/buildings.ruleset:534
 #: data/experimental/buildings.ruleset:586
@@ -16272,7 +16276,6 @@ msgstr "Bohrinsel"
 #: data/civ2/buildings.ruleset:512 data/default/buildings.ruleset:549
 #: data/experimental/buildings.ruleset:601
 #: data/multiplayer/buildings.ruleset:539
-#, fuzzy
 msgid ""
 "Adds 1 extra shield resource on all Oceanic tiles worked by a city.  The "
 "city needs to be coastal to build this improvement."
@@ -16288,16 +16291,17 @@ msgstr "Polizeiwache"
 
 #: data/civ2/buildings.ruleset:561 data/default/buildings.ruleset:603
 #: data/experimental/buildings.ruleset:655
-#, fuzzy
 msgid ""
 "Reduces the unhappiness caused by aggressively deployed military units owned "
 "by the city by 2 under Democracy and 1 under Republic -- in other words, it "
 "neutralizes the unhappiness caused by a single military unit. This "
 "improvement has no effect under other governments."
 msgstr ""
-"Stellt in einer 'Demokratie' 2 und in einer 'Republik' 1 über militärische "
-"Aktionen Unzufriedenen zufrieden. Unter anderen Regierungsformen hat eine "
-"Polizeiwache keine Auswirkungen."
+"Stellt in einer Demokratie zwei und in einer Republik einen über "
+"militärische Aktionen Unzufriedenen zufrieden — im Klartext: Die "
+"Polizeiwache neutralisiert die durch eine einzelne militärische Einheit "
+"verursachte Unzufriedenheit. Unter anderen Regierungsformen hat diese "
+"Stadtverbesserung keine Auswirkungen."
 
 #: data/civ2/buildings.ruleset:569 data/default/buildings.ruleset:614
 #: data/experimental/buildings.ruleset:666
@@ -16344,13 +16348,13 @@ msgstr "SAM Batterie"
 #: data/civ2/buildings.ruleset:678 data/default/buildings.ruleset:728
 #: data/experimental/buildings.ruleset:780
 #: data/multiplayer/buildings.ruleset:712
-#, fuzzy
 msgid ""
 "Doubles the defense of all units inside the city when attacked by aircraft "
 "(not including helicopters or missiles)."
 msgstr ""
 "Verdoppelt die Verteidigungsstärke aller in der Stadt stationierten "
-"Einheiten gegenüber allen nicht-nuklearen Luftwaffeneinheiten."
+"Einheiten gegenüber allen Luftwaffeneinheiten abgesehen von Raketen und "
+"Helikoptern."
 
 #: data/civ2/buildings.ruleset:698 data/default/buildings.ruleset:748
 #: data/experimental/buildings.ruleset:800
@@ -16362,6 +16366,12 @@ msgid ""
 "simply has no effect. Also, doubles defense for units in the city against "
 "non-nuclear missiles."
 msgstr ""
+"Schützt eine Stadt und ihre Umgebung (bis zu zwei Felder weit) vor Angriffen "
+"durch Nuklearwaffen. Wenn eine nukleare Einheit eine Stadt mit einer SDI-"
+"Anlage oder eine Einheit in der Reichweite der Anlage angreift (oder "
+"versehentlich explodiert), wird sie abgeschossen und hat schlicht keinen "
+"Effekt. Verdoppelt zudem die Verteidungswerte von Einheiten in der Stadt "
+"gegenüber nichtnuklearen Raketen."
 
 #: data/civ2/buildings.ruleset:709 data/default/buildings.ruleset:759
 #: data/experimental/buildings.ruleset:811
@@ -16384,7 +16394,7 @@ msgid "Solar Plant"
 msgstr "Solarkraftwerk"
 
 #: data/civ2/buildings.ruleset:746
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Eliminates all pollution generated by production in a city. It also "
 "increases the shield production of a Factory or Mfg. Plant in the city: a "
@@ -16395,10 +16405,7 @@ msgstr ""
 "Umweltverschmutzung und steigert die Produktion von Fabriken und "
 "Fertigungsstätten der Stadt. In Verbindung mit einer Fabrik oder einer "
 "Fertigungsstätte gibt es einen Bonus von 100%, sind beide vorhanden, erhöht "
-"sich der Bonus auf 150%.\n"
-"\n"
-"Eine Stadt kann nur ein Solarkraftwerk, Wasserkraftwerk, Kohlekraftwerk oder "
-"Atomkraftwerk bauen."
+"sich der Bonus auf 150%."
 
 #: data/civ2/buildings.ruleset:839 data/default/buildings.ruleset:898
 #: data/experimental/buildings.ruleset:950
@@ -16409,14 +16416,15 @@ msgstr "Börse"
 #: data/civ2/buildings.ruleset:855 data/default/buildings.ruleset:914
 #: data/experimental/buildings.ruleset:966
 #: data/multiplayer/buildings.ruleset:896
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Together with a Bank, a Stock Exchange boosts tax and luxury production in a "
 "city by 50%. Together with a Marketplace and a Bank, a Stock Exchange boosts "
 "tax and luxury production in a city by 150%."
 msgstr ""
-"Zusammen mit einem Marktplatz und einer Bank erhöht eine Börse die "
-"Luxusproduktion und Steuereinnahmen einer Stadt um 150%."
+"Zusammen mit einer Bank erhäht eine Börse die Steuereinnahmen und die "
+"Luxusproduktion einer Stadt um 50%. Zusammen mit einem Marktplatz und einer "
+"Bank erhöhen sich diese Werte sogar um 150%."
 
 #: data/civ2/buildings.ruleset:863 data/default/buildings.ruleset:922
 #: data/experimental/buildings.ruleset:974
