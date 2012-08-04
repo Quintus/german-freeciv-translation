@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-04 17:47+0200\n"
+"PO-Revision-Date: 2012-08-04 21:19+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -13423,7 +13423,9 @@ msgstr "U"
 msgid ""
 "Each entertainer produces two luxury points for their city per turn. See the "
 "section on Happiness for the effects of luxury points."
-msgstr "Jeder Entertainer produziert pro Runde zwei Luxuspunkte für seine Stadt. Siehe den Abschnitt über Zufriedenheit für den Effekt von Luxuspunkten."
+msgstr ""
+"Jeder Entertainer produziert pro Runde zwei Luxuspunkte für seine Stadt. "
+"Siehe den Abschnitt über Zufriedenheit für den Effekt von Luxuspunkten."
 
 # "W" = "Wissenschaftler"
 #: data/civ1/cities.ruleset:57 data/civ2/cities.ruleset:57
@@ -13435,7 +13437,8 @@ msgstr "W"
 #: data/civ1/cities.ruleset:62 data/civ2/cities.ruleset:62
 msgid ""
 "Each scientist adds two points to your empire's research output per turn."
-msgstr "Jeder Wissenschaftler führt pro Runde Ihrem Staat zwei Forschungspunkte zu."
+msgstr ""
+"Jeder Wissenschaftler führt pro Runde Ihrem Staat zwei Forschungspunkte zu."
 
 # MG: "S" = "Steuereintreiber
 #: data/civ1/cities.ruleset:70 data/civ2/cities.ruleset:70
@@ -13446,7 +13449,9 @@ msgstr "S"
 
 #: data/civ1/cities.ruleset:75 data/civ2/cities.ruleset:75
 msgid "Each tax collector produces two extra gold for your treasury per turn."
-msgstr "Jeder Steuereintreiber produziert pro Runde zwei extra Goldstücke für Ihre Schatzkammer."
+msgstr ""
+"Jeder Steuereintreiber produziert pro Runde zwei extra Goldstücke für Ihre "
+"Schatzkammer."
 
 #: data/civ1/cities.ruleset:114 data/civ2/cities.ruleset:114
 #: data/default/cities.ruleset:115 data/experimental/cities.ruleset:117
@@ -13520,10 +13525,13 @@ msgid ""
 " * Units have no hitpoints. If they win a battle, they remain in full "
 "health.\n"
 msgstr ""
-"Sie spielen mit Civ1-artigen Regeln. Diese Regeln sind sehr viel einfacher als Freecivs Standardregelwerk, und wenn Sie nur die Standardregeln kennen, sollten Sie sich etwas Zeit nehmen, die Unterschiede kennenzulernen.\n"
+"Sie spielen mit Civ1-artigen Regeln. Diese Regeln sind sehr viel einfacher "
+"als Freecivs Standardregelwerk, und wenn Sie nur die Standardregeln kennen, "
+"sollten Sie sich etwas Zeit nehmen, die Unterschiede kennenzulernen.\n"
 "\n"
 "* Es gibt weniger Technologien, Gebäude und Einheiten.\n"
-"* Einheiten haben keine Lebenspunkte. Wenn sie eine Schlacht gewinnen, bleiben sie bei voller Gesundheit\n"
+"* Einheiten haben keine Lebenspunkte. Wenn sie eine Schlacht gewinnen, "
+"bleiben sie bei voller Gesundheit\n"
 
 #: data/civ1/game.ruleset:220 data/civ2/game.ruleset:214
 #: data/default/game.ruleset:254 data/experimental/game.ruleset:260
@@ -13576,7 +13584,10 @@ msgid ""
 "Anarchy is simply the absence of any recognizable government. Citizens are "
 "disorganized and unproductive, and will spend all income as quickly as "
 "possible, rather than paying taxes or conducting research."
-msgstr "Anarchie ist einfach die Abwesenheit jeder erkennbarer Regierung. Die Bürger sind unorganisiert, unproduktiv und geben alles Einkommen so schnell wie möglich aus, anstatt Steuern zu zahlen und Forschung zu betreiben."
+msgstr ""
+"Anarchie ist einfach die Abwesenheit jeder erkennbarer Regierung. Die Bürger "
+"sind unorganisiert, unproduktiv und geben alles Einkommen so schnell wie "
+"möglich aus, anstatt Steuern zu zahlen und Forschung zu betreiben."
 
 #: data/civ1/governments.ruleset:71 data/default/governments.ruleset:72
 #: data/experimental/governments.ruleset:74
@@ -13584,7 +13595,9 @@ msgstr "Anarchie ist einfach die Abwesenheit jeder erkennbarer Regierung. Die B�
 msgid ""
 "Anarchy offers slightly less corruption than Despotism, but slightly more "
 "unhappiness."
-msgstr "In einem anarchischen Staat gibt es zwar weniger Korruption, aber dafür etwas mehr Unzufriedenheit als in einer Dikatur."
+msgstr ""
+"In einem anarchischen Staat gibt es zwar weniger Korruption, aber dafür "
+"etwas mehr Unzufriedenheit als in einer Dikatur."
 
 #: data/civ1/governments.ruleset:79 data/civ2/governments.ruleset:77
 #: data/default/governments.ruleset:80
@@ -13609,7 +13622,7 @@ msgstr "Diktator %s"
 #: data/multiplayer/governments.ruleset:87
 #, c-format
 msgid "?female:Chief %s"
-msgstr "Diktatorin"
+msgstr "Diktatorin %s"
 
 #: data/civ1/governments.ruleset:88 data/civ2/governments.ruleset:86
 #: data/default/governments.ruleset:89
@@ -13618,14 +13631,18 @@ msgstr "Diktatorin"
 msgid ""
 "Under Despotism, you are the absolute ruler of your people.  Your control "
 "over your citizens is maintained largely by martial law."
-msgstr "In der Diktatur sind Sie der unbeschränkte Herrscher Ihres Volkes. Sie kontrollieren Ihre Bürger hauptsächlich durch den gewohnheitsmäßigen Gebrauch des Kriegsrechts."
+msgstr ""
+"In der Diktatur sind Sie der unbeschränkte Herrscher Ihres Volkes. Sie "
+"kontrollieren Ihre Bürger hauptsächlich durch den gewohnheitsmäßigen "
+"Gebrauch des Kriegsrechts."
 
 #: data/civ1/governments.ruleset:91 data/default/governments.ruleset:92
 #: data/experimental/governments.ruleset:96
 #: data/multiplayer/governments.ruleset:92
 msgid ""
 "Despotism suffers the highest level of corruption of all forms of government."
-msgstr "Eine Diktatur leidet unter der höchsten Korruption aller Regierungsformen."
+msgstr ""
+"Eine Diktatur leidet unter der höchsten Korruption aller Regierungsformen."
 
 #: data/civ1/governments.ruleset:99 data/civ1/techs.ruleset:380
 #: data/civ2/governments.ruleset:97 data/civ2/techs.ruleset:478
@@ -13659,14 +13676,17 @@ msgstr "Königin %s"
 msgid ""
 "Under Monarchy, a king or queen serves as a hereditary figurehead for your "
 "government."
-msgstr "In einer Monarchie dient ein König oder eine Königin mit erblichem Titel und Amt als Aushängeschild Ihrer Regierung."
+msgstr ""
+"In einer Monarchie dient ein König oder eine Königin mit erblichem Titel und "
+"Amt als Aushängeschild Ihrer Regierung."
 
 #: data/civ1/governments.ruleset:113 data/default/governments.ruleset:114
 #: data/experimental/governments.ruleset:118
 #: data/multiplayer/governments.ruleset:114
 msgid ""
 "Monarchy suffers the same small amount of corruption that the Republic does."
-msgstr "Monarchische Staaten leiden genau wie repuplikanische kaum unter Korruption."
+msgstr ""
+"Monarchische Staaten leiden genau wie repuplikanische kaum unter Korruption."
 
 #: data/civ1/governments.ruleset:121 data/civ1/techs.ruleset:154
 #: data/civ2/governments.ruleset:119 data/civ2/techs.ruleset:170
@@ -13702,7 +13722,12 @@ msgid ""
 "A Communist government is based on the ideal that all people are equal.  All "
 "goods are owned by the state, rather than by private citizens.  Communism "
 "gives a balance between military and commercial styles of government."
-msgstr "Eine kommunistische Regierung stützt sich auf die Idealvorstellung, dass alle Menschen gleich seien (außer einigen wenigen, die eben immer etwas gleicher sind als andere). Alle Güter gehören nicht etwa Privatpersonen, sondern dem Staat, was ein Gleichgewicht zwischen militärisch und wirtschaftlich orientierter Staatsführung ermöglicht."
+msgstr ""
+"Eine kommunistische Regierung stützt sich auf die Idealvorstellung, dass "
+"alle Menschen gleich seien (außer einigen wenigen, die eben immer etwas "
+"gleicher sind als andere). Alle Güter gehören nicht etwa Privatpersonen, "
+"sondern dem Staat, was ein Gleichgewicht zwischen militärisch und "
+"wirtschaftlich orientierter Staatsführung ermöglicht."
 
 #: data/civ1/governments.ruleset:136 data/default/governments.ruleset:137
 #: data/experimental/governments.ruleset:141
@@ -13710,7 +13735,10 @@ msgstr "Eine kommunistische Regierung stützt sich auf die Idealvorstellung, das
 msgid ""
 "Under Communism, corruption does not vary by distance from the capital; all "
 "cities (including the capital) have a modest amount of corruption."
-msgstr "In komunistischen Staaten ist die Korruption nicht von der Entfernung zur Hauptstadt abhängig, vielmehr leiden alle Städte (einschließlich der Hauptstadt) unter derselben, mäßig ausgeprägten Korruptionsrate."
+msgstr ""
+"In komunistischen Staaten ist die Korruption nicht von der Entfernung zur "
+"Hauptstadt abhängig, vielmehr leiden alle Städte (einschließlich der "
+"Hauptstadt) unter derselben, mäßig ausgeprägten Korruptionsrate."
 
 #: data/civ1/governments.ruleset:145 data/civ2/governments.ruleset:171
 #: data/default/governments.ruleset:146
@@ -13753,7 +13781,12 @@ msgid ""
 "popular to remain in control, citizens are given a greater degree of "
 "freedom.  Citizens under the Republic become unhappy easily, but the self-"
 "sufficiency of your citizens allows high levels of trade."
-msgstr "In der Republik halten die Bürger Wahlen ab, um einen Repräsentanten zu bestimmen, der sie regieren wird. Da gewählte Führer beliebt bleiben müssen, um die Kontrolle zu behalten, gewähren sie den Bürgern ein größeres Maß an Freiheit. Bürger werden in der Republik leicht unzufrieden, aber ihre Selbstgenügsamkeit erlaubt es, lukrativen Handel zu betreiben."
+msgstr ""
+"In der Republik halten die Bürger Wahlen ab, um einen Repräsentanten zu "
+"bestimmen, der sie regieren wird. Da gewählte Führer beliebt bleiben müssen, "
+"um die Kontrolle zu behalten, gewähren sie den Bürgern ein größeres Maß an "
+"Freiheit. Bürger werden in der Republik leicht unzufrieden, aber ihre "
+"Selbstgenügsamkeit erlaubt es, lukrativen Handel zu betreiben."
 
 #: data/civ1/governments.ruleset:167 data/civ1/techs.ruleset:195
 #: data/civ2/governments.ruleset:193 data/civ2/techs.ruleset:212
@@ -13788,7 +13821,11 @@ msgid ""
 "offers the highest possible level of trade, but also offers the most "
 "potential for unhappiness.  There is no corruption during Democracy, but "
 "citizens become very upset during wars."
-msgstr "In der Demokratie regieren die Bürger direkt durch Abstimmungen und Wahlen. Demokratie erlaubt den größtmöglichen Handel, birgt aber auch das größte Potential für Unzufriedenheit. Es gibt keine Korruption, aber Bürger werden durch Kriege sehr unruhig."
+msgstr ""
+"In der Demokratie regieren die Bürger direkt durch Abstimmungen und Wahlen. "
+"Demokratie erlaubt den größtmöglichen Handel, birgt aber auch das größte "
+"Potential für Unzufriedenheit. Es gibt keine Korruption, aber Bürger werden "
+"durch Kriege sehr unruhig."
 
 #: data/civ1/governments.ruleset:182 data/civ2/governments.ruleset:209
 msgid ""
@@ -13796,7 +13833,10 @@ msgid ""
 "their loyalty is unswerving.  Military units of Democratic civilizations "
 "cannot be bribed, and Democratic cities cannot be incited to revolt by enemy "
 "Diplomats and Spies."
-msgstr "Weil (zufriedene) Bürger fest an ihre Regierung glauben, ist ihre Loyalität unerschütterlich. Truppen können nicht bestochen werden, und feindliche Diplomaten und Spione können in den Städten keine Revolte entfachen."
+msgstr ""
+"Weil (zufriedene) Bürger fest an ihre Regierung glauben, ist ihre Loyalität "
+"unerschütterlich. Truppen können nicht bestochen werden, und feindliche "
+"Diplomaten und Spione können in den Städten keine Revolte entfachen."
 
 #: data/civ1/nations.ruleset:27 data/civ2/nations.ruleset:29
 #: data/default/nations.ruleset:25
@@ -13822,7 +13862,9 @@ msgstr "?plural:Amerikaner"
 msgid ""
 "Formally named the United States of America.  Independent from Great Britain "
 "after a revolution in 1776-1783 AD."
-msgstr "Formell die Vereinigten Staaten von Amerika. Errangen durch eine Revolution in den Jahren 1776 bis 1783 n.Chr. ihre Unabhängigkeit von Großbritannien."
+msgstr ""
+"Formell die Vereinigten Staaten von Amerika. Errangen durch eine Revolution "
+"in den Jahren 1776 bis 1783 n.Chr. ihre Unabhängigkeit von Großbritannien."
 
 #: data/civ1/nations.ruleset:48 data/civ1/nations.ruleset:160
 #: data/civ2/nations.ruleset:51 data/civ2/nations.ruleset:165
@@ -13866,7 +13908,11 @@ msgid ""
 "control of the Toltec-derived civilizations of Central Mexico during the "
 "15th century, reviving the practice of human sacrifice. They were conquered "
 "by the Spanish under Cortes in 1521."
-msgstr "Die Azteken, ein Nahuatl sprechendes Volk aus der Wüste Sonora, errangen im 15. Jahrhundert die Herrschaft über die Nachfahren der Tolteken in Zentralmexiko und führten die Menschenopfer wieder ein. 1524 wurden sie von den Spaniern unter Cortéz besiegt."
+msgstr ""
+"Die Azteken, ein Nahuatl sprechendes Volk aus der Wüste Sonora, errangen im "
+"15. Jahrhundert die Herrschaft über die Nachfahren der Tolteken in "
+"Zentralmexiko und führten die Menschenopfer wieder ein. 1524 wurden sie von "
+"den Spaniern unter Cortéz besiegt."
 
 #: data/civ1/nations.ruleset:240 data/civ2/nations.ruleset:245
 #: data/nation/babylonian.ruleset:3
@@ -14861,6 +14907,8 @@ msgstr "Flug"
 #: data/experimental/techs.ruleset:331 data/experimental/techs.ruleset:650
 msgid "Decreases one-time revenue from new trade routes."
 msgstr ""
+"Reduziert den Einmalbetrag, der bei der Einrichtung neuer Handelsrouten "
+"erzielt wird."
 
 #: data/civ1/techs.ruleset:252 data/civ2/techs.ruleset:302
 #: data/default/techs.ruleset:305 data/experimental/techs.ruleset:334
@@ -15101,22 +15149,18 @@ msgid "Ocean"
 msgstr "Ozean"
 
 #: data/civ1/terrain.ruleset:215 data/civ2/terrain.ruleset:223
-#, fuzzy
 msgid ""
 "Oceans cover much of the world, and only sea units (Triremes and other "
 "boats) can travel on them."
 msgstr ""
 "Ozeanfelder machen einen großen Teil der Welt aus. Sie können nur von "
-"Marineeinheiten (Triremen und anderen Schiffen) befahren werden.\n"
-"\n"
-"In Freeciv gibt es hier weder Umweltverschmutzung noch Fallout."
+"Marineeinheiten (Triremen und anderen Schiffen) bereist werden."
 
 #: data/civ1/terrain.ruleset:221
 msgid "Arctic"
 msgstr "Arktis"
 
 #: data/civ1/terrain.ruleset:251
-#, fuzzy
 msgid ""
 "Arctic tiles are found only in the most northerly or southerly reaches of "
 "the world.  They are very cold, and hence difficult to work with."
@@ -15318,33 +15362,29 @@ msgstr "unerfahren"
 #: data/civ1/units.ruleset:92 data/civ2/units.ruleset:105
 #: data/default/units.ruleset:110 data/experimental/units.ruleset:113
 #: data/multiplayer/units.ruleset:110
-#, fuzzy
 msgid "?unitclass:Land"
-msgstr "Anführer"
+msgstr "Land-"
 
 #. TRANS: Unit class: used adjectivally
 #: data/civ1/units.ruleset:101 data/civ2/units.ruleset:114
 #: data/default/units.ruleset:119 data/experimental/units.ruleset:133
 #: data/multiplayer/units.ruleset:119
-#, fuzzy
 msgid "?unitclass:Sea"
-msgstr "Anführer"
+msgstr "See-"
 
 #. TRANS: Unit class: used adjectivally
 #: data/civ1/units.ruleset:108 data/civ2/units.ruleset:128
 #: data/default/units.ruleset:140 data/experimental/units.ruleset:154
 #: data/multiplayer/units.ruleset:140
-#, fuzzy
 msgid "?unitclass:Air"
-msgstr "Anführer"
+msgstr "Luft-"
 
 #. TRANS: Unit class: used adjectivally
 #: data/civ1/units.ruleset:116 data/civ2/units.ruleset:97
 #: data/default/units.ruleset:102 data/experimental/units.ruleset:105
 #: data/multiplayer/units.ruleset:102
-#, fuzzy
 msgid "?unitclass:Missile"
-msgstr "Anführer"
+msgstr "Raketen-"
 
 #: data/civ1/units.ruleset:201 data/civ2/units.ruleset:204
 #: data/default/units.ruleset:319 data/experimental/units.ruleset:333
@@ -15361,6 +15401,10 @@ msgid ""
 "mines, and roads. See the Terrain Alterations section of the help for more "
 "details."
 msgstr ""
+"Siedler sind eine der Schlüsseleinheiten im Spiel. Sie können nicht nur "
+"Städte gründen, sondern auch Feldverbesserungen vornehmen, indem sie etwa "
+"Bewässerungen, Minen oder Straßen anlegen. Siehe den Abschnitt über "
+"Geländeveränderungen für mehr Informationen."
 
 #: data/civ1/units.ruleset:232 data/default/units.ruleset:350
 #: data/experimental/units.ruleset:364
@@ -15369,6 +15413,10 @@ msgid ""
 "if its supporting city runs out of food. Settlers in a Republic or Democracy "
 "require twice as much food per turn."
 msgstr ""
+"Erhaltungskosten für Siedler setzen sich sowohl aus Nahrung wie auch aus "
+"Produktion zusammen, und wenn die den Siedler unterstützende Stadt keine "
+"Nahrung mehr liefert, kann dieser verhungern. Siedler in einer Republik oder "
+"Demokratie benötigen die doppelte Menge an Nahrung pro Runde."
 
 #: data/civ1/units.ruleset:239
 msgid "Militia"
@@ -15478,7 +15526,6 @@ msgid "Chariot"
 msgstr "Streitwagen"
 
 #: data/civ1/units.ruleset:492
-#, fuzzy
 msgid ""
 "Chariots are horse-pulled war wagons, stronger but more expensive than "
 "Cavalry."
@@ -15708,9 +15755,8 @@ msgstr "Flugzeugträger"
 #: data/civ1/units.ruleset:986 data/civ2/units.ruleset:1632
 #: data/default/units.ruleset:1680 data/experimental/units.ruleset:1717
 #: data/multiplayer/units.ruleset:1779
-#, fuzzy
 msgid "The Carrier is a mobile airport."
-msgstr "Der Kreuzer ist ein sehr starkes Angriffsschiff."
+msgstr "Beim Flugzeugträger handelt es sich um einen mobilen Flughafen."
 
 #: data/civ1/units.ruleset:988 data/civ2/units.ruleset:1634
 #: data/default/units.ruleset:1682 data/experimental/units.ruleset:1719
@@ -15742,7 +15788,7 @@ msgstr ""
 #: data/default/units.ruleset:1757 data/experimental/units.ruleset:1794
 #: data/multiplayer/units.ruleset:1856
 msgid "Nuclear"
-msgstr "Atomrakete"
+msgstr "Nuklearrakete"
 
 #: data/civ1/units.ruleset:1054 data/civ2/units.ruleset:1735
 #: data/default/units.ruleset:1783 data/experimental/units.ruleset:1820
@@ -15751,6 +15797,9 @@ msgid ""
 "You can build Nuclear units when you have the required advance, and the "
 "Manhattan Project wonder has been built by any player."
 msgstr ""
+"Sie können Nuklearraketen bauen, wenn Sie die erforderliche Technologie "
+"erforscht haben und einer der Spieler das Manhattan-Projekt abgeschlossen "
+"hat."
 
 #: data/civ1/units.ruleset:1057 data/civ2/units.ruleset:1738
 #: data/default/units.ruleset:1786 data/experimental/units.ruleset:1823
@@ -15761,6 +15810,11 @@ msgid ""
 "the blast area loses half its population, and land tiles within the blast "
 "area are subject to nuclear fallout."
 msgstr ""
+"Beim Einschlag wird die nukleare Explosion alle freundlichen wie feindlichen "
+"Einheiten im Umkreis von 3 Feldern (3x3 Quadraten für quadratische Raster) "
+"vollständig vernichten und jede Stadt innerhalb des Detonationsradius’ "
+"verliert die Hälfte ihrer Bevölkerung. Alle betroffenen Landfelder sind nach "
+"dem Angriff nuklear kontaminiert (Fallout)."
 
 #: data/civ1/units.ruleset:1062
 msgid ""
@@ -15768,6 +15822,11 @@ msgid ""
 "increases with fallout. If nuclear winter occurs, terrain across the globe "
 "changes into desert, tundra, and ice. Settlers can clean up nuclear fallout."
 msgstr ""
+"Ähnlich dem Zusammenhang zwischen Umweltverschmutzung und der globalen "
+"Erderwärmung steigt das Risiko eines globalen nuklearen Winters mit jedem "
+"Fallout. Kommt es zu dieser Katastrophe, verwandeln sich Geländefelder rund "
+"um den Globus in Sand- und Eiswüsten sowie Tundra. Siedler können nuklearen "
+"Fallout jedoch beseitigen."
 
 #: data/civ1/units.ruleset:1067 data/civ2/units.ruleset:1748
 #: data/default/units.ruleset:1796 data/experimental/units.ruleset:1833
@@ -15776,6 +15835,9 @@ msgid ""
 "TIP 1:  Nuking the ocean will not generate fallout, and is a most effective "
 "(but expensive!!) way of getting rid of enemy ships."
 msgstr ""
+"TIPP 1: Das Zünden einer Nuklearrakete im Ozean hat keinen Fallout zur Folge "
+"und ist einer der effektivsten (und teuersten!) Wege, feindliche Schiffe "
+"loszuwerden."
 
 #: data/civ1/units.ruleset:1071
 msgid ""
@@ -15785,6 +15847,13 @@ msgid ""
 "ready to fix the fallout on the same turn it occurs!  This minimizes the "
 "chance of nuclear winter.  Eco-friendly nukes!"
 msgstr ""
+"TIPP 2: Wenn Sie sich in einer Situation befinden, in der Sie ein "
+"feindliches Land überrannt haben, die gegnerischen Städte jedoch zu stark "
+"sind, sollten Sie vor dem Einsatz einer Nuklearrakete eine Gruppe von "
+"Siedlern in der Nähe der betroffenen Stadt bereit halten. Nach dem Einschlag "
+"können Sie so den Fallout noch in derselben Runde beseitigen, in der er "
+"auftritt, sodass die Wahrscheinlichkeit eines nuklearen Winters minimiert "
+"wird. Umweltfreundliche Atomwaffen!"
 
 #: data/civ1/units.ruleset:1081 data/civ2/units.ruleset:1762
 #: data/default/units.ruleset:1810 data/experimental/units.ruleset:1847
@@ -15801,6 +15870,11 @@ msgid ""
 "operations with the intent of harming your opponents; Diplomats in your own "
 "cities defend them against such actions."
 msgstr ""
+"Ein Diplomat ist eine offizielle Person, die Ihre Wünsche und Forderungen "
+"überbringt und zum Verhandeln mit ausländischen Würdenträgern autorisiert "
+"ist. Er kann außerdem diverse verdeckte Aktionen durchführen, um so Ihren "
+"Gegnern zu schaden. Diplomaten in Ihren eigenen Städten verteidigen diese "
+"gegen solcherlei Aktionen von außerhalb."
 
 #: data/civ1/units.ruleset:1113 data/civ2/units.ruleset:1794
 #: data/default/units.ruleset:1858 data/experimental/units.ruleset:1895
@@ -15810,6 +15884,10 @@ msgid ""
 "aggressive actions will be discovered and cause diplomatic incidents, which "
 "can allow Republics and Democracies to break treaties."
 msgstr ""
+"Viele verdeckte Operationen können sogar in Friedenszeiten versucht werden, "
+"allerdings werden die aggressiveren Aktionen entdeckt werden und zu einem "
+"diplomatischen Eklat führen, der es sogar Republiken und Demokratien "
+"erlaubt, Verträge als nichtig anzusehen."
 
 #: data/civ1/units.ruleset:1117 data/civ2/units.ruleset:1798
 #: data/default/units.ruleset:1862 data/experimental/units.ruleset:1899
@@ -15821,6 +15899,13 @@ msgid ""
 "owning it. However, units belonging to Democratic governments cannot be "
 "bribed. Bribery when not at war will cause a diplomatic incident."
 msgstr ""
+"Wenn sich eine fremde Einheit allein auf einem Feld befindet, können Sie "
+"Ihren Diplomaten anweisen, einen Bestechungsversuch zu unternehmen. Nachdem "
+"Sie eine gewisse Summe gezahlt haben, wird sich die Einheit unverzüglich "
+"Ihnen anschließen; der genaue Betrag hängt vom Status der Einheit und ihrer "
+"Zivilisation ab. Es ist allerdings nicht möglich, Truppen einer "
+"demokratischen Regierung zu bestechen, und Bestechungsversuche in "
+"Friedenszeiten führen unvermeidbar zu einem diplomatischen Eklat."
 
 #: data/civ1/units.ruleset:1124 data/civ2/units.ruleset:1805
 #: data/default/units.ruleset:1869 data/experimental/units.ruleset:1906
@@ -15833,12 +15918,22 @@ msgid ""
 "unit will die. If the defending unit dies, you lose one movement point and "
 "may try again."
 msgstr ""
+"Auch können Diplomaten eine Reihe von Aktionen in den Städten anderer "
+"Spieler durchführen, wobei ein Diplomat allerdings auf eine einzelne Aktion "
+"beschränkt ist. Die meisten dieser Operationen besitzen nur eine gewisse "
+"Erfolgswahrscheinlichkeit. Dazu kommt, dass feindliche Diplomaten und Spione "
+"in einer Stadt feindlichen Aktionen entgegenhandeln werden; tritt dieser "
+"Fall ein, wird entweder Ihre Einheit oder die Verteidigende sterben. Wenn "
+"Sie gewinnen, wird Ihre Einheit einen Bewegungspunkt verlieren und kann es "
+"dann noch einmal versuchen."
 
 #: data/civ1/units.ruleset:1131 data/civ2/units.ruleset:1812
 #: data/default/units.ruleset:1876 data/experimental/units.ruleset:1913
 #: data/multiplayer/units.ruleset:1975
 msgid "The actions available to Diplomats in a city are:"
 msgstr ""
+"Die Operationen, die ein Diplomat in einer Stadt durchführen kann, sind die "
+"folgenden:"
 
 #: data/civ1/units.ruleset:1133 data/civ2/units.ruleset:1814
 #: data/default/units.ruleset:1878 data/experimental/units.ruleset:1915
@@ -15848,6 +15943,9 @@ msgid ""
 "contact with the city's owner, as well as intelligence on their tax rates "
 "and technology."
 msgstr ""
+" - \"Botschaft eröffnen\": Diese Aktion gelingt immer und ermöglicht Ihnen "
+"einen dauerhaften Kontakt mit dem Eigentümer der Stadt. Darüber hinaus "
+"erhalten Sie Informationen zu Steuern und Forschung."
 
 #: data/civ1/units.ruleset:1137 data/civ2/units.ruleset:1818
 #: data/default/units.ruleset:1882 data/experimental/units.ruleset:1919
@@ -15857,6 +15955,10 @@ msgid ""
 "about the city: its status, what buildings and units are within, and what it "
 "is currently producing."
 msgstr ""
+" - \"Stadt untersuchen\": Ihre Einheit versucht, einen detaillierten Bericht "
+"über die Stadt zusammenzustellen: ihr Status, welche Gebäude es dort gibt "
+"und welche Einheiten sich in ihr aufhalten sowie was das momentane "
+"Bauprojekt ist."
 
 #: data/civ1/units.ruleset:1141 data/civ2/units.ruleset:1822
 #: data/default/units.ruleset:1886 data/experimental/units.ruleset:1923
@@ -15868,6 +15970,14 @@ msgid ""
 "and attempts to sabotage City Walls or any building in a capital each halve "
 "the chance of success. Sabotage may only be attempted when openly at war."
 msgstr ""
+" - \"Sabotage\": Ihre Einheit versucht entweder, die gesamte Arbeit der "
+"Stadt an ihrem momentanen Bauprojekt zunichte zu machen, oder ein bereits "
+"existentes Gebäude der Stadt zu zerstören (wofür sie sich entscheidet, ist "
+"zufällig). Einmal fertiggestellt, können Paläste und Weltwunder nicht "
+"sabotiert werden und Versuche, die Stadtmauer oder Gebäude in einer "
+"Hauptstadt zu sabotieren, haben jeweils nur eine 50%ige Erfolgschance. "
+"Sabotage kann nur durchgeführt werden, wenn Sie sich mit der betroffenen "
+"Nation offen im Krieg befinden."
 
 #: data/civ1/units.ruleset:1148 data/civ2/units.ruleset:1829
 #: data/default/units.ruleset:1893 data/experimental/units.ruleset:1930
@@ -15878,6 +15988,12 @@ msgid ""
 "stolen once from a given enemy city by Diplomats. This action may be "
 "attempted even when not at war, but will cause a diplomatic incident."
 msgstr ""
+" - \"Technologie stehlen\": Ihre Einheit versucht die Geheimnisse um eine "
+"zufällig gewählte Technologie, die der Nation der Stadt, Ihnen jedoch nicht, "
+"bekannt ist, zu lüften. Es können je Stadt nur einmal Technologien durch "
+"Diplomaten entwendet werden und obwohl diese Aktion auch durchgeführt werden "
+"kann, wenn Sie sich nicht im Krieg befinden, wird es dann einen "
+"diplomatischen Eklat auslösen."
 
 #: data/civ1/units.ruleset:1154 data/civ2/units.ruleset:1835
 #: data/default/units.ruleset:1899 data/experimental/units.ruleset:1936
@@ -15892,6 +16008,15 @@ msgid ""
 "any city governed by a democracy. Incitement may be attempted in peacetime, "
 "but will cause a diplomatic incident."
 msgstr ""
+" - \"Revolte anzetteln\": Im Austausch gegen Gold wird eine fremde Stadt "
+"ihre Haltung überdenken und sich Ihrem Imperium anschließen, wobei sie "
+"sämtliche in der Nähe befindlichen Einheiten mitbringt, die diese Stadt ihre "
+"Heimat nennen können. Die Stadtgröße reduziert sich dabei um eins, und "
+"Einheiten in anderen Städten bleiben beim Gegner, wohingegen Einheiten "
+"außerhalb von Städten beiden Spielern verloren gehen. Es ist nicht möglich, "
+"eine Rebellion in einer Hauptstadt oder in den Städten eines demokratisch "
+"regierten Landes anzuzetteln und obwohl man es immer versuchen kann, führt "
+"diese Aktion in Friedenszeiten zu einem diplomatischen Eklat."
 
 #: data/civ1/units.ruleset:1164 data/civ2/units.ruleset:1845
 #: data/default/units.ruleset:1909 data/experimental/units.ruleset:1946
@@ -15901,6 +16026,9 @@ msgid ""
 "the enemy.  Little wonder that Diplomats are often viewed with suspicion and "
 "fear!"
 msgstr ""
+"Gewisse Strategen bilden Horden von Diplomaten aus, die dann dazu benutzt "
+"werden, den Gegner komplett zu unterwandern und lahmzulegen. Da ist es kein "
+"Wunder, dass Diplomaten meist mit Sorge und Furcht betrachtet werden!"
 
 #: data/civ1/units.ruleset:1171 data/civ2/units.ruleset:1910
 #: data/default/units.ruleset:1982 data/experimental/units.ruleset:2019
@@ -15914,6 +16042,9 @@ msgid ""
 "A Caravan carries goods or material for trading with distant cities and "
 "foreign countries, or to help build wonders in your cities."
 msgstr ""
+"Eine Karawane trägt Güter oder Materialien für den Handel mit entfernten "
+"Städten und fremden Ländern, oder aber hilft beim Bau von Weltwundern in "
+"Ihren Städten."
 
 #: data/civ1/units.ruleset:1200 data/civ2/units.ruleset:1939
 #: data/default/units.ruleset:2011 data/experimental/units.ruleset:2048
@@ -15921,22 +16052,20 @@ msgid ""
 "Every Caravan that is used to build a wonder will add 50 shields towards the "
 "production of the wonder."
 msgstr ""
+"Jede Karawane, die beim Bau eines Weltwunders mithilft, führt der Produktion "
+"des Weltwunders 50 Schilde zu."
 
 #: data/civ1/units.ruleset:1203 data/civ2/units.ruleset:1942
 #: data/default/units.ruleset:2014 data/experimental/units.ruleset:2051
 #: data/multiplayer/units.ruleset:2113
-#, fuzzy
 msgid ""
 "TIP:  You can stockpile a stack of Caravans in advance and bring them all "
 "into a city where you have started to build a wonder, and finish it in only "
 "one turn!"
 msgstr ""
-"Jede Karawane, die zum Bau eines Weltwunders verwendet wird, trägt 50 "
-"Schilde zu dessen Bau bei.\n"
-"\n"
-"HINWEIS: Man kann eine Anzahl von Karawanen bereithalten, um sie direkt nach "
-"Baubeginn in die Stadt zu bringen. Auf diese Art kann man ein Weltwunder in "
-"nur einem Zug fertigstellen!"
+"TIPP: Man kann eine Anzahl von Karawanen bereithalten, um sie direkt nach "
+"Baubeginn in die Stadt zu bringen. Auf diese Art kann man ein ganzes "
+"Weltwunder in nur einem Zug fertigstellen!"
 
 #: data/civ1/units.ruleset:1210 data/civ2/units.ruleset:2012
 #: data/default/units.ruleset:2117 data/experimental/units.ruleset:2154
@@ -15951,9 +16080,10 @@ msgid ""
 "One Barbarian Leader appears every time there is a barbarian uprising "
 "somewhere in the world."
 msgstr ""
+"Ein Barbarenanführer taucht jedesmal auf, wenn es irgendwo auf der Welt "
+"einen Barbarenaufstand gibt."
 
 #: data/civ1/units.ruleset:1239
-#, fuzzy
 msgid ""
 "When a Barbarian Leader is killed on a tile without any defending units, the "
 "100 gold ransom is paid, but only to land units."
@@ -15964,32 +16094,25 @@ msgstr ""
 #: data/civ2/buildings.ruleset:42 data/default/buildings.ruleset:63
 #: data/experimental/buildings.ruleset:65
 #: data/multiplayer/buildings.ruleset:62
-#, fuzzy
 msgid ""
 "Allows a city to produce veteran air units (including helicopters).  Also, "
 "damaged air units (again, including helicopters) which stay in town for one "
 "full turn without moving are completely restored."
 msgstr ""
-"Ermöglicht es, Marineeinheiten mit Veteran-Status herzustellen.\n"
-"\n"
-"Beschädigte Marineeinheiten, die eine Runde in der Stadt bleiben, werden "
-"vollständig repariert."
+"Erlaubt es einer Stadt, Lufteinheiten mit Veteranenstatus herzustellen "
+"(Helikopter eingeschlossen). Außerdem werden beschädigte Lufteinheiten (auch "
+"diesmal sind Helikopter eingeschlossen), die sich länger als eine ganze "
+"Runde bewegungslos in der Stadt aufhalten, vollständig repariert."
 
 #: data/civ2/buildings.ruleset:46 data/default/buildings.ruleset:67
 #: data/experimental/buildings.ruleset:69
 #: data/multiplayer/buildings.ruleset:66
-#, fuzzy
 msgid ""
 "Two cities with Airports can airlift one unit per turn.  Airlifting "
 "instantly transports the unit from one city to another and will use all of "
 "the unit's movement points.  A unit must have some movement points left to "
 "be airlifted."
 msgstr ""
-"Ermöglicht es, Luftwaffeneinheiten mit Veteran-Status herzustellen.\n"
-"\n"
-"Beschädigte Luftwaffeneinheiten, die eine Runde in der Stadt bleiben, werden "
-"vollständig repariert.\n"
-"\n"
 "Eine Einheit mit Bewegungspunkten kann in einem Zug von einer Stadt mit "
 "Flughafen zu einer anderen Stadt mit Flughafen transportiert werden. Dabei "
 "werden alle Bewegungspunkte der Einheit verbraucht. Von einem Flughafen kann "
