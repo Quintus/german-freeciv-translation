@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-04 14:36+0200\n"
+"PO-Revision-Date: 2012-08-04 15:18+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -12314,23 +12314,22 @@ msgstr "%s Gelände"
 #: common/requirements.c:1443
 #, c-format
 msgid "%s base"
-msgstr ""
+msgstr "%s-Basis"
 
 #: common/requirements.c:1447
-#, fuzzy, c-format
+#, c-format
 msgid "After %s"
-msgstr "nahe %s"
+msgstr "Nach %s"
 
 #. TRANS: "Irrigation possible"
 #: common/requirements.c:1452
-#, fuzzy, c-format
+#, c-format
 msgid "%s possible"
-msgstr "unmöglich"
+msgstr "%s möglich"
 
 #: common/requirements.c:1456
-#, fuzzy
 msgid "City center tile"
-msgstr "Zentrieren"
+msgstr "Stadtzentrumsfeld"
 
 #: common/road.c:28 manual/civmanual.c:281
 msgid "Road"
@@ -12343,19 +12342,19 @@ msgid "Railroad"
 msgstr "Eisenbahn"
 
 #: common/team.c:221
-#, fuzzy, c-format
+#, c-format
 msgid "Team %d"
-msgstr "Team 0"
+msgstr "Team %d"
 
 #: common/team.c:438
-#, fuzzy, c-format
+#, c-format
 msgid "team %s"
-msgstr "%s, Team %s"
+msgstr "Team %s"
 
 #: common/team.c:440
-#, fuzzy, c-format
+#, c-format
 msgid "team %d"
-msgstr "%s, Team %s"
+msgstr "Team %d"
 
 #: common/tech.c:944
 #, c-format
@@ -12382,7 +12381,7 @@ msgstr "Befestigung"
 
 #: common/terrain.c:518
 msgid "River"
-msgstr "Fluß"
+msgstr "Fluss"
 
 #: common/terrain.c:519 common/terrain.c:817
 msgid "Farmland"
@@ -12443,19 +12442,23 @@ msgstr "Züge"
 
 #: common/unit.c:1419
 msgid "Food/Shield/Gold:"
-msgstr ""
+msgstr "Nahrung/Produktion/Gold:"
 
 #. TRANS: Last %s is pre-pluralised "Treasury contains %d gold."
 #: common/unit.c:1885
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Upgrade %s to %s for %d gold?\n"
 "%s"
 msgid_plural ""
 "Upgrade %s to %s for %d gold?\n"
 "%s"
-msgstr[0] "%s durch %s ersetzt (Kosten: %d Goldstücke)."
-msgstr[1] "%s durch %s ersetzt (Kosten: %d Goldstücke)."
+msgstr[0] ""
+"%1$s für %3$d Goldstück durch %2$s ersetzen?\n"
+"%4$s"
+msgstr[1] ""
+"%1$s für %3$d Goldstücke durch %2$s ersetzen?\n"
+"%4$s"
 
 #: common/unit.c:1894
 #, c-format
@@ -12472,11 +12475,11 @@ msgid_plural ""
 "Upgrading %s to %s costs %d gold.\n"
 "%s"
 msgstr[0] ""
-"Modernisierung von %s zu %s kostet %d Goldstücke.\n"
-"Die Schatzkammer enthält %d Goldstücke."
+"Modernisierung von %s zu %s kostet %d Goldstück.\n"
+"%s"
 msgstr[1] ""
 "Modernisierung von %s zu %s kostet %d Goldstücke.\n"
-"Die Schatzkammer enthält %d Goldstücke."
+"%s"
 
 #: common/unit.c:1910
 msgid "You can only upgrade units in your cities."
@@ -12488,20 +12491,20 @@ msgid "Upgrading this %s would strand units it transports."
 msgstr "Modernisieren der %s würde die transportierten Einheiten stranden."
 
 #: common/unit.c:1919
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Upgrading this %s would result in a %s which can not survive at this place."
-msgstr "Modernisieren der %s würde die transportierten Einheiten stranden."
+msgstr "Modernisierung von %s würde %s ergeben, was hier nicht überleben kann."
 
 #: common/unittype.c:442
 #, c-format
 msgid "%s or similar units"
-msgstr ""
+msgstr "%s oder ähnliche Einheiten"
 
 #: common/unittype.c:445
-#, fuzzy, c-format
+#, c-format
 msgid "%s and similar units"
-msgstr "Lade Regelsätze"
+msgstr "%s und ähnliche Einheiten"
 
 #: common/version.c:41
 #, c-format
@@ -12596,8 +12599,7 @@ msgid ""
 "Freeciv %s will be released at %s"
 msgstr ""
 "DIES IST EINE BETA VERSION\n"
-"Freeciv %s wird voraussichtlich im %s\n"
-"auf %s veröffentlicht werden."
+"Freeciv %s wird voraussichtlich auf %s veröffentlicht werden."
 
 #: common/version.c:143
 msgid "'Cause civilization should be free!"
@@ -12779,6 +12781,9 @@ msgid ""
 "can only build a Hydro Plant if it is next to (or on) a Mountain or River "
 "tile."
 msgstr ""
+"Eine Stadt kann nur ein Wasser-, Kohle- oder Kernkraftwerk besitzen. Eine "
+"Stadt kann nur dann ein Wasserkraftwerk bauen, wenn es sich neben (oder auf) "
+"einem Berg- oder Flussfeld befindet."
 
 #: data/civ1/buildings.ruleset:305 data/civ2/buildings.ruleset:381
 #: data/default/buildings.ruleset:413 data/experimental/buildings.ruleset:462
@@ -12860,7 +12865,7 @@ msgstr ""
 
 #: data/civ1/buildings.ruleset:411 data/civ1/buildings.ruleset:471
 msgid "A city can only have one Hydro Plant, Power Plant, or Nuclear Plant."
-msgstr ""
+msgstr "Eine Stadt kann nur ein Wasser-, Kohle- oder Kernkraftwerk besitzen."
 
 #: data/civ1/buildings.ruleset:420 data/civ2/buildings.ruleset:518
 #: data/default/buildings.ruleset:555 data/experimental/buildings.ruleset:607
@@ -12871,7 +12876,6 @@ msgstr "Palast"
 #: data/civ1/buildings.ruleset:435 data/civ2/buildings.ruleset:533
 #: data/default/buildings.ruleset:570 data/experimental/buildings.ruleset:622
 #: data/multiplayer/buildings.ruleset:560
-#, fuzzy
 msgid ""
 "Makes a city the capital and the center of your government.  Corruption in "
 "other cities is related to how far away from the capital they are, except "
@@ -12879,11 +12883,11 @@ msgid ""
 "revolt in a city also depends upon the city's distance from the capital "
 "(under all forms of government)."
 msgstr ""
-"Macht die Stadt zur Hauptstadt und somit zum Regierungssitz.\n"
-"Außer bei 'Demokratie' und 'Kommunismus' ist die Korruption davon abhängig, "
-"wie weit eine Stadt von der Hauptstadt entfernt ist. Auch die für das "
-"Anzetteln einer Revolution benötigten Kosten hängen davon ab. Außerdem kann "
-"der Verlust der Hauptstadt einen Bürgerkrieg verursachen."
+"Macht eine Stadt zur Hauptstadt und somit zum Regierungssitz. Außer in einer "
+"Demokratie oder im Kommunismus ist die Korruption in anderen Städten davon "
+"abhängig, wie weit diese von der Hauptstadt entfernt sind; abgesehen davon "
+"hängen auch die Kosten eines Aufrufs zur Revolution — unabhängig von der "
+"Regierungsform — von der Entfernung der jeweiligen Stadt zur Hauptstadt ab."
 
 #: data/civ1/buildings.ruleset:442 data/civ2/buildings.ruleset:540
 #: data/default/buildings.ruleset:577 data/experimental/buildings.ruleset:629
@@ -12893,6 +12897,10 @@ msgid ""
 "plunging into civil war. Losing your current palace also results in losing "
 "whatever spaceship you might have."
 msgstr ""
+"Geben Sie stets gut auf Ihre Hauptstadt acht, denn ihr Verlust kann Ihr "
+"Imperium in einen Bürgerkrieg stürzen. Darüber hinaus führt der Verlust "
+"Ihres momentanen Palastes auch zur Zerstörung jeder Art von Raumschiff, das "
+"Sie möglicherweise besitzen."
 
 #: data/civ1/buildings.ruleset:449 data/civ2/buildings.ruleset:591
 #: data/default/buildings.ruleset:636 data/experimental/buildings.ruleset:688
@@ -12901,7 +12909,7 @@ msgid "Power Plant"
 msgstr "Kohlekraftwerk"
 
 #: data/civ1/buildings.ruleset:465 data/civ2/buildings.ruleset:607
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the shield production of a Factory or Mfg. Plant in a city: a "
 "Factory and a Power Plant together give a 100% production bonus, and a "
@@ -12912,10 +12920,7 @@ msgstr ""
 "mit einer Fabrik oder einer Fertigungsstätte gibt es einen Bonus von 100%, "
 "sind beide vorhanden, erhöht sich der Bonus auf 150%. Allerdings vergrößert "
 "sich durch die zusätzliche Produktion die durch die Stadt verursachte "
-"Umweltverschmutzung.\n"
-"\n"
-"Eine Stadt kann nur ein Wasserkraftwerk, Kohlekraftwerk oder Atomkraftwerk "
-"bauen."
+"Umweltverschmutzung."
 
 #: data/civ1/buildings.ruleset:477 data/civ2/buildings.ruleset:619
 #: data/default/buildings.ruleset:669 data/experimental/buildings.ruleset:721
@@ -12938,7 +12943,7 @@ msgstr ""
 #: data/default/buildings.ruleset:734 data/experimental/buildings.ruleset:786
 #: data/multiplayer/buildings.ruleset:718
 msgid "SDI Defense"
-msgstr "SDI Verteidigung"
+msgstr "SDI-Verteidigung"
 
 #: data/civ1/buildings.ruleset:512
 msgid ""
@@ -12947,6 +12952,11 @@ msgid ""
 "attacking a unit (or deliberately exploded) within range, is shot down and "
 "simply has no effect."
 msgstr ""
+"Schützt eine Stadt und ihren Umkreis (bis zu zwei Felder) vor Angriffen "
+"durch nukleare Waffen. Eine nukleare Einheit, die eine Stadt mit SDI-"
+"Verteidung oder eine Einheit in der Nähe einer solchen Stadt angreift (oder "
+"unglücklicherweise in Reichweite der SDI-Anlage von selbst explodiert), wird "
+"abgeschossen und hat schlicht keinen Effekt mehr."
 
 #: data/civ1/buildings.ruleset:520 data/civ2/buildings.ruleset:758
 #: data/default/buildings.ruleset:814 data/experimental/buildings.ruleset:866
@@ -12957,18 +12967,14 @@ msgstr "Raumschiffkomponenten"
 #: data/civ1/buildings.ruleset:534 data/civ2/buildings.ruleset:772
 #: data/default/buildings.ruleset:829 data/experimental/buildings.ruleset:881
 #: data/multiplayer/buildings.ruleset:811
-#, fuzzy
 msgid ""
 "Space Components can be differentiated into Propulsion and Fuel Components.  "
 "Each pair of them reduces your spaceship's travel time.  You can build up to "
 "8 pairs."
 msgstr ""
-"Es gibt sowohl Triebwerks- als auch Treibstoffkomponenten.\n"
-"Durch jedes Paar wird die Reisezeit des Raumschiffes vermindert. Maximal 8 "
-"Paare sind zulässig.\n"
-"\n"
-"Raumschiffteile können erst gefertigt werden, nachdem irgendein Spieler das "
-"'Apollo Programm' fertiggestellt hat."
+"Es gibt sowohl Triebwerks- als auch Treibstoffkomponenten, von denen jedes "
+"Paar die Reisezeit des Raumschiffes vermindert. Maximal sind acht Paare "
+"zulässig."
 
 #: data/civ1/buildings.ruleset:538 data/civ1/buildings.ruleset:571
 #: data/civ1/buildings.ruleset:595 data/civ2/buildings.ruleset:776
@@ -12977,11 +12983,12 @@ msgstr ""
 #: data/default/buildings.ruleset:892 data/experimental/buildings.ruleset:885
 #: data/experimental/buildings.ruleset:919
 #: data/experimental/buildings.ruleset:944
-#, fuzzy
 msgid ""
 "Before you can build any spaceship parts, the Apollo Program wonder must "
 "have been built by any player."
-msgstr "Erfordert die Stadtverbesserung %s.\n"
+msgstr ""
+"Bevor Sie Raumschiffkomponenten bauen können, muss das Apollo-Programm von "
+"irgendeinem Spieler fertig gestellt worden sein."
 
 #: data/civ1/buildings.ruleset:544 data/civ2/buildings.ruleset:782
 #: data/default/buildings.ruleset:839 data/experimental/buildings.ruleset:891
@@ -12996,12 +13003,14 @@ msgid ""
 "Space Modules are the most expensive parts of spaceships.  There are three "
 "different types of Space Module:"
 msgstr ""
+"Raummodule stellen die teuersten Komponenten eines Raumschiffs da. Insgesamt "
+"gibt es drei verschiedene Arten dieser Module:"
 
 #: data/civ1/buildings.ruleset:561 data/civ2/buildings.ruleset:799
 #: data/default/buildings.ruleset:857 data/experimental/buildings.ruleset:909
 #: data/multiplayer/buildings.ruleset:839
 msgid "- Habitation Module: provides living space for 10,000 people."
-msgstr ""
+msgstr "- Wohnmodul: Stellt den Lebensraum für 10.000 Menschen zur Verfügung."
 
 #: data/civ1/buildings.ruleset:563 data/civ2/buildings.ruleset:801
 #: data/default/buildings.ruleset:859 data/experimental/buildings.ruleset:911
@@ -13010,6 +13019,8 @@ msgid ""
 "- Life Support Module: provides food and water for the population of one "
 "Habitation Module."
 msgstr ""
+"- Lebensmodul: Stellt Nahrung und Wasser für die Bevölkerung eines "
+"Wohnmoduls zur Verfügung."
 
 #: data/civ1/buildings.ruleset:566 data/civ2/buildings.ruleset:804
 #: data/default/buildings.ruleset:862 data/experimental/buildings.ruleset:914
@@ -13017,12 +13028,14 @@ msgstr ""
 msgid ""
 "- Solar Panels: provides the energy needed for any two of the other Modules."
 msgstr ""
+"- Solarflügel: Stellen die Energie bereit, die jeweils zwei der anderen "
+"Module benötigen."
 
 #: data/civ1/buildings.ruleset:569 data/civ2/buildings.ruleset:807
 #: data/default/buildings.ruleset:865 data/experimental/buildings.ruleset:917
 #: data/multiplayer/buildings.ruleset:847
 msgid "You can build up to 4 Space Modules of each kind."
-msgstr ""
+msgstr "Sie können bis zu vier Raummodule jeder Art bauen."
 
 #: data/civ1/buildings.ruleset:577 data/civ2/buildings.ruleset:815
 #: data/default/buildings.ruleset:873 data/experimental/buildings.ruleset:925
