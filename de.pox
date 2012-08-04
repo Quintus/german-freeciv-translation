@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-04 15:18+0200\n"
+"PO-Revision-Date: 2012-08-04 17:47+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -13410,6 +13410,7 @@ msgstr ""
 "Maßnahmen um 1 reduziert. In einer 'Republik' wird also niemand durch "
 "militärische Maßnahmen unzufrieden und in einer 'Demokratie' nur einer."
 
+# MG: "U" = "Unterhalter"
 #: data/civ1/cities.ruleset:44 data/civ2/cities.ruleset:44
 #: data/default/cities.ruleset:44 data/experimental/cities.ruleset:46
 #: data/multiplayer/cities.ruleset:43
@@ -13422,28 +13423,30 @@ msgstr "U"
 msgid ""
 "Each entertainer produces two luxury points for their city per turn. See the "
 "section on Happiness for the effects of luxury points."
-msgstr ""
+msgstr "Jeder Entertainer produziert pro Runde zwei Luxuspunkte für seine Stadt. Siehe den Abschnitt über Zufriedenheit für den Effekt von Luxuspunkten."
 
+# "W" = "Wissenschaftler"
 #: data/civ1/cities.ruleset:57 data/civ2/cities.ruleset:57
 #: data/default/cities.ruleset:57 data/experimental/cities.ruleset:59
 #: data/multiplayer/cities.ruleset:56
 msgid "?Scientist:S"
-msgstr "F"
+msgstr "W"
 
 #: data/civ1/cities.ruleset:62 data/civ2/cities.ruleset:62
 msgid ""
 "Each scientist adds two points to your empire's research output per turn."
-msgstr ""
+msgstr "Jeder Wissenschaftler führt pro Runde Ihrem Staat zwei Forschungspunkte zu."
 
+# MG: "S" = "Steuereintreiber
 #: data/civ1/cities.ruleset:70 data/civ2/cities.ruleset:70
 #: data/default/cities.ruleset:70 data/experimental/cities.ruleset:72
 #: data/multiplayer/cities.ruleset:69
 msgid "?Taxman:T"
-msgstr "St"
+msgstr "S"
 
 #: data/civ1/cities.ruleset:75 data/civ2/cities.ruleset:75
 msgid "Each tax collector produces two extra gold for your treasury per turn."
-msgstr ""
+msgstr "Jeder Steuereintreiber produziert pro Runde zwei extra Goldstücke für Ihre Schatzkammer."
 
 #: data/civ1/cities.ruleset:114 data/civ2/cities.ruleset:114
 #: data/default/cities.ruleset:115 data/experimental/cities.ruleset:117
@@ -13504,9 +13507,8 @@ msgid "?citystyle:PostModern"
 msgstr "postmodern"
 
 #: data/civ1/game.ruleset:18
-#, fuzzy
 msgid "Civ1 ruleset"
-msgstr "Lade Regelsätze"
+msgstr "Civ1-Regelsatz"
 
 #: data/civ1/game.ruleset:21
 msgid ""
@@ -13518,6 +13520,10 @@ msgid ""
 " * Units have no hitpoints. If they win a battle, they remain in full "
 "health.\n"
 msgstr ""
+"Sie spielen mit Civ1-artigen Regeln. Diese Regeln sind sehr viel einfacher als Freecivs Standardregelwerk, und wenn Sie nur die Standardregeln kennen, sollten Sie sich etwas Zeit nehmen, die Unterschiede kennenzulernen.\n"
+"\n"
+"* Es gibt weniger Technologien, Gebäude und Einheiten.\n"
+"* Einheiten haben keine Lebenspunkte. Wenn sie eine Schlacht gewinnen, bleiben sie bei voller Gesundheit\n"
 
 #: data/civ1/game.ruleset:220 data/civ2/game.ruleset:214
 #: data/default/game.ruleset:254 data/experimental/game.ruleset:260
@@ -13566,18 +13572,11 @@ msgstr "Kriegsherr"
 #: data/default/governments.ruleset:67
 #: data/experimental/governments.ruleset:69
 #: data/multiplayer/governments.ruleset:67
-#, fuzzy
 msgid ""
 "Anarchy is simply the absence of any recognizable government. Citizens are "
 "disorganized and unproductive, and will spend all income as quickly as "
 "possible, rather than paying taxes or conducting research."
-msgstr ""
-"Anarchie ist einfach die Abwesenheit jeder erkennbarer Regierung. Die Bürger "
-"sind unorganisiert und unproduktiv, und geben alles Einkommen so schnell wie "
-"möglich aus, anstatt Steuern zu zahlen und Forschung zu betreiben.\n"
-"\n"
-"In der Anarchie gibt es etwas weniger Korruption, aber etwas mehr "
-"Unzufriedenheit als in der Diktatur."
+msgstr "Anarchie ist einfach die Abwesenheit jeder erkennbarer Regierung. Die Bürger sind unorganisiert, unproduktiv und geben alles Einkommen so schnell wie möglich aus, anstatt Steuern zu zahlen und Forschung zu betreiben."
 
 #: data/civ1/governments.ruleset:71 data/default/governments.ruleset:72
 #: data/experimental/governments.ruleset:74
@@ -13585,7 +13584,7 @@ msgstr ""
 msgid ""
 "Anarchy offers slightly less corruption than Despotism, but slightly more "
 "unhappiness."
-msgstr ""
+msgstr "In einem anarchischen Staat gibt es zwar weniger Korruption, aber dafür etwas mehr Unzufriedenheit als in einer Dikatur."
 
 #: data/civ1/governments.ruleset:79 data/civ2/governments.ruleset:77
 #: data/default/governments.ruleset:80
@@ -13594,42 +13593,39 @@ msgstr ""
 msgid "Despotism"
 msgstr "Diktatur"
 
+# MG: Standardtitel für männliche Tyrannen
 #: data/civ1/governments.ruleset:85 data/civ2/governments.ruleset:83
 #: data/default/governments.ruleset:86
 #: data/experimental/governments.ruleset:90
 #: data/multiplayer/governments.ruleset:86
-#, fuzzy, c-format
+#, c-format
 msgid "Chief %s"
-msgstr "Häuptling"
+msgstr "Diktator %s"
 
+# MG: Standardtitel für weibliche Tyranninen
 #: data/civ1/governments.ruleset:86 data/civ2/governments.ruleset:84
 #: data/default/governments.ruleset:87
 #: data/experimental/governments.ruleset:91
 #: data/multiplayer/governments.ruleset:87
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Chief %s"
-msgstr "Stammesführerin"
+msgstr "Diktatorin"
 
 #: data/civ1/governments.ruleset:88 data/civ2/governments.ruleset:86
 #: data/default/governments.ruleset:89
 #: data/experimental/governments.ruleset:93
 #: data/multiplayer/governments.ruleset:89
-#, fuzzy
 msgid ""
 "Under Despotism, you are the absolute ruler of your people.  Your control "
 "over your citizens is maintained largely by martial law."
-msgstr ""
-"In der Diktatur bist du der unumschränkte Herrscher deines Volkes. Du "
-"kontrollierst deine Bürger hauptsächlich mit Hilfe des Kriegsrechts.\n"
-"\n"
-"In der Diktatur gibt es von allen Regierungsformen die höchste Korruption."
+msgstr "In der Diktatur sind Sie der unbeschränkte Herrscher Ihres Volkes. Sie kontrollieren Ihre Bürger hauptsächlich durch den gewohnheitsmäßigen Gebrauch des Kriegsrechts."
 
 #: data/civ1/governments.ruleset:91 data/default/governments.ruleset:92
 #: data/experimental/governments.ruleset:96
 #: data/multiplayer/governments.ruleset:92
 msgid ""
 "Despotism suffers the highest level of corruption of all forms of government."
-msgstr ""
+msgstr "Eine Diktatur leidet unter der höchsten Korruption aller Regierungsformen."
 
 #: data/civ1/governments.ruleset:99 data/civ1/techs.ruleset:380
 #: data/civ2/governments.ruleset:97 data/civ2/techs.ruleset:478
@@ -13644,43 +13640,33 @@ msgstr "Monarchie"
 #: data/default/governments.ruleset:108
 #: data/experimental/governments.ruleset:112
 #: data/multiplayer/governments.ruleset:108
-#, fuzzy, c-format
+#, c-format
 msgid "King %s"
-msgstr "in %s"
+msgstr "König %s"
 
 #: data/civ1/governments.ruleset:108 data/civ2/governments.ruleset:106
 #: data/default/governments.ruleset:109
 #: data/experimental/governments.ruleset:113
 #: data/multiplayer/governments.ruleset:109
-#, fuzzy, c-format
+#, c-format
 msgid "Queen %s"
-msgstr "Königin"
+msgstr "Königin %s"
 
 #: data/civ1/governments.ruleset:110 data/civ2/governments.ruleset:108
 #: data/default/governments.ruleset:111
 #: data/experimental/governments.ruleset:115
 #: data/multiplayer/governments.ruleset:111
-#, fuzzy
 msgid ""
 "Under Monarchy, a king or queen serves as a hereditary figurehead for your "
 "government."
-msgstr ""
-"In der Monarchie dient ein König oder eine Königin als Aushängeschild deiner "
-"Regierung.\n"
-"\n"
-"Die Monarchie leidet unter der gleichen geringen Korruption wie die Republik."
+msgstr "In einer Monarchie dient ein König oder eine Königin mit erblichem Titel und Amt als Aushängeschild Ihrer Regierung."
 
 #: data/civ1/governments.ruleset:113 data/default/governments.ruleset:114
 #: data/experimental/governments.ruleset:118
 #: data/multiplayer/governments.ruleset:114
-#, fuzzy
 msgid ""
 "Monarchy suffers the same small amount of corruption that the Republic does."
-msgstr ""
-"In der Monarchie dient ein König oder eine Königin als Aushängeschild deiner "
-"Regierung.\n"
-"\n"
-"Die Monarchie leidet unter der gleichen geringen Korruption wie die Republik."
+msgstr "Monarchische Staaten leiden genau wie repuplikanische kaum unter Korruption."
 
 #: data/civ1/governments.ruleset:121 data/civ1/techs.ruleset:154
 #: data/civ2/governments.ruleset:119 data/civ2/techs.ruleset:170
@@ -13695,17 +13681,17 @@ msgstr "Kommunismus"
 #: data/default/governments.ruleset:129
 #: data/experimental/governments.ruleset:133
 #: data/multiplayer/governments.ruleset:129
-#, fuzzy, c-format
+#, c-format
 msgid "Comrade %s"
-msgstr "Genosse"
+msgstr "Genosse %s"
 
 #: data/civ1/governments.ruleset:129 data/civ2/governments.ruleset:127
 #: data/default/governments.ruleset:130
 #: data/experimental/governments.ruleset:134
 #: data/multiplayer/governments.ruleset:130
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Comrade %s"
-msgstr "Genossin"
+msgstr "Genossin %s"
 
 #: data/civ1/governments.ruleset:131 data/civ2/governments.ruleset:129
 #: data/default/governments.ruleset:132
@@ -13716,14 +13702,7 @@ msgid ""
 "A Communist government is based on the ideal that all people are equal.  All "
 "goods are owned by the state, rather than by private citizens.  Communism "
 "gives a balance between military and commercial styles of government."
-msgstr ""
-"Eine kommunistische Regierung geht von dem Ideal aus, daß alle Menschen "
-"gleich sind. Alle Güter gehören dem Staat, anstatt Privatpersonen. Der "
-"Kommunismus ermöglicht ein Gleichgewicht zwischen militärisch und "
-"wirtschaftlich orientierter Staatsführung.\n"
-"\n"
-"Es gibt eine mäßige Korruption, die nicht von der Entfernung zur Hauptstadt "
-"abhängig ist."
+msgstr "Eine kommunistische Regierung stützt sich auf die Idealvorstellung, dass alle Menschen gleich seien (außer einigen wenigen, die eben immer etwas gleicher sind als andere). Alle Güter gehören nicht etwa Privatpersonen, sondern dem Staat, was ein Gleichgewicht zwischen militärisch und wirtschaftlich orientierter Staatsführung ermöglicht."
 
 #: data/civ1/governments.ruleset:136 data/default/governments.ruleset:137
 #: data/experimental/governments.ruleset:141
@@ -13731,7 +13710,7 @@ msgstr ""
 msgid ""
 "Under Communism, corruption does not vary by distance from the capital; all "
 "cities (including the capital) have a modest amount of corruption."
-msgstr ""
+msgstr "In komunistischen Staaten ist die Korruption nicht von der Entfernung zur Hauptstadt abhängig, vielmehr leiden alle Städte (einschließlich der Hauptstadt) unter derselben, mäßig ausgeprägten Korruptionsrate."
 
 #: data/civ1/governments.ruleset:145 data/civ2/governments.ruleset:171
 #: data/default/governments.ruleset:146
@@ -13748,9 +13727,9 @@ msgstr "Republik"
 #: data/nation/roman.ruleset:51 data/nation/sabine.ruleset:28
 #: data/nation/samnite.ruleset:28 data/nation/vandalic.ruleset:30
 #: data/nation/visigothic.ruleset:38 data/nation/westernroman.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "Consul %s"
-msgstr "Konsul"
+msgstr "Konsul %s"
 
 #: data/civ1/governments.ruleset:153 data/civ2/governments.ruleset:179
 #: data/nation/bosporan.ruleset:35 data/nation/byzantium.ruleset:29
@@ -13760,9 +13739,9 @@ msgstr "Konsul"
 #: data/nation/roman.ruleset:51 data/nation/sabine.ruleset:28
 #: data/nation/samnite.ruleset:28 data/nation/vandalic.ruleset:30
 #: data/nation/visigothic.ruleset:38 data/nation/westernroman.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Consul %s"
-msgstr "Konsulin"
+msgstr "Konsulin %s"
 
 #: data/civ1/governments.ruleset:155 data/civ2/governments.ruleset:181
 #: data/default/governments.ruleset:156
@@ -13774,12 +13753,7 @@ msgid ""
 "popular to remain in control, citizens are given a greater degree of "
 "freedom.  Citizens under the Republic become unhappy easily, but the self-"
 "sufficiency of your citizens allows high levels of trade."
-msgstr ""
-"In der Republik halten die Bürger Wahlen ab, um einen Repräsentanten zu "
-"bestimmen, der sie regiert. Da gewählte Führer beliebt bleiben müssen, um "
-"die Kontrolle zu behalten, geben sie den Bürgern ein größeres Maß an "
-"Freiheit. Bürger werden in der Republik leicht unzufrieden, aber ihre "
-"Selbstgenügsamkeit erlaubt es, lukrativen Handel zu betreiben."
+msgstr "In der Republik halten die Bürger Wahlen ab, um einen Repräsentanten zu bestimmen, der sie regieren wird. Da gewählte Führer beliebt bleiben müssen, um die Kontrolle zu behalten, gewähren sie den Bürgern ein größeres Maß an Freiheit. Bürger werden in der Republik leicht unzufrieden, aber ihre Selbstgenügsamkeit erlaubt es, lukrativen Handel zu betreiben."
 
 #: data/civ1/governments.ruleset:167 data/civ1/techs.ruleset:195
 #: data/civ2/governments.ruleset:193 data/civ2/techs.ruleset:212
@@ -13794,17 +13768,17 @@ msgstr "Demokratie"
 #: data/default/governments.ruleset:153
 #: data/experimental/governments.ruleset:157
 #: data/multiplayer/governments.ruleset:153
-#, fuzzy, c-format
+#, c-format
 msgid "President %s"
-msgstr "Präsident"
+msgstr "Kanzler %s"
 
 #: data/civ1/governments.ruleset:175 data/civ2/governments.ruleset:201
 #: data/default/governments.ruleset:154
 #: data/experimental/governments.ruleset:158
 #: data/multiplayer/governments.ruleset:154
-#, fuzzy, c-format
+#, c-format
 msgid "?female:President %s"
-msgstr "Präsidentin"
+msgstr "Kanzlerin %s"
 
 #: data/civ1/governments.ruleset:177 data/default/governments.ruleset:178
 #: data/experimental/governments.ruleset:182
@@ -13814,28 +13788,15 @@ msgid ""
 "offers the highest possible level of trade, but also offers the most "
 "potential for unhappiness.  There is no corruption during Democracy, but "
 "citizens become very upset during wars."
-msgstr ""
-"In der Demokratie regieren die Bürger direkt durch Abstimmungen und Wahlen. "
-"Demokratie erlaubt den größtmöglichen Handel, aber auch das größte Potential "
-"für Unzufriedenheit. Es gibt keine Korruption, aber Bürger werden durch "
-"Kriege sehr unruhig."
+msgstr "In der Demokratie regieren die Bürger direkt durch Abstimmungen und Wahlen. Demokratie erlaubt den größtmöglichen Handel, birgt aber auch das größte Potential für Unzufriedenheit. Es gibt keine Korruption, aber Bürger werden durch Kriege sehr unruhig."
 
 #: data/civ1/governments.ruleset:182 data/civ2/governments.ruleset:209
-#, fuzzy
 msgid ""
 "Because (happy) citizens of Democracy believe strongly in the government, "
 "their loyalty is unswerving.  Military units of Democratic civilizations "
 "cannot be bribed, and Democratic cities cannot be incited to revolt by enemy "
 "Diplomats and Spies."
-msgstr ""
-"In der Demokratie regieren die Bürger direkt durch Abstimmungen und Wahlen. "
-"Demokratie erlaubt den größtmöglichen Handel, aber auch das größte Potential "
-"für Unzufriedenheit. Es gibt keine Korruption, aber Bürger werden durch "
-"Kriege sehr unruhig.\n"
-"\n"
-"Weil zufriedene Bürger fest an die Regierung glauben, ist ihre Loyalität "
-"unerschütterlich. Truppen können nicht bestochen werden, und feindliche "
-"Diplomaten und Spione können in den Städten keine Revolte entfachen."
+msgstr "Weil (zufriedene) Bürger fest an ihre Regierung glauben, ist ihre Loyalität unerschütterlich. Truppen können nicht bestochen werden, und feindliche Diplomaten und Spione können in den Städten keine Revolte entfachen."
 
 #: data/civ1/nations.ruleset:27 data/civ2/nations.ruleset:29
 #: data/default/nations.ruleset:25
@@ -13858,13 +13819,10 @@ msgid "?plural:Americans"
 msgstr "?plural:Amerikaner"
 
 #: data/civ1/nations.ruleset:38 data/civ2/nations.ruleset:40
-#, fuzzy
 msgid ""
 "Formally named the United States of America.  Independent from Great Britain "
 "after a revolution in 1776-1783 AD."
-msgstr ""
-"Formell die Vereinigten Staaten von Amerika. Errangen durch eine Revolution "
-"in den Jahren 1776 bis 1783 ihre Unabhängigkeit von Großbritannien."
+msgstr "Formell die Vereinigten Staaten von Amerika. Errangen durch eine Revolution in den Jahren 1776 bis 1783 n.Chr. ihre Unabhängigkeit von Großbritannien."
 
 #: data/civ1/nations.ruleset:48 data/civ1/nations.ruleset:160
 #: data/civ2/nations.ruleset:51 data/civ2/nations.ruleset:165
@@ -13873,9 +13831,9 @@ msgstr ""
 #: data/nation/epirote.ruleset:29 data/nation/faroese.ruleset:30
 #: data/nation/liberian.ruleset:30 data/nation/nauruan.ruleset:32
 #: data/nation/toltec.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "Speaker %s"
-msgstr "Sprecher"
+msgstr "Sprecher %s"
 
 #: data/civ1/nations.ruleset:48 data/civ1/nations.ruleset:160
 #: data/civ2/nations.ruleset:51 data/civ2/nations.ruleset:165
@@ -13884,9 +13842,9 @@ msgstr "Sprecher"
 #: data/nation/epirote.ruleset:29 data/nation/faroese.ruleset:30
 #: data/nation/liberian.ruleset:30 data/nation/nauruan.ruleset:32
 #: data/nation/toltec.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Speaker %s"
-msgstr "Thronräuberin"
+msgstr "Sprecherin %s"
 
 #: data/civ1/nations.ruleset:142 data/civ2/nations.ruleset:146
 #: data/nation/aztec.ruleset:3
@@ -13903,17 +13861,12 @@ msgstr "?plural:Azteken"
 #. TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 233.
 #: data/civ1/nations.ruleset:148 data/civ2/nations.ruleset:152
 #: data/nation/aztec.ruleset:9
-#, fuzzy
 msgid ""
 "The Azteca, a Nahuatl speaking people from the Sonoran desert, seized "
 "control of the Toltec-derived civilizations of Central Mexico during the "
 "15th century, reviving the practice of human sacrifice. They were conquered "
 "by the Spanish under Cortes in 1521."
-msgstr ""
-"Die Azteken, ein Nahuatl sprechendes Volk aus der Wüste Sonora, errangen im "
-"15. Jahrhundert die Herrschaft über die Nachfahren der Tolteken in "
-"Zentralmexiko und führten wieder Menschenopfer ein. 1524 wurden sie von den "
-"Spaniern unter Cortez besiegt."
+msgstr "Die Azteken, ein Nahuatl sprechendes Volk aus der Wüste Sonora, errangen im 15. Jahrhundert die Herrschaft über die Nachfahren der Tolteken in Zentralmexiko und führten die Menschenopfer wieder ein. 1524 wurden sie von den Spaniern unter Cortéz besiegt."
 
 #: data/civ1/nations.ruleset:240 data/civ2/nations.ruleset:245
 #: data/nation/babylonian.ruleset:3
