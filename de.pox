@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-04 03:09+0200\n"
+"PO-Revision-Date: 2012-08-04 14:36+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -9747,34 +9747,31 @@ msgid "The magnification used for map images."
 msgstr "Der für Kartenbilder genutzte Vergrößerungsfaktor."
 
 #: client/options.c:2078
-#, fuzzy
 msgid "Show area within borders"
-msgstr "Größere Stadtanzeige"
+msgstr "Gebiet innerhalb der Grenzen zeigen"
 
 #: client/options.c:2079
 msgid "If set, the territory of each nation is shown on the saved image."
 msgstr ""
+"Wenn gesetzt, wird das Territorium einer jeden Nation auf dem gespeicherten "
+"Bild gezeigt."
 
 #: client/options.c:2083
-#, fuzzy
 msgid "Show borders"
-msgstr "Keine Befehle"
+msgstr "Grenzen zeigen"
 
 #: client/options.c:2084
 msgid "If set, the border of each nation is shown on the saved image."
 msgstr ""
+"Wenn gesetzt, werden die Nationalgrenzen auf dem gespeicherten Bild gezeigt."
 
 #: client/options.c:2088
-#, fuzzy
 msgid "Show cities"
-msgstr "_Zeige Alle Städte"
+msgstr "Städte zeigen"
 
 #: client/options.c:2089
-#, fuzzy
 msgid "If set, cities are shown on the saved image."
-msgstr ""
-"Hiermit werden Berichte als Kartenreiter dargestellt, und nicht als separate "
-"Fenster."
+msgstr "Aktiviert die Anzeige von Städten auf dem gespeicherten Bild."
 
 #: client/options.c:2092
 msgid "Show fog of war"
@@ -9786,47 +9783,47 @@ msgstr ""
 "Wenn gesetzt, wird der Nebel des Krieges auf dem gespeicherten Bild gezeigt."
 
 #: client/options.c:2097
-#, fuzzy
 msgid "Show full terrain"
-msgstr "Größere Stadtanzeige"
+msgstr "Gesamtes Gelände anzeigen"
 
 #: client/options.c:2098
 msgid ""
 "If set, terrain relief is shown with different colors in the saved image; "
 "otherwise, only land and water are distinguished."
 msgstr ""
+"Wenn gesetzt, werden die Geländeformen mit verschiedenen Farben im "
+"gespeicherten Bild dargestellt; ansonsten werden nur Land und Wasser "
+"unterschieden."
 
 #: client/options.c:2103
-#, fuzzy
 msgid "Show units"
-msgstr "%s Einheiten"
+msgstr "Einheiten zeigen"
 
 #: client/options.c:2104
-#, fuzzy
 msgid "If set, units are shown in the saved image."
-msgstr ""
-"Hiermit werden Berichte als Kartenreiter dargestellt, und nicht als separate "
-"Fenster."
+msgstr "Wenn gesetzt, werden Einheiten in gespeicherten Bild gezeigt."
 
 #: client/options.c:2107
-#, fuzzy
 msgid "Map image file name"
-msgstr "write <Dateiname>"
+msgstr "Dateiname der Bilddatei für die Karte"
 
 #: client/options.c:2108
 msgid ""
 "The base part of the filename for saved map images. A string identifying the "
 "game turn and map options will be appended."
 msgstr ""
+"Der Hauptteil des Dateinamens (ohne die Dateiendung) für die gespeicherten "
+"Kartenbilder. Eine Zeichenkette mit Runde und Kartenoptionen wird angehangen."
 
 #: client/options.c:2114 client/options.c:2316
-#, fuzzy
 msgid "Show map scrollbars"
-msgstr "Rollbalken für Karte anzeigen"
+msgstr "Scrollbalken zeigen"
 
 #: client/options.c:2115 client/options.c:2317
 msgid "Disable this option to hide the scrollbars on the map view."
-msgstr "Ein/Ausschalten der Rollbalken für die Karte."
+msgstr ""
+"Schalten Sie diese Option aus, um die Scrollbalken in der Kartenansicht zu "
+"verstecken."
 
 #: client/options.c:2118 client/options.c:2320
 msgid "Keep dialogs on top"
@@ -10048,54 +10045,62 @@ msgstr ""
 
 #: client/options.c:2237 client/options.c:2439
 msgid "City Label"
-msgstr "Stadt"
+msgstr "Stadtnamen"
 
 #: client/options.c:2238 client/options.c:2440
 msgid "This font is used to display the city labels on city dialogs."
 msgstr ""
+"Diese Schriftart wird für die Anzeige der Stadtnamen in Stadtdialogen "
+"benutzen."
 
 #: client/options.c:2243 client/options.c:2445
 msgid "Notify Label"
-msgstr "Mitteilungen"
+msgstr "Hinweise"
 
 #: client/options.c:2244 client/options.c:2446
 msgid ""
 "This font is used to display server reports such as the demographic report "
 "or historian publications."
 msgstr ""
+"Diese Schriftart wird zur Anzeige von Serverberichten wie etwa dem "
+"demographischen Bericht oder den Veröffentlichungen der Historiker benutzt."
 
 #: client/options.c:2249 client/options.c:2451
 msgid "Spaceship Label"
 msgstr "Raumschiff"
 
 #: client/options.c:2250 client/options.c:2452
-#, fuzzy
 msgid "This font is used to display the spaceship widgets."
-msgstr "1 erlaubt den Raumschiffbau."
+msgstr "Diese Schriftart wird zur Anzeige von Raumschiffteilen verwendet."
 
 #: client/options.c:2254 client/options.c:2456
 msgid "Help Label"
-msgstr "Hilfe"
+msgstr "Überschriten in Hilfe"
 
 #: client/options.c:2255 client/options.c:2457
 msgid "This font is used to display the help headers in the help window."
 msgstr ""
+"Diese Schriftart wird für die Anzeige von Überschriften im Hilfefenster "
+"verwendet."
 
 #: client/options.c:2260 client/options.c:2462
 msgid "Help Link"
-msgstr "Hilfe-Links"
+msgstr "Links in Hilfe"
 
 #: client/options.c:2261 client/options.c:2463
 msgid "This font is used to display the help links in the help window."
 msgstr ""
+"Diese Schriftart wird für die Anzeige von Links im Hilfefenster benutzt."
 
 #: client/options.c:2266 client/options.c:2468
 msgid "Help Text"
-msgstr "Hilfetext"
+msgstr "Text in Hilfe"
 
 #: client/options.c:2267 client/options.c:2469
 msgid "This font is used to display the help body text in the help window."
 msgstr ""
+"Diese Schriftart wird zur Anzeige des normalen Texts im Hilfefenster "
+"verwendet."
 
 #: client/options.c:2272 client/options.c:2474
 msgid "Chatline Area"
@@ -10104,6 +10109,7 @@ msgstr "Chat-Eingabe"
 #: client/options.c:2273 client/options.c:2475
 msgid "This font is used to display the text in the chatline area."
 msgstr ""
+"Diese Schriftart wird zur Anzeige des Texts in der Chat-Eingabe verwendet."
 
 #: client/options.c:2278 client/options.c:2480
 msgid "Beta Label"
@@ -10111,11 +10117,11 @@ msgstr "Beta-Hinweis"
 
 #: client/options.c:2279 client/options.c:2481
 msgid "This font is used to display the beta label."
-msgstr ""
+msgstr "Diese Schriftart wird für die Anzeige des Beta-Hinweises verwendet."
 
 #: client/options.c:2283 client/options.c:2485
 msgid "Small Font"
-msgstr "Kleiner Font"
+msgstr "Kleine Schriftart"
 
 #: client/options.c:2284 client/options.c:2486
 msgid ""
@@ -10123,6 +10129,9 @@ msgid ""
 "display the building lists in the city dialog, the Economy report or the "
 "Units report."
 msgstr ""
+"Diese Schriftart wird für alle kleinen Texte benutzt. Beispielsweise findet "
+"sie bei der Anzeige der Gebäudelisten im Stadtdialog, im Wirtschafts- und im "
+"Einheitenbericht Verwendung."
 
 #: client/options.c:2291 client/options.c:2493
 msgid "Comment Label"
@@ -10133,10 +10142,13 @@ msgid ""
 "This font is used to display comment labels, such as in the governor page of "
 "the city dialogs."
 msgstr ""
+"Diese Schriftart wird für Kommentare — wie etwa jene auf der "
+"Bürgermeisterseite in Stadtdialogen — benutzt."
 
 #: client/options.c:2298 client/options.c:2500
 msgid "This font is used to the display the city names on the map."
 msgstr ""
+"Diese Schriftart wird für die Anzeige von Stadtnamen auf der Karte verwendet."
 
 #: client/options.c:2303 client/options.c:2505
 msgid "City Productions"
@@ -10145,17 +10157,19 @@ msgstr "städtische Erzeugnisse"
 #: client/options.c:2304 client/options.c:2506
 msgid "This font is used to the display the city production names on the map."
 msgstr ""
+"Diese Schriftart wird auf der Karte zur Anzeige der aktuellen Bauprojekte "
+"einer Stadt benutzt."
 
 #: client/options.c:2309 client/options.c:2511
-#, fuzzy
 msgid "Requirement Tree"
-msgstr "Voraussetzung"
+msgstr "Voraussetzungsbaum"
 
 #: client/options.c:2310 client/options.c:2512
-#, fuzzy
 msgid ""
 "This font is used to the display the requirement tree in the Research report."
-msgstr "1 erlaubt den Raumschiffbau."
+msgstr ""
+"Diese Schriftart wird für den Voraussetzungsbaum im Forschungsbericht "
+"verwendet."
 
 #: client/options.c:2518
 msgid "Fullscreen"
@@ -11695,19 +11709,16 @@ msgid "Report"
 msgstr "Bericht"
 
 #: common/events.c:192
-#, fuzzy
 msgid "Server Aborting"
-msgstr "Server-Port"
+msgstr "Abbruch durch Server"
 
 #: common/events.c:193
-#, fuzzy
 msgid "Server Problems"
-msgstr "Serveroptionen"
+msgstr "Serverprobleme"
 
 #: common/events.c:194
-#, fuzzy
 msgid "Message from server operator"
-msgstr "Nachricht vom Serveroperator"
+msgstr "Nachricht vom Serveradministrator"
 
 #: common/events.c:195
 msgid "Server settings changed"
@@ -11719,7 +11730,7 @@ msgstr "Rundenende"
 
 #: common/events.c:197
 msgid "Scenario/ruleset script message"
-msgstr ""
+msgstr "Nachricht durch Szenario/Regelsatz"
 
 #. TRANS: Event name for when the game year changes.
 #: common/events.c:199
@@ -11887,7 +11898,7 @@ msgstr ""
 "  plrid=<id>                               Numerische Spieler-ID\n"
 "  plrbv=<bitvektor>                        Siehe Beispiel; erstes Zeichen = "
 "id 0\n"
-"turns=<turn>               %-15s Alle <turns> Runden ein Bild speichern\n"
+"turns=<runden>              %-15s Alle <turns> Runden ein Bild speichern\n"
 "                                           (0=kein automatisches Speichern, "
 "benutze 'create')\n"
 "zoom=<zoom>                %-15s Vergrößerungsfaktor (1-5)\n"
@@ -11918,255 +11929,254 @@ msgstr ""
 " 'zoom=1:map=t:show=none:format=magick|jpg'"
 
 #: common/mapimg.c:763
-#, fuzzy
 msgid "no map definition"
-msgstr "Liste der Einheiten zu Spielbeginn"
+msgstr "Keine Kartendefinition"
 
 #: common/mapimg.c:769
 #, c-format
 msgid "map definition string too long (max %d characters)"
-msgstr ""
+msgstr "Kartendefinition zu lang (maximal %d Zeichen)"
 
 #: common/mapimg.c:775
 #, c-format
 msgid "maximum number of map definitions reached (%d)"
-msgstr ""
+msgstr "Höchstanzahl für Kartendefinitionen erreicht (%d)"
 
 #: common/mapimg.c:783
-#, fuzzy, c-format
+#, c-format
 msgid "duplicate of map image definition %d ('%s')"
-msgstr "Unzulässiger Name '%s'"
+msgstr "Duplikat von Kartenbilddefinition %d ('%s')"
 
 #: common/mapimg.c:804 common/mapimg.c:808
-#, fuzzy, c-format
+#, c-format
 msgid "unknown map option: '%s'"
-msgstr "Unbekannte Option '%s'."
+msgstr "Unbekannte Option: '%s'"
 
 #: common/mapimg.c:824
 #, c-format
 msgid "'show=%s' but no player name 'plrname'"
-msgstr ""
+msgstr "'show=%s' aber kein Spielername 'plrname'"
 
 #: common/mapimg.c:831
 #, c-format
 msgid "'show=%s' but no player id 'plrid'"
-msgstr ""
+msgstr "'show=%s' aber keine Spieler-ID 'plrid'"
 
 #: common/mapimg.c:838
 #, c-format
 msgid "'show=%s' but no player bitvector 'plrbv'"
-msgstr ""
+msgstr "'show=%s' aber kein Spieler-Bitvektor 'plrbv'"
 
 #: common/mapimg.c:991
-#, fuzzy, c-format
+#, c-format
 msgid "invalid character in bitvector: '%c' (%s)"
-msgstr "Unzulässiger Name '%s'"
+msgstr "Unzulässiges Zeichen in Bitvektor: '%c' (%s)"
 
 #: common/mapimg.c:1012
 #, c-format
 msgid "'plrid' should be between 0 and %d"
-msgstr ""
+msgstr "'plrid' sollte zwischen 0 und %d liegen"
 
 #: common/mapimg.c:1028
-#, fuzzy, c-format
+#, c-format
 msgid "player name too long: '%s' (max: %lu)"
-msgstr ""
-"Zeichenkette zu lang. Anwendung:\n"
-"%s"
+msgstr "Spielername zu lang: '%s' (max. %lu)"
 
 #: common/mapimg.c:1058
 msgid "'turns' should be between 0 and 99"
-msgstr ""
+msgstr "'turns' sollte zwischen 0 und 99 liegen"
 
 #: common/mapimg.c:1076
 msgid "'zoom' factor should be between 1 and 5"
-msgstr ""
+msgstr "'zoom'-Faktor sollte zwischen 1 und 5 liegen"
 
 #: common/mapimg.c:1095
-#, fuzzy, c-format
+#, c-format
 msgid "invalid value for option '%s': '%s'"
-msgstr "Unzulässiger Name '%s'"
+msgstr "Ungültiger Wert für Option '%s': '%s'"
 
 #: common/mapimg.c:1119
 msgid "map definition not checked (game not started)"
-msgstr ""
+msgstr "Kartendefinition nicht ausgewählt (Spiel nicht gestartet)"
 
 #: common/mapimg.c:1123
-#, fuzzy, c-format
+#, c-format
 msgid "map definition deactivated: %s"
-msgstr "Es ist zu einem nuklearen Winter gekommen!"
+msgstr "Kartendefinition deaktiviert: %s"
 
 #: common/mapimg.c:1222
-#, fuzzy, c-format
+#, c-format
 msgid "Detailed information for map image definition %d\n"
-msgstr "Unzulässiger Name '%s'"
+msgstr "Genauere Informationen zur Kartenbilddefinition %d\n"
 
 #: common/mapimg.c:1225
-#, fuzzy, c-format
+#, c-format
 msgid "  - status:                   %s (%s)\n"
-msgstr "Gesamt:                     %9d%9d%9d%9d"
+msgstr "  - Status:                   %s (%s)\n"
 
 #: common/mapimg.c:1228
-#, fuzzy, c-format
+#, c-format
 msgid "  - status:                   %s\n"
-msgstr "Gesamt:                     %9d%9d%9d%9d"
+msgstr "  - Status:                   %s\n"
 
 #: common/mapimg.c:1231
 #, c-format
 msgid "  - file name string:         %s\n"
-msgstr ""
+msgstr "  - Dateiname:                %s\n"
 
 #: common/mapimg.c:1233
 #, c-format
 msgid "  - image toolkit:            %s\n"
-msgstr ""
+msgstr "  - Graphik-Toolkit:          %s\n"
 
 #: common/mapimg.c:1235
 #, c-format
 msgid "  - image format:             %s\n"
-msgstr ""
+msgstr "  - Bildformat:               %s\n"
 
 #: common/mapimg.c:1237
 #, c-format
 msgid "  - zoom factor:              %d\n"
-msgstr ""
+msgstr "  - Vergrößerungsfaktor:      %d\n"
 
 #: common/mapimg.c:1239
-#, fuzzy, c-format
+#, c-format
 msgid "  - show area within borders: %s\n"
-msgstr "Größere Stadtanzeige"
+msgstr "  - Gebiet in Grenzen zeigen: %s\n"
 
 #: common/mapimg.c:1240 common/mapimg.c:1242 common/mapimg.c:1244
 #: common/mapimg.c:1246 common/mapimg.c:1248 common/mapimg.c:1252
-#, fuzzy
 msgid "yes"
-msgstr "Nach:"
+msgstr "ja"
 
 #: common/mapimg.c:1240 common/mapimg.c:1242 common/mapimg.c:1244
 #: common/mapimg.c:1246 common/mapimg.c:1248 common/mapimg.c:1252
-#, fuzzy
 msgid "no"
-msgstr "Nichts"
+msgstr "nein"
 
 #: common/mapimg.c:1241
 #, c-format
 msgid "  - show borders:             %s\n"
-msgstr ""
+msgstr "  - Grenzen zeigen:           %s\n"
 
 #: common/mapimg.c:1243
 #, c-format
 msgid "  - show cities:              %s\n"
-msgstr ""
+msgstr "  - Städte anzeigen:          %s\n"
 
 #: common/mapimg.c:1245
 #, c-format
 msgid "  - show fog of war:          %s\n"
-msgstr ""
+msgstr "  - Nebel des Krieges zeigen: %s\n"
 
 #: common/mapimg.c:1247
 #, c-format
 msgid "  - show player knowledge:    %s\n"
-msgstr ""
+msgstr "  - Kartenwissen d. Spieler:  %s\n"
 
 #: common/mapimg.c:1249
 #, c-format
 msgid "  - show terrain:             %s\n"
-msgstr ""
+msgstr "  - Gelände zeigen:           %s\n"
 
 #: common/mapimg.c:1250
 msgid "full"
-msgstr ""
+msgstr "Vollständig"
 
 #: common/mapimg.c:1250
 msgid "basic"
-msgstr ""
+msgstr "Einfach"
 
 #: common/mapimg.c:1251
 #, c-format
 msgid "  - show units:               %s\n"
-msgstr ""
+msgstr "  - Einheiten zeigen:         %s\n"
 
 #: common/mapimg.c:1253
 #, c-format
 msgid "  - players included:         %s"
-msgstr ""
+msgstr "  - Betroffene Spieler:       %s"
 
 #: common/mapimg.c:1263
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "  - player name:              %s"
-msgstr "Reisezeit:          ?       "
+msgstr ""
+"\n"
+"  - Spielername:              %s"
 
 #: common/mapimg.c:1267
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "  - player id:                %d"
-msgstr "Gesamt:                     %9d%9d%9d%9d"
+msgstr ""
+"\n"
+"  - Spieler-ID:               %d"
 
 #: common/mapimg.c:1271
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "  - players:                  %s"
-msgstr "Gesamt:                     %9d%9d%9d%9d"
+msgstr ""
+"\n"
+"  - Spieler:                  %s"
 
 #: common/mapimg.c:1327 common/mapimg.c:1565
 msgid "map definition not checked or error"
-msgstr ""
+msgstr "Kartendefinition nicht ausgewählt oder Fehler"
 
 #: common/mapimg.c:1548
-#, fuzzy, c-format
+#, c-format
 msgid "no map definition with id %d"
-msgstr "Es ist zu einem nuklearen Winter gekommen!"
+msgstr "Keine Kartendefinition mit ID %d"
 
 #: common/mapimg.c:1654
-#, fuzzy, c-format
+#, c-format
 msgid "unknown player name: '%s'"
-msgstr "Spielername: %s"
+msgstr "Unbekannter Spielername: '%s'"
 
 #: common/mapimg.c:1670
-#, fuzzy, c-format
+#, c-format
 msgid "invalid player id: %d"
-msgstr "%d ist unzulässig."
+msgstr "Ungültige Spieler-ID: %d"
 
 #: common/mapimg.c:1855
 #, c-format
 msgid "Turn: %4d - Year: %10s"
-msgstr ""
+msgstr "Runde: %4d - Jahr: %10s"
 
 #: common/mapimg.c:2010
-#, fuzzy
 msgid "toolkit not defined"
-msgstr "(keine Arbeitslisten vorhanden)"
+msgstr "Toolkit nicht definiert"
 
 #: common/mapimg.c:2060 common/mapimg.c:2268
 msgid "error generating the file name"
-msgstr ""
+msgstr "Fehler beim Erstellen des Dateinamens"
 
 #: common/mapimg.c:2234
-#, fuzzy, c-format
+#, c-format
 msgid "error saving map image '%s'"
-msgstr "Lade Skriptdatei '%s'"
+msgstr "Fehler beim Laden des Kartenbildes '%s'"
 
 #: common/mapimg.c:2262
 msgid "the ppm toolkit can only create images in the ppm format"
-msgstr ""
+msgstr "Das PPM-Toolkit kann nur Bilder im PPM-Format generieren"
 
 #: common/mapimg.c:2274
-#, fuzzy, c-format
+#, c-format
 msgid "could not open file: %s"
-msgstr "'%s' konnte nicht geöffnet werden."
+msgstr "Konnte Datei nicht öffnen: %s"
 
 #: common/packets.c:392
-#, fuzzy
 msgid "illegal packet size"
-msgstr "Unzulässiger Wert für den Auth-Port: '%s'"
+msgstr "Unzulässige Paketgröße"
 
 #: common/packets.c:416 common/packets.c:461
 msgid "decoding error"
-msgstr ""
+msgstr "Dekodierfehler"
 
 #: common/player.c:67
 msgid "Away"
