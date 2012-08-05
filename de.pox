@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-04 21:51+0200\n"
+"PO-Revision-Date: 2012-08-05 14:51+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -16662,39 +16662,41 @@ msgstr ""
 "Produktion von Schilden in Steuern umzusetzen."
 
 #: data/civ2/game.ruleset:18
-#, fuzzy
 msgid "Civ2 ruleset"
-msgstr "Lade Regelsätze"
+msgstr "Civ2-Regelsatz"
 
 #: data/civ2/game.ruleset:21
 msgid ""
 "You are playing with civ2 style rules. These are quite close to Freeciv "
 "default rules, but with some additions."
 msgstr ""
+"Sie spielen mit dem Civ2-Regelsatz. Dieser ist dem Standardregelwerk von "
+"Freeciv recht ähnlich, besitzt aber einige Erweiterungen."
 
 #: data/civ2/governments.ruleset:69
 msgid ""
 "Anarchy offers slightly less corruption and waste than Despotism, but "
 "slightly more unhappiness."
 msgstr ""
+"In einem anarchischen Staat gibt es etwas weniger Korruption und "
+"Verschwendung als in einem despotischen, aber dafür etwas mehr "
+"Unzufriedenheit."
 
 #: data/civ2/governments.ruleset:89
 msgid ""
 "Despotism suffers the highest level of corruption and waste of all forms of "
 "government."
 msgstr ""
+"Despotische Staaten leiden unter den höchsten Korruptions- und "
+"Verschwendungsraten aller Regierungsformen."
 
 #: data/civ2/governments.ruleset:111
-#, fuzzy
 msgid ""
 "Monarchy suffers the same small amount of corruption and waste that the "
 "Republic does."
 msgstr ""
-"In der Monarchie dient ein König oder eine Königin als Aushängeschild deiner "
-"Regierung.\n"
-"\n"
-"Die Monarchie leidet wie die Republik wenig unter Korruption und "
-"Verschwendung."
+"Monarchische Staaten leiden genauso wie republikanische Staaten nur unter "
+"einer geringen Korruption und Verschwendung."
 
 #: data/civ2/governments.ruleset:134
 msgid ""
@@ -16702,6 +16704,10 @@ msgid ""
 "capital; all cities (including the capital) have a modest amount of "
 "corruption."
 msgstr ""
+"In kommunistischen Staaten sind die Korruptions- und Verschwendungsraten "
+"nicht von der Entfernung zur Hauptstadt abhängig, vielmehr leiden alle "
+"Städte (die Hauptstadt eingeschlossen) unter derselben mäßigen "
+"Korruptionsrate."
 
 #: data/civ2/governments.ruleset:143 data/civ2/techs.ruleset:294
 #: data/multiplayer/governments.ruleset:189 data/multiplayer/techs.ruleset:306
@@ -16709,14 +16715,14 @@ msgid "Fundamentalism"
 msgstr "Fundamentalismus"
 
 #: data/civ2/governments.ruleset:150 data/multiplayer/governments.ruleset:196
-#, fuzzy, c-format
+#, c-format
 msgid "High Priest %s"
-msgstr "Hoher Priester"
+msgstr "Hohepriester %s"
 
 #: data/civ2/governments.ruleset:151 data/multiplayer/governments.ruleset:197
-#, fuzzy, c-format
+#, c-format
 msgid "High Priestess %s"
-msgstr "Hohe Priesterin"
+msgstr "Hohepriesterin %s"
 
 #: data/civ2/governments.ruleset:153 data/multiplayer/governments.ruleset:199
 msgid ""
@@ -16724,12 +16730,19 @@ msgid ""
 "beliefs. The beliefs, usually religious in nature, form a rigid guideline "
 "for actions and reactions of both the rulers and the people."
 msgstr ""
+"Im Zentrum fundamentalistischer Regierungsformen stehen eine Anzahl "
+"unbestreitbarer Glaubensgrundsätze, welche normalerweise religiöser Natur "
+"sind und den Aktionen und Reaktionen sowohl der Anführer als auch der "
+"Bevölkerung strenge Umgangsformen und Richtlinien auferlegen."
 
 #: data/civ2/governments.ruleset:158 data/multiplayer/governments.ruleset:204
 msgid ""
 "In a fundamentalist society, the people and the rulers are entirely devoted "
 "to their beliefs, and are usually willing to die to preserve them."
 msgstr ""
+"Eine fundamentalistische Gesellschaft fordert von ihrem Volk und ihrem "
+"Anführer eine bedingungslose und nicht zu hinterfragende Hingabe an ihren "
+"Glauben, den sie bis zum Tod und darüber hinaus zu erhalten suchen."
 
 #: data/civ2/governments.ruleset:162 data/multiplayer/governments.ruleset:208
 msgid ""
@@ -16737,9 +16750,12 @@ msgid ""
 "produce `tithes' (gold) equivalent to the number of people they would "
 "convert, and require no maintenance."
 msgstr ""
+"Stadtverbesserungen, die fürgewöhnlich unzufriedene Bürger in zufriedene "
+"verwandeln, führen stattdessen einen »Zehnten« in Form von Gold ab, dessen "
+"Größe gleich der Anzahl der Leute ist, die sie sonst zufriedenstellen "
+"würden. Außerdem verursachen sie keine Instandhaltungskosten."
 
 #: data/civ2/governments.ruleset:203
-#, fuzzy
 msgid ""
 "Under Democracy, citizens govern directly by voting on issues. Democracy "
 "offers the highest possible level of trade, but also offers the most "
@@ -16747,9 +16763,9 @@ msgid ""
 "Democracy, but citizens become very upset during wars."
 msgstr ""
 "In der Demokratie regieren die Bürger direkt durch Abstimmungen und Wahlen. "
-"Demokratie erlaubt den größtmöglichen Handel, aber auch das größte Potential "
-"für Unzufriedenheit. Es gibt keine Korruption, aber Bürger werden durch "
-"Kriege sehr unruhig."
+"Demokratie erlaubt den größtmöglichen Handel, birgt aber auch das größte "
+"Potential für Unzufriedenheit. Es gibt keine Korruption, aber Bürger werden "
+"durch Kriege sehr unruhig."
 
 #: data/civ2/nations.ruleset:52 data/nation/american.ruleset:48
 #: data/nation/boer.ruleset:29 data/nation/confederate.ruleset:36
@@ -16757,9 +16773,9 @@ msgstr ""
 #: data/nation/guyanese.ruleset:26 data/nation/liberian.ruleset:31
 #: data/nation/moluccan.ruleset:31 data/nation/surinamese.ruleset:29
 #: data/nation/texan.ruleset:29 data/nation/vermont.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Reverend %s"
-msgstr "Pfarrer"
+msgstr "Pfarrer %s"
 
 #: data/civ2/nations.ruleset:52 data/nation/american.ruleset:48
 #: data/nation/boer.ruleset:29 data/nation/confederate.ruleset:36
@@ -16767,9 +16783,9 @@ msgstr "Pfarrer"
 #: data/nation/guyanese.ruleset:26 data/nation/liberian.ruleset:31
 #: data/nation/moluccan.ruleset:31 data/nation/surinamese.ruleset:29
 #: data/nation/texan.ruleset:29 data/nation/vermont.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Reverend %s"
-msgstr "Pfarrer"
+msgstr "Pfarrerin %s"
 
 #: data/civ2/nations.ruleset:308 data/nation/carthaginian.ruleset:3
 msgid "Carthaginian"
@@ -16780,7 +16796,6 @@ msgid "?plural:Carthaginians"
 msgstr "Karthager"
 
 #: data/civ2/nations.ruleset:311
-#, fuzzy
 msgid ""
 "The Carthaginians, descendants of Phoenician traders, ran a naval empire in "
 "the Mediterranean from the 5th to 2nd centuries BC. Carthage was destroyed "
@@ -16792,12 +16807,11 @@ msgstr ""
 
 #: data/civ2/nations.ruleset:339
 msgid "Celtic"
-msgstr ""
+msgstr "keltisch"
 
 #: data/civ2/nations.ruleset:340
-#, fuzzy
 msgid "?plural:Celts"
-msgstr "Gallier"
+msgstr "Kelten"
 
 #: data/civ2/nations.ruleset:342 data/nation/briton.ruleset:6
 msgid ""
@@ -16805,52 +16819,55 @@ msgid ""
 "Age. They spoke Brythonic Celtic languages and are the ancestors of the "
 "modern Welsh, Cornish and Breton people."
 msgstr ""
+"Die Britonen waren während der Eisenzeit die Einwohner des heutigen "
+"Großbritanniens. Sie sprachen britonisch-keltische Sprachen und waren die "
+"Vorfahren der heutigen Waliser, Kornier und Bretonen."
 
 #: data/civ2/nations.ruleset:355 data/nation/briton.ruleset:22
 #: data/nation/gaelic.ruleset:27 data/nation/gallic.ruleset:30
 #: data/nation/pictish.ruleset:25 data/nation/vistulan.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "Druid %s"
-msgstr "Druide"
+msgstr "Druide %s"
 
 #: data/civ2/nations.ruleset:355 data/nation/briton.ruleset:22
 #: data/nation/gaelic.ruleset:27 data/nation/gallic.ruleset:30
 #: data/nation/pictish.ruleset:25 data/nation/vistulan.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Druid %s"
-msgstr "Präsidentin"
+msgstr "Druidin %s"
 
 #: data/civ2/nations.ruleset:356 data/nation/atlantean.ruleset:23
 #: data/nation/briton.ruleset:23 data/nation/canari.ruleset:30
 #: data/nation/cornish.ruleset:21 data/nation/etruscan.ruleset:32
 #: data/nation/gaelic.ruleset:26 data/nation/irish.ruleset:41
 #: data/nation/pictish.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "High King %s"
-msgstr "Hoher König"
+msgstr "Hoher König %s"
 
 #: data/civ2/nations.ruleset:356 data/nation/atlantean.ruleset:23
 #: data/nation/briton.ruleset:23 data/nation/canari.ruleset:30
 #: data/nation/cornish.ruleset:21 data/nation/etruscan.ruleset:32
 #: data/nation/gaelic.ruleset:26 data/nation/irish.ruleset:41
 #: data/nation/pictish.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "High Queen %s"
-msgstr "Hohe Königin"
+msgstr "Hohe Königin %s"
 
 # EH: historisch. Sollte nicht übersetzt werden.
 #: data/civ2/nations.ruleset:653 data/nation/british.ruleset:26
 #: data/nation/english.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Lord Protector %s"
-msgstr "Lord Protector"
+msgstr "Lord Protector %s"
 
 # EH: pseudo-historisch. Sollte nicht übersetzt werden.
 #: data/civ2/nations.ruleset:653 data/nation/british.ruleset:26
 #: data/nation/english.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Lady Protector %s"
-msgstr "Lady Protector"
+msgstr "Lady Protector %s"
 
 #: data/civ2/nations.ruleset:764 data/civ2/nations.ruleset:888
 #: data/nation/austrian.ruleset:49 data/nation/bolivian.ruleset:41
@@ -16869,30 +16886,30 @@ msgstr "Lady Protector"
 #: data/nation/southafrican.ruleset:24 data/nation/southamerican.ruleset:21
 #: data/nation/southvietnamese.ruleset:24 data/nation/teutonic.ruleset:29
 #: data/nation/westernpomeranian.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Archbishop %s"
-msgstr "Erzbischof"
+msgstr "Erzbischof %s"
 
 #: data/civ2/nations.ruleset:764 data/civ2/nations.ruleset:888
 #: data/nation/finnish.ruleset:28 data/nation/german.ruleset:32
 #: data/nation/kashubian.ruleset:29 data/nation/prussian.ruleset:29
 #: data/nation/southafrican.ruleset:24 data/nation/southvietnamese.ruleset:24
 #: data/nation/westernpomeranian.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Archbishop %s"
-msgstr "Erzbischof"
+msgstr "Erzbischöfin %s"
 
 #: data/civ2/nations.ruleset:1187 data/nation/indian.ruleset:25
 #: data/nation/sikh.ruleset:33 data/nation/vedic.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Guru %s"
-msgstr "Benutzername %s, "
+msgstr "Guru %s"
 
 #: data/civ2/nations.ruleset:1187 data/nation/indian.ruleset:25
 #: data/nation/sikh.ruleset:33 data/nation/vedic.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Guru %s"
-msgstr "Präsidentin"
+msgstr "Guru %s"
 
 #: data/civ2/nations.ruleset:1264 data/nation/japanese.ruleset:3
 msgid "Japanese"
@@ -16919,19 +16936,20 @@ msgstr ""
 #: data/nation/latin.ruleset:43 data/nation/mexican.ruleset:53
 #: data/nation/nestorian.ruleset:28 data/nation/southvietnamese.ruleset:25
 #: data/nation/toltec.ruleset:34 data/nation/vietnamese.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Empress %s"
-msgstr "Kaiserin"
+msgstr "Kaiser %s"
 
 #: data/civ2/nations.ruleset:1279 data/nation/japanese.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Shogun %s"
-msgstr "Shogun"
+msgstr "Shōgun %s"
 
+# MG: Kann jemand Japanisch? Weibliche Form von Shōgun?
 #: data/civ2/nations.ruleset:1279 data/nation/japanese.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Shogun %s"
-msgstr "Genossin"
+msgstr "Shōgun %s"
 
 #: data/civ2/nations.ruleset:1439 data/nation/persian.ruleset:3
 msgid "Persian"
@@ -16942,7 +16960,6 @@ msgid "?plural:Persians"
 msgstr "Perser"
 
 #: data/civ2/nations.ruleset:1442
-#, fuzzy
 msgid ""
 "The first Persian (Achaemenid) Empire lasted from 550 BC to 330 BC; the "
 "second (Sassanid) from 226 AD to 642 AD."
@@ -16953,28 +16970,28 @@ msgstr ""
 #: data/civ2/nations.ruleset:1453 data/nation/azeri.ruleset:36
 #: data/nation/iranian.ruleset:41 data/nation/khwarezmian.ruleset:28
 #: data/nation/persian.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "%s Shah"
-msgstr "Schah"
+msgstr "%s Schah"
 
 #: data/civ2/nations.ruleset:1453 data/nation/azeri.ruleset:36
 #: data/nation/iranian.ruleset:41 data/nation/khwarezmian.ruleset:28
 #: data/nation/median.ruleset:31 data/nation/persian.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "%s Shahbanu"
-msgstr "Shahbanu"
+msgstr "%s Schahbanu"
 
 #: data/civ2/nations.ruleset:1454 data/nation/iranian.ruleset:42
 #: data/nation/persian.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Ayatollah %s"
-msgstr "Ayatollah"
+msgstr "Ayatollah %s"
 
 #: data/civ2/nations.ruleset:1454 data/nation/iranian.ruleset:42
 #: data/nation/persian.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Ayatollah %s"
-msgstr "Taoiseach"
+msgstr "Ayatollah %s"
 
 #: data/civ2/nations.ruleset:1584 data/nation/abyssinian.ruleset:23
 #: data/nation/armenian.ruleset:25 data/nation/belarusian.ruleset:34
@@ -16990,9 +17007,9 @@ msgstr "Taoiseach"
 #: data/nation/ruthenian.ruleset:30 data/nation/serbian.ruleset:35
 #: data/nation/siberian.ruleset:23 data/nation/transnistrian.ruleset:25
 #: data/nation/ukrainian.ruleset:40 data/nation/venetian.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Patriarch %s"
-msgstr "Patriarch"
+msgstr "Patriarch %s"
 
 #: data/civ2/nations.ruleset:1584 data/nation/abyssinian.ruleset:23
 #: data/nation/armenian.ruleset:25 data/nation/belarusian.ruleset:34
@@ -17008,9 +17025,9 @@ msgstr "Patriarch"
 #: data/nation/ruthenian.ruleset:30 data/nation/serbian.ruleset:35
 #: data/nation/siberian.ruleset:23 data/nation/transnistrian.ruleset:25
 #: data/nation/ukrainian.ruleset:40 data/nation/venetian.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Matriarch %s"
-msgstr "Matriarchin"
+msgstr "Matriarchin %s"
 
 #: data/civ2/nations.ruleset:1654 data/nation/sioux.ruleset:3
 msgid "Sioux"
@@ -17039,7 +17056,6 @@ msgid "?plural:Spanish"
 msgstr "Spanier"
 
 #: data/civ2/nations.ruleset:1746 data/nation/spanish.ruleset:6
-#, fuzzy
 msgid ""
 "The modern Spanish nation was formed when the rulers of the kingdoms of "
 "Castile and Aragon led the recapture of the Iberian peninsula from the "
@@ -17049,34 +17065,35 @@ msgstr ""
 "Das moderne Spanien wurde gebildet, als die Herrscher Kastiliens und Aragons "
 "die Rückeroberung der iberischen Halbinsel von den Moslems anführten. Die "
 "Reconquista wurde 1492 erreicht, im gleichen Jahr, in dem Kolumbus in See "
-"stach."
+"stach. Die Spanier versuchten nun, ein Imperium zu errichten, »in dem die "
+"Sonne niemals sinkt«."
 
 #: data/civ2/nations.ruleset:1760 data/nation/argentine.ruleset:29
 #: data/nation/cuban.ruleset:23 data/nation/southamerican.ruleset:20
 #: data/nation/spanish.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "Caudillo %s"
-msgstr "Caudillo"
+msgstr "Caudillo %s"
 
 #: data/civ2/nations.ruleset:1760 data/nation/argentine.ruleset:29
 #: data/nation/cuban.ruleset:23 data/nation/southamerican.ruleset:20
 #: data/nation/spanish.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "Caudilla %s"
-msgstr "Caudilla"
+msgstr "Caudilla %s"
 
 #: data/civ2/nations.ruleset:1761 data/nation/argentine.ruleset:30
 #: data/nation/castilian.ruleset:32 data/nation/cuban.ruleset:24
 #: data/nation/filipino.ruleset:22 data/nation/french.ruleset:42
 #: data/nation/neapolitan.ruleset:26 data/nation/spanish.ruleset:41
-#, fuzzy, c-format
+#, c-format
 msgid "Cardinal %s"
-msgstr "Kardinal"
+msgstr "Kardinal %s"
 
 #: data/civ2/nations.ruleset:1761 data/nation/argentine.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Cardinal %s"
-msgstr "Konsulin"
+msgstr "Kardinälin %s"
 
 #: data/civ2/nations.ruleset:1815 data/nation/viking.ruleset:3
 msgid "Viking"
@@ -17087,7 +17104,6 @@ msgid "?plural:Vikings"
 msgstr "Wikinger"
 
 #: data/civ2/nations.ruleset:1818
-#, fuzzy
 msgid ""
 "The Vikings raided and traded along the coasts of Europe between 800 AD and "
 "1100 AD. Viking raiders eventually became the rulers of Normandy, Russia, "
@@ -17098,14 +17114,14 @@ msgstr ""
 "Russland, und, für kurze Zeit, des Königsreiches Sizilien."
 
 #: data/civ2/nations.ruleset:1830
-#, fuzzy, c-format
+#, c-format
 msgid "%s Jarl"
-msgstr "Patrouillieren"
+msgstr "%s Jarl"
 
 #: data/civ2/nations.ruleset:1830
-#, fuzzy, c-format
+#, c-format
 msgid "?female:%s Jarl"
-msgstr "Genossin"
+msgstr "%s Jarl"
 
 #: data/civ2/techs.ruleset:66 data/default/techs.ruleset:77
 #: data/experimental/techs.ruleset:80 data/multiplayer/techs.ruleset:77
@@ -17123,9 +17139,8 @@ msgid "Reduces the effect of Cathedrals."
 msgstr "Vermindert den Effekt von Kathedralen."
 
 #: data/civ2/techs.ruleset:201
-#, fuzzy
 msgid "Allows Settlers and Engineers to build fortresses."
-msgstr "* %s mit diesem Wissen können befestigte Stellungen bauen.\n"
+msgstr "Erlaubt es Siedlern und Ingenieuren, Festungen zu errichten."
 
 #: data/civ2/techs.ruleset:220 data/default/techs.ruleset:231
 #: data/experimental/techs.ruleset:251 data/multiplayer/techs.ruleset:231
@@ -17209,9 +17224,8 @@ msgid "Radio"
 msgstr "Funk"
 
 #: data/civ2/techs.ruleset:576
-#, fuzzy
 msgid "Allows Settlers and Engineers to build airbases."
-msgstr "* %s mit diesem Wissen können Fliegerhorste bauen.\n"
+msgstr "Erlaubt es Siedlern und Ingenieuren, Fliegerhorste zu bauen."
 
 #: data/civ2/techs.ruleset:604 data/default/techs.ruleset:608
 #: data/experimental/techs.ruleset:671 data/multiplayer/techs.ruleset:616
@@ -17255,20 +17269,16 @@ msgstr "Kriegerkodex"
 
 #: data/civ2/terrain.ruleset:54 data/default/terrain.ruleset:57
 #: data/experimental/terrain.ruleset:59 data/multiplayer/terrain.ruleset:57
-#, fuzzy
 msgid ""
 "Any land terrain type may have a River on it.  A River adds 1 trade to the "
 "resources produced by that tile.  It also increases a tile's defense factor "
 "by 50%.  Finally, land units may move along a River (but not diagonally); "
 "movement along a River costs only 1/3 of a movement point."
 msgstr ""
-"Auf jeder Geländeform außer Ozeanen können Flüsse vorkommen. Ein Fluß gibt "
-"einen zusätzlichen Handelspunkt und erhöht den Verteidigungsfaktor um 50%. "
-"Zusätzlich kostet die Bewegung von Landeinheiten entlang eines Flusses nur "
-"1/3 Bewegungspunkt pro Feld.\n"
-"\n"
-"Straßen und Schienen können nur mit Kenntnis von Brückenbau auf diesen "
-"Feldern gebaut werden."
+"Auf jeder Landgeländeform können Flüsse vorkommen. Ein Fluß gibt einen "
+"zusätzlichen Handelspunkt und erhöht den Verteidigungsfaktor um 50%. "
+"Zusätzlich kostet die (nicht-diagonale) Bewegung von Landeinheiten entlang "
+"eines Flusses nur 1/3 Bewegungspunkt pro Feld."
 
 #: data/civ2/terrain.ruleset:59 data/default/terrain.ruleset:62
 #: data/experimental/terrain.ruleset:64 data/multiplayer/terrain.ruleset:62
@@ -17276,6 +17286,8 @@ msgid ""
 "Roads and railroads can only be built on River tiles if your civilization "
 "has learned Bridge Building technology."
 msgstr ""
+"Straßen und Eisenbahnlinien können auf Flussfeldern nur mit der Kenntnis des "
+"Brückenbaus errichtet werden."
 
 #: data/civ2/terrain.ruleset:229 data/default/terrain.ruleset:314
 #: data/experimental/terrain.ruleset:316 data/multiplayer/terrain.ruleset:314
@@ -17357,6 +17369,9 @@ msgid ""
 "remaining in a fortress for a whole turn without moving recovers a quarter "
 "of its hit points."
 msgstr ""
+"Festungen erleichtern die Verteidung für Landeinheiten. Neben anderen "
+"Effekten erhält eine Landeinheit, die sich bewegungslos für eine ganze Runde "
+"in einer Festung aufhält, ein Viertel ihrer Lebenspunkte zurück."
 
 #: data/civ2/terrain.ruleset:877 data/default/terrain.ruleset:993
 #: data/experimental/terrain.ruleset:995 data/multiplayer/terrain.ruleset:993
@@ -17364,13 +17379,15 @@ msgid ""
 "Airbases allow your air units to land and refuel. Air units in an airbase "
 "may be attacked by land units."
 msgstr ""
+"Fliegerhorste erlauben Ihrer Luftwaffe zu landen nun neu aufgetankt zu "
+"werden. Allerdings können Lufteinheiten in Fliegerhorsten auch von "
+"Landeinheiten angegriffen werden."
 
 #. TRANS: Unit class: used adjectivally
 #: data/civ2/units.ruleset:121 data/default/units.ruleset:133
 #: data/experimental/units.ruleset:147 data/multiplayer/units.ruleset:133
-#, fuzzy
 msgid "?unitclass:Helicopter"
-msgstr "Hubschrauber"
+msgstr "Hubschrauber-"
 
 #: data/civ2/units.ruleset:235
 msgid ""
@@ -17396,20 +17413,17 @@ msgid ""
 msgstr ""
 "Ingenieure sind Siedlern sehr ähnlich, arbeiten aber doppelt so schnell und "
 "können sich doppelt so schnell bewegen. Außerdem sind sie im Gegensatz zu "
-"Siedlern dazu fähig, Geländeformen zu verändern.\n"
-"\n"
-"HINWEIS 1: Siedler sollten so bald wie möglich zu Ingenieuren 'modernisiert' "
-"werden, da diese nicht mehr kosten.\n"
-"\n"
-"HINWEIS 2: Wenn man Leonardos Werkstatt besitzt, sollte man sich Kenntnisse "
-"über Sprengstoff verschaffen, so lange sie nützt: Auf diese Art werden die "
-"Siedler kostenlos 'modernisiert'."
+"Siedlern dazu fähig, Geländeformen zu verändern (sie können z.B. Tundra in "
+"Wüste verwandeln). Siehe den Abschnitt über Geländetransformationen für "
+"weitere Informationen."
 
 #: data/civ2/units.ruleset:275
 msgid ""
 "TIP 1:  Upgrade Settlers to Engineers when possible, as Engineers require "
 "the same resources as ordinary Settlers."
 msgstr ""
+"TIPP 1: Siedler sollten so bald wie möglich zu Ingenieuren modernisiert "
+"werden, da sie dieselben Ressourcen wie gewöhnliche Siedler erfordern."
 
 #: data/civ2/units.ruleset:278
 msgid ""
@@ -17417,6 +17431,10 @@ msgid ""
 "before the Workshop becomes obsolete.  This way, your Settler units will be "
 "upgraded for free."
 msgstr ""
+"TIPP 2: Wenn Sie Leonardos Werkstatt besitzen, sollten Sie sich, bevor sie "
+"ihre Wirkung veliert, möglichst schnell die Kenntnisse über Sprengstoff "
+"aneignen, da Ihre Siedlereinheiten dann kostenlos zu Ingenieuren "
+"modernisiert werden."
 
 #: data/civ2/units.ruleset:285 data/default/units.ruleset:432
 #: data/experimental/units.ruleset:468 data/multiplayer/units.ruleset:433
@@ -17430,7 +17448,6 @@ msgstr "Bogenschützen"
 
 #: data/civ2/units.ruleset:374 data/default/units.ruleset:521
 #: data/experimental/units.ruleset:557 data/multiplayer/units.ruleset:522
-#, fuzzy
 msgid ""
 "Archers fight with bows and arrows and have a good offensive value as well "
 "as decent defense."
@@ -17468,6 +17485,8 @@ msgstr "Fanatiker"
 #: data/civ2/units.ruleset:505 data/multiplayer/units.ruleset:653
 msgid "Fanatics are warriors extremely devoted to a higher cause."
 msgstr ""
+"Fanatiker sind Krieger, die ihrer Sache vorbehaltlos verpflichtet sind, da "
+"sie glauben, einem höheren Ziel zu dienen."
 
 #: data/civ2/units.ruleset:507 data/multiplayer/units.ruleset:655
 msgid ""
@@ -17483,15 +17502,15 @@ msgstr "Partisanen"
 
 #: data/civ2/units.ruleset:539 data/default/units.ruleset:651
 #: data/experimental/units.ruleset:687 data/multiplayer/units.ruleset:687
-#, fuzzy
 msgid ""
 "Partisans are guerilla fighters who are experts at using the terrain to "
 "their advantage."
-msgstr "Marines sind als Fußtruppen Experten des Seekrieges."
+msgstr ""
+"Partisanen sind Guerillakrieger, die die Fähigkeit, das umgebende Gelände "
+"für ihre Zwecke auszunutzen, zur Meisterschaft gebracht haben."
 
 #: data/civ2/units.ruleset:542 data/default/units.ruleset:654
 #: data/experimental/units.ruleset:690 data/multiplayer/units.ruleset:690
-#, fuzzy
 msgid ""
 "A number of Partisans are granted free when an enemy conquers your city -- "
 "they automatically assume defensive positions in the surrounding countryside "
@@ -17501,13 +17520,13 @@ msgid ""
 " - You must know about Communism and Gunpowder.\n"
 " - You must run either a Democracy or a Communist government."
 msgstr ""
-"Falls eine Stadt erobert wird, werden unter folgenden Bedingungen Partisanen "
-"(kostenlos) zur Verfügung gestellt:\n"
-"\n"
+"Falls eine Ihrer Städte vom Feind erobert wird, werden unter folgenden "
+"Bedingungen Partisanen kostenlos in der näheren Umgebung zur Verfügung "
+"gestellt:\n"
 "- Guerillakrieg ist mindestens einem Spieler bekannt.\n"
-"- Die Stadt muß selbst gebaut worden sein.\n"
-"- Kommunismus und Schießpulver sind bekannt.\n"
-"- Die Regierungsform ist Demokratie oder Kommunismus."
+"- Sie müssen der ursprüngliche Gründer der Stadt sein.\n"
+"- Kommunismus und Schießpulver sind Ihnen bekannt.\n"
+"- Ihre Regierungsform ist Demokratie oder Kommunismus."
 
 #: data/civ2/units.ruleset:553 data/default/units.ruleset:665
 #: data/experimental/units.ruleset:701 data/multiplayer/units.ruleset:701
@@ -17638,11 +17657,10 @@ msgstr ""
 #: data/civ2/units.ruleset:1172 data/default/units.ruleset:1220
 #: data/experimental/units.ruleset:1257 data/multiplayer/units.ruleset:1320
 msgid "Helicopter"
-msgstr "Hubschrauber"
+msgstr "Helikopter"
 
 #: data/civ2/units.ruleset:1198 data/default/units.ruleset:1246
 #: data/experimental/units.ruleset:1283
-#, fuzzy
 msgid ""
 "The Helicopter is a very powerful unit, as it can both fly and conquer "
 "cities.  Care must be exercised, because Helicopters lose a small amount of "
@@ -17650,9 +17668,12 @@ msgid ""
 "you have the United Nations wonder, and Helicopters may be attacked by "
 "ground units."
 msgstr ""
-"Hubschrauber sind sehr starke Einheiten, da sie sowohl fliegen als auch "
-"Städte erobern können. Trotzdem muß man sie im Auge behalten, da sie jede "
-"Runde, die sie nicht in einer Stadt sind, Trefferpunkte verlieren."
+"Helikopter sind sehr starke Einheiten, da sie sowohl fliegen als auch Städte "
+"erobern können. Trotzdem muß man sie im Auge behalten, da sie jede Runde — "
+"sofern Sie nicht die Vereinten Nationen erbaut haben —, die sie sich nicht "
+"in einer Stadt, einem Fliegerhorst oder auf einem Flugzeugträger befinden, "
+"Trefferpunkte verlieren. Außerdem können Helikopter von Landeinheiten "
+"angegriffen werden."
 
 #: data/civ2/units.ruleset:1207 data/default/units.ruleset:1255
 #: data/experimental/units.ruleset:1292 data/multiplayer/units.ruleset:1354
@@ -17687,7 +17708,8 @@ msgstr "Karavelle"
 msgid ""
 "The Caravel replaces the Trireme and is much more reliable on the open seas."
 msgstr ""
-"Die Karavelle ersetzt die Trireme und ist viel verläßlicher auf hoher See."
+"Die Karavelle ersetzt die Trireme und ist auf hoher See viel verlässlicher "
+"als diese."
 
 #: data/civ2/units.ruleset:1340 data/default/units.ruleset:1388
 #: data/experimental/units.ruleset:1425 data/multiplayer/units.ruleset:1487
@@ -17712,6 +17734,7 @@ msgstr "Zerstörer"
 #: data/experimental/units.ruleset:1552 data/multiplayer/units.ruleset:1614
 msgid "An improved Ironclad, with better move rate and vision."
 msgstr ""
+"Ein verbessertes Panzerschiff mit besserer Fortbewegung und Sichtweite."
 
 #: data/civ2/units.ruleset:1469 data/default/units.ruleset:1517
 #: data/experimental/units.ruleset:1554 data/multiplayer/units.ruleset:1616
@@ -17735,20 +17758,20 @@ msgstr ""
 "Der AEGIS-Kreuzer ist mit einem fortschrittlichen Raketenabwehrsystem "
 "ausgerüstet."
 
+# MG: Der Begriff "Cruise Missile" ist im Deutschen geläufig genug, um ihn stehen zu lassen.
 #: data/civ2/units.ruleset:1674 data/default/units.ruleset:1722
 #: data/experimental/units.ruleset:1759 data/multiplayer/units.ruleset:1821
 msgid "Cruise Missile"
-msgstr "Lenkrakete"
+msgstr "Cruise Missile"
 
 #: data/civ2/units.ruleset:1700 data/default/units.ruleset:1748
 #: data/experimental/units.ruleset:1785 data/multiplayer/units.ruleset:1847
-#, fuzzy
 msgid ""
 "The Cruise Missile is a long-distance missile that can strike deep into "
 "enemy territory."
 msgstr ""
-"Reiter sind berittene Krieger für den Überraschungsangriff, die tief ins "
-"Feindesland eindringen können."
+"Die Cruise Missile ist eine Langstreckenrake, die tief in feindlichem "
+"Territorium einschlagen kann."
 
 #: data/civ2/units.ruleset:1703 data/default/units.ruleset:1751
 #: data/experimental/units.ruleset:1788 data/multiplayer/units.ruleset:1850
@@ -17756,7 +17779,7 @@ msgid ""
 "TIP:  A handful of these can successfully keep the waters around your "
 "treasured homeland free of enemy ships."
 msgstr ""
-"HINWEIS: Ein paar davon halten den Ozean in Küstennähe frei von feindlichen "
+"TIPP: Ein paar davon halten den Ozean in Küstennähe frei von feindlichen "
 "Schiffen."
 
 #: data/civ2/units.ruleset:1743
@@ -17786,6 +17809,8 @@ msgstr "Spion"
 msgid ""
 "A Spy is more skilled in the arts of espionage than her Diplomat predecessor."
 msgstr ""
+"Ein Spion vermag die Kunst der Spionage besser anzuwenden als sein "
+"Vorgänger, der Diplomat."
 
 #: data/civ2/units.ruleset:1885 data/default/units.ruleset:1957
 #: data/experimental/units.ruleset:1994 data/multiplayer/units.ruleset:2056
@@ -17796,6 +17821,11 @@ msgid ""
 "are also more effective than Diplomats at defending cities against foreign "
 "Diplomats and Spies."
 msgstr ""
+"Er kann alle Funktionen des Diplomaten übernehmen (siehe den Eintrag über "
+"Diplomaten für mehr Informationen), aber im Gegensatz zu diesem kann ein "
+"Spion eine verdeckte Operation in einer fremden Stadt überleben und dabei "
+"Erfahrung sammeln. Spione sind außerdem besser zur Verteidigung einer Stadt "
+"gegen andere Diplomaten und Spione als Diplomaten."
 
 #: data/civ2/units.ruleset:1891 data/default/units.ruleset:1963
 #: data/experimental/units.ruleset:2000 data/multiplayer/units.ruleset:2062
@@ -17810,6 +17840,18 @@ msgid ""
 "(although cities become more resistant each time they are stolen from);\n"
 " - sabotage predetermined city targets (with a reduced chance of success)."
 msgstr ""
+"Außerdem können Spione zu den folgenden Aktionen benutzt werden:\n"
+" - Sabotage einer feindlichen Einheit, wodurch sich deren Lebenspunkte auf "
+"die Hälfte reduzieren, wenn diese sich allein auf einem Feld und die Spieler "
+"sich im Krieg befinden;\n"
+" - Vergiften der Wasserversorgung einer Stadt, wodurch sich die Bevölkerung "
+"um eins reduziert und der Kornspeicher geleert wird;\n"
+" - Diebstahl einer bestimmten Technologie (allerdings mit geringerer "
+"Erfolgschance);\n"
+" - Diebstahl weiterer Technologien aus einer Stadt, die bereits bestohlen "
+"wurde (allerdings wird eine Stadt mit jedem Diebstahl resistenter);\n"
+" - Sabotage bestimmter Ziele in einer Stadt (allerdings mit einer "
+"verringerten Erfolgschance)."
 
 #: data/civ2/units.ruleset:1903 data/default/units.ruleset:1975
 #: data/experimental/units.ruleset:2012 data/multiplayer/units.ruleset:2074
@@ -17817,6 +17859,9 @@ msgid ""
 "A Spy that survives the more aggressive actions (sabotage, theft, inciting "
 "rebellion, and poisoning) escapes to the safety of the nearest friendly city."
 msgstr ""
+"Ein Spion, der eine der aggressiveren Operationen (Sabotage, Diebstahl, "
+"Anzetteln einer Rebellion, Vergiften) überlebt, flieht in die Sicherheit der "
+"nächstgelegenen freundlich gesinnten Stadt."
 
 #: data/civ2/units.ruleset:1949 data/default/units.ruleset:2021
 #: data/experimental/units.ruleset:2058 data/multiplayer/units.ruleset:2120
@@ -17839,11 +17884,11 @@ msgid ""
 "Explorers are brave individuals that are very useful for mapping unknown "
 "territory."
 msgstr ""
-"Kundschafter sind sehr nützlich bei der Erkundung von unbekanntem Gelände."
+"Kundschafter sind mutige Leute, die für die Erkundung von unbekanntem "
+"Gelände sehr nützlich sind."
 
 #: data/civ2/units.ruleset:2041 data/default/units.ruleset:2147
 #: data/experimental/units.ruleset:2184 data/multiplayer/units.ruleset:2247
-#, fuzzy
 msgid ""
 "When a Barbarian Leader is killed on a tile without any defending units, the "
 "100 gold ransom is paid, but only to land units and helicopters."
@@ -17852,37 +17897,37 @@ msgstr ""
 "die 100 Goldstücke Belohnung nur an Landeinheiten oder Helikopter bezahlt."
 
 #: data/default/buildings.ruleset:89 data/multiplayer/buildings.ruleset:113
-#, fuzzy
 msgid ""
 "Allows a city to grow larger than size 8 and reduces the chance of plague "
 "within the city. A Sewer System is required for a city to grow larger than "
 "size 12."
 msgstr ""
-"Erlaubt einer Stadt über die Größe 8 hinaus zu wachsen. Um größer als 12 "
-"werden zu können, benötigt die Stadt außerdem ein Abwassersystem."
+"Erlaubt einer Stadt über die Größe 8 hinaus zu wachsen und reduziert die "
+"Gefahr einer Seuche in der Stadt. Um größer als 12 werden zu können, "
+"benötigt die Stadt außerdem ein Abwassersystem."
 
 #: data/default/buildings.ruleset:278 data/experimental/buildings.ruleset:283
 #: data/multiplayer/buildings.ruleset:92
-#, fuzzy
 msgid ""
 "Entertains the citizens of a city, making 3 unhappy citizens content.  (Four "
 "after the discovery of Electricity.)  However, it does not affect citizens "
 "made unhappy by military activity."
 msgstr ""
-"Sorgt für Unterhaltung der Bürger einer Stadt und stellt so 3 (nach "
-"Entdeckung der Elektrizität 4) Unzufriedene zufrieden."
+"Sorgt für Unterhaltung der Bürger einer Stadt und stellt so drei (nach "
+"Entdeckung der Elektrizität vier) Unzufriedene zufrieden. Das betrifft "
+"allerdings niemanden, der wegen militärischer Aktivitäten unzufrieden ist."
 
 #: data/default/buildings.ruleset:302 data/experimental/buildings.ruleset:307
 #: data/multiplayer/buildings.ruleset:303
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Reduces the corruption in a city by 50%.  Under a Democracy, a Courthouse "
 "also makes 1 unhappy citizen content (unless that citizen is unhappy about "
 "military activity).  Also makes the revolt cost of the city 4 times bigger."
 msgstr ""
-"Halbiert die Korruption und die Verschwendung. In einer Demokratie macht es "
-"einen Unzufriedenen zufrieden. Außerdem werden die Kosten einer Revolte "
-"vervierfacht."
+"Halbiert die Korruption. In einer Demokratie macht es einen Unzufriedenen "
+"zufrieden (außer wenn der Betroffene wegen militärischer Aktivität "
+"unzufrieden ist). Außerdem werden die Kosten einer Revolte vervierfacht."
 
 #: data/default/buildings.ruleset:394 data/experimental/buildings.ruleset:419
 #: data/multiplayer/buildings.ruleset:392
@@ -17920,6 +17965,8 @@ msgid ""
 "In each city, only one Power Plant, Hydro Plant, Nuclear Plant, or Solar "
 "Plant can take effect at any one time."
 msgstr ""
+"In jeder Stadt kann nur ein Kohle-, Wasser-, Kern- oder Solarkraftwerk zur "
+"gleichen Zeit betrieben werden."
 
 #: data/default/buildings.ruleset:428 data/experimental/buildings.ruleset:477
 #: data/multiplayer/buildings.ruleset:423
@@ -18045,14 +18092,15 @@ msgstr ""
 
 #: data/default/buildings.ruleset:1108
 #: data/experimental/buildings.ruleset:1165
-#, fuzzy
 msgid ""
 "This stunning technological achievement makes one unhappy citizen content in "
 "each of your cities (including citizens unhappy about military activity). It "
 "further reduces the possibility for an illness in the city."
 msgstr ""
 "Diese faszinierende technologische Errungenschaft macht in jeder Stadt einen "
-"Unzufriedenen zufrieden."
+"Unzufriedenen zufrieden, sogar dann, wenn er wegen militärischer Aktionen "
+"unzufrieden ist. Außerdem reduziert es die Gefahr einer Krankheit in Ihren "
+"Städten."
 
 #: data/default/buildings.ruleset:1154
 #: data/experimental/buildings.ruleset:1211
@@ -18075,7 +18123,6 @@ msgstr ""
 
 #: data/default/buildings.ruleset:1342
 #: data/experimental/buildings.ruleset:1399
-#, fuzzy
 msgid ""
 "Gives all your sea units 1 additional movement point. Makes all your new "
 "military sea units veterans (for all your cities)."
@@ -18102,7 +18149,7 @@ msgstr ""
 
 #: data/default/buildings.ruleset:1488
 #: data/experimental/buildings.ruleset:1545
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Boosts science production in each city with a Research Lab by 100%."
 msgstr ""
 "Beschleunigt das Forschungstempo in jeder Stadt mit einem Forschungslabor um "
@@ -18110,15 +18157,14 @@ msgstr ""
 
 #: data/default/buildings.ruleset:1549
 #: data/experimental/buildings.ruleset:1606
-#, fuzzy
 msgid ""
 "All your new military land units start at the first veteran level. The "
 "chance of a land unit getting the next veteran level after a battle "
 "increases by half."
 msgstr ""
-"Neue Landeinheiten erhalten automatisch den ersten Veteranengrad. Bereits "
-"bestehenden Truppen erhalten nach jedem gewonnenen Kampf den jeweils "
-"nächsten Grad."
+"Neue Landeinheiten erhalten automatisch den ersten Veteranengrad und die "
+"Chance, nach einer Schlacht den nächsten Grad zu erreichen, erhöht sich um "
+"die Hälfte."
 
 #: data/default/buildings.ruleset:1610
 #: data/experimental/buildings.ruleset:1667
@@ -18142,24 +18188,27 @@ msgstr ""
 msgid ""
 "Each scientist adds three points to your empire's research output per turn."
 msgstr ""
+"Jeder Wissenschaftler erhöht das Gesamtforschungstempo Ihrer Nation um drei "
+"Punkte."
 
 #: data/default/cities.ruleset:75 data/experimental/cities.ruleset:77
 #: data/multiplayer/cities.ruleset:74
 msgid ""
 "Each tax collector produces three extra gold for your treasury per turn."
 msgstr ""
+"Jeder Steuereintreiber produziert drei Extra-Goldstücke für Ihre "
+"Schatzkammer."
 
 #: data/default/cities.ruleset:180 data/experimental/cities.ruleset:182
 #: data/multiplayer/cities.ruleset:179
-#, fuzzy
 msgid "?citystyle:ElectricAge"
-msgstr "keltisch"
+msgstr "Elektrische Ära"
 
 #: data/default/default.lua:22 server/unittools.c:2476
-#, fuzzy, c-format
+#, c-format
 msgid "You found %d gold."
 msgid_plural "You found %d gold."
-msgstr[0] "%d Goldstücke erhalten."
+msgstr[0] "%d Goldstück erhalten."
 msgstr[1] "%d Goldstücke erhalten."
 
 #: data/default/default.lua:35
@@ -18184,7 +18233,8 @@ msgstr "Eine unabhängige Stadt schließt sich an."
 
 #: data/default/default.lua:78
 msgid "Friendly nomads are impressed by you, and join you."
-msgstr "Eine Gruppe Nomaden stellt sich zur Verfügung."
+msgstr ""
+"Freundliche Nomaden sind von Ihnen beeindruckt und schließen sich Ihnen an."
 
 #: data/default/default.lua:96 server/unittools.c:2483
 msgid "An abandoned village is here."
@@ -18202,15 +18252,16 @@ msgstr "Barbaren haben %s vernichtet."
 #: data/default/default.lua:174 data/default/default.lua:176
 #, c-format
 msgid "The loss of %s has inspired partisans!"
-msgstr ""
+msgstr "Der Verlust von %s hat Partisanen auf den Plan gerufen!"
 
 #: data/default/game.ruleset:18
 msgid "Default ruleset"
-msgstr ""
+msgstr "Standardregelsatz"
 
 #: data/default/game.ruleset:21
 msgid "You are playing Freeciv with default ruleset for single player games."
 msgstr ""
+"Sie spielen Freeciv mit dem Standardregelsatz für Einzelspieler-Spiele."
 
 #. TRANS: year label (Common Era)
 #: data/default/game.ruleset:201 data/experimental/game.ruleset:207
@@ -18229,9 +18280,8 @@ msgid "?nationgroup:Medieval"
 msgstr "Mittelalter"
 
 #: data/default/nations.ruleset:31
-#, fuzzy
 msgid "?nationgroup:Early Modern"
-msgstr "Modern"
+msgstr "Frühe Neuzeit"
 
 #: data/default/nations.ruleset:37
 msgid "?nationgroup:African"
@@ -18254,20 +18304,19 @@ msgid "?nationgroup:Oceanian"
 msgstr "Ozeanien"
 
 #: data/default/nations.ruleset:52
-#, fuzzy
 msgid "?nationgroup:Imaginary"
-msgstr "Asien"
+msgstr "Imaginäre"
 
 #: data/default/techs.ruleset:212 data/experimental/techs.ruleset:230
 #: data/multiplayer/techs.ruleset:212
-#, fuzzy
 msgid "Allows Settlers, Workers and Engineers to build fortresses."
-msgstr "Siedler und Ingenieure sind in der Lage, Geländeformen zu verändern."
+msgstr ""
+"Erlaubt es Siedlern, Arbeitern und Ingenieuren, Festungen zu errichten."
 
 #: data/default/techs.ruleset:359 data/experimental/techs.ruleset:394
 #: data/multiplayer/techs.ruleset:368
 msgid "Increases units' vision when in fortresses."
-msgstr ""
+msgstr "Erhöht die Sichtweite von Einheiten in Festungen."
 
 #: data/default/techs.ruleset:580 data/experimental/techs.ruleset:640
 #: data/multiplayer/techs.ruleset:589
@@ -18283,7 +18332,7 @@ msgstr "See"
 #: data/default/terrain.ruleset:230 data/experimental/terrain.ruleset:232
 #: data/multiplayer/terrain.ruleset:230
 msgid "Lakes are substantial bodies of fresh water."
-msgstr ""
+msgstr "Seen sind abgeschlossene Bereiche frischen Wassers."
 
 #: data/default/terrain.ruleset:268 data/experimental/terrain.ruleset:270
 #: data/multiplayer/terrain.ruleset:268
@@ -18292,24 +18341,24 @@ msgid ""
 "of food and other resources. They can be traversed by sea units, including "
 "Triremes."
 msgstr ""
+"Seichtes Wasser ist meist in Küstennähe zu finden und reich an Nahrung sowie "
+"anderen Ressourcen. Es kann von Seeeinheiten (einschließlich Triremen) "
+"befahren werden."
 
 #: data/default/terrain.ruleset:275 data/experimental/terrain.ruleset:277
 #: data/multiplayer/terrain.ruleset:275
-#, fuzzy
 msgid "Deep Ocean"
-msgstr "Ozean"
+msgstr "Tiefsee"
 
 #: data/default/terrain.ruleset:308 data/experimental/terrain.ruleset:310
 #: data/multiplayer/terrain.ruleset:308
-#, fuzzy
 msgid ""
 "Deep oceans cover much of the world away from coastlines, and only seaworthy "
 "units (not including Triremes) can travel on them."
 msgstr ""
-"Ozeanfelder machen einen großen Teil der Welt aus. Sie können nur von "
-"Marineeinheiten (Triremen und anderen Schiffen) befahren werden.\n"
-"\n"
-"In Freeciv gibt es hier weder Umweltverschmutzung noch Fallout."
+"Die tiefen Ozeane machen einen großen Teil der Welt abseits der Küsten aus, "
+"und es ist nur hochseetüchtigen Einheiten (Triremen fallen nicht darunter) "
+"möglich, diese riesigen Weiten zu bereisen."
 
 #: data/default/terrain.ruleset:971 data/experimental/terrain.ruleset:973
 #: data/multiplayer/terrain.ruleset:971
@@ -18319,23 +18368,28 @@ msgid ""
 "of its hit points. With Invention, fortresses gain watchtowers from which "
 "units can see further afield."
 msgstr ""
+"Festungen erleichtern die Verteidigung für Landeinheiten. Neben anderen "
+"Effekten erhalten Landeinheiten, die sich bewegungslos eine ganze Runde in "
+"einer Festung aufhalten, ein Viertel ihrer Lebenspunkte zurück. Zusammen mit "
+"der Erfindung werden Festungen zu Außenposten, von denen aus Einheiten weit "
+"ins Land schauen können."
 
 #: data/default/terrain.ruleset:999 data/experimental/terrain.ruleset:1001
 #: data/multiplayer/terrain.ruleset:999
-#, fuzzy
 msgid "Buoy"
-msgstr "Kaufen"
+msgstr "Boje"
 
 #: data/default/terrain.ruleset:1013 data/experimental/terrain.ruleset:1015
 #: data/multiplayer/terrain.ruleset:1013
 msgid "Buoys may be built in the ocean (by units on a sea-going vessel)."
 msgstr ""
+"Bojen können von Einheiten auf seetüchtigen Schiffen zu Wasser gelassen "
+"werden."
 
 #: data/default/terrain.ruleset:1018 data/experimental/terrain.ruleset:1020
 #: data/multiplayer/terrain.ruleset:1018
-#, fuzzy
 msgid "Ruins"
-msgstr "Spiel läuft"
+msgstr "Ruinen"
 
 #: data/default/terrain.ruleset:1029 data/experimental/terrain.ruleset:1031
 #: data/multiplayer/terrain.ruleset:1029
@@ -18343,6 +18397,9 @@ msgid ""
 "Ruins mark the former site of a city that was destroyed or abandoned. They "
 "have no effect on gameplay."
 msgstr ""
+"Ruinen kennzeichnen einen Ort, an dem einst eine Stadt gestanden hat und die "
+"zerstört oder verlassen wurde. Sie haben keinerlei Einfluss auf das "
+"Spielgeschehen."
 
 #: data/default/units.ruleset:28 data/experimental/units.ruleset:31
 #: data/multiplayer/units.ruleset:28
@@ -18373,6 +18430,9 @@ msgid ""
 "Terrain Alterations section of the help for more details of the available "
 "improvements. However, Workers cannot build new cities."
 msgstr ""
+"Arbeiter sind Siedlern insofern ähnlich, alsdass sie Gelände verändern "
+"können (siehe den Abschnitt über Geländeveränderungen für mehr "
+"Informationen). Arbeiter können aber keine neuen Städte gründen."
 
 #: data/default/units.ruleset:416 data/experimental/units.ruleset:452
 #: data/multiplayer/units.ruleset:417
