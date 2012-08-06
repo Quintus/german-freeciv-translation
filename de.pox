@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-06 14:32+0200\n"
+"PO-Revision-Date: 2012-08-06 16:43+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -473,7 +473,7 @@ msgid " happy"
 msgstr " glücklich"
 
 #: client/agents/cma_fec.c:359
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Name: %s\n"
 "Food:       %10s Gold:    %10s\n"
@@ -484,12 +484,12 @@ msgid ""
 "          City grows: %s\n"
 "Production completed: %s"
 msgstr ""
-"Vorgabe: %s\n"
-"Nahrung:    %10s Gold:      %10s\n"
-"Produktion: %10s Luxus:     %10s\n"
-"Handel:     %10s Forschung: %10s\n"
+"Name: %s\n"
+"Nahrung:    %10s Gold: %10s\n"
+"Produktion: %10s Luxus: %10s\n"
+"Handel:     %10s Forschung: %s\n"
 "\n"
-" Bürger (A/U/F/S): %s\n"
+"%*s%s: %s\n"
 "     Stadt wächst: %s\n"
 "Produktion fertig: %s"
 
@@ -724,19 +724,19 @@ msgid "Illness deactivated in ruleset."
 msgstr "Krankheiten sind im Regelsatz deaktiviert."
 
 #: client/citydlg_common.c:571
-#, fuzzy, c-format
+#, c-format
 msgid "%+5.1f : Risk from overcrowding\n"
-msgstr "%+5.1f : Risiko Überbevölkerung\n"
+msgstr "%+5.1f : Risiko durch Überbevölkerung\n"
 
 #: client/citydlg_common.c:573
-#, fuzzy, c-format
+#, c-format
 msgid "%+5.1f : Risk from trade\n"
-msgstr "%+4d : Handelssteuern\n"
+msgstr "%+5.1f : Risiko durch Handel\n"
 
 #: client/citydlg_common.c:575
-#, fuzzy, c-format
+#, c-format
 msgid "%+5.1f : Risk from pollution\n"
-msgstr "%+4d : Handelssteuern\n"
+msgstr "%+5.1f : Risiko durch Umweltverschmutzung\n"
 
 #: client/citydlg_common.c:588
 #, c-format
@@ -759,9 +759,9 @@ msgid "%+4d : Pollution from citizens\n"
 msgstr "%+4d : Umweltverschmutzung durch Bevölkerung\n"
 
 #: client/citydlg_common.c:615
-#, fuzzy, c-format
+#, c-format
 msgid "%+4d : Pollution modifier\n"
-msgstr "Korruption"
+msgstr "%+4d : Faktor Umweltverschmutzung\n"
 
 #: client/cityrepdata.c:106
 msgid "?city_state:Celebrating"
@@ -2659,15 +2659,14 @@ msgid "_Pacts"
 msgstr "_Abkommen"
 
 #: client/gui-gtk-2.0/diplodlg.c:496 client/gui-gtk-3.0/diplodlg.c:496
-#, fuzzy
 msgid "Cancel _all meetings"
-msgstr "Konferenz verlassen"
+msgstr "Alle _Termine absagen"
 
 #: client/gui-gtk-2.0/diplodlg.c:572 client/gui-gtk-2.0/diplodlg.c:640
 #: client/gui-gtk-3.0/diplodlg.c:572 client/gui-gtk-3.0/diplodlg.c:640
-#, fuzzy, c-format
+#, c-format
 msgid "Diplomacy [%d]"
-msgstr "Diplomatie: %s"
+msgstr "Diplomatie [%d]"
 
 #: client/gui-gtk-2.0/diplodlg.c:650 client/gui-gtk-3.0/diplodlg.c:650
 #: client/gui-sdl/diplodlg.c:918 data/Freeciv.in:528
@@ -2681,9 +2680,8 @@ msgstr "Abkommen unterzeichnen"
 
 #: client/gui-gtk-2.0/diplodlg.c:723 client/gui-gtk-2.0/diplodlg.c:806
 #: client/gui-gtk-3.0/diplodlg.c:723 client/gui-gtk-3.0/diplodlg.c:806
-#, fuzzy
 msgid "Add Clause..."
-msgstr "_Neue Klausel..."
+msgstr "Klausel hinzufügen..."
 
 #: client/gui-gtk-2.0/diplodlg.c:873 client/gui-gtk-3.0/diplodlg.c:873
 msgid "C_lauses:"
@@ -2691,7 +2689,7 @@ msgstr "_Klauseln:"
 
 #: client/gui-gtk-2.0/diplodlg.c:918 client/gui-gtk-3.0/diplodlg.c:918
 msgid "--- This treaty is blank. Please add some clauses. ---"
-msgstr "Leerer Vertrag. Bitte Klauseln hinzufügen."
+msgstr "― Leerer Vertrag. Bitte Klauseln hinzufügen. ―"
 
 #: client/gui-gtk-2.0/diplodlg.c:1149 client/gui-gtk-3.0/diplodlg.c:1149
 #: client/gui-sdl/diplodlg.c:403 client/gui-xaw/diplodlg.c:976
@@ -2784,6 +2782,7 @@ msgstr "Wähle das zu stehlende Forschungsergebnis"
 msgid "_Advances:"
 msgstr "_Forschungsergebnisse:"
 
+# MG: In der Hoffnung, dass alle hier verwendeten Einheitennamen maskulin sind...
 #. TRANS: %s is a unit name, e.g., Spy
 #: client/gui-gtk-2.0/diplomat_dialog.c:322
 #: client/gui-gtk-2.0/diplomat_dialog.c:465
@@ -2791,9 +2790,9 @@ msgstr "_Forschungsergebnisse:"
 #: client/gui-gtk-3.0/diplomat_dialog.c:465
 #: client/gui-sdl/diplomat_dialog.c:344 client/gui-sdl/diplomat_dialog.c:945
 #: client/gui-xaw/diplomat_dialog.c:423 client/gui-xaw/diplomat_dialog.c:514
-#, fuzzy, c-format
+#, c-format
 msgid "At %s's Discretion"
-msgstr "Nach Wahl des Spions"
+msgstr "Nach Ermessen des %ss"
 
 #: client/gui-gtk-2.0/diplomat_dialog.c:396
 #: client/gui-gtk-3.0/diplomat_dialog.c:396 data/Freeciv.in:2403
@@ -3267,28 +3266,26 @@ msgid "Type"
 msgstr "Bild"
 
 #: client/gui-gtk-2.0/editprop.c:4113 client/gui-gtk-3.0/editprop.c:4113
-#, fuzzy
 msgid "Moves Left"
-msgstr "Züge"
+msgstr "Bewegt sich nach links"
 
 #: client/gui-gtk-2.0/editprop.c:4115 client/gui-gtk-3.0/editprop.c:4115
 msgid "Fuel"
 msgstr "Treibstoff"
 
 #: client/gui-gtk-2.0/editprop.c:4117 client/gui-gtk-3.0/editprop.c:4117
-#, fuzzy
 msgid "Moved"
-msgstr "Züge"
+msgstr "Bewegt"
 
 #: client/gui-gtk-2.0/editprop.c:4119 client/gui-gtk-3.0/editprop.c:4119
-#, fuzzy
 msgid "Done Moving"
-msgstr "Bronzeverarbeitung"
+msgstr "Bewegung abgeschlossen"
 
+# LP = Lebenspunkte
 #. TRANS: HP = Hit Points of a unit.
 #: client/gui-gtk-2.0/editprop.c:4122 client/gui-gtk-3.0/editprop.c:4122
 msgid "HP"
-msgstr "TP"
+msgstr "LP"
 
 #: client/gui-gtk-2.0/editprop.c:4124 client/gui-gtk-3.0/editprop.c:4124
 #: client/gui-sdl/dialogs.c:1111 client/gui-sdl/dialogs.c:1123
@@ -3422,13 +3419,12 @@ msgstr "Eigenschaftseditor"
 #. TRANS: Vision layer name. Feel free to leave untranslated.
 #: client/gui-gtk-2.0/editprop.c:6123 client/gui-gtk-3.0/editprop.c:6129
 msgid "Seen (Main)"
-msgstr ""
+msgstr "Gesehen (Haupt)"
 
 #. TRANS: Vision layer name. Feel free to leave untranslated.
 #: client/gui-gtk-2.0/editprop.c:6126 client/gui-gtk-3.0/editprop.c:6132
-#, fuzzy
 msgid "Seen (Invis)"
-msgstr "Einheit(en) wählen"
+msgstr "Gesehen (Unsicht.)"
 
 #: client/gui-gtk-2.0/editprop.c:6132 client/gui-gtk-2.0/pages.c:642
 #: client/gui-gtk-3.0/editprop.c:6138 client/gui-gtk-3.0/pages.c:648
@@ -4214,12 +4210,11 @@ msgstr "Nationale Gren_zen"
 
 #: client/gui-gtk-2.0/menu.c:1435 client/gui-gtk-3.0/menu.c:1435
 msgid "Native Tiles"
-msgstr ""
+msgstr "Unpassierbare Felder"
 
 #: client/gui-gtk-2.0/menu.c:1438 client/gui-gtk-3.0/menu.c:1438
-#, fuzzy
 msgid "City Full Bar"
-msgstr "Stadtmauer"
+msgstr "Stadtinfo-Tafel"
 
 #: client/gui-gtk-2.0/menu.c:1440 client/gui-gtk-3.0/menu.c:1440
 msgid "City _Names"
@@ -5088,9 +5083,11 @@ msgstr "Einkommen: %d    Ausgaben: %d"
 
 #. TRANS: %s is an improvement
 #: client/gui-gtk-2.0/repodlgs.c:912 client/gui-gtk-3.0/repodlgs.c:941
-#, fuzzy, c-format
+#, c-format
 msgid "Do you really wish to sell every redundant %s (%d total)?"
-msgstr "Soll %s wirklich in allen Städten verkauft werden?\n"
+msgstr ""
+"Soll %s wirklich überall, wo es überflüssig ist, verkauft werden (%d "
+"insgesamt)?"
 
 #. TRANS: %s is an improvement
 #: client/gui-gtk-2.0/repodlgs.c:915 client/gui-gtk-3.0/repodlgs.c:944
@@ -5115,7 +5112,7 @@ msgstr "Ausverkauf: Ergebnisse"
 
 #: client/gui-gtk-2.0/repodlgs.c:1104 client/gui-gtk-3.0/repodlgs.c:1133
 msgid "Sell _Redundant"
-msgstr ""
+msgstr "Ü_berflüssige verkaufen"
 
 #: client/gui-gtk-2.0/repodlgs.c:1108 client/gui-gtk-3.0/repodlgs.c:1137
 msgid "Sell _All"
@@ -7816,7 +7813,7 @@ msgstr "Betrifft nur %s.\n"
 
 #. TRANS: Applies only to scientist
 #: client/helpdata.c:544
-#, fuzzy, c-format
+#, c-format
 msgid "?specialist:Applies only to %s.\n"
 msgstr "Betrifft nur %s.\n"
 
@@ -8068,14 +8065,14 @@ msgstr "* Muss sich direkt an der Küste befinden.\n"
 #. TRANS: "Manhattan" distance is the distance along
 #. * gridlines, with no diagonals allowed.
 #: client/helpdata.c:1419
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* Can establish trade routes (must travel to target city and must be at "
 "least %d tiles [in Manhattan distance] from this unit's home city).\n"
 msgstr ""
 "* Kann Handelsrouten erzeugen (Einheit muss zu einer Stadt reisen, die "
-"mindestens %d Felder (in rechtwinkliger Entfernung) von seiner Heimatstadt "
-"entfernt ist.\n"
+"mindestens %d Felder (in rechtwinkliger Entfernung) von ihrer Heimatstadt "
+"entfernt ist).\n"
 
 #: client/helpdata.c:1426
 #, c-format
@@ -8448,11 +8445,12 @@ msgstr "* Landeinheiten können sich nicht auf dem Ozean bewegen."
 msgid "Requirements to build:\n"
 msgstr "Voraussetzungen für den Bau:\n"
 
+# "Native tiles" sind Felder, die normalerweise nicht betreten werden können, von ein paar Ausnahmen abgesehen.
 #. TRANS: %s is a list of unit classes separated by "and".
 #: client/helpdata.c:1930
-#, fuzzy, c-format
+#, c-format
 msgid "* Native to %s units.\n"
-msgstr "Betrifft nur %s.\n"
+msgstr "* Kann von %s betreten werden.\n"
 
 #: client/helpdata.c:1936
 msgid ""
@@ -8509,9 +8507,8 @@ msgstr ""
 "Einheiten auf diesem Feld.\n"
 
 #: client/helpdata.c:1983
-#, fuzzy
 msgid "* Units can paradrop from this tile.\n"
-msgstr "* Kann nuklearen Fallout beseitigen.\n"
+msgstr "* Einheiten können von diesem Feld abspringen.\n"
 
 #: client/helpdata.c:1987
 msgid "* Extends national borders of the building nation.\n"
@@ -8542,7 +8539,7 @@ msgstr "Nichts "
 
 # CK: field units refer to bombers and rocketry inside of cities
 #: client/helpdata.c:2168
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* Military units away from home and field units will each cause %d citizen "
 "to become unhappy.\n"
@@ -8584,7 +8581,7 @@ msgstr[1] ""
 "aufgrund von Militärpräsenz unzufrieden sind.\n"
 
 #: client/helpdata.c:2195
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* Each of your cities will avoid %d unhappiness, including unhappiness "
 "caused by units.\n"
@@ -8592,32 +8589,32 @@ msgid_plural ""
 "* Each of your cities will avoid %d unhappiness, including unhappiness "
 "caused by units.\n"
 msgstr[0] ""
-"Jede Ihrer Städte vermeidet %d unzufriedenen Bürger, eingeschlossen aufgrund "
-"von Militärpräsenz unzufriedene Bürger.\n"
+"Jede Ihrer Städte vermeidet %d unzufriedenen Bürger, eingeschlossen solche, "
+"die aufgrund von Militärpräsenz unzufrieden sind.\n"
 msgstr[1] ""
-"Jede Ihrer Städte vermeidet %d unzufriedene Bürger, eingeschlossen aufgrund "
-"von Militärpräsenz unzufriedene Bürger.\n"
+"Jede Ihrer Städte vermeidet %d unzufriedene Bürger, eingeschlossen solche, "
+"die aufgrund von Militärpräsenz unzufrieden sind.\n"
 
 #. TRANS: %s is the output type, like 'shield' or 'gold'.
 #: client/helpdata.c:2206
 #, c-format
 msgid "* You pay %d times normal %s upkeep for your units.\n"
-msgstr "* Du zahlst den %d-fachen %s-Unterhalt für deine Einheiten.\n"
+msgstr "* Sie zahlen den %d-fachen %s-Unterhalt für Ihre Einheiten.\n"
 
 #: client/helpdata.c:2210
 #, c-format
 msgid "* You pay %d times normal upkeep for your units.\n"
-msgstr "* Du zahlst den %d-fachen Unterhalt für deine Einheiten.\n"
+msgstr "* Sie zahlen den %d-fachen Unterhalt für Ihre Einheiten.\n"
 
 #. TRANS: %s is the output type, like 'shield' or 'gold'.
 #: client/helpdata.c:2215
 #, c-format
 msgid "* You pay no %s upkeep for your units.\n"
-msgstr "* Du zahlst keinen %s-Unterhalt für deine Einheiten.\n"
+msgstr "* Sie zahlen keinen %s-Unterhalt für Ihre Einheiten.\n"
 
 #: client/helpdata.c:2219
 msgid "* You pay no upkeep for your units.\n"
-msgstr "* Du zahlst keinen Unterhalt für deine Einheiten.\n"
+msgstr "* Sie zahlen keinen Unterhalt für Ihre Einheiten.\n"
 
 #. TRANS: %s is the output type, like 'shield' or 'gold'.
 #. * There is currently no way to control the
@@ -8695,11 +8692,8 @@ msgstr[1] ""
 "* Höchstens %d Einheiten in jeder Stadt können Kriegsrecht anwenden.\n"
 
 #: client/helpdata.c:2296
-#, fuzzy
 msgid "* You may grow your cities by means of celebrations."
-msgstr ""
-"* Deine Städte können wachsen, wenn sie feiern. Die Städte müssen mindestens "
-"die Größe %d haben, bevor sie auf diese Art wachsen können.\n"
+msgstr "* Feiernde Städte können wachsen."
 
 #. TRANS: Preserve leading space. %d should always be
 #. * 2 or greater.
@@ -8713,16 +8707,15 @@ msgid "* Your units cannot be bribed.\n"
 msgstr "* Deine Einheiten sind unbestechlich.\n"
 
 #: client/helpdata.c:2310
-#, fuzzy
 msgid "* Your cities cannot be incited to revolt.\n"
-msgstr "* In deinen Städten kann es keine Revolte geben.\n"
+msgstr "* In Ihren Städten kann es keine Revolte geben.\n"
 
 #: client/helpdata.c:2314
 msgid ""
 "* If any city is in disorder for more than two turns in a row, government "
 "will fall into anarchy.\n"
 msgstr ""
-"* Die Regierung fällt in Anarchie, wenn irgendeine Stadt sich mehr als zwei "
+"* Der Staat fällt in Anarchie, wenn irgendeine Stadt sich mehr als zwei "
 "Runden nacheinander in Aufruhr befindet.\n"
 
 #: client/helpdata.c:2319
@@ -8760,13 +8753,13 @@ msgstr "* Veteranen.\n"
 
 #. TRANS: %s is list of output types, with 'or'
 #: client/helpdata.c:2361
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* Each worked tile that gives more than %d %s will suffer a -1 penalty, "
 "unless the city working it is celebrating."
 msgstr ""
 "* Jedes bearbeitete Feld, das mehr als %d %s liefert, erleidet einen Verlust "
-"von 1, wenn die Stadt nicht feiert.\n"
+"von 1, wenn die Stadt nicht feiert."
 
 #. TRANS: Preserve leading space. %d should always be
 #. * 2 or greater.
@@ -8777,13 +8770,13 @@ msgstr " (Städte unter einer Größe von %d werden nicht feiern.)"
 
 #. TRANS: %s is list of output types, with 'or'
 #: client/helpdata.c:2377
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* Each worked tile with at least 1 %s will yield %d more of it while the "
 "city working it is celebrating."
 msgstr ""
 "* Jedes bearbeitete Feld mit mindestens 1 %s liefert %d zusätzlich, wenn die "
-"Stadt feiert.\n"
+"Stadt feiert."
 
 #. TRANS: %s is list of output types, with 'or'
 #: client/helpdata.c:2393
@@ -8800,65 +8793,60 @@ msgstr "* Der Ertrag von %s steigt um %d%%.\n"
 
 #. TRANS: %s is list of output types, with 'and'
 #: client/helpdata.c:2408
-#, fuzzy, c-format
+#, c-format
 msgid "* %s production will suffer massive losses.\n"
-msgstr "* Die Produktion von %s leidet unter großer Verschwendung.\n"
+msgstr "* Die Produktion von %s erleidet große Verluste.\n"
 
 #. TRANS: %s is list of output types, with 'and'
 #: client/helpdata.c:2413
-#, fuzzy, c-format
+#, c-format
 msgid "* %s production will suffer some losses.\n"
-msgstr "* Die Produktion von %s leidet unter Verschwendung.\n"
+msgstr "* Die Produktion von %s erleidet einige Verluste.\n"
 
 #. TRANS: %s is list of output types, with 'and'
 #: client/helpdata.c:2418
-#, fuzzy, c-format
+#, c-format
 msgid "* %s production will suffer a small amount of losses.\n"
-msgstr "* Die Produktion von %s leidet unter einer geringen Verschwendung.\n"
+msgstr "* Die Produktion von %s erleidet geringfügige Verluste.\n"
 
 #: client/helpdata.c:2424
-#, fuzzy
 msgid "* Increases the chance of plague within your cities.\n"
-msgstr ""
-"* Vergrößert die durch die Bevölkerung verursachte Umweltverschmutzung\n"
+msgstr "* Erhöht die Seuchengefahr in Ihren Städten.\n"
 
 #: client/helpdata.c:2427
-#, fuzzy
 msgid "* Decreases the chance of plague within your cities.\n"
-msgstr ""
-"* Vergrößert die durch die Bevölkerung verursachte Umweltverschmutzung\n"
+msgstr "* Verringert die Seuchengefahr in Ihren Städten.\n"
 
 #. TRANS: %s is list of output types, with 'and'
 #: client/helpdata.c:2435
-#, fuzzy, c-format
+#, c-format
 msgid "* %s losses will increase quickly with distance from capital.\n"
 msgstr ""
-"* %s-Verschwendung nimmt mit der Entfernung von der Hauptstadt schnell zu.\n"
+"* Die Verschwendung von %s nimmt mit der Entfernung zur Hauptstadt schnell "
+"zu.\n"
 
 #. TRANS: %s is list of output types, with 'and'
 #: client/helpdata.c:2441
-#, fuzzy, c-format
+#, c-format
 msgid "* %s losses will increase with distance from capital.\n"
-msgstr "* %s-Verschwendung nimmt mit der Entfernung von der Hauptstadt zu.\n"
+msgstr ""
+"* Die Verschwendung von %s nimmt mit der Entfernung zur Hauptstadt zu.\n"
 
 #. TRANS: %s is list of output types, with 'and'
 #: client/helpdata.c:2447
-#, fuzzy, c-format
+#, c-format
 msgid "* %s losses will increase slowly with distance from capital.\n"
 msgstr ""
-"* %s-Verschwendung nimmt mit der Entfernung von der Hauptstadt langsam zu.\n"
+"Die Verschwendung von %s nimmt mit der Entfernung zur Hauptstadt nur langsam "
+"zu.\n"
 
 #: client/helpdata.c:2454
-#, fuzzy
 msgid "* Increases the chance of migration into your cities.\n"
-msgstr ""
-"* Vergrößert die durch die Bevölkerung verursachte Umweltverschmutzung\n"
+msgstr "* Erhöht die Einwanderungswahrscheinlichkeit für Ihre Stadt.\n"
 
 #: client/helpdata.c:2457
-#, fuzzy
 msgid "* Decreases the chance of migration into your cities.\n"
-msgstr ""
-"* Vergrößert die durch die Bevölkerung verursachte Umweltverschmutzung\n"
+msgstr "* Verringert die Einwanderungswahrscheinlichkeit für Ihre Stadt.\n"
 
 #: client/helpdata.c:2475
 #, c-format
@@ -8873,14 +8861,14 @@ msgstr "%s%d %s"
 
 #. TRANS: "2 Unhappy" or ", 1 Unhappy"
 #: client/helpdata.c:2509
-#, fuzzy, c-format
+#, c-format
 msgid "%s%d Unhappy"
 msgstr "%s%d Unzufriedene(r)"
 
 #: client/helpdata.c:2535
-#, fuzzy, c-format
+#, c-format
 msgid "Initial government is %s.\n"
-msgstr "%s %s"
+msgstr "Anfängliche Regierungsform ist %s.\n"
 
 #. TRANS: %s is an and-separated list of techs
 #: client/helpdata.c:2552
@@ -8893,17 +8881,17 @@ msgstr ""
 
 #. TRANS: %s is an and-separated list of techs
 #: client/helpdata.c:2557
-#, fuzzy, c-format
+#, c-format
 msgid "Starts with knowledge of %s.\n"
-msgstr "Die Kenntnis über %s wurde vermittelt."
+msgstr "Startet mit dem Wissen um %s.\n"
 
 #. TRANS: a unit type followed by a count. For instance,
 #. * "Fighter (2)" means two Fighters. Count is never 1.
 #. * Used in a list.
 #: client/helpdata.c:2594
-#, fuzzy, c-format
+#, c-format
 msgid "%s (%d)"
-msgstr "%s  %s (%s)"
+msgstr "%s (%d)"
 
 #. TRANS: %s is an and-separated list of unit types
 #. * possibly with counts. Plurality is in total number of
@@ -9030,9 +9018,8 @@ msgstr ""
 "Kommandozeilenparameter -P verwenden."
 
 #: client/options.c:1721
-#, fuzzy
 msgid "The chat log file"
-msgstr "Fortschritte\n"
+msgstr "Die Logdatei für den Chat"
 
 #: client/options.c:1722
 msgid "The name of the chat log file."
@@ -9091,7 +9078,6 @@ msgid "Draw the city bar"
 msgstr "Stadtinfo anzeigen"
 
 #: client/options.c:1764
-#, fuzzy
 msgid ""
 "Setting this option will display a 'city bar' containing useful information "
 "beneath each city. Disabling this option will display only the city's name "
@@ -9116,7 +9102,6 @@ msgid "Draw the city growth"
 msgstr "Wachstumsrate von Städten anzeigen"
 
 #: client/options.c:1776
-#, fuzzy
 msgid ""
 "Setting this option will draw in how many turns the cities will grow or "
 "shrink."
@@ -9192,7 +9177,6 @@ msgid "Draw the irrigation"
 msgstr "Bewässerungen zeichnen"
 
 #: client/options.c:1810
-#, fuzzy
 msgid "Setting this option will draw the irrigation systems on the map."
 msgstr ""
 "Wenn aktiv, werden mit dieser Option auf der Karte Bewässerungssysteme "
@@ -9318,7 +9302,6 @@ msgid "Show dead players in Nations report"
 msgstr "Tote Spieler im Nationsbericht anzeigen"
 
 #: client/options.c:1874
-#, fuzzy
 msgid ""
 "This option controls whether defeated nations are shown on the Nations "
 "report page."
@@ -9365,18 +9348,16 @@ msgstr ""
 "können die Zeitdauer einstellen. Mit 0 wird das Gleiten abgeschaltet."
 
 #: client/options.c:1898
-#, fuzzy
 msgid "Combat animation step time (milliseconds)"
-msgstr "Zeitdauer für Animation der Einheiten (Millisekunden)"
+msgstr "Intervall für Kampfanimationen (Millisekunden)"
 
 #: client/options.c:1899
-#, fuzzy
 msgid ""
 "This option controls the speed of combat animation between units on the "
 "mapview.  Set it to 0 to disable animation entirely."
 msgstr ""
-"Hier stellen Sie ein, wie lange die Einheiten-Animation dauert, wenn "
-"Einheiten auf der Karte bewegt werden. Mit 0 schalten Sie die Animation ab."
+"Hier stellen Sie die Geschwindigkeit der Kampfanimation zwischen Einheiten "
+"auf der Karte ein. Mit 0 schalten Sie die Animation ab."
 
 #: client/options.c:1904
 msgid "Show icons in the technology tree"
@@ -9391,19 +9372,18 @@ msgstr ""
 "eingezeichnet."
 
 #: client/options.c:1911
-#, fuzzy
 msgid "Use curved lines in the technology tree"
-msgstr "Zeige Icons im Technologiebaum"
+msgstr "Geschwungene Linien im Technologiebaum verwenden"
 
 #: client/options.c:1912
-#, fuzzy
 msgid ""
 "Setting this option make the technology tree diagram use curved lines to "
 "show technology relations. Turning this option off causes the lines to be "
 "drawn straight."
 msgstr ""
-"Im Baumdiagramm für die Technologien werden Icons für jeden Fortschritt "
-"eingezeichnet."
+"Mit dieser Option werden die Abhängigkeiten zwischen den einzelnen "
+"Fortschritten mit geschwungenen Linien gezeichnet. Ist diese Option "
+"deaktiviert, werden gerade Linien verwendet."
 
 #: client/options.c:1919
 msgid "Color to highlight your player/user name"
@@ -9442,7 +9422,6 @@ msgid ""
 msgstr "Wenn die aktive Einheit wechselt, wird die Karte darauf zentriert."
 
 #: client/options.c:1934
-#, fuzzy
 msgid "Auto center on combat"
 msgstr "Ansicht automatisch auf Kämpfe zentrieren"
 
@@ -9453,22 +9432,21 @@ msgid ""
 "entirely."
 msgstr ""
 "Die Karte wird automatisch auf Kämpfe zentriert. Abschalten beschleunigt das "
-"Spiel, aber kann dazu führen, daß Sie Kämpfe übersehen."
+"Spiel, aber kann dazu führen, dass Sie Kämpfe übersehen."
 
 #: client/options.c:1940
-#, fuzzy
 msgid "Auto center on new turn"
-msgstr "Ansicht automatisch auf die aktive Einheit zentrieren"
+msgstr "Ansicht bei neuer Runde automatisch zentrieren"
 
 #: client/options.c:1941
-#, fuzzy
 msgid ""
 "Set this option to have the client automatically recenter the map on a "
 "suitable location at the start of each turn."
-msgstr "Wenn die aktive Einheit wechselt, wird die Karte darauf zentriert."
+msgstr ""
+"Mit dieser Option wird die Ansicht automatisch auf eine für den Anfang einer "
+"neuen Runde passende Stelle zentriert."
 
 #: client/options.c:1945
-#, fuzzy
 msgid "Focus on awakened units"
 msgstr "Ansicht auf alarmierte Einheiten zentrieren"
 
@@ -9501,7 +9479,6 @@ msgstr ""
 "führen. Anderenfalls werden unentdeckte Gebiete umgangen."
 
 #: client/options.c:1960
-#, fuzzy
 msgid "Center map when popup city"
 msgstr "Ansicht auf die Stadt im Stadtfenster zentrieren"
 
@@ -9514,7 +9491,6 @@ msgstr ""
 "Stadt zentriert."
 
 #: client/options.c:1964
-#, fuzzy
 msgid "Concise city production"
 msgstr "Kurzdarstellung der Stadtproduktion"
 
@@ -9525,7 +9501,6 @@ msgid ""
 msgstr "Im Stadtfenster wird die Produktion kompakter dargestellt."
 
 #: client/options.c:1968
-#, fuzzy
 msgid "End turn when done moving"
 msgstr "Automatisches Rundenende"
 
@@ -9533,18 +9508,19 @@ msgstr "Automatisches Rundenende"
 msgid ""
 "Setting this option makes your turn end automatically when all your units "
 "are done moving."
-msgstr "Hiermit endet dein Zug automatisch, wenn alle Einheiten gezogen haben."
+msgstr "Hiermit endet Ihr Zug automatisch, wenn alle Einheiten gezogen haben."
 
 #: client/options.c:1972
 msgid "Prompt for city names"
 msgstr "Nach Stadtnamen fragen"
 
 #: client/options.c:1973
-#, fuzzy
 msgid ""
 "Disabling this option will make the names of newly founded cities be chosen "
 "automatically by the server."
-msgstr "Sie können bei der Stadtgründung den Stadtnamen auswählen."
+msgstr ""
+"Ist diese Option inaktiv, wird der Server den Stadtnamen für eine "
+"Neugründung selbstständig wählen."
 
 #: client/options.c:1976
 msgid "Pop up city dialog for new cities"
@@ -9558,10 +9534,9 @@ msgstr "Bei einer Stadtgründung wird das Stadtfenster automatisch geöffnet."
 
 #: client/options.c:1980
 msgid "Pop up caravan actions"
-msgstr "Befehle für Karawane"
+msgstr "Fenster für Karawanenaktionen zeigen"
 
 #: client/options.c:1981
-#, fuzzy
 msgid ""
 "If this option is enabled, when caravans or similar units arrive at a city "
 "where they can establish a trade route or help build a wonder, a window will "
@@ -9572,7 +9547,7 @@ msgstr ""
 "Mit dieser Option erscheint jedes Mal ein Popup-Fenster, wenn eine Karawane "
 "eine Stadt erreicht und eine Handelsroute einrichten oder zum Bau eines "
 "Weltwunders beitragen kann. Ohne diese Option muss der Befehl von Hand "
-"gegeben werden, durch drücken von 'r' (für eine Handelsroute) oder 'b' (zum "
+"gegeben werden, durch drücken von »r« (für eine Handelsroute) oder »b« (zum "
 "Bau eines Wunders), wenn die Karawane in der Stadt ist."
 
 #: client/options.c:1990
@@ -9590,16 +9565,15 @@ msgstr ""
 
 #: client/options.c:1996
 msgid "Select cities before units"
-msgstr "Städte auswählen, keine Einheiten"
+msgstr "Städte vor Einheiten beim Auswählen bevorzugen"
 
 #: client/options.c:1997
-#, fuzzy
 msgid ""
 "If this option is enabled, when both cities and units are present in the "
 "selection rectangle, only cities will be selected. See the help on Controls."
 msgstr ""
-"Wenn sich in dem Auswahlrechteck sowohl Städte als auch Einheiten befinden, "
-"werden nur Städte ausgewählt."
+"Wenn sich im Auswahlrechteck sowohl Städte als auch Einheiten befinden, "
+"werden nur Städte ausgewählt. Siehe die Hilfe zu Tastenkombinationen."
 
 #: client/options.c:2002
 msgid "Clear unit orders on selection"
@@ -9695,9 +9669,8 @@ msgstr ""
 "gehören."
 
 #: client/options.c:2046
-#, fuzzy
 msgid "Borders layer on ocean tiles"
-msgstr "Anzeige der Grenzen"
+msgstr "Anzeige der Grenzen auf Ozeanfeldern"
 
 #: client/options.c:2047
 msgid ""
@@ -9705,6 +9678,9 @@ msgid ""
 "look ugly with many islands). This option is only of interest if you have "
 "set the option \"Borders layer\" already."
 msgstr ""
+"Zeichnet die Grenzen auch auf Ozeanfeldern (das kann mit vielen Inseln "
+"hässlich aussehen). Diese Option ist nur von Belang, wenn Sie die »Anzeige "
+"der Grenzen« aktiviert haben."
 
 #: client/options.c:2053
 msgid "Units layer"
@@ -10204,13 +10180,12 @@ msgid "Use color cursors"
 msgstr "Farbige Cursor verwenden"
 
 #: client/options.c:2531
-#, fuzzy
 msgid ""
 "If this option is disabled, the cursor will always be displayed in black and "
 "white."
 msgstr ""
-"Hiermit werden Berichte als Kartenreiter dargestellt, und nicht als separate "
-"Fenster."
+"Wenn diese Option deaktiviert wird, wird der Cursor nur in Schwarzweiss "
+"dargestellt."
 
 #: client/options.c:2543
 msgid "Enable alpha blending"
@@ -10232,7 +10207,6 @@ msgstr "Grafik"
 
 #. TRANS: Options section for overview map (mini-map)
 #: client/options.c:2623
-#, fuzzy
 msgid "?map:Overview"
 msgstr "Übersicht"
 
@@ -10245,9 +10219,8 @@ msgid "Interface"
 msgstr "Bedienung"
 
 #: client/options.c:2629
-#, fuzzy
 msgid "Map Image"
-msgstr "Kartographie"
+msgstr "Kartenbild"
 
 #: client/options.c:2631
 msgid "Network"
@@ -10259,9 +10232,7 @@ msgstr "Font"
 
 #: client/options.c:4457
 msgid "If you add a preset by hand, also update \"number_of_presets\""
-msgstr ""
-"Wenn manuell eine Vorgabe hinzugefügt wird, muß auch 'number_of_presets' "
-"geändert werden."
+msgstr "Wenn manuell eine Vorgabe hinzugefügt wird, muss auch »number_of_presets« geändert werden."
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: client/options.c:4501 client/options.c:4537
@@ -10315,19 +10286,16 @@ msgid "Start of turn %d"
 msgstr "Beginn des %d. Zugs"
 
 #: client/packhand.c:1190
-#, fuzzy
 msgid "Welcome"
-msgstr "Willkommen %s"
+msgstr "Willkommen"
 
 #: client/packhand.c:1978
-#, fuzzy
 msgid "AI mode is now ON."
-msgstr "KI Modus: %s."
+msgstr "KI-Modus EINGESCHALTET."
 
 #: client/packhand.c:1980
-#, fuzzy
 msgid "AI mode is now OFF."
-msgstr "KI Modus: %s."
+msgstr "KI-Modus AUSGESCHALTET."
 
 #: client/plrdlg_common.c:182
 msgid "waiting"
@@ -18484,21 +18452,19 @@ msgstr ""
 
 #: data/default/units.ruleset:1348 data/experimental/units.ruleset:1385
 #: data/multiplayer/units.ruleset:1447
-#, fuzzy
 msgid ""
 "The Trireme is your first boat unit. It can act as a transport ship and has "
 "rudimentary offensive capabilities, but may not enter deep ocean tiles."
 msgstr ""
-"Die Trireme ist deine erste See-Einheit. Sie kann als Transportschiff dienen "
-"und hat einfache Angriffsstärke, darf sich aber nicht zu weit von der Küste "
-"entfernen."
+"Die Trireme ist Ihre erste See-Einheit. Sie kann als Transportschiff dienen "
+"und hat eine einfache Angriffsstärke, darf sich aber nicht zu weit von der "
+"Küste entfernen."
 
 #: data/default/units.ruleset:1382 data/experimental/units.ruleset:1419
 #: data/multiplayer/units.ruleset:1481
-#, fuzzy
 msgid "The Caravel replaces the Trireme and can enter any ocean tile."
 msgstr ""
-"Die Karavelle ersetzt die Trireme und ist viel verläßlicher auf hoher See."
+"Die Karavelle ersetzt die Trireme und ist auf hoher See viel verlässlicher."
 
 #: data/default/units.ruleset:1791 data/experimental/units.ruleset:1828
 #: data/multiplayer/units.ruleset:1890
@@ -18583,7 +18549,8 @@ msgstr "Anführer"
 #: data/multiplayer/units.ruleset:2212
 msgid "This is you. If you lose this unit, you lose the game. So don't."
 msgstr ""
-"Dies bist du selbst! Wenn du diese Einheit verlierst, ist das Spiel verloren."
+"Dies sind Sie selbst! Wenn Sie diese Einheit verlieren, ist das Spiel "
+"verloren."
 
 #: data/default/units.ruleset:2153 data/experimental/units.ruleset:2190
 #: data/multiplayer/units.ruleset:2253
