@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-06 18:37+0200\n"
+"PO-Revision-Date: 2012-08-06 22:27+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -1073,7 +1073,7 @@ msgstr "Bürgermeister"
 #. TRANS: "BS" = "build slots"
 #: client/cityrepdata.c:715
 msgid "BS"
-msgstr ""
+msgstr "Baubereich"
 
 #: client/cityrepdata.c:715
 msgid "Maximum units buildable per turn"
@@ -8314,6 +8314,8 @@ msgid ""
 "* Will be built as a veteran in cities with appropriate training facilities "
 "(see Port Facility).\n"
 msgstr ""
+"Wird in Städten mit den entsprechenden Ausbildungsmöglichkeiten als Veteran "
+"in Dienst genommen (siehe Werft).\n"
 
 #: client/helpdata.c:1640
 msgid "* May be promoted through combat or training.\n"
@@ -17363,6 +17365,12 @@ msgid ""
 "require twice as much food per turn, and in Communist or Fundamentalist "
 "societies, three times as much."
 msgstr ""
+"Erhaltungskosten für Siedler setzen sich sowohl aus Nahrung wie auch aus "
+"Produktion zusammen, und wenn die den Siedler unterstützende Stadt keine "
+"Nahrung mehr liefert, kann dieser verhungern. Siedler in einer Republik oder "
+"Demokratie benötigen die doppelte Menge an Nahrung pro Runde, in "
+"kommunistischen und fundamentalistischen Gesellschaften sogar die dreifache "
+"Menge."
 
 #: data/civ2/units.ruleset:243 data/default/units.ruleset:390
 #: data/experimental/units.ruleset:415 data/multiplayer/units.ruleset:391
@@ -18473,6 +18481,11 @@ msgid ""
 "changes into desert, tundra, and ice. Settlers, Workers, and Engineers can "
 "clean up nuclear fallout."
 msgstr ""
+"Ähnlich dem Zusammenhang zwischen Umweltverschmutzung und der globalen "
+"Erderwärmung steigt das Risiko eines globalen nuklearen Winters mit jedem "
+"Fallout. Kommt es zu dieser Katastrophe, verwandeln sich Geländefelder rund "
+"um den Globus in Sand- und Eiswüsten sowie Tundra. Siedler, Arbeiter und "
+"Ingenieure können nuklearen Fallout jedoch beseitigen."
 
 #: data/default/units.ruleset:1800 data/experimental/units.ruleset:1837
 #: data/multiplayer/units.ruleset:1899
@@ -18483,6 +18496,14 @@ msgid ""
 "the city and have them ready to fix the fallout on the same turn it occurs!  "
 "This minimizes the chance of nuclear winter.  Eco-friendly nukes!"
 msgstr ""
+"TIPP 2: Wenn Sie sich in einer Situation befinden, in der Sie ein "
+"feindliches Land überrannt haben, die gegnerischen Städte jedoch zu stark "
+"sind, sollten Sie vor dem Einsatz einer Nuklearrakete eine Gruppe von "
+"Siedlern, Arbeitern und/oder Ingenieuren in der Nähe der betroffenen Stadt "
+"bereit halten. Nach dem Einschlag können Sie so den Fallout noch in "
+"derselben Runde beseitigen, in der er auftritt, sodass die "
+"Wahrscheinlichkeit eines nuklearen Winters minimiert wird. Umweltfreundliche "
+"Atomwaffen!"
 
 #. TRANS: diplomatic rank.
 #. TRANS: Unless translated, the last character in "attache" should be
@@ -18490,54 +18511,50 @@ msgstr ""
 #. TRANS: charset. In ISO-8859-1 (ISO Latin 1) this is 233.
 #: data/default/units.ruleset:1840 data/experimental/units.ruleset:1877
 #: data/multiplayer/units.ruleset:1939
-#, fuzzy
 msgid "?diplomatic_rank:attache"
-msgstr "Frieden"
+msgstr "Attaché"
 
 #. TRANS: diplomatic rank
 #: data/default/units.ruleset:1842 data/experimental/units.ruleset:1879
 #: data/multiplayer/units.ruleset:1941
-#, fuzzy
 msgid "?diplomatic_rank:secretary"
-msgstr "Frieden"
+msgstr "Sekretär"
 
 #. TRANS: diplomatic rank
 #: data/default/units.ruleset:1844 data/experimental/units.ruleset:1881
 #: data/multiplayer/units.ruleset:1943
-#, fuzzy
 msgid "?diplomatic_rank:envoy"
-msgstr "Team"
+msgstr "Gesandter"
 
 #. TRANS: diplomatic rank
 #: data/default/units.ruleset:1846 data/experimental/units.ruleset:1883
 #: data/multiplayer/units.ruleset:1945
-#, fuzzy
 msgid "?diplomatic_rank:ambassador"
-msgstr "Krieg"
+msgstr "Botschafter"
 
 #. TRANS: Spy veteran level
 #: data/default/units.ruleset:1943 data/experimental/units.ruleset:1980
 #: data/multiplayer/units.ruleset:2042
 msgid "?spy_level:informant"
-msgstr ""
+msgstr "Informant"
 
 #. TRANS: Spy veteran level
 #: data/default/units.ruleset:1945 data/experimental/units.ruleset:1982
 #: data/multiplayer/units.ruleset:2044
 msgid "?spy_level:handler"
-msgstr ""
+msgstr "V-Mann"
 
 #. TRANS: Spy veteran level
 #: data/default/units.ruleset:1947 data/experimental/units.ruleset:1984
 #: data/multiplayer/units.ruleset:2046
 msgid "?spy_level:agent"
-msgstr ""
+msgstr "Geheimagent"
 
 #. TRANS: Spy veteran level
 #: data/default/units.ruleset:1949 data/experimental/units.ruleset:1986
 #: data/multiplayer/units.ruleset:2048
 msgid "?spy_level:spymaster"
-msgstr ""
+msgstr "Meisterspion"
 
 #: data/default/units.ruleset:2084 data/experimental/units.ruleset:2121
 #: data/multiplayer/units.ruleset:2184
@@ -18568,37 +18585,37 @@ msgstr ""
 "großen Gebietes orten kann."
 
 #: data/experimental/buildings.ruleset:91
-#, fuzzy
 msgid ""
 "Allows a city to grow larger than size 8 and reduces the chance of plague "
 "within the city. After Industrialization is researched this effect of the "
 "Aqueduct is reduced."
 msgstr ""
-"Erlaubt einer Stadt über die Größe 8 hinaus zu wachsen. Um größer als 12 "
-"werden zu können, benötigt die Stadt außerdem ein Abwassersystem."
+"Erlaubt einer Stadt über die Größe 8 hinaus zu wachsen und reduziert die "
+"Seuchengefahr in einer Stadt. Nach Entdeckung der Industrialisierung "
+"verringt sich der Effekt des Aquädukts."
 
 #: data/experimental/buildings.ruleset:95
-#, fuzzy
 msgid "A Sewer System is required for a city to grow larger than size 12."
 msgstr ""
-"Erlaubt einer Stadt über die Größe 8 hinaus zu wachsen. Um größer als 12 "
-"werden zu können, benötigt die Stadt außerdem ein Abwassersystem."
+"Ein Abwassersystem erlaubt es einer Stadt, über die Größe von 12 hinaus zu "
+"wachsen."
 
 #: data/experimental/buildings.ruleset:382
-#, fuzzy
 msgid "Hospital"
-msgstr "Hauptstadt:"
+msgstr "Krankenhaus"
 
 #: data/experimental/buildings.ruleset:396
 msgid ""
 "A Hospital is used to treat the ill, and sometimes for medical research. A "
 "city with a Hospital is less likely to suffer from plagues."
 msgstr ""
+"In einem Krankenhaus werden meistenteils Patienten behandelt, gelegentlich "
+"wird auch medizinische Forschung angestellt. Eine Stadt mit diesem Gebäude "
+"ist weniger anfällig für Seuchen."
 
 #: data/experimental/buildings.ruleset:438
-#, fuzzy
 msgid "Genetic Lab"
-msgstr "Veteran"
+msgstr "Genetiklabor"
 
 #: data/experimental/buildings.ruleset:453
 #, no-c-format
@@ -18608,6 +18625,11 @@ msgid ""
 "A Genetic Laboratory allows the genetic optimization of plants and animals. "
 "The food output is increased by 25% if the city size exceeds 20."
 msgstr ""
+"Genetiklaboratorien forschen an Medikamenten, wodurch sich die Seuchengefahr "
+"der Stadt, in der es sich befindet, reduziert.\n"
+"Außerdem wird eine genetische Optimierung von Pflanzen und Tieren möglich, "
+"die in der 25%igen Steigerung der Nahrungsproduktion resultiert, wenn die "
+"Stadtgröße 20 überschreitet."
 
 #: data/experimental/buildings.ruleset:520
 #: data/experimental/buildings.ruleset:992
@@ -18615,15 +18637,17 @@ msgid ""
 "If a metropolis (city size > 30) has a Mass Transit and a Super Highway the "
 "city radius is further increased."
 msgstr ""
+"In einer Metropole (Stadt größer 30) mit einer Autobahn und "
+"Massenbeförderung wird der Stadtradius weiter erhöht."
 
 #: data/experimental/buildings.ruleset:1041
 msgid "The work of the priests also reduces the effect of plague in the city."
 msgstr ""
+"Die Arbeit der Priester reduziert den Effekt einer Seuche in einer Stadt."
 
 #: data/experimental/game.ruleset:21
-#, fuzzy
 msgid "Experimental ruleset"
-msgstr "Experimentell"
+msgstr "Experimenteller Regelsatz"
 
 #: data/experimental/game.ruleset:24
 msgid ""
@@ -18632,33 +18656,39 @@ msgid ""
 "playability. A description of the differences from the default ruleset can "
 "be found in README.ruleset_experimental."
 msgstr ""
+"Sie spielen Freeciv mit dem experimentellen Regelwerk. Es enthält neue oder "
+"auch ungewöhnliche Features in Freeciv, die nichts mehr mit ausgewogenem "
+"Spiel oder auch nur Spielbarkeit zu tun haben müssen. Eine Beschreibung der "
+"Unterschiede vom Standardregelwerk finden Sie in der Datei »README."
+"ruleset_experimental«."
 
 #: data/experimental/governments.ruleset:77
 msgid "Under Anarchy, technology cannot be lost due to lack of upkeep."
 msgstr ""
+"Während der Anarchie ist es nicht möglich, Technologien zu verlieren, weil "
+"Sie den Unterhalt nicht bestreiten können."
 
 #. TRANS: "Big Land" is a unit class, like Land or Sea. Big Land units
 #. TRANS: cannot move into rough terrain. Unit class names are used
 #. TRANS: adjectivally.
 #: data/experimental/units.ruleset:124
-#, fuzzy
 msgid "?unitclass:Big Land"
-msgstr "Anführer"
+msgstr "Große Landeinheit"
 
 #. TRANS: Worker veteran level
 #: data/experimental/units.ruleset:398 data/experimental/units.ruleset:442
 msgid "?worker_level:apprentice"
-msgstr ""
+msgstr "Azubi"
 
 #. TRANS: Worker veteran level
 #: data/experimental/units.ruleset:400 data/experimental/units.ruleset:444
 msgid "?worker_level:journeyman"
-msgstr ""
+msgstr "Geselle"
 
 #. TRANS: Worker veteran level
 #: data/experimental/units.ruleset:402 data/experimental/units.ruleset:446
 msgid "?worker_level:master"
-msgstr ""
+msgstr "Meister"
 
 #: data/Freeciv.in:68
 msgid "Connect to Freeciv Server"
@@ -18669,13 +18699,12 @@ msgid "Freeciv Server Selection"
 msgstr "Freeciv-Server wählen"
 
 #: data/Freeciv.in:105
-#, fuzzy
 msgid "Password"
-msgstr "Paßwort:"
+msgstr "Passwort"
 
 #: data/Freeciv.in:113
 msgid "Verify Password"
-msgstr "Wiederhole Paßwort"
+msgstr "Passwort wiederholen"
 
 #: data/Freeciv.in:144
 msgid "Freeciv Server List"
@@ -18695,7 +18724,7 @@ msgstr "Folgende Vereinbarungen wurden getroffen:"
 
 #: data/Freeciv.in:384
 msgid "Erase clause"
-msgstr "Klausel löschen"
+msgstr "Klausel streichen"
 
 #: data/Freeciv.in:492 data/Freeciv.in:501
 msgid "Shared vision"
@@ -18898,9 +18927,8 @@ msgid "Building Name       Count Cost Total"
 msgstr "Im Bau Name       Zählt Kostet Total"
 
 #: data/Freeciv.in:1894
-#, fuzzy
 msgid "Sell Redundant"
-msgstr "?redundant:*"
+msgstr "Überflüssige verkaufen"
 
 #: data/Freeciv.in:1902
 msgid "Sell All"
@@ -18980,7 +19008,7 @@ msgstr "  Ok  "
 
 #: data/Freeciv.in:2225
 msgid "Show future targets:"
-msgstr "noch nicht ausführbare Aufträge anzeigen:"
+msgstr "Noch nicht ausführbare Aufträge anzeigen:"
 
 #: data/Freeciv.in:2256
 msgid "Trade Routes"
@@ -18993,17 +19021,14 @@ msgstr "Zurück"
 
 #. TRANS: Title for caravan popup
 #: data/Freeciv.in:2285
-#, fuzzy
 msgid "Your Unit Has Arrived"
-msgstr "Karawane ist angekommen"
+msgstr "Händler ist angekommen"
 
 #: data/Freeciv.in:2287
-#, fuzzy
 msgid "Establish trade route"
-msgstr "Handelsweg gründen"
+msgstr "Handelsweg eröffnen"
 
 #: data/Freeciv.in:2299 data/Freeciv.in:2325
-#, fuzzy
 msgid "Choose Your Covert Strategy"
 msgstr "Strategie des Diplomaten wählen"
 
@@ -19025,23 +19050,22 @@ msgstr "Neue Staatsform"
 
 #: data/Freeciv.in:2539
 msgid "Select government type:"
-msgstr "Wähle die Regierungsform:"
+msgstr "Wählen Sie die Regierungsform:"
 
 #: data/Freeciv.in:2557
 msgid "Choose unit activity:"
 msgstr "Was soll die Einheit machen?"
 
 #: data/Freeciv.in:2854
-#, fuzzy
 msgid ""
 "Freeciv is free software and you are welcome to distribute copies of it\n"
 "under certain conditions; See the \"Copying\" item on the Help menu.\n"
 "Now ... Go give 'em hell!"
 msgstr ""
-"Freeciv ist freie Software!\n"
-"Sie darf unter bestimmten Bedingungen kopiert und weitergegeben werden.\n"
-"Siehe unter 'Lizenz' im Hilfemenü.\n"
-"Und nun ... mach' ihnen die Hölle heiß!"
+"Freeciv ist freie Software und darf unter bestimmten Bedingungen\n"
+"kopiert und weitergegeben werden; genaueres können Sie unter dem Punkt\n"
+"»Lizenz« im Hilfemenü nachlesen.\n"
+"Und nun... mach’ ihnen die Hölle heiß!"
 
 #: data/Freeciv.in:3099
 msgid " Sell "
@@ -19049,7 +19073,7 @@ msgstr " Verkaufen "
 
 #: data/Freeciv.in:3106
 msgid "Rename..."
-msgstr "Umbenennen..."
+msgstr "Umbenennen…"
 
 #: data/Freeciv.in:3110
 msgid "Activate Units"
@@ -19057,11 +19081,11 @@ msgstr "Einheiten aktivieren"
 
 #: data/Freeciv.in:3112
 msgid "Unit List..."
-msgstr "Liste aller Einheiten..."
+msgstr "Liste aller Einheiten…"
 
 #: data/Freeciv.in:3114
 msgid "City Options..."
-msgstr "Stadtoptionen..."
+msgstr "Stadtoptionen…"
 
 #: data/Freeciv.in:3116
 msgid " Buy "
@@ -19069,11 +19093,11 @@ msgstr " Kaufen "
 
 #: data/Freeciv.in:3118
 msgid "Change..."
-msgstr "Ändern..."
+msgstr "Ändern…"
 
 #: data/Freeciv.in:3120
 msgid "Worklist..."
-msgstr "Arbeitsliste..."
+msgstr "Arbeitsliste…"
 
 #: data/Freeciv.in:3122
 msgid "Supported units:"
@@ -19141,12 +19165,10 @@ msgid "Pregame"
 msgstr "Spielvorbereitung"
 
 #: data/Freeciv.in:3398
-#, fuzzy
 msgid "  Name             Ready  Leader           Nation          Team "
-msgstr "Name            Bereit Herrscher       Nation          "
+msgstr "  Name             Bereit Herrscher        Nation          Team"
 
 #: data/Freeciv.in:3436
-#, fuzzy
 msgid "Take Player"
 msgstr "Spieler übernehmen"
 
@@ -19339,7 +19361,6 @@ msgstr ""
 "bestmögliche Verteidigungseinheit zu bauen."
 
 #: data/helpdata.txt:129
-#, fuzzy
 msgid ""
 " 3. Deciding which units to build first.\n"
 "\n"
@@ -19355,14 +19376,17 @@ msgstr ""
 " 3. Erste Einheiten bauen\n"
 "\n"
 "Nach der Fertigstellung von ein bis zwei Kriegereinheiten sollte die "
-"Produktion auf Siedler umgestellt werden. Der zweite Siedler kann dazu "
-"benutzt werden, in der Umgebung der Stadt Straßen zu bauen und das Land zu "
-"bewässern, der dritte sollte zum Bau einer weiteren Stadt verwendet werden. "
-"Es ist zu beachten, daß eine größere Bevölkerung nicht nur mehr produziert, "
-"sondern auch bessere Forschungsergebnisse erzielt."
+"Produktion auf Siedler umgestellt werden. Siedler sollte man am besten zur "
+"Gründung neuer Städte nutzen; obwohl sie auch landwirtschaftliche "
+"Verbesserungen (siehe nächster Abschnitt) errichten können, sollte man dafür "
+"besser — wenn verfügbar — Arbeiter verwenden, da diese, im Gegensatz zu "
+"Siedlern, keine Nahrung aus ihrer Heimatstadt benötigen. Es ist zu beachten, "
+"dass eine größere Bevölkerung nicht nur mehr produziert, sondern auch "
+"bessere Forschungsergebnisse erzielt, um gar nicht erst zu erwähnen, dass "
+"sie auch Land für Ihr Imperium in Besitz nehmen. Dem Städtebau sollte daher "
+"zu Anfang eine hohe Priorität beigemessen werden."
 
 #: data/helpdata.txt:141
-#, fuzzy
 msgid ""
 " 4. Improving the land.\n"
 "\n"
@@ -19376,9 +19400,12 @@ msgstr ""
 " 4. Gelände verbessern\n"
 "\n"
 "Jede Stadt ist von Land umgeben, das zum Anbau von Nahrungsmitteln, der "
-"Herstellung von Waren und zum Handel verwendet werden kann. Siedler können z."
-"B. Straßen, Bewässerungssysteme oder Bergwerke anlegen, um die Erträge zu "
-"verbessern."
+"Herstellung von Waren und zum Handel verwendet werden kann. Diese Arten von "
+"Bewirtschaftung können durch Arbeiter (oder Siedler) verbessert werden, "
+"indem sie auf der Stadt nahe gelegenen Feldern Bewässerungen (erhöht den "
+"Nahrungsausstoß), Straßen (erlaubt es Einheiten, sich schneller zu bewegen "
+"und erhöhen das Handelsaufkommen) und Minen (erhöhen die Produktion) sowie "
+"weitere Verbesserungen errichten."
 
 #: data/helpdata.txt:151
 msgid ""
@@ -19399,7 +19426,6 @@ msgstr ""
 "der Küste und einen Teil im Inland zu bauen."
 
 #: data/helpdata.txt:160
-#, fuzzy
 msgid ""
 " 6. Taking care of the cities.\n"
 "\n"
@@ -19412,37 +19438,36 @@ msgid ""
 msgstr ""
 " 6. Sich um die Städte kümmern\n"
 "\n"
-"Jede Stadt hat Bürger, die zu verschiedenen Zwecken eingesetzt werden "
-"können. Im Stadtfenster kann man sehen, wie das Gelände genutzt wird. "
-"Besonders zu Spielbeginn sollte darauf geachtet werden, daß Gelände optimal "
-"genutzt wird. Es ist zu beachten, daß ein Teil der Bürger nicht nur als "
-"Arbeiter, sondern auch als Unterhalter, Forscher oder Steuerfahnder "
-"eingesetzt werden können."
+"In jeder Stadt leben einige Bürger, deren genaue Anzahl von der Stadtgröße "
+"und somit der Bevölkerung abhängt. Wenn Sie eine Stadt anwählen, können Sie "
+"sehen, wie das Ihre Stadt umgebende Gelände bewirtschaftet wird und Sie "
+"können den einzelnen Bürgern bestimmte Felder zuweisen, oder aber sie in "
+"Spezialisten verwandeln, die Ihrer Zivilisation auf andere Art und Weise "
+"helfen. Ganz besonders am Spielbeginn sollte man darauf achten, dass die "
+"Bürger so beschäftigt werden, dass Stadtwachstum, Handel und Produktion "
+"maximiert werden."
 
 #: data/helpdata.txt:170
-#, fuzzy
 msgid ""
 "    If too much food is being generated, a citizen can be taken off the land "
 "by clicking on the occupied land tile.  This citizen can then be transferred "
 "to the other duties mentioned previously."
 msgstr ""
 "Wenn zuviel Nahrung produziert wird, kann man durch einen Klick auf das "
-"belegte Ackerland einen Arbeiter entfernen, den man dann für eine dieser "
-"Tätigkeiten einsetzen kann."
+"belegte Ackerland einen Arbeiter entfernen, den man dann für eine der "
+"genannten Tätigkeiten einsetzen kann."
 
 #: data/helpdata.txt:175
-#, fuzzy
 msgid ""
 "    If you move all of your citizens into the city and right-click on the "
 "central tile of the land, the citizens will be rearranged to maximize food "
 "production."
 msgstr ""
-"Wenn alle Arbeiter in die Stadt gebracht werden und dann ein Rechts-Klick "
-"auf das Ackerland im Zentrum gemacht wird, werden die Bürger so verteilt, "
-"daß möglichst viel Nahrung erzeugt wird."
+"Wenn alle Arbeiter in die Stadt gebracht werden und Sie dann einen "
+"Rechtsklick auf das Feld im Zentrum ausführen, werden die Bürger so "
+"verteilt, dass möglichst viel Nahrung erzeugt wird."
 
 #: data/helpdata.txt:181
-#, fuzzy
 msgid ""
 "    The golden rule of taking care of a city is that there should be at "
 "least as many happy citizens as unhappy citizens.  A city where this is not "
@@ -19451,10 +19476,11 @@ msgid ""
 "to any of your cities, as cities in disorder produce nothing, and are prone "
 "to revolt."
 msgstr ""
-"Das Wichtigste ist, darauf zu achten, daß es mindestens so viele glückliche "
+"Das Wichtigste ist, darauf zu achten, dass es mindestens so viele glückliche "
 "wie unzufriedene Bürger in einer Stadt gibt. Städte, auf die das nicht "
-"zutrifft, werden durch einen Blitz markiert. Solche Städte produzieren "
-"nichts und werden bald von Unruhen erschüttert."
+"zutrifft, werden durch einen Blitz oder eine erhobene Faust markiert (das "
+"hängt vom Graphiksatz ab). Solche Städte produzieren nichts und werden bald "
+"von Unruhen erschüttert."
 
 #: data/helpdata.txt:188
 msgid ""
@@ -19466,6 +19492,13 @@ msgid ""
 "intelligence about the other, which can be accessed from the `Nations' "
 "report."
 msgstr ""
+" 7. Zusammenarbeit mit anderen Spielern (Diplomatie)\n"
+"\n"
+"Wenn eine Ihrer Einheiten erstmals auf die Einheit einer anderen Nation "
+"trifft oder eine ihrer Städte findet (oder Sie gefunden werden), wird ein "
+"grundlegender Kontakt zwischen den zwei Nationen aufgebaut. So können Sie "
+"über den Nationenbericht einfache Erkundigungen über den jeweils anderen "
+"einholen."
 
 #: data/helpdata.txt:196
 msgid ""
@@ -19475,9 +19508,15 @@ msgid ""
 "technology.  Embassies are one-way - the nation hosting the embassy receives "
 "no benefit - and once established, cannot be revoked."
 msgstr ""
+"Diese Verbindung bricht nach einer festgelegten Anzahl von Runden ohne "
+"Kontakt wieder ab, sofern Sie keine Botschaft errichtet haben, die Ihnen "
+"einen permanenten Kontakt und weiterführende Spionage wie etwa der zum "
+"Forschungsstand Ihres Partners ermöglicht. Botschaften können nur in eine "
+"Richtung genutzt werden — die Nation, in der die Botschaft steht, hat davon "
+"keine Vorteile — und nachdem sie einmal eröffnet wurde, kann sie nicht mehr "
+"geschlossen werden."
 
 #: data/helpdata.txt:203
-#, fuzzy
 msgid ""
 "    If you are in contact with another player, then you can arrange a "
 "diplomatic meeting.  From the `Nations' report, this is done by clicking on "
@@ -19485,13 +19524,12 @@ msgid ""
 "under the embassy column is not blank and the other player is connected (or "
 "is a server AI) then a treaty dialog will pop up."
 msgstr ""
-" 10. Interaktion mit anderen Spielern (Diplomatie).\n"
-"\n"
-"Wenn Sie kürzlich mit einem anderen Spieler Kontakt hatten oder bei ihm eine "
-"Botschaft eingerichtet haben, können Sie eine Konferenz einberufen. Dies "
-"können Sie im Spielerbericht in der Spalte 'Botschaft' ablesen. Wählen Sie "
-"den Spieler aus, und klicken Sie auf den 'Konferenz'-Knopf. Dann erscheint "
-"das Konferenzfenster."
+"Wenn Sie mit einem anderen Spieler in Kontakt stehen, können Sie eine "
+"diplomatische Konferenz anberaumen. Dazu finden Sie im Nationenbericht eine "
+"Schaltfläche »Konferenz«, die Sie anklicken können, nachdem Sie die "
+"gewünschte Nation ausgewählt haben. Ist der Eintrag zur Botschaft nicht leer "
+"und ist der andere Spieler verbunden (oder ist eine Server-KI), wird ein "
+"Vertragsfenster erscheinen."
 
 #: data/helpdata.txt:210
 msgid ""
@@ -19500,6 +19538,14 @@ msgid ""
 "or peace.  There is no need to trade like for like; you can trade, say, an "
 "advance or city for gold - you can consider this buying and selling."
 msgstr ""
+"In diesem Dialog können Sie eine Reihe von Vereinbarungen ausmachen, "
+"darunter etwa Karten- und Karteneinsicht, Gewähr von Erkenntnissen in der "
+"Wissenschaft, Überschreibung von Städten oder Tributzahlungen. Sie können "
+"eine Botschaft vorschlagen und verbindliche Abkommen wie etwa eine "
+"Feuerpause oder einen Friedensvertrag aufsetzen. Es ist nicht nötig, "
+"Gleiches gegen Gleiches zu verhandeln; sie können beispielsweise eine "
+"Technologie oder eine Stadt gegen Gold eintauschen — sehen Sie es einfach "
+"als Kauf und Verkauf an."
 
 #: data/helpdata.txt:216
 msgid ""
@@ -19512,14 +19558,24 @@ msgid ""
 "situation is to dissolve your government.  The details of pacts are "
 "described in the Diplomacy section."
 msgstr ""
+"Verträge können Einfluss auf die Bewegungs- und Aktionsmöglichkeiten Ihrer "
+"Einheiten haben, und eine Vereinbarung mit einer Nation kann Auswirkungen "
+"auf Ihr Verhältnis mit anderen Nationen haben. Dazu kommt, dass autoritäre "
+"Regierungen wie Monarchien einen Vertrag jederzeit brechen können, eine "
+"Möglichkeit, die repräsentativen Regierungen (Republik und Monarchie) nicht "
+"offen steht, da deren Senat die unprovozierte Aufkündigung eines Vertrages "
+"ablehnen wird. Solange kein ausländischer Diplomat oder Spion einen "
+"diplomatischen Eklat verursacht, ist Ihr einziger Ausweg aus dieser "
+"Situation die Auflösung Ihrer Regierung. Die Details zu Abkommen können Sie "
+"im Abschnitt über Diplomatie nachlesen."
 
 #: data/helpdata.txt:226
 msgid "    A couple of notes:"
-msgstr ""
+msgstr "Ein paar Hinweise:"
 
 #: data/helpdata.txt:228
 msgid "   - You can't give away your capital."
-msgstr ""
+msgstr "  ‒ Die Hauptsadt ist nicht verhandelbar."
 
 #: data/helpdata.txt:230
 msgid ""
@@ -19528,23 +19584,27 @@ msgid ""
 "map, then you can't request it.  Of course, the owner of that city can still "
 "give it to you, in which case the area around the city is shown on your map."
 msgstr ""
+"  ‒ Sie können nur Eigentum verlangen, von dessen Existenz sie wissen; es "
+"ist daher nicht möglich, eine Technologie zu verlangen, wenn Sie keine "
+"Botschaft besitzen, und wenn Sie eine Stadt auf Ihrer Karte nicht sehen "
+"können, können Sie sie auch nicht fordern. Natürlich ist ein großzügiger "
+"Gegenüber trotzdem in der Lage, sie Ihnen zu überlassen, woraufhin der "
+"Kartenbereich um die betreffende Stadt auf Ihrer Karte aufgedeckt wird."
 
 #: data/helpdata.txt:237
-#, fuzzy
 msgid ""
 "   - One important thing to note: when a city is transferred, any units in "
 "the field and supported by that city are also transferred (but not those "
 "sitting in other cities).  So make sure the other player isn't getting a "
 "better deal than you expect."
 msgstr ""
-"Selbstverständlich kann der Besitzer jedoch dem Empfänger eine diesem "
-"unbekannte Stadt anbieten. In diesem Fall erscheinen die Stadt und die "
-"nähere Umgebung in dessen Karte.\n"
-"Wichtig: Städte werden mit den darin stationierten Einheiten übergeben, "
-"eingeschlossen unterstützte Einheiten, die sich im Feld befinden."
+"  ‒ Ein wichtiger Hinweis dazu: Wenn eine Stadt überantwortet wird, schließt "
+"dies alle in ihr befindlichen und von ihr unterstützten Einheiten mit ein "
+"(abgesehen von solchen, die sich gerade in anderen Städten aufhalten). "
+"Stellen Sie also sicher, dass Ihr Verhandlungspartner nicht einen größeren "
+"Fang landet als Ihnen bewusst war."
 
 #: data/helpdata.txt:242
-#, fuzzy
 msgid ""
 " 8. Exploring the world.\n"
 "\n"
@@ -19555,7 +19615,7 @@ msgid ""
 "it is truly a good idea to make a peace treaty and share the advances you "
 "have made. Diplomatic units are very useful here, and WILL pay off later."
 msgstr ""
-" 7. Welt erkunden\n"
+" 8. Welt erkunden\n"
 "\n"
 "Nachdem Truppen in den Städten stationiert wurden, sollten die Hafenstädte "
 "Triremen bauen, mit denen man die Welt weiter erkunden kann. In Fällen, wo "
@@ -19566,7 +19626,6 @@ msgstr ""
 "später auszahlen."
 
 #: data/helpdata.txt:252
-#, fuzzy
 msgid ""
 " 9. Things to keep in mind.\n"
 "\n"
@@ -19578,20 +19637,19 @@ msgid ""
 "\n"
 "  - Some wonders can be made obsolete by the development of certain advances."
 msgstr ""
-" 8. Was man im Auge behalten sollte\n"
+" 9. Was man im Auge behalten sollte\n"
 "\n"
-"  - Worauf soll sich die Forschung konzentrieren?\n"
+"  ‒ Worauf soll sich die Forschung konzentrieren?\n"
 "    Was wird als nächstes gebraucht?\n"
 "\n"
-"  - die aktuellen Quoten für Steuern, Luxus und Forschung\n"
+"  ‒ die aktuellen Quoten für Steuern, Luxus und Forschung\n"
 "\n"
-"  - Verträge werden oft gebrochen: auf die Verteidigung achten!\n"
+"  ‒ Verträge werden oft gebrochen: auf die Verteidigung achten!\n"
 "\n"
-"  - Bestimmte Errungenschaften werden durch neue\n"
+"  ‒ Bestimmte Errungenschaften werden durch neue\n"
 "    Erkenntnisse wertlos"
 
 #: data/helpdata.txt:263
-#, fuzzy
 msgid ""
 " 10. Making your own strategy for the game.\n"
 "\n"
@@ -19601,21 +19659,21 @@ msgid ""
 "has many twists, so if you haven't played a similar game before, try "
 "consulting the Freeciv WWW pages at:"
 msgstr ""
-" 9. Eigene Strategie entwickeln\n"
+" 10. Eine eigene Strategie für das Spiel entwickeln\n"
 "\n"
 "Diese Grundregeln ermöglichen es dem Anfänger, mit dem Spiel klarzukommen. "
 "Aber gut wird man nur, indem man sich ausführlich mit den verschiedenen "
-"Einheiten und Entwicklungen beschäftigt - und nicht zuletzt: SPIELT, SPIELT, "
+"Einheiten und Entwicklungen beschäftigt — und nicht zuletzt: SPIELT, SPIELT, "
 "SPIELT! Wenn Sie noch nie ein mit Freeciv vergleichbares Spiel gespielt "
-"haben, sollten Sie einen Blick auf http://www.freeciv.org werfen. Dort "
-"finden Sie neben zusätzlichen Spieltips auch Hinweise darauf, wie Sie andere "
-"Spieler ansprechen können."
+"haben, sollten Sie einen Blick auf die Webseite von Freeciv werfen:"
 
 #: data/helpdata.txt:274
 msgid ""
 "You'll find more tips for playing, and details of how to contact other "
 "players."
 msgstr ""
+"Dort finden Sie neben zusätzlichen Spieltipps auch Hinweise darauf, wie Sie "
+"andere Spieler ansprechen können."
 
 #: data/helpdata.txt:281
 msgid ""
@@ -22298,7 +22356,6 @@ msgstr ""
 "unter der Adresse:"
 
 #: data/helpdata.txt:2291
-#, fuzzy
 msgid ""
 "Please quote the above version information.  For more information about "
 "submitting bug reports see the file BUGS in the Freeciv distribution.  For "
@@ -22311,53 +22368,55 @@ msgstr ""
 
 #: data/multiplayer/buildings.ruleset:77
 msgid "Amphitheater"
-msgstr ""
+msgstr "Amphitheater"
 
 #: data/multiplayer/buildings.ruleset:593
-#, fuzzy
 msgid ""
 "Reduces the unhappiness caused by aggressively deployed military units owned "
 "by the city by 4 under Democracy and 2 under Republic -- in other words, it "
 "neutralizes the unhappiness caused by two military units. This improvement "
 "has no effect under other governments."
 msgstr ""
-"Stellt in einer 'Demokratie' 2 und in einer 'Republik' 1 über militärische "
-"Aktionen Unzufriedenen zufrieden. Unter anderen Regierungsformen hat eine "
-"Polizeiwache keine Auswirkungen."
+"Beschwichtigt in einer Demokratie vier und in einer Republik zwei über "
+"militärische Aktivitäten unzufriedenen Bürger — mit anderen Worten, es "
+"neutralisiert den durch zwei militärische Einheiten ausgelösten "
+"Negativeffekt. Unter anderen Regierungen hat diese Stadtverbesserung "
+"keinerlei Auswirkungen."
 
 #: data/multiplayer/buildings.ruleset:815
 #: data/multiplayer/buildings.ruleset:849
 #: data/multiplayer/buildings.ruleset:874
-#, fuzzy
 msgid ""
 "Before you can build any spaceship parts, you must build the Apollo Program."
-msgstr "Erfordert die Stadtverbesserung %s.\n"
+msgstr ""
+"Bevor Sie Raumschiffkomponenten bauen können, muss jemand das Apollo-"
+"Programm abgeschlossen haben."
 
 #: data/multiplayer/buildings.ruleset:940
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the food resources by 100% on each farmland tile which is being "
 "used around the city.  Farmland tiles are those which have been irrigated a "
 "second time."
 msgstr ""
-"Steigert die Nahrungserzeugung von Ackerfeldern der Stadt um 50%.\n"
-"Ein Ackerfeld ist ein Feld, auf dem zwei Bewässerungssysteme eingerichtet "
-"wurden."
+"Steigert die Nahrungserzeugung von Ackerfeldern der Stadt um 100%. Ein "
+"Ackerfeld ist ein Feld, auf dem zwei Bewässerungssysteme eingerichtet wurden."
 
 #: data/multiplayer/buildings.ruleset:1005
 msgid ""
 "Allows you to start building spaceship parts in cities with factories "
 "(assuming you have researched the necessary technologies)."
 msgstr ""
+"Erlaubt Ihnen in Städten mit Fabriken Raumschiffkomponenten anzufertigen "
+"(vorausgesetzt, dass Sie die dafür notwendigen Fortschritte erreicht haben)."
 
 #: data/multiplayer/buildings.ruleset:1026
-#, fuzzy
 msgid ""
 "City improvements which would normally have an upkeep of 1 are free of "
 "upkeep, for all your cities on the same continent."
 msgstr ""
-"In allen eigenen Städten braucht für Stadterweiterungen mit Unterhaltskosten "
-"von 1 kein Unterhalt mehr bezahlt zu werden."
+"In allen Städten auf demselben Kontinent muss für Stadterweiterungen mit "
+"Unterhaltskosten von 1 kein Unterhalt mehr bezahlt zu werden."
 
 #: data/multiplayer/buildings.ruleset:1086
 #, fuzzy
@@ -22380,84 +22439,87 @@ msgid ""
 "Gives two immediate technology advances the first time it is built by each "
 "player."
 msgstr ""
+"Gewährt jedem Spieler, der es erstmals fertigstellt, unverzüglich zwei "
+"Fortschritte."
 
 #: data/multiplayer/buildings.ruleset:1131
 #, no-c-format
 msgid ""
 "Each city on the same continent may support one unit free of shield upkeep."
 msgstr ""
+"Jede Stadt auf demselben Kontinent kann eine Einheit ohne Schildkosten "
+"unterhalten."
 
 #: data/multiplayer/buildings.ruleset:1152
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Reduces corruption by 50% in all cities on the same continent."
-msgstr "Erfordert %s als Regierungsform.\n"
+msgstr ""
+"Verringert in allen Städten auf demselben Kontent die Korruption um 50%."
 
 #: data/multiplayer/buildings.ruleset:1171
-#, fuzzy
 msgid "Works as a City Wall in all your cities on the same continent."
-msgstr "Gilt als Stadtmauer für jede eigene Stadt."
+msgstr "Gilt als Stadtmauer für jede Ihrer Städte auf demselben Kontintent."
 
 #: data/multiplayer/buildings.ruleset:1190
-#, fuzzy
 msgid ""
 "Makes two content citizens happy in every city on the same continent. In the "
 "unlikely event where there are no content citizens to get the effect of "
 "Hanging Gardens, the wonder applies to unhappy citizens (including those "
 "unhappy about military activity), making each content then happy."
 msgstr ""
-"Machen in jeder eigenen Stadt einen Zufriedenen glücklich.\n"
-"\n"
-"Machen in der Stadt, wo sie hängen, 2 weitere Zufriedene glücklich.\n"
-"\n"
-"Sollte es in einer Stadt keine Zufriedenen geben, stellen sie stattdessen "
-"Unzufriedene zufrieden."
+"Machen in jeder Stadt auf demselben Kontinent zwei Zufriedene glücklich. "
+"Sollte der außerordentlich seltene Fall eintreten, dass es keine Zufriedenen "
+"gibt, auf die dieser Effekt zutreffen könnte, wirken sie sich stattdessen "
+"auf die Unzufrieden (eingeschlossen jene, die aufgrund militärischer "
+"Aktivitäten unzufrieden sind) aus und stellen jeden von ihnen zunächst "
+"zufrieden, dann glücklich."
 
 #: data/multiplayer/buildings.ruleset:1214
-#, fuzzy
 msgid ""
 "Works as if you had a Hydro Plant in every city on the same continent. (This "
 "reduces pollution and increases the effects of Factories and Mfg. Plants.)"
 msgstr ""
 "Zählt als Wasserkraftwerk in jeder Stadt. (Die Umweltverschmutzung wird "
-"verringert und die Produktivität wird erhöht.)"
+"verringert und die Produktivität von Fabriken und Fertigungsstätten wird "
+"erhöht.)"
 
 #: data/multiplayer/buildings.ruleset:1236
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Boosts science production by 100% in every city on the same continent that "
 "has a University."
 msgstr ""
-"Verdoppelt das Forschungstempo in jeder Ihrer Städte, die eine Universität "
-"besitzt."
+"Verdoppelt das Forschungstempo in jeder Ihrer auf demselben Kontintent "
+"gelegenen Stadt, die eine Universität besitzt."
 
 #: data/multiplayer/buildings.ruleset:1256
-#, fuzzy
 msgid ""
 "Makes two unhappy citizens content in every city on the same continent "
 "(including citizens unhappy about military activity)."
-msgstr "Macht in jeder Stadt mit einem Tempel 2 Unzufriedene zufrieden."
+msgstr ""
+"Stellt in jeder Stadt auf demselben Kontinent zwei unzufriedene Bürger "
+"zufrieden (das schließt Bürger, die aufgrund von militärischen Aktivitäten "
+"glücklich sind, mit ein)."
 
 #: data/multiplayer/buildings.ruleset:1296
-#, fuzzy
 msgid "Upgrades two obsolete units per game turn."
-msgstr "Modernisiert eine veraltete Einheit pro Runde."
+msgstr "Modernisiert zwei veraltete Einheiten pro Spielrunde."
 
 #: data/multiplayer/buildings.ruleset:1336
-#, fuzzy
 msgid ""
 "All your new sea units built in cities on the same continent start at the "
 "first veteran level."
-msgstr "Modernisiert eine veraltete Einheit pro Runde."
+msgstr ""
+"Jede neue Seeeinheit, die in einer Stadt auf demselben Kontinent vom Stapel "
+"läuft, beginnt mit dem ersten Veteranengrad."
 
 #: data/multiplayer/buildings.ruleset:1375
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Increases trade output by 40% in all cities on the same continent."
 msgstr ""
-"Für alle Felder mit Straßen oder Schienen erhöht sich das Handelsaufkommen "
-"um 50 %."
+"Erhöht das Handelsaufkommen aller Städte auf demselben Kontinent um 40%."
 
 #: data/multiplayer/buildings.ruleset:1395
-#, fuzzy
 msgid ""
 "Counts as having a Cathedral in each of your cities on the same continent. "
 "This makes 3 unhappy citizens content in each city; however, it does not "
@@ -22465,16 +22527,23 @@ msgid ""
 "increases the effect of a Cathedral, making an additional unhappy citizen "
 "content. The discovery of Communism lessens the effect of a Cathedral, "
 "reducing by one the number of unhappy citizens made content."
-msgstr "Zählt als Kathedrale in jeder eigenen Stadt."
+msgstr ""
+"Zählt als Kathedrale in jeder eigenen Stadt auf diesem Kontinent. Dadurch "
+"werden in jeder Stadt drei nicht wegen militärischer Aktivitäten "
+"unzufriedene Bürger zufrieden gestellt. Dieser Effekt wird durch die "
+"Entdeckung der Theologie vergrößert, sodass ein weiterer Bürger zufrieden "
+"gestellt werden kann, und durch die Entdeckung des Kommunismus verringert, "
+"sodass ein Bürger weniger zufrieden gestellt werden kann."
 
 #: data/multiplayer/buildings.ruleset:1420
-#, fuzzy
 msgid ""
 "Makes two of your unhappy citizens content in every city with a Temple on "
 "the same continent. Does not affect citizens made unhappy by military "
 "activity."
 msgstr ""
-"Stellt in jeder Stadt auf dem gleichen Kontinent zwei Unzufriedene zufrieden."
+"Stellt zwei unzufriedene Bürger in jeder auf demselben Kontinent gelegenen "
+"und mit einem Tempel ausgestatteten Stadt zufrieden. Hat keine Auswirkungen "
+"auf Bürger, die wegen militärischer Aktivitäten unzufrieden sind."
 
 #: data/multiplayer/buildings.ruleset:1442
 #, no-c-format
@@ -22482,27 +22551,29 @@ msgid ""
 "The city where this wonder is built will experience rapture growth when "
 "celebrating."
 msgstr ""
+"Die Stadt, in der dieses Weltwunder errichtet wird, wächst bei "
+"Feierlichkeiten extrem stark."
 
 #: data/multiplayer/buildings.ruleset:1448
-#, fuzzy
 msgid "The Internet"
-msgstr "Spiel"
+msgstr "Das Internet"
 
 #: data/multiplayer/buildings.ruleset:1463
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Boosts science production in each city on the same continent with a Research "
 "Lab by 100%."
 msgstr ""
-"Beschleunigt das Forschungstempo in jeder Stadt mit einem Forschungslabor um "
-"100%."
+"Beschleunigt das Forschungstempo in jeder auf demselben Kontinent gelegenen "
+"Stadt mit einem Forschungslabor um 100%."
 
 #: data/multiplayer/buildings.ruleset:1525
-#, fuzzy
 msgid ""
 "All your new military land units produced in cities on the same continent "
 "start at the first veteran level."
-msgstr "Modernisiert eine veraltete Einheit pro Runde."
+msgstr ""
+"Alle neuen Landtruppen, die in Städten auf diesem Kontinent ausgebildet "
+"werden, beginnen mit dem ersten Veteranengrad."
 
 #: data/multiplayer/buildings.ruleset:1545
 msgid ""
@@ -22510,20 +22581,31 @@ msgid ""
 "circumstances. If any player's city is in revolt for more than two turns, "
 "that player's government falls."
 msgstr ""
+"Errichtet einen Weltsicherheitsrat, der Kriegserklärungen unter bestimmten "
+"Umständen verhindern kann.\n"
+"\n"
+"Wenn eine Stadt eines Staates für länger als zwei Runden revoltiert, "
+"verfügen die UN-Gremien die Auflösung der dafür verantwortlichen Regierung, "
+"sodass der betroffene Staat in Anarchie zurückfällt."
 
 #: data/multiplayer/buildings.ruleset:1566
-#, fuzzy
 msgid ""
 "Counts as a Police Station in every city on the same continent. (That is, "
 "for each city, it reduces the unhappiness caused by aggressively deployed "
 "military units owned by that city by 4 under Democracy and 2 under Republic "
 "-- in other words, it neutralizes the unhappiness caused by two military "
 "units per city. This wonder has no effect under other governments.)"
-msgstr "Zählt als Polizeiwache in jeder eigenen Stadt."
+msgstr ""
+"Zählt als Polizeiwache in jeder eigenen Stadt auf demselben Kontinent. (Das "
+"bedeutet, dass in jeder dieser Städte die durch militärische Aktivitäten "
+"ausgelöste Unzufriedenheit in einer Demokratie um 4 und in einer Republik um "
+"2 Bürger reduziert wird — also den Effekt von zwei Militäreinheiten je Stadt "
+"neutralisiert. Unter anders regierten Staaten hat es allerdings keinen "
+"Effekt.)"
 
 #: data/multiplayer/game.ruleset:18
 msgid "Multiplayer ruleset"
-msgstr ""
+msgstr "Mehrspieler-Regelsatz"
 
 #: data/multiplayer/game.ruleset:21
 msgid ""
@@ -22533,215 +22615,204 @@ msgid ""
 "only cities on the same continent. A full description of the differences can "
 "be found in README.ruleset_multiplayer."
 msgstr ""
+"Sie spielen Freeciv mit dem für Mehrspieler-Spiele entwickelten Regelwerk. "
+"Der größte Unterschied zum Standardregelsatz ist dabei, dass Handelsrouten "
+"deaktiviert sind und die meisten Wunder von jedem Spieler einmal gebaut "
+"werden können und sich ihre Effekte meist nur auf Städte, die sich auf "
+"demselben Kontinent befinden, auswirken. Eine vollständige Beschreibung der "
+"Unterschiede kann der Datei »README.ruleset_multiplayer« entnommen werden."
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #. TRANS: With this and other color team names, uniqueness is more
 #. TRANS: important than precise translation. To see the colors, start a
 #. TRANS: multiplayer game with 32 players and look at the Nations report.
 #: data/multiplayer/game.ruleset:262
-#, fuzzy
 msgid "?team name:Red"
-msgstr "Pfarrer"
+msgstr "Rot"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:264
 msgid "?team name:Yellow"
-msgstr ""
+msgstr "Gelb"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:266
 msgid "?team name:Blue"
-msgstr ""
+msgstr "Blau"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:268
-#, fuzzy
 msgid "?team name:Purple"
-msgstr "Pfarrer"
+msgstr "Violett"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:270
 msgid "?team name:Orange"
-msgstr ""
+msgstr "Orange"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:272
-#, fuzzy
 msgid "?team name:Magenta"
-msgstr "Genossin"
+msgstr "Magenta"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:274
-#, fuzzy
 msgid "?team name:Cornflower"
-msgstr "Pfarrer"
+msgstr "Kornblumenblau"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:276
-#, fuzzy
 msgid "?team name:Emerald"
-msgstr "Konsulin"
+msgstr "Smaragd"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:278
-#, fuzzy
 msgid "?team name:Salmon"
-msgstr "Genossin"
+msgstr "Lachsfarben"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:280
 msgid "?team name:Green"
-msgstr ""
+msgstr "Grün"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:282
-#, fuzzy
 msgid "?team name:Burgundy"
-msgstr "Pfarrer"
+msgstr "Burgunder"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:284
 msgid "?team name:Pink"
-msgstr ""
+msgstr "Pink"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:286
 msgid "?team name:Silver"
-msgstr ""
+msgstr "Silber"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:288
 msgid "?team name:Heliotrope"
-msgstr ""
+msgstr "Blutrot"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:290
 msgid "?team name:Fuchsia"
-msgstr ""
+msgstr "Fuchsia"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:292
 msgid "?team name:Azure"
-msgstr ""
+msgstr "Azur"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:294
-#, fuzzy
 msgid "?team name:Gold"
-msgstr "Pfarrer"
+msgstr "Gold"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:296
-#, fuzzy
 msgid "?team name:Khaki"
-msgstr "Konsulin"
+msgstr "Khaki"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:298
-#, fuzzy
 msgid "?team name:Butter"
-msgstr "Pfarrer"
+msgstr "Quietschgelb"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:300
-#, fuzzy
 msgid "?team name:Mint"
-msgstr "Genossin"
+msgstr "Pfefferminzfarben"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:302
-#, fuzzy
 msgid "?team name:Lime"
-msgstr "Pfarrer"
+msgstr "Limettengrün"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:304
-#, fuzzy
 msgid "?team name:Peach"
-msgstr "Pfarrer"
+msgstr "Pfirsichfarben"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:306
-#, fuzzy
 msgid "?team name:Vermilion"
-msgstr "Konsulin"
+msgstr "Zinnoberrot"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:308
-#, fuzzy
 msgid "?team name:Puce"
-msgstr "Pfarrer"
+msgstr "Dunkelbraun"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:310
-#, fuzzy
 msgid "?team name:Mustard"
-msgstr "Genossin"
+msgstr "Senfgelb"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:312
-#, fuzzy
 msgid "?team name:Aubergine"
-msgstr "Pfarrer"
+msgstr "Dunkellila"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:314
-#, fuzzy
 msgid "?team name:Brown"
-msgstr "Pfarrer"
+msgstr "Braun"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:316
-#, fuzzy
 msgid "?team name:Pumpkin"
-msgstr "Pfarrer"
+msgstr "Kürbisorange"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:318
 msgid "?team name:Turquoise"
-msgstr ""
+msgstr "Türkis"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:320
-#, fuzzy
 msgid "?team name:Crimson"
-msgstr "Pfarrer"
+msgstr "Karminrot"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:322
 msgid "?team name:Lavender"
-msgstr ""
+msgstr "Lavendelfarben"
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #: data/multiplayer/game.ruleset:324
-#, fuzzy
 msgid "?team name:Cream"
-msgstr "Pfarrer"
+msgstr "Crémefarben"
 
 #: data/multiplayer/techs.ruleset:245
-#, fuzzy
 msgid "Improves the effect of Amphitheaters."
-msgstr "Vergrößert den Effekt von Tempeln."
+msgstr "Vergrößert den Effekt von Amphitheatern."
 
 #: data/multiplayer/techs.ruleset:270
 msgid "Having this advance decreases pollution in all your cities by 50%."
 msgstr ""
+"Dieser Fortschritt reduziert die Umweltverschmutzung in allen Ihren Städten "
+"um die Hälfte."
 
 #: data/multiplayer/techs.ruleset:547
 msgid ""
 "When you research this technology, you also get one other immediate "
 "technology advance."
 msgstr ""
+"Die Entdeckung dieser Technologie zieht automatisch die Entdeckung eines "
+"weiteren Fortschritts nach sich."
 
 #: data/multiplayer/techs.ruleset:781
-#, fuzzy
 msgid "Theory of Evolution"
-msgstr "Gravitationstheorie"
+msgstr "Evolutionstheorie"
 
 #: data/multiplayer/techs.ruleset:788
 msgid ""
 "This technology is only acquired the first time you build Darwin's Voyage."
 msgstr ""
+"Diese Technologie wird nur als erstes erhalten, wenn Sie Darwins Reise "
+"abschließen."
 
 #: data/multiplayer/units.ruleset:350
 msgid ""
