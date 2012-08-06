@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-06 16:43+0200\n"
+"PO-Revision-Date: 2012-08-06 18:02+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -10232,7 +10232,9 @@ msgstr "Font"
 
 #: client/options.c:4457
 msgid "If you add a preset by hand, also update \"number_of_presets\""
-msgstr "Wenn manuell eine Vorgabe hinzugefügt wird, muss auch »number_of_presets« geändert werden."
+msgstr ""
+"Wenn manuell eine Vorgabe hinzugefügt wird, muss auch »number_of_presets« "
+"geändert werden."
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: client/options.c:4501 client/options.c:4537
@@ -12373,7 +12375,7 @@ msgstr "Boden"
 #. TRANS: terrain class: used adjectivally
 #: common/terrain.h:94
 msgid "Oceanic"
-msgstr "Ozeanien"
+msgstr "Ozean"
 
 #: common/unit.c:687
 msgid "Idle"
@@ -12556,7 +12558,7 @@ msgid ""
 "THIS IS A BETA VERSION\n"
 "Freeciv %s will be released in %s, at %s"
 msgstr ""
-"DIES IST EINE BETA VERSION\n"
+"DIES IST EINE BETA-VERSION\n"
 "Freeciv %s wird voraussichtlich im %s\n"
 "auf %s veröffentlicht werden."
 
@@ -12566,12 +12568,12 @@ msgid ""
 "THIS IS A BETA VERSION\n"
 "Freeciv %s will be released at %s"
 msgstr ""
-"DIES IST EINE BETA VERSION\n"
+"DIES IST EINE BETA-VERSION\n"
 "Freeciv %s wird voraussichtlich auf %s veröffentlicht werden."
 
 #: common/version.c:143
 msgid "'Cause civilization should be free!"
-msgstr "Because civilization(s) should be free!"
+msgstr "’Cause civilization should be free!"
 
 #: data/civ1/buildings.ruleset:28 data/civ2/buildings.ruleset:54
 #: data/default/buildings.ruleset:75 data/experimental/buildings.ruleset:77
@@ -15318,7 +15320,7 @@ msgstr "Seehunde"
 
 #: data/civ1/terrain.ruleset:744
 msgid "Fortresses improve defense for land units."
-msgstr ""
+msgstr "Festungen erleichtern die Verteidigung für Landeinheiten."
 
 #: data/civ1/units.ruleset:18 data/civ2/units.ruleset:23
 #: data/civ2/units.ruleset:1877 data/default/units.ruleset:28
@@ -15331,28 +15333,28 @@ msgstr "unerfahren"
 #: data/default/units.ruleset:110 data/experimental/units.ruleset:113
 #: data/multiplayer/units.ruleset:110
 msgid "?unitclass:Land"
-msgstr "Land-"
+msgstr "Bodentruppen"
 
 #. TRANS: Unit class: used adjectivally
 #: data/civ1/units.ruleset:101 data/civ2/units.ruleset:114
 #: data/default/units.ruleset:119 data/experimental/units.ruleset:133
 #: data/multiplayer/units.ruleset:119
 msgid "?unitclass:Sea"
-msgstr "See-"
+msgstr "Seeeinheiten"
 
 #. TRANS: Unit class: used adjectivally
 #: data/civ1/units.ruleset:108 data/civ2/units.ruleset:128
 #: data/default/units.ruleset:140 data/experimental/units.ruleset:154
 #: data/multiplayer/units.ruleset:140
 msgid "?unitclass:Air"
-msgstr "Luft-"
+msgstr "Luftwaffe"
 
 #. TRANS: Unit class: used adjectivally
 #: data/civ1/units.ruleset:116 data/civ2/units.ruleset:97
 #: data/default/units.ruleset:102 data/experimental/units.ruleset:105
 #: data/multiplayer/units.ruleset:102
 msgid "?unitclass:Missile"
-msgstr "Raketen-"
+msgstr "Marschflugkörper"
 
 #: data/civ1/units.ruleset:201 data/civ2/units.ruleset:204
 #: data/default/units.ruleset:319 data/experimental/units.ruleset:333
@@ -17355,7 +17357,7 @@ msgstr ""
 #: data/civ2/units.ruleset:121 data/default/units.ruleset:133
 #: data/experimental/units.ruleset:147 data/multiplayer/units.ruleset:133
 msgid "?unitclass:Helicopter"
-msgstr "Hubschrauber-"
+msgstr "Helikopter"
 
 #: data/civ2/units.ruleset:235
 msgid ""
@@ -19162,6 +19164,17 @@ msgid ""
 "units -- typically with an explorer and a couple of settlers in 4000 BC -- "
 "and race to expand outward from those humble beginnings."
 msgstr ""
+"Freeciv ist ein rundenbasiertes Strategiespiel, in dem jeder Spieler die "
+"Führung einer Zivilisation übernimmt. Sie messen sich mit zahlreichen "
+"Gegnern, indem Sie Städte gründen und diese dazu nutzen, Ihr Militär und "
+"Ihre Wirtschaft aufzubauen, sodass Sie schließlich ein unvergängliches "
+"Imperium errichten, welches aus allen Scharmützeln mit seinen Nachbarn "
+"siegreich hervorgeht. Jeder Gegner kann entweder von einem echten "
+"menschlichen Spielpartner oder vom Computer kontrolliert werden; jeder "
+"einzelne von ihnen erhält zu Anbeginn aller menschlichen Geschichte nur eine "
+"Handvoll Einheiten — typischerweise einen Kundschafter und zwei Siedler im "
+"Jahre 4000 v.Chr. — und setzt es sich zum Ziel, aus diesen bescheidenen "
+"Verhältnissen heraus immer weiter zu expandieren."
 
 #: data/helpdata.txt:51
 msgid ""
@@ -19170,6 +19183,11 @@ msgid ""
 "in concert to both expand and successfully defend your empire, but any of "
 "the three may provide victory over your opponents:"
 msgstr ""
+"Erfolg hat jedoch nur der, der die richtige Balance zwischen "
+"wirtschaftlicher Expansion, militärischer Stärke und wissenschaftlicher "
+"Entwicklung findet. Sie müssen nicht nur alle drei zugleich beachten, um Ihr "
+"Imperium erfolgreich zu erweitern und zu verteiden, sondern jedes einzelne "
+"dieser drei Elemente kann der Schlüssel zum Sieg über Ihre Gegner sein."
 
 #: data/helpdata.txt:57
 msgid ""
@@ -19177,6 +19195,9 @@ msgid ""
 "by default once the last city and unit of every other civilization is "
 "destroyed."
 msgstr ""
+"‒ Wie in anderen Spielen, in denen es um Eroberung und Expansion geht, "
+"werden Sie üblicherweise dann zum Sieger gekürt, wenn die letzte Stadt und "
+"die letzte Einheit jeder anderen Zivilisation der Geschichte angehört."
 
 #: data/helpdata.txt:61
 msgid ""
@@ -19184,6 +19205,10 @@ msgid ""
 "launch a spacecraft destined for Alpha Centauri; the first civilization "
 "whose craft reaches the system wins."
 msgstr ""
+"‒ Wenn Ihre technologische Fortentwicklung Sie einmal bis in das "
+"Weltraumzeitalter gebracht hat, können Sie ein Raumschiff erbauen und auf "
+"die lange Reise nach Alpha Centauri schicken; die erste Zivilisation, deren "
+"Raumschiff dieses Sonnensystem erreicht, gewinnt das Spiel."
 
 #: data/helpdata.txt:65
 msgid ""
@@ -19192,6 +19217,10 @@ msgid ""
 "civilizations are then rated, and the one with the highest score is the "
 "winner."
 msgstr ""
+"‒ Trifft keine andere Siegbedingung zu und kein Raumschiff wurde gestartet, "
+"wird das Spiel im Jahre 2000 n.Chr. enden und die noch existierenden "
+"Zivilisationen werden bewertet. Diejenige, die die höchste Bewertung erhält, "
+"wird zum Sieger ernannt."
 
 #: data/helpdata.txt:74
 msgid ""
@@ -19199,7 +19228,7 @@ msgid ""
 "follow, especially at the start of the game."
 msgstr ""
 "Obwohl jedes Spiel anders ist, gibt es ein paar grundlegende Strategien, die "
-"von den meisten Spielern - insbesondere am Anfang eines Spiels - angewendet "
+"von den meisten Spielern — insbesondere am Anfang eines Spiels — angewendet "
 "werden."
 
 #: data/helpdata.txt:77
@@ -19211,7 +19240,6 @@ msgstr ""
 "unterschiedlich sein, normalerweise ist die Reihenfolge aber:"
 
 #: data/helpdata.txt:80
-#, fuzzy
 msgid ""
 " 0. Choosing the first city site.\n"
 " 1. Mapping the countryside.\n"
@@ -19232,10 +19260,10 @@ msgstr ""
 " 4. Gelände verbessern\n"
 " 5. Städte bauen\n"
 " 6. Sich um die Städte kümmern\n"
-" 7. Welt erkunden\n"
-" 8. Was man im Auge behalten sollte\n"
-" 9. Eigene Strategie entwickeln\n"
-"10. Zusammenarbeit mit anderen Spielern\n"
+" 7. Zusammenarbeit mit anderen Spielern (Diplomatie)\n"
+" 8. Erkunden der Welt\n"
+" 9. Was man im Auge behalten sollte\n"
+"10. Eine eigene Strategie für das Spiel entwickeln\n"
 
 #: data/helpdata.txt:92
 msgid ""
