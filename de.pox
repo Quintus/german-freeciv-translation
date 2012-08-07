@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-06 22:27+0200\n"
+"PO-Revision-Date: 2012-08-07 20:54+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -10628,16 +10628,15 @@ msgstr[0] "Tempo: %d Runde pro Fortschritt"
 msgstr[1] "Tempo: %d Runden pro Fortschritt"
 
 #: client/text.c:762
-#, fuzzy, c-format
+#, c-format
 msgid "Progress: %d turn/advance loss"
 msgid_plural "Progress: %d turns/advance loss"
-msgstr[0] "Tempo: %d Runde pro Fortschritt"
-msgstr[1] "Tempo: %d Runden pro Fortschritt"
+msgstr[0] "Tempo: %d Runde pro Verlust von Fortschritt"
+msgstr[1] "Tempo: %d Runden pro Verlust von Fortschritt"
 
 #: client/text.c:767
-#, fuzzy
 msgid "Progress: none"
-msgstr "Tempo: keine Forschung"
+msgstr "Tempo: Stillstand"
 
 #. TRANS: <perturn> bulbs/turn
 #: client/text.c:770 client/text.c:1336
@@ -10845,31 +10844,34 @@ msgstr "Keine dieser Einheiten können erneuert werden."
 #. * used by including it in another string (search comments for this
 #. * string to find it)
 #: client/text.c:1241
-#, fuzzy, c-format
+#, c-format
 msgid "Upgrade %d unit"
 msgid_plural "Upgrade %d units"
-msgstr[0] "Einheit modernisieren"
-msgstr[1] "Einheit modernisieren"
+msgstr[0] "%d Einheit modernisieren"
+msgstr[1] "%d Einheiten modernisieren"
 
 #. TRANS: This is complicated. The first %s is a pre-pluralised
 #. * sentence fragment "Upgrade %d unit(s)"; the second is pre-pluralised
 #. * "Treasury contains %d gold." So the whole thing reads
 #. * "Upgrade 13 units for 1000 gold?\nTreasury contains 2000 gold."
 #: client/text.c:1249
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s for %d gold?\n"
 "%s"
 msgid_plural ""
 "%s for %d gold?\n"
 "%s"
-msgstr[0] "%s für %d Goldstücke verkaufen?"
-msgstr[1] "%s für %d Goldstücke verkaufen?"
+msgstr[0] ""
+"Für %2$d Goldstück %1$s?\n"
+"%3$s"
+msgstr[1] ""
+"Für %2$d Goldstücke %1$s?\n"
+"%3$s"
 
 #: client/text.c:1266
-#, fuzzy
 msgid "No units to disband!"
-msgstr "Es konnten keine Einheiten erneuert werden."
+msgstr "Es konnten keine Einheiten aufgelöst werden."
 
 #: client/text.c:1270 server/unithand.c:512
 #, c-format
@@ -10878,22 +10880,21 @@ msgstr "%s will sich nicht auflösen!"
 
 #. TRANS: %s is a unit type
 #: client/text.c:1275
-#, fuzzy, c-format
+#, c-format
 msgid "Disband %s?"
-msgstr "Einheiten auflösen"
+msgstr "%s auflösen?"
 
 #: client/text.c:1287
-#, fuzzy
 msgid "None of these units may be disbanded."
-msgstr "Keine dieser Einheiten können erneuert werden."
+msgstr "Keine dieser Einheiten kann aufgelöst werden."
 
 #. TRANS: %d is never 0 or 1
 #: client/text.c:1291
-#, fuzzy, c-format
+#, c-format
 msgid "Disband %d unit?"
 msgid_plural "Disband %d units?"
-msgstr[0] "Einheit auflösen"
-msgstr[1] "Einheit auflösen"
+msgstr[0] "%d Einheit auflösen?"
+msgstr[1] "%d Einheiten auflösen?"
 
 #: client/text.c:1308
 msgid "Shows your progress in researching the current technology."
@@ -10901,18 +10902,17 @@ msgstr "Zeigt den Stand der Erforschung der aktuellen Technologie."
 
 #: client/text.c:1315
 msgid "no research target."
-msgstr "kein Forschungsziel"
+msgstr "kein Forschungsziel."
 
 #: client/text.c:1330
-#, fuzzy
 msgid "No progress"
-msgstr "Konstruktion"
+msgstr "Kein Fortschritt"
 
 #. TRANS: <tech>: <amount>/<total bulbs>
 #: client/text.c:1339
-#, fuzzy, c-format
+#, c-format
 msgid "%s: %d/%d (%s, %s)."
-msgstr "%s in %s (%s)\n"
+msgstr "%s: %d/%d (%s, %s)."
 
 #: client/text.c:1367
 msgid "Shows the progress of global warming:"
@@ -11038,15 +11038,15 @@ msgstr "%s %s"
 #. TRANS: Just happending 2 strings, using the correct localized
 #. * syntax.
 #: client/text.c:1597
-#, fuzzy, c-format
+#, c-format
 msgid "%s - %s"
-msgstr "%s%d %s"
+msgstr "%s — %s"
 
 #. TRANS: "Observer: 1985"
 #: client/text.c:1602
-#, fuzzy, c-format
+#, c-format
 msgid "Observer - %s"
-msgstr "Beobachter: %s"
+msgstr "Beobachter — %s"
 
 #: client/text.c:1620
 msgid "Buildings: "
@@ -11065,9 +11065,10 @@ msgid "Wonders: "
 msgstr "Weltwunder: "
 
 #: client/text.c:1706
-#, fuzzy, c-format
+#, c-format
 msgid "Cities: %d total, but no penalty for empire size."
-msgstr "Städte: %d insgesamt, %d über dem Grenzwert von %d Städten."
+msgstr ""
+"Städte: %d insgesamt. Der Grenzwert für die Nationsgröße wurde abgeschaltet."
 
 #: client/text.c:1723
 #, c-format
@@ -11098,8 +11099,8 @@ msgstr "Unbegrenztes Kriegsrecht in Kraft."
 #, c-format
 msgid "%d military unit may impose martial law."
 msgid_plural "Up to %d military units may impose martial law."
-msgstr[0] "%d militärische Einheit kann Kriegsrecht errichten."
-msgstr[1] "Bis zu %d militärische Einheiten können Kriegsrecht errichten."
+msgstr[0] "%d militärische Einheit kann Kriegsrecht anwenden."
+msgstr[1] "Bis zu %d militärische Einheiten können Kriegsrecht anwenden."
 
 #: client/text.c:1762
 #, c-format
@@ -11121,6 +11122,7 @@ msgstr "Kampfeinheiten wirken sich nicht auf die Zufriedenheit aus. "
 msgid "Luxury: %d total."
 msgstr "Luxus: %d gesamt."
 
+# MG: TECHNICAL
 #: client/tilespec.c:994
 msgid "No usable default tileset found, aborting!"
 msgstr "No usable default tileset found, aborting!"
@@ -11128,7 +11130,7 @@ msgstr "No usable default tileset found, aborting!"
 #: client/tilespec.c:1026
 #, c-format
 msgid "Loading tileset \"%s\"."
-msgstr "Lade Feldergrafik '%s'."
+msgstr "Lade Feldgrafiksatz »%s«."
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: client/tilespec.c:1489
@@ -11406,14 +11408,12 @@ msgid "Was Built"
 msgstr "Erweiterung wurde gebaut"
 
 #: common/events.c:110
-#, fuzzy
 msgid "Has Plague"
-msgstr "Klausel löschen"
+msgstr "Seuche ausgebrochen"
 
 #: common/events.c:111
-#, fuzzy
 msgid "City Map changed"
-msgstr "Stadt: Produktion geändert"
+msgstr "Stadtkarte verändert"
 
 #: common/events.c:112
 msgid "Worklist Events"
@@ -11520,14 +11520,12 @@ msgid "Low Funds"
 msgstr "Schlechte Haushaltslage"
 
 #: common/events.c:147
-#, fuzzy
 msgid "Revolution Ended"
-msgstr "Revolte beendet"
+msgstr "Revolution beendet"
 
 #: common/events.c:148
-#, fuzzy
 msgid "Revolution Started"
-msgstr "Revolte begonnen"
+msgstr "Revolution begonnen"
 
 #: common/events.c:149
 msgid "Spaceship Events"
@@ -12249,11 +12247,11 @@ msgstr "Player-ranged requirements are only supported for wonders."
 msgid "Island-ranged requirements are only supported for wonders."
 msgstr "Island-ranged requirements are only supported for wonders."
 
+# MG: TECHNICAL
 #. TRANS: Obscure ruleset error.
 #: common/requirements.c:653
-#, fuzzy
 msgid "Surviving requirements are only supported at world and player ranges."
-msgstr "Surviving requirements are only supported at world range."
+msgstr "Surviving requirements are only supported at world and player ranges."
 
 #: common/requirements.c:1351 common/requirements.c:1428
 #, c-format
@@ -12263,7 +12261,7 @@ msgstr "Größe %d"
 #: common/requirements.c:1406 common/requirements.c:1415
 #, c-format
 msgid "\"%s\" units"
-msgstr "'%s' Einheiten"
+msgstr "»%s« Einheiten"
 
 #: common/requirements.c:1411
 #, c-format
@@ -12280,7 +12278,7 @@ msgstr "%s KI"
 #: common/requirements.c:1438
 #, c-format
 msgid "%s terrain"
-msgstr "%s Gelände"
+msgstr "Geländetyp %s"
 
 #. TRANS: "Fortress base"
 #: common/requirements.c:1443
@@ -12439,7 +12437,7 @@ msgstr "%s können (noch) nicht modernisiert werden."
 
 #. TRANS: Last %s is pre-pluralised "Treasury contains %d gold."
 #: common/unit.c:1900
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Upgrading %s to %s costs %d gold.\n"
 "%s"
@@ -12565,7 +12563,7 @@ msgstr ""
 "auf %s veröffentlicht werden."
 
 #: common/version.c:125
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "THIS IS A BETA VERSION\n"
 "Freeciv %s will be released at %s"
@@ -12637,17 +12635,16 @@ msgid "Cathedral"
 msgstr "Kathedrale"
 
 #: data/civ1/buildings.ruleset:155
-#, fuzzy
 msgid ""
 "A Cathedral makes 4 unhappy citizens content in a city, making it easier to "
 "maintain order in that city; however, it does not affect citizens made "
 "unhappy by military activity."
 msgstr ""
-"Eine Kathedrale macht 4 Unzufriedene einer Stadt zufrieden. Dies erleichtert "
-"es, die Ordnung aufrecht zu erhalten."
+"Eine Kathedrale macht vier Unzufriedene einer Stadt zufrieden, wodurch es "
+"leichter ist, die Ordnung aufrecht zu erhalten. Dies betrifft allerdings "
+"keine durch das Militär verursachte Unzufriedenheit."
 
 #: data/civ1/buildings.ruleset:177
-#, fuzzy
 msgid ""
 "City Walls make it easier to defend a city.  They triple the defense "
 "strength of units within the city against land, sea, and helicopter units.  "
@@ -12655,12 +12652,13 @@ msgid ""
 "Artillery.  City Walls also prevent the loss of population which occurs when "
 "a defending unit is destroyed by a land unit."
 msgstr ""
-"Eine Stadtmauer hilft, eine Stadt vor Landeinheiten (außer Artillerie) und "
-"Hubschraubern zu schützen, indem sie die Verteidigungsstärke gegen diese "
-"Einheitentypen verdreifacht.\n"
+"Eine Stadtmauer hilft, eine Stadt vor Land-, See- und Helikoptereinheiten zu "
+"schützen (jedoch nicht vor Artillerie und anderen Lufteinheiten) indem sie "
+"die Verteidigungsstärke gegen diese Einheitentypen verdreifacht.\n"
 "\n"
-"Sie verhindert Verluste bei der Bevölkerung, falls gegnerische Landeinheiten "
-"eine in der Stadt stationierte Einheit vernichten."
+"Sie verhindert zudem Verluste bei der Bevölkerung, falls es gegnerischen "
+"Landeinheiten gelingen sollte, eine in der Stadt stationierte Einheit "
+"vernichten."
 
 #: data/civ1/buildings.ruleset:186 data/civ2/buildings.ruleset:238
 #: data/default/buildings.ruleset:264 data/experimental/buildings.ruleset:269
@@ -12668,13 +12666,13 @@ msgid "Colosseum"
 msgstr "Kolosseum"
 
 #: data/civ1/buildings.ruleset:200
-#, fuzzy
 msgid ""
 "Entertains the citizens of a city, making 3 unhappy citizens content.  "
 "However, it does not affect citizens made unhappy by military activity."
 msgstr ""
-"Sorgt für Unterhaltung der Bürger einer Stadt und stellt so 3 (nach "
-"Entdeckung der Elektrizität 4) Unzufriedene zufrieden."
+"Sorgt für Unterhaltung der Bürger einer Stadt und stellt so drei (nach "
+"Entdeckung der Elektrizität vier) Unzufriedene zufrieden, sofern diese nicht "
+"aufgrund von militärischen Aktivitäten unzufrieden sind."
 
 #: data/civ1/buildings.ruleset:206 data/civ2/buildings.ruleset:259
 #: data/default/buildings.ruleset:287 data/experimental/buildings.ruleset:292
@@ -12731,7 +12729,7 @@ msgid "Hydro Plant"
 msgstr "Wasserkraftwerk"
 
 #: data/civ1/buildings.ruleset:291 data/civ2/buildings.ruleset:367
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Reduces the amount of pollution generated by production in a city by 50%.  "
 "It also increases the shield production of a Factory or Mfg. Plant in the "
@@ -12742,10 +12740,7 @@ msgstr ""
 "Umweltverschmutzung um die Hälfte, sondern steigert auch die Produktion von "
 "Fabriken und Fertigungsstätten der Stadt. In Verbindung mit einer Fabrik "
 "oder einer Fertigungsstätte gibt es einen Bonus von 75%, sind beide "
-"vorhanden, erhöht sich der Bonus auf 150%.\n"
-"\n"
-"Eine Stadt kann nur ein Kohlekraftwerk, Wasserkraftwerk, Atomkraftwerk oder "
-"Solarkraftwerk bauen."
+"vorhanden, erhöht sich der Bonus auf 150%."
 
 #: data/civ1/buildings.ruleset:298
 msgid ""
@@ -12979,7 +12974,7 @@ msgstr ""
 #: data/default/buildings.ruleset:857 data/experimental/buildings.ruleset:909
 #: data/multiplayer/buildings.ruleset:839
 msgid "- Habitation Module: provides living space for 10,000 people."
-msgstr "- Wohnmodul: Stellt den Lebensraum für 10.000 Menschen zur Verfügung."
+msgstr "‒ Wohnmodul: Stellt den Lebensraum für 10.000 Menschen zur Verfügung."
 
 #: data/civ1/buildings.ruleset:563 data/civ2/buildings.ruleset:801
 #: data/default/buildings.ruleset:859 data/experimental/buildings.ruleset:911
@@ -12988,7 +12983,7 @@ msgid ""
 "- Life Support Module: provides food and water for the population of one "
 "Habitation Module."
 msgstr ""
-"- Lebensmodul: Stellt Nahrung und Wasser für die Bevölkerung eines "
+"‒ Lebensmodul: Stellt Nahrung und Wasser für die Bevölkerung eines "
 "Wohnmoduls zur Verfügung."
 
 #: data/civ1/buildings.ruleset:566 data/civ2/buildings.ruleset:804
@@ -12997,7 +12992,7 @@ msgstr ""
 msgid ""
 "- Solar Panels: provides the energy needed for any two of the other Modules."
 msgstr ""
-"- Solarflügel: Stellen die Energie bereit, die jeweils zwei der anderen "
+"‒ Solarflügel: Stellen die Energie bereit, die jeweils zwei der anderen "
 "Module benötigen."
 
 #: data/civ1/buildings.ruleset:569 data/civ2/buildings.ruleset:807
@@ -13015,18 +13010,13 @@ msgstr "Raumschiffkörper"
 #: data/civ1/buildings.ruleset:591 data/civ2/buildings.ruleset:829
 #: data/default/buildings.ruleset:888 data/experimental/buildings.ruleset:940
 #: data/multiplayer/buildings.ruleset:870
-#, fuzzy
 msgid ""
 "Space Structurals form the base of your spaceship.  All other spaceship "
 "parts need to be connected to Structurals in order to function.  You can "
 "build up to 32 Space Structurals."
 msgstr ""
-"Raumschiffkörper werden gebraucht, um die anderen Raumschiffteile "
-"miteinander zu verbinden. Es können bis zu 32 Raumschiffkörper gebaut "
-"werden.\n"
-"\n"
-"Raumschiffteile können erst gefertigt werden, nachdem irgendein Spieler das "
-"'Apollo Programm' fertiggestellt hat."
+"Raumschiffkörper werden gebraucht, um die anderen Raumschiffkomponenten "
+"miteinander zu verbinden. Es können bis zu 32 Raumschiffkörper gebaut werden."
 
 #: data/civ1/buildings.ruleset:601 data/civ2/buildings.ruleset:906
 #: data/default/buildings.ruleset:967 data/experimental/buildings.ruleset:1022
@@ -13037,15 +13027,15 @@ msgstr "Tempel"
 #: data/civ1/buildings.ruleset:615 data/civ2/buildings.ruleset:920
 #: data/default/buildings.ruleset:981 data/experimental/buildings.ruleset:1036
 #: data/multiplayer/buildings.ruleset:961
-#, fuzzy
 msgid ""
 "Makes one unhappy citizen content.  The Mysticism advance doubles this "
 "effect.  With both Mysticism and the Oracle, 4 citizens are made content.  "
 "Does not affect citizens made unhappy by military activity."
 msgstr ""
-"Stellt 1 Unzufriedenen zufrieden. Sowohl die Erkenntnisse über Mystik als "
-"auch das Orakel verdoppeln den Effekt. Somit können bis zu 4 Unzufriedene "
-"zufrieden gestellt werden."
+"Stellt einen unzufriedenen Bürger zufrieden. Sowohl die Erkenntnisse über "
+"die Mystik als auch das Orakel verdoppeln den Effekt. Somit können bis zu "
+"vier Unzufriedene zufrieden gestellt werden. Hat keine Auswirkungen auf "
+"Bürger, die wegen militärischer Aktivitäten unzufrieden sind."
 
 #: data/civ1/buildings.ruleset:623 data/civ1/techs.ruleset:574
 #: data/civ2/buildings.ruleset:928 data/civ2/techs.ruleset:741
@@ -13070,20 +13060,20 @@ msgstr ""
 #: data/experimental/buildings.ruleset:1068
 #: data/multiplayer/buildings.ruleset:991
 msgid "Apollo Program"
-msgstr "das Apollo Programm"
+msgstr "das Apollo-Programm"
 
 #: data/civ1/buildings.ruleset:657
-#, fuzzy
 msgid ""
 "All cities on the map become visible for the player who owns it -- the "
 "player always has up-to-date knowledge of all tiles with cities despite fog-"
 "of-war. It allows all players to start building spaceship parts (assuming "
 "they have researched the necessary technologies)."
 msgstr ""
-"Der Besitzer sieht alle Städte.\n"
-"\n"
-"Erlaubt allen Spielern mit den notwendigen Kenntnissen mit dem Raumschiffbau "
-"zu beginnen."
+"Wer das Apollo-Programm erfolgreich abschließt, erhält Kartensicht auf alle "
+"Städte rund um den Globus — der Spieler erhält permanentes Wissen um alle "
+"Stadtfelder, ohne Rücksicht auf den Nebel des Krieges. Darüber hinaus können "
+"von nun an alle Spieler Raumschiffkomponenten bauen (wenn sie die "
+"erforderlichen Technologien erforscht haben)."
 
 #: data/civ1/buildings.ruleset:666 data/civ2/buildings.ruleset:993
 #: data/default/buildings.ruleset:1054
@@ -13096,20 +13086,20 @@ msgstr "Kolossus"
 #: data/default/buildings.ruleset:1068
 #: data/experimental/buildings.ruleset:1125
 #: data/multiplayer/buildings.ruleset:1046
-#, fuzzy
 msgid ""
 "Each tile around the city where this wonder is built that is already "
 "generating some trade produces one extra trade resource."
 msgstr ""
-"Jedes Feld der Stadt, in der dieses Weltwunder steht, und das zumindest 1 "
-"Handelspunkt erwirtschaftet, produziert einen zusätzlichen Handelspunkt."
+"Jedes Feld der Stadt, in der dieses Weltwunder steht, und das zumindest "
+"einen Handelspunkt erwirtschaftet, produziert einen zusätzlichen "
+"Handelspunkt."
 
 #: data/civ1/buildings.ruleset:686 data/civ2/buildings.ruleset:1013
 #: data/default/buildings.ruleset:1074
 #: data/experimental/buildings.ruleset:1131
 #: data/multiplayer/buildings.ruleset:1052
 msgid "Copernicus' Observatory"
-msgstr "Kopernikus' Observatorium"
+msgstr "Kopernikus’ Observatorium"
 
 #: data/civ1/buildings.ruleset:701 data/civ2/buildings.ruleset:1028
 #, no-c-format
@@ -13124,13 +13114,13 @@ msgid "Cure For Cancer"
 msgstr "Krebsheilung"
 
 #: data/civ1/buildings.ruleset:720 data/civ2/buildings.ruleset:1047
-#, fuzzy
 msgid ""
 "This stunning technological achievement makes one unhappy citizen content in "
 "each of your cities (including citizens unhappy about military activity)."
 msgstr ""
 "Diese faszinierende technologische Errungenschaft macht in jeder Stadt einen "
-"Unzufriedenen zufrieden."
+"Unzufriedenen zufrieden (eingeschlossen solche, die über militärische "
+"Aktivitäten unzufrieden sind)."
 
 #: data/civ1/buildings.ruleset:727 data/civ2/buildings.ruleset:1054
 #: data/default/buildings.ruleset:1118
@@ -13146,7 +13136,10 @@ msgid ""
 "Charles Darwin's voyage sparked the discovery of the evolution of the "
 "species, which inspired greater confidence in science. Gives two immediate "
 "technology advances."
-msgstr "2 sofortige Forschungsergebnisse"
+msgstr ""
+"Die Forschungsreise des Charles Darwin war der Anfangspunkt der modernen "
+"Evolutionstheorie der Arten, die ein größeres Vertrauen in die Wissenschaft "
+"zur Folge hatte. Gewährt zwei sofortige Fortschritte."
 
 #: data/civ1/buildings.ruleset:748 data/civ2/buildings.ruleset:1096
 #: data/default/buildings.ruleset:1160
@@ -13158,7 +13151,6 @@ msgstr "die Große Bibliothek"
 #: data/civ1/buildings.ruleset:762 data/civ2/buildings.ruleset:1110
 #: data/default/buildings.ruleset:1174
 #: data/experimental/buildings.ruleset:1231
-#, fuzzy
 msgid ""
 "The civilization which builds the Great Library gets every advance that at "
 "least two other teams have achieved."
@@ -13187,19 +13179,17 @@ msgid "Hanging Gardens"
 msgstr "die Hängenden Gärten"
 
 #: data/civ1/buildings.ruleset:803
-#, fuzzy
 msgid ""
 "Makes one content citizen happy in every city. In the unlikely event where "
 "there are no content citizens to get the effect of Hanging Gardens, the "
 "wonder applies to unhappy citizens instead (including those unhappy about "
 "military activity), making each content."
 msgstr ""
-"Machen in jeder eigenen Stadt einen Zufriedenen glücklich.\n"
-"\n"
-"Machen in der Stadt, wo sie hängen, 2 weitere Zufriedene glücklich.\n"
-"\n"
-"Sollte es in einer Stadt keine Zufriedenen geben, stellen sie stattdessen "
-"Unzufriedene zufrieden."
+"Machen in jeder Stadt einen zufriedenen Bürger glücklich. Im seltenen Fall, "
+"dass es keine zufriedenen Bürger geben sollte, wird der Effekt der Hängenden "
+"Gärten stattdessen auf unzufriedene Bürger angewendet (eingeschlossen "
+"solche, die über militärische Aktivitäten unzufrieden sind), sodass diese "
+"zufrieden gestellt werden."
 
 #: data/civ1/buildings.ruleset:811 data/civ2/buildings.ruleset:1161
 #: data/default/buildings.ruleset:1226
@@ -13241,13 +13231,14 @@ msgid "J.S. Bach's Cathedral"
 msgstr "J. S. Bachs Kathedrale"
 
 #: data/civ1/buildings.ruleset:867
-#, fuzzy
 msgid ""
 "Makes two unhappy citizens content in every city of yours on the same "
 "continent where the wonder is built (including citizens unhappy about "
 "military activity)."
 msgstr ""
-"Stellt in jeder Stadt auf dem gleichen Kontinent zwei Unzufriedene zufrieden."
+"Stellt in jeder Stadt auf dem gleichen Kontinent zwei Unzufriedene zufrieden "
+"(eingeschlossen solche, die aufgrund militärische Aktivitäten unzufrieden "
+"sind)."
 
 #: data/civ1/buildings.ruleset:874 data/civ2/buildings.ruleset:1260
 #: data/default/buildings.ruleset:1327
@@ -13257,9 +13248,8 @@ msgid "Lighthouse"
 msgstr "den Leuchtturm"
 
 #: data/civ1/buildings.ruleset:888 data/multiplayer/buildings.ruleset:1316
-#, fuzzy
 msgid "Gives all your sea units 1 additional movement point."
-msgstr "Alle Marineeinheiten erhalten zwei zusätzliche Bewegungspunkte."
+msgstr "Alle Marineeinheiten erhalten einen zusätzlichen Bewegungspunkt."
 
 #: data/civ1/buildings.ruleset:893 data/civ2/buildings.ruleset:1280
 #: data/default/buildings.ruleset:1348
@@ -13278,7 +13268,7 @@ msgstr ""
 #: data/experimental/buildings.ruleset:1425
 #: data/multiplayer/buildings.ruleset:1342
 msgid "Manhattan Project"
-msgstr "das Manhattan Projekt"
+msgstr "das Manhattan-Projekt"
 
 #: data/civ1/buildings.ruleset:930 data/civ2/buildings.ruleset:1336
 #: data/default/buildings.ruleset:1405
@@ -13301,12 +13291,13 @@ msgstr "das Orakel"
 #: data/civ1/buildings.ruleset:963 data/civ2/buildings.ruleset:1375
 #: data/default/buildings.ruleset:1444
 #: data/experimental/buildings.ruleset:1501
-#, fuzzy
 msgid ""
 "Makes two additional unhappy citizens content in every city with a Temple.  "
 "Does not affect citizens made unhappy by military activity."
 msgstr ""
-"Stellt in jeder Stadt auf dem gleichen Kontinent zwei Unzufriedene zufrieden."
+"Stellt in jeder Stadt auf dem gleichen Kontinent zwei Unzufriedene "
+"zufrieden, abgesehen von solchen, die wegen militärischer Aktivitäten "
+"unzufrieden sind."
 
 #: data/civ1/buildings.ruleset:970 data/civ2/buildings.ruleset:1382
 #: data/default/buildings.ruleset:1451
@@ -13349,11 +13340,12 @@ msgstr "Shakespeares Theater"
 #: data/default/buildings.ruleset:1508
 #: data/experimental/buildings.ruleset:1565
 #: data/multiplayer/buildings.ruleset:1484
-#, fuzzy
 msgid ""
 "Makes all angry and unhappy citizens content in the city where it is "
 "located, including citizens unhappy about military activity."
-msgstr "Macht alle unzufriedenen Bürger der Stadt zufrieden."
+msgstr ""
+"Macht alle wütenden und unzufriedenen Bürger der Stadt zufrieden, auch "
+"solche, die wegen militärischer Aktivitäten unzufrieden sind."
 
 #: data/civ1/buildings.ruleset:1032 data/civ2/buildings.ruleset:1486
 #: data/default/buildings.ruleset:1556
@@ -13393,7 +13385,7 @@ msgid ""
 "Each entertainer produces two luxury points for their city per turn. See the "
 "section on Happiness for the effects of luxury points."
 msgstr ""
-"Jeder Entertainer produziert pro Runde zwei Luxuspunkte für seine Stadt. "
+"Jeder Unterhalter produziert pro Runde zwei Luxuspunkte für seine Stadt. "
 "Siehe den Abschnitt über Zufriedenheit für den Effekt von Luxuspunkten."
 
 # "W" = "Wissenschaftler"
@@ -13409,7 +13401,7 @@ msgid ""
 msgstr ""
 "Jeder Wissenschaftler führt pro Runde Ihrem Staat zwei Forschungspunkte zu."
 
-# MG: "S" = "Steuereintreiber
+# MG: "S" = "Steuerfahnder
 #: data/civ1/cities.ruleset:70 data/civ2/cities.ruleset:70
 #: data/default/cities.ruleset:70 data/experimental/cities.ruleset:72
 #: data/multiplayer/cities.ruleset:69
@@ -13419,7 +13411,7 @@ msgstr "S"
 #: data/civ1/cities.ruleset:75 data/civ2/cities.ruleset:75
 msgid "Each tax collector produces two extra gold for your treasury per turn."
 msgstr ""
-"Jeder Steuereintreiber produziert pro Runde zwei extra Goldstücke für Ihre "
+"Jeder Steuerfahnder produziert pro Runde zwei extra Goldstücke für Ihre "
 "Schatzkammer."
 
 #: data/civ1/cities.ruleset:114 data/civ2/cities.ruleset:114
@@ -13533,17 +13525,17 @@ msgstr "Anarchie"
 #: data/default/governments.ruleset:64
 #: data/experimental/governments.ruleset:66
 #: data/multiplayer/governments.ruleset:64
-#, fuzzy, c-format
+#, c-format
 msgid "Warlord %s"
-msgstr "Kriegsherr"
+msgstr "Kriegsherr %s"
 
 #: data/civ1/governments.ruleset:64 data/civ2/governments.ruleset:62
 #: data/default/governments.ruleset:65
 #: data/experimental/governments.ruleset:67
 #: data/multiplayer/governments.ruleset:65
-#, fuzzy, c-format
+#, c-format
 msgid "Warlady %s"
-msgstr "Kriegsherr"
+msgstr "Kriegsherrin %s"
 
 #: data/civ1/governments.ruleset:66 data/civ2/governments.ruleset:64
 #: data/default/governments.ruleset:67
@@ -13686,7 +13678,6 @@ msgstr "Genossin %s"
 #: data/default/governments.ruleset:132
 #: data/experimental/governments.ruleset:136
 #: data/multiplayer/governments.ruleset:132
-#, fuzzy
 msgid ""
 "A Communist government is based on the ideal that all people are equal.  All "
 "goods are owned by the state, rather than by private citizens.  Communism "
@@ -13906,25 +13897,25 @@ msgstr ""
 #. TRANS: Lugal = Great Man
 #: data/civ1/nations.ruleset:255 data/civ2/nations.ruleset:261
 #: data/nation/babylonian.ruleset:23 data/nation/sumerian.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "%s Lugal"
-msgstr "Großer Mensch"
+msgstr "%s-Lugal"
 
 #: data/civ1/nations.ruleset:255 data/civ2/nations.ruleset:261
 #: data/nation/babylonian.ruleset:23 data/nation/sumerian.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "?female:%s Lugal"
-msgstr "Genossin"
+msgstr "%s-Lugal"
 
 #: data/civ1/nations.ruleset:256 data/civ2/nations.ruleset:262
-#, fuzzy, c-format
+#, c-format
 msgid "%s Ensi"
-msgstr "Stadtfürst"
+msgstr "%s-Ensi"
 
 #: data/civ1/nations.ruleset:256 data/civ2/nations.ruleset:262
-#, fuzzy, c-format
+#, c-format
 msgid "?female:%s Ensi"
-msgstr "Konsulin"
+msgstr "%s-Ensi"
 
 #: data/civ1/nations.ruleset:302 data/civ2/nations.ruleset:414
 #: data/nation/chinese.ruleset:3
@@ -13937,7 +13928,6 @@ msgid "?plural:Chinese"
 msgstr "Chinesen"
 
 #: data/civ1/nations.ruleset:305 data/civ2/nations.ruleset:417
-#, fuzzy
 msgid ""
 "China is the oldest major civilization that is still in existence today, "
 "with written records dating back over 3,500 years. After first being unified "
@@ -13949,7 +13939,7 @@ msgid ""
 msgstr ""
 "China ist die älteste der großen Zivilisationen, die heute noch existieren; "
 "die schriftlichen Aufzeichnungen reichen mehr als 3.500 Jahre zurück. "
-"Nachdem China zum ersten Mal unter der Qin Dynastie 221 v. Chr. vereinigt "
+"Nachdem China zum ersten Mal unter der Qin-Dynastie 221 v. Chr. vereinigt "
 "wurde, wechselte es zwischen Perioden der Einheit und Zersplitterung, und "
 "wurde oft von fremden Völkern erobert. Die heutige Volksrepublik China, 1949 "
 "von den Kommunisten errichtet, belegt das Festland, während sich die frühere "
@@ -13968,17 +13958,17 @@ msgstr ""
 #: data/nation/mexican.ruleset:53 data/nation/nestorian.ruleset:28
 #: data/nation/southvietnamese.ruleset:25 data/nation/taiwanese.ruleset:24
 #: data/nation/toltec.ruleset:34 data/nation/vietnamese.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Emperor %s"
-msgstr "Kaiser"
+msgstr "Kaiser %s"
 
 # EH: Dieser Titel sollte mE nicht übersetzt werden.
 #: data/civ1/nations.ruleset:321 data/civ2/nations.ruleset:434
 #: data/nation/chinese.ruleset:27 data/nation/han.ruleset:26
 #: data/nation/manchu.ruleset:26 data/nation/taiwanese.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Empress Dowager %s"
-msgstr "Dowager"
+msgstr "Dowager %s"
 
 #: data/civ1/nations.ruleset:322 data/civ2/nations.ruleset:435
 #: data/nation/brazilian.ruleset:29 data/nation/chinese.ruleset:28
@@ -13990,16 +13980,17 @@ msgstr "Dowager"
 #: data/nation/palestinian.ruleset:23 data/nation/sammarinese.ruleset:23
 #: data/nation/southvietnamese.ruleset:22 data/nation/taiwanese.ruleset:25
 #: data/nation/tuvan.ruleset:30 data/nation/walloon.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Chairman %s"
-msgstr "Vorsitzender"
+msgstr "Vorsitzender %s"
 
+# MG: Was ist falsch mit Chairwoman?
 #: data/civ1/nations.ruleset:322 data/civ2/nations.ruleset:435
 #: data/nation/chinese.ruleset:28 data/nation/han.ruleset:28
 #: data/nation/kyrgyz.ruleset:24 data/nation/taiwanese.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Chairperson %s"
-msgstr "Vorsitzende"
+msgstr "Vorsitzende %s"
 
 #: data/civ1/nations.ruleset:446 data/civ2/nations.ruleset:559
 #: data/nation/egyptian.ruleset:3
@@ -14024,27 +14015,27 @@ msgstr ""
 
 #: data/civ1/nations.ruleset:460 data/civ2/nations.ruleset:574
 #: data/nation/egyptian.ruleset:27 data/nation/nubian.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "Pharaoh %s"
-msgstr "Pharao"
+msgstr "Pharao %s"
 
 #: data/civ1/nations.ruleset:460 data/civ2/nations.ruleset:574
 #: data/nation/egyptian.ruleset:27 data/nation/nubian.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Pharaoh %s"
-msgstr "Genossin"
+msgstr "Pharaonin %s"
 
 #: data/civ1/nations.ruleset:461 data/civ2/nations.ruleset:575
 #: data/nation/egyptian.ruleset:28 data/nation/nubian.ruleset:34
-#, fuzzy, c-format
+#, c-format
 msgid "Great Pharaoh %s"
-msgstr "Großer Pharao"
+msgstr "Großer Pharao %s"
 
 #: data/civ1/nations.ruleset:461 data/civ2/nations.ruleset:575
 #: data/nation/egyptian.ruleset:28 data/nation/nubian.ruleset:34
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Great Pharaoh %s"
-msgstr "Großer Pharao"
+msgstr "Große Pharaonin %s"
 
 #: data/civ1/nations.ruleset:523 data/civ2/nations.ruleset:637
 #: data/nation/english.ruleset:3
@@ -14058,7 +14049,6 @@ msgstr "Engländer"
 
 #: data/civ1/nations.ruleset:526 data/civ2/nations.ruleset:640
 #: data/nation/english.ruleset:6
-#, fuzzy
 msgid ""
 "England was unified by Alfred the Great of Wessex in the late 9th century, "
 "only to be conquered by William of Normandy a century later, in the last "
@@ -14066,7 +14056,7 @@ msgid ""
 msgstr ""
 "England wurde im späten 9. Jahrhundert von Alfred dem Großen von Wessex "
 "vereinigt, um nur ein Jahrhundert später von Wilhelm von der Normandie "
-"erobert zu werden - die letzte erfolgreiche Invasion dieses Landes."
+"erobert zu werden — die letzte erfolgreiche Invasion dieses Landes."
 
 #: data/civ1/nations.ruleset:537 data/civ1/nations.ruleset:915
 #: data/civ2/nations.ruleset:652 data/civ2/nations.ruleset:1036
@@ -14074,9 +14064,9 @@ msgstr ""
 #: data/civ2/nations.ruleset:1831 data/default/governments.ruleset:175
 #: data/experimental/governments.ruleset:179
 #: data/multiplayer/governments.ruleset:175 data/nation/belgian.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Prime Minister %s"
-msgstr "Premierminister"
+msgstr "Premierminister %s"
 
 #: data/civ1/nations.ruleset:537 data/civ1/nations.ruleset:915
 #: data/civ2/nations.ruleset:652 data/civ2/nations.ruleset:1036
@@ -14084,9 +14074,9 @@ msgstr "Premierminister"
 #: data/civ2/nations.ruleset:1831 data/default/governments.ruleset:176
 #: data/experimental/governments.ruleset:180
 #: data/multiplayer/governments.ruleset:176 data/nation/belgian.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Prime Minister %s"
-msgstr "Premierminister"
+msgstr "Premierministerin %s"
 
 #: data/civ1/nations.ruleset:631 data/civ2/nations.ruleset:747
 #: data/nation/french.ruleset:3
@@ -14099,7 +14089,6 @@ msgid "?plural:French"
 msgstr "Franzosen"
 
 #: data/civ1/nations.ruleset:634 data/civ2/nations.ruleset:750
-#, fuzzy
 msgid ""
 "France has long been a major power in Europe. French conquerors like Emperor "
 "Napoleon and King Charlemagne united large parts of Europe under the French "
@@ -14107,7 +14096,7 @@ msgid ""
 msgstr ""
 "Frankreich ist seit langem eine Hauptmacht in Europa. Französische "
 "Eroberungskönige wie Napoleon und Karl der Große vereinigten große Teile "
-"Europas unter der französischen Fahne."
+"Europas unter der französischen Flagge."
 
 #: data/civ1/nations.ruleset:645 data/civ2/nations.ruleset:354
 #: data/civ2/nations.ruleset:762 data/nation/briton.ruleset:21
@@ -14116,9 +14105,9 @@ msgstr ""
 #: data/nation/helvetian.ruleset:28 data/nation/irish.ruleset:40
 #: data/nation/scottish.ruleset:24 data/nation/vistulan.ruleset:25
 #: data/nation/welsh.ruleset:20
-#, fuzzy, c-format
+#, c-format
 msgid "Chieftain %s"
-msgstr "Häuptling"
+msgstr "Stammesführer %s"
 
 #: data/civ1/nations.ruleset:645 data/civ2/nations.ruleset:354
 #: data/civ2/nations.ruleset:762 data/nation/briton.ruleset:21
@@ -14127,22 +14116,22 @@ msgstr "Häuptling"
 #: data/nation/helvetian.ruleset:28 data/nation/irish.ruleset:40
 #: data/nation/scottish.ruleset:24 data/nation/vistulan.ruleset:25
 #: data/nation/welsh.ruleset:20
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Chieftain %s"
-msgstr "Häuptling"
+msgstr "Stammesführerin %s"
 
 #: data/civ1/nations.ruleset:646 data/civ2/nations.ruleset:763
 #: data/nation/acadian.ruleset:31 data/nation/alander.ruleset:28
 #: data/nation/french.ruleset:41 data/nation/quebecois.ruleset:20
 #: data/nation/tahitian.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Premier %s"
-msgstr "Premier"
+msgstr "Premier %s"
 
 #: data/civ1/nations.ruleset:646 data/civ2/nations.ruleset:763
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Premier %s"
-msgstr "Präsidentin"
+msgstr "Premier %s"
 
 #: data/civ1/nations.ruleset:751 data/civ2/nations.ruleset:869
 #: data/nation/german.ruleset:3
@@ -14156,7 +14145,6 @@ msgstr "Deutschen"
 
 #: data/civ1/nations.ruleset:755 data/civ2/nations.ruleset:873
 #: data/nation/german.ruleset:7
-#, fuzzy
 msgid ""
 "Germany was united in 1871 by the Prussian military force. After World War I "
 "it became a republic, but fell into Nazism in 1933 and started World War II. "
@@ -14179,9 +14167,9 @@ msgstr ""
 #: data/nation/norman.ruleset:23 data/nation/occitan.ruleset:27
 #: data/nation/pontic.ruleset:34 data/nation/prussian.ruleset:28
 #: data/nation/templar.ruleset:42 data/nation/teutonic.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "Chancellor %s"
-msgstr "Kanzler"
+msgstr "Bundeskanzler %s"
 
 #: data/civ1/nations.ruleset:767 data/civ2/nations.ruleset:886
 #: data/nation/austrian.ruleset:48 data/nation/burgundian.ruleset:28
@@ -14193,9 +14181,9 @@ msgstr "Kanzler"
 #: data/nation/norman.ruleset:23 data/nation/occitan.ruleset:27
 #: data/nation/pontic.ruleset:34 data/nation/prussian.ruleset:28
 #: data/nation/templar.ruleset:42 data/nation/teutonic.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Chancellor %s"
-msgstr "Bundeskanzler"
+msgstr "Bundeskanzlerin %s"
 
 #: data/civ1/nations.ruleset:768 data/civ2/nations.ruleset:887
 #: data/nation/albanian.ruleset:31 data/nation/anhaltian.ruleset:30
@@ -14208,9 +14196,9 @@ msgstr "Bundeskanzler"
 #: data/nation/prussian.ruleset:30 data/nation/tajik.ruleset:22
 #: data/nation/thuringian.ruleset:41 data/nation/transnistrian.ruleset:23
 #: data/nation/turkmen.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "First Secretary %s"
-msgstr "Erster Sekretär"
+msgstr "Staatssekretär %s"
 
 #: data/civ1/nations.ruleset:768 data/civ2/nations.ruleset:887
 #: data/nation/albanian.ruleset:31 data/nation/anhaltian.ruleset:30
@@ -14223,9 +14211,9 @@ msgstr "Erster Sekretär"
 #: data/nation/prussian.ruleset:30 data/nation/tajik.ruleset:22
 #: data/nation/thuringian.ruleset:41 data/nation/transnistrian.ruleset:23
 #: data/nation/turkmen.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "?female:First Secretary %s"
-msgstr "Erster Sekretär"
+msgstr "Staatssekretärin %s"
 
 #: data/civ1/nations.ruleset:902 data/civ2/nations.ruleset:1022
 #: data/nation/greek.ruleset:3
@@ -14247,18 +14235,18 @@ msgstr "Die alten Griechen, zwischen Mykene und der römischen Eroberung."
 #: data/nation/cretan.ruleset:27 data/nation/cypriot.ruleset:23
 #: data/nation/greek.ruleset:22 data/nation/macedon.ruleset:24
 #: data/nation/pelasgian.ruleset:25 data/nation/pontic.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "Despot %s"
-msgstr "Despot"
+msgstr "Despot %s"
 
 #: data/civ1/nations.ruleset:914 data/civ2/nations.ruleset:1035
 #: data/nation/bosporan.ruleset:34 data/nation/byzantium.ruleset:26
 #: data/nation/cretan.ruleset:27 data/nation/cypriot.ruleset:23
 #: data/nation/greek.ruleset:22 data/nation/macedon.ruleset:24
 #: data/nation/pelasgian.ruleset:25 data/nation/pontic.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Despot %s"
-msgstr "Präsidentin"
+msgstr "Despotin %s"
 
 #: data/civ1/nations.ruleset:1049 data/civ2/nations.ruleset:1170
 #: data/nation/indian.ruleset:3
@@ -14279,6 +14267,7 @@ msgstr ""
 "Die Wiege der altindischen Zivilisation liegt im Tal des Indus im heutigen "
 "Pakistan."
 
+# MG: Sprich "Radscha", das "j" wie in "Taj Mahal"
 #: data/civ1/nations.ruleset:1062 data/civ2/nations.ruleset:1184
 #: data/nation/bangladeshi.ruleset:21 data/nation/bengali.ruleset:25
 #: data/nation/chola.ruleset:25 data/nation/gupta.ruleset:21
@@ -14288,9 +14277,9 @@ msgstr ""
 #: data/nation/moluccan.ruleset:30 data/nation/pakistani.ruleset:19
 #: data/nation/sikh.ruleset:32 data/nation/sikkimese.ruleset:21
 #: data/nation/srivijaya.ruleset:25 data/nation/vedic.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "Raja %s"
-msgstr "Raja"
+msgstr "Raja %s"
 
 #: data/civ1/nations.ruleset:1062 data/civ2/nations.ruleset:1184
 #: data/nation/bangladeshi.ruleset:21 data/nation/bengali.ruleset:25
@@ -14301,10 +14290,13 @@ msgstr "Raja"
 #: data/nation/moluccan.ruleset:30 data/nation/pakistani.ruleset:19
 #: data/nation/sikh.ruleset:32 data/nation/sikkimese.ruleset:21
 #: data/nation/srivijaya.ruleset:25 data/nation/vedic.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "Rani %s"
-msgstr "Eisenbahn"
+msgstr "Rani %s"
 
+# MG: Der Konsistenz mit "Raja" wegen hier das "j" nicht nach "dsch"
+# transkribiert. Damit ist auch mehr Konsistenz mit "Rani" gegeben, wo
+# überhaupt nicht geändert wird.
 #: data/civ1/nations.ruleset:1063 data/civ2/nations.ruleset:1185
 #: data/nation/bangladeshi.ruleset:22 data/nation/bengali.ruleset:26
 #: data/nation/chola.ruleset:26 data/nation/gupta.ruleset:22
@@ -14314,9 +14306,9 @@ msgstr "Eisenbahn"
 #: data/nation/mughal.ruleset:20 data/nation/pakistani.ruleset:21
 #: data/nation/sikh.ruleset:34 data/nation/sikkimese.ruleset:23
 #: data/nation/srivijaya.ruleset:26 data/nation/vedic.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Maharaja %s"
-msgstr "Maharadscha"
+msgstr "Maharaja %s"
 
 #: data/civ1/nations.ruleset:1063 data/civ2/nations.ruleset:1185
 #: data/nation/bangladeshi.ruleset:22 data/nation/bengali.ruleset:26
@@ -14327,21 +14319,24 @@ msgstr "Maharadscha"
 #: data/nation/mughal.ruleset:20 data/nation/pakistani.ruleset:21
 #: data/nation/sikh.ruleset:34 data/nation/sikkimese.ruleset:23
 #: data/nation/srivijaya.ruleset:26 data/nation/vedic.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Maharani %s"
-msgstr "Maharadscha"
+msgstr "Maharani %s"
 
+# MG: Entgegen zahlreicher Missverständlichkeiten war der Vorname
+# von Gandhi nicht Mahatma, sondern Mohandas. "Mahatma" ist ein
+# Ehrentitel und bedeutet so viel wie "große Seele".
 #: data/civ1/nations.ruleset:1064 data/civ2/nations.ruleset:1186
 #: data/nation/indian.ruleset:27 data/nation/vedic.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "Mahatma %s"
-msgstr "Mahatma"
+msgstr "Mahatma %s"
 
 #: data/civ1/nations.ruleset:1064 data/civ2/nations.ruleset:1186
 #: data/nation/indian.ruleset:27 data/nation/vedic.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Mahatma %s"
-msgstr "Genossin"
+msgstr "Mahatma %s"
 
 #: data/civ1/nations.ruleset:1141 data/civ2/nations.ruleset:1376
 #: data/nation/mongol.ruleset:3
@@ -14355,7 +14350,6 @@ msgstr "Mongolen"
 
 #: data/civ1/nations.ruleset:1144 data/civ2/nations.ruleset:1379
 #: data/nation/mongol.ruleset:6
-#, fuzzy
 msgid ""
 "In the centuries after their unification by Chinggis Khan, the Mongols "
 "conquered the largest empire in human history, encompassing most of the "
@@ -14364,7 +14358,7 @@ msgid ""
 msgstr ""
 "In den Jahrhunderten nach ihrer Vereinigung durch Genghis Khan eroberten die "
 "Mongolen das größte Reich in der menschlichen Geschichte, das fast ganz "
-"Asien einschloß. Sie waren berüchtigt für ihre schreckliche Grausamkeit im "
+"Asien einschloss. Sie waren berüchtigt für ihre schreckliche Grausamkeit im "
 "Kampf."
 
 #: data/civ1/nations.ruleset:1156 data/civ2/nations.ruleset:1392
@@ -14379,9 +14373,9 @@ msgstr ""
 #: data/nation/turkmen.ruleset:25 data/nation/tuvan.ruleset:31
 #: data/nation/uyghur.ruleset:28 data/nation/uzbek.ruleset:23
 #: data/nation/xiongnu.ruleset:39
-#, fuzzy, c-format
+#, c-format
 msgid "%s Khan"
-msgstr "Khan"
+msgstr "%s-Khan"
 
 #: data/civ1/nations.ruleset:1156 data/civ2/nations.ruleset:1392
 #: data/nation/avar.ruleset:32 data/nation/azeri.ruleset:35
@@ -14395,9 +14389,9 @@ msgstr "Khan"
 #: data/nation/turkmen.ruleset:25 data/nation/tuvan.ruleset:31
 #: data/nation/uyghur.ruleset:28 data/nation/uzbek.ruleset:23
 #: data/nation/xiongnu.ruleset:39
-#, fuzzy, c-format
+#, c-format
 msgid "%s Khatan"
-msgstr "Khagan"
+msgstr "%s-Khatan"
 
 #: data/civ1/nations.ruleset:1157 data/civ2/nations.ruleset:1393
 #: data/nation/avar.ruleset:33 data/nation/buryat.ruleset:27
@@ -14410,7 +14404,7 @@ msgstr "Khagan"
 #: data/nation/volgabulgar.ruleset:29 data/nation/xiongnu.ruleset:40
 #, fuzzy, c-format
 msgid "%s Khagan"
-msgstr "Khagan"
+msgstr "%s-Khagan"
 
 #: data/civ1/nations.ruleset:1157 data/civ2/nations.ruleset:1393
 #: data/nation/avar.ruleset:33 data/nation/buryat.ruleset:27
@@ -14421,9 +14415,9 @@ msgstr "Khagan"
 #: data/nation/mongol.ruleset:32 data/nation/tatar.ruleset:29
 #: data/nation/tuvan.ruleset:32 data/nation/uyghur.ruleset:29
 #: data/nation/volgabulgar.ruleset:29 data/nation/xiongnu.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "?female:%s Khagan"
-msgstr "Konsulin"
+msgstr "%s-Khagan"
 
 #: data/civ1/nations.ruleset:1203 data/civ2/nations.ruleset:1510
 #: data/nation/roman.ruleset:3
@@ -14436,7 +14430,6 @@ msgid "?plural:Romans"
 msgstr "Römer"
 
 #: data/civ1/nations.ruleset:1206 data/civ2/nations.ruleset:1513
-#, fuzzy
 msgid ""
 "Rome was, in legend, founded by Romulus in 753 BC. At its height, Rome "
 "controlled nearly all of Europe, northern Africa and Mesopotamia."
@@ -14449,26 +14442,31 @@ msgstr ""
 #: data/nation/andorran.ruleset:23 data/nation/brazilian.ruleset:27
 #: data/nation/palmyrene.ruleset:20 data/nation/paraguayan.ruleset:37
 #: data/nation/roman.ruleset:49 data/nation/ugandan.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "Dictator %s"
-msgstr "Diktator"
+msgstr "Dictator %s"
 
+# MG: Korrekter lateinischer Ausdruck ist "Dicatrix". Da es sich hier
+# speziell um Römer und Anverwandte handelt, ist das wohl so in Ordnung.
+# Als generellen Titel im Sinne von "Herrscher in einer Diktatur" sollte
+# die deutsche Schreibweise "Diktatorin" gewählt werden.
 #: data/civ1/nations.ruleset:1218 data/civ2/nations.ruleset:1525
 #: data/nation/brazilian.ruleset:27 data/nation/palmyrene.ruleset:20
 #: data/nation/paraguayan.ruleset:37 data/nation/roman.ruleset:49
-#, fuzzy, c-format
+#, c-format
 msgid "Dictatrix %s"
-msgstr "Diktatorin"
+msgstr "Dictatrix %s"
 
 #: data/civ1/nations.ruleset:1219 data/civ2/nations.ruleset:1526
-#, fuzzy, c-format
+#, c-format
 msgid "Imperator %s"
-msgstr "Kaiser"
+msgstr "Imperator %s"
 
+# MG: Es gelten dieselben Überlegungen wie zu "Dictatrix".
 #: data/civ1/nations.ruleset:1219 data/civ2/nations.ruleset:1526
-#, fuzzy, c-format
+#, c-format
 msgid "Imperatrix %s"
-msgstr "Kaiserin"
+msgstr "Imperatrix %s"
 
 #: data/civ1/nations.ruleset:1220 data/civ2/nations.ruleset:1527
 #: data/nation/armenian.ruleset:24 data/nation/assyrian.ruleset:21
@@ -14489,9 +14487,9 @@ msgstr "Kaiserin"
 #: data/nation/samnite.ruleset:26 data/nation/seleucid.ruleset:28
 #: data/nation/sumerian.ruleset:26 data/nation/vandalic.ruleset:29
 #: data/nation/visigothic.ruleset:37 data/nation/westernroman.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Usurper %s"
-msgstr "Thronräuber"
+msgstr "Usurpator %s"
 
 #: data/civ1/nations.ruleset:1220 data/civ2/nations.ruleset:1527
 #: data/nation/armenian.ruleset:24 data/nation/assyrian.ruleset:21
@@ -14512,9 +14510,9 @@ msgstr "Thronräuber"
 #: data/nation/samnite.ruleset:26 data/nation/seleucid.ruleset:28
 #: data/nation/sumerian.ruleset:26 data/nation/vandalic.ruleset:29
 #: data/nation/visigothic.ruleset:37 data/nation/westernroman.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Usurper %s"
-msgstr "Thronräuberin"
+msgstr "Usurpatin %s"
 
 #: data/civ1/nations.ruleset:1253 data/civ2/nations.ruleset:1560
 #: data/nation/russian.ruleset:3
@@ -14527,7 +14525,6 @@ msgid "?plural:Russians"
 msgstr "Russen"
 
 #: data/civ1/nations.ruleset:1256 data/civ2/nations.ruleset:1563
-#, fuzzy
 msgid ""
 "According to legend, Slavic and Finnic tribes of Novgorod invited in the "
 "year 862 the Varangian (Viking) king Rurik to bring order to their land. "
@@ -14561,9 +14558,9 @@ msgstr ""
 #: data/nation/savoyard.ruleset:31 data/nation/saxon.ruleset:21
 #: data/nation/schleswig-holsteinian.ruleset:26 data/nation/serbian.ruleset:34
 #: data/nation/westphalian.ruleset:31 data/nation/wuerttembergian.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "Duke %s"
-msgstr "Graf"
+msgstr "Herzog %s"
 
 #: data/civ1/nations.ruleset:1274 data/civ2/nations.ruleset:1582
 #: data/nation/bavarian.ruleset:23 data/nation/belarusian.ruleset:32
@@ -14576,25 +14573,25 @@ msgstr "Graf"
 #: data/nation/savoyard.ruleset:31 data/nation/saxon.ruleset:21
 #: data/nation/schleswig-holsteinian.ruleset:26 data/nation/serbian.ruleset:34
 #: data/nation/westphalian.ruleset:31 data/nation/wuerttembergian.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "Duchess %s"
-msgstr "Herzogin"
+msgstr "Herzogin %s"
 
 #: data/civ1/nations.ruleset:1275 data/civ2/nations.ruleset:1583
 #: data/nation/belarusian.ruleset:33 data/nation/bulgarian.ruleset:30
 #: data/nation/muscovite.ruleset:24 data/nation/ossetian.ruleset:24
 #: data/nation/russian.ruleset:48
-#, fuzzy, c-format
+#, c-format
 msgid "Tsar %s"
-msgstr "Zar"
+msgstr "Zar %s"
 
 #: data/civ1/nations.ruleset:1275 data/civ2/nations.ruleset:1583
 #: data/nation/belarusian.ruleset:33 data/nation/bulgarian.ruleset:30
 #: data/nation/muscovite.ruleset:24 data/nation/ossetian.ruleset:24
 #: data/nation/russian.ruleset:48
-#, fuzzy, c-format
+#, c-format
 msgid "Tsaritsa %s"
-msgstr "Zarin"
+msgstr "Zarin %s"
 
 #: data/civ1/nations.ruleset:1345 data/civ2/nations.ruleset:1893
 #: data/nation/zulu.ruleset:3
@@ -14634,9 +14631,9 @@ msgstr ""
 #: data/nation/shawnee.ruleset:22 data/nation/sioux.ruleset:27
 #: data/nation/taino.ruleset:30 data/nation/tupi.ruleset:25
 #: data/nation/zulu.ruleset:38
-#, fuzzy, c-format
+#, c-format
 msgid "Great Chief %s"
-msgstr "Großer Häuptling"
+msgstr "Großer Häuptling %s"
 
 #: data/civ1/nations.ruleset:1359 data/civ2/nations.ruleset:1669
 #: data/civ2/nations.ruleset:1908 data/nation/aborigines.ruleset:29
@@ -14655,9 +14652,9 @@ msgstr "Großer Häuptling"
 #: data/nation/shawnee.ruleset:22 data/nation/sioux.ruleset:27
 #: data/nation/taino.ruleset:30 data/nation/tupi.ruleset:25
 #: data/nation/zulu.ruleset:38
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Great Chief %s"
-msgstr "Großer Häuptling"
+msgstr "Großer Häuptling %s"
 
 #: data/civ1/nations.ruleset:1360 data/civ2/nations.ruleset:1670
 #: data/civ2/nations.ruleset:1909 data/nation/belgic.ruleset:32
@@ -14670,9 +14667,9 @@ msgstr "Großer Häuptling"
 #: data/nation/sami.ruleset:23 data/nation/seminole.ruleset:35
 #: data/nation/shawnee.ruleset:23 data/nation/sioux.ruleset:28
 #: data/nation/swazi.ruleset:22 data/nation/zulu.ruleset:39
-#, fuzzy, c-format
+#, c-format
 msgid "Spokesman %s"
-msgstr "Sprecher"
+msgstr "Sprecher %s"
 
 #: data/civ1/nations.ruleset:1360 data/civ2/nations.ruleset:1670
 #: data/civ2/nations.ruleset:1909 data/nation/belgic.ruleset:32
@@ -14685,9 +14682,9 @@ msgstr "Sprecher"
 #: data/nation/sami.ruleset:23 data/nation/seminole.ruleset:35
 #: data/nation/shawnee.ruleset:23 data/nation/sioux.ruleset:28
 #: data/nation/swazi.ruleset:22 data/nation/zulu.ruleset:39
-#, fuzzy, c-format
+#, c-format
 msgid "Spokeswoman %s"
-msgstr "Sprecherin"
+msgstr "Sprecherin %s"
 
 #: data/civ1/nations.ruleset:1361 data/civ2/nations.ruleset:1671
 #: data/civ2/nations.ruleset:1910 data/nation/aborigines.ruleset:27
@@ -14704,9 +14701,9 @@ msgstr "Sprecherin"
 #: data/nation/shawnee.ruleset:24 data/nation/sioux.ruleset:29
 #: data/nation/swazi.ruleset:23 data/nation/tupi.ruleset:23
 #: data/nation/zulu.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "Principal Chief %s"
-msgstr "Großer Häuptling"
+msgstr "Prinzipal %s"
 
 #: data/civ1/nations.ruleset:1361 data/civ2/nations.ruleset:1671
 #: data/civ2/nations.ruleset:1910 data/nation/aborigines.ruleset:27
@@ -14723,9 +14720,9 @@ msgstr "Großer Häuptling"
 #: data/nation/shawnee.ruleset:24 data/nation/sioux.ruleset:29
 #: data/nation/swazi.ruleset:23 data/nation/tupi.ruleset:23
 #: data/nation/zulu.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Principal Chief %s"
-msgstr "Präsidentin"
+msgstr "Prinzipalin %s"
 
 #: data/civ1/techs.ruleset:50 data/civ2/techs.ruleset:50
 #: data/default/techs.ruleset:61 data/experimental/techs.ruleset:63
@@ -14824,9 +14821,8 @@ msgid "Construction"
 msgstr "Konstruktion"
 
 #: data/civ1/techs.ruleset:184
-#, fuzzy
 msgid "Allows Settlers to build fortresses."
-msgstr "* %s mit diesem Wissen können befestigte Stellungen bauen.\n"
+msgstr "Erlaubt es Siedlner, Festungen zu errichten."
 
 #: data/civ1/techs.ruleset:187 data/civ2/techs.ruleset:204
 #: data/default/techs.ruleset:215 data/experimental/techs.ruleset:233
@@ -18251,19 +18247,21 @@ msgid "You are playing Freeciv with default ruleset for single player games."
 msgstr ""
 "Sie spielen Freeciv mit dem Standardregelsatz für Einzelspieler-Spiele."
 
-# MG: "Unserer Zeitrechnung", n.Chr. ohne den christlichen Bezug
+# MG: Sollte pedantisch gesehen "u.Z.", unserer Zeit, sein, aber
+# das benutzt de facto niemand.
 #. TRANS: year label (Common Era)
 #: data/default/game.ruleset:201 data/experimental/game.ruleset:207
 #: data/multiplayer/game.ruleset:205
 msgid "CE"
-msgstr "u.Z."
+msgstr "n.Chr."
 
-# MG: "Vor unserer Zeitrechnung", v.Chr. ohne den christlichen Bezug
+# MG: Sollte pedantisch gesehen "v.u.Z", vor unserer Zeit, sein, aber
+# das benutzt de facto niemand.
 #. TRANS: year label (Before Common Era)
 #: data/default/game.ruleset:203 data/experimental/game.ruleset:209
 #: data/multiplayer/game.ruleset:207
 msgid "BCE"
-msgstr "v.u.Z."
+msgstr "v.Chr."
 
 #: data/default/nations.ruleset:28
 msgid "?nationgroup:Medieval"
@@ -19562,7 +19560,7 @@ msgstr ""
 "Einheiten haben, und eine Vereinbarung mit einer Nation kann Auswirkungen "
 "auf Ihr Verhältnis mit anderen Nationen haben. Dazu kommt, dass autoritäre "
 "Regierungen wie Monarchien einen Vertrag jederzeit brechen können, eine "
-"Möglichkeit, die repräsentativen Regierungen (Republik und Monarchie) nicht "
+"Möglichkeit, die repräsentativen Regierungen (Republik und Demokratie) nicht "
 "offen steht, da deren Senat die unprovozierte Aufkündigung eines Vertrages "
 "ablehnen wird. Solange kein ausländischer Diplomat oder Spion einen "
 "diplomatischen Eklat verursacht, ist Ihr einziger Ausweg aus dieser "
