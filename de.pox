@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:08+0200\n"
-"PO-Revision-Date: 2012-08-08 15:09+0200\n"
+"PO-Revision-Date: 2012-08-08 18:14+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -39804,36 +39804,33 @@ msgstr "Server cannot read standard input. Ignoring input."
 
 #: server/sernet.c:469
 msgid "rejected"
-msgstr ""
+msgstr "abgewiesen"
 
 #: server/sernet.c:553
-#, fuzzy
 msgid "Restarting for lack of players."
 msgstr "Neustart, da keine Spieler mehr"
 
 #: server/sernet.c:571
-#, fuzzy, c-format
+#, c-format
 msgid "Restarting in %d seconds for lack of players."
-msgstr "Neustart, da keine Spieler mehr"
+msgstr "Neustart in %d Sekunden, da keine Spieler mehr"
 
 #: server/sernet.c:574
-#, fuzzy
 msgid "restarting soon for lack of players"
-msgstr "Neustart, da keine Spieler mehr"
+msgstr "Baldiger Neustart, da keine Spieler mehr"
 
 #: server/sernet.c:600
 msgid "ping timeout"
-msgstr ""
+msgstr "Ping-Timeout"
 
 #: server/sernet.c:836
-#, fuzzy
 msgid "client disconnected"
 msgstr "Verbindung getrennt"
 
 #: server/sernet.c:1067
-#, fuzzy, c-format
+#, c-format
 msgid "Server: bad address: <%s:%d>."
-msgstr "Server: Die Adresse [%s:%d] ist ungültig."
+msgstr "Server: Die Adresse <%s:%d> ist ungültig."
 
 #. TRANS: Game state for local server
 #: server/sernet.c:1476
@@ -39846,267 +39843,241 @@ msgid "Game over"
 msgstr "Spiel beendet"
 
 #: server/settings.c:213
-#, fuzzy
 msgid "Number of tiles"
-msgstr "Anzahl der Handelswege"
+msgstr "Felderanzahl"
 
 #: server/settings.c:214
-#, fuzzy
 msgid "Tiles per player"
-msgstr "Goldstücke bei Spielbeginn"
+msgstr "Felder pro Spieler"
 
 #: server/settings.c:215
 msgid "Width and height"
-msgstr ""
+msgstr "Breite und Höhe"
 
 #: server/settings.c:226
 msgid "Wrap East-West"
-msgstr ""
+msgstr "Ost-West-verbunden"
 
 #: server/settings.c:227
 msgid "Wrap North-South"
-msgstr ""
+msgstr "Nord-Süd-verbunden"
 
 #: server/settings.c:228
-#, fuzzy
 msgid "Isometric"
-msgstr "Kaiserin"
+msgstr "Isometrisch"
 
 #: server/settings.c:229
 msgid "Hexagonal"
-msgstr ""
+msgstr "Hexagonal"
 
 #: server/settings.c:240
-#, fuzzy
 msgid "Scenario map"
-msgstr "Szenario laden"
+msgstr "Szenarienkarte"
 
 #: server/settings.c:241
 msgid "Fully random height"
-msgstr ""
+msgstr "Zufallshöhengenerator"
 
 #: server/settings.c:242
 msgid "Pseudo-fractal height"
-msgstr ""
+msgstr "Pseudofraktaler Höhengenerator"
 
 #: server/settings.c:243
 msgid "Island-based"
-msgstr ""
+msgstr "Inselbasierter Generator"
 
 #: server/settings.c:255
 msgid "Generator's choice"
-msgstr ""
+msgstr "Wahl durch den Generator"
 
 #: server/settings.c:257
 msgid "One player per continent"
-msgstr ""
+msgstr "Ein Spieler pro Kontinent"
 
 #: server/settings.c:259
-#, fuzzy
 msgid "Two or three players per continent"
-msgstr "Pole sind Kontinente"
+msgstr "Zwei oder drei Spieler pro Kontinent"
 
 #: server/settings.c:261
-#, fuzzy
 msgid "All players on a single continent"
-msgstr "Alle Spieler sind bereit, das Spiel wird gestartet."
+msgstr "Alle Spieler auf einem einzigen Kontinent"
 
 #: server/settings.c:263
 msgid "Depending on size of continents"
-msgstr ""
+msgstr "Abhängig von der Größe der Kontinente"
 
 #: server/settings.c:274
-#, fuzzy
 msgid "Land moving units"
-msgstr "Lade Regelsätze"
+msgstr "Landeinheiten"
 
 #: server/settings.c:275
-#, fuzzy
 msgid "Sea moving units"
-msgstr "Bester Angreifer"
+msgstr "Seeeinheiten"
 
 #: server/settings.c:277
 msgid "Units able to move both on land and sea"
-msgstr ""
+msgstr "Einheiten, die sich auf Wasser und Land bewegen können"
 
 #: server/settings.c:289
-#, fuzzy
 msgid "New turn"
-msgstr "1 Runde"
+msgstr "Neue Runde"
 
 #: server/settings.c:291
-#, fuzzy
 msgid "No player connections"
-msgstr "<keine Verbindungen>"
+msgstr "Keine Verbindungen"
 
 #: server/settings.c:292
-#, fuzzy
 msgid "Server interrupted"
-msgstr "Verbindung getrennt"
+msgstr "Server unterbrochen"
 
 #: server/settings.c:304
-#, fuzzy
 msgid "Disabled"
-msgstr "Einheit auflösen"
+msgstr "Ausgeschaltet"
 
 #: server/settings.c:305
-#, fuzzy
 msgid "Enabled"
-msgstr "fehlgeschlagen"
+msgstr "Eingeschaltet"
 
 #: server/settings.c:307
 msgid "See everything inside borders"
-msgstr ""
+msgstr "Alles innerhalb der Grenzen zeigen"
 
 #: server/settings.c:309
-#, fuzzy
 msgid "Borders expand to unknown, revealing tiles"
-msgstr "Anzeige der Grenzen"
+msgstr "Grenzen wachsen ins Unbekannte und decken dabei Felder auf"
 
 #: server/settings.c:320
-#, fuzzy
 msgid "Per-player, in order"
-msgstr "Spieler %d"
+msgstr "Pro Spieler, sortiert"
 
 #: server/settings.c:321
 msgid "Per-player, random"
-msgstr ""
+msgstr "Pro Spieler, zufällig"
 
 #: server/settings.c:322
 msgid "Set manually"
-msgstr ""
+msgstr "Manuell festlegen"
 
 #: server/settings.c:323
 msgid "Per-team, in order"
-msgstr ""
+msgstr "Pro Team, sortiert"
 
+# MG: Diplomatie erlauben
 #: server/settings.c:334
 msgid "Enabled for everyone"
-msgstr ""
+msgstr "Für jeden erlaubt"
 
 #: server/settings.c:336
 msgid "Only allowed between human players"
-msgstr ""
+msgstr "Nur zwischen menschlichen Spielern"
 
 #: server/settings.c:337
 msgid "Only allowed between AI players"
-msgstr ""
+msgstr "Nur zwischen KI-Spielern"
 
 #: server/settings.c:338
-#, fuzzy
 msgid "Restricted to teams"
-msgstr "Liste der Teams:"
+msgstr "Auf Teams beschränkt"
 
 #: server/settings.c:339
 msgid "Disabled for everyone"
-msgstr ""
+msgstr "Komplett ausgeschaltet"
 
 #: server/settings.c:350
-#, fuzzy
 msgid "No restrictions"
-msgstr "Konstruktion"
+msgstr "Keine Beschränkungen"
 
 #: server/settings.c:351
-#, fuzzy
 msgid "Unique to a player"
-msgstr "Anzeige der Einheiten"
+msgstr "Einmalig je Spieler"
 
 #: server/settings.c:352
 msgid "Globally unique"
-msgstr ""
+msgstr "Global einzigartig"
 
 #: server/settings.c:353
-#, fuzzy
 msgid "No city name stealing"
-msgstr "Erlaubte Städtenamen"
+msgstr "Kein Diebstahl von Städtenamen"
 
 #: server/settings.c:364
-#, fuzzy
 msgid "No barbarians"
-msgstr "barbarisch"
+msgstr "Keine Barbaren"
 
 #: server/settings.c:365
 msgid "Only in huts"
-msgstr ""
+msgstr "Nur in Hütten"
 
 #: server/settings.c:366
 msgid "Normal rate of appearance"
-msgstr ""
+msgstr "Normale Häufigkeit"
 
 #: server/settings.c:367
-#, fuzzy
 msgid "Frequent barbarian uprising"
-msgstr "Barbarenaufstand"
+msgstr "Zahlreiche Barbarenaufstände"
 
 #: server/settings.c:368
-#, fuzzy
 msgid "Raging hordes"
-msgstr "die Hängenden Gärten"
+msgstr "Wütende und mordende Horden"
 
 #: server/settings.c:379
 msgid "Reveal map at game start"
-msgstr ""
+msgstr "Karte bei Spielstart aufdecken"
 
 #: server/settings.c:380
 msgid "Unfog map for dead players"
-msgstr ""
+msgstr "Nebel des Krieges für tote Spieler entfernen"
 
 #: server/settings.c:392
-#, fuzzy
 msgid "Allows units to be airlifted from allied cities"
-msgstr "* %s mit diesem Wissen können Straßen über Flüsse bauen.\n"
+msgstr "Erlaubt es Einheiten, von verbündeten Städten aus zu fliegen"
 
 #: server/settings.c:394
 msgid "Allows units to be airlifted to allied cities"
-msgstr ""
+msgstr "Erlaubt es Einheiten, zu verbündeten Städten zu fliegen"
 
 #: server/settings.c:396
 msgid "Unlimited units from source city"
-msgstr ""
+msgstr "Unbegrenzt Einheiten von der Startstadt"
 
 #: server/settings.c:398
-#, fuzzy
 msgid "Unlimited units to destination city"
-msgstr "Bestimmungsort wählen"
+msgstr "Unbegrenzt Einheiten zur Zielstadt"
 
 #: server/settings.c:409
 msgid "All players move concurrently"
-msgstr ""
+msgstr "Alle Spieler ziehen gleichzeitig"
 
 #: server/settings.c:411
 msgid "All players alternate movement"
-msgstr ""
+msgstr "Alle Spieler ziehen nacheinander"
 
 #: server/settings.c:412
 msgid "Team alternate movement"
-msgstr ""
+msgstr "Alle Teams ziehen nacheinander"
 
 #: server/settings.c:424
-#, fuzzy
 msgid "No compression"
-msgstr "Konstruktion"
+msgstr "Keine Kompression"
 
 #: server/settings.c:426
 msgid "Using zlib (gzip format)"
-msgstr ""
+msgstr "Mit zlib (gzip-Format)"
 
 #: server/settings.c:429
 msgid "Using bzip2"
-msgstr ""
+msgstr "Mit bzip2"
 
 #: server/settings.c:432
 msgid "Using xz"
-msgstr ""
+msgstr "Mit xz"
 
 #: server/settings.c:444
-#, fuzzy
 msgid "disabled"
-msgstr "Einheit auflösen"
+msgstr "aus"
 
 #: server/settings.c:445
-#, fuzzy
 msgid "enabled"
-msgstr "fehlgeschlagen"
+msgstr "ein"
 
 #: server/settings.c:538
 #, c-format
@@ -40114,13 +40085,14 @@ msgid "Invalid save name definition: '%s' (resolves to '%s')."
 msgstr ""
 
 #: server/settings.c:557
-#, fuzzy
 msgid "You cannot disable the map generator."
-msgstr "You cannot disband units."
+msgstr "Sie können den Kartengenerator nicht ausschalten."
 
 #: server/settings.c:564
 msgid "You cannot require a map generator when a map is loaded."
 msgstr ""
+"Sie können keinen neuen Generator anfordern, nachdem bereits eine Karte "
+"geladen wurde."
 
 #: server/settings.c:580
 #, fuzzy, c-format
@@ -40128,13 +40100,13 @@ msgid "Invalid score name definition: '%s'."
 msgstr "Unzulässiger Name '%s'"
 
 #: server/settings.c:602
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Demography string validation failed at character: '%c'. Try \"help demography"
 "\"."
 msgstr ""
-"Der Optionsstring zur 'Lage der Nation' enthält ungültige Einträge. Nähere "
-"Informationen sind mit 'help demography' erhältlich."
+"Der Optionsstring zur Lage der Nation enthält das ungültige Zeichen »%c«. "
+"Nähere Informationen sind mit »help demography« erhältlich."
 
 #: server/settings.c:644
 #, fuzzy, c-format
@@ -40146,13 +40118,13 @@ msgstr ""
 "Nähere Informationen sind mit 'help allowconnect' erhältlich."
 
 #: server/settings.c:682
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Starting units string validation failed at character '%c'. Try \"help "
 "startunits\"."
 msgstr ""
-"Der Optionsstring zu den Starteinheiten enthält ungültige Zeichen. Nähere "
-"Informationen sind mit 'help startunits' erhältlich."
+"Der Optionsstring zu den Starteinheiten enthält das ungültige Zeichen »%c«. "
+"Nähere Informationen sind mit »help startunits« erhältlich."
 
 #: server/settings.c:690
 #, c-format
@@ -40160,36 +40132,39 @@ msgid ""
 "No city founder ('c') within the starting units string: '%s'. Try \"help "
 "startunits\"."
 msgstr ""
+"Kein Stadtgründer (»c«) im Optionsstring zu den Starteinheiten: »%s«. Nähere "
+"Informationen sind mit »help startunits« verfügbar."
 
 #: server/settings.c:708
-#, fuzzy
 msgid "Cannot set endturn earlier than current turn."
-msgstr "Das Endjahr kann nicht vor dem aktuellen Jahr liegen."
+msgstr "Die Schlussrunde kann nicht vor der aktuellen Runde liegen."
 
 #: server/settings.c:726
 msgid "Cannot change maxplayers in GGZ mode."
 msgstr "Die Spielerzahl kann im GGZ-Modus nicht geändert werden."
 
 #: server/settings.c:732
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Number of players (%d) is higher than requested value (%d). Keeping old "
 "value."
 msgstr ""
-"Es gibt bereits mehr Spieler als angegeben. Der alte Wert bleibt erhalten."
+"Es gibt bereits mehr Spieler (%d) als angegeben (%d). Der alte Wert bleibt "
+"erhalten."
 
 #: server/settings.c:741
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Requested value (%d) is greater than number of available start positions "
 "(%d). Keeping old value."
 msgstr ""
-"Es gibt bereits mehr Spieler als angegeben. Der alte Wert bleibt erhalten."
+"Der angeforderte Wert (%d) ist größer als die Anzahl an Startpositionen "
+"(%d). Der alte Wert bleibt erhalten."
 
 #: server/settings.c:759
 msgid "You are not allowed to set timeout values less than 30 seconds."
 msgstr ""
-"Du bist nicht berechtigt, einen Timeout von weniger als 30 Sekunden "
+"Sie sind nicht berechtigt, einen Timeout von weniger als 30 Sekunden "
 "einzustellen."
 
 #. TRANS: Do not translate setting names in ''.
@@ -40197,6 +40172,8 @@ msgstr ""
 msgid ""
 "For autogames ('timeout' = -1) 'unitwaittime' should be deactivated (= 0)."
 msgstr ""
+"Für vollautomatische Spiele (»timeout« = -1) sollte »unitwaittime« "
+"deaktiviert werden (= 0)."
 
 #. TRANS: Do not translate setting names in ''.
 #: server/settings.c:778
@@ -40205,6 +40182,8 @@ msgid ""
 "'timeout' can not be lower than 3/2 of the 'unitwaittime' setting (= %d). "
 "Please change 'unitwaittime' first."
 msgstr ""
+"»timeout« kann nicht kleiner sein als 3/2 der Einstellung »unitwaittime« (= "
+"%d). Ändern Sie zunächst »unitwaittime«."
 
 #. TRANS: Do not translate setting names in ''.
 #: server/settings.c:804
@@ -40213,24 +40192,26 @@ msgid ""
 "'unitwaittime' has to be lower than 2/3 of the 'timeout' setting (= %d). "
 "Please change 'timeout' first."
 msgstr ""
+"»unitwaittime« muss kleiner als 2/3 der Einstellung »timeout« sein (= %d). "
+"Ändern Sie zunächst »timeout«."
 
 #: server/settings.c:824 server/settings.c:882 server/settings.c:902
 msgid "For an isometric or hexagonal map the ysize must be even."
-msgstr ""
+msgstr "Für isometrische und hexagonale Karten muss die »ysize« gerade sein."
 
 #: server/settings.c:842 server/settings.c:867
 #, c-format
 msgid "The map size (%d * %d = %d) must be larger than %d tiles."
-msgstr ""
+msgstr "Die Kartengröße (%d × %d = %d) muss größer als %d Felder sein."
 
 #: server/settings.c:848 server/settings.c:873
 #, c-format
 msgid "The map size (%d * %d = %d) must be lower than %d tiles."
-msgstr ""
+msgstr "Die Kartengröße (%d × %d = %d) muss kleiner als %d Felder sein."
 
 #: server/settings.c:960
 msgid "Map size definition"
-msgstr ""
+msgstr "Methode zur Berechnung der Kartengröße"
 
 #. TRANS: The strings between double quotes are also translated
 #. * separately (they must match!). The strings between single
@@ -40247,9 +40228,15 @@ msgid ""
 "- \"Width and height\" (XYSIZE): Map width and height in tiles (options "
 "'xsize' and 'ysize')."
 msgstr ""
+"Legt die Methode fest, nach der die Kartengröße berechnet wird. Die "
+"Parameter jeder dieser Methoden werden durch weitere Optionen bestimmt.\n"
+"‒ »Felderanzahl« (FULLSIZE): Kartengröße (Option »size«)\n"
+"‒ »Felder pro Spieler« (PLAYER): Anzahl an (Land-)Feldern je Spieler (Option "
+"»tilesperplayer«).\n"
+"‒ »Breite und Höhe« (XYSIZE): Kartenbreite und -höhe in Feldern (Optionen "
+"»xsize« und »ysize«)"
 
 #: server/settings.c:977
-#, fuzzy
 msgid "Map area (in thousands of tiles)"
 msgstr "Kartengröße (mal 1000 Felder)"
 
@@ -40259,7 +40246,6 @@ msgstr "Kartengröße (mal 1000 Felder)"
 #. * strings between paranthesis and in uppercase must stay as
 #. * untranslated.
 #: server/settings.c:983
-#, fuzzy
 msgid ""
 "This value is used to determine the map area.\n"
 "  size = 4 is a normal map of 4,000 tiles (default)\n"
@@ -40269,7 +40255,9 @@ msgid ""
 msgstr ""
 "Aus diesem Wert wird die Kartengröße abgeleitet.\n"
 "  size = 4 ist eine normale Karte mit 4.000 Feldern (Standard)\n"
-"  size = 20 ist eine riesige Karte mit 20.000 Feldern"
+"  size = 20 ist eine riesige Karte mit 20.000 Feldern\n"
+"Diese Option wird nur ausgewertet, wenn die »Methode zur Berechnung der "
+"Kartengröße« (»mapsize«) auf »Felderanzahl« (FULLSIZE) gesetzt wurde."
 
 #: server/settings.c:993
 #, fuzzy
@@ -40290,14 +40278,15 @@ msgid ""
 "For this option to take effect, the \"Map size definition\" option "
 "('mapsize') must be set to \"Tiles per player\" (PLAYER)."
 msgstr ""
-"Aus diesem Wert wird die Kartengröße abgeleitet.\n"
-"  size = 4 ist eine normale Karte mit 4.000 Feldern (Standard)\n"
-"  size = 20 ist eine riesige Karte mit 20.000 Feldern"
+"Aus diesem Wert wird die Kartengröße abgeleitet. Sie wird berechnet, indem "
+"bei Spielstart die Spieleranzahl und der Wert der Einstellung »landmass« "
+"ausgewertet wird.\n"
+"Diese Option wird nur ausgewertet, wenn die »Methode zur Berechnung der "
+"Kartengröße« (»mapsize«) auf »Felder je Spieler« (PLAYER) gesetzt wurde."
 
 #: server/settings.c:1010
-#, fuzzy
 msgid "Map width in tiles"
-msgstr "Größere Stadtanzeige"
+msgstr "Kartenbreite in Feldern"
 
 #. TRANS: The strings between double quotes are also translated
 #. * separately (they must match!). The strings between single
@@ -40310,10 +40299,13 @@ msgid ""
 "For this option to take effect, the \"Map size definition\" option "
 "('mapsize') must be set to \"Width and height\" (XYSIZE)."
 msgstr ""
+"Legt die Kartenbreite fest.\n"
+"Diese Option wird nur ausgewertet, wenn die »Methode zur Berechnung der "
+"Kartengröße« (»mapsize«) auf »Breite und Höhe« (XYSIZE) gesetzt wurde."
 
 #: server/settings.c:1024
 msgid "Map height in tiles"
-msgstr ""
+msgstr "Kartenhöhe in Feldern"
 
 #. TRANS: The strings between double quotes are also translated
 #. * separately (they must match!). The strings between single
@@ -40326,6 +40318,9 @@ msgid ""
 "For this option to take effect, the \"Map size definition\" option "
 "('mapsize') must be set to \"Width and height\" (XYSIZE)."
 msgstr ""
+"Kartenhöhe in Feldern.\n"
+"Diese Option wird nur ausgewertet, wenn die »Methode zur Berechnung der "
+"Kartengröße« (»mapsize«) auf »Breite und Höhe« (XYSIZE) gesetzt wurde."
 
 #: server/settings.c:1039
 msgid "Map topology index"
@@ -40352,27 +40347,11 @@ msgid ""
 "   | | | | | | |            / \\_/ \\_/ \\_/ \\_/ \\\n"
 "   \\/\\/\\/\\/\\/\\/             \\_/ \\_/ \\_/ \\_/ \\_/\n"
 msgstr ""
-"Freeciv Karten sind immer zweidimensional. Sie können in Nord-Süd- und Ost-"
+"Freeciv-Karten sind immer zweidimensional. Sie können in Nord-Süd- und Ost-"
 "West-Richtung verbunden sein und eine flache Karte, einen Zylinder oder "
 "einen Torus (Donut) bilden. Die einzelnen Felder können rechteckig oder "
-"hexagonal sein, mit klassischer oder isometrischer Ausrichtung - dies sollte "
+"hexagonal sein, mit klassischer oder isometrischer Ausrichtung — dies sollte "
 "entsprechend der benutzten Feldergrafik gewählt werden.\n"
-"   0 Flache Karte (unverbunden)\n"
-"   1 Erde (O-W verbunden)\n"
-"   2 Uranus (N-S verbunden)\n"
-"   3 Toruswelt (N-S und O-W verbunden)\n"
-"   4 Flache Karte (isometrisch)\n"
-"   5 Erde (isometrisch)\n"
-"   6 Uranus (isometrisch)\n"
-"   7 Toruswelt (isometrisch)\n"
-"   8 Flache Karte (hexagonal)\n"
-"   9 Erde (hexagonal)\n"
-"  10 Uranus (hexagonal)\n"
-"  11 Toruswelt (hexagonal)\n"
-"  12 Flache Karte (iso-hex)\n"
-"  13 Erde (iso-hex)\n"
-"  14 Uranus (iso-hex)\n"
-"  15 Toruswelt (iso-hex)\n"
 "Klassisch rechteckig:      Isometrisch rechteckig:\n"
 "      _________               /\\/\\/\\/\\/\\ \n"
 "     |_|_|_|_|_|             /\\/\\/\\/\\/\\/ \n"
@@ -40416,6 +40395,25 @@ msgid ""
 "If the requested generator is incompatible with other server settings, the "
 "server may fall back to another generator."
 msgstr ""
+"Legt den Algorithmus fest, nach dem die Karte generiert wird. Ist der "
+"Standardwert der Option »startpos« aktiv, wird der gewählte Generator eine "
+"für »startpos« angemessene Einstellung wählen; andernfalls versucht der "
+"Generator, die Karte an »startpos« anzupassen.\n"
+"‒ »Szenarienkarte« (SCENARIO): Eine zuvor generierte Karte soll geladen "
+"werden. Standardmäßig werden, sofern keine Startpositionen im Szenario "
+"festgelegt wurden, diese abhängig von der Größe der Kontinente festgelegt.\n"
+"‒ »Zufallshöhengenerator« (RANDOM): Generiert eine Karte mit einer Anzahl "
+"ungefähr gleich großer, kleiner Inseln. Standardmäßig werden Startpositionen "
+"abhängig von der Kontinentgröße vergeben.\n"
+"‒ »Pseudofraktaler Höhengenerator« (FRACTAL): Generiert einen erdähnlichen "
+"Planeten mit einem oder mehreren großen Kontinenten und ein paar kleinen "
+"Inseln. Standardmäßig werden alle Spieler auf einem einzelnen Kontinent "
+"untergebracht.\n"
+"‒ »Inselbasierter Generator« (ISLAND): Generiert eine »faire« Karte mit "
+"einer Anzahl ähnlich großer und bestückter Inseln, die auch alle ähnliches "
+"Gelände aufweisen. Standardmäßig erhält jeder Spieler seine eigene Insel.\n"
+"Ist der angeforderte Generator mit anderen Servereinstellungen inkompatibel, "
+"kann der Server auf einen anderen zurückgreifen."
 
 #: server/settings.c:1096
 msgid "Method used to choose start positions"
@@ -40449,6 +40447,29 @@ msgid ""
 "the choice of this 'startpos' setting and the number of players, so this is "
 "unlikely to occur.)"
 msgstr ""
+"Die Methode, nach der der Ort für die ersten Spieleinheiten jedes Spielers "
+"festgelegt wird (in Szenarien mit voreingestellten Startpositionen wird "
+"diese Option ignoriert).\n"
+"‒ »Wahl durch den Generator« (DEFAULT): Die Startpositionen werden durch den "
+"Kartengenerator ausgewählt. Siehe die Option »generator«.\n"
+"‒ »Ein Spieler pro Kontinent« (SINGLE): Ein Spieler wird auf einem einzelnen "
+"Kontinent platziert, sodass die Anzahl der Kontinente etwa der der Spieler "
+"entspricht (falls möglich).\n"
+"‒ »Zwei oder drei Spieler pro Kontinent« (2or3): Ähnlich zu SINGLE, "
+"abgesehen davon, dass zesi oder drei Spieler auf jedem Kontinent platziert "
+"werden. Bei einer ungeraden Anzahl von Spielern werden auf dem »besten« "
+"Kontinent drei Spieler platziert.\n"
+"‒ »Alle Spieler auf einem einzigen Kontinent« (ALL): Alle Spieler starten "
+"auf dem »besten« zur Verfügung stehenden Kontinent.\n"
+"‒ »Abhängig von der Größe der Kontinente« (VARIABLE): Die Spieler werden so "
+"auf den »besten« zur Verfügung stehenden Kontinenten platziert, dass — so "
+"weit wie möglich — die Anzahl der Spieler auf einem Kontinent proportional "
+"zu dessen Brauchbarkeit ist.\n"
+"Wenn der Server der hier geforderten Einstellung nicht stattgeben kann, weil "
+"es zu viele Spieler für die Kontinente gibt, kann er auf eine der anderen "
+"Einstellungen zurückgreifen. (Die Kartengeneratoren versuchen aber trotzdem, "
+"die richtige Anzahl von Kontinenten für die Einstellung dieser Option und "
+"die Spieleranzahl zu finden, daher ist dies eher unwahrscheinlich.)"
 
 #: server/settings.c:1131
 msgid "Presence of 1x1 islands"
@@ -40459,30 +40480,30 @@ msgid ""
 "This setting controls whether the map generator is allowed to make islands "
 "of one only tile size."
 msgstr ""
+"Legt fest, ob der Kartengenerator Inseln von der Größe eines einzelnen "
+"Feldes erzeugen darf."
 
 #: server/settings.c:1138
 msgid "Whether the poles are separate continents"
 msgstr "Pole sind Kontinente"
 
 #: server/settings.c:1139
-#, fuzzy
 msgid "If this setting is disabled, the continents may attach to poles."
 msgstr ""
-"Hiermit werden Berichte als Kartenreiter dargestellt, und nicht als separate "
-"Fenster."
+"Wenn diese Option deaktiviert ist, können die Kontinente an die Pole "
+"anstoßen."
 
 #: server/settings.c:1144
 msgid "All the map is temperate"
 msgstr "Die Landkarte ist gleichmäßig warm"
 
 #: server/settings.c:1145
-#, fuzzy
 msgid ""
 "If this setting is enabled, the temperature will be equivalent everywhere on "
 "the map. As a result, the poles won't be generated."
 msgstr ""
-"Hiermit werden Berichte als Kartenreiter dargestellt, und nicht als separate "
-"Fenster."
+"Legt fest, dass die Temperatur auf dem gesamten Planeten in etwa gleich ist. "
+"Ein Nebeneffekt davon ist, dass es keine Pole geben wird."
 
 #: server/settings.c:1152
 msgid "Average temperature of the planet"
@@ -43808,9 +43829,9 @@ msgid "Error saving map image %d: %s."
 msgstr "Lade Skriptdatei '%s'"
 
 #: server/stdinhand.c:5298
-#, fuzzy, c-format
+#, c-format
 msgid "Bad argument for 'mapimg create': '%s'."
-msgstr "Unvollständige Eingabe ('%s').\n"
+msgstr "Falscher Parameter für »mapimg create«: »%s«."
 
 #: server/stdinhand.c:5342
 msgid "Freeciv database script deactivated at compile time."
@@ -43818,20 +43839,17 @@ msgstr ""
 
 #: server/stdinhand.c:5360
 msgid "Ambiguous fcdb command."
-msgstr ""
+msgstr "Mehrdeutiges fcdb-Kommando."
 
 #: server/stdinhand.c:5488
-#, fuzzy
 msgid "Not enough human players; game will not start."
 msgstr "Zu wenige menschliche Mitspieler, Spiel wird nicht gestartet."
 
 #: server/stdinhand.c:5493
-#, fuzzy
 msgid "No players; game will not start."
 msgstr "Keine Mitspieler, Spiel wird nicht gestartet."
 
 #: server/stdinhand.c:5497
-#, fuzzy
 msgid "Not enough nations for all players; game will not start."
 msgstr "Nicht genug Nationen für alle Spieler, Spiel wird nicht gestartet."
 
@@ -43844,8 +43862,8 @@ msgstr "Alle Spieler sind bereit, das Spiel wird gestartet."
 msgid ""
 "Cannot start the game: the game is waiting for all clients to disconnect."
 msgstr ""
-"Kann Spiel nicht starten: es wird gewartet, daß alle Spieler die Verbindung "
-"beenden."
+"Kann Spiel nicht starten: es wird darauf gewartet, dass alle Spieler die "
+"Verbindung beenden."
 
 #. TRANS: given when /start is invoked while the game
 #. * is running.
@@ -43859,14 +43877,12 @@ msgid "Cutting connection %s."
 msgstr "Verbindung zu %s wird beendet."
 
 #: server/stdinhand.c:5561
-#, fuzzy
 msgid "connection cut"
-msgstr "Verbindung trennen"
+msgstr "Verbindung abgebrochen"
 
 #: server/stdinhand.c:5649
-#, fuzzy
 msgid "You may not kick yourself."
-msgstr "Es MUSS ein Geschlecht gewählt werden."
+msgstr "Sie können sich nicht selbst sperren."
 
 #: server/stdinhand.c:5672
 #, c-format
@@ -43874,14 +43890,14 @@ msgid ""
 "There must be at least %d unique connections to the server for this command "
 "to be valid."
 msgstr ""
+"Es muss mindestens %d einzigartige Verbindungen zum Server geben, damit "
+"dieses Kommando als gültig anerkannt wird."
 
 #: server/stdinhand.c:5698
-#, fuzzy
 msgid "kicked"
 msgstr "gesperrt"
 
 #: server/stdinhand.c:5714
-#, fuzzy
 msgid ""
 "Welcome - this is the introductory help text for the Freeciv server.\n"
 "\n"
@@ -43901,29 +43917,29 @@ msgid ""
 "  save   -  to save the current game\n"
 "  quit   -  to exit"
 msgstr ""
-"Willkommen - dies ist die einführende Hilfe zum Freeciv Server!\n"
+"Willkommen — dies ist die einführende Hilfe zum Freeciv-Server!\n"
 "\n"
-"Es gibt Befehle (commands) und Optionen (options). Befehle wie z.B. 'help' "
-"werden dazu benutzt, um den Server anzusprechen. Optionen sind "
-"Einstellungen, die beeinflussen, wie der Server läuft. Befehle benötigen "
-"häufig einen oder mehrere Parameter. Abkürzungen sind (falls eindeutig) "
-"sowohl für Befehle als auch für Optionen zulässig.\n"
+"Es gibt Befehle (commands) und Optionen (options). Befehle wie z.B. »help« "
+"werden dazu benutzt, um den Server anzusprechen. Sie können meist ein oder "
+"mehrere durch Abstände getrennte Parameter annehmen und oftmals abgekürzt "
+"werden. Optionen hingegen sind Einstellungen, die beeinflussen, wie der "
+"Server läuft.\n"
 "\n"
-"'help help' zeigt, wie man nähere Informationen zu Befehlen und Optionen "
+"»help help« zeigt, wie man nähere Informationen zu Befehlen und Optionen "
 "erhält.\n"
 "\n"
 "Für die Ungeduldigen hier die wichtigsten Befehle:\n"
-"   show   - Einstellungen anzeigen\n"
-"   set    - Einstellungen ändern\n"
-"   start  - Spiel starten, wenn die Spieler bereit sind\n"
-"   save   - Spiel speichern\n"
-"   quit   - Server herunterfahren."
+"   show   — Momentan aktive Optionen anzeigen\n"
+"   set    — Optionen ändern\n"
+"   start  — Spiel starten, wenn die Spieler bereit sind\n"
+"   save   — Spiel speichern\n"
+"   quit   — Server herunterfahren."
 
 #. TRANS: <untranslated name> - translated short help
 #: server/stdinhand.c:5751
 #, c-format
 msgid "Command: %s  -  %s"
-msgstr "Befehl: %s  -  %s"
+msgstr "Befehl: %s  —  %s"
 
 #. TRANS: <untranslated name>
 #: server/stdinhand.c:5757
@@ -43975,12 +43991,11 @@ msgstr "Liste der Teams:"
 #: server/stdinhand.c:5998
 #, c-format
 msgid "Control over player '%s' delegated to user '%s'%s."
-msgstr ""
+msgstr "Die Kontrolle über den Spieler »%s« wurde an »%s«%s übertragen."
 
 #: server/stdinhand.c:6000
-#, fuzzy
 msgid " (active)"
-msgstr "aktiv"
+msgstr " (aktiv)"
 
 #: server/stdinhand.c:6006
 msgid "No delegations defined."
@@ -43988,7 +44003,7 @@ msgstr ""
 
 #: server/stdinhand.c:6031
 msgid "Your ignore list:"
-msgstr ""
+msgstr "Von Ihnen Ignorierte:"
 
 #: server/stdinhand.c:6047
 msgid "List of players:"
@@ -43999,9 +44014,9 @@ msgid "<no players>"
 msgstr "<keine>"
 
 #: server/stdinhand.c:6081
-#, fuzzy, c-format
+#, c-format
 msgid ", user %s"
-msgstr "Benutzername %s, "
+msgstr ", Benutzername %s"
 
 #: server/stdinhand.c:6085
 msgid ", ready"
@@ -44018,7 +44033,7 @@ msgstr ", Tot"
 #: server/stdinhand.c:6109
 #, c-format
 msgid ", %s"
-msgstr ""
+msgstr ", %s"
 
 #: server/stdinhand.c:6110
 #, c-format
@@ -44026,16 +44041,16 @@ msgid ", difficulty level %s"
 msgstr ", Schwierigkeitsgrad %s"
 
 #: server/stdinhand.c:6116
-#, fuzzy, c-format
+#, c-format
 msgid ", %d connection:"
 msgid_plural ", %d connections:"
-msgstr[0] " 1 Verbindung:"
-msgstr[1] " %d Verbindungen:"
+msgstr[0] ", %d Verbindung:"
+msgstr[1] ", %d Verbindungen:"
 
 #: server/stdinhand.c:6123
-#, fuzzy, c-format
+#, c-format
 msgid "%s from %s (command access level %s), bufsize=%dkb"
-msgstr " %s von %s (Zugriffsberechtigung %s, %d kB Puffer)"
+msgstr " %s von %s (Zugriffsberechtigung %s), %d kB Puffer"
 
 #: server/stdinhand.c:6128
 msgid " (observer mode)"
@@ -44051,16 +44066,15 @@ msgstr "Liste der Teams:"
 
 #. TRANS: There will always be at least 2 players here.
 #: server/stdinhand.c:6176
-#, fuzzy, c-format
+#, c-format
 msgid "%2d : '%s' : %d player :"
 msgid_plural "%2d : '%s' : %d players :"
-msgstr[0] "%2d : '%s' : %d Spieler"
-msgstr[1] "%2d : '%s' : %d Spieler"
+msgstr[0] "%2d : »%s« : %d Spieler :"
+msgstr[1] "%2d : »%s« : %d Spieler :"
 
 #: server/stdinhand.c:6197
-#, fuzzy
 msgid "No map image definitions."
-msgstr "Liste der Einheiten zu Spielbeginn"
+msgstr "Keine Kartendefinitionen."
 
 #: server/stdinhand.c:6199
 #, fuzzy
@@ -44070,17 +44084,16 @@ msgstr "Liste der Einheiten zu Spielbeginn"
 #: server/stdinhand.c:6204
 #, c-format
 msgid "[%2d] %s"
-msgstr ""
+msgstr "[%2d] %s"
 
 #: server/stdinhand.c:6215
-#, fuzzy
 msgid "List of player colors:"
-msgstr "Spieler:"
+msgstr "Liste der Spielerfarben:"
 
 #: server/stdinhand.c:6221
-#, fuzzy, c-format
+#, c-format
 msgid "%s (user %s): [%s]"
-msgstr "Neue Abstimmung (Nr. %d) von %s über den Befehl: %s"
+msgstr "%s (Benutzername %s): [%s]"
 
 #: server/stdinhand.c:6278
 #, c-format
@@ -44109,7 +44122,7 @@ msgid ""
 "start a revolution."
 msgstr ""
 "Die Entdeckung von %s macht die Regierungsform %s verfügbar. Vielleicht "
-"willst du eine Revolution beginnen?"
+"wollen Sie eine Revolution beginnen?"
 
 #: server/techtools.c:299
 #, c-format
@@ -44120,11 +44133,11 @@ msgstr "Die Entdeckung von %s veraltet %s in %s!"
 #, c-format
 msgid "Learned %s. Our scientists focus on %s; goal is %s."
 msgstr ""
-"%s erforscht. Unsere Wissenschaftler konzentrieren sich auf %s - das Ziel "
+"%s erforscht. Unsere Wissenschaftler konzentrieren sich auf %s — das Ziel "
 "ist %s."
 
 #: server/techtools.c:369
-#, fuzzy, c-format
+#, c-format
 msgid "Learned %s. Scientists do not know what to research next."
 msgstr ""
 "%s erforscht. Unsere Wissenschaftler wissen nicht, was sie als nächstes "
