@@ -11,6 +11,7 @@ Generelles
   * Anführungsstriche: "" nach »« ändern
   * Bindestriche bei zusammengesetzen Wörtern! "Apollo Programm" -> "Apollo-Programm"
   * -- nach — ändern
+  * Aufzählungszeichen: "*" -> •, "-" -> "‒"
   * Generell: Mehr Einsatz von Unicode. Wir haben einen
     UTF-8-Zeichensatz, und solange wir nicht extrem obskure Zeichen
     benutzen, sollte jeder moderne Font das implementieren.
