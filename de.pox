@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-09 11:43+0200\n"
-"PO-Revision-Date: 2012-08-09 13:47+0200\n"
+"PO-Revision-Date: 2012-08-09 15:20+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -10383,7 +10383,7 @@ msgstr "Letztes %s-Release von Freeciv ist %s, dies ist %s."
 
 #: client/servers.c:132
 msgid "?vertag:"
-msgstr ""
+msgstr "?vertag:"
 
 #: client/servers.c:135
 #, c-format
@@ -16815,47 +16815,54 @@ msgid ""
 "civilized peoples of Europe and Asia Minor. The Celts colonized much of "
 "Europe and had a large influence on the development of European civilization."
 msgstr ""
+"Die Kelten waren ein indoeuropäusches Volk in Westeuropa und entstammten "
+"möglicherweise dem Gebiet zwischen dem Oberrhein und der Donau, wo die "
+"Urnenfelderfelderkultur der Hallstattzeit siedelte. Sie waren als grausame "
+"und wilde Krieger bekannt, die die antiken zivilisierten Völker Europas und "
+"Asiae Minoris terrorisierten. Nichtsdestotrotz kolonisierten sie einen "
+"großen Teil Europas und hatten einen großen Einfluss auf die weitere "
+"Entwicklung der europäischen Zivilisation."
 
 #: data/civ2/nations.ruleset:354 data/nation/celtic.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "Great Warrior %s"
-msgstr "Großer Pharao %s"
+msgstr "Großer Krieger %s"
 
 #: data/civ2/nations.ruleset:354 data/nation/celtic.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Great Warrior %s"
-msgstr "Große Pharaonin %s"
+msgstr "Große Kriegerin %s"
 
 #: data/civ2/nations.ruleset:355 data/nation/belgic.ruleset:31
 #: data/nation/cambodian.ruleset:25 data/nation/celtic.ruleset:38
 #: data/nation/crusader.ruleset:33 data/nation/holysee.ruleset:29
 #: data/nation/khmer.ruleset:27 data/nation/latin.ruleset:40
 #: data/nation/nestorian.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Brother %s"
-msgstr "Bruder"
+msgstr "Bruder %s"
 
 #: data/civ2/nations.ruleset:355 data/nation/belgic.ruleset:31
 #: data/nation/cambodian.ruleset:25 data/nation/celtic.ruleset:38
 #: data/nation/crusader.ruleset:33 data/nation/holysee.ruleset:29
 #: data/nation/khmer.ruleset:27 data/nation/latin.ruleset:40
 #: data/nation/nestorian.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Sister %s"
-msgstr "Schwester"
+msgstr "Schwester %s"
 
 #: data/civ2/nations.ruleset:358 data/nation/belgic.ruleset:30
 #: data/nation/boian.ruleset:22 data/nation/celtic.ruleset:41
 #: data/nation/helvetian.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "High Druid %s"
-msgstr "Druide"
+msgstr "Meisterdruide %s"
 
 #: data/civ2/nations.ruleset:358 data/nation/celtic.ruleset:41
 #: data/nation/helvetian.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "?female:High Druid %s"
-msgstr "Präsidentin"
+msgstr "Meisterdruidin %s"
 
 # EH: historisch. Sollte nicht übersetzt werden.
 #: data/civ2/nations.ruleset:657 data/nation/british.ruleset:26
@@ -17888,6 +17895,8 @@ msgstr ""
 #: data/civ2/units.ruleset:1907
 msgid "Spies built under a Communist government will be built as veteran."
 msgstr ""
+"Spione werden unter kommunistischen Regierungen direkt als Veteranen "
+"ausgebildet."
 
 #: data/civ2/units.ruleset:1951 data/default/units.ruleset:2027
 #: data/experimental/units.ruleset:2064 data/multiplayer/units.ruleset:2126
@@ -19753,6 +19762,13 @@ msgid ""
 "each have different strengths and drawbacks; see the sections on each "
 "terrain type for details."
 msgstr ""
+"Gelände in Freeciv hat dreierlei Effekt auf das Spielgeschehen: Erstens "
+"stellen Sie das Theater da, in dem Ihre Einheiten feindliche Zivilisationen "
+"bekämpfen; zweitens ist es die Landschaft, durch die Ihre Einheiten reisen; "
+"und zuletzt ist es das Medium, aus dem Ihre Städte mithilfe von Arbeit "
+"Ressourcen produzieren. Die verschiedenen Geländetypen haben jeweils "
+"verschiedene Stärken und Schwächen; siehe den jeweiligen Abschnitt für einen "
+"bestimmten Geländetyp für mehr Informationen"
 
 #: data/helpdata.txt:287
 msgid ""
@@ -19760,6 +19776,10 @@ msgid ""
 "defense strength is multiplied by the defense factor (\"bonus\") of the "
 "terrain beneath it. See the help section on Combat for further details."
 msgstr ""
+"Das Gelände beeinflusst Kämpfe auf eine einfache Art und Weise: Wenn eine "
+"Landeinheit angegriffen wird, so wird ihre Verteidungsstärke mit dem "
+"Verteidungsfaktor (»Bonus«) des unterliegenden Geländes multipliziert. Siehe "
+"den Abschnitt über Kämpfe für mehr Informationen."
 
 #: data/helpdata.txt:292
 msgid ""
@@ -19767,6 +19787,11 @@ msgid ""
 "expend one movement point to move one tile, but moving onto rough terrain "
 "such as Mountains can cost land units more."
 msgstr ""
+"Wie schon zuvor angesprochen, stellt das Gelände auch den Reiseuntergrund "
+"für Ihre Einheiten da. Je nach Beschaffenheit behindert es die Fortbewegung "
+"Ihrer Bodentruppen — See- und Lufteinheiten verbrauchen pro Feld nur einen "
+"Bewegungspunkt, aber das Durchqueren schwierigen Geländes wie etwa Bergen "
+"kann Ihre Landeinheiten mehrere Bewegungspunkte kosten."
 
 #: data/helpdata.txt:296
 msgid ""
@@ -19780,15 +19805,26 @@ msgid ""
 "additional special resource that boosts one or two of the products. See the "
 "Economy section for more information on the use of these products."
 msgstr ""
+"Felder in Reichweite einer Stadt können von dieser zum Zwecke der Produktion "
+"von Nahrung, Produktions- oder Handelspunkten bewirtschaftet werden, wobei "
+"die Quantität jedes dieser Dinge vom genauen Geländetyp abhängt. Diese drei "
+"Produkte sind so wichtig, dass wir die Ergebnisse einer Bewirtschaftung "
+"übersichtlich durch Schrägstriche geteilt zeigen. So beschreibt zum Beispiel "
+"»1/2/0« ein Feld, das in jeder Runde, in der es bewirtschaftet wird, einen "
+"Nahrungspunkt, zwei Produktionspunkte und keine Handelspunkte generiert.\n"
+"\n"
+"Zusätzlich zu den Charakteristika jedes Geländetyps finden sich auf einigen "
+"Feldern spezielle Ressourcen, die ein oder zwei der genannten "
+"Bewirtschaftungsarten in besonderer Weise fördert. Siehe den Abschnitt über "
+"Wirtschaft für weitere Informationen zum Nutzen dieser Dinge."
 
 #: data/helpdata.txt:307
-#, fuzzy
 msgid ""
 "The net benefit of a tile for your city depends on your government type as "
 "well as city improvements and wonders."
 msgstr ""
 "Der effektive Nutzen eines Feldes für die Stadt wird sowohl von der "
-"Regierungsform als auch von Stadterweiterungen und Weltwundern beeinflußt."
+"Regierungsform als auch von Stadterweiterungen und Weltwundern beeinflusst."
 
 #: data/helpdata.txt:310
 msgid ""
@@ -19797,21 +19833,26 @@ msgid ""
 "tile a city is on) get some of these benefits for free; see the section on "
 "Cities for more detail."
 msgstr ""
+"Einige Einheiten sind in der Lage, das Gelände und somit dessen "
+"Charakteristika zu verändern; siehe den Abschnitt über Geländeveränderungen "
+"für mehr Informationen dazu. Stadtzentren (also das Feld, auf dem sich eine "
+"Stadt befindet) erhalten einige dieser Boni umsonst; siehe den Abschnitt "
+"über Städte für mehr Informationen dazu."
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:322
 msgid " Terrain Alterations"
-msgstr " Gelände verändern"
+msgstr " Geländeveränderungen"
 
 #: data/helpdata.txt:323
-#, fuzzy
 msgid ""
 "Settlers, Workers, and Engineers have the ability to alter terrain tiles in "
 "several ways."
-msgstr "Siedler und Ingenieure sind in der Lage, Geländeformen zu verändern."
+msgstr ""
+"Siedler, Arbeiter und Ingenieure sind in der Lage, Geländeformen auf "
+"verschiedenste Weisen zu verändern."
 
 #: data/helpdata.txt:326
-#, fuzzy
 msgid ""
 "Irrigation systems can be built on suitable types of terrain. Irrigation "
 "causes a tile to produce some extra food each turn. Building irrigation "
@@ -19822,21 +19863,24 @@ msgid ""
 "on a tile into even more productive Farmland by irrigating it a second time."
 msgstr ""
 "Verschiedene Geländeformen können bewässert werden, vorausgesetzt ein in "
-"voller Breite angrenzendes Nachbarfeld ist ein Ozean- oder ein Flußfeld oder "
-"hat bereits ein Bewässerungssystem. Bewässerung hilft, eine größere Menge "
-"Nahrung zu erzeugen. Entsprechende Kenntnisse vorausgesetzt, kann durch eine "
-"Verbesserung des Bewässerungssystems noch produktiveres Ackerland geschaffen "
-"werden."
+"voller Breite (und nicht nur an einer Ecke) angrenzendes Nachbarfeld ist ein "
+"Ozean-, ein See- oder ein Flussfeld oder besitzt bereits ein "
+"Bewässerungssystem. Ist die Bewässerung einmal eingerichtet, bleibt sie auch "
+"dann bestehen, wenn die ursprüngliche Wasserquelle entfernt wird.\n"
+"\n"
+"Bewässerung hilft, eine größere Menge Nahrung zu erzeugen. Entsprechende "
+"Kenntnisse vorausgesetzt, kann durch eine Verbesserung des "
+"Bewässerungssystems noch produktiveres Ackerland geschaffen werden."
 
 #: data/helpdata.txt:335
-#, fuzzy
 msgid ""
 "Mines can be built on some types of terrain, which increases the number of "
 "production points (shields) produced by that tile. However, it is not "
 "possible to have irrigation and a mine on the same tile."
 msgstr ""
-"Auf anderen Geländeformen können Bergwerke errichtet werden. Dadurch erhöht "
-"sich die Menge der produzierten Ressourcen (Schilde)."
+"Auf anderen Geländeformen können Bergwerke errichtet werden, wodurch sich "
+"die Menge der produzierten Ressourcen (Schilde) erhöht. Es ist jedoch nicht "
+"möglich, eine Bewässerung und eine Mine auf demselben Feld zu betreiben."
 
 #: data/helpdata.txt:339
 msgid ""
@@ -19847,6 +19891,14 @@ msgid ""
 "the resulting terrain is unsuitable for the improvement, and may also remove "
 "special resources if they were specific to the original terrain type."
 msgstr ""
+"Jene Geländearten, die weder für Bewässerungsanlagen noch für Minen geeignet "
+"sind, können mit ein wenig mehr Aufwand häufig in einen anderen Geländetyp "
+"überführt werden, der Ihren Bedürfnissen mehr entgegenkommt. Wenn das "
+"resultierende Gelände für die momentanen Geländeverbesserungen nicht "
+"geeignet ist, können bei der Umwandlung allerdings auch vorhandene Minen und "
+"Bewässerungssysteme zerstört werden. Es können sogar die speziellen "
+"Ressourcen eines Felder verloren gehen, wenn sie nur auf gewissen "
+"Geländetypen auftreten."
 
 #: data/helpdata.txt:347
 msgid ""
@@ -19856,6 +19908,13 @@ msgid ""
 "table below. (Converting one kind of terrain into another with the \"irrigate"
 "\" order does not require a water source.)"
 msgstr ""
+" ‒ Siedler und Arbeiter verfügen über begrenzte Möglichkeit, "
+"Geländeveränderungen vorzunehmen, die sie nutzen können, indem Sie die "
+"Befehle »Bewässerung einrichten« oder »Mine graben« erteilen, während eine "
+"solche Einheit auf einem Feld steht, das diese Art von Verbesserung nicht "
+"unterstützt; siehe die nachstehende Tabelle. (Die Umwandlung eines Feldes in "
+"ein anderes mit dem Befehl zur Einrichtung einer Bewässerungsanlage "
+"erfordert keine Wasserquelle.)"
 
 #: data/helpdata.txt:353
 msgid ""
@@ -19867,9 +19926,16 @@ msgid ""
 "be land or water respectively. (Units will move to safe neighboring tiles "
 "when the transformation takes place, if possible.)"
 msgstr ""
+"‒ Ingenieure können wesentlich weiter reichende Änderungen am Gelände "
+"durchführe. Mithilfe des »Transformieren«-Befehls kann nahezu jedes Gelände "
+"verändert werden, in einigen Regelsätzen können auf Schiffen befindliche "
+"Ingenieure sogar Wasser- in Landfelder verwandeln und umgekehrt. Solch "
+"radikale Veränderungen erfordern allerdings meist, dass bereits eine gewisse "
+"Anzahl der umgebenden Felder bereits zu Land (oder Wasser) umgewandelt wurde "
+"(die Einheiten werden dabei falls möglich auf sichere Nachbarfelder "
+"ausweichen)."
 
 #: data/helpdata.txt:362
-#, fuzzy
 msgid ""
 "Roads can be built on any land tile, even if there are other improvements on "
 "that tile. (To build a road on a River tile, though, you must know Bridge "
@@ -19877,47 +19943,47 @@ msgid ""
 "railroads. Roads and railroads allow your units to move more quickly, and "
 "they increase the resources produced in cities."
 msgstr ""
-"In jedem Gelände (außer Ozeanen) können Straßen gebaut und Schienen verlegt "
-"werden. (Für Flußfelder muß Brückenbau bekannt sein.) Straßen und "
-"Eisenbahnen ermöglichen Landeinheiten ein schnelleres Vorankommen und "
-"erhöhen die in der Stadt erwirtschafteten Ressourcen."
+"In jedem Gelände — außer im Meer natürlich — können Straßen gebaut und "
+"später, mit den erforlichen Kenntnissen, Schienen verlegt werden, auch dann, "
+"wenn sich dort bereits andere Geländeverbesserungen befinden (für "
+"Flussfelder muss Brückenbau bekannt sein). Straßen und Eisenbahnlinien "
+"ermöglichen Landeinheiten ein schnelleres Vorankommen und erhöhen die in der "
+"Stadt erwirtschafteten Ressourcen."
 
 #: data/helpdata.txt:369
-#, fuzzy
 msgid ""
 " - Units use only one third of a movement point when going from one tile to "
 "an adjacent tile, if both tiles have a road."
 msgstr ""
-" - Einheiten brauchen nur 1/3 Bewegungspunkt, wenn sie sich von einem Feld "
+" ‒ Einheiten brauchen nur 1/3 Bewegungspunkt, wenn sie sich von einem Feld "
 "mit Straße zu einem anderen Feld mit Straße bewegen."
 
 #: data/helpdata.txt:372
-#, fuzzy
 msgid ""
 " - Units expend no movement points when moving along a railroad. You may "
 "ride a railroad indefinitely. (As may your enemies!)"
 msgstr ""
-" - Einheiten brauchen keine Bewegungspunkte, wenn sie sich auf Schienen "
-"bewegen. Sie können immer weiterbewegt werden."
+" ‒ Wenn sie mit der Eisenbahn reisen, verbrauchen Ihre Einheiten überhaupt "
+"keine Bewegungspunkte und können dies beliebig lange tun. Allerdings können "
+"Ihre Feinde Ihr Schienennetz auch benutzen."
 
 #: data/helpdata.txt:375
-#, fuzzy
 msgid ""
 " - A road may increase the trade resources produced by some types of "
 "terrain. This effect is retained when a road is upgraded to a railroad."
 msgstr ""
-" - Eine Straße kann die Handelsergebnisse, die auf manchen Geländeformen "
-"erzielt werden, steigern."
+" ‒ Eine Straße kann die Handelsergebnisse, die auf manchen Geländetypen "
+"erzielt werden, steigern. Dieser Effekt bleibt auch dann erhalten, wenn "
+"zusätzlich zur Straße Schienen verlegt werden."
 
 #: data/helpdata.txt:379
-#, fuzzy
 msgid ""
 " - A railroad additionally increases the shield resources produced by a tile "
 "by 50%. (Depending on server options, railroads may also increase food and "
 "trade resources, or may increase shield resources by an amount other than "
 "50%.)"
 msgstr ""
-" - Eine Eisenbahn steigert die erwirtschafteten Ressourcen eines Feldes um "
+" ‒ Eine Eisenbahn steigert die erwirtschafteten Ressourcen eines Feldes um "
 "50%. (Abhängig von den Servereinstellungen kann es sein, daß zusätzlich die "
 "Produktion von Nahrungsmitteln und die Handelsergebnisse verbessert werden; "
 "es ist auch möglich, daß die Ressourcen um einen anderen Prozentsatz "
@@ -19928,9 +19994,11 @@ msgid ""
 "Technology advances allow other kinds of structures to be built, sometimes "
 "known as \"bases\"; see the following sections for details."
 msgstr ""
+"Mit dem technologischen Fortschritt geht die Möglichkeit einher, eine "
+"weitere Art von Bauten zu errichten, die sogenannten »Basen«. Siehe die "
+"folgenden Abschnitte für mehr Informationen."
 
 #: data/helpdata.txt:387
-#, fuzzy
 msgid ""
 "The following table shows the number of turns required for one unit of "
 "Settlers or Workers to complete an activity. These numbers are reduced to "
@@ -19941,17 +20009,15 @@ msgid ""
 "to one task, though; excess effort can be wasted, and a group of Settlers, "
 "Workers, and/or Engineers is highly vulnerable to enemy attacks."
 msgstr ""
-"Arbeiter gehören zu den wichtigsten Einheiten des Spiels. Man kann mit ihnen "
-"Straßen und Eisenbahnen, Bewässerungssysteme, befestigte Stellungen, "
-"Bergwerke und Fliegerhorste bauen; auch Beseitigung von Umweltverschmutzung "
-"und Fallout sind durch sie möglich.\n"
-"\n"
-"Siedler, Arbeiter und Ingenieure können zusammen arbeiten, um Projekte zu "
-"beschleunigen. Wenn zwei oder mehr von ihnen gemeinsam arbeiten, werden ihre "
-"Leistungen am Rundenende addiert. Es sollte darauf geachtet werden, daß man "
-"nicht zu viele zusammen arbeiten läßt, um keine 'Arbeitskraft' zu "
-"verschwenden. Außerdem können solche Gruppen sehr leicht von Angreifern "
-"vernichtet werden."
+"Die folgende Tabelle zeigt die Anzahl Runden, die eine Arbeiter- oder "
+"Siedlereinheit für eine Aktion benötigt. Für Ingenieure werden diese Zahlen "
+"halbiert (aufgerundet, falls erforderlich); außerdem kann die benötigte Zeit "
+"duch Teamarbeit reduziert werden: arbeiten zwei oder mehr Einheiten auf "
+"demselben Feld an derselben Sache, werden ihre Anstrengungen jede Runde "
+"zusammengezählt bis die Aufgabe erfüllt ist. Achten Sie trotzdem darauf, "
+"nicht zu viele Einheiten an einer Aufgabe arbeiten zu lassen, denn "
+"übermäßige Anstrengungen gehen verloren. Auch ist eine Gruppe von Siedlern, "
+"Arbeitern und/oder Ingenieuren höchst anfällig für feindliche Angriffe."
 
 #. TRANS: Preserve the leading spaces: they control nesting
 #: data/helpdata.txt:406
@@ -19959,7 +20025,6 @@ msgid "  Pillaging"
 msgstr "  Brandschatzen"
 
 #: data/helpdata.txt:407
-#, fuzzy
 msgid ""
 "Many units -- in the default rules, all land units -- have the ability to "
 "destroy terrain alterations, by pillaging. Pillaging removes one terrain "
@@ -19967,14 +20032,13 @@ msgid ""
 "choice of which terrain alteration to pillage, or they will be pillaged in "
 "the following order:"
 msgstr ""
-"Alle Landeinheiten haben die Fähigkeit, Geländeverbesserungen zu zerstören. "
-"Brandschatzen zerstört eine Geländeverbesserung pro Runde und Einheit. "
-"Abhängig von den Servereinstellungen kann es sein, daß die zu zerstörende "
-"Verbesserung ausgesucht werden kann. Ansonsten wird in folgender Reihenfolge "
-"zerstört:"
+"Viele Einheiten — im Standardregelsatz alle Landeinheiten — besitzen die "
+"Fähigkeit, Geländeverbesserungen zu brandschatzen, wodurch eine "
+"Geländeverbesserung pro Runde und Einheit zerstört wird. Abhängig vom "
+"Regelsatz kann es sein, dass Sie die zu brandschatzende Verbesserung "
+"auswählen können. Ansonsten wird in folgender Reihenfolge zerstört:"
 
 #: data/helpdata.txt:413
-#, fuzzy
 msgid ""
 " - farmland\n"
 " - irrigation\n"
@@ -19983,16 +20047,14 @@ msgid ""
 " - a railroad\n"
 " - a road"
 msgstr ""
-" - Ackerland\n"
-" - Bewässerungssystem\n"
-" - Bergwerk\n"
-" - befestigte Stellung\n"
-" - Fliegerhorst\n"
-" - Eisenbahn\n"
-" - Straße"
+" ‒ Ackerland\n"
+" ‒ Bewässerungssystem\n"
+" ‒ Bergwerke\n"
+" ‒ befestigte Stellungen (Festung, Fliegerhorst, ...)\n"
+" ‒ Eisenbahnschienen\n"
+" ‒ Straßen"
 
 #: data/helpdata.txt:420
-#, fuzzy
 msgid ""
 "Tiles that do not have such terrain alterations cannot be pillaged. In "
 "addition, terrain conversions and transformations cannot be undone by "
@@ -20001,13 +20063,16 @@ msgid ""
 "you would have to convert the tile again with a Settler, Worker, or Engineer."
 msgstr ""
 "Geländeformen ohne Verbesserungen können nicht gebrandschatzt werden. Auch "
-"kann Brandschatzung keine Geländeveränderung rückgängig machen."
+"kann Brandschatzung keine Geländeveränderung rückgängig machen. Wenn Sie "
+"Beispielsweise ein Waldfeld in eine Ebene überführt haben, indem Sie den "
+"Befehl zur Einrichtung eines Bewässerungssystems gegeben haben, wird "
+"Brandschatzen dieses Feld nicht wieder in einen Wald verwandeln ‒ dafür wird "
+"ein Siedler, Arbeiter, oder Ingenieur benötigt."
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:431
-#, fuzzy
 msgid " Villages"
-msgstr "Brandschatzen"
+msgstr " Dörfer"
 
 #: data/helpdata.txt:432
 msgid ""
@@ -20019,18 +20084,29 @@ msgid ""
 "technology, a military unit (occasionally a settler; and sometimes a unit "
 "that the player cannot yet create), or even a new city."
 msgstr ""
+"Dörfer (oder auch »Hütten«) sind Ansiedlungen primitiver Eingeborener "
+"überall auf der Welt. Jede Landeinheit kann ein Dorf betreten, wodurch es "
+"verschwindet und einen zufälligen Effekt auslöst. So kann ein Dorf sich etwa "
+"als feindselig herausstellen und Barbaren aussenden oder die Einheit, die "
+"das Dorf betritt, umbringen. Sind sie aber freundlich, kann der Spieler "
+"Gold, eine neue Technologie, eine militärische Einheit (gelegentlich sogar "
+"einen Siedler oder auch eine Einheit, die der Spieler noch gar nicht "
+"ausbilden kann) oder eine ganze neue Stadt erhalten."
 
 #: data/helpdata.txt:441
 msgid ""
 "Later in the game, helicopters may also enter villages, but overflight by "
 "other aircraft will cause the villagers to take fright and disband."
 msgstr ""
+"Später im Spiel können Dörfer auch mit Helikoptern betreten werden, aber ein "
+"Überflug mit irgendeiner anderen Lufteinheit wird die Eingeborenen in Angst "
+"und Schrecken versetzen, sodass sie so weit flüchten, wie sie ihre Füße "
+"tragen können."
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:448
-#, fuzzy
 msgid " National Borders"
-msgstr "Landesgrenzen"
+msgstr " Landesgrenzen"
 
 #: data/helpdata.txt:449
 msgid ""
@@ -20041,6 +20117,12 @@ msgid ""
 "Borders also come into play when there is a diplomatic pact between nations "
 "(see the section on Diplomacy)."
 msgstr ""
+"Wenn es auf dem Server aktiviert wurde, besitzt jede Nation Grenzen, die als "
+"gestrichelte Linien auf der Karte dargestellt werden. Diese Grenzen legen "
+"fest, wo Ihre Bürger arbeiten und neue Städte gründen können und ob Ihre "
+"Militäreinheiten als übermäßig vorhanden wahrgenommen werden (siehe den "
+"Abschnitt über Zufriedenheit). Grenzen sind auch bei diplomatischen "
+"Vereinbarungen von Interesse (siehe den Abschnitt über Diplomatie)."
 
 #: data/helpdata.txt:456
 msgid ""
@@ -20050,18 +20132,30 @@ msgid ""
 "land that is out of range of any city can change depending on factors such "
 "as the relative size of nearby nations' cities."
 msgstr ""
+"Die Gründung einer Stadt beansprucht das umgebende Land für seinen "
+"Eigentümer. Einmal geschehen, kann das Land, das direkt von einer Stadt "
+"bewirtschaftet wird, nicht mehr den Eigentümer wechseln, wenn es nicht die "
+"ganze Stadt tut (oder diese zerstört wird). Der Besitz von Land außerhalb "
+"des unmittelbaren Einflusses einer Stadt wird jedoch von einer Reihe von "
+"speziellen Faktoren geregelt, darunter etwa die relative Größe von Städten "
+"nahegelegener Nationen."
 
 #: data/helpdata.txt:463
 msgid ""
 "Borders can only extend into water for tiles adjacent to a city; other water "
 "tiles remain unclaimed territory."
 msgstr ""
+"Wasserfelder stellen einen Spezialfall da. Grenzen können nur um unmittelbar "
+"an der Stadt anliegende Wasserfelder gezogen werden, alle anderen "
+"Wasserfelder stellen internationale Gewässer da und gehören niemandem."
 
 #: data/helpdata.txt:466
 msgid ""
 "Bases can also extend national borders. See the help on Terrain Alterations "
 "for more details."
 msgstr ""
+"Die Nationalgrenzen können auch durch Befestigungen erweitert werden. Siehe "
+"den Abschnitt über Geländeveränderungen für mehr Informationen."
 
 #: data/helpdata.txt:473
 msgid ""
