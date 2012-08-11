@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-09 11:43+0200\n"
-"PO-Revision-Date: 2012-08-09 19:55+0200\n"
+"PO-Revision-Date: 2012-08-11 14:17+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -4327,7 +4327,7 @@ msgstr "K_ampf"
 
 #: client/gui-gtk-2.0/menu.c:1545 client/gui-gtk-3.0/menu.c:1545
 msgid "Build _Base"
-msgstr "Flieger_horst bauen"
+msgstr "Militär_basis bauen"
 
 #: client/gui-gtk-2.0/menu.c:1550 client/gui-gtk-3.0/menu.c:1550
 msgid "_Single Unit (Unselect Others)"
@@ -4375,7 +4375,7 @@ msgstr "_Rückkehr zur nächsten Stadt"
 
 #: client/gui-gtk-2.0/menu.c:1577 client/gui-gtk-3.0/menu.c:1577
 msgid "Auto E_xplore"
-msgstr "Automatisch erkunden (_X)"
+msgstr "Automatisch er_kunden"
 
 #: client/gui-gtk-2.0/menu.c:1579 client/gui-gtk-3.0/menu.c:1579
 msgid "_Patrol"
@@ -4383,7 +4383,7 @@ msgstr "_Patrouillieren"
 
 #: client/gui-gtk-2.0/menu.c:1582 client/gui-gtk-3.0/menu.c:1582
 msgid "_Sentry"
-msgstr "Bewachen (_S)"
+msgstr "Be_wachen"
 
 #: client/gui-gtk-2.0/menu.c:1584 client/gui-gtk-3.0/menu.c:1584
 msgid "Uns_entry All On Tile"
@@ -4391,7 +4391,7 @@ msgstr "Alle auf diesem _Feld: Nicht mehr bewachen"
 
 #: client/gui-gtk-2.0/menu.c:1587 client/gui-gtk-3.0/menu.c:1587
 msgid "_Load"
-msgstr "Einschiffen (_L)"
+msgstr "E_inschiffen"
 
 #: client/gui-gtk-2.0/menu.c:1589 client/gui-gtk-3.0/menu.c:1589
 msgid "_Unload"
@@ -4548,7 +4548,7 @@ msgstr "_Handelsweg gründen"
 #: client/gui-gtk-2.0/menu.c:2175 client/gui-gtk-3.0/menu.c:2174
 #, c-format
 msgid "Build %s"
-msgstr "Baue %s"
+msgstr "%s bauen"
 
 #. TRANS: %s is a unit type.
 #: client/gui-gtk-2.0/menu.c:2188 client/gui-gtk-3.0/menu.c:2187
@@ -8456,7 +8456,13 @@ msgstr "• Landeinheiten können sich nicht auf dem Ozean bewegen."
 msgid "Requirements to build:\n"
 msgstr "Voraussetzungen für den Bau:\n"
 
-# "Native tiles" sind Felder, die normalerweise nicht betreten werden können, von ein paar Ausnahmen abgesehen.
+# MG: "Native tiles" sind die Felder, die eine Einheit betreten kann.
+# Beispielswiese kann eine Trireme Seefelder betreten, die für sie daher
+# "native" sind. Unglücklicherweise wird dieser Begriff an allen anderen
+# Stellen negativ gebraucht, sodass die Option "Show native tiles"
+# effektiv die Felder kennzeichnet, die die Einheit NICHT betreten kann,
+# d.h. im Falle der Trireme würde diese Option alle Landfelder rot
+# kennzeichnen.
 #. TRANS: %s is a list of unit classes separated by "and".
 #: client/helpdata.c:2006
 #, c-format
@@ -16160,7 +16166,6 @@ msgstr ""
 #: data/civ2/buildings.ruleset:208 data/default/buildings.ruleset:234
 #: data/experimental/buildings.ruleset:239
 #: data/multiplayer/buildings.ruleset:258
-#, fuzzy
 msgid ""
 "City Walls make it easier to defend a city.  They triple the defense "
 "strength of units within the city against land and helicopter units.  They "
@@ -16168,12 +16173,11 @@ msgid ""
 "Walls also prevent the loss of population which occurs when a defending unit "
 "is destroyed by a land unit."
 msgstr ""
-"Eine Stadtmauer hilft, eine Stadt vor Landeinheiten (außer Haubitzen) und "
-"Hubschraubern zu schützen, indem sie die Verteidigungsstärke gegen diese "
-"Einheitentypen verdreifacht.\n"
-"\n"
-"Sie verhindert Verluste bei der Bevölkerung, falls gegnerische Landeinheiten "
-"eine in der Stadt stationierte Einheit vernichten."
+"Eine Stadtmauer hilft, eine Stadt vor Land- und Helikoptereinheiten zu "
+"schützen. Gegenüber anderen Luft- und Seeeinheiten sowie gegenüber Haubitzen "
+"ist sie jedoch wirkungslos. Auch verhindert sie Verluste bei der "
+"Bevölkerung, falls gegnerische Landeinheiten eine in der Stadt stationierte "
+"Einheit vernichten."
 
 #: data/civ2/buildings.ruleset:217 data/default/buildings.ruleset:243
 #: data/experimental/buildings.ruleset:248
@@ -16496,7 +16500,6 @@ msgstr ""
 
 #: data/civ2/buildings.ruleset:1151 data/default/buildings.ruleset:1216
 #: data/experimental/buildings.ruleset:1273
-#, fuzzy
 msgid ""
 "Makes one content citizen happy in every city. Makes two extra content "
 "citizens happy in the city containing the Hanging Gardens (that is, a total "
@@ -16506,10 +16509,13 @@ msgid ""
 msgstr ""
 "Machen in jeder eigenen Stadt einen Zufriedenen glücklich.\n"
 "\n"
-"Machen in der Stadt, wo sie hängen, 2 weitere Zufriedene glücklich.\n"
+"Machen in der Stadt, wo sie hängen, zwei weitere Zufriedene glücklich (dort "
+"insgesamt also drei).\n"
 "\n"
 "Sollte es in einer Stadt keine Zufriedenen geben, stellen sie stattdessen "
-"Unzufriedene zufrieden."
+"Unzufriedene zufrieden (eingeschlossen solche, die aufgrund von "
+"militärischen Aktivitäten unzufrieden sind), indem sie sie erst zufrieden, "
+"dann glücklich machen."
 
 #: data/civ2/buildings.ruleset:1175 data/default/buildings.ruleset:1241
 #: data/experimental/buildings.ruleset:1298
@@ -16522,11 +16528,12 @@ msgstr ""
 
 #: data/civ2/buildings.ruleset:1215 data/default/buildings.ruleset:1282
 #: data/experimental/buildings.ruleset:1339
-#, fuzzy
 msgid ""
 "Makes two unhappy citizens content in every city (including citizens unhappy "
 "about military activity)."
-msgstr "Macht in jeder Stadt mit einem Tempel 2 Unzufriedene zufrieden."
+msgstr ""
+"Stellt in jeder Stadt zwei unzufriedene Bürger zufrieden (eingeschlossen "
+"diejenigen, die wegen militärischer Aktivitäten unzufrieden sind)."
 
 #: data/civ2/buildings.ruleset:1221 data/default/buildings.ruleset:1288
 #: data/experimental/buildings.ruleset:1345
@@ -16537,7 +16544,6 @@ msgstr "König Richards Kreuzzug"
 #: data/civ2/buildings.ruleset:1235 data/default/buildings.ruleset:1302
 #: data/experimental/buildings.ruleset:1359
 #: data/multiplayer/buildings.ruleset:1276
-#, fuzzy
 msgid ""
 "Adds one extra shield resource on every tile around the city where it is "
 "built."
@@ -16555,12 +16561,11 @@ msgid "Upgrades one obsolete unit per game turn."
 msgstr "Modernisiert eine veraltete Einheit pro Runde."
 
 #: data/civ2/buildings.ruleset:1274
-#, fuzzy
 msgid ""
 "Gives all your sea units 1 additional movement point. Makes all your new "
 "military sea units veterans (for all cities)."
 msgstr ""
-"Alle Marineeinheiten erhalten 1 zusätzlichen Bewegungspunkt. In allen deinen "
+"Alle Marineeinheiten erhalten 1 zusätzlichen Bewegungspunkt. In allen Ihren "
 "Städten erhalten neue Marineeinheiten Veteranen-Status."
 
 #: data/civ2/buildings.ruleset:1294
@@ -16580,7 +16585,6 @@ msgstr "Gilt als Botschaft bei allen Mitspielern."
 
 #: data/civ2/buildings.ruleset:1350 data/default/buildings.ruleset:1419
 #: data/experimental/buildings.ruleset:1476
-#, fuzzy
 msgid ""
 "Counts as having a Cathedral in each of your cities.  This makes 3 unhappy "
 "citizens content in each city; however, it does not affect citizens made "
@@ -16588,7 +16592,13 @@ msgid ""
 "effect of a Cathedral, making an additional unhappy citizen content.  The "
 "discovery of Communism lessens the effect of a Cathedral, reducing by one "
 "the number of unhappy citizens made content."
-msgstr "Zählt als Kathedrale in jeder eigenen Stadt."
+msgstr ""
+"Zählt als Kathedrale in jeder eigenen Stadt, stellt also drei unzufriedene "
+"Bürger in jeder Stadt zufrieden (abgesehen von solchen, die wegen "
+"militärischer Aktivitäten unzufrieden sind). Die Entdeckung der Theologie "
+"erhöht den Effekt eine Kathedrale so, dass ein weiterer Bürger zufrieden "
+"gestellt wird, die Entdeckung des Kommunismus hingegen verringert ihn so, "
+"dass ein Bürger weniger zufrieden gestellt wird."
 
 #: data/civ2/buildings.ruleset:1396
 msgid "Counts as having a Granary in every city."
@@ -16614,15 +16624,15 @@ msgid "Sun Tzu's War Academy"
 msgstr "Sun Tzus Militärakademie"
 
 #: data/civ2/buildings.ruleset:1479
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "All your new military land units become veterans (for all cities).  The "
 "chance of a land unit becoming a veteran after a battle increases from 50% "
 "to 100%."
 msgstr ""
-"In allen eigenen Städten erhalten neue Landeinheiten automatisch den Veteran-"
-"Status. Die bereits bestehenden Truppen erhalten ihn nach dem nächsten "
-"gewonnenen Kampf."
+"In allen eigenen Städten erhalten neue Landeinheiten automatisch den "
+"Veteranenstatus. Die bereits bestehenden Truppen erhalten ihn nach dem "
+"nächsten gewonnenen Kampf."
 
 #: data/civ2/buildings.ruleset:1500 data/default/buildings.ruleset:1570
 #: data/experimental/buildings.ruleset:1627
@@ -16631,14 +16641,18 @@ msgstr "Alle Einheiten erhalten 2 zusätzliche Trefferpunkte pro Runde zurück."
 
 #: data/civ2/buildings.ruleset:1527 data/default/buildings.ruleset:1597
 #: data/experimental/buildings.ruleset:1654
-#, fuzzy
 msgid ""
 "Counts as a Police Station in every city. (That is, for each city, it "
 "reduces the unhappiness caused by aggressively deployed military units owned "
 "by that city by 2 under Democracy and 1 under Republic -- in other words, it "
 "neutralizes the unhappiness caused by a single military unit per city. This "
 "wonder has no effect under other governments.)"
-msgstr "Zählt als Polizeiwache in jeder eigenen Stadt."
+msgstr ""
+"Zählt als Polizeiwache in jeder eigenen Stadt (d.h., verringert die durch "
+"militärische Aktivitäten verursachte Unzufriedenheit unter demokratischen "
+"Regierungen um zwei und unter republikanischen um eins — mit anderen Worten, "
+"eliminiert die durch eine einzelne Einheit verursachte Unzufriedenheit in "
+"einer Stadt. Unter anders regierten Staaten hat dieses Wunder keinen Effekt)."
 
 #: data/civ2/buildings.ruleset:1537
 msgid "Capitalization"
@@ -17420,7 +17434,6 @@ msgid "Engineers"
 msgstr "Ingenieure"
 
 #: data/civ2/units.ruleset:269
-#, fuzzy
 msgid ""
 "Engineers are similar to Settlers, but they work twice as fast and move "
 "twice as fast.  Engineers may also perform major terrain transformations "
@@ -17431,8 +17444,8 @@ msgstr ""
 "Ingenieure sind Siedlern sehr ähnlich, arbeiten aber doppelt so schnell und "
 "können sich doppelt so schnell bewegen. Außerdem sind sie im Gegensatz zu "
 "Siedlern dazu fähig, Geländeformen zu verändern (sie können z.B. Tundra in "
-"Wüste verwandeln). Siehe den Abschnitt über Geländetransformationen für "
-"weitere Informationen."
+"Wüste verwandeln). Siehe den Abschnitt über Geländeveränderungen für weitere "
+"Informationen."
 
 #: data/civ2/units.ruleset:275
 msgid ""
@@ -17966,7 +17979,7 @@ msgstr ""
 
 #: data/default/buildings.ruleset:394 data/experimental/buildings.ruleset:419
 #: data/multiplayer/buildings.ruleset:392
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the effect of Factory and Mfg. Plant on the shield production of a "
 "city, and also reduces the amount of pollution generated by that "
@@ -17977,14 +17990,13 @@ msgid ""
 "150% production bonus with pollution only 50% of the equivalent combination "
 "with a Power Plant."
 msgstr ""
-"Steigert die Produktion von Fabriken und Fertigungsstätten. In Verbindung "
-"mit einer Fabrik oder einer Fertigungsstätte gibt es einen Bonus von 75%, "
-"sind beide vorhanden, erhöht sich der Bonus auf 150%. Allerdings vergrößert "
-"sich durch die zusätzliche Produktion die durch die Stadt verursachte "
-"Umweltverschmutzung.\n"
-"\n"
-"Eine Stadt kann nur ein Kohlekraftwerk, Wasserkraftwerk, Atomkraftwerk oder "
-"Solarkraftwerk bauen."
+"Steigert die Produktion von Fabriken und Fertigungsstätten bei "
+"gleichzeitiger Reduktion der Umweltverschmutzung. In Verbindung mit einer "
+"Fabrik oder einer Fertigungsstätte gibt es einen Bonus von 75%, wobei nur "
+"75% der Umweltverschmutzung der gleichwertigen Kombination mit einem "
+"Kohlekraftwerk entsteht. Wasserkraftwerk, Fabrik und Fertigungsstätte "
+"zusammen ergeben einen 150%igen Produktionsbonus und generieren nur 50% der "
+"gleichwertigen Kombination mit einem Kohlekraftwerk."
 
 #: data/default/buildings.ruleset:404 data/default/buildings.ruleset:523
 #: data/default/buildings.ruleset:660 data/default/buildings.ruleset:808
@@ -18011,7 +18023,7 @@ msgstr "Erhöht das Forschungstempo in der Stadt um 100%."
 
 #: data/default/buildings.ruleset:513 data/experimental/buildings.ruleset:565
 #: data/multiplayer/buildings.ruleset:508
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the effect of Factory and Mfg. Plant on the shield production of a "
 "city, and also reduces the amount of pollution generated by that "
@@ -18022,14 +18034,13 @@ msgid ""
 "150% production bonus with pollution only 50% of the equivalent combination "
 "with a Power Plant."
 msgstr ""
-"Steigert die Produktion von Fabriken und Fertigungsstätten. In Verbindung "
-"mit einer Fabrik oder einer Fertigungsstätte gibt es einen Bonus von 75%, "
-"sind beide vorhanden, erhöht sich der Bonus auf 150%. Allerdings vergrößert "
-"sich durch die zusätzliche Produktion die durch die Stadt verursachte "
-"Umweltverschmutzung.\n"
-"\n"
-"Eine Stadt kann nur ein Kohlekraftwerk, Wasserkraftwerk, Atomkraftwerk oder "
-"Solarkraftwerk bauen."
+"Steigert die Produktion von Fabriken und Fertigungsstätten bei "
+"gleichzeitiger Reduktion der Umweltverschmutzung. In Verbindung mit einer "
+"Fabrik oder einer Fertigungsstätte gibt es einen Produktionsbonus von 75%, "
+"wobei nur 75% der Umweltverschmutzung der gleichwertigen Kombination mit "
+"einem Kohlekraftwerk entsteht. Kernkraftwerk, Fabrik und Fertigungsstätte "
+"zusammen ergeben einen 150%igen Produktionsbonus und generieren nur 50% der "
+"gleichwertigen Kombination mit einem Kohlekraftwerk."
 
 #: data/default/buildings.ruleset:583 data/experimental/buildings.ruleset:635
 #: data/multiplayer/buildings.ruleset:573
@@ -18044,7 +18055,7 @@ msgstr ""
 
 #: data/default/buildings.ruleset:652 data/experimental/buildings.ruleset:704
 #: data/multiplayer/buildings.ruleset:639
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the effect of Factory and Mfg. Plant on the shield production of a "
 "city.  A Power Plant in combination with either a Factory or Mfg. Plant "
@@ -18074,18 +18085,18 @@ msgstr ""
 
 #: data/default/buildings.ruleset:774 data/experimental/buildings.ruleset:826
 #: data/multiplayer/buildings.ruleset:756
-#, fuzzy
 msgid ""
 "Allows a city to grow larger than size 12. Pre-requirement is an Aqueduct "
 "for a city to grow larger than size 8. The Sewer System further reduces the "
 "chance of a plague."
 msgstr ""
 "Erlaubt einer Stadt über die Größe 12 hinaus zu wachsen. Vorher benötigt "
-"eine Stadt bereits ein Aquädukt, um größer als 8 werden zu können."
+"eine Stadt bereits ein Aquädukt, um größer als 8 werden zu können. Das "
+"Abwassersystem reduziert zudem die Seuchengefahr."
 
 #: data/default/buildings.ruleset:798 data/experimental/buildings.ruleset:850
 #: data/multiplayer/buildings.ruleset:780
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the effect of Factory and Mfg. Plant on the shield production of a "
 "city, and also greatly reduces the amount of pollution generated by that "
@@ -18102,9 +18113,9 @@ msgstr ""
 "eine 75%ige Produktionssteigerung im Verhältnis zur Produktion ohne diese "
 "Stadtverbesserungen, wobei nur die Hälfte der Umweltverschmutzung der "
 "gleichwertigen Kombination mit einem Kohlekraftwerk erzeugt wird. "
-"Solarkraftwerk, Fabrik und Fertigungsstätte ergeben zusammen eine gesamte "
-"Steigerung der Produktion um 150% und eliminieren die gesamte durch die "
-"Stadtproduktion verursachte Umweltverschmutzung."
+"Solarkraftwerk, Fabrik und Fertigungsstätte ergeben zusammen eine Steigerung "
+"der Produktion um 150% und eliminieren die gesamte durch die Stadtproduktion "
+"verursachte Umweltverschmutzung."
 
 #: data/default/buildings.ruleset:1005
 #: data/experimental/buildings.ruleset:1062
@@ -18316,9 +18327,8 @@ msgid "BCE"
 msgstr "v.Chr."
 
 #: data/default/nations.ruleset:25
-#, fuzzy
 msgid "?nationset:Core"
-msgstr "neutral"
+msgstr "Standard"
 
 #: data/default/nations.ruleset:30
 msgid "?nationgroup:Medieval"
@@ -18593,13 +18603,12 @@ msgstr "Botschafter"
 
 #: data/default/units.ruleset:1913 data/experimental/units.ruleset:1950
 #: data/multiplayer/units.ruleset:2012
-#, fuzzy
 msgid ""
 "Diplomats built under a Communist government will start at the first veteran "
 "level (secretary)."
 msgstr ""
-"Jede neue Seeeinheit, die in einer Stadt auf demselben Kontinent vom Stapel "
-"läuft, beginnt mit dem ersten Veteranengrad."
+"Diplomaten, die unter einer kommunistischen Regierung ausgebildet werden, "
+"beginnen mit dem ersten Veteranengrad (Sekretär)."
 
 #. TRANS: Spy veteran level
 #: data/default/units.ruleset:1946 data/experimental/units.ruleset:1983
@@ -18627,13 +18636,12 @@ msgstr "Meisterspion"
 
 #: data/default/units.ruleset:1982 data/experimental/units.ruleset:2019
 #: data/multiplayer/units.ruleset:2081
-#, fuzzy
 msgid ""
 "Spies built under a Communist government will start at the first veteran "
 "level (handler)."
 msgstr ""
-"Jede neue Seeeinheit, die in einer Stadt auf demselben Kontinent vom Stapel "
-"läuft, beginnt mit dem ersten Veteranengrad."
+"Spione, die unter einer kommunistischen Regierung ausgebildet werden, "
+"beginnen mit dem ersten Veteranengrad (V-Mann)."
 
 #: data/default/units.ruleset:2090 data/experimental/units.ruleset:2127
 #: data/multiplayer/units.ruleset:2190
