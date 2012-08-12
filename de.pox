@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-12 11:08+0200\n"
-"PO-Revision-Date: 2012-08-11 14:17+0200\n"
+"PO-Revision-Date: 2012-08-12 14:20+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -22979,6 +22979,7 @@ msgid "Theory of Evolution"
 msgstr "Evolutionstheorie"
 
 #: data/multiplayer/techs.ruleset:788
+#, fuzzy
 msgid ""
 "This technology is only acquired the first time you build Darwin's Voyage."
 msgstr ""
@@ -22992,45 +22993,55 @@ msgid ""
 "require twice as much food per turn, and in Fundamentalist societies, three "
 "times as much."
 msgstr ""
+"Die Kosten für Siedler setzen sich aus Nahrung sowohl wie aus Produktion "
+"zusammen, und ein Siedler kann verhungern, wenn seine Heimatstadt keine "
+"Nahrung mehr liefern kann. Siedler in republikanischen und demokratischen "
+"Staaten erfordern doppelt so viel Nahrung pro Runde, in fundamentalistischen "
+"Staaten sogar dreimal so viel."
 
 #: data/multiplayer/units.ruleset:1346
-#, fuzzy
 msgid ""
 "The Helicopter is a very powerful unit, as it can both fly and conquer "
 "cities.  Care must be exercised, because Helicopters lose a small amount of "
 "health for every turn not spent in a city or airbase or on a Carrier, and "
 "they may be attacked by ground units."
 msgstr ""
-"Hubschrauber sind sehr starke Einheiten, da sie sowohl fliegen als auch "
-"Städte erobern können. Trotzdem muß man sie im Auge behalten, da sie jede "
-"Runde, die sie nicht in einer Stadt sind, Trefferpunkte verlieren."
+"Helikopter sind sehr starke Einheiten, da sie sowohl fliegen als auch Städte "
+"erobern können. Trotzdem muss man sie im Auge behalten, da sie jede Runde, "
+"die sie sich nicht in einer Stadt, in einem Fliegerhorst oder auf einem "
+"Flugzeugträger aufhalten, Trefferpunkte verlieren."
 
 #: data/multiplayer/units.ruleset:2113
 msgid ""
 "A Caravan carries goods or material to help build wonders in your cities."
 msgstr ""
+"Eine Karawane transportiert Waren oder Materialien, um den Bau von "
+"Weltwundern in Ihren Städten zu unterstützen."
 
 #: data/multiplayer/units.ruleset:2116
 msgid ""
 "Every Caravan that is used to build a wonder will add 30 shields towards the "
 "production of the wonder."
 msgstr ""
+"Jede Karawane, die beim Bau eines Weltwunders mithilft, fügt der Produktion "
+"dieses Weltwunders 30 Schilde hinzu."
 
 #: data/multiplayer/units.ruleset:2152
-#, fuzzy
 msgid ""
 "The Freight unit replaces the Caravan, and moves at twice the speed. Each "
 "Freight used to build a wonder will add 50 shields."
-msgstr "Der Lastwagen ersetzt die Karawane und ist doppelt so schnell."
+msgstr ""
+"Der Lastwagen ersetzt die Karawane und ist doppelt so schnell. Jeder "
+"Lastwagen, der beim Bau eines Weltwunders mithilft, fügt diesem 50 Schilde "
+"hinzu."
 
 #: data/nation/abkhaz.ruleset:3
 msgid "Abkhaz"
-msgstr ""
+msgstr "abchasisch"
 
 #: data/nation/abkhaz.ruleset:4
-#, fuzzy
 msgid "?plural:Abkhazians"
-msgstr "Inder"
+msgstr "Abchasen"
 
 #: data/nation/abkhaz.ruleset:7
 msgid ""
@@ -23039,6 +23050,11 @@ msgid ""
 "Greeks, Romans, Byzantines, Turks, Russians and Georgians. Nowadays Abkhazia "
 "is a partially recognized republic."
 msgstr ""
+"Vorfahren der Abchasen lebten seit undenklichen Zeiten im westlichen "
+"Kaukasus. Kurze Abschnitte der Unabhängigkeit wechselten mit der "
+"Unterwerfung durch die Griechen, die Römer, die Byzantinen, die Türken, die "
+"Russen und die Georgier. Heute ist Abchasien eine teilweise anerkannte "
+"Republik."
 
 #: data/nation/abkhaz.ruleset:24 data/nation/acehnese.ruleset:29
 #: data/nation/bashkir.ruleset:27 data/nation/chechen.ruleset:31
@@ -23047,9 +23063,9 @@ msgstr ""
 #: data/nation/omani.ruleset:29 data/nation/riffian.ruleset:20
 #: data/nation/southyemeni.ruleset:22 data/nation/yemeni.ruleset:23
 #: data/nation/zanzibari.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Imam %s"
-msgstr "%s, Team %s"
+msgstr "Imam %s"
 
 #: data/nation/abkhaz.ruleset:24 data/nation/acehnese.ruleset:29
 #: data/nation/bashkir.ruleset:27 data/nation/chechen.ruleset:31
@@ -23058,9 +23074,9 @@ msgstr "%s, Team %s"
 #: data/nation/omani.ruleset:29 data/nation/riffian.ruleset:20
 #: data/nation/southyemeni.ruleset:22 data/nation/yemeni.ruleset:23
 #: data/nation/zanzibari.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Imama %s"
-msgstr "Lama"
+msgstr "Imama %s"
 
 #: data/nation/aborigines.ruleset:3
 msgid "Australian Aboriginal"
@@ -23090,9 +23106,9 @@ msgstr ""
 #: data/nation/somali.ruleset:35 data/nation/tongan.ruleset:22
 #: data/nation/tswana.ruleset:29 data/nation/veletian.ruleset:30
 #: data/nation/zulu.ruleset:38
-#, fuzzy, c-format
+#, c-format
 msgid "Elder %s"
-msgstr "Elektronik"
+msgstr "Ältester %s"
 
 #: data/nation/aborigines.ruleset:28 data/nation/estonian.ruleset:22
 #: data/nation/greek.ruleset:24 data/nation/maori.ruleset:26
@@ -23102,19 +23118,18 @@ msgstr "Elektronik"
 #: data/nation/somali.ruleset:35 data/nation/tongan.ruleset:22
 #: data/nation/tswana.ruleset:29 data/nation/veletian.ruleset:30
 #: data/nation/zulu.ruleset:38
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Elder %s"
-msgstr "Anführerin"
+msgstr "Älteste %s"
 
 #: data/nation/abyssinian.ruleset:3
 #, fuzzy
 msgid "Abyssinian"
-msgstr "armenisch"
+msgstr "abyssinisch"
 
 #: data/nation/abyssinian.ruleset:4
-#, fuzzy
 msgid "?plural:Abyssinians"
-msgstr "Inder"
+msgstr "Abyssinier"
 
 #: data/nation/abyssinian.ruleset:6
 msgid ""
@@ -23122,16 +23137,17 @@ msgid ""
 "ruled historical states in the Horn of Africa, the most prominent being the "
 "Aksumite Kingdom and the Ethiopian Empire."
 msgstr ""
+"Die Abyssinier — auch bekannt als Habesha oder Äthiopier — sind ein "
+"semitisches Volk, das die historischen Staaten am Horn von Afrika regierten, "
+"unter denen die bekannteren das aksumitische und das äthiopische Reich waren."
 
 #: data/nation/acadian.ruleset:3
-#, fuzzy
 msgid "Acadian"
-msgstr "kanadisch"
+msgstr "akadisch"
 
 #: data/nation/acadian.ruleset:4
-#, fuzzy
 msgid "?plural:Acadians"
-msgstr "?plural:Kanadier"
+msgstr "Akadier"
 
 #: data/nation/acadian.ruleset:6
 msgid ""
@@ -23143,19 +23159,28 @@ msgid ""
 "distrust of British colonial authorities who would forcefully deport them in "
 "1755. Acadians have since returned to their land and rebuilt."
 msgstr ""
+"Akadia wurde 1604 als die erste französische Kolonie in Nordamerika "
+"gegründet, geriet jedoch in den englisch-französischen Kriegen schnell "
+"zwischen die Fronten, sodass es oftmals den Besitzer wechselte. Die Akadier "
+"entwickelten daraufhin eine Art zweiter Identität und Selbstregierung, und "
+"die Tatsache, dass sie weder für die eine, noch die andere Seite dieser "
+"Kriege Partei ergriffen, verhalf ihnen zum Titel französischer Neutraler, "
+"jedoch auch zum Misstrauen der britischen Kolonialherren, die sie 1755 "
+"gewaltsam deportierten. Seitdem kehren die Akadier langsam in ihr Land "
+"zurück und bauen es neu auf."
 
 #: data/nation/acadian.ruleset:31 data/nation/alander.ruleset:28
 #: data/nation/french.ruleset:42 data/nation/quebecois.ruleset:20
 #: data/nation/tahitian.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Premiere %s"
-msgstr "Premier"
+msgstr "Premiere %s"
 
 #: data/nation/acadian.ruleset:32 data/nation/germanbelgian.ruleset:27
 #: data/nation/paraguayan.ruleset:38 data/nation/sammarinese.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Abbot %s"
-msgstr "Über"
+msgstr "Abt %s"
 
 #: data/nation/acadian.ruleset:32 data/nation/aragonese.ruleset:30
 #: data/nation/asturian.ruleset:30 data/nation/austrian.ruleset:50
@@ -23193,19 +23218,17 @@ msgstr "Über"
 #: data/nation/slovenian.ruleset:19 data/nation/spanish.ruleset:42
 #: data/nation/teutonic.ruleset:29 data/nation/uruguayan.ruleset:24
 #: data/nation/venezuelan.ruleset:34 data/nation/yucatecan.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Mother Superior %s"
-msgstr "Oberste Mutter"
+msgstr "Oberste Mutter %s"
 
 #: data/nation/acehnese.ruleset:3
-#, fuzzy
 msgid "Acehnese"
-msgstr "chinesisch"
+msgstr "Achinesisch"
 
 #: data/nation/acehnese.ruleset:4
-#, fuzzy
 msgid "?plural:Acehnese"
-msgstr "Chinesen"
+msgstr "Aceh"
 
 #: data/nation/acehnese.ruleset:6
 msgid ""
@@ -23214,6 +23237,11 @@ msgid ""
 "trade through the Strait of Malacca. Aceh was subjugated by the Dutch in the "
 "bloody Aceh War of 1873-1903."
 msgstr ""
+"Das Sultanat von Aceh befand sich auf der westlichen Spitze der Insel "
+"Sumatra und war im 16. und 17. Jahrhundert eine dortige Regionalmacht, die "
+"große Teile des Handels durch die Straße von Malakka kontrollierte. Aceh "
+"wurde in einem blutigen Krieg in den Jahren 1873 bis 1903 von den "
+"Niederlanden unterjocht."
 
 #: data/nation/acehnese.ruleset:27 data/nation/bruneian.ruleset:24
 #: data/nation/comorian.ruleset:26 data/nation/darfuri.ruleset:28
@@ -23225,9 +23253,9 @@ msgstr ""
 #: data/nation/southyemeni.ruleset:23 data/nation/sudanese.ruleset:20
 #: data/nation/swahili.ruleset:35 data/nation/turk.ruleset:30
 #: data/nation/zanzibari.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Sultan %s"
-msgstr "Sultan"
+msgstr "Sultan %s"
 
 #: data/nation/acehnese.ruleset:27 data/nation/bruneian.ruleset:24
 #: data/nation/comorian.ruleset:26 data/nation/darfuri.ruleset:28
@@ -23239,9 +23267,9 @@ msgstr "Sultan"
 #: data/nation/southyemeni.ruleset:23 data/nation/sudanese.ruleset:20
 #: data/nation/swahili.ruleset:35 data/nation/turk.ruleset:30
 #: data/nation/zanzibari.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Sultana %s"
-msgstr "Sultanin"
+msgstr "Sultana %s"
 
 #: data/nation/acehnese.ruleset:28 data/nation/alander.ruleset:31
 #: data/nation/californian.ruleset:37 data/nation/chiapanec.ruleset:35
@@ -23249,9 +23277,9 @@ msgstr "Sultanin"
 #: data/nation/kuna.ruleset:23 data/nation/puertorican.ruleset:30
 #: data/nation/quebecois.ruleset:22 data/nation/siberian.ruleset:24
 #: data/nation/vermont.ruleset:26 data/nation/westindian.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Governor %s"
-msgstr "Gouverneur"
+msgstr "Gouverneur %s"
 
 #: data/nation/acehnese.ruleset:28 data/nation/alander.ruleset:31
 #: data/nation/californian.ruleset:37 data/nation/chiapanec.ruleset:35
@@ -23259,19 +23287,17 @@ msgstr "Gouverneur"
 #: data/nation/puertorican.ruleset:30 data/nation/quebecois.ruleset:22
 #: data/nation/siberian.ruleset:24 data/nation/vermont.ruleset:26
 #: data/nation/westindian.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Governor %s"
-msgstr "Bürgermeister"
+msgstr "Gouverneurin %s"
 
 #: data/nation/acrean.ruleset:3
-#, fuzzy
 msgid "Acrean"
-msgstr "koreanisch"
+msgstr "acrisch"
 
 #: data/nation/acrean.ruleset:4
-#, fuzzy
 msgid "?plural:Acreans"
-msgstr "Aramäer"
+msgstr "Acrier"
 
 #: data/nation/acrean.ruleset:6
 msgid ""
@@ -23281,24 +23307,29 @@ msgid ""
 "Petropolis of 1903, after which Acre was annexed to Brazil. Acre is one of "
 "the world's most important rubber producing regions."
 msgstr ""
+"Acre ist der westlichst gelegene Staat Brasiliens. Die Region war bis 1899 "
+"ein Teil von Bolivien, bis brasilianische Siedler dagegen revoltierten und "
+"den Unabhängigen Staat von Acre gründeten. Nachdem Bolivien 1903 im Vertrag "
+"von Petropolis seine Ansprüche aufgab, wurde Acre durch Brasilien annektiert "
+"und ist heute einer der wichtigsten Kautschuklieferanten weltweit."
 
 #: data/nation/acrean.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Baron %s"
-msgstr "in %s"
+msgstr "Baron %s"
 
 #: data/nation/acrean.ruleset:31
 #, fuzzy, c-format
 msgid "Baroness %s"
-msgstr "Prinzessin"
+msgstr "Baroness %s"
 
 #: data/nation/acrean.ruleset:32 data/nation/bissauguinean.ruleset:23
 #: data/nation/californian.ruleset:35 data/nation/capeverdean.ruleset:25
 #: data/nation/mexican.ruleset:52 data/nation/nicaraguan.ruleset:33
 #: data/nation/puertorican.ruleset:29 data/nation/santomean.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "Padre %s"
-msgstr "selten"
+msgstr "Padre %s"
 
 #: data/nation/acrean.ruleset:32 data/nation/bissauguinean.ruleset:23
 #: data/nation/californian.ruleset:35 data/nation/capeverdean.ruleset:25
@@ -23306,9 +23337,9 @@ msgstr "selten"
 #: data/nation/neapolitan.ruleset:26 data/nation/nicaraguan.ruleset:33
 #: data/nation/puertorican.ruleset:29 data/nation/santomean.ruleset:35
 #: data/nation/sicilian.ruleset:30 data/nation/southamerican.ruleset:21
-#, fuzzy, c-format
+#, c-format
 msgid "Madre %s"
-msgstr "selten"
+msgstr "Madre %s"
 
 #: data/nation/afghani.ruleset:3
 msgid "Afghani"
@@ -23343,9 +23374,9 @@ msgstr ""
 #: data/nation/syrian.ruleset:22 data/nation/tajik.ruleset:21
 #: data/nation/timurid.ruleset:26 data/nation/tuareg.ruleset:38
 #: data/nation/uzbek.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Emir %s"
-msgstr "Emir"
+msgstr "Emir %s"
 
 #: data/nation/afghani.ruleset:23 data/nation/alandalus.ruleset:33
 #: data/nation/bahraini.ruleset:27 data/nation/bashkir.ruleset:25
@@ -23358,81 +23389,83 @@ msgstr "Emir"
 #: data/nation/syrian.ruleset:22 data/nation/tajik.ruleset:21
 #: data/nation/timurid.ruleset:26 data/nation/tuareg.ruleset:38
 #: data/nation/uzbek.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Emira %s"
-msgstr "Emir"
+msgstr "Emira %s"
 
 #: data/nation/afghani.ruleset:24 data/nation/bashkir.ruleset:26
 #: data/nation/cypriot.ruleset:22 data/nation/czechoslovak.ruleset:30
 #: data/nation/czech.ruleset:32 data/nation/slovakian.ruleset:25
 #: data/nation/southyemeni.ruleset:21 data/nation/soviet.ruleset:28
 #: data/nation/uzbek.ruleset:25 data/nation/yemeni.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "General Secretary %s"
-msgstr "Generalsekretär"
+msgstr "Generalsekretär %s"
 
 #: data/nation/afghani.ruleset:24 data/nation/bashkir.ruleset:26
 #: data/nation/cypriot.ruleset:22 data/nation/czechoslovak.ruleset:30
 #: data/nation/czech.ruleset:32 data/nation/slovakian.ruleset:25
 #: data/nation/southyemeni.ruleset:21 data/nation/soviet.ruleset:28
 #: data/nation/uzbek.ruleset:25 data/nation/yemeni.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:General Secretary %s"
-msgstr "Generalsekretär"
+msgstr "Generalsekretärin %s"
 
 #: data/nation/afghani.ruleset:25 data/nation/bangladeshi.ruleset:24
 #: data/nation/cyrenaican.ruleset:27 data/nation/malaysian.ruleset:21
 #: data/nation/pakistani.ruleset:20 data/nation/pashtun.ruleset:24
 #: data/nation/swahili.ruleset:34
-#, fuzzy, c-format
+#, c-format
 msgid "Mullah %s"
-msgstr "Mullah"
+msgstr "Mullah %s"
 
 #: data/nation/afghani.ruleset:25 data/nation/bangladeshi.ruleset:24
 #: data/nation/cyrenaican.ruleset:27 data/nation/malaysian.ruleset:21
 #: data/nation/pakistani.ruleset:20 data/nation/pashtun.ruleset:24
 #: data/nation/swahili.ruleset:34
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Mullah %s"
-msgstr "Genossin"
+msgstr "Mullah %s"
 
 #: data/nation/african.ruleset:3
-#, fuzzy
 msgid "African"
-msgstr "amerikanisch"
+msgstr "afrikanisch"
 
 #: data/nation/african.ruleset:4
-#, fuzzy
 msgid "?plural:African"
-msgstr "?plural:Amerikaner"
+msgstr "Afrikaner"
 
 #: data/nation/african.ruleset:6
 msgid ""
 "Africa: the cradle of humanity. It is the world's second largest continent "
 "and also its second most populous."
 msgstr ""
+"Afrika: Die Wiege der Menschheit. Es ist der zweitgrößte und zweitmeist "
+"bevölkerte Kontinent der Welt."
 
 #: data/nation/ainu.ruleset:3
 msgid "Ainu"
-msgstr ""
+msgstr "ainuisch"
 
 #: data/nation/ainu.ruleset:4
 msgid "?plural:Ainu"
-msgstr ""
+msgstr "Ainu"
 
 #: data/nation/ainu.ruleset:7
 msgid ""
 "The Ainu are the indigenous people of northern Japan, the Kuril islands, "
 "Sakhalin, and the southern part of the Kamchatka peninsula."
 msgstr ""
+"Die Ainu sind ein indigenes Volk im Norden von Japan, der Kurillen, Sakhalin "
+"und auf dem südlichen Teil der Halbinsel Kamtschattka."
 
 #: data/nation/akwe.ruleset:3
 msgid "Akwe"
-msgstr ""
+msgstr "akwisch"
 
 #: data/nation/akwe.ruleset:4
 msgid "?plural:Akwe"
-msgstr ""
+msgstr "Akwe"
 
 #: data/nation/akwe.ruleset:7
 msgid ""
@@ -23444,15 +23477,24 @@ msgid ""
 "in large ring villages since about the 9th century CE. They are Ge speakers "
 "who farm maize, manioc, sweet potatoes and yams."
 msgstr ""
+"Die Akwe sind auch unter drei verschiedenen portugiesischen Stammesnamen "
+"bekannt, Xavante, Xakriaba und Xerente. Sie besitzen ein patrilineares "
+"Klansystem und leben in den brasilianischen Staaten Mato Grosso und "
+"Tocantins, obwohl sie im Laufe ihrer Geschichte von den Brasilianern "
+"mehrfach zur Umsiedelung gezwungen wurden. Traditionell werden sie von einer "
+"Gruppe von Ältesten regiert, die einen Anführer wählen. Sie lebten "
+"vermutlich bereits seit etwa dem 9. Jahrundert n.Chr. in großen Ringdörfern "
+"und sprechen Ge, bauen Mais, Maniok, Süßkartoffeln und Yamswurzeln an."
 
 #: data/nation/alandalus.ruleset:3
 msgid "Andalusi"
-msgstr ""
+msgstr "al-andalusisch"
 
+# MG: Nicht zu verwechseln mit den Andalusiern, den Einwohnern
+# der spanischen autonomen Region Andalucia (Andalusien).
 #: data/nation/alandalus.ruleset:4
-#, fuzzy
 msgid "?plural:Andalusis"
-msgstr "Inder"
+msgstr "Al-Andalusier"
 
 #: data/nation/alandalus.ruleset:6
 msgid ""
@@ -23462,6 +23504,11 @@ msgid ""
 "kingdoms gradually pushed back the Islamic states of Al-Andalus. Their last "
 "city on the Iberian peninsula, Granada, fell in 1492."
 msgstr ""
+"Al-Andalus war im Mittelalter der Teil der iberischen Halbinsel, der unter "
+"muslimischer Kontrolle stand und ist vor allem für ihr beeindruckendes "
+"architektonisches Erbe bekannt. Es wurde im Rahmen der Reconquista und "
+"diverser christlicher Königreiche langsam zurückerobert, bis schließlich "
+"ihre letzte Stadt auf der iberischen Halbinsel, Granada, 1492 fiel."
 
 #: data/nation/alandalus.ruleset:31 data/nation/amazigh.ruleset:71
 #: data/nation/arab.ruleset:22 data/nation/bahraini.ruleset:25
@@ -23473,9 +23520,9 @@ msgstr ""
 #: data/nation/qatari.ruleset:20 data/nation/somaliland.ruleset:25
 #: data/nation/somali.ruleset:36 data/nation/syrian.ruleset:20
 #: data/nation/tuareg.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "Sheikh %s"
-msgstr "schwedisch"
+msgstr "Scheich %s"
 
 #: data/nation/alandalus.ruleset:31 data/nation/amazigh.ruleset:71
 #: data/nation/arab.ruleset:22 data/nation/bahraini.ruleset:25
@@ -23488,7 +23535,7 @@ msgstr "schwedisch"
 #: data/nation/tuareg.ruleset:37
 #, fuzzy, c-format
 msgid "Shaykha %s"
-msgstr "Schah"
+msgstr "Scheich %s"
 
 #: data/nation/alandalus.ruleset:32 data/nation/algerian.ruleset:23
 #: data/nation/amazigh.ruleset:72 data/nation/arab.ruleset:24
@@ -23501,9 +23548,9 @@ msgstr "Schah"
 #: data/nation/syrian.ruleset:21 data/nation/timurid.ruleset:27
 #: data/nation/tuareg.ruleset:39 data/nation/tunisian.ruleset:30
 #: data/nation/turk.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Caliph %s"
-msgstr "Kalif"
+msgstr "Kalif %s"
 
 #: data/nation/alandalus.ruleset:32 data/nation/algerian.ruleset:23
 #: data/nation/amazigh.ruleset:72 data/nation/arab.ruleset:24
@@ -23516,9 +23563,9 @@ msgstr "Kalif"
 #: data/nation/syrian.ruleset:21 data/nation/timurid.ruleset:27
 #: data/nation/tuareg.ruleset:39 data/nation/tunisian.ruleset:30
 #: data/nation/turk.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Calipha %s"
-msgstr "Kalif"
+msgstr "Kalifa %s"
 
 #: data/nation/alandalus.ruleset:34 data/nation/arab.ruleset:23
 #: data/nation/bahraini.ruleset:28 data/nation/emirati.ruleset:27
@@ -23526,31 +23573,29 @@ msgstr "Kalif"
 #: data/nation/moroccan.ruleset:30 data/nation/omani.ruleset:31
 #: data/nation/ottoman.ruleset:30 data/nation/qatari.ruleset:23
 #: data/nation/saudi.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Vizier %s"
-msgstr "Laser"
+msgstr "Wesir %s"
 
 #: data/nation/alandalus.ruleset:34 data/nation/arab.ruleset:23
 #: data/nation/bahraini.ruleset:28 data/nation/emirati.ruleset:27
 #: data/nation/kuwaiti.ruleset:30 data/nation/moroccan.ruleset:30
 #: data/nation/omani.ruleset:31 data/nation/ottoman.ruleset:30
 #: data/nation/qatari.ruleset:23 data/nation/saudi.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Vizier %s"
-msgstr "Anführerin"
+msgstr "Wesirin %s"
 
 #. TRANS: The first letter in "Aland" should be
 #. TRANS: U+00C5 LATIN CAPITAL A WITH RING if available in
 #. TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 197.
 #: data/nation/alander.ruleset:6
-#, fuzzy
 msgid "Alander"
-msgstr "Großes Wunder"
+msgstr "ålandisch"
 
 #: data/nation/alander.ruleset:7
-#, fuzzy
 msgid "?plural:Alanders"
-msgstr "Isländer"
+msgstr "Ålander"
 
 #: data/nation/alander.ruleset:9
 msgid ""
@@ -23560,42 +23605,45 @@ msgid ""
 "long period in which the islands were contested between Sweden and Finland. "
 "Aland's special and demilitarized status is protected by international law."
 msgstr ""
+"Åland ist eine Insel im baltischen Meer, gelegen zwischen Schweden und "
+"Finnland. Die Einwohner sprechen schwedisch, jedoch handelt es sich bei "
+"Åland um eine autonome Provinz Finnlands, ein Status, der 1921 nach einer "
+"langen Zeit von Besitzstreitigkeiten zwischen Schweden und Finnland erreicht "
+"wurde. Åland ist aufgrund internationaler Gesetze eine demilitarisierte Zone."
 
 #: data/nation/alander.ruleset:29 data/nation/danish.ruleset:36
 #: data/nation/faroese.ruleset:31 data/nation/icelandic.ruleset:22
 #: data/nation/norwegian.ruleset:29 data/nation/scanian.ruleset:26
 #: data/nation/swedish.ruleset:33 data/nation/viking.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Earl %s"
-msgstr "Kardinal"
+msgstr "Earl %s"
 
 #: data/nation/alander.ruleset:29 data/nation/danish.ruleset:36
 #: data/nation/faroese.ruleset:31 data/nation/icelandic.ruleset:22
 #: data/nation/norwegian.ruleset:29 data/nation/scanian.ruleset:26
 #: data/nation/swedish.ruleset:33 data/nation/viking.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Earl %s"
-msgstr "Genossin"
+msgstr "Earl %s"
 
 #: data/nation/alander.ruleset:30 data/nation/faroese.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "Vicar %s"
-msgstr "Fregatte"
+msgstr "Vikar %s"
 
 #: data/nation/alander.ruleset:30 data/nation/faroese.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Vicar %s"
-msgstr "Genossin"
+msgstr "Vikarin %s"
 
 #: data/nation/albanian.ruleset:3
-#, fuzzy
 msgid "Albanian"
-msgstr "armenisch"
+msgstr "albanisch"
 
 #: data/nation/albanian.ruleset:4
-#, fuzzy
 msgid "?plural:Albanians"
-msgstr "Inder"
+msgstr "Albaner"
 
 #. TRANS: The fourth letter in "Enver" should be
 #. TRANS: U+00EB LATIN SMALL LETTER E WITH DIAERESIS if available in
@@ -23608,6 +23656,12 @@ msgid ""
 "history. It has been an independent state again since 1912. For much of the "
 "20th century Albania was ruled by communist dictator Enver Hoxha."
 msgstr ""
+"Die ethnischen Ursprünge der Albaner, einem Volk auf der Halbinsel Balkan, "
+"sind ungewiss, obwohl vorgeschlagen wurde, sie als Nachfahren der Illyrer "
+"der klassischen Antike anzusehen. Albanien wechselte im Laufe seiner "
+"Geschichte mehrfach den besitzer und wurde erst 1912 ein autonomer Staat. "
+"Für den größten Teil des 20. Jahrhundert wurde es vom kommunistischen "
+"Diktator Envër Hoxha regiert."
 
 #: data/nation/albanian.ruleset:30 data/nation/asturian.ruleset:29
 #: data/nation/cossack.ruleset:29 data/nation/cuyavian.ruleset:25
@@ -23623,9 +23677,9 @@ msgstr ""
 #: data/nation/silesian.ruleset:22 data/nation/sinhalese.ruleset:25
 #: data/nation/sorbian.ruleset:26 data/nation/transylvanian.ruleset:27
 #: data/nation/ukrainian.ruleset:37 data/nation/westernpomeranian.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Prince %s"
-msgstr "Prinzessin"
+msgstr "Prinz %s"
 
 #: data/nation/albanian.ruleset:30 data/nation/asturian.ruleset:29
 #: data/nation/cossack.ruleset:29 data/nation/cuyavian.ruleset:25
@@ -23641,9 +23695,9 @@ msgstr "Prinzessin"
 #: data/nation/silesian.ruleset:22 data/nation/sinhalese.ruleset:25
 #: data/nation/sorbian.ruleset:26 data/nation/transylvanian.ruleset:27
 #: data/nation/ukrainian.ruleset:37 data/nation/westernpomeranian.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Princess %s"
-msgstr "Prinzessin"
+msgstr "Prinzessin %s"
 
 #: data/nation/aleut.ruleset:3
 #, fuzzy
@@ -43349,37 +43403,38 @@ msgid "You don't have any vote going on."
 msgstr "Hier ist kein Arbeiter."
 
 #: server/stdinhand.c:2538
-#, fuzzy
 msgid "There isn't any vote going on."
 msgstr "Keine laufenden Abstimmungen."
 
 #. TRANS: "votes" as a process
 #: server/stdinhand.c:2544
 msgid "All votes have been removed."
-msgstr ""
+msgstr "Alle Abstimmungen wurden entfernt."
 
 #. TRANS: "vote" as a process
 #: server/stdinhand.c:2563
-#, fuzzy, c-format
+#, c-format
 msgid "You are not allowed to cancel this vote (%d)."
-msgstr "Keine Berechtigung zur Änderung dieser Einstellung."
+msgstr ""
+"Sie besitzen nicht die erforderliche Berechtigung, um diese Abstimmung (%d) "
+"abzubrechen."
 
 #. TRANS: "vote" as a process
 #: server/stdinhand.c:2570
 msgid "Usage: /cancelvote [<vote number>|all]"
-msgstr ""
+msgstr "Benutzung: /cancelvote [<nr. d. abstimmung>|all]"
 
 #. TRANS: "vote" as a process
 #: server/stdinhand.c:2580
-#, fuzzy, c-format
+#, c-format
 msgid "%s has canceled the vote \"%s\" (number %d)."
-msgstr "%s hat die Handelsroute zwischen %s und Ihrer Stadt %s aufgehoben."
+msgstr "%s hat die Abstimmung »%s« (Nr. %d) abgebrochen."
 
 #. TRANS: "vote" as a process
 #: server/stdinhand.c:2587
 #, c-format
 msgid "The vote \"%s\" (number %d) has been canceled."
-msgstr ""
+msgstr "Die Abstimmung »%s« (Nr. %d) wurde abgebrochen."
 
 #: server/stdinhand.c:2608
 msgid "Can only use this command once game has begun."
@@ -43442,7 +43497,7 @@ msgstr "Fehlersuche für Schiffstransporte eingeschaltet."
 
 #: server/stdinhand.c:2772
 msgid "Value 2 must be integer."
-msgstr "Wert 2 muß ganzzahlig sein."
+msgstr "Wert 2 muss ganzzahlig sein."
 
 #: server/stdinhand.c:2776
 #, c-format
@@ -43452,13 +43507,15 @@ msgstr "Einheit %d existiert nicht."
 #: server/stdinhand.c:2830
 #, c-format
 msgid "Option '%s' not recognized."
-msgstr ""
+msgstr "Unbekannte Option »%s«."
 
 #. TRANS: 'rulesetdir' is the command. Do not translate.
 #: server/stdinhand.c:2838
 #, c-format
 msgid "Use the '%srulesetdir' command to change the ruleset directory."
 msgstr ""
+"Das Verzeichnis für Regelsätze kann mit dem Befehl »%srulesetdir« verändert "
+"werden."
 
 #: server/stdinhand.c:2880
 #, c-format
@@ -43466,9 +43523,9 @@ msgid "The parameter %s should only contain +- and 0-9."
 msgstr "Der Parameter %s darf nur die Ziffern 0 bis 9 sowie +- enthalten."
 
 #: server/stdinhand.c:2968
-#, fuzzy, c-format
+#, c-format
 msgid "Console: '%s' has been set to %s."
-msgstr "%s auf '%s' gesetzt."
+msgstr "Konsole: %s auf »%s« gesetzt."
 
 #: server/stdinhand.c:3010
 msgid "Sorry, one can't observe globally in this game."
