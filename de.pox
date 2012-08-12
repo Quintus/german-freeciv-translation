@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-09 11:43+0200\n"
+"POT-Creation-Date: 2012-08-12 11:08+0200\n"
 "PO-Revision-Date: 2012-08-11 14:17+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
@@ -39984,19 +39984,19 @@ msgstr ""
 "daß es sich um eine ältere Sicherung handelt oder daß die Sicherungsdatei "
 "beschädigt ist. Wenn Sie weitermachen wollen: Auf eigene Gefahr!"
 
-#: server/savegame2.c:3096 server/savegame.c:5314 server/srv_main.c:1895
+#: server/savegame2.c:3096 server/savegame.c:5322 server/srv_main.c:1895
 #: server/srv_main.c:1900
 #, fuzzy, c-format
 msgid "%s has been added as %s level AI-controlled player (%s)."
 msgstr "%s ist als KI-Spieler mit dem Level '%s' dazu gekommen."
 
-#: server/savegame2.c:3101 server/savegame.c:5319
+#: server/savegame2.c:3101 server/savegame.c:5327
 #, fuzzy, c-format
 msgid "%s has been added as human player."
 msgstr "%s ist als KI-Spieler dazu gekommen."
 
 #. TRANS: Minor error message: <Leader> ... <Poles>.
-#: server/savegame2.c:3124 server/savegame.c:5366
+#: server/savegame2.c:3124 server/savegame.c:5374
 #, c-format
 msgid "%s had invalid nation; changing to %s."
 msgstr "%s ist eine ungültige Nation und wird geändert auf %s."
@@ -42366,8 +42366,8 @@ msgstr "Regelsatz: »%s« wurde auf »%s« gesetzt."
 msgid "Ruleset: '%s' has been locked by the ruleset."
 msgstr "Regelsatz: »%s« wurde durch das Regelwerk gesperrt."
 
-#: server/settings.c:3666 server/settings.c:3691 server/settings.c:3713
-#: server/settings.c:3740 server/settings.c:3767
+#: server/settings.c:3667 server/settings.c:3692 server/settings.c:3714
+#: server/settings.c:3741 server/settings.c:3768
 #, c-format
 msgid "Savegame: '%s' has been set to %s."
 msgstr "Spielstand: »%s« wurde auf »%s« gesetzt."
