@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-12 11:08+0200\n"
-"PO-Revision-Date: 2012-08-12 14:20+0200\n"
+"PO-Revision-Date: 2012-08-19 16:32+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -23123,7 +23123,6 @@ msgid "?female:Elder %s"
 msgstr "Älteste %s"
 
 #: data/nation/abyssinian.ruleset:3
-#, fuzzy
 msgid "Abyssinian"
 msgstr "abyssinisch"
 
@@ -23700,14 +23699,12 @@ msgid "Princess %s"
 msgstr "Prinzessin %s"
 
 #: data/nation/aleut.ruleset:3
-#, fuzzy
 msgid "Aleut"
-msgstr "Aquädukt"
+msgstr "alëutisch"
 
 #: data/nation/aleut.ruleset:4
-#, fuzzy
 msgid "?plural:Aleuts"
-msgstr "Polen"
+msgstr "Alëuten"
 
 #: data/nation/aleut.ruleset:6
 msgid ""
@@ -23719,6 +23716,14 @@ msgid ""
 "Russians to their other colonial entrepots such as Ft. Ross in northern "
 "California and Ft. Elizabeth in Hawai'i."
 msgstr ""
+"Die Unangax̂ oder Alëuten lebten in Jagd- und Fischerdörfern, die aus "
+"dauerhaft unterirdischen Wohnungen bestanden. Sie bevölkerten die aleutische "
+"Inselgruppe schon tausende von Jahren vor dem Kontakt mit den Europäern und "
+"entwickelten Beziehungen zu russischen Missionaren und Händlern, weshalb "
+"viele zum russisch-orthodoxen Christentum konvertierten und in russische "
+"Familien einheirateten. Einige begleiteten sogar Russen auf dem Weg zu "
+"anderen russischen Kolonialgebieten wie etwa Fort Ross in Nordkalifornien "
+"oder Fort Elizabeth in Hawai’i."
 
 #: data/nation/aleut.ruleset:23 data/nation/choctaw.ruleset:33
 #: data/nation/chumash.ruleset:24 data/nation/comanche.ruleset:26
@@ -23730,9 +23735,9 @@ msgstr ""
 #: data/nation/sami.ruleset:22 data/nation/seminole.ruleset:37
 #: data/nation/shawnee.ruleset:25 data/nation/sioux.ruleset:31
 #: data/nation/tupi.ruleset:25 data/nation/yakut.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Shaman %s"
-msgstr "Schamane"
+msgstr "Schamane %s"
 
 #: data/nation/aleut.ruleset:23 data/nation/choctaw.ruleset:33
 #: data/nation/chumash.ruleset:24 data/nation/comanche.ruleset:26
@@ -23744,9 +23749,9 @@ msgstr "Schamane"
 #: data/nation/sami.ruleset:22 data/nation/seminole.ruleset:37
 #: data/nation/shawnee.ruleset:25 data/nation/sioux.ruleset:31
 #: data/nation/tupi.ruleset:25 data/nation/yakut.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Shaman %s"
-msgstr "Genossin"
+msgstr "Schamanin %s"
 
 #: data/nation/algerian.ruleset:3
 msgid "Algerian"
@@ -23766,31 +23771,29 @@ msgstr ""
 
 #: data/nation/algerian.ruleset:21 data/nation/lebanese.ruleset:27
 #: data/nation/santomean.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "Secretary General %s"
-msgstr "Generalgouverneur"
+msgstr "Generalsekretär %s"
 
 #: data/nation/algerian.ruleset:22 data/nation/libyan.ruleset:23
 #: data/nation/tunisian.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "%s Dey"
-msgstr "Dey"
+msgstr "%s-Dey"
 
 #: data/nation/algerian.ruleset:22 data/nation/libyan.ruleset:23
 #: data/nation/tunisian.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "?female:%s Dey"
-msgstr "Präsidentin"
+msgstr "%s-Dey"
 
 #: data/nation/alsatian.ruleset:3
-#, fuzzy
 msgid "Alsatian"
-msgstr "wartet"
+msgstr "elsässisch"
 
 #: data/nation/alsatian.ruleset:4
-#, fuzzy
 msgid "?plural:Alsatians"
-msgstr "Inder"
+msgstr "Elsässer"
 
 #: data/nation/alsatian.ruleset:6
 msgid ""
@@ -23802,6 +23805,13 @@ msgid ""
 "and France 4 times in less than a century. Since 1944 it has been in French "
 "hands."
 msgstr ""
+"Das Elsass ist ein europäisches Grenzgebiet zwischen Frankreich und "
+"Deutschland. Im Mittelalter war es Teil des Heiligen Römischen Reiches und "
+"bestand aus einer Reihe von recht wohlhabenden Stadtaaten, welche aber im "
+"17. und 18. Jahrhundert einer nach dem anderen von Frankreich annektiert "
+"wurden. Die Region wurde jedoch rasch zum Zankapfel zwischen Frankreich und "
+"Deutschland und wechselte in weniger als einem Jahrhundert viermal den "
+"Besitzer, bis sie 1944 schließlich endgültig an Frankreich überging."
 
 #: data/nation/alsatian.ruleset:25 data/nation/anhaltian.ruleset:31
 #: data/nation/badian.ruleset:22 data/nation/bavarian.ruleset:25
@@ -23812,9 +23822,9 @@ msgstr ""
 #: data/nation/rhenish.ruleset:36 data/nation/saxon.ruleset:20
 #: data/nation/schleswig-holsteinian.ruleset:29
 #: data/nation/thuringian.ruleset:45 data/nation/wuerttembergian.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Minister-President %s"
-msgstr "Präsident"
+msgstr "Ministerpräsident %s"
 
 #: data/nation/alsatian.ruleset:25 data/nation/anhaltian.ruleset:31
 #: data/nation/badian.ruleset:22 data/nation/bavarian.ruleset:25
@@ -23825,9 +23835,9 @@ msgstr "Präsident"
 #: data/nation/rhenish.ruleset:36 data/nation/saxon.ruleset:20
 #: data/nation/schleswig-holsteinian.ruleset:29
 #: data/nation/thuringian.ruleset:45 data/nation/wuerttembergian.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Minister-President %s"
-msgstr "Präsident"
+msgstr "Ministerpräsidentin %s"
 
 #: data/nation/alsatian.ruleset:26 data/nation/romansh.ruleset:28
 #: data/nation/swiss.ruleset:37
@@ -23877,9 +23887,9 @@ msgstr "Amtmann"
 #: data/nation/vincentian.ruleset:25 data/nation/volgagerman.ruleset:38
 #: data/nation/westindian.ruleset:24 data/nation/wuerttembergian.ruleset:24
 #: data/nation/yucatecan.ruleset:31 data/nation/zimbabwean.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "Bishop %s"
-msgstr "Erzbischof"
+msgstr "Bischof %s"
 
 #: data/nation/alsatian.ruleset:27 data/nation/andorran.ruleset:25
 #: data/nation/anhaltian.ruleset:33 data/nation/antiguan.ruleset:22
@@ -23898,33 +23908,31 @@ msgstr "Erzbischof"
 #: data/nation/vincentian.ruleset:25 data/nation/volgagerman.ruleset:38
 #: data/nation/westindian.ruleset:24 data/nation/wuerttembergian.ruleset:24
 #: data/nation/zimbabwean.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Bishop %s"
-msgstr "Erzbischof"
+msgstr "Bischöfin %s"
 
 #: data/nation/alsatian.ruleset:28 data/nation/hansa.ruleset:29
 #: data/nation/rhenish.ruleset:40 data/nation/sorbian.ruleset:27
 #: data/nation/westphalian.ruleset:34
-#, fuzzy, c-format
+#, c-format
 msgid "Burgomaster %s"
-msgstr "burmesisch"
+msgstr "Bürgermeister %s"
 
 #: data/nation/alsatian.ruleset:28 data/nation/hansa.ruleset:29
 #: data/nation/rhenish.ruleset:40 data/nation/sorbian.ruleset:27
 #: data/nation/westphalian.ruleset:34
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Burgomaster %s"
-msgstr "Präsidentin"
+msgstr "Bürgermeister %s"
 
 #: data/nation/amazigh.ruleset:3
-#, fuzzy
 msgid "Amazigh"
-msgstr "armenisch"
+msgstr "berberisch"
 
 #: data/nation/amazigh.ruleset:4
-#, fuzzy
 msgid "?plural:Imazighen"
-msgstr "Aramäer"
+msgstr "Berber"
 
 #: data/nation/amazigh.ruleset:6
 msgid ""
@@ -23937,16 +23945,23 @@ msgid ""
 "Tachelhit or Tarifit, collectively known as Berber languages, using an age-"
 "old writing system called Tifinagh."
 msgstr ""
+"Die berberische Zivilisation ist zusammen mit der altägyptischen eine der "
+"ältstesten im Mittelmeerraum. Die Imazighen, so ihr Eigenname, der »freies "
+"Volk« bedeutet, sind kräftig und stark, aber auch freundlich und "
+"zuvorkommend, und besitzen eine große Achtung vor Familie und ihren Stämmen, "
+"von denen jeder seine eigene Tradition und Kultur besitzt, was der Grund für "
+"die Vielfalt an Traditionen im modernen Marokko, Algerien und Tunesien ist. "
+"Die Imazighen sprechen alte Sprachen wie Tamaziert, Tachelhit oder Tarifit, "
+"die man gemeinhin unter dem Begriff der Berbersprachen zusammenfasst, und in "
+"einem uralten als Tifinagh bekannten Schriftsystem niedergeschrieben wurden."
 
 #: data/nation/amazonian.ruleset:3
-#, fuzzy
 msgid "Amazonian"
-msgstr "armenisch"
+msgstr "amazonisch"
 
 #: data/nation/amazonian.ruleset:4
-#, fuzzy
 msgid "?plural:Amazons"
-msgstr "Aramäer"
+msgstr "Amazonen"
 
 #: data/nation/amazonian.ruleset:6
 msgid ""
@@ -23955,6 +23970,11 @@ msgid ""
 "Asia Minor, or Libya. The Amazons were reported to remove their right "
 "breasts in order to better use the bow and other weapons."
 msgstr ""
+"Die Amazonen sind eine fiktive Nation kriegerischer Frauen, die in "
+"klassischer griechischer Literatur und Kunst erwähnt werden. Die Autoren "
+"wollen sie in der Ukraine, Vorderasien oder Libyen vorgefunden haben und "
+"berichteten, dass sie sich ihre rechte Brust entfernten, um so den Bogen und "
+"andere Waffen besser handhaben zu können."
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/american.ruleset:7
@@ -23967,15 +23987,22 @@ msgid ""
 "had become a world superpower; its cultural, economic and political "
 "influence on the rest of the world is enormous."
 msgstr ""
+"Die Vereinigten Staaten von Amerika erlangten die Unabhängigkeit von "
+"Großbrittanien in einer Revolution von 1776-1783 n.Chr und legten 1789 ihre "
+"Verfassung fest, die sie zu einer der ersten modernen repräsentativen "
+"Republiken machte. Die Vereinigten Staaten gingen danach dazu über, ihr "
+"Territorium zu erweitern, zunächst auf dem nordamerikanischen Hauptland und "
+"später auch in Übersee. Zu Beginn des 20. Jahrhunderts war das Land zu einer "
+"Weltmacht herangewachsen; ihr kultureller, ökonomischer und politischer "
+"Einfluss auf den Rest der Welt ist enorm."
 
 #: data/nation/andorran.ruleset:3
 msgid "Andorran"
-msgstr ""
+msgstr "andorranisch"
 
 #: data/nation/andorran.ruleset:4
-#, fuzzy
 msgid "?plural:Andorrans"
-msgstr "Inder"
+msgstr "Andorraner"
 
 #: data/nation/andorran.ruleset:6
 msgid ""
@@ -23985,21 +24012,28 @@ msgid ""
 "their successors - the current bishop of Urgell and the President of the "
 "French Republic - bear the (mostly honorific) title of co-prince of Andorra."
 msgstr ""
+"Andorra ist ein kleiens Land in den östlichen Pyrenäen. 1228 ging ein Streit "
+"zwischem dem Bischof von Urgell und dem Fürst von Foix in einer Vereinbarung "
+"zu Ende, die vorsah, die Souveränität über Andorra zwischen den Kontrahenten "
+"aufzuteilen. Diese Vereinbarung ist noch immer in Kraft und ihre Nachfolger "
+"— der momentane Bischof von Urgell und der Präsident der Republik Frankreich "
+"— tragen den (größtenteils symbolischen) Titel des Kofürsten von Andorra."
 
 #: data/nation/andorran.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "Dictatress %s"
-msgstr "Diktatorin"
+msgstr "Diktatorin %s"
 
+# MG: sic. http://de.wikipedia.org/wiki/Kof%C3%BCrst_von_Andorra
 #: data/nation/andorran.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Co-Prince %s"
-msgstr "Prinzessin"
+msgstr "Kofürst %s"
 
 #: data/nation/andorran.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Co-Princess %s"
-msgstr "Prinzessin"
+msgstr "Kofürstin %s"
 
 #: data/nation/angolan.ruleset:3
 #, fuzzy
