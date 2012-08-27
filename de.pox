@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-27 23:18+0200\n"
-"PO-Revision-Date: 2012-08-27 23:08+0200\n"
+"PO-Revision-Date: 2012-08-27 23:24+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -10382,12 +10382,12 @@ msgid "No %s could be disbanded."
 msgstr "Es konnten keine %s aufgelöst werden."
 
 #: client/servers.c:135
-#, fuzzy, c-format
+#, c-format
 msgid "Latest %s release of Freeciv is %s, this is %s."
 msgstr "Letztes %s-Release von Freeciv ist %s, dies ist %s."
 
 #: client/servers.c:139
-#, fuzzy, c-format
+#, c-format
 msgid "There is no newer %s release of Freeciv available."
 msgstr "Es ist kein aktuelleres %s-Release von Freeciv verfügbar."
 
@@ -20213,9 +20213,8 @@ msgstr ""
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:509
-#, fuzzy
 msgid " Production"
-msgstr "Produktion"
+msgstr " Produktion"
 
 #: data/helpdata.txt:510
 msgid ""
@@ -20302,9 +20301,8 @@ msgstr ""
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:578
-#, fuzzy
 msgid " Trade"
-msgstr "Handel"
+msgstr " Handel"
 
 #: data/helpdata.txt:579
 msgid ""
@@ -20501,9 +20499,8 @@ msgstr ""
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:731
-#, fuzzy
 msgid " Specialists"
-msgstr "Spezialisten"
+msgstr " Spezialisten"
 
 #: data/helpdata.txt:732
 msgid ""
@@ -20529,9 +20526,8 @@ msgstr ""
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:753
-#, fuzzy
 msgid " Happiness"
-msgstr "Zufriedenheit"
+msgstr " Zufriedenheit"
 
 #: data/helpdata.txt:754
 #, fuzzy
@@ -20700,9 +20696,8 @@ msgstr ""
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:863
-#, fuzzy
 msgid " Pollution"
-msgstr "Verschmutzung"
+msgstr " Verschmutzung"
 
 #: data/helpdata.txt:864
 msgid ""
@@ -20744,9 +20739,8 @@ msgstr ""
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:896
-#, fuzzy
 msgid " Plague"
-msgstr "Klausel löschen"
+msgstr " Seuche"
 
 #: data/helpdata.txt:897
 msgid "Plague is a ruleset option, and is not enabled in the default ruleset."
