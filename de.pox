@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-12 11:08+0200\n"
+"POT-Creation-Date: 2012-08-27 23:18+0200\n"
 "PO-Revision-Date: 2012-08-27 23:08+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
@@ -10381,34 +10381,29 @@ msgstr "%d %s aufgelöst."
 msgid "No %s could be disbanded."
 msgstr "Es konnten keine %s aufgelöst werden."
 
-#. TRANS: Type is version tag name like "stable", "S2_4", "win32"
-#: client/servers.c:131
-#, c-format
-msgid "Latest %s release of freeciv is %s, this is %s."
+#: client/servers.c:135
+#, fuzzy, c-format
+msgid "Latest %s release of Freeciv is %s, this is %s."
 msgstr "Letztes %s-Release von Freeciv ist %s, dies ist %s."
 
-#: client/servers.c:132
-msgid "?vertag:"
-msgstr "?vertag:"
-
-#: client/servers.c:135
-#, c-format
-msgid "There is no newer %s release of freeciv available."
+#: client/servers.c:139
+#, fuzzy, c-format
+msgid "There is no newer %s release of Freeciv available."
 msgstr "Es ist kein aktuelleres %s-Release von Freeciv verfügbar."
 
 # CK: TECHNICAL
-#: client/servers.c:369 utility/netfile.c:102
+#: client/servers.c:373 utility/netfile.c:102
 msgid "Could not open temp file."
 msgstr "Could not open temp file."
 
 # MG: TECHNICAL
-#: client/servers.c:393
+#: client/servers.c:397
 #, c-format
 msgid "Failed to read the metaserver data from http://%s."
 msgstr "Failed to read the metaserver data from http://%s"
 
 # MG: TECHNICAL
-#: client/servers.c:416
+#: client/servers.c:420
 #, c-format
 msgid ""
 "Failed to parse the metaserver data from http://%s:\n"
@@ -10417,13 +10412,13 @@ msgstr ""
 "Failed to parse the metaserver data from http://%s:\n"
 "%s"
 
-#: client/servers.c:449
+#: client/servers.c:453
 msgid "Invalid $http_proxy or metaserver value, must start with 'http://'"
 msgstr ""
 "Ungültiger Eintrag in $http_proxy oder metaserver: Muss mit 'http://' "
 "beginnen."
 
-#: client/servers.c:465
+#: client/servers.c:469
 msgid "Failed looking up metaserver's host"
 msgstr "Metaserver nicht gefunden"
 
@@ -37700,7 +37695,7 @@ msgid ""
 "free slots are available, it tries to reuse the slots of dead players. The "
 "new player has no units or cities.\n"
 "AI type parameter can be used to select which AI module will be used for "
-"created player. This requires that freeciv has been compiled with AI module "
+"created player. This requires that Freeciv has been compiled with AI module "
 "support and respective module has been loaded."
 msgstr ""
 
@@ -38163,7 +38158,7 @@ msgstr ""
 
 #: server/commands.c:583
 msgid ""
-"Evaluate a line of freeciv script or a freeciv script file in the current "
+"Evaluate a line of Freeciv script or a Freeciv script file in the current "
 "game."
 msgstr ""
 
@@ -39918,12 +39913,12 @@ msgstr "Der Bericht zur Lage der Nation ist leider nicht verfügbar."
 msgid "%s %s (%s)"
 msgstr "%s  %s (%s)"
 
-#: server/report.c:1460
+#: server/report.c:1464
 msgid "Population\n"
 msgstr "Bevölkerung\n"
 
 #. TRANS: "M goods" = million goods
-#: server/report.c:1462
+#: server/report.c:1466
 msgid ""
 "Trade\n"
 "(M goods)"
@@ -39932,7 +39927,7 @@ msgstr ""
 "(M Produkte)"
 
 #. TRANS: "M tons" = million tons
-#: server/report.c:1464
+#: server/report.c:1468
 msgid ""
 "Production\n"
 "(M tons)"
@@ -39940,15 +39935,15 @@ msgstr ""
 "Produktion\n"
 "(M t)"
 
-#: server/report.c:1465
+#: server/report.c:1469
 msgid "Cities\n"
 msgstr "Städte\n"
 
-#: server/report.c:1466
+#: server/report.c:1470
 msgid "Technologies\n"
 msgstr "Fortschritte\n"
 
-#: server/report.c:1467
+#: server/report.c:1471
 msgid ""
 "Military Service\n"
 "(months)"
@@ -39956,11 +39951,11 @@ msgstr ""
 "Militärdienst\n"
 "(Monate)"
 
-#: server/report.c:1468
+#: server/report.c:1472
 msgid "Wonders\n"
 msgstr "Weltwunder\n"
 
-#: server/report.c:1469
+#: server/report.c:1473
 msgid ""
 "Research Speed\n"
 "(%)"
@@ -39969,7 +39964,7 @@ msgstr ""
 "(%)"
 
 #. TRANS: "sq. mi." is abbreviation for "square miles"
-#: server/report.c:1471
+#: server/report.c:1475
 msgid ""
 "Land Area\n"
 "(sq. mi.)"
@@ -39978,7 +39973,7 @@ msgstr ""
 "(qkm)"
 
 #. TRANS: "sq. mi." is abbreviation for "square miles"
-#: server/report.c:1473
+#: server/report.c:1477
 msgid ""
 "Settled Area\n"
 "(sq. mi.)"
@@ -39986,7 +39981,7 @@ msgstr ""
 "Besiedelte Fläche\n"
 "(qkm)"
 
-#: server/report.c:1474
+#: server/report.c:1478
 msgid ""
 "Literacy\n"
 "(%)"
@@ -39994,21 +39989,21 @@ msgstr ""
 "Bildung\n"
 "(%)"
 
-#: server/report.c:1475
+#: server/report.c:1479
 msgid "Spaceship\n"
 msgstr "Raumschiff\n"
 
-#: server/report.c:1476
+#: server/report.c:1480
 #, fuzzy
 msgid "Built Units\n"
 msgstr "Einheiten im Bau "
 
-#: server/report.c:1477
+#: server/report.c:1481
 #, fuzzy
 msgid "Killed Units\n"
 msgstr "Mögliche Einheiten"
 
-#: server/report.c:1478
+#: server/report.c:1482
 #, fuzzy
 msgid "Unit Losses\n"
 msgstr "Schild"
@@ -40043,45 +40038,45 @@ msgstr ""
 "daß es sich um eine ältere Sicherung handelt oder daß die Sicherungsdatei "
 "beschädigt ist. Wenn Sie weitermachen wollen: Auf eigene Gefahr!"
 
-#: server/savegame2.c:3096 server/savegame.c:5322 server/srv_main.c:1895
+#: server/savegame2.c:3098 server/savegame.c:5322 server/srv_main.c:1895
 #: server/srv_main.c:1900
 #, fuzzy, c-format
 msgid "%s has been added as %s level AI-controlled player (%s)."
 msgstr "%s ist als KI-Spieler mit dem Level '%s' dazu gekommen."
 
-#: server/savegame2.c:3101 server/savegame.c:5327
+#: server/savegame2.c:3103 server/savegame.c:5327
 #, fuzzy, c-format
 msgid "%s has been added as human player."
 msgstr "%s ist als KI-Spieler dazu gekommen."
 
 #. TRANS: Minor error message: <Leader> ... <Poles>.
-#: server/savegame2.c:3124 server/savegame.c:5374
+#: server/savegame2.c:3126 server/savegame.c:5374
 #, c-format
 msgid "%s had invalid nation; changing to %s."
 msgstr "%s ist eine ungültige Nation und wird geändert auf %s."
 
-#: server/savegame2.c:6010
+#: server/savegame2.c:6012
 #, fuzzy
 msgid "current version"
 msgstr "(Beta-Version)"
 
-#: server/savegame2.c:6014
+#: server/savegame2.c:6016
 #, fuzzy
 msgid "freeciv 2.3.0"
 msgstr "Freeciv"
 
-#: server/savegame2.c:6016
+#: server/savegame2.c:6018
 #, fuzzy
 msgid "freeciv 2.4.0"
 msgstr "Freeciv"
 
-#: server/savegame2.c:6067
+#: server/savegame2.c:6069
 #, c-format
 msgid ""
 "Run compatibility function for version: <%d (save file: %d; server: %d)."
 msgstr ""
 
-#: server/savegame2.c:6101
+#: server/savegame2.c:6103
 #, c-format
 msgid "Run compatibility function for version: <%d (want: %d, server: %d)."
 msgstr ""
@@ -45085,62 +45080,62 @@ msgstr ""
 "Durch den Überflug wurden die Eingeborenen so erschreckt,\n"
 "       dass sie in alle Himmelsrichtungen flohen."
 
-#: server/unittools.c:2758
+#: server/unittools.c:2759
 #, c-format
 msgid "Orders for %s aborted after enemy movement was spotted."
 msgstr "Befehle für %s verworfen, weil eine Feindbewegung entdeckt wurde."
 
-#: server/unittools.c:3295
+#: server/unittools.c:3296
 #, c-format
 msgid "Orders for %s aborted as there are units nearby."
 msgstr "Befehle für %s verworfen, da Einheiten in der Nähe sind."
 
-#: server/unittools.c:3346
+#: server/unittools.c:3347
 #, c-format
 msgid "Orders for %s aborted because building of city failed."
 msgstr "Befehle für %s verworfen, da die Stadt nicht gegründet werden konnte."
 
-#: server/unittools.c:3362
+#: server/unittools.c:3363
 #, c-format
 msgid "Orders for %s aborted since they give an invalid activity."
 msgstr "Befehle für %s verworfen, Auftrag unmöglich."
 
-#: server/unittools.c:3381
+#: server/unittools.c:3382
 #, c-format
 msgid "Orders for %s aborted since they give an invalid location."
 msgstr "Befehle für %s verworfen, das Ziel ist ungültig."
 
-#: server/unittools.c:3391
+#: server/unittools.c:3392
 #, c-format
 msgid "Orders for %s aborted as there are units in the way."
 msgstr "%s konnte Befehl nicht ausführen, da Einheiten im Weg sind."
 
-#: server/unittools.c:3416
+#: server/unittools.c:3417
 #, c-format
 msgid "Orders for %s aborted because of failed move."
 msgstr "Befehle für %s verworfen, da der Zug nicht ausgeführt werden konnte."
 
-#: server/unittools.c:3457
+#: server/unittools.c:3458
 #, c-format
 msgid "Attempt to change homecity for %s failed."
 msgstr "Der Versuch, die Heimatstadt der %s zu ändern, schlug fehl."
 
-#: server/unittools.c:3468
+#: server/unittools.c:3469
 #, c-format
 msgid "Attempt to establish trade route for %s failed."
 msgstr "Der Versuch, eine Handelsroute nach %s einzurichten, misslang."
 
-#: server/unittools.c:3480
+#: server/unittools.c:3481
 #, c-format
 msgid "Attempt to build wonder for %s failed."
 msgstr "Der Versuch, ein Weltwunder in %s zu errichten, misslang."
 
-#: server/unittools.c:3489
+#: server/unittools.c:3490
 #, c-format
 msgid "Your %s has invalid orders."
 msgstr "Befehle für %s sind ungültig."
 
-#: server/unittools.c:3587
+#: server/unittools.c:3588
 #, c-format
 msgid ""
 "Your unit may not move for another %s this turn. See /help unitwaittime."
@@ -45479,6 +45474,9 @@ msgstr "error %ld (failed FormatMessage)"
 #, c-format
 msgid "error %d (compiled without strerror)"
 msgstr "error %d (compiled without strerror)"
+
+#~ msgid "?vertag:"
+#~ msgstr "?vertag:"
 
 #~ msgid ""
 #~ "* Will be built as a veteran in cities with appropriate training "
