@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-12 11:08+0200\n"
-"PO-Revision-Date: 2012-08-19 16:32+0200\n"
+"PO-Revision-Date: 2012-08-27 23:08+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv.de@freelists.org>\n"
 "Language: \n"
@@ -20173,6 +20173,11 @@ msgid ""
 "sections describe each of these resources along with its properties, uses, "
 "and limitations."
 msgstr ""
+"Die Waren, die Ihre Städte aus dem umliegenden Gelände gewinnen, sind der "
+"Grund, auf dem Sie Ihre Zivilisation errichten. Insgesamt gibt es drei Arten "
+"von Produkten: Nahrungs-, Produktions- und Handelspunkte. Die folgenden "
+"Abschnitte beschreiben jede diese Ressourcen mit ihren Eigenschaften, ihren "
+"Vor- und ihren Nachteilen."
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:483
@@ -20185,6 +20190,10 @@ msgid ""
 "per turn; in addition, some units (such as Settlers in the default ruleset) "
 "may require food points from the city supporting them."
 msgstr ""
+"Ihre Bevölkerung benötigt zum Überleben Nahrung. Jeder Bürger verbraucht pro "
+"Runde zwei Nahrungspunkte, zudem benötigen einige Einheiten (wie z.B. "
+"Siedler im Standardregelwerk) ebenfalls Nahrungspunkte aus der sie "
+"unterstützenden Heimatstadt."
 
 #: data/helpdata.txt:489
 msgid ""
@@ -24036,14 +24045,12 @@ msgid "Co-Princess %s"
 msgstr "Kofürstin %s"
 
 #: data/nation/angolan.ruleset:3
-#, fuzzy
 msgid "Angolan"
-msgstr "mongolisch"
+msgstr "angolanisch"
 
 #: data/nation/angolan.ruleset:4
-#, fuzzy
 msgid "?plural:Angolans"
-msgstr "Inder"
+msgstr "Angolaner"
 
 #: data/nation/angolan.ruleset:6
 msgid ""
@@ -24057,14 +24064,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/anhaltian.ruleset:3
-#, fuzzy
 msgid "Anhaltian"
-msgstr "wartet"
+msgstr "anhaltisch"
 
 #: data/nation/anhaltian.ruleset:4
-#, fuzzy
 msgid "?plural:Anhaltians"
-msgstr "Mali"
+msgstr "Anhalter"
 
 #: data/nation/anhaltian.ruleset:6
 msgid ""
@@ -24077,6 +24082,16 @@ msgid ""
 "Anhalt finally ceased to exist when the allies decided to merge it with the "
 "former Prussian Province of Saxony to form the state of Saxony-Anhalt."
 msgstr ""
+"Anhalt war ein deutscher Staat, der, zunächst ein Bundesstaat, später im "
+"Jahre 1212 vno Sachsen getrennt wurde. Den größten Teil seiner Geschichte "
+"war es in zahlreiche Einzelterritorien zersplittert, die jedoch alle von "
+"derselben Familie regiert wurden. Die Grafen von Anhalt wurden bei der "
+"Auflösung des Heiligen Römischen Reiches durch Napoléon im Jahre 1806 zu "
+"Herzogen erhoben und erst 1863 wurde Anhalt wieder ein einziges Fürstentum. "
+"Nach dem Fall der deutschen Monarchien im Jahre 1918 wurde es ein freier "
+"Staat und nach dem zweiten Weltkrieg schließlich vollends aufgelöst; durch "
+"Beschluss der Alliierten wurde es mit der früheren preußischen Provinz "
+"Sachsen zum Staat von Sachsen-Anhalt verschmolzen."
 
 #: data/nation/anhaltian.ruleset:32 data/nation/aragonese.ruleset:29
 #: data/nation/castilian.ruleset:31 data/nation/catalan.ruleset:30
@@ -24086,9 +24101,9 @@ msgstr ""
 #: data/nation/piedmontese.ruleset:32 data/nation/rhenish.ruleset:37
 #: data/nation/sicilian.ruleset:29 data/nation/tyrolian.ruleset:22
 #: data/nation/vampire.ruleset:50 data/nation/walloon.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Count %s"
-msgstr "Anzahl"
+msgstr "Graf %s"
 
 #: data/nation/anhaltian.ruleset:32 data/nation/aragonese.ruleset:29
 #: data/nation/castilian.ruleset:31 data/nation/catalan.ruleset:30
@@ -24098,9 +24113,9 @@ msgstr "Anzahl"
 #: data/nation/piedmontese.ruleset:32 data/nation/rhenish.ruleset:37
 #: data/nation/sicilian.ruleset:29 data/nation/tyrolian.ruleset:22
 #: data/nation/vampire.ruleset:50 data/nation/walloon.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Countess %s"
-msgstr "Anzahl"
+msgstr "Gräfin %s"
 
 #: data/nation/anhaltian.ruleset:34 data/nation/badian.ruleset:25
 #: data/nation/centrallithuanian.ruleset:46 data/nation/curonian.ruleset:31
@@ -24110,9 +24125,9 @@ msgstr "Anzahl"
 #: data/nation/occitan.ruleset:29 data/nation/oldenburgian.ruleset:33
 #: data/nation/rhenish.ruleset:39 data/nation/schleswig-holsteinian.ruleset:28
 #: data/nation/thuringian.ruleset:44 data/nation/westphalian.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "Grand Duke %s"
-msgstr "Großherzog"
+msgstr "Großherzog %s"
 
 #: data/nation/anhaltian.ruleset:34 data/nation/badian.ruleset:25
 #: data/nation/centrallithuanian.ruleset:46 data/nation/curonian.ruleset:31
@@ -24122,18 +24137,18 @@ msgstr "Großherzog"
 #: data/nation/occitan.ruleset:29 data/nation/oldenburgian.ruleset:33
 #: data/nation/rhenish.ruleset:39 data/nation/schleswig-holsteinian.ruleset:28
 #: data/nation/thuringian.ruleset:44 data/nation/westphalian.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "Grand Duchess %s"
-msgstr "Großherzogin"
+msgstr "Großherzogin %s"
 
 #: data/nation/anishinaabe.ruleset:3
 msgid "Anishinaabe"
-msgstr ""
+msgstr "anishinaabisch"
 
 #: data/nation/anishinaabe.ruleset:4
 #, fuzzy
 msgid "?plural:Anishinaabeg"
-msgstr "Tunesier"
+msgstr "Anishinaabeg"
 
 #: data/nation/anishinaabe.ruleset:6
 msgid ""
@@ -24146,16 +24161,16 @@ msgstr ""
 #: data/nation/anishinaabe.ruleset:29 data/nation/apache.ruleset:26
 #: data/nation/gokturk.ruleset:46 data/nation/navajo.ruleset:30
 #: data/nation/tuvan.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "Great Shaman %s"
-msgstr "Großer Schamane"
+msgstr "Großer Schamane %s"
 
 #: data/nation/anishinaabe.ruleset:29 data/nation/apache.ruleset:26
 #: data/nation/gokturk.ruleset:46 data/nation/navajo.ruleset:30
 #: data/nation/tuvan.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Great Shaman %s"
-msgstr "Großer Schamane"
+msgstr "Große Schamanin %s"
 
 #: data/nation/antarctican.ruleset:3
 msgid "Antarctican"
@@ -24171,12 +24186,11 @@ msgstr "Unabhängiger Südpol, Land der Pinguine."
 
 #: data/nation/antiguan.ruleset:3
 msgid "Antiguan and Barbudan"
-msgstr ""
+msgstr "antiguanisch/barbudanisch"
 
 #: data/nation/antiguan.ruleset:4
-#, fuzzy
 msgid "?plural:Antiguans and Barbudans"
-msgstr "?plural:Kanadier"
+msgstr "Antiguaner und Barbudaner"
 
 #: data/nation/antiguan.ruleset:6
 msgid ""
@@ -24355,12 +24369,11 @@ msgstr ""
 
 #: data/nation/ashanti.ruleset:3
 msgid "Ashanti"
-msgstr ""
+msgstr "ashantisch"
 
 #: data/nation/ashanti.ruleset:4
-#, fuzzy
 msgid "?plural:Ashantis"
-msgstr "Afghanen"
+msgstr "Ashanti"
 
 #: data/nation/ashanti.ruleset:6
 msgid ""
@@ -24385,14 +24398,14 @@ msgid "?female:Councillor %s"
 msgstr "Bundeskanzler"
 
 #: data/nation/ashanti.ruleset:36
-#, fuzzy, c-format
+#, c-format
 msgid "Asantehene %s"
-msgstr "aramäisch"
+msgstr "Asantehene %s"
 
 #: data/nation/ashanti.ruleset:36
 #, fuzzy, c-format
 msgid "?female:Asantehene %s"
-msgstr "Konsulin"
+msgstr "Asantehene %s"
 
 #: data/nation/assamese.ruleset:3
 msgid "Assamese"
@@ -24428,14 +24441,12 @@ msgstr ""
 "Ashur."
 
 #: data/nation/asturian.ruleset:3
-#, fuzzy
 msgid "Asturian"
-msgstr "österreichisch"
+msgstr "asturisch"
 
 #: data/nation/asturian.ruleset:4
-#, fuzzy
 msgid "?plural:Asturians"
-msgstr "Österreicher"
+msgstr "Asturier"
 
 #: data/nation/asturian.ruleset:6
 msgid ""
@@ -24450,18 +24461,16 @@ msgid ""
 msgstr ""
 
 #: data/nation/atlantean.ruleset:3
-#, fuzzy
 msgid "Atlantean"
-msgstr "aramäisch"
+msgstr "atlantisch"
 
 #: data/nation/atlantean.ruleset:4
-#, fuzzy
 msgid "?plural:Atlantean"
-msgstr "Aramäer"
+msgstr "Atlanter"
 
 #: data/nation/atlantean.ruleset:6
 msgid "The mythical continent of Atlantis"
-msgstr ""
+msgstr "Der mystische Kontinent Atlantis."
 
 #: data/nation/atlantean.ruleset:23 data/nation/briton.ruleset:23
 #: data/nation/canari.ruleset:30 data/nation/cornish.ruleset:21
@@ -28159,48 +28168,45 @@ msgid "?female:Executive President %s"
 msgstr "Präsidentin"
 
 #: data/nation/hacker.ruleset:3
-#, fuzzy
 msgid "Hacker"
-msgstr "Gletscher"
+msgstr "Hacker"
 
+# MG: Korrekter englischer Plurs wäre wohl "Hackers"...
 #: data/nation/hacker.ruleset:4
-#, fuzzy
 msgid "?plural:Hackers"
-msgstr "Lankesen"
+msgstr "Hacker"
 
 #: data/nation/hacker.ruleset:6
 msgid "h4xx0r r0xx0rz!"
-msgstr ""
+msgstr "h4xx0r r0xx0rz!"
 
 #: data/nation/hacker.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "?title:Hacker %s"
-msgstr "Inka"
+msgstr "Hacker %s"
 
 #: data/nation/hacker.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Hacker %s"
-msgstr "Thronräuberin"
+msgstr "Hacker %s"
 
 #: data/nation/hacker.ruleset:36
-#, fuzzy, c-format
+#, c-format
 msgid "?title:1337 %s"
-msgstr "Inka"
+msgstr "1337 %s"
 
 #: data/nation/hacker.ruleset:36
-#, fuzzy, c-format
+#, c-format
 msgid "?female:1337 %s"
-msgstr "Genossin"
+msgstr "1337 %s"
 
 #: data/nation/haitian.ruleset:3
-#, fuzzy
 msgid "Haitian"
-msgstr "wartet"
+msgstr "haitisch"
 
 #: data/nation/haitian.ruleset:4
-#, fuzzy
 msgid "?plural:Haitians"
-msgstr "Galizier"
+msgstr "Haitiianer"
 
 #: data/nation/haitian.ruleset:6
 msgid ""
@@ -28208,26 +28214,26 @@ msgid ""
 "independent black republic and the second independent country in the "
 "Americas."
 msgstr ""
+"Haiti wurde 1804 durch eine Sklavenrebellion unabhängig. Es war die erste "
+"unabhängige schwarze Republik und das zweite unabhängige Land Amerikas."
 
 #: data/nation/haitian.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "President-for-Life %s"
-msgstr "Präsident"
+msgstr "Präsident auf Lebenszeit %s"
 
 #: data/nation/haitian.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "?female:President-for-Life %s"
-msgstr "Präsidentin"
+msgstr "Präsidentin auf Lebenszeit %s"
 
 #: data/nation/hanoverian.ruleset:3
-#, fuzzy
 msgid "Hanoverian"
-msgstr "bajuwarisch"
+msgstr "hannoveranisch"
 
 #: data/nation/hanoverian.ruleset:4
-#, fuzzy
 msgid "?plural:Hanoverians"
-msgstr "Bajuwaren"
+msgstr "Hannoveraner"
 
 #: data/nation/hanoverian.ruleset:6
 msgid ""
@@ -28235,24 +28241,25 @@ msgid ""
 "to 1837 Hanover and the United Kingdom were united in a personal union. In "
 "1866 it was gobbled up by Prussia."
 msgstr ""
+"Hannover war ein Staat in Norddeutschland im Gebiet des heutigen "
+"Niedersachsen. Hannover und das Vereinigte Königreich waren von 1714 bis "
+"1837 durch familiäre Bande verbunden, 1866 wurde es von Preußen geschluckt."
 
 #: data/nation/hanoverian.ruleset:23 data/nation/lorrain.ruleset:31
 #: data/nation/montenegrin.ruleset:28 data/nation/rhenish.ruleset:38
 #: data/nation/tyrolian.ruleset:23 data/nation/walloon.ruleset:26
 #: data/nation/westphalian.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "Princess-Bishop %s"
-msgstr "Prinzessin"
+msgstr "Fürstbischöfin %s"
 
 #: data/nation/han.ruleset:3
-#, fuzzy
 msgid "Han"
-msgstr "menschlich"
+msgstr "hanisch"
 
 #: data/nation/han.ruleset:4
-#, fuzzy
 msgid "?plural:Han"
-msgstr "Thailänder"
+msgstr "Han"
 
 #: data/nation/han.ruleset:6
 msgid ""
@@ -28262,14 +28269,13 @@ msgid ""
 msgstr ""
 
 #: data/nation/hansa.ruleset:3
-#, fuzzy
 msgid "Hanseatic"
-msgstr "Fanatiker"
+msgstr "hanseatisch"
 
 #: data/nation/hansa.ruleset:4
 #, fuzzy
 msgid "?plural:Hanseatic League"
-msgstr "Antarktiker"
+msgstr "Hanse"
 
 #: data/nation/hansa.ruleset:6
 msgid ""
@@ -28279,16 +28285,13 @@ msgid ""
 "occasionally the Hansa went to war with rival powers."
 msgstr ""
 
-# EH: Diese Meldung sollte mE nicht übersetzt werden.
 #: data/nation/hasinay.ruleset:3
-#, fuzzy
 msgid "Hasinay"
-msgstr "Raina"
+msgstr "hasinaiisch"
 
 #: data/nation/hasinay.ruleset:4
-#, fuzzy
 msgid "?plural:Hasinay"
-msgstr "Thailänder"
+msgstr "Hasinai"
 
 #: data/nation/hasinay.ruleset:6
 msgid ""
@@ -28301,14 +28304,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/hawaiian.ruleset:3
-#, fuzzy
 msgid "Hawaiian"
-msgstr "wartet"
+msgstr "hawaiianisch"
 
 #: data/nation/hawaiian.ruleset:4
-#, fuzzy
 msgid "?plural:Hawaiians"
-msgstr "Galizier"
+msgstr "Hawaiianer"
 
 #: data/nation/hawaiian.ruleset:7
 msgid ""
@@ -28334,14 +28335,12 @@ msgstr ""
 "Ottomanischen Reich unabhängig wurde."
 
 #: data/nation/helvetian.ruleset:3
-#, fuzzy
 msgid "Helvetian"
-msgstr "Veteran"
+msgstr "hevetisch"
 
 #: data/nation/helvetian.ruleset:4
-#, fuzzy
 msgid "?plural:Helvetians"
-msgstr "Venezuleaner"
+msgstr "Helvetier"
 
 #: data/nation/helvetian.ruleset:6
 msgid ""
@@ -28356,14 +28355,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/hephthalite.ruleset:3
-#, fuzzy
 msgid "Hephthalite"
-msgstr "Elite"
+msgstr "hephthaltisch"
 
 #: data/nation/hephthalite.ruleset:4
-#, fuzzy
 msgid "?plural:Hephthalites"
-msgstr "Bengalier"
+msgstr "Hephthaliten"
 
 #: data/nation/hephthalite.ruleset:6
 msgid ""
@@ -28378,14 +28375,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/hessian.ruleset:3
-#, fuzzy
 msgid "Hessian"
-msgstr "persisch"
+msgstr "hessisch"
 
 #: data/nation/hessian.ruleset:4
-#, fuzzy
 msgid "?plural:Hessians"
-msgstr "Perser"
+msgstr "Hessen"
 
 #: data/nation/hessian.ruleset:6
 msgid ""
@@ -28396,24 +28391,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/hessian.ruleset:27 data/nation/thuringian.ruleset:42
-#, fuzzy, c-format
+#, c-format
 msgid "Landgrave %s"
-msgstr "Karavelle"
+msgstr "Landgraf %s"
 
 #: data/nation/hessian.ruleset:27 data/nation/thuringian.ruleset:42
-#, fuzzy, c-format
+#, c-format
 msgid "Landgravine %s"
-msgstr "Marines"
+msgstr "Landgräfin %s"
 
 #: data/nation/himyarite.ruleset:3
-#, fuzzy
 msgid "Himyarite"
-msgstr "hittitisch"
+msgstr "himjarisch"
 
 #: data/nation/himyarite.ruleset:4
-#, fuzzy
 msgid "?plural:Himyar"
-msgstr "Libyer"
+msgstr "Himjaren"
 
 #: data/nation/himyarite.ruleset:7
 msgid ""
@@ -28454,14 +28447,12 @@ msgstr ""
 "Mesopotamien bis hinunter nach Babylon."
 
 #: data/nation/holyroman.ruleset:3
-#, fuzzy
 msgid "Holy Roman"
-msgstr "römisch"
+msgstr "heilig-römisch"
 
 #: data/nation/holyroman.ruleset:4
-#, fuzzy
 msgid "?plural:Holy Romans"
-msgstr "Römer"
+msgstr "Heilige Römer"
 
 #: data/nation/holyroman.ruleset:7
 msgid ""
@@ -28477,12 +28468,12 @@ msgstr ""
 #: data/nation/holysee.ruleset:3
 #, fuzzy
 msgid "Papal"
-msgstr "papuaisch"
+msgstr "kirchlich"
 
 #: data/nation/holysee.ruleset:4
 #, fuzzy
 msgid "?plural:Papal States"
-msgstr "Lankesen"
+msgstr "Kirchenstaaten"
 
 #: data/nation/holysee.ruleset:6
 msgid ""
@@ -28494,35 +28485,34 @@ msgid ""
 msgstr ""
 
 #: data/nation/holysee.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Antipope %s"
-msgstr "Papst"
+msgstr "Gegenpapst %s"
 
 #: data/nation/holysee.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Antipopess %s"
-msgstr "Papst"
+msgstr "Gegenpäpstin %s"
 
 #: data/nation/holysee.ruleset:32 data/nation/maltese.ruleset:28
 #: data/nation/templar.ruleset:41 data/nation/teutonic.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Grand Master %s"
-msgstr "Großer Barde"
+msgstr "Großherr %s"
 
 #: data/nation/holysee.ruleset:32 data/nation/maltese.ruleset:28
 #: data/nation/templar.ruleset:41 data/nation/teutonic.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Grand Mistress %s"
-msgstr "Großer Barde"
+msgstr "Großherrin %s"
 
 #: data/nation/honduran.ruleset:3
 msgid "Honduran"
-msgstr ""
+msgstr "honduranisch"
 
 #: data/nation/honduran.ruleset:4
-#, fuzzy
 msgid "?plural:Hondurans"
-msgstr "Inder"
+msgstr "Honduraner"
 
 #: data/nation/honduran.ruleset:7
 msgid ""
@@ -28534,12 +28524,11 @@ msgstr ""
 
 #: data/nation/hopi.ruleset:3
 msgid "Hopi"
-msgstr ""
+msgstr "hopisch"
 
 #: data/nation/hopi.ruleset:4
-#, fuzzy
 msgid "?plural:Hopis"
-msgstr "Spanier"
+msgstr "Hopi"
 
 #: data/nation/hopi.ruleset:7
 msgid ""
@@ -28561,14 +28550,12 @@ msgid "Legend says that Hungary was founded by Arpad in the 9th century."
 msgstr "Nach der Legende wurde Ungarn im 9. Jahrhundert von Arpad gegründet."
 
 #: data/nation/hunnic.ruleset:3
-#, fuzzy
 msgid "Hunnic"
-msgstr "Spiel läuft"
+msgstr "hunnisch"
 
 #: data/nation/hunnic.ruleset:4
-#, fuzzy
 msgid "?plural:Huns"
-msgstr "Kenianer"
+msgstr "Hunnen"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/hunnic.ruleset:7
@@ -28585,14 +28572,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/iberian.ruleset:3
-#, fuzzy
 msgid "Iberian"
-msgstr "nigerianisch"
+msgstr "iberisch"
 
 #: data/nation/iberian.ruleset:4
-#, fuzzy
 msgid "?plural:Iberians"
-msgstr "Serben"
+msgstr "Iberer"
 
 #: data/nation/iberian.ruleset:6
 msgid ""
@@ -28672,24 +28657,24 @@ msgid ""
 msgstr ""
 
 #: data/nation/inca.ruleset:34
-#, fuzzy, c-format
+#, c-format
 msgid "Inka %s"
-msgstr "Hakan"
+msgstr "Inka %s"
 
 #: data/nation/inca.ruleset:34
 #, c-format
 msgid "Qoya %s"
-msgstr ""
+msgstr "Qoya %s"
 
 #: data/nation/inca.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "Sapa Inka %s"
-msgstr "Sapa Inka"
+msgstr "Sapa-Inka %s"
 
 #: data/nation/inca.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "Sapa Qoya %s"
-msgstr "Sapa Inka"
+msgstr "Sapa-Inka %s"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/indian.ruleset:7
@@ -28701,14 +28686,13 @@ msgid ""
 msgstr ""
 
 #: data/nation/indoeuropean.ruleset:3
-#, fuzzy
 msgid "Indo-European"
-msgstr "europäisch"
+msgstr "indoeuropäisch"
 
 #: data/nation/indoeuropean.ruleset:4
 #, fuzzy
 msgid "?plural:Indo-Europeans"
-msgstr "Koreaner"
+msgstr "Indoeuropäer"
 
 #: data/nation/indoeuropean.ruleset:6
 msgid ""
@@ -28758,14 +28742,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/iranian.ruleset:3
-#, fuzzy
 msgid "Iranian"
-msgstr "indisch"
+msgstr "iranisch"
 
 #: data/nation/iranian.ruleset:4
-#, fuzzy
 msgid "?plural:Iranians"
-msgstr "Inder"
+msgstr "Iraner"
 
 #: data/nation/iranian.ruleset:6
 msgid ""
@@ -28863,32 +28845,30 @@ msgstr ""
 #: data/nation/israeli.ruleset:22
 #, c-format
 msgid "Kibbutznik %s"
-msgstr ""
+msgstr "Kibbuznik %s"
 
 #: data/nation/israeli.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Kibbutznik %s"
-msgstr "Konsulin"
+msgstr "Kibbuznik %s"
 
 #: data/nation/israeli.ruleset:24 data/nation/khazar.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "Rabbi %s"
-msgstr "Eisenbahn"
+msgstr "Rabbi %s"
 
 #: data/nation/israeli.ruleset:24 data/nation/khazar.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Rabbi %s"
-msgstr "Konsulin"
+msgstr "Rabbi %s"
 
 #: data/nation/israelite.ruleset:3
-#, fuzzy
 msgid "Israelite"
-msgstr "israelisch"
+msgstr "israelitisch"
 
 #: data/nation/israelite.ruleset:4
-#, fuzzy
 msgid "?plural:Israelites"
-msgstr "Israelis"
+msgstr "Israeliten"
 
 #: data/nation/israelite.ruleset:6
 msgid ""
@@ -28922,24 +28902,24 @@ msgstr ""
 "eine Demokratie errichtet wurde."
 
 #: data/nation/italian.ruleset:42
-#, fuzzy, c-format
+#, c-format
 msgid "Duce %s"
-msgstr "Graf"
+msgstr "Duce %s"
 
 #: data/nation/italian.ruleset:42
-#, fuzzy, c-format
+#, c-format
 msgid "Ducezza %s"
-msgstr "Graf"
+msgstr "Ducezza %s"
 
 #: data/nation/ivoirian.ruleset:3
 #, fuzzy
 msgid "Ivoirian"
-msgstr "indisch"
+msgstr "ivoirisch"
 
 #: data/nation/ivoirian.ruleset:4
 #, fuzzy
 msgid "?plural:Ivoirian"
-msgstr "Inder"
+msgstr "Elfenbeinküstler"
 
 #. TRANS: The second letter in "Cote" should be
 #. TRANS: U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX if available in
@@ -28953,12 +28933,11 @@ msgstr ""
 
 #: data/nation/jaffna.ruleset:3
 msgid "Jaffna"
-msgstr ""
+msgstr "jaffnisch"
 
 #: data/nation/jaffna.ruleset:4
-#, fuzzy
 msgid "?plural:Jaffnas"
-msgstr "?plural:Kanadier"
+msgstr "Jaffnaer"
 
 #: data/nation/jaffna.ruleset:7
 msgid ""
@@ -28968,14 +28947,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/jamaican.ruleset:3
-#, fuzzy
 msgid "Jamaican"
-msgstr "amerikanisch"
+msgstr "jamaikanisch"
 
 #: data/nation/jamaican.ruleset:4
-#, fuzzy
 msgid "?plural:Jamaicans"
-msgstr "?plural:Amerikaner"
+msgstr "Jamaikaner"
 
 #: data/nation/jamaican.ruleset:6
 msgid ""
@@ -28988,18 +28965,17 @@ msgid ""
 msgstr ""
 
 #: data/nation/jamaican.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Rasta %s"
-msgstr "%s, Team %s"
+msgstr "Rasta %s"
 
 #: data/nation/jamaican.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Rasta %s"
-msgstr "Genossin"
+msgstr "Rasta %s"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/japanese.ruleset:7
-#, fuzzy
 msgid ""
 "According to traditional Japanese mythology, Japan was founded in the 7th "
 "century BCE by the ancestral Emperor Jimmu."
@@ -29008,14 +28984,12 @@ msgstr ""
 "v. Chr. von Kaiser Jimmu gegründet."
 
 #: data/nation/jolof.ruleset:3
-#, fuzzy
 msgid "Jolof"
-msgstr "Jo-o"
+msgstr "jolofisch"
 
 #: data/nation/jolof.ruleset:4
-#, fuzzy
 msgid "?plural:Jolof"
-msgstr "Mongolen"
+msgstr "Jolofen"
 
 #: data/nation/jolof.ruleset:6
 msgid ""
@@ -34518,27 +34492,24 @@ msgid ""
 msgstr ""
 
 #: data/nation/vampire.ruleset:4
-#, fuzzy
 msgid "Vampire"
-msgstr "Hungersnot"
+msgstr "vampirisch"
 
 #: data/nation/vampire.ruleset:5
-#, fuzzy
 msgid "?plural:Vampires"
-msgstr "Sámi"
+msgstr "Vampire"
 
 #: data/nation/vampire.ruleset:7
 msgid "Bloodsucking creatures of legend."
-msgstr ""
+msgstr "Der Legende entstammende blutsaugende Kreaturen."
 
 #: data/nation/vandalic.ruleset:3
 msgid "Vandalic"
-msgstr ""
+msgstr "vandalisch"
 
 #: data/nation/vandalic.ruleset:4
-#, fuzzy
 msgid "?plural:Vandals"
-msgstr "?plural:Kanadier"
+msgstr "Vandalen"
 
 #: data/nation/vandalic.ruleset:6
 msgid ""
