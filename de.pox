@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-27 23:18+0200\n"
-"PO-Revision-Date: 2012-08-27 23:29+0200\n"
+"PO-Revision-Date: 2012-08-30 11:35+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -9597,7 +9597,6 @@ msgid "Clear unit orders on selection"
 msgstr "Auswahl löscht aktuelle Einheitenbefehle"
 
 #: client/options.c:2003
-#, fuzzy
 msgid ""
 "Enabling this option will cause unit orders to be cleared as soon as one or "
 "more units are selected. If this option is disabled, busy units will not "
@@ -9607,7 +9606,9 @@ msgid ""
 msgstr ""
 "Mit dieser Option löscht die Auswahl von Einheiten den aktuellen Befehl. "
 "Ohne diese Option wird der Befehl nur aufgehoben, wenn neue Befehle erteilt "
-"werden oder die Leertaste gedrückt wird."
+"werden oder die Leertaste gedrückt wird, wobei sie jedoch ausgewählt "
+"bleiben. Wird die Leertaste ein zweites Mal gedrückt, wird die Auswahl "
+"aufgehoben."
 
 # MG: "Abstimmbalken" klingt blöd. Andererseits sagt man im Deutschen auch "Fortschrittsbalken". Gegenvorschläge werden gerne angenommen.
 #: client/options.c:2012
@@ -20530,7 +20531,6 @@ msgid " Happiness"
 msgstr " Zufriedenheit"
 
 #: data/helpdata.txt:754
-#, fuzzy
 msgid ""
 "Keeping your citizens happy (or at least content) is one of the most "
 "important objectives in Freeciv. When your citizens become unhappy, your "
@@ -20543,7 +20543,9 @@ msgstr ""
 "glücklich (oder zumindest zufrieden) zu halten, ist eine der wichtigsten "
 "Aufgaben in Freeciv. Wenn die Bürger unzufrieden werden, kommt es zu Aufruhr "
 "(der die Produktion verhindert); falls die Bürger glücklich sind, feiern sie "
-"(und die Produktion nimmt deutlich zu)."
+"(und die Produktion nimmt deutlich zu). Wenn Migration aktiviert ist, hat "
+"die Zufriedenheit einer Stadt auch Auswirkung auf deren Attraktivität für "
+"Migranten; siehe den Abschnitt über Migration für mehr Informationen."
 
 #: data/helpdata.txt:762
 msgid ""
@@ -20553,9 +20555,14 @@ msgid ""
 "default rules, each citizen in a city after the fourth will be generated "
 "unhappy, instead of content."
 msgstr ""
+"Jeder Bürger, der ein Landfeld bewirtschaftet, ist entweder glücklich, "
+"zufrieden, unzufrieden oder verärgert, wobei Zufriedenheit den normalen "
+"Zustand darstellt. Wenn Ihre Städte im Laufe der Zeit aber wachsen, werden "
+"die Bürger aufgrund von Überbevölkerung langsam unzufriedener; im "
+"Standardregelsatz werden ab dem vierten Bürger unzufriedene statt zufriedene "
+"Bürger generiert."
 
 #: data/helpdata.txt:768
-#, fuzzy
 msgid ""
 "If the number of unhappy citizens in a city exceeds the number of happy "
 "citizens, the city falls into disorder. A city in disorder produces no food "
@@ -20564,11 +20571,15 @@ msgid ""
 "to incite to revolt. Prolonged disorder under Democracy can lead to a "
 "spontaneous national revolution, overthrowing your government."
 msgstr ""
-"Wenn eine Stadt mehr unzufriedene als glückliche Bürger hat, kommt es zu "
-"Aufruhr. Während eines Aufruhrs wird nichts produziert; außerdem haben es "
-"feindliche Diplomaten und Spione leichter, eine Revolte in Gang zu bringen. "
-"Fortgesetzter Aufruhr kann unter einer 'Demokratie' zum spontanen Ausbruch "
-"einer Revolution führen."
+"Wenn eine Stadt mehr unzufriedene als glückliche Bürger hat, kommt es zum "
+"Aufruhr. Während eines Aufruhrs werden keine Produktions- und "
+"Nahrungsüberschüsse generiert, d.h. sowohl das Stadtwachstum als auch die "
+"Produktion stehen still; auch wird weder geforscht, noch werden Steuern "
+"eingetrieben, lediglich die Luxusproduktion bleibt erhalten. Darüberhinaus "
+"haben feindliche Diplomaten und Spione in einer solchen Stadt ein leichtes "
+"Spiel und können schnell eine Revolte in Gang setzen. In einem "
+"demokratischen Staat kann fortgesetzter Aufruhr zum spontanen Ausbruch einer "
+"Revolution führen, die Ihre Regierung absetzen wird."
 
 #: data/helpdata.txt:776
 msgid ""
@@ -20579,6 +20590,13 @@ msgid ""
 "cities are ever to work more than four terrain tiles at once, the problem of "
 "morale must be confronted more directly."
 msgstr ""
+"Es sollte noch einmal betont werden, dass nur die Bürger, die auf dem Land "
+"arbeiten, ihre Haltung verändern — Spezialisten genießen genügend "
+"Privilegien, um stets zufrieden zu sein (siehe den Abschnitt über "
+"Spezialisten). Aus diesem Grunde ist eine Lösung des Problems unzufriedener "
+"Bürger, die Betroffenen einfach als Spezialisten einzusetzen. Bewirtschaftet "
+"eine Stadt jedoch mehr als vier Geländefelder zugleich, muss das Problem "
+"direkter angegangen werden."
 
 #: data/helpdata.txt:784
 msgid ""
@@ -20586,6 +20604,11 @@ msgid ""
 "disorder but is without further benefit. Producing happy citizens can "
 "balance the effect of unhappy citizens and also bring other benefits."
 msgstr ""
+"Es gibt zahlreiche Wege, unzufriedene Bürger zufrieden zu stellen, was "
+"Aufruhr zwar verhindert, sonst aber keine weiteren Vorteile mit sich bringt. "
+"Wenn Sie stattdessen auf glückliche Bürger setzen, die den durch "
+"unzufriedene Bürger hervorgerufenen Effekt wieder aufheben, kommen Sie "
+"hingegen in den Genuss weiterer Boni."
 
 #: data/helpdata.txt:789
 msgid ""
@@ -20593,30 +20616,32 @@ msgid ""
 "citizens are happy and none remain unhappy. The effects of celebration vary; "
 "in the default ruleset, they depend on your government type:"
 msgstr ""
+"Ist eine Stadt groß genug und sind zumindest die Hälfte ihrer Einwohner "
+"glücklich und keine unzufrieden, wird die Stadt anfangen, zu feiern. Die "
+"Auswirkungen einer solchen Feier sind verschieden; im Standardregelsatz "
+"hängen sie von Ihrer Regierungsform ab:"
 
 #: data/helpdata.txt:793
-#, fuzzy
 msgid ""
 " - Under Anarchy or Despotism, you will not suffer the normal production "
 "penalty for tiles which produce more than 2 points of any resource (food, "
 "production, or trade)."
 msgstr ""
-" - Unter 'Anarchie' und 'Diktatur' entfällt die Einschränkung für Felder, "
-"die mehr als zwei Einheiten produzieren (Nahrung, Schilde, Handel)."
+" • In einer Anarchie oder Diktatur entfällt die übliche Ertragseinschränkung "
+"von Feldern, die mehr als zwei Punkte produzieren (Nahrung, Produktion, "
+"Handel)."
 
 #: data/helpdata.txt:797
-#, fuzzy
 msgid ""
 " - Under Monarchy or Communism, your city will gain the trade bonus of "
 "Republican/Democratic governments: 1 bonus trade point in any tile which "
 "already produces at least 1 trade."
 msgstr ""
-" - Unter 'Monarchie' und 'Kommunismus' erhält man den Handelsbonus, den "
-"sonst nur 'Republik' und 'Demokratie' haben: +1 in jedem Feld mit mindestens "
-"einem Handelspunkt."
+" • In einer Monarchie oder im Kommunismus erhält man den Handelsbonus, den "
+"sonst nur republikanische und demokratische Staaten genießen: +1 Handel auf "
+"jedem Feld mit mindestens einem Handelspunkt."
 
 #: data/helpdata.txt:801
-#, fuzzy
 msgid ""
 " - Under a Republic or a Democracy, your city will enter \"rapture\": its "
 "population will increase by 1 each turn until there is no excess food or "
@@ -20625,9 +20650,13 @@ msgid ""
 "surplus -- which can be difficult enough -- and then waiting dozens of turns "
 "for their granary to fill."
 msgstr ""
-" - Unter 'Republik' oder 'Demokratie' wächst eine Stadt jährlich um 1, bis "
-"keine überschüssige Nahrung mehr vorhanden ist oder die Anzahl der "
-"glücklichen Bürger zum Feiern nicht mehr ausreicht."
+" • In einer Republik oder Demokratie wird Ihre Stadt beginnen, rapide zu "
+"wachsen: die Bevölkerung nimmt jede Runde um eins zu, bis entweder keine "
+"überschüssige Nahrung mehr vorhanden oder nicht mehr genügend glückliche "
+"Bürger zum Feiern vorhanden sind. Ohne diesen Effekt können große Städte nur "
+"wachsen, indem sie einen Nahrungsüberschuss anstreben ‒ was schwierig genug "
+"sein kann ‒ und dutzende von Runden warten, bis sich ihr Nahrungslager "
+"gefüllt hat."
 
 #: data/helpdata.txt:808
 msgid ""
@@ -20637,6 +20666,12 @@ msgid ""
 "precise thresholds depend on government type; see the section on Government "
 "for details."
 msgstr ""
+"In kleinen Staaten ist wie schon beschrieben jeder fünfte Bürger der erste "
+"unzufriedene. Je mehr Städte Sie erhalten, desto mehr sinkt diese Grenze, um "
+"so die Schwierigkeit zu simulieren, die die Aufrechterhaltung der Ordnung in "
+"einem großen Imperium darstellt. Der genaue Grenzwert, ab dem die Reduktion "
+"einsetzt, hängt von der Regierungsform ab; siehe den Abschnitt über "
+"Regierungsformen für weitere Informationen."
 
 #: data/helpdata.txt:816
 msgid ""
@@ -20647,6 +20682,14 @@ msgid ""
 "unhappy before any unhappy citizens can be made content, but in all other "
 "respects behave as unhappy citizens."
 msgstr ""
+"Aus diesem Grunde ist es möglich, dass die Gründung oder Eroberung einer "
+"Stadt plötzlich großflächige Unruhen zur Folge hat; ein weiteres Wachstum "
+"Ihres Staates kann dann zu weiteren Abzügen führen. Wächst ein Staat über "
+"den Punkt hinaus, ab dem keine Bürger mehr von sich aus zufrieden sind, "
+"tauchen verärgerte Bürger auf, welche zunächst alle unzufrieden gemacht "
+"werden müssen, bevor ein unzufriedener Bürger zufrieden gestellt werden "
+"kann, die sich aber in allen anderen Situation wie gewöhnliche unzufriedene "
+"Bürger verhalten."
 
 #: data/helpdata.txt:826
 msgid ""
@@ -20657,6 +20700,13 @@ msgid ""
 "rates; see the section on Trade. Luxury points may also be produced by other "
 "means, such as entertainer specialists in the default ruleset."
 msgstr ""
+"Luxus macht Bürger glücklich. Je zwei Luxuspunkte, die eine Stadt "
+"produziert, wird ein zufriedener Bürger glücklich (sind keine zufriedenen "
+"Bürger mehr vorhanden, werden unzufriedene zunächst zufrieden, dann "
+"glücklich). Jede Stadt erhält abhängig vom Steuersatz Ihres Staats einige "
+"der der Handelspunkte, die sie produziert, als Luxuspunkte zurück; siehe den "
+"Abschnitt über Handel. Luxuspunkte können auch auf anderem Wege produziert "
+"werden, im Standardregelsatz etwa durch Unterhalter-Spezialisten."
 
 #: data/helpdata.txt:834
 msgid ""
@@ -20665,6 +20715,11 @@ msgid ""
 "the default rules. Some wonders of the world can also have this effect. See "
 "the appropriate sections for details."
 msgstr ""
+"Auch können diverse Stadterweiterungen diejenigen Bürger zufriedenstellen, "
+"die wegen Überbevölkerung unzufrieden sind. Darunter fallen im "
+"Standardregelsatz etwa der Tempel und das Kolosseum, auch einige Weltwunder "
+"besitzen diesen Effekt. Siehe die jeweiligen Abschnitte für weitere "
+"Informationen."
 
 #: data/helpdata.txt:839
 msgid ""
@@ -20678,6 +20733,18 @@ msgid ""
 "units (\"field units\") are inherently aggressive and cause unhappiness "
 "regardless of location."
 msgstr ""
+"Militäreinheiten haben ebenfalls Einfluss auf die Zufriedenheit einer Stadt. "
+"Unter einem autoritären Regime ist das hilfreich, weil es militärischen "
+"Einheiten möglich ist, in der Stadt, in der sie stationiert sind, "
+"Kriegsrecht anzuwenden. Im Gegensatz dazu werden Bürger repräsentativer "
+"Staaten unzufrieden, wenn ihre jeweilige Stadt Militäreinheiten unterstützt, "
+"die sich in einem aggressiven Zustand befinden. Dies schließt Einheiten ein, "
+"die sich nicht innerhalb Ihrer Nationalgrenzen, einer freundlich gesonnen "
+"Stadt (eingeschlossen Städte Ihrer Verbündeten) oder einer passenden "
+"Militärbasis im Radius von drei Feldern einer freundlich gesonnen Stadt "
+"befinden. Einige Einheiten jedoch, sogenannte »Feldeinheiten«, sind per "
+"definitionem aggressiv und führen unabhängig von ihrem Standort zu "
+"Unzufriedenheit."
 
 #: data/helpdata.txt:850
 msgid ""
@@ -20687,12 +20754,19 @@ msgid ""
 "special building -- the Police Station -- can offset this form of "
 "unhappiness."
 msgstr ""
+"Diese Art von Unzufriedenheit ist gänzlich verschieden von der durch "
+"Überbevölkerung hervorgerufenen und kann weder durch Luxus noch durch die "
+"meisten Stadtverbesserungen beseitigt werden. Im Standardregelsatz können "
+"nur bestimmte Weltwunder — etwa J.S. Bachs kathedrale — und ein spezielles "
+"Gebäude — die Polizeiwache — diese Form von Unzufriedenheit bekämpfen."
 
 #: data/helpdata.txt:856
 msgid ""
 "The Happiness tab on the city dialog will give detailed insight into the "
 "mood of the citizenry and its causes."
 msgstr ""
+"Der Zufriedenheits-Reiter im Stadtdialog gewährt Ihnen detaillierte Einsicht "
+"in die Haltung der Bürgerschaft und ihre Gründe dafür."
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:863
@@ -24051,6 +24125,14 @@ msgid ""
 "fighting each other. After half a century of war a peace agreement was "
 "finally reached in 2002."
 msgstr ""
+"Als die Portugiesen im 15. Jahrhundert Angola erreichten, wurde die Region "
+"von verschiedenen Bantu-Königreichen kontrolliert, später wurde es bis ins "
+"19. Jahrhundert hinein zu einer der wichtigsten Quellen von Sklavenhändern. "
+"Nach einem Guerillakrieg gegen die portugiesischen Kolonialherren, der zwei "
+"Dekaden andauerte, wurde Angola 1975 schließlich unabhängig, woraufhin sich "
+"die zahlreichen verschiedenen Guerillagruppierungen nun gegenseitig "
+"bekämpften. Erst nach einem halben Jahrhundert des Krieges wurde 2002 "
+"endlich ein Friedensabkommen erreicht."
 
 #: data/nation/anhaltian.ruleset:3
 msgid "Anhaltian"
@@ -24135,7 +24217,6 @@ msgid "Anishinaabe"
 msgstr "anishinaabisch"
 
 #: data/nation/anishinaabe.ruleset:4
-#, fuzzy
 msgid "?plural:Anishinaabeg"
 msgstr "Anishinaabeg"
 
@@ -24146,6 +24227,10 @@ msgid ""
 "Algonkin and Potawatomi. They speak Algonquian languages. Together they are "
 "one of the most numerous indigenous peoples of North America."
 msgstr ""
+"Die Anishinaabeg sind eine Gruppe eng verwandter uramerikanischer Stämme in "
+"der nordamerikanischen Region der Great Lakes, eingeschlossen Ottawa, "
+"Ojibwe, Algonkin und Potawomi. Sie sprechen die Algonkin-Sprachen und sind "
+"zusammen eines der größten indigenen Völker Nordermerikas."
 
 #: data/nation/anishinaabe.ruleset:29 data/nation/apache.ruleset:26
 #: data/nation/gokturk.ruleset:46 data/nation/navajo.ruleset:30
@@ -24187,16 +24272,17 @@ msgid ""
 "two eponymous islands as well as a number of smaller islets. The country has "
 "been independent from the United Kingdom since 1981."
 msgstr ""
+"Antigua und Barbuda ist ein aus den zwei namensgebenden und einer Reihe "
+"weiterer kleinerer Inseln bestehender Staat in der Ostkaribik. Das Land ist "
+"seit 1981 vom Vereinigten Königreich unabhängig."
 
 #: data/nation/antillean.ruleset:3
-#, fuzzy
 msgid "Antillean"
-msgstr "Artillerie"
+msgstr "antillanisch"
 
 #: data/nation/antillean.ruleset:4
-#, fuzzy
 msgid "?plural:Antilleans"
-msgstr "Inder"
+msgstr "Antillaner"
 
 #: data/nation/antillean.ruleset:6
 msgid ""
@@ -24208,16 +24294,22 @@ msgid ""
 "the Netherlands, the other three islands have been directly integrated into "
 "the Netherlands as special municipalities."
 msgstr ""
+"Aruba, Bonaire, Curaçao, Saba, Saint Martin und Saint Eustatius wurden im "
+"17. Jahrhundert von der Niederländern kolonialisiert. Die Einwohnerschaft "
+"setzt sich aus Europäern, Afrikanern und Nachfahren latinoamerikanischer "
+"Herkunft zusammen. Die niederländischen Antillen erhielten 1954 das Recht "
+"auf Selbstbestimmung, wurden jedoch 2010 aufgelöst. Aruba, Curaçao und Saint "
+"Martin sind seitdem Staaten des Königreiches der Niederlanden, die anderen "
+"drei Inseln wurden als spezielle Provinzen direkt in die die Niederlande "
+"eingegliedert."
 
 #: data/nation/apache.ruleset:3
-#, fuzzy
 msgid "Apache"
-msgstr "Raumschiff"
+msgstr "apachisch"
 
 #: data/nation/apache.ruleset:4
-#, fuzzy
 msgid "?plural:Apaches"
-msgstr "Lankesen"
+msgstr "Apachen"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/apache.ruleset:7
@@ -24239,7 +24331,6 @@ msgstr "?plural:Araber"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/arab.ruleset:7
-#, fuzzy
 msgid "The Arab/Islamic civilization of 622 to 1495 CE."
 msgstr "Die arabisch-islamische Zivilisation zwischen 622 und 1495 n. Chr."
 
