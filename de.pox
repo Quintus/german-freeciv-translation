@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-10 21:09+0200\n"
-"PO-Revision-Date: 2012-08-30 11:35+0200\n"
+"PO-Revision-Date: 2012-10-10 23:08+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -20201,6 +20201,15 @@ msgid ""
 "food-consuming units first, followed by citizens, until the food deficit "
 "ends."
 msgstr ""
+"Jede Stadt besitzt zur Speicherung von Nahrungspunkten einen Kornspeicher "
+"(die gleichnamige Stadtverbesserung im Standardregelwerk verbessert diese "
+"Einrichtung lediglich). Städte, die mehr Nahrung produzieren als sie "
+"benötigen, lagern den resultierenden Überschuss in ihrem Kornspeicher ein, "
+"wohingegen Städte, die weniger Nahrung produzieren, als sie benötigen, "
+"diesen langsam leeren. Wenn keine Nahrung mehr im Kornspeicher vorhanden "
+"ist, aber weiterhin benötigt wird, beginnt die Stadtbevölkerung zu hungern: "
+"Zunächst sterben von dieser Stadt mit Nahrung unterstützte Einheiten, dann "
+"Bürger, bis schließlich das Nahrungsdefizit aufgehoben wird."
 
 #: data/helpdata.txt:497
 msgid ""
@@ -20211,6 +20220,14 @@ msgid ""
 "only for small cities. (An alternative way for cities to grow is \"rapture"
 "\", described in the section on Happiness.)"
 msgstr ""
+"Ein großer Nahrungsüberschuss kann die Stadt wachsen lassen: Der städtische "
+"Kornspeicher hat eine begrenzte Kapazität, und ist er einmal gefüllt, wächst "
+"die Stadt um einen Bürger und der Kornspeicher wird vollständig entleert. Da "
+"jedoch das Fassungsvermögen des Kornspeichers zusammen mit der Bevölkerung "
+"zunimmt, kostet jeder Bürger mehr als der letzte, sodass diese Art des "
+"Wachsens lediglich für kleinere Städte interessant ist (alternativ können "
+"Städte auch mithilfe des Begeisterungseffektes wachsen, siehe den Abschnitt "
+"über Zufriedenheit)."
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:509
@@ -21705,29 +21722,26 @@ msgstr ""
 "geändert worden sein."
 
 #: data/helpdata.txt:1423
-#, fuzzy
 msgid ""
 "There are five diplomatic states between players: War, Cease-fire, "
 "Armistice, Peace, and Alliance. The first is the natural state, while the "
 "others can be achieved by signing diplomatic treaties."
 msgstr ""
-"     Es gibt fünf diplomatische Zustände zwischen Spielern: Krieg, "
-"Feuerpause, Waffenstillstand, Frieden und Bündnis. Krieg ist der anfängliche "
-"Zustand, die anderen Zustände können durch Unterzeichnen diplomatischer "
-"Abkommen erreicht werden."
+"Es gibt fünf diplomatische Zustände zwischen Spielern: Krieg, Feuerpause, "
+"Waffenstillstand, Frieden und Bündnis. Während Krieg der anfängliche Zustand "
+"ist, können die anderen Zustände durch den Abschluss diplomatischer Verträge "
+"erreicht werden."
 
 #: data/helpdata.txt:1427
-#, fuzzy
 msgid ""
 "During War, you can freely move your units inside enemy territory and attack "
 "their units and cities at will."
 msgstr ""
-"     Der anfängliche diplomatische Zustand zwischen Spielern ist Krieg. "
-"Während des Krieges kannst du deine Einheiten beliebig ins Land des Feindes "
-"bewegen und dessen Einheiten und Städte angreifen."
+"In Kriegszeiten können Sie Ihre Einheiten ungehindert in feindliches "
+"Territorium einmarschieren lassen und dort beliebig Einheiten und Städte "
+"angreifen."
 
 #: data/helpdata.txt:1430
-#, fuzzy
 msgid ""
 "When two players decide to end hostilities between them, they can agree on a "
 "Cease-fire treaty. This prevents each player from attacking the other, but "
@@ -21735,26 +21749,27 @@ msgid ""
 "number of turns, the Cease-fire will lead back to War. Upon first contact "
 "with an AI player, it will automatically offer you a Cease-fire treaty."
 msgstr ""
-"     Wenn sich zwei Spieler entscheiden, die Feindseligkeiten zwischen ihnen "
-"zu beenden, können sie eine Feuerpause vereinbaren. Nach einer Anzahl von "
-"Zügen endet die Feuerpause und es ist wieder Krieg. Beim ersten Kontakt mit "
-"einem KI-Spieler wird dieser dir eine Feuerpause anbieten."
+"Wenn sich zwei Spieler entscheiden, die Feindseligkeiten zwischen ihnen zu "
+"beenden, können sie eine Feuerpause vereinbaren, die für eine gewisse Anzahl "
+"von Zügen Angriffe des jeweils anderen unterbindet, ihm jedoch nicht "
+"verbietet, sich weiterhin im Territorium des Kontrahenten aufzuhalten. Nach "
+"Ende der Feuerpause befinden sich beide Spieler wieder im Krieg. Beim ersten "
+"Kontakt mit einem KI-Spieler wird dieser dir eine Feuerpause anbieten."
 
 #: data/helpdata.txt:1437
-#, fuzzy
 msgid ""
 "If you wish for a more permanent peaceful coexistence with another player, "
 "you may sign a peace pact. This will enter a transitional Armistice state, "
 "which after another set number of turns will turn into a permanent Peace. "
 "Breaking an Armistice will drop you directly back to War."
 msgstr ""
-"     Wenn du eine dauerhaftere Koexistenz mit dem anderen Spieler wünscht, "
-"kannst du einen Waffenstillstand vereinbaren, der nach einer Anzahl von "
-"Zügen zu einem dauerhaften Frieden wird. Der Bruch des Waffenstillstandes "
-"führt direkt in den Krieg."
+"Wenn Sie eine dauerhaftere, friedliche Koexistenz mit einem anderen Spieler "
+"anstreben, können Sie einen Friedensvertrag abschließen. Dies führt zunächst "
+"zu einem übergangsmäßigen Waffenstillstand, der nach einer weiteren Anzahl "
+"von Runden zu einem dauerhaften Frieden wird. Der Bruch des "
+"Waffenstillstandes führt direkt in den Krieg."
 
 #: data/helpdata.txt:1443
-#, fuzzy
 msgid ""
 "At the moment two players enter into the diplomatic state of Peace, all "
 "military units belonging to either player that happen to be within the "
@@ -21763,12 +21778,12 @@ msgid ""
 "you either declare War, or forge an Alliance. Breaking a Peace treaty will "
 "drop you directly back to War."
 msgstr ""
-"    In dem Moment, in dem zwei Spieler in den Frieden eintreten, werden alle "
-"Einheiten des einen Spielers, die sich in den Grenzen des anderen befinden, "
-"entsprechend dem Vertrag automatisch aufgelöst. Danach ist es nicht mehr "
-"möglich, Einheiten in das Gebiet des anderen Spielers zu bewegen, ohne "
-"entweder den Krieg zu erklären oder ein Bündnis zu schmieden. Ein Bruch des "
-"Friedens führt dich direkt zurück in den Krieg."
+"In dem Moment, in dem zwei Spieler in den Frieden eintreten, werden alle "
+"Einheiten des einen Spielers, die sich in den Grenzen des jeweils anderen "
+"befinden, entsprechend dem Vertrag automatisch aufgelöst. Danach ist es "
+"nicht mehr möglich, Einheiten in das Gebiet des anderen Spielers zu bewegen, "
+"ohne entweder den Krieg zu erklären oder ein Bündnis zu schmieden. Ein Bruch "
+"des Friedens führt dich direkt zurück in den Krieg."
 
 #: data/helpdata.txt:1450
 msgid ""
@@ -21783,6 +21798,21 @@ msgid ""
 "and shared vision, and will seriously consider trading technologies and "
 "cities, but in return will expect you to join its wars against other players."
 msgstr ""
+"Das Bündnis stellt den ultimativen diplomatischen Zustand zwischen zwei "
+"Spielern da. Derart alliierte Spieler können Einheiten in die Städte des "
+"Anderen bewegen, ihre Einheiten können sich auf demselben Feld aufhalten und "
+"erzwingen keine Kontrollzonen mehr. Bündnisverträge unterliegen jedoch "
+"einigen Restriktionen; so ist es etwa nicht möglich, ein Bündnis mit einem "
+"Spieler einzugehen, der sich im Krieg mit einem bestehenden Bundesgenossen "
+"befindet, ohne den Vertrag mit letzterem zu brechen. Erklären sich zwei "
+"Ihrer Bundesgenossen den Krieg, wird die Allianz mit dem dem Agressor "
+"automatisch nichtig. Der Bruch eines Bündnisses führt zunächst zu einer "
+"Waffenruhe.\n"
+"\n"
+"Ein alliierter KI-Spieler wird Ihnen gern Einblick in seine Weltkarte geben, "
+"seine Kartensicht zur Verfügung stellen und ernsthaft darüber nachdenken, "
+"mit Ihnen über Fortschritte und Städte zu verhandeln. Umgekehrt wird er von "
+"Ihnen erwarten, dass Sie an seiner Seite gegen seine Feinde kämpfen."
 
 #: data/helpdata.txt:1466
 msgid ""
@@ -21800,6 +21830,13 @@ msgid ""
 "and another player might grant technology in the terms of a pact. But "
 "otherwise advances must be discovered through the efforts of your own people."
 msgstr ""
+"Es gibt einige Möglichkeiten, Fortschritte von anderen Zivilisationen zu "
+"erhalten: So werden Sie hin und wieder eine Technologie erlernen, wenn Sie "
+"eine feindliche Stadt einnehmen; sie können Fortschritte mit Diplomaten und "
+"Spionen rauben; Wunder können Ihnen Erkenntnisse vermitteln; und schließlich "
+"kann Ihnen ein anderer Spieler auch vertraglich Technologien zugestehen. "
+"Abgesehen davon müssen Fortschritte jedoch durch die wissentschaftlichen "
+"Anstrengungen Ihres eigenen Volkes gemacht werden."
 
 #: data/helpdata.txt:1477
 msgid ""
@@ -21808,6 +21845,12 @@ msgid ""
 "section). While it is possible to change which advance you are currently "
 "researching, by default all progress is lost by doing so."
 msgstr ""
+"Der größte Teil des technologischen Fortschritts kommt durch den Handel "
+"zustande (siehe den Abschnitt über Handel) sowie — im Standardregelsatz — "
+"durch die Arbeit von Wissenschaftlern (siehe den Abschnitt über "
+"Spezialisten). Es ist zwar möglich, das aktuelle Forschungsprojekt zu "
+"ändern, allerdings werden Sie standardmäßig den gesamten bis dahin gemachten "
+"Fortschritt einbüßen."
 
 #: data/helpdata.txt:1482
 msgid ""
@@ -21820,6 +21863,17 @@ msgid ""
 "If research output drops below that required for upkeep, your civilization "
 "will forget a random advance, requiring it to be researched again."
 msgstr ""
+"Während der größte Teil des sich ergebenden Forschungsaustoßes (»Punkte«) "
+"fürgewöhnlich in die Entwicklung neuer Technologien investiert wird, gibt es "
+"einige Regelästze, in denen er zum Teil für die Aufrechterhaltung der "
+"Kenntnisse bereits erforschter Technologien verwendet wird (dies ist im "
+"Standardregelsatz jedoch nicht der Fall). Die für den Erhalt bestehender "
+"Technologien erforderlichen Kosten steigen mit den Gesamtforschungskosten "
+"aller Ihnen bekannten Fortschritte, und der Zeitpunkt, zu dem Sie beginnen, "
+"für die Aufrechterhaltung der Kenntnisse einer Technologie zu zahlen, hängt "
+"von verschiedenen Faktoren wie etwa Ihrer Regierungsform ab. Fällt der "
+"Forschungsaustoß unter die Erhaltungskosten, wird Ihre Zivilisation eine "
+"zufällige Technologie vergessen, und sie müssen Sie von Neuem erforschen."
 
 #: data/helpdata.txt:1492
 msgid ""
@@ -21829,6 +21883,12 @@ msgid ""
 "immediately sold, and obsolete wonders lose their effect. See the relevant "
 "sections for more information."
 msgstr ""
+"Der technologische Fortschritt kann und wird Einheiten, Stadterweiterungen "
+"und Weltwunder überholen und diese obsolet machen. Es ist quasi unmöglich, "
+"veraltete Einheiten zu bauen (bereits ausgebildete Einheiten werden aber "
+"nicht beeinträchtigt), überholte Stadtverbesserungen werden unverzüglich "
+"verkauft und obsolete Weltwunder verlieren ihren Effekt. Siehe die "
+"jeweiligen Abschnitte für weitere Informationen."
 
 #: data/helpdata.txt:1505
 msgid ""
@@ -23390,7 +23450,7 @@ msgid "Baron %s"
 msgstr "Baron %s"
 
 #: data/nation/acrean.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Baroness %s"
 msgstr "Baroness %s"
 
@@ -23604,9 +23664,9 @@ msgstr "Scheich %s"
 #: data/nation/omani.ruleset:30 data/nation/qatari.ruleset:20
 #: data/nation/somaliland.ruleset:25 data/nation/somali.ruleset:36
 #: data/nation/tuareg.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "Shaykha %s"
-msgstr "Scheich %s"
+msgstr "Scheichin %s"
 
 #: data/nation/alandalus.ruleset:32 data/nation/algerian.ruleset:23
 #: data/nation/amazigh.ruleset:72 data/nation/arab.ruleset:24
@@ -24335,15 +24395,17 @@ msgid "The Arab/Islamic civilization of 622 to 1495 CE."
 msgstr "Die arabisch-islamische Zivilisation zwischen 622 und 1495 n. Chr."
 
 #: data/nation/aragonese.ruleset:3
-#, fuzzy
 msgid "Aragonese"
-msgstr "Dragoner"
+msgstr "aragonesisch"
 
 #: data/nation/aragonese.ruleset:4
-#, fuzzy
 msgid "?plural:Aragonese"
-msgstr "Lankesen"
+msgstr "Aragonesen"
 
+# MG: Die spanischen "comunidades autónomas" sind keine "communities",
+# sondern Verwaltungseinheiten wie bei uns Bundesländer (mit ein
+# bisschen mehr Freiheiten) und werden üblicherweise als "spanische
+# autonome Region" übersetzt.
 #: data/nation/aragonese.ruleset:6
 msgid ""
 "Aragon was formed as a Frankish county and was elevated to a kingdom in the "
@@ -24353,6 +24415,13 @@ msgid ""
 "the base of the Spanish unification. The kingdom was legally dissolved in "
 "1707 but today Aragon continues to exist as an autonomous community of Spain."
 msgstr ""
+"Aragon wurde als fränkisches Bundlesland gegründet und im 11. Jahrhundert "
+"zum Königreich erhoben. Während der Reconquista erweiterte es sein "
+"Territorium nach Süden und kontrollierte in der Folge einen großten Teil des "
+"Mittelmeers; 1469 heiratete König Fernando II. Isabella von Kastilien, eine "
+"Vereinigung, die den Grundstein für die spätere spanische Einheit legen "
+"sollte. Das Königreich wurde im Jahre 1707 formell aufgelöst, aber Aragon "
+"existiert bis heute als spanische autonome Region."
 
 #: data/nation/aramean.ruleset:3
 msgid "Aramean"
@@ -24391,7 +24460,7 @@ msgstr ""
 "Argentinien liegt an der südöstlichen Küste von Südamerika. Seit seiner "
 "Unabhängigkeit von Spanien 1816 litt es unter mehreren inneren und äußeren "
 "Konflikten. In den Jahrzehnten nach dem zweiten Weltkrieg wurde die Politik "
-"von Juan Peron und seiner charismatischen Frau Eva 'Evita' Peron bestimmt."
+"von Juan Perón und seiner charismatischen Frau Eva »Evita« Perón bestimmt."
 
 #: data/nation/argentine.ruleset:28 data/nation/bolivian.ruleset:39
 #: data/nation/chiapanec.ruleset:33 data/nation/colombian.ruleset:27
@@ -24400,9 +24469,9 @@ msgstr ""
 #: data/nation/paraguayan.ruleset:36 data/nation/peruvian.ruleset:24
 #: data/nation/salvadoran.ruleset:40 data/nation/southamerican.ruleset:19
 #: data/nation/uruguayan.ruleset:21
-#, fuzzy, c-format
+#, c-format
 msgid "Comandante %s"
-msgstr "Genosse"
+msgstr "Comandante %s"
 
 #: data/nation/argentine.ruleset:28 data/nation/bolivian.ruleset:39
 #: data/nation/chiapanec.ruleset:33 data/nation/colombian.ruleset:27
@@ -24411,23 +24480,23 @@ msgstr "Genosse"
 #: data/nation/paraguayan.ruleset:36 data/nation/peruvian.ruleset:24
 #: data/nation/salvadoran.ruleset:40 data/nation/southamerican.ruleset:19
 #: data/nation/uruguayan.ruleset:21
-#, fuzzy, c-format
+#, c-format
 msgid "Comandanta %s"
-msgstr "kanadisch"
+msgstr "Comandanta %s"
 
 #: data/nation/argentine.ruleset:31 data/nation/colombian.ruleset:30
 #: data/nation/dominicano.ruleset:28 data/nation/peruvian.ruleset:26
 #: data/nation/venetian.ruleset:29
 #, c-format
 msgid "Viceroy %s"
-msgstr ""
+msgstr "Viceroy %s"
 
 #: data/nation/argentine.ruleset:31 data/nation/colombian.ruleset:30
 #: data/nation/dominicano.ruleset:28 data/nation/peruvian.ruleset:26
 #: data/nation/venetian.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Vicereine %s"
-msgstr "Version"
+msgstr "Vicereine %s"
 
 #: data/nation/armenian.ruleset:3
 msgid "Armenian"
@@ -24443,7 +24512,7 @@ msgid ""
 "great-great-grandson of Noah. The modern Republic of Armenia gained "
 "independence from the Soviet Union in 1991."
 msgstr ""
-"Nach der Legende sind die Armenier die Nachfahren von Haik - dem Ururenkel "
+"Nach der Legende sind die Armenier die Nachfahren von Haik — dem Ururenkel "
 "von Noah. Die moderne Republik Armenien erlangte 1991 die Unabhängigkeit von "
 "der Sowjetunion."
 
@@ -24460,22 +24529,24 @@ msgid ""
 "The Ashanti were an ancient kingdom in a region that is currently a part of "
 "Ghana. The first Ashanti kingdom was founded in the 11th century."
 msgstr ""
+"Die Ashanti waren ein antikes Königreich in einer Region, die heute Teil von "
+"Ghana ist; ihr erstes Königreich wurde im 11. Jahrhundert gegründet."
 
 #: data/nation/ashanti.ruleset:35 data/nation/benin.ruleset:29
 #: data/nation/hansa.ruleset:26 data/nation/romansh.ruleset:27
 #: data/nation/sammarinese.ruleset:24 data/nation/un.ruleset:23
 #: data/nation/uruguayan.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Councillor %s"
-msgstr "Bundeskanzler"
+msgstr "Ratsherr %s"
 
 #: data/nation/ashanti.ruleset:35 data/nation/benin.ruleset:29
 #: data/nation/hansa.ruleset:26 data/nation/romansh.ruleset:27
 #: data/nation/sammarinese.ruleset:24 data/nation/un.ruleset:23
 #: data/nation/uruguayan.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Councillor %s"
-msgstr "Bundeskanzler"
+msgstr "Ratsherrin %s"
 
 #: data/nation/ashanti.ruleset:36
 #, c-format
@@ -24489,12 +24560,11 @@ msgstr "Asantehene %s"
 
 #: data/nation/assamese.ruleset:3
 msgid "Assamese"
-msgstr ""
+msgstr "assamesisch"
 
 #: data/nation/assamese.ruleset:4
-#, fuzzy
 msgid "?plural:Assamese"
-msgstr "Aramäer"
+msgstr "Assamesen"
 
 #: data/nation/assamese.ruleset:6
 msgid ""
@@ -24504,6 +24574,11 @@ msgid ""
 "by the mighty Mughal Empire, effectively halting the Mughals' eastward "
 "expansion."
 msgstr ""
+"Das Königreich Assam (Ahom) wurde 1228 in den südöstlichen Vorgebirgen des "
+"Himalaya von einer Gruppe Shan, die aus der Region des heutigen Nordost-"
+"Birma emigrierten, gegründet. Ihre Könige errangen großartige Siege gegen "
+"Expeditionen des mächtigen Mogulreichs, die die östlich gerichtete Expansion "
+"der Moguln effektiv stoppten."
 
 #: data/nation/assyrian.ruleset:3
 msgid "Assyrian"
@@ -24539,6 +24614,14 @@ msgid ""
 "capital town was moved from Oviedo to Leon. Nowadays, Asturias is an "
 "autonomous community of Spain."
 msgstr ""
+"Die Asturier waren ein keltisches Volk, das den größten Teil der Nordküste "
+"Spaniens besiedelte. Sie kämpften bis zur Unterwerfung durch Cäsar Augustus’ "
+"Legionen zwischen 29 und 19 v.u.Z.. Zur Zeit des westgotischen Königreichs "
+"von Toledo gab es zwischenen diesem und den Asturiern problematische "
+"Beziehungen. 722 u.Z. bezwang König Pelayo die umayyadischen Truppen bei "
+"Covadonga und errichtete so das asturische Königreich, welches bis ins Jahr "
+"910 u.Z. währte, in dem die Hauptstadt von Oviedo nach Leon verlegt wurde. "
+"Heutzutage ist Asturien eine spanische autonome Region."
 
 #: data/nation/atlantean.ruleset:3
 msgid "Atlantean"
@@ -24577,7 +24660,6 @@ msgid "?plural:Australians"
 msgstr "?plural:Australier"
 
 #: data/nation/australian.ruleset:6
-#, fuzzy
 msgid ""
 "Australia was founded as a British penal colony in 1788 CE. Originally "
 "comprising several colonies (New South Wales, Victoria, Queensland, South "
@@ -24617,22 +24699,22 @@ msgstr ""
 #: data/nation/austrian.ruleset:47
 #, fuzzy, c-format
 msgid "Archduke %s"
-msgstr "Großherzog"
+msgstr "Großherzog %s"
 
 #: data/nation/austrian.ruleset:47
-#, fuzzy, c-format
+#, c-format
 msgid "Archduchess %s"
-msgstr "Herzogin"
+msgstr "Großherzögin %s"
 
 #: data/nation/austrian.ruleset:48 data/nation/german.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "Kaiser %s"
-msgstr "Laser"
+msgstr "Kaiser %s"
 
 #: data/nation/austrian.ruleset:48 data/nation/german.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "Kaiserin %s"
-msgstr "nigerianisch"
+msgstr "Kaiserin %s"
 
 #: data/nation/avar.ruleset:3
 msgid "Avar"
