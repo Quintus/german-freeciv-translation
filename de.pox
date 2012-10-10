@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-27 23:18+0200\n"
+"POT-Creation-Date: 2012-10-10 21:09+0200\n"
 "PO-Revision-Date: 2012-08-30 11:35+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
@@ -424,7 +424,7 @@ msgstr ""
 
 #. TRANS: No full stop after the URL, could cause confusion.
 #: client/agents/cma_core.c:431 client/gui-sdl/mapview.c:159
-#: server/console.c:71 server/srv_main.c:2526 utility/log.c:516
+#: server/console.c:71 server/srv_main.c:2530 utility/log.c:516
 #: utility/netintf.c:93 utility/registry.c:893
 #, c-format
 msgid "Please report this message at %s"
@@ -10309,11 +10309,11 @@ msgstr "Beginn des %d. Zugs"
 msgid "Welcome"
 msgstr "Willkommen"
 
-#: client/packhand.c:1978
+#: client/packhand.c:1981
 msgid "AI mode is now ON."
 msgstr "KI-Modus EINGESCHALTET."
 
-#: client/packhand.c:1980
+#: client/packhand.c:1983
 msgid "AI mode is now OFF."
 msgstr "KI-Modus AUSGESCHALTET."
 
@@ -36349,8 +36349,13 @@ msgid "Setup of ai module %s failed."
 msgstr "Der Versuch, ein Weltwunder in %s zu errichten, mißlang."
 
 #: server/aiiface.c:176
-msgid "Failed to setup default ai module, cannot continue."
+msgid "Failed to setup default AI module, cannot continue."
 msgstr ""
+
+#: server/aiiface.c:187
+#, fuzzy
+msgid "Failed to setup threaded AI module"
+msgstr "Fehler bei der Generierung des neuen KI-Spielers: %s."
 
 #: server/auth.c:88
 #, c-format
@@ -37324,6 +37329,10 @@ msgstr ""
 
 #: server/civserver.c:424
 msgid "Load ai module MODULE. Can appear multiple times"
+msgstr ""
+
+#: server/civserver.c:440
+msgid "Requested authentication with --auth, but no --Database given\n"
 msgstr ""
 
 #: server/commands.c:53
@@ -39286,14 +39295,14 @@ msgstr ""
 msgid "No units placed for %s!"
 msgstr "%s hat keine Einheiten!"
 
-#: server/gamehand.c:549
+#: server/gamehand.c:551
 #, fuzzy
 msgid "The turn timeout has exceeded its maximum value, fixing at its maximum."
 msgstr ""
 "Die zulässige Rundenzeit hat das Maximum überschritten, sie wird auf den "
 "Maximalwert gesetzt."
 
-#: server/gamehand.c:557
+#: server/gamehand.c:559
 msgid "The turn timeout is smaller than zero, fixing at zero."
 msgstr "Die zulässige Rundenzeit ist negativ, sie wird auf Null gesetzt."
 
@@ -42812,12 +42821,12 @@ msgstr "Das Spiel ist vorbei..."
 msgid "Failed to create suitable map, retrying with another mapseed"
 msgstr ""
 
-#: server/srv_main.c:2524
+#: server/srv_main.c:2528
 #, fuzzy
 msgid "Cannot create suitable map with given settings."
 msgstr "Kann keine %s auf diesem Gelände erzeugen."
 
-#: server/srv_main.c:2722
+#: server/srv_main.c:2726
 msgid "Now accepting new client connections."
 msgstr "Warte auf Spieler..."
 
@@ -44597,7 +44606,7 @@ msgstr ""
 msgid "Insufficient science output. We lost %s."
 msgstr "Unzureichendes Forschungstempo. Wir haben %s verloren."
 
-#: server/techtools.c:576
+#: server/techtools.c:583
 #, c-format
 msgid ""
 "The required technology for our government '%s' was lost. The citizens have "
@@ -44607,7 +44616,7 @@ msgstr ""
 "erforderlichen Kenntnisse verloren gingen! Das Volk hat eine Revolution mit "
 "dem Ziel »%s« begonnen!"
 
-#: server/techtools.c:599
+#: server/techtools.c:606
 #, c-format
 msgid ""
 "The required technology for our new government '%s' was lost. The citizens "
@@ -44616,34 +44625,34 @@ msgstr ""
 "Die für Ihre angestrebte Regierungsform »%s« erforderlichen Kenntnisse sind "
 "verloren gegangen. Die Bürger entschieden sich stattdessen für »%s«."
 
-#: server/techtools.c:637 server/techtools.c:649
+#: server/techtools.c:644 server/techtools.c:656
 #, c-format
 msgid "%s can't build %s. The required technology was lost."
 msgstr ""
 "%s kann %s nicht bauen, da die erforderlichen Kenntnisse in Vergessenheit "
 "geraten sind."
 
-#: server/techtools.c:766
+#: server/techtools.c:773
 #, c-format
 msgid "Technology goal is %s."
 msgstr "Unser Forschungsziel ist %s."
 
-#: server/techtools.c:975
+#: server/techtools.c:982
 #, c-format
 msgid "You steal %s from the %s."
 msgstr "Sie haben %s von den %s gestohlen."
 
-#: server/techtools.c:980
+#: server/techtools.c:987
 #, c-format
 msgid "The %s stole %s from you!"
 msgstr "Die %s haben %s von Ihnen gestohlen!"
 
-#: server/techtools.c:985
+#: server/techtools.c:992
 #, c-format
 msgid "The %s have stolen %s from the %s."
 msgstr "Die %s haben %s von den %s gestohlen."
 
-#: server/techtools.c:1105
+#: server/techtools.c:1112
 #, c-format
 msgid "Too bad! You made a mistake transferring the tech %s and lost it."
 msgstr ""
@@ -45549,13 +45558,13 @@ msgid_plural "seconds"
 msgstr[0] "Sekunde"
 msgstr[1] "Sekunden"
 
-#: utility/support.c:421
+#: utility/support.c:425
 #, c-format
 msgid "error %ld (failed FormatMessage)"
 msgstr "error %ld (failed FormatMessage)"
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
-#: utility/support.c:434
+#: utility/support.c:438
 #, c-format
 msgid "error %d (compiled without strerror)"
 msgstr "error %d (compiled without strerror)"
