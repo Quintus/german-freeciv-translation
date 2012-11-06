@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-10 21:09+0200\n"
-"PO-Revision-Date: 2012-10-10 23:08+0200\n"
+"PO-Revision-Date: 2012-11-06 13:02+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -20863,9 +20863,8 @@ msgstr ""
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:920
-#, fuzzy
 msgid " Migration"
-msgstr "Bewässerung"
+msgstr " Migration"
 
 #: data/helpdata.txt:921
 msgid ""
@@ -20873,6 +20872,10 @@ msgid ""
 "relative attractions of living in each city. Whether migration is enabled is "
 "controlled by the server option `migration'; it is disabled by default."
 msgstr ""
+"»Migration« bezeichnet den durch die relative Attraktivität des Lebens in "
+"einer anderen Stadt ausgelösten Umzug von Bürgern von einer Stadt in eine "
+"andere. Sie kann über die Serveroption »migration« kontrolliert werden, ist "
+"aber standardmäßig ausgeschaltet."
 
 #: data/helpdata.txt:926
 msgid ""
@@ -20880,6 +20883,11 @@ msgid ""
 "game may migrate to a nearby, more attractive city, either within the same "
 "nation or even across national borders (to a lesser extent, by default)."
 msgstr ""
+"Ist Migration eingeschaltet, so kann es hin und wieder vorkommen, dass ein "
+"Bürger einer Stadt sich entscheidet, in eine andere, nahegelegene Stadt "
+"umzuziehen, die ihm attraktiver erscheint. Diese muss nicht notwendigerweise "
+"derselben Nation wie die ursprüngliche Stadt angehören (auch wenn die Hürde "
+"einer Auswanderung in eine andere Nation standardmäßig höher ist)."
 
 #: data/helpdata.txt:931
 msgid ""
@@ -20889,22 +20897,34 @@ msgid ""
 "order of importance. (Each factor counts for much more in the citizen's "
 "current city, as they prefer not to move without a compelling reason.)"
 msgstr ""
+"Sie können die Migration von Bürgern nicht direkt verhindern oder "
+"anderweitig beeinflussen. Es ist jedoch möglich, die Attraktivität Ihrer "
+"Städte zu steigern, indem Sie die folgenden Faktoren berücksichtigen (jeder "
+"Faktor ist für die Stadt, in der ein Bürger zurzeit lebt, von ungleich "
+"größerer Bedeutung, da Bürger es vorziehen, nicht ohne schwerwiegenden Grund "
+"umzuziehen):"
 
 #: data/helpdata.txt:938
 msgid " - City size."
-msgstr ""
+msgstr " • Stadtgröße."
 
 #: data/helpdata.txt:940
 msgid ""
 " - The number of happy citizens. (To a lesser extent, unhappy and angry "
 "citizens reduce the desirability of a city.)"
 msgstr ""
+" • Die Anzahl glücklicher Bürger (unzufriedene und verärgerte Bürger haben "
+"zwar einen negativen Einfluss auf die Attraktivität einer Stadt, allerdings "
+"ist der durch glückliche Bürger verursachte Effekt größer)."
 
 #: data/helpdata.txt:943
 msgid ""
 " - In rulesets where nationality is enabled, citizens have a strong "
 "preference to move to cities of their own nationality."
 msgstr ""
+" • In Regelsätzen, in denen Nationalität eingeschaltet ist, ziehen Bürger "
+"den Umzug in eine Stadt der eigenen Nation stark dem Umzug in eine fremde "
+"Nation vor."
 
 #: data/helpdata.txt:946
 msgid ""
@@ -20912,20 +20932,29 @@ msgid ""
 "desirability (further wonders do not contribute except by the lesser effect "
 "of their build cost)."
 msgstr ""
+" • Die Existenz eines Weltwunders in einer Stadt wird deren Attraktivität "
+"stark steigern (weitere Weltwunder verstärken diesen Effekt abgesehen von "
+"den Baukosten nicht)."
 
 #: data/helpdata.txt:950
 msgid ""
 " - Capital cities are more attractive than other cities, all other factors "
 "being equal; in addition, citizens will never migrate out of a capital city."
 msgstr ""
+" • Hauptstädte sind attraktiver als andere Städte, wenn alle anderen "
+"Faktoren gleich sind; abgesehen davon werden Bürger niemals aus einer "
+"Hauptstadt emigrieren."
 
 #: data/helpdata.txt:954
 msgid " - A high risk of plague reduces a city's attractiveness."
 msgstr ""
+" • Ein erhöhtes Seuchenrisiko verringert die Attraktivität einer Stadt."
 
 #: data/helpdata.txt:956
 msgid " - Food surplus. (A food deficit reduces the desirability of a city.)"
 msgstr ""
+" • Nahrungsüberschuss (ein Mangel an Nahrung reduziert die Attraktivität "
+"einer Stadt)."
 
 #: data/helpdata.txt:958
 msgid ""
@@ -20933,21 +20962,23 @@ msgid ""
 "distance that a citizen is prepared to migrate is controlled by the server "
 "option `mgr_dist'."
 msgstr ""
+" • Weit entfernte Städte sind ein generell wenig wünschenswertes Ziel für "
+"potenzielle Migranten. Die maximale Entfernung, die ein Bürger "
+"zuzrückzulegen bereit ist, wird durch die Serveroption »mgr_dist« festgelegt."
 
 #: data/helpdata.txt:962
-#, fuzzy
 msgid " - Trade surplus."
-msgstr "%4d : Gesamtüberschuß"
+msgstr " • Handelsüberschuss."
 
 #: data/helpdata.txt:964
-#, fuzzy
 msgid " - Luxury and science output."
-msgstr "Wählen Sie Steuer-, Luxus- und Forschungsquote"
+msgstr " • Luxus- und Wissenschaftsausstoß."
 
 #: data/helpdata.txt:966
 msgid ""
 " - The quantity of city improvements (and wonders), measured by build cost."
 msgstr ""
+" • Die Menge an Stadterweiterungen (und Wundern), gemessen an den Baukosten."
 
 #: data/helpdata.txt:969
 msgid ""
@@ -20956,6 +20987,11 @@ msgid ""
 "cities; these are noted in other sections of the help. (The default ruleset "
 "contains no such effects.)"
 msgstr ""
+" • Abhängig vom Regelsatz können einige weitere Faktoren wie etwa die "
+"Regierungsform und Stadterweitungen hinzukommen, die die Attraktivität einer "
+"Stadt steigern oder senken; diese werden an den entsprechenden Stellen in "
+"der Hilfe angesprochen (das Standardregelwerk enthält keine derartigen "
+"Effekte)."
 
 #: data/helpdata.txt:974
 msgid ""
@@ -20964,6 +21000,11 @@ msgid ""
 "the server option `mgr_foodneeded' is set, they will not migrate to cities "
 "which would not have enough food to support them."
 msgstr ""
+"Ein Bürger wird niemals in eine Stadt umziehen, die aufgrund einer fehlenden "
+"Stadterweiterung wie etwa einem Aquädukt keine weiteren Bürger aufnehmen "
+"kann. Ist die Serveroption »mgr_foodneeded« gesetzt, so werden Bürger auch "
+"nicht in Städte ziehen, die nicht ausreichend Nahrung zu ihrer Versorgung "
+"zur Verfügung stellen könnten."
 
 #: data/helpdata.txt:979
 msgid ""
@@ -20973,12 +21014,20 @@ msgid ""
 "and the last citizen from your only remaining city will never migrate to "
 "another nation."
 msgstr ""
+"Migration kann sogar dazu führen, dass ganze Städte vollständig verlassen "
+"werden — Eigentumsrechte an Einheiten werden auf Ihre nächstgelegene Stadt "
+"übertragen —, jedoch wird dies nicht bei Städten, die Weltwunder "
+"beherbergen, geschehen, sodass das Weltwunder nicht zerstört wird. Auch wird "
+"der letzte verbliebene Bürger Ihrer letzten verbliebenen Stadt nicht zu "
+"einer anderen Nation überlaufen."
 
 #: data/helpdata.txt:985
 msgid ""
 "Several of the details of migration can be changed with the `mgr_*' server "
 "options."
 msgstr ""
+"Zahlreiche Details der Migration können mit den Serveroptionen der »mgr_*«-"
+"Gruppe feinjustiert werden."
 
 #: data/helpdata.txt:992
 msgid ""
@@ -23636,10 +23685,10 @@ msgid ""
 "city on the Iberian peninsula, Granada, fell in 1492."
 msgstr ""
 "Al-Andalus war im Mittelalter der Teil der iberischen Halbinsel, der unter "
-"muslimischer Kontrolle stand und ist vor allem für ihr beeindruckendes "
-"architektonisches Erbe bekannt. Es wurde im Rahmen der Reconquista und "
-"diverser christlicher Königreiche langsam zurückerobert, bis schließlich "
-"ihre letzte Stadt auf der iberischen Halbinsel, Granada, 1492 fiel."
+"muslimischer Kontrolle stand und ist vor allem für sein beeindruckendes "
+"architektonisches Erbe bekannt. Es wurde im Rahmen der Reconquista durch die "
+"christlichen Königreiche langsam zurückerobert, bis schließlich ihre letzte "
+"Stadt auf der iberischen Halbinsel, Granada, 1492 fiel."
 
 #: data/nation/alandalus.ruleset:31 data/nation/amazigh.ruleset:71
 #: data/nation/arab.ruleset:22 data/nation/bahraini.ruleset:25
@@ -23973,15 +24022,15 @@ msgstr "Ministerpräsidentin %s"
 
 #: data/nation/alsatian.ruleset:26 data/nation/romansh.ruleset:28
 #: data/nation/swiss.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "Bailiff %s"
-msgstr "Amtmann"
+msgstr "Amtmann %s"
 
 #: data/nation/alsatian.ruleset:26 data/nation/romansh.ruleset:28
 #: data/nation/swiss.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Bailiff %s"
-msgstr "Amtmann"
+msgstr "Amtfrau %s"
 
 #: data/nation/alsatian.ruleset:27 data/nation/andorran.ruleset:25
 #: data/nation/anhaltian.ruleset:33 data/nation/antiguan.ruleset:22
@@ -24056,7 +24105,7 @@ msgstr "Bürgermeister %s"
 #: data/nation/westphalian.ruleset:34
 #, c-format
 msgid "?female:Burgomaster %s"
-msgstr "Bürgermeister %s"
+msgstr "Bürgermeisterin %s"
 
 #: data/nation/amazigh.ruleset:3
 msgid "Amazigh"
@@ -24380,6 +24429,12 @@ msgid ""
 "the Far North around 1000 CE. The Apache are known as fierce warriors. In "
 "the 19th century it took the United States half a century to subdue them."
 msgstr ""
+"Die Apachen sind eine Gruppe Athapaskisch sprechender Indianerstämme, die in "
+"Arizona, New Mexico und Oklahoma leben und sich aus den Western, Chiricahua, "
+"Mescalero, Jicarilla, Lipan und Plains Apache zusammensetzen. Sie stammen "
+"ursprünglich aus dem hohen Norden, von wo sie um etwa 1000 v.u.Z. in ihre "
+"heutigen Regionen gelangten und gelten als mutige Krieger, für deren "
+"Unterwerfung die USA das halbe 19. Jahrhundert benötigten."
 
 #: data/nation/arab.ruleset:3
 msgid "Arab"
@@ -24396,11 +24451,11 @@ msgstr "Die arabisch-islamische Zivilisation zwischen 622 und 1495 n. Chr."
 
 #: data/nation/aragonese.ruleset:3
 msgid "Aragonese"
-msgstr "aragonesisch"
+msgstr "aragonisch"
 
 #: data/nation/aragonese.ruleset:4
 msgid "?plural:Aragonese"
-msgstr "Aragonesen"
+msgstr "Aragoner"
 
 # MG: Die spanischen "comunidades autónomas" sind keine "communities",
 # sondern Verwaltungseinheiten wie bei uns Bundesländer (mit ein
@@ -24415,12 +24470,12 @@ msgid ""
 "the base of the Spanish unification. The kingdom was legally dissolved in "
 "1707 but today Aragon continues to exist as an autonomous community of Spain."
 msgstr ""
-"Aragon wurde als fränkisches Bundlesland gegründet und im 11. Jahrhundert "
+"Aragón wurde als fränkisches Bundlesland gegründet und im 11. Jahrhundert "
 "zum Königreich erhoben. Während der Reconquista erweiterte es sein "
 "Territorium nach Süden und kontrollierte in der Folge einen großten Teil des "
 "Mittelmeers; 1469 heiratete König Fernando II. Isabella von Kastilien, eine "
 "Vereinigung, die den Grundstein für die spätere spanische Einheit legen "
-"sollte. Das Königreich wurde im Jahre 1707 formell aufgelöst, aber Aragon "
+"sollte. Das Königreich wurde im Jahre 1707 formell aufgelöst, aber Aragón "
 "existiert bis heute als spanische autonome Region."
 
 #: data/nation/aramean.ruleset:3
@@ -24695,9 +24750,21 @@ msgid ""
 "Germany in the Anschluss in 1938. This lasted until the end of World War II "
 "in 1945, after which Austria was occupied by the Allies."
 msgstr ""
+"Die Ursprünge Österreichs datieren auf die Zeit des römischen Imperiums "
+"zurück, als das keltische Königreich um 15 v.u.Z. von den Römern besiegt "
+"wurde und später, im ersten Jahrhundert u.Z., zur römischen Provinz Noricum "
+"wurde, die ein etwa dem heutigen Österreich enstprechendes Areal umfasste. "
+"Im Jahre 788 u.Z. eroberte der fränkische König Karl der Große das Gebiet "
+"und führte das Christentum ein; unter der habsburgischen Dynastie wurde "
+"Österreich schließlich eine der großen Mächte in Europa. 1867 wurde das "
+"österreiche Imperium zur Doppelmonarchie Österreich-Ungarn, die 1918 mit dem "
+"Ende des Ersten Weltkriegs kollabierte. Nachdem 1919 die Erste "
+"Österreichische Republik errichtet worden war, trat Österreich 1938 im "
+"sogenannten »Anschluss« Nazi-Deutschland bei. Nach dem Ende des Zweiten "
+"Weltkriegs 1945 wurde Österreich von den Truppen der Alliierten besetzt."
 
 #: data/nation/austrian.ruleset:47
-#, fuzzy, c-format
+#, c-format
 msgid "Archduke %s"
 msgstr "Großherzog %s"
 
@@ -24718,12 +24785,11 @@ msgstr "Kaiserin %s"
 
 #: data/nation/avar.ruleset:3
 msgid "Avar"
-msgstr ""
+msgstr "awarisch"
 
 #: data/nation/avar.ruleset:4
-#, fuzzy
 msgid "?plural:Avars"
-msgstr "?plural:Araber"
+msgstr "Awaren"
 
 #: data/nation/avar.ruleset:6
 msgid ""
@@ -24735,16 +24801,23 @@ msgid ""
 "Gradually they lost power and political importance and eventually the Avars "
 "blended with Slavic peoples."
 msgstr ""
+"Die Awaren oder Eurasische Awaren waren eine antike nomadische Konföderation "
+"gemischten Ursprunges. Die dominierende Sprache dieser Gruppe war vermutlich "
+"Proto-Bulgarisch innerhalb der türkisch-oghusischen Sprachgruppe, alledings "
+"liegen die wahren Ursprünge der Awaren im Dunkeln; es ist auch möglich, dass "
+"es sich bei ihnen tatsächlich um eine rouranische oder hephthalitische "
+"Gruppe handelte. Nachdem sie in Pannonien gesiedelt hatten, unterwarfen sie "
+"die lokalen slawischen Stämme, verloren dann aber nach und nach Macht und "
+"politischen Einfluss, bis sie schließlich mit den slawischen Völkern "
+"gleichgesetzt wurden."
 
 #: data/nation/aymara.ruleset:3
-#, fuzzy
 msgid "Aymara"
-msgstr "arabisch"
+msgstr "aymarisch"
 
 #: data/nation/aymara.ruleset:4
-#, fuzzy
 msgid "?plural:Aymaras"
-msgstr "?plural:Araber"
+msgstr "Aymara"
 
 #: data/nation/aymara.ruleset:6
 msgid ""
@@ -24752,16 +24825,19 @@ msgid ""
 "reorganized into a set of culturally close Aymara kingdoms that thrived "
 "around the Titicaca lake until they were conquered by the Incas."
 msgstr ""
+"Nach dem Zusammenbruch der Zivilisation der Tiwanaku in den Anden "
+"organisierten sich deren Erben neu und bildeten eine Anzahl kulturell eng "
+"verwandter Aymara-Königreiche, die in der Gegend des Titicaca-Sees "
+"siedelten, bis sie von den Inka unterworfen wurden."
 
 #: data/nation/azeri.ruleset:3
-#, fuzzy
 msgid "Azeri"
-msgstr "algerisch"
+msgstr "azerisch"
 
 #: data/nation/azeri.ruleset:4
 #, fuzzy
 msgid "?plural:Azeris"
-msgstr "?plural:Azteken"
+msgstr "Azeri"
 
 #: data/nation/azeri.ruleset:6
 msgid ""
@@ -24772,28 +24848,31 @@ msgid ""
 "Islamic republic in history. Then Azerbaijan became part of the Soviet Union "
 "until its dissolution in 1991."
 msgstr ""
+"Die Azeri sind das Volk von Aserbaidschan. Das Territorium des modernen "
+"Aserbaidschan war Zeuge verschiedener Aufstiege und Fälle antiker Staaten in "
+"der Kaukasusregion und wurde 1813 Teil des russischen Königreichs, worauf "
+"1918-1920 eine kurze Periode der Unabhängigkeit folgte — die erste "
+"Islamische Republik der Geschichte. Danach wurde Aserbaidschan Teil der "
+"Sowietunion bis zu deren Auflösung 1991."
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/babylonian.ruleset:7
-#, fuzzy
 msgid ""
 "Babylon was the dominant city of Mesopotamia from the 18th to 7th centuries "
 "BCE under a succession of peoples including Amorites, Kassites, Assyrians, "
 "and Chaldeans."
 msgstr ""
-"Babylon war zwischen dem 18. und 7. Jahrhundert v. Chr. die beherrschende "
+"Babylon war zwischen dem 18. und 7. Jahrhundert v.u.Z. die beherrschende "
 "Stadt in Mesopotamien, während dort Völker wie die Ammoriter, Kassiten, "
 "Assyrer und die Chaldäer lebten."
 
 #: data/nation/badian.ruleset:3
-#, fuzzy
 msgid "Badian"
-msgstr "bajuwarisch"
+msgstr "badisch"
 
 #: data/nation/badian.ruleset:4
-#, fuzzy
 msgid "?plural:Badians"
-msgstr "Bajuwaren"
+msgstr "Bader"
 
 #: data/nation/badian.ruleset:6
 msgid ""
@@ -24801,28 +24880,30 @@ msgid ""
 "it was merged with Wuerttemberg and Hohenzollern to form the land of Baden-"
 "Wuerttemberg."
 msgstr ""
+"Baden war ein Land in Schwaben, Südwestdeutschland. Nach dem Zweiten "
+"Weltkrieg wurde es mit Württemberg und Hohenzollern zum Land Baden-"
+"Württemberg vereinigt."
 
 #: data/nation/badian.ruleset:23 data/nation/brandenburgian.ruleset:27
 #: data/nation/friulian.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Margrave %s"
-msgstr "Karavelle"
+msgstr "Markgraf %s"
 
 #: data/nation/badian.ruleset:23 data/nation/brandenburgian.ruleset:27
 #: data/nation/friulian.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Margravine %s"
-msgstr "Marines"
+msgstr "Markgräfin %s"
 
 #: data/nation/bahamian.ruleset:3
-#, fuzzy
 msgid "Bahamian"
-msgstr "Vorsitzender"
+msgstr "bahamisch"
 
 #: data/nation/bahamian.ruleset:4
 #, fuzzy
 msgid "?plural:Bahamians"
-msgstr "Bajuwaren"
+msgstr "Bahamer"
 
 #: data/nation/bahamian.ruleset:6
 msgid ""
@@ -24835,15 +24916,23 @@ msgid ""
 "The Bahamas are the most developed country of Latin America and the "
 "Caribbean as well as the world's wealthiest black-majority country."
 msgstr ""
+"Die Bahamas sind eine Inselgruppe in Nordamerika, auf denen Kolumbus "
+"irgendwo erstmals seinen Fuß auf amerikanischen Boden setzte. Danach wurden "
+"die Inseln entvölkert und meistenteils ignoriert, bevor sie im 17. Jh. "
+"wieder von britischen Kolonisten besiedelt wurden. Seit 1973 sind die "
+"Bahamas ein unabhängiger Staat im Commonwealth und heutzutage vor allem für "
+"ihre Strände bekannt, aber sie sind auch ein großes, küstenfernes "
+"Finanzzentrum. Sie sind das am weitesten entwickelte Land Lateinamerikas und "
+"der Karibik und außerdem das wohlhabendste Land der Welt, dessen größter "
+"Bevölkerungsanteil von Schwarzen gestellt wird."
 
 #: data/nation/bahraini.ruleset:3
 msgid "Bahraini"
-msgstr ""
+msgstr "bahrainisch"
 
 #: data/nation/bahraini.ruleset:4
-#, fuzzy
 msgid "?plural:Bahrainis"
-msgstr "?plural:Barbaren"
+msgstr "Bahraini"
 
 #: data/nation/bahraini.ruleset:6
 msgid ""
@@ -24853,16 +24942,21 @@ msgid ""
 "became a constitutional monarchy in 2001 but a pro-democracy uprising in "
 "2011 was violently crushed."
 msgstr ""
+"Bahrain ist ein Inselstaat im Persischen Golf und das kleinste Land im "
+"mittleren Osten. Es ist seit dem 18. Jh. unabhängig von Persien, war aber "
+"bis 1971 ein britisches Protektorat, bevor es 2001 zu einer "
+"konstitutionellen Monarchie wurde. 2011 jedoch wurde ein pro-demokratischer "
+"Aufstand brutal niedergeschlagen."
 
 #: data/nation/bahraini.ruleset:26 data/nation/sudanese.ruleset:19
-#, fuzzy, c-format
+#, c-format
 msgid "Mahdi %s"
-msgstr "in %s"
+msgstr "Mahdi %s"
 
 #: data/nation/bahraini.ruleset:26 data/nation/sudanese.ruleset:19
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Mahdi %s"
-msgstr "Genossin"
+msgstr "Mahdi %s"
 
 #: data/nation/bangladeshi.ruleset:3
 #, fuzzy
