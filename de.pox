@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-10 21:09+0200\n"
-"PO-Revision-Date: 2012-11-06 13:02+0100\n"
+"PO-Revision-Date: 2012-11-06 14:20+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -21144,18 +21144,21 @@ msgid ""
 "recovery (such as the United Nations in the default ruleset). Damaged units "
 "in Sentry mode will wake up when they have regained all of their hit points."
 msgstr ""
-"Im Kampf beschädigte Einheiten regenerieren 1 Trefferpunkt in jeder Runde, "
-"in der sie sich nicht bewegen. Landeinheiten in einer Stadt mit Kaserne, "
-"Marineeinheiten in einer Stadt mit Werft oder Luftwaffeneinheiten in einer "
-"Stadt mit Flughafen erhalten in einer Runde ohne Bewegung alle verlorenen "
-"Trefferpunkte zurück. In anderen Städten werden 1/3 der ursprünglichen "
-"Trefferpunkte zurückgewonnen. Einheiten in befestigten Stellungen erhalten "
-"1/4 der ursprünglichen Trefferpunkte, eingegrabene Einheiten 1 zusätzlichen "
-"Trefferpunkt zurück. Besitz ein Spieler das Weltwunder 'Vereinte Nationen', "
-"so erhalten alle beschädigten Einheiten 2 zusätzliche Trefferpunkte zurück. "
-"(Auch die, die sich bewegt haben.) Beschädigte Einheiten im 'Wachen'-Modus "
-"werden automatisch alarmiert, wenn sie wieder volle Kampfstärke erreicht "
-"haben."
+"Im Kampf verletzte Einheiten regenerieren Trefferpunkte in jeder Runde, in "
+"der sie nicht bewegt werden. Normalerweise regeneriert sich eine Einheit, "
+"die nicht bewegt wurde, um einen Trefferpunkt pro Runde, allerdings erhalten "
+"eingegrabene Einheiten einen extra Trefferpunkt. Verbleibt eine Einheit eine "
+"Runde lang in einer Stadt, erhält sie ein Drittel ihrer ursprünglichen "
+"Trefferpunkte zurück, darüberhinaus können Stadterweiterungen, die den "
+"jeweiligen Einheitentyp begünstigen, dies weiter verbessern. Auf dem Land "
+"können Basen die Regenerationsrate verbessern (beispielsweise haben "
+"Festungen im Standardregelsatz diesen Effekt), allerdings müssen Einheiten "
+"eine volle Runde auf dem betreffenden Feld verbleiben, um diesen "
+"Regenerationsbonus zu erhalten. Auch können Weltwunder — zum Beispiel die "
+"Vereinten Nationen im Standardregelsatz — den Regenerationsprozess "
+"beschleunigen. Beschädigte Einheiten, die sich im Bewachen-Modus befinden, "
+"werden automatisch alarmiert, wenn sie wieder ihre volle Kampfstärke "
+"erreicht haben."
 
 #: data/helpdata.txt:1095
 msgid ""
@@ -21169,9 +21172,18 @@ msgid ""
 "of the total; however, in some rulesets (but not the default) it will lose "
 "some or all of its veteran levels."
 msgstr ""
+"Im Laufe der Zeit werden neue Einheiten verfügbar werden, die vorangegangene "
+"Typen veralten. Erforschen Sie eine solche Technologie, so bleiben Ihre "
+"bisherigen Einheiten intakt, jedoch können Sie keine neuen Einheiten des "
+"obsoleten Typs errichten. Eine obsolete Einheit kann in eine Ihrer Städte "
+"bewegt werden, um sie dort gegen Bezahlung auf ihren neusten gleichwertigen "
+"Typ zu modernisieren, wobei sich die Kosten mit dem Unterschied zwischen den "
+"Produktionskosten der beiden Typen erhöhen. Wird eine Einheit modernisiert, "
+"bleiben ihre Treffer- und Bewegungspunkte als Anteil vom Ganzen erhalten; in "
+"einigen Regelsätzen (allerdings nicht im Standardregelsatz) wird sie zudem "
+"einige oder alle ihrer Veteranenränge verlieren."
 
 #: data/helpdata.txt:1113
-#, fuzzy
 msgid ""
 "Default Combat Rules\n"
 "--------------------"
@@ -21186,7 +21198,7 @@ msgid ""
 "missile).  The outcome depends on several factors, including chance."
 msgstr ""
 "Wenn eine Einheit eine andere Einheit angreift, wird entweder der Angreifer "
-"oder Verteidiger zerstört - niemals beide (außer bei Raketen). Der Ausgang "
+"oder Verteidiger zerstört — niemals beide (außer bei Raketen). Der Ausgang "
 "der Kampfhandlungen hängt von mehreren Faktoren ab, darunter auch dem Zufall."
 
 #: data/helpdata.txt:1119
@@ -21196,6 +21208,11 @@ msgid ""
 "defenders, but few for attackers, aside from veteran status; an attacking "
 "unit can mostly expect circumstance to work against it."
 msgstr ""
+"Die nachfolgende Beschreibung betrifft den Standardregelsatz, aber die Idee "
+"ist für jeden Regelsatz ähnlich. Beachten Sie außerdem, dass zahlreiche Boni "
+"für Verteidiger möglich sind, jedoch abgesehen vom Veteranenstatus kaum Boni "
+"für Angreifer verfügbar sind; eine angreifende Einheit kann meist davon "
+"ausgehen, dass die Umstände gegen sie arbeiten."
 
 #: data/helpdata.txt:1124
 msgid "First, the attacker's strength is modified."
@@ -21206,25 +21223,28 @@ msgstr "Zunächst wird die Stärke des Angreifers modifiziert."
 msgid ""
 " - If the attacker is a veteran, its strength is multiplied by the bonus "
 "associated with its veteran level."
-msgstr " - Bei Veteranen wird die Stärke mit 1,5 multipliziert."
+msgstr ""
+" • Bei Veteranen wird die Stärke mit dem Bonusfaktor des betreffenden "
+"Veteranengrades multipliziert."
 
 #: data/helpdata.txt:1129
 msgid "Next, the defender's strength is modified."
 msgstr "Danach wird die Stärke des Verteidigers modifiziert."
 
 #: data/helpdata.txt:1131
-#, fuzzy
 msgid ""
 " - If the defender is a veteran, then its strength is multiplied by the "
 "bonus associated with its veteran level."
-msgstr " - Bei Veteranen wird die Stärke mit 1,5 multipliziert."
+msgstr ""
+" • Bei Veteranen wird die Stärke mit dem Bonusfaktor des betreffenden "
+"Veteranengrades multipliziert."
 
 #: data/helpdata.txt:1134
 msgid ""
 " - Then the defender's strength is multiplied by the defense factor of the "
 "terrain it occupies."
 msgstr ""
-" - Danach wird die Stärke mit dem Verteidigungswert des Geländes "
+" • Danach wird die Stärke mit dem Verteidigungswert des Geländes "
 "multipliziert."
 
 #: data/helpdata.txt:1137
@@ -21232,40 +21252,41 @@ msgid ""
 " - Next, the defender's strength is doubled if it is a Pikeman unit "
 "defending against a mounted unit."
 msgstr ""
-" - Nun wird die Stärke des Verteidigers verdoppelt, wenn dieser ein "
-"'Lanzenkämpfer' und der Angreifer 'beritten' ist."
+" • Nun wird die Stärke des Verteidigers verdoppelt, wenn dieser vom Typ "
+"»Lanzenkämpfer« und der Angreifer eine berittene Einheit ist."
 
 #: data/helpdata.txt:1140
 msgid ""
 " - If the defender is an AEGIS Cruiser defending against airborne units "
 "(including missiles and Helicopters), the defense is quintupled."
 msgstr ""
-" - Ist der Verteidiger ein AEGIS-Kreuzer und der Angreifer irgendein "
-"Flugkörper, wird die Verteidigung verfünffacht."
+" • Ist der Verteidiger ein AEGIS-Kreuzer und der Angreifer irgendein "
+"Fluggerät (eingeschlossen Raketen und Helikopter), wird die Verteidigung "
+"verfünffacht."
 
 #: data/helpdata.txt:1144
-#, fuzzy
 msgid ""
 " - The defender's strength is doubled again if it is in a city with a SAM "
 "Battery and the attacker is an air unit (other than a Helicopter or a "
 "missile)."
 msgstr ""
-" - Wenn sich der Verteidiger in einer Stadt mit einer SAM Batterie befindet "
-"und der Angreifer eine Luftwaffeneinheit (kein Hubschrauber!) ist, wird "
-"seine Stärke nochmals verdoppelt."
+" • Wenn sich der Verteidiger in einer Stadt mit einer SAM-Batterie befindet "
+"und der Angreifer eine Lufteinheit (abgesehen von Hubschraubern und Raketen) "
+"ist, wird seine Stärke nochmals verdoppelt."
 
 #: data/helpdata.txt:1148
-#, fuzzy
 msgid ""
 " - An SDI Defense doubles the defender's strength against missile attacks."
-msgstr " - SDI Verteidigung verdoppelt diese Stärke gegen Raketen nochmals."
+msgstr ""
+" • Eine SDI-Verteidung verdoppelt die Stärke des Verteidigers gegenüber "
+"Raketen nochmals."
 
 #: data/helpdata.txt:1151
 msgid ""
 " - If the attacker is a ship and the defender is in a city with a Coastal "
 "Defense, the defender's strength is doubled."
 msgstr ""
-" - Falls der Angreifer ein Schiff ist und sich der Verteidiger in einer "
+" • Falls der Angreifer ein Schiff ist und sich der Verteidiger in einer "
 "Stadt mit Küstenverteidigung befindet, wird seine Stärke verdoppelt."
 
 #: data/helpdata.txt:1154
@@ -21273,7 +21294,7 @@ msgid ""
 " - Against land units (other than Howitzers) and Helicopters, defending "
 "units in a city with City Walls have their strength tripled."
 msgstr ""
-" - Gegen Landeinheiten (außer Haubitzen) und Hubschrauber wird die "
+" • Gegen Landeinheiten (außer Haubitzen) und Hubschrauber wird die "
 "Verteidigungsstärke verdreifacht, falls sich der Verteidiger in einer Stadt "
 "mit Stadtmauern befindet."
 
@@ -21282,17 +21303,17 @@ msgid ""
 " - If the defender is in a fortress (and not a city), its strength is "
 "doubled."
 msgstr ""
-" - Befindet sich der Verteidiger in einer befestigten Stellung wird seine "
+" • Befindet sich der Verteidiger in einer befestigten Stellung wird seine "
 "Stärke verdoppelt."
 
 #: data/helpdata.txt:1161
-#, fuzzy
 msgid ""
 " - If the defender is a land unit, and is either fortified or inside a city, "
 "its strength is multiplied by 1.5."
 msgstr ""
-" - Bei Landeinheiten, die sich eingegraben haben oder in einer Stadt "
-"stationiert sind, wird die Stärke mit 1,5 multipliziert."
+" • Handelt es sich bei dem Verteidiger um eine Landeinheit, die sich "
+"eingegraben hat oder in einer Stadt stationiert ist, wird die Stärke mit 1,5 "
+"multipliziert."
 
 #: data/helpdata.txt:1164
 #, fuzzy
@@ -21300,8 +21321,8 @@ msgid ""
 " - Finally, if the attacker is a fighter and the defender is a helicopter, "
 "the defender's strength is halved."
 msgstr ""
-" - Falls der Angreifer ein Schiff ist und sich der Verteidiger in einer "
-"Stadt mit Küstenverteidigung befindet, wird seine Stärke verdoppelt."
+" • Schließlich wird die Stärke des Verteidigers halbiert, wenn der Angreifer "
+"ein Jagdflugzeug ist und der Verteidiger ein Helikopter."
 
 #: data/helpdata.txt:1167
 msgid ""
@@ -21314,14 +21335,14 @@ msgstr ""
 
 #: data/helpdata.txt:1171
 msgid "The firepower of the attacker and defender are also modified."
-msgstr "Auch die Feuerkraft von Angreifer und Verteidiger werden angepaßt."
+msgstr "Auch die Feuerkraft von Angreifer und Verteidiger werden angepasst."
 
 #: data/helpdata.txt:1173
 msgid ""
 " - If the defender is a ship and is inside a city the firepower of the "
 "attacker is doubled and the firepower of the ship is set to 1."
 msgstr ""
-" - Wenn der Verteidiger ein Schiff innerhalb einer Stadt ist, wird die "
+" • Wenn der Verteidiger ein Schiff innerhalb einer Stadt ist, wird die "
 "Feuerkraft des Angreifers verdoppelt und die Feuerkraft des Schiffes auf 1 "
 "reduziert."
 
@@ -21331,20 +21352,18 @@ msgid ""
 " - If a fighter is attacking a helicopter the firepower of the helicopter is "
 "set to 1."
 msgstr ""
-"- Wenn ein Jagdflugzeug einen Hubschrauber angreift, wird die Feuerkraft des "
-"Hubschraubers auf 1 reduziert."
+" • Wenn ein Jagdflugzeug einen Helikopter angreift, wird die Feuerkraft des "
+"Helikopters auf 1 reduziert."
 
 #: data/helpdata.txt:1179
-#, fuzzy
 msgid ""
 " - If a ship is attacking a land unit on land the firepower of both is set "
 "to 1."
 msgstr ""
-" - Wenn ein Schiff eine Landeinheit angreift, wird die Feuerkraft von beiden "
-"auf 1 reduziert."
+" • Wenn ein Schiff eine Landeinheit auf einem Landfeld angreift, wird die "
+"Feuerkraft von beiden auf 1 reduziert."
 
 #: data/helpdata.txt:1182
-#, fuzzy
 msgid ""
 "After these preliminaries, combat occurs, as long as both units are still "
 "alive (i.e., hit points are greater than 0).  Each round, a random number "
@@ -21360,22 +21379,21 @@ msgstr ""
 "diese Zahl größer als die Stärke des Verteidigers, verliert der Verteidiger "
 "Trefferpunkte entsprechend der Feuerkraft des Angreifers, im anderen Fall "
 "verliert der Angreifer entsprechend der Feuerkraft des Verteidigers. Die "
-"erste Einheit die keine Trefferpunkte mehr hat, verliert."
+"erste Einheit, die keine Trefferpunkte mehr hat, verliert."
 
 #: data/helpdata.txt:1197
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Whichever unit survives the fight has a chance of being promoted a veteran "
 "level.  In the default ruleset, if the winner's civilization has the Sun "
 "Tzu's War Academy (and if it isn't obsolete), the chance is increased by "
 "half."
 msgstr ""
-"Die siegreiche Einheit hat eine Chance von 50% Veteranen-Status zu erlangen. "
-"Besitzt die siegreiche Nation Sun Tzus Militärakademie (und ist diese nicht "
-"veraltet), wird der Veteranen-Status auf jeden Fall erlangt."
+"Die siegreiche Einheit hat die Chance, in einen Veteranengrad erhoben zu "
+"werden. Im Standardregelsatz wird diese Chance um 50% erhöht, wenn die "
+"siegreiche Nation Sun Tzus Militärakademie besitzt."
 
 #: data/helpdata.txt:1202
-#, fuzzy
 msgid ""
 "If the attacker is a land unit and wins, and the defender is in a city "
 "without City Walls, the city is reduced in size by 1."
@@ -21384,7 +21402,6 @@ msgstr ""
 "in einer Stadt ohne Stadtmauern befand, wird die Stadt um 1 verkleinert."
 
 #: data/helpdata.txt:1205
-#, fuzzy
 msgid ""
 "If the defender loses, and is not inside a city, fortress, or airbase, all "
 "other units at the defender's location are destroyed along with the defender."
@@ -21415,12 +21432,11 @@ msgstr ""
 "folgenden Werte in der Datei game.ruleset im Abschnitt combat_rules ändert: "
 
 #: data/helpdata.txt:1218
-#, fuzzy
 msgid ""
 " - killstack (default: 1). If set to 0, units on the same tile as a lost "
 "defender are not destroyed."
 msgstr ""
-" - killstack. (Standard: 1) Bei '0' werden Einheiten auf demselben Feld wie  "
+" • killstack (Standard: 1). Bei 0 werden Einheiten auf demselben Feld wie "
 "ein unterlegener Verteidiger nicht zerstört."
 
 #: data/helpdata.txt:1221
@@ -21428,6 +21444,8 @@ msgid ""
 " - tired_attack (default: 0). If set to 1, units that attack with only 2/3 "
 "or 1/3 moves left will attack with proportionally reduced strength."
 msgstr ""
+"• tired_attack (Standard: 0). Falls 1, greifen Einheiten, die nur 2/3 oder "
+"1/3 ihrer Bewegungspunkte besitzen, mit proportional reduzierter Stärke an."
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:1229
@@ -21442,7 +21460,7 @@ msgid ""
 "are veteran."
 msgstr ""
 "Kanonen (A:8, V:1, TP:20, FK:1) greifen Musketiere (A:3, V:3, TP:20, FK:1) "
-"in einer Stadt mit Stadtmauern im Wald an."
+"in einer Stadt mit Stadtmauern im Wald an. Keiner ist Veteran."
 
 #: data/helpdata.txt:1234
 msgid ""
@@ -21491,7 +21509,12 @@ msgid ""
 "might lose most of its hit points, or it might even lose the battle."
 msgstr ""
 "Da beide Einheiten 20 Trefferpunkte haben, wird der Verteidiger mit hoher "
-"Wahrscheinlichkeit gewinnen."
+"Wahrscheinlichkeit gewinnen; er wird wahrscheinlich etwa 40% seiner "
+"Trefferpunkte während des Kampfes verlieren. Ein solcher Ausgang ist jedoch "
+"keinesfalls sicher, solange beide Einheiten eine Stärke von Nicht-Null "
+"besitzen. Der Verteidiger kommt vielleicht unverletzt davon, er könnte aber "
+"auch die meisten seiner Trefferpunkte verlieren oder sogar im Kampf "
+"unterliegen."
 
 #. TRANS: Preserve the leading space: it controls nesting
 #: data/helpdata.txt:1268
@@ -21499,7 +21522,6 @@ msgid " Combat example 2"
 msgstr " Kampfbeispiel 2"
 
 #: data/helpdata.txt:1269
-#, fuzzy
 msgid ""
 "Suppose a veteran Battleship (A:12, D:12, HP:40, FP:2) with 3 movement "
 "points attacks a veteran Alpine Troops (A:5, D:5, HP:20, FP:1) inside a city "
@@ -24959,40 +24981,40 @@ msgid "?female:Mahdi %s"
 msgstr "Mahdi %s"
 
 #: data/nation/bangladeshi.ruleset:3
-#, fuzzy
 msgid "Bangladeshi"
-msgstr "Schlachtschiff"
+msgstr "bengalisch"
 
 #: data/nation/bangladeshi.ruleset:4
 #, fuzzy
 msgid "?plural:Bangladeshis"
-msgstr "Burmesen"
+msgstr "Bengalen"
 
 #: data/nation/bangladeshi.ruleset:6
 msgid ""
 "The People's Republic of Bangladesh was formed from the former Pakistani "
 "territory of East Bengal following a war of independence."
 msgstr ""
+"Die Volksrepublik Bangladesch wurde auf dem früheren pakistanischen "
+"Territorium Ost-Bengal nach einem Unabhängigkeitskrieg errichtet."
 
 #: data/nation/bangladeshi.ruleset:23 data/nation/bengali.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Nabob %s"
-msgstr "Vizekönig"
+msgstr "Nabob %s"
 
 #: data/nation/bangladeshi.ruleset:23 data/nation/bengali.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Nabob %s"
-msgstr "Konsulin"
+msgstr "Nabob %s"
 
 #: data/nation/barbadian.ruleset:3
-#, fuzzy
 msgid "Barbadian"
-msgstr "barbarisch"
+msgstr "barbadisch"
 
 #: data/nation/barbadian.ruleset:4
 #, fuzzy
 msgid "?plural:Barbadians"
-msgstr "?plural:Barbaren"
+msgstr "Barbadier"
 
 #: data/nation/barbadian.ruleset:6
 msgid ""
@@ -25003,6 +25025,13 @@ msgid ""
 "been independent since 1966. Barbados is a major international tourist "
 "destination and one of the most developed countries of the Caribbean."
 msgstr ""
+"Barbados ist ein Instelstaat im Atlantischen Ozean, etwa 100km östlich der "
+"Windward Islands in der Karibik. Ursprünglich von Arawak bewohnt, wurde die "
+"Insel um 1500 von den Portugiesen entdeckt; als jedoch die Engländer 1627 "
+"erstmals Barbados besiedeln wollten, fanden sie die Insel unbewohnt vor. "
+"Seit 1966 ist Barbados unabhängig und eines der meistbesuchten touristischen "
+"Ziele, daneben ist es auch eines der am weitesten entwickelten "
+"Entwicklungsländer der Karibik."
 
 #: data/nation/barbarian.ruleset:3 server/stdinhand.c:3443
 #: server/stdinhand.c:6102
@@ -25023,14 +25052,12 @@ msgstr ""
 "Kulturvölker auf der ganzen Welt dar."
 
 #: data/nation/bashkir.ruleset:3
-#, fuzzy
 msgid "Bashkir"
-msgstr "Basis"
+msgstr "baschkirisch"
 
 #: data/nation/bashkir.ruleset:4
-#, fuzzy
 msgid "?plural:Bashkirs"
-msgstr "Burmesen"
+msgstr "Baschkiren"
 
 #: data/nation/bashkir.ruleset:6
 msgid ""
@@ -25040,15 +25067,19 @@ msgid ""
 "Today most of the Bashkirs live in the Bashkortostan Republic which is part "
 "of the Russian Federation."
 msgstr ""
+"Bei den Baschkiren handelt es sich um eine turksprachige Ehtnie im südlichen "
+"Ural. Seit dem 16. Jh. waren sie Vasallen des russischen Zaren, aber seitdem "
+"haben sie an zahllosen Aufständen gegen die russische Oberherrschaft "
+"teilgenommen. Heute leben die meisten Baskiren in der Republik "
+"Baschkortostan, die ein Teil der russischen Föderation ist."
 
 #: data/nation/basque.ruleset:3
 msgid "Basque"
-msgstr ""
+msgstr "baskisch"
 
 #: data/nation/basque.ruleset:4
-#, fuzzy
 msgid "?plural:Basques"
-msgstr "Burmesen"
+msgstr "Basken"
 
 #: data/nation/basque.ruleset:6
 msgid ""
@@ -25059,28 +25090,34 @@ msgid ""
 "divided into seven historical provinces. Their language, Euskara, has no "
 "known relatives and its origins are unknown."
 msgstr ""
+"Die Basken leben seit unerdenklichen Zeiten in den Vorläufern der Pyrenäen. "
+"Das Königreich von Navarre war der letzte unabhängige baskische Staat, der "
+"im 16. Jh. an Aragón fiel. Heute befindet sich das Baskenland, oder »Euskal "
+"Herria«, im Grenzgebiet von Spanien und Frankreich und ist in sieben "
+"historische Provinzen eingeteilt. Ihre Sprache, Euskara, hat keine bekannten "
+"Verwandten und ihre Ursprünge sind nicht bekannt."
 
 #: data/nation/basque.ruleset:32 data/nation/centrallithuanian.ruleset:45
 #: data/nation/iranian.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "Leader %s"
-msgstr "Großer Führer"
+msgstr "Anführer %s"
 
 #: data/nation/basque.ruleset:32 data/nation/centrallithuanian.ruleset:45
 #: data/nation/iranian.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Leader %s"
-msgstr "Anführerin"
+msgstr "Anführerin %s"
 
 #: data/nation/basque.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "Lehendakari %s"
-msgstr "Präsidentin"
+msgstr "Lehendakari %s"
 
 #: data/nation/basque.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Lehendakari %s"
-msgstr "Präsidentin"
+msgstr "Lehendakari %s"
 
 #: data/nation/bavarian.ruleset:3
 msgid "Bavarian"
@@ -25091,7 +25128,6 @@ msgid "?plural:Bavarians"
 msgstr "Bajuwaren"
 
 #: data/nation/bavarian.ruleset:6
-#, fuzzy
 msgid ""
 "Bavaria, before national unification in 1870 CE, was one of the largest of "
 "the German kingdoms."
