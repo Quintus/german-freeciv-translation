@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-07 14:49+0100\n"
-"PO-Revision-Date: 2013-03-07 16:17+0100\n"
+"PO-Revision-Date: 2013-03-07 17:38+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -36762,34 +36762,33 @@ msgstr "Kategorie: %s.<br>"
 #: manual/civmanual.c:185
 #, c-format
 msgid "Is locked by the ruleset."
-msgstr ""
+msgstr "Vom Regelsatz gesperrt."
 
 #: manual/civmanual.c:187
-#, fuzzy, c-format
+#, c-format
 msgid "Can only be used in server console."
 msgstr "Kann nur in der Serverkonsole verwendet werden. "
 
 #: manual/civmanual.c:195 server/stdinhand.c:1750
 msgid "Minimum:"
-msgstr ""
+msgstr "Minimum:"
 
 #: manual/civmanual.c:196 manual/civmanual.c:229 server/stdinhand.c:1751
 #: server/stdinhand.c:1769 server/stdinhand.c:1785
-#, fuzzy
 msgid "Default:"
-msgstr " (Standardwert)"
+msgstr "Standardwert:"
 
 #: manual/civmanual.c:197 server/stdinhand.c:1752
 msgid "Maximum:"
-msgstr ""
+msgstr "Maximum:"
 
 #: manual/civmanual.c:204 server/stdinhand.c:1759
 msgid "Possible values:"
-msgstr ""
+msgstr "Mögliche Werte:"
 
 #: manual/civmanual.c:216 server/stdinhand.c:1777
 msgid "Possible values (option can take any number of these):"
-msgstr ""
+msgstr "Mögliche Werte (die Option nimmt beliebig viele von diesen):"
 
 #: manual/civmanual.c:232
 #, c-format
@@ -36918,199 +36917,187 @@ msgstr "Mehr Information"
 #: manual/civmanual.c:407
 #, c-format
 msgid "Manual file %s successfully written."
-msgstr ""
+msgstr "Handbuchdatei „%s“ erfolgreich geschrieben."
 
 #: manual/civmanual.c:508 server/civserver.c:383
-#, fuzzy
 msgid "Use FILE as logfile"
-msgstr "  -l, --log DATEI\tDATEI als Logdatei benutzen\n"
+msgstr "DATEI als Logdatei benutzen"
 
 #. TRANS: "ruleset" is exactly what user must type, do not translate.
 #: manual/civmanual.c:511
 msgid "ruleset RULESET"
-msgstr ""
+msgstr "ruleset REGELSATZ"
 
 #: manual/civmanual.c:512
 msgid "Make manual for RULESET"
-msgstr ""
+msgstr "Handbuch für REGELSATZ erstellen"
 
 #: modinst/download.c:97
 msgid "No URL given"
-msgstr ""
+msgstr "Keine URL angegeben."
 
 #: modinst/download.c:102
 msgid "This does not look like modpack URL"
-msgstr ""
+msgstr "Das sieht nicht wie eine Modpack-URL aus."
 
 #: modinst/download.c:111
 #, c-format
 msgid "Installing modpack %s from %s"
-msgstr ""
+msgstr "Installiere Modpack „%s“ von %s"
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: modinst/download.c:114
-#, fuzzy
 msgid "Cannot install to given directory hierarchy"
-msgstr "Cannot find your home directory"
+msgstr "Cannot install to given directory hierarchy"
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: modinst/download.c:120 modinst/download.c:282
-#, fuzzy
 msgid "Cannot determine control directory"
-msgstr "Cannot find your home directory"
+msgstr "Cannot determine control directory"
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: modinst/download.c:124 modinst/download.c:226 modinst/download.c:286
-#, fuzzy
 msgid "Cannot create required directories"
-msgstr "Cannot find your home directory"
+msgstr "Cannot create required directories"
 
 #: modinst/download.c:128
 msgid "Downloading modpack control file."
-msgstr ""
+msgstr "Lade Kontrolldatei des Modpacks herunter."
 
 #: modinst/download.c:134
-#, fuzzy
 msgid "Failed to get and parse modpack control file"
-msgstr "Fehler bei der Generierung des neuen KI-Spielers: %s."
+msgstr "Konnte Modpack-Kontrolldatei nicht herunterladen/parsen"
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: modinst/download.c:140
-#, fuzzy
 msgid "Modpack control file has no capability string"
-msgstr "Client capability string: %s"
+msgstr "Modpack control file has no capability string"
 
 #: modinst/download.c:150
 msgid "Modpack control file is incompatible"
-msgstr ""
+msgstr "Modpack-Kontrolldatei ist inkompatibel."
 
 #: modinst/download.c:156
 msgid "Illegal modpack type"
-msgstr ""
+msgstr "Ungültiger Modpack-Typ."
 
 #: modinst/download.c:208
-#, fuzzy, c-format
+#, c-format
 msgid "Illegal path for %s"
-msgstr "Unzulässiger Wert für den Auth-Port: '%s'"
+msgstr "Ungültiger Pfad für %s"
 
 #: modinst/download.c:233
 #, c-format
 msgid "Downloading %s"
-msgstr ""
+msgstr "Lade %s herunter"
 
 #: modinst/download.c:242
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to download %s"
-msgstr "Fehler bei der Generierung des neuen KI-Spielers: %s."
+msgstr "Konnte %s nicht herunterladen"
 
 #: modinst/download.c:261
 msgid "Some parts of the modpack failed to install."
-msgstr ""
+msgstr "Einige Modpacks konnten nicht installiert werden."
 
 #: modinst/download.c:292
 msgid "Cannot fetch and parse modpack list"
-msgstr ""
+msgstr "Kann Modpack-Liste nicht herunterladen/parsen"
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: modinst/download.c:298
-#, fuzzy
 msgid "Modpack list has no capability string"
-msgstr "Client capability string: %s"
+msgstr "Modpack list has no capability string"
 
 #: modinst/download.c:308
 msgid "Modpack list is incompatible"
-msgstr ""
+msgstr "Modpack list is incompatible"
 
 #: modinst/download.h:26
-#, fuzzy
 msgid "Ruleset"
-msgstr "Wüste"
+msgstr "Regelsatz"
 
 #: modinst/download.h:30
 msgid "Modpack"
-msgstr ""
+msgstr "Modpack"
 
 #: modinst/modinst.c:172
 msgid "Another download already active"
-msgstr ""
+msgstr "Es ist bereits ein anderer Download aktiv"
 
 #: modinst/modinst.c:185
-#, fuzzy
 msgid "Failed to start downloader"
-msgstr "Fehler bei der Generierung des neuen KI-Spielers: %s."
+msgstr "Konnte Downloader nicht starten"
 
 #. TRANS: Unknown modpack type
 #: modinst/modinst.c:227
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #. TRANS: License of modpack is not known
 #: modinst/modinst.c:234
-#, fuzzy
 msgid "?license:Unknown"
 msgstr "Unbekannt"
 
 #. TRANS: noun
 #: modinst/modinst.c:299
 msgid "License"
-msgstr ""
+msgstr "Lizenz"
 
 #: modinst/modinst.c:304
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: modinst/modinst.c:310
 msgid "Install modpack"
-msgstr ""
+msgstr "Modpack installieren"
 
 #: modinst/modinst.c:316
 msgid "Modpack URL"
-msgstr ""
+msgstr "Modpack-URL"
 
 #: modinst/modinst.c:333
-#, fuzzy
 msgid "Select modpack to install"
-msgstr "Wähle das zu stehlende Forschungsergebnis"
+msgstr "Zu installierendes Modpack auswählen"
 
 #: modinst/modinst.c:398
-#, fuzzy
 msgid "Freeciv modpack installer"
-msgstr "Wähle das zu stehlende Forschungsergebnis"
+msgstr "Freeciv Modpack-Installer"
 
 #. TRANS: "List" is exactly what user must type, do not translate.
 #: modinst/mpcmdline.c:62
 msgid "List URL"
-msgstr ""
+msgstr "List URL"
 
 #: modinst/mpcmdline.c:63
 msgid "Load modpack list from given URL"
-msgstr ""
+msgstr "Modpack von der angegebenen URL herunterladen"
 
 #. TRANS: "prefix" is exactly what user must type, do not translate.
 #: modinst/mpcmdline.c:66
 msgid "prefix DIR"
-msgstr ""
+msgstr "prefix VERZEICHNIS"
 
 #: modinst/mpcmdline.c:67
 msgid "Install modpacks to given directory hierarchy"
-msgstr ""
+msgstr "Modpackss in die angegebene Verzeichnishierarchie installieren"
 
 #. TRANS: Version tag name received from metaserver
 #: po/Strings.txt:12
 msgid "?vertag:stable"
-msgstr ""
+msgstr "stabil"
 
 #: po/Strings.txt:13
 msgid "?vertag:win32"
-msgstr ""
+msgstr "Win32"
 
 #: po/Strings.txt:14
 msgid "?vertag:S2_4"
-msgstr ""
+msgstr "S2_4"
 
 #: po/Strings.txt:15
 msgid "?vertag:S2_5"
-msgstr ""
+msgstr "S2_5"
 
 #: po/Strings.txt:16
 msgid "?vertag:crosser"
@@ -37119,48 +37106,48 @@ msgstr ""
 #: server/aiiface.c:83
 #, c-format
 msgid "Cannot open AI module %s (%s)"
-msgstr ""
+msgstr "Kann KI-Modul %s nicht öffnen (%s)"
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: server/aiiface.c:90
 #, fuzzy, c-format
 msgid "Cannot find capstr function from ai module %s (%s)"
-msgstr "Cannot find audio file %s"
+msgstr "Cannot find capstr function from ai module %s (%s)"
 
 #: server/aiiface.c:97
 #, c-format
 msgid "Incompatible ai module %s:"
-msgstr ""
+msgstr "Inkompatibles KI-Modul: %s"
 
 #: server/aiiface.c:98
-#, fuzzy, c-format
+#, c-format
 msgid "  Module options:    %s"
-msgstr "Bevölkerung:     %5d"
+msgstr "  Moduleinstellungen:         %s"
 
 #: server/aiiface.c:99
-#, fuzzy, c-format
+#, c-format
 msgid "  Supported options: %s"
-msgstr "Unterstützte Einheiten: %d"
+msgstr "  Unterstützte Einstellungen: %s"
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: server/aiiface.c:107
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot find setup function from ai module %s (%s)"
-msgstr "Cannot find audio file %s"
+msgstr "Cannot find setup function from ai module %s (%s)"
 
 #: server/aiiface.c:114
-#, fuzzy, c-format
+#, c-format
 msgid "Setup of ai module %s failed."
-msgstr "Der Versuch, ein Weltwunder in %s zu errichten, mißlang."
+msgstr "Einstellen des KI-Moduls %s fehlgeschlagen"
 
 #: server/aiiface.c:176
 msgid "Failed to setup default AI module, cannot continue."
 msgstr ""
+"Einstellen des Standard-KI-Moduls fehlgeschlagen, fortfahren unmöglich."
 
 #: server/aiiface.c:187
-#, fuzzy
 msgid "Failed to setup threaded AI module"
-msgstr "Fehler bei der Generierung des neuen KI-Spielers: %s."
+msgstr "Einstellen des nebenläufigen (threaded) KI-Moduls fehlgeschlagen"
 
 #: server/auth.c:88
 #, c-format
@@ -37201,11 +37188,11 @@ msgstr "%s wurde abgewiesen: Datenbankfehler und Gäste nicht erlaubt."
 #: server/auth.c:130
 #, c-format
 msgid "Enter password for %s:"
-msgstr "Paßwort für %s eingeben:"
+msgstr "Passwort für %s eingeben:"
 
 #: server/auth.c:139
 msgid "Enter a new password (and remember it)."
-msgstr "Neues Paßwort eingeben (und merken)."
+msgstr "Neues Passwort eingeben (und merken)."
 
 #: server/auth.c:144
 msgid "This server allows only preregistered users. Sorry."
@@ -37226,8 +37213,8 @@ msgstr "Tut mit leid, zu viele Versuche..."
 #, c-format
 msgid "%s was rejected: Too many wrong password verifies for new user."
 msgstr ""
-"%s wurde abgewiesen: Zu viele fehlgeschlagene Paßwortüberprüfungen für neuen "
-"Spieler."
+"%s wurde abgewiesen: Zu viele fehlgeschlagene Passwortüberprüfungen für "
+"neuen Spieler."
 
 #: server/auth.c:193
 msgid ""
@@ -37240,7 +37227,7 @@ msgstr ""
 #: server/auth.c:234
 #, c-format
 msgid "%s was rejected: Too many wrong password tries."
-msgstr "%s abgewiesen: zu viele falsche Paßworteingaben."
+msgstr "%s abgewiesen: zu viele falsche Passworteingaben."
 
 #: server/auth.c:236 server/auth.c:256
 #, fuzzy
@@ -37249,23 +37236,23 @@ msgstr "fehlgeschlagen"
 
 #: server/auth.c:243
 msgid "Your password is incorrect. Try again."
-msgstr "Dein Paßwort ist falsch. Versuche es nochmals."
+msgstr "Ihr Passwort ist falsch. Versuchen Sie es nochmals."
 
 #: server/auth.c:253
 msgid "Sorry, your connection timed out..."
-msgstr "Tut mir leid, deine Verbindungszeit ist abgelaufen..."
+msgstr "Tut mir leid, Ihre Verbindungszeit ist abgelaufen..."
 
 #: server/auth.c:254
 #, c-format
 msgid "%s was rejected: Connection timeout waiting for password."
-msgstr "%s wurde abgewiesen: Verbindungszeitablauf bei der Paßworteingabe."
+msgstr "%s wurde abgewiesen: Verbindungszeitablauf bei der Passworteingabe."
 
 #: server/auth.c:341
 #, c-format
 msgid "Your password is too short, the minimum length is %d. Try again."
 msgstr ""
-"Dein Paßwort ist zu kurz, mindestens %d Zeichen erforderlich. Versuche es "
-"nochmals."
+"Ihr Passwort ist zu kurz, es sind mindestens %d Zeichen erforderlich. "
+"Versuchen Sie es nochmals."
 
 #: server/auth.c:347
 #, c-format
@@ -37273,8 +37260,8 @@ msgid ""
 "The password must have at least %d capital letters, %d numbers, and be at "
 "minimum %d [printable] characters long. Try again."
 msgstr ""
-"Das Paßwort muß mindestens %d Großbuchstaben und %d Ziffern enthalten, sowie "
-"mindestens %d (druckbare) Zeichen lang. Versuche es nochmals."
+"Ihr Passwort muss mindestens %d Großbuchstaben und %d Ziffern enthalten "
+"sowie mindestens %d (druckbare) Zeichen lang sein. Versuchen Sie es nochmals."
 
 #: server/barbarian.c:164
 #, c-format
@@ -37301,7 +37288,7 @@ msgstr "In dieser Runde wurde hier bereits etwas verkauft."
 #, fuzzy, c-format
 msgid "You sell %s in %s for %d gold."
 msgid_plural "You sell %s in %s for %d gold."
-msgstr[0] "%s in %s wurde für %d Goldstücke verkauft."
+msgstr[0] "%s in %s wurde für %d Goldstück verkauft."
 msgstr[1] "%s in %s wurde für %d Goldstücke verkauft."
 
 #: server/cityhand.c:317
@@ -37324,27 +37311,27 @@ msgstr "In einer aufständigen Stadt kann man keine Einheiten kaufen."
 #. TRANS: This whole string is only ever used when included in one
 #. * other string (search for this string to find it).
 #: server/cityhand.c:352
-#, fuzzy, c-format
+#, c-format
 msgid "%d gold required."
 msgid_plural "%d gold required."
-msgstr[0] "%d Gold pro Runde"
-msgstr[1] "%d Gold pro Runde"
+msgstr[0] "%d Goldstück erforderlich."
+msgstr[1] "%d Goldstücke erforderlich."
 
 #. TRANS: %s is a pre-pluralised string:
 #. * "%d gold required."
 #: server/cityhand.c:358
-#, fuzzy, c-format
+#, c-format
 msgid "%s You only have %d gold."
 msgid_plural "%s You only have %d gold."
-msgstr[0] "%d Goldstücke benötigt. Vorhanden sind nur %d Goldstücke."
-msgstr[1] "%d Goldstücke benötigt. Vorhanden sind nur %d Goldstücke."
+msgstr[0] "%s Die Schatzkammer enthält nur %d Goldstück."
+msgstr[1] "%s Die Schatzkammer enthält nur %d Goldstücke."
 
 #. TRANS: bought an unit.
 #. TRANS: bought an improvement .
 #: server/cityhand.c:377 server/cityhand.c:383
-#, fuzzy, c-format
+#, c-format
 msgid "You bought %s in %s."
-msgstr "%s kann in %s nicht gekauft werden!"
+msgstr "Sie haben %s in %s gekauft."
 
 #: server/cityhand.c:483
 msgid "You have bought this turn, can't change."
@@ -37370,7 +37357,8 @@ msgstr ""
 #, c-format
 msgid ""
 "%s is not a valid name. Only ASCII or ruleset names are allowed for cities."
-msgstr "%s ist kein gültiger Name. Der ASCII-Zeichensatz muß verwendet werden."
+msgstr ""
+"%s ist kein gültiger Name. Der ASCII-Zeichensatz muss verwendet werden."
 
 #: server/citytools.c:525
 #, c-format
@@ -37422,22 +37410,17 @@ msgstr "Es gab bereits eine Stadt namens %s. Sie wurde in %s umbenannt."
 #, fuzzy, c-format
 msgid "The people in %s are stunned by your technological insight!"
 msgstr ""
-"Die Bevölkerung in %s ist von deinen technischen Errungenschaften\n"
-"       begeistert! Die Arbeiter haben die Stadt spontan mit einer\n"
-"       Eisenbahn ausgestattet."
+"Die Bevölkerung in %s ist von Ihren technischen Errungenschaften begeistert!"
 
 #: server/citytools.c:1073
-#, fuzzy, c-format
+#, c-format
 msgid "Workers spontaneously gather and upgrade %s with railroads."
-msgstr ""
-"Die Bevölkerung in %s ist von deinen technischen Errungenschaften\n"
-"       begeistert! Die Arbeiter haben die Stadt spontan mit einer\n"
-"       Eisenbahn ausgestattet."
+msgstr "Arbeiter haben %s spontan mit einer Eisenbahn ausgestattet."
 
 #: server/citytools.c:1347
 #, c-format
 msgid "You have founded %s."
-msgstr "Du hast %s gegründet."
+msgstr "Sie haben %s gegründet."
 
 #: server/citytools.c:1427
 #, c-format
