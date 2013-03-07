@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-07 14:49+0100\n"
-"PO-Revision-Date: 2013-03-07 15:40+0100\n"
+"PO-Revision-Date: 2013-03-07 16:17+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -23802,7 +23802,7 @@ msgstr ""
 
 #: data/multiplayer/terrain.ruleset:1018
 msgid "Buoys cannot be built in the multiplayer ruleset."
-msgstr ""
+msgstr "Im Regelsatz für Multiplayer können keine Bojen errichtet werden."
 
 #: data/multiplayer/units.ruleset:350
 msgid ""
@@ -25753,14 +25753,12 @@ msgstr ""
 "Königreiche."
 
 #: data/nation/belarusian.ruleset:3
-#, fuzzy
 msgid "Belarusian"
-msgstr "bulgarisch"
+msgstr "weißrussisch"
 
 #: data/nation/belarusian.ruleset:4
-#, fuzzy
 msgid "?plural:Belarusians"
-msgstr "Bulgarier"
+msgstr "Weißrussen"
 
 #: data/nation/belarusian.ruleset:6
 msgid ""
@@ -25769,6 +25767,9 @@ msgid ""
 "Union. Belarus became independent in 1991 with the dissolution of the Soviet "
 "Union."
 msgstr ""
+"Weißrussland war Teil der antiken slawischen Kiewer Rus, später von Litauen, "
+"Rzeczpospolita, des Russischen Imperiums und der Sowjetunion. Weißrussland "
+"wurde 1991 mit der Auflösung der Sowjetunion unabhängig."
 
 #: data/nation/belgian.ruleset:3
 msgid "Belgian"
@@ -25779,7 +25780,6 @@ msgid "?plural:Belgians"
 msgstr "Belgier"
 
 #: data/nation/belgian.ruleset:6
-#, fuzzy
 msgid ""
 "Belgium gained independence from the Dutch Kingdom in 1830. Belgium is "
 "mainly characterized by its movement from a unified state to a federal one. "
@@ -25795,27 +25795,26 @@ msgstr ""
 #: data/nation/dutch.ruleset:40 data/nation/flemish.ruleset:32
 #: data/nation/frisian.ruleset:37 data/nation/luxembourgish.ruleset:31
 #: data/nation/tyrolian.ruleset:25 data/nation/walloon.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Stadtholder %s"
-msgstr "Tarnkappenbomber"
+msgstr "Statthalter %s"
 
 #: data/nation/belgian.ruleset:26 data/nation/burgundian.ruleset:31
 #: data/nation/dutch.ruleset:40 data/nation/flemish.ruleset:32
 #: data/nation/frisian.ruleset:37 data/nation/luxembourgish.ruleset:31
 #: data/nation/tyrolian.ruleset:25 data/nation/walloon.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Stadtholdress %s"
-msgstr "Diktatorin"
+msgstr "Stadthalterin %s"
 
+# MG: „belgenisch“ gibt es nicht, korrekt wäre „belgisch“. Im Sinne der Unterscheidbarkeit von Nationen (→ Belgien) habe ich mich hier absichtlich für dieses fragwürdige Wort entschieden.
 #: data/nation/belgic.ruleset:3
-#, fuzzy
 msgid "Belgic"
-msgstr "belgisch"
+msgstr "belgenisch"
 
 #: data/nation/belgic.ruleset:4
-#, fuzzy
 msgid "?plural:Belgae"
-msgstr "Belgier"
+msgstr "Belgen"
 
 #: data/nation/belgic.ruleset:6
 msgid ""
@@ -25831,12 +25830,11 @@ msgstr ""
 
 #: data/nation/belizean.ruleset:3
 msgid "Belizean"
-msgstr ""
+msgstr "belizisch"
 
 #: data/nation/belizean.ruleset:4
-#, fuzzy
 msgid "?plural:Belizeans"
-msgstr "Belgier"
+msgstr "Belizer"
 
 #: data/nation/belizean.ruleset:6
 msgid ""
@@ -25849,14 +25847,14 @@ msgid ""
 msgstr ""
 
 #: data/nation/belizean.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Superintendent %s"
-msgstr "serbisch"
+msgstr "Superintendent %s"
 
 #: data/nation/belizean.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Superintendent %s"
-msgstr "Pfarrer"
+msgstr "Superintendentin %s"
 
 #: data/nation/bengali.ruleset:3
 msgid "Bengali"
@@ -25899,14 +25897,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/benin.ruleset:3
-#, fuzzy
 msgid "Benin"
-msgstr "Bankwesen"
+msgstr "beninisch"
 
 #: data/nation/benin.ruleset:4
-#, fuzzy
 msgid "?plural:Benin"
-msgstr "Belgier"
+msgstr "Beniner"
 
 #: data/nation/benin.ruleset:6
 msgid ""
@@ -25920,14 +25916,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/bhutanese.ruleset:3
-#, fuzzy
 msgid "Bhutanese"
-msgstr "sudanesisch"
+msgstr "bhutanisch"
 
 #: data/nation/bhutanese.ruleset:4
-#, fuzzy
 msgid "?plural:Bhutanese"
-msgstr "Sudanesen"
+msgstr "Bhutaner"
 
 #: data/nation/bhutanese.ruleset:6
 msgid ""
@@ -25940,34 +25934,33 @@ msgstr ""
 
 #: data/nation/bhutanese.ruleset:25 data/nation/buryat.ruleset:28
 #: data/nation/kalmyk.ruleset:25 data/nation/sikkimese.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Lama %s"
-msgstr "Lama"
+msgstr "%s-Lama"
 
 #: data/nation/bhutanese.ruleset:25 data/nation/buryat.ruleset:28
 #: data/nation/kalmyk.ruleset:25 data/nation/sikkimese.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Lama %s"
-msgstr "Genossin"
+msgstr "%s-Lama"
 
 #: data/nation/bhutanese.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "Dragon King %s"
-msgstr "Vorsitzender"
+msgstr "Drachenkönig %s"
 
 #: data/nation/bhutanese.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "Dragon Queen %s"
-msgstr "Dragoner"
+msgstr "Drachenkönigin %s"
 
 #: data/nation/biafran.ruleset:3
 msgid "Biafran"
-msgstr ""
+msgstr "biafrisch"
 
 #: data/nation/biafran.ruleset:4
-#, fuzzy
 msgid "?plural:Biafrans"
-msgstr "Bajuwaren"
+msgstr "Biafraner"
 
 #: data/nation/biafran.ruleset:6
 msgid ""
@@ -25980,40 +25973,41 @@ msgstr ""
 
 #: data/nation/biafran.ruleset:21 data/nation/hellenic.ruleset:20
 #: data/nation/nigerien.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "Colonel %s"
-msgstr "Oberst"
+msgstr "Kolonel %s"
 
 #: data/nation/biafran.ruleset:21 data/nation/hellenic.ruleset:20
 #: data/nation/nigerien.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Colonel %s"
-msgstr "Konsulin"
+msgstr "Kolonel %s"
 
 #: data/nation/bissauguinean.ruleset:3
 msgid "Bissau-Guinean"
-msgstr ""
+msgstr "bissau-guineisch"
 
 #: data/nation/bissauguinean.ruleset:4
-#, fuzzy
 msgid "?plural:Bissau-Guineans"
-msgstr "Bajuwaren"
+msgstr "Bissau-Guineaner"
 
 #: data/nation/bissauguinean.ruleset:6
 msgid ""
 "Guinea-Bissau is a country in West Africa. Formerly known as Portuguese "
 "Guinea, it declared independence in 1973."
 msgstr ""
+"Guinea-Bissau ist ein Staat in Westafrika. Früher unter dem Namen "
+"Portugisisch Guinea bekannt, erklärte es sich 1973 für unabhängig."
 
 #: data/nation/bissauguinean.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Captain-Major %s"
-msgstr "Captain General"
+msgstr "Kapitänsmajor %s"
 
 #: data/nation/bissauguinean.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Captain-Major %s"
-msgstr "Häuptling"
+msgstr "Kapitänsmajorin %s"
 
 #: data/nation/boer.ruleset:3
 msgid "Boer"
@@ -26024,7 +26018,6 @@ msgid "?plural:Boers"
 msgstr "Buren"
 
 #: data/nation/boer.ruleset:6
-#, fuzzy
 msgid ""
 "The Boers were descendants of Dutch colonists who settled in South Africa "
 "after 1650 CE. After migrating into the hinterland after the British "
@@ -26049,9 +26042,9 @@ msgstr ""
 #: data/nation/siberian.ruleset:22 data/nation/southvietnamese.ruleset:23
 #: data/nation/uruguayan.ruleset:23 data/nation/venezuelan.ruleset:33
 #: data/nation/westernroman.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "General %s"
-msgstr "General"
+msgstr "General %s"
 
 #: data/nation/boer.ruleset:28 data/nation/bolivian.ruleset:40
 #: data/nation/centralamerican.ruleset:27 data/nation/chadian.ruleset:20
@@ -26064,19 +26057,19 @@ msgstr "General"
 #: data/nation/panamanian.ruleset:29 data/nation/salvadoran.ruleset:39
 #: data/nation/siberian.ruleset:22 data/nation/uruguayan.ruleset:23
 #: data/nation/venezuelan.ruleset:33 data/nation/westernroman.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "?female:General %s"
-msgstr "Konsulin"
+msgstr "Generälin %s"
 
 #: data/nation/boer.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "State President %s"
-msgstr "Präsident"
+msgstr "Staatspräsident %s"
 
 #: data/nation/boer.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "?female:State President %s"
-msgstr "Präsidentin"
+msgstr "Staatspräsidentin %s"
 
 #: data/nation/boian.ruleset:3
 msgid "Boian"
