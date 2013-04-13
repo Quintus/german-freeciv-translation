@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-13 09:46+0200\n"
-"PO-Revision-Date: 2013-04-13 11:39+0200\n"
+"PO-Revision-Date: 2013-04-13 12:33+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -1485,13 +1485,12 @@ msgid ""
 msgstr "Wir kontrollieren den Server (Zugriffsberechtigung 'hack')."
 
 #: client/connectdlg_common.c:529
-#, fuzzy
 msgid ""
 "Failed to obtain the required access level to take control of the server. "
 "Attempting to shut down server."
 msgstr ""
 "Konnte keinen ausreichenden Kommandolevel für den Zugriff auf den Server "
-"erhalten. Der Server wird jetzt beendet."
+"erhalten. Es wird versucht, den Server zu beenden."
 
 #: client/control.c:1191
 msgid "Only transporter units can be unloaded."
@@ -5294,9 +5293,8 @@ msgstr "au_f Einheit zentrieren"
 
 #. TRANS: used in place of unit home city name
 #: client/gui-gtk-2.0/unitselect.c:812 client/gui-gtk-3.0/unitselect.c:813
-#, fuzzy
 msgid "no home city"
-msgstr "Finde Heimatstadt"
+msgstr "Keine Heimatstadt"
 
 #. TRANS: used in place of unit home city name
 #: client/gui-gtk-2.0/unitselect.c:815 client/gui-gtk-3.0/unitselect.c:816
@@ -5310,7 +5308,9 @@ msgstr "unbekannt"
 msgid ""
 "%s\n"
 "(%s)"
-msgstr "%s  %s (%s)"
+msgstr ""
+"%s\n"
+"(%s)"
 
 #: client/gui-gtk-2.0/voteinfo_bar.c:148 client/gui-gtk-3.0/voteinfo_bar.c:151
 msgid "_YES"
@@ -8026,16 +8026,16 @@ msgid "  * Gets used up in making an attack.\n"
 msgstr "  ‒ Wird beim Angriff zerstört.\n"
 
 #: client/helpdata.c:1394
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "  * Gets a 50% defensive bonus while in cities.\n"
-msgstr ""
-"  ‒ Solche Einheiten erhalten auf diesem Feld einen Verteidungsbonus von %d%"
-"%.\n"
+msgstr "  ‒ erhält in Städten einen Verteidigungsbonus von 50%.\n"
 
 #: client/helpdata.c:1397
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "  * May fortify, granting a 50% defensive bonus when not in a city.\n"
-msgstr "  ‒ Kann sich eingraben, ergibt 50% Verteidigungsbonus.\n"
+msgstr ""
+"  ‒ Kann sich eingraben, ergibt 50% Verteidigungsbonus wenn nicht in einer "
+"Stadt.\n"
 
 #: client/helpdata.c:1402
 msgid "  * Is unreachable. Most units cannot attack this one.\n"
@@ -8094,7 +8094,7 @@ msgid "* Each player may only have one of this type of unit.\n"
 msgstr "• Jeder Spieler kann nur eine Einheit dieses Typs besitzen.\n"
 
 #: client/helpdata.c:1468
-#, fuzzy, c-format
+#, c-format
 msgid "* Requires %d population to build.\n"
 msgid_plural "* Requires %d population to build.\n"
 msgstr[0] "• Benötigt %d Bürger zur Herstellung.\n"
@@ -8146,7 +8146,7 @@ msgstr "• Kann neue Städte gründen.\n"
 
 #. TRANS: Plural in "%d population", not "size %d".
 #: client/helpdata.c:1523
-#, fuzzy, c-format
+#, c-format
 msgid "* Can add on %d population to cities of no more than size %d.\n"
 msgid_plural "* Can add on %d population to cities of no more than size %d.\n"
 msgstr[0] ""
@@ -8481,9 +8481,9 @@ msgstr "• Die Küstenlinie dieses Geländetyps ist unsicher."
 
 #. TRANS: %s is a list of unit classes separated by "and".
 #: client/helpdata.c:1964
-#, fuzzy, c-format
+#, c-format
 msgid "* Can be traveled by %s units.\n"
-msgstr "• Kann von Einheiten geplündert werden.\n"
+msgstr "• Kann vom Einheitentyp %s betreten werden.\n"
 
 #: client/helpdata.c:2011
 msgid "Requirements to build:\n"
@@ -12151,9 +12151,8 @@ msgstr ""
 "  - Spieler:                  %s"
 
 #: common/mapimg.c:1327
-#, fuzzy
 msgid "map not yet created"
-msgstr ", nicht fertig"
+msgstr "Karte noch nicht erstellt"
 
 #: common/mapimg.c:1335 common/mapimg.c:1573
 msgid "map definition not checked or error"
@@ -12803,14 +12802,13 @@ msgstr ""
 "vorhanden, erhöht sich der Bonus auf 150%."
 
 #: data/civ1/buildings.ruleset:298
-#, fuzzy
 msgid ""
 "A city can only have one Hydro Plant, Power Plant, or Nuclear Plant.  A city "
 "can only build a Hydro Plant if it is next to (or on) a River tile."
 msgstr ""
 "Eine Stadt kann nur ein Wasser-, Kohle- oder Kernkraftwerk besitzen. Eine "
 "Stadt kann nur dann ein Wasserkraftwerk bauen, wenn es sich neben (oder auf) "
-"einem Berg- oder Flussfeld befindet."
+"einem Flussfeld befindet."
 
 #: data/civ1/buildings.ruleset:307 data/civ2/buildings.ruleset:383
 #: data/default/buildings.ruleset:413 data/experimental/buildings.ruleset:462
@@ -16276,7 +16274,6 @@ msgstr ""
 "werden."
 
 #: data/civ2/buildings.ruleset:374
-#, fuzzy
 msgid ""
 "A city can only have one Power Plant, Hydro Plant, Nuclear Plant, or Solar "
 "Plant.  A city can only build a Hydro Plant if it is next to (or on) a River "
@@ -16284,7 +16281,7 @@ msgid ""
 msgstr ""
 "Eine Stadt kann nur ein Kohle-, Wasser-, Kern- oder Solarkraftwerk besitzen. "
 "Ein Wasserkraftwerk kann nur errichtet werden, wenn die Stadt sich in der "
-"Nähe von (oder auf) einem Fluss- oder Bergfeld befindet."
+"Nähe von (oder auf) einem Flussfeld befindet."
 
 #: data/civ2/buildings.ruleset:460 data/default/buildings.ruleset:490
 #: data/experimental/buildings.ruleset:542
@@ -17186,12 +17183,12 @@ msgstr ""
 #: data/civ2/nations.ruleset:1822
 #, c-format
 msgid "%s Jarl"
-msgstr "%s Jarl"
+msgstr "%s-Jarl"
 
 #: data/civ2/nations.ruleset:1822
 #, c-format
 msgid "?female:%s Jarl"
-msgstr "%s Jarl"
+msgstr "%s-Jarl"
 
 #: data/civ2/nations.ruleset:1951 data/nation/barbarian.ruleset:3
 #: server/stdinhand.c:3444 server/stdinhand.c:6213
@@ -17211,15 +17208,14 @@ msgstr ""
 "Seit der Dämmerung der Zivilisation stellen Barbaren eine Bedrohung für "
 "Kulturvölker auf der ganzen Welt dar."
 
+# MG: Ahem.
 #: data/civ2/nations.ruleset:1983 data/nation/pirate.ruleset:3
-#, fuzzy
 msgid "Pirate"
-msgstr "Fliegerhorst"
+msgstr "piratisch"
 
 #: data/civ2/nations.ruleset:1984 data/nation/pirate.ruleset:4
-#, fuzzy
 msgid "?plural:Pirates"
-msgstr "Portugiesen"
+msgstr "Piraten"
 
 #. TRANS: Legend for nation in "core" set
 #: data/civ2/nations.ruleset:1985 data/nation/pirate.ruleset:7
@@ -19514,7 +19510,7 @@ msgstr ""
 "bestmögliche Verteidigung der Städte sicherzustellen."
 
 #: data/helpdata.txt:122
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "    Keep in mind that with some types of government, military units inside "
 "or outside cities can reduce or create unhappiness. Also remember that when "
@@ -19522,11 +19518,11 @@ msgid ""
 "fortified.  When a new city is built, the city starts to build the best "
 "available defensive unit from the above list."
 msgstr ""
-"Es ist zu beachten, daß - abhängig von der Regierungsform - Ihre Bürger über "
-"die Stationierung von Truppen mehr oder weniger zufrieden sind. Es ist auch "
-"wichtig, daran zu denken, daß Einheiten in Städten sich um 50% besser "
+"Es ist zu beachten, dass — abhängig von der Regierungsform — Ihre Bürger "
+"über die Stationierung von Truppen mehr oder weniger zufrieden sind. Es ist "
+"auch wichtig, daran zu denken, dass Einheiten in Städten sich um 50% besser "
 "verteidigen können. Eine neugebaute Stadt beginnt automatisch, die "
-"bestmögliche Verteidigungseinheit zu bauen."
+"bestmögliche Verteidigungseinheit von der obigen Liste zu bauen."
 
 #: data/helpdata.txt:129
 msgid ""
@@ -24868,9 +24864,9 @@ msgstr ""
 "— tragen den (größtenteils symbolischen) Titel des Kofürsten von Andorra."
 
 #: data/nation/andorran.ruleset:23 data/nation/ugandan.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Dictator %s"
-msgstr "Genossin"
+msgstr "Diktatorin %s"
 
 # MG: sic. http://de.wikipedia.org/wiki/Kof%C3%BCrst_von_Andorra
 #: data/nation/andorran.ruleset:24
@@ -25061,7 +25057,6 @@ msgid "?plural:Antilleans"
 msgstr "Antillaner"
 
 #: data/nation/antillean.ruleset:6
-#, fuzzy
 msgid ""
 "The islands of Aruba, Bonaire, Curacao, Saba, Saint Martin and Saint "
 "Eustatius were colonized by the Dutch in the 17th century. Their population "
@@ -25277,7 +25272,7 @@ msgid "Asantehene %s"
 msgstr "Asantehene %s"
 
 #: data/nation/ashanti.ruleset:36
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Asantehene %s"
 msgstr "Asantehene %s"
 
@@ -25503,7 +25498,6 @@ msgid "Azeri"
 msgstr "azerisch"
 
 #: data/nation/azeri.ruleset:4
-#, fuzzy
 msgid "?plural:Azeris"
 msgstr "Azeri"
 
@@ -25569,7 +25563,6 @@ msgid "Bahamian"
 msgstr "bahamisch"
 
 #: data/nation/bahamian.ruleset:4
-#, fuzzy
 msgid "?plural:Bahamians"
 msgstr "Bahamer"
 
@@ -25631,7 +25624,6 @@ msgid "Bangladeshi"
 msgstr "bengalisch"
 
 #: data/nation/bangladeshi.ruleset:4
-#, fuzzy
 msgid "?plural:Bangladeshis"
 msgstr "Bengalen"
 
@@ -25658,7 +25650,6 @@ msgid "Barbadian"
 msgstr "barbadisch"
 
 #: data/nation/barbadian.ruleset:4
-#, fuzzy
 msgid "?plural:Barbadians"
 msgstr "Barbadier"
 
@@ -25879,7 +25870,6 @@ msgid "?plural:Bengalis"
 msgstr "Bengalier"
 
 #: data/nation/bengali.ruleset:6
-#, fuzzy
 msgid ""
 "Bengal is a region in the easternmost part of the Indian subcontinent. The "
 "first recorded independent king of the Bengali is Shashanka who reigned "
@@ -26185,7 +26175,6 @@ msgid "Bosporan"
 msgstr "bosporisch"
 
 #: data/nation/bosporan.ruleset:4
-#, fuzzy
 msgid "?plural:Bosporans"
 msgstr "Bosporer"
 
@@ -26403,12 +26392,11 @@ msgstr "Druidin %s"
 
 #: data/nation/bruneian.ruleset:3
 msgid "Bruneian"
-msgstr ""
+msgstr "bruneiisch"
 
 #: data/nation/bruneian.ruleset:4
-#, fuzzy
 msgid "?plural:Bruneians"
-msgstr "Inder"
+msgstr "Bruneier"
 
 #: data/nation/bruneian.ruleset:6
 msgid ""
@@ -26417,6 +26405,11 @@ msgid ""
 "century later thanks to its control of the maritime trade in much of "
 "Southeast Asia. Brunei was a British protectorate from 1888 to 1984."
 msgstr ""
+"Brunei Darussalam (بروني دارالسلام) ist ein Land auf Borneo im malaiischen "
+"Archipel. Das Sultanat datiert vom 14. Jahrhundert und wurde etwa ein "
+"Jahrhundert später dank ihrer Kontrolle des maritimen Handels im "
+"südostasiatischen Raum ein mächtiger Staat. Brunei war von 1888 bis 1984 ein "
+"britisches Protektorat."
 
 #: data/nation/bruneian.ruleset:23 data/nation/circassian.ruleset:36
 #: data/nation/comorian.ruleset:25 data/nation/crimeantatar.ruleset:41
@@ -26427,9 +26420,9 @@ msgstr ""
 #: data/nation/palestinian.ruleset:21 data/nation/qatari.ruleset:21
 #: data/nation/senegalese.ruleset:18 data/nation/tatar.ruleset:30
 #: data/nation/turkishcypriot.ruleset:27 data/nation/volgabulgar.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Grand Mufti %s"
-msgstr "Großer Barde"
+msgstr "Großmufti %s"
 
 #: data/nation/bruneian.ruleset:23 data/nation/circassian.ruleset:36
 #: data/nation/comorian.ruleset:25 data/nation/crimeantatar.ruleset:41
@@ -26440,9 +26433,9 @@ msgstr "Großer Barde"
 #: data/nation/palestinian.ruleset:21 data/nation/qatari.ruleset:21
 #: data/nation/senegalese.ruleset:18 data/nation/tatar.ruleset:30
 #: data/nation/turkishcypriot.ruleset:27 data/nation/volgabulgar.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Grand Mufti %s"
-msgstr "Präsidentin"
+msgstr "Großmufti %s"
 
 #: data/nation/bulgarian.ruleset:3
 msgid "Bulgarian"
@@ -26462,14 +26455,12 @@ msgstr ""
 "Nationalstaat in der Geschichte."
 
 #: data/nation/burgundian.ruleset:3
-#, fuzzy
 msgid "Burgundian"
-msgstr "bulgarisch"
+msgstr "burgundisch"
 
 #: data/nation/burgundian.ruleset:4
-#, fuzzy
 msgid "?plural:Burgundians"
-msgstr "Inder"
+msgstr "Burgunder"
 
 #: data/nation/burgundian.ruleset:6
 msgid ""
@@ -26479,25 +26470,30 @@ msgid ""
 "country with the court in Dijon outshining that of Paris. Today, it is one "
 "of the regions of France."
 msgstr ""
+"Nach dem Fall des Westlichen Römischen Reiches siedelte ein germanisches "
+"Volk unter dem Namen „Burgunder“ in Flussttälern des östlichen Gaul und "
+"gaben der Region so ihren heutigen Namen. Jahrhunderte später war die Mark "
+"Burgund ein wohlhabendes Land, dessen Gericht in Dijon das von Paris in den "
+"Schatten stellte. Heute ist es eine der Regionen von Frankreich."
 
 #. TRANS: The last letter in "Burkinabe" should be
 #. TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in
 #. TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 00E9.
 #: data/nation/burkinabe.ruleset:6
-#, fuzzy
 msgid "Burkinabe"
-msgstr "Bestechung"
+msgstr "burkinabéisch"
 
 #: data/nation/burkinabe.ruleset:7
-#, fuzzy
 msgid "?plural:Burkinabes"
-msgstr "Briten"
+msgstr "Burkinaben"
 
 #: data/nation/burkinabe.ruleset:9
 msgid ""
 "Formerly Upper Volta, Burkina Faso is a country in inland West Africa. It "
 "achieved its independence from France in 1960."
 msgstr ""
+"Früher das obere Volta, ist Burkina Faso heute ein Land im inländischen "
+"Westafrika. Es erreichte 1960 seine Unabhängigkeit von Frankreich."
 
 #: data/nation/burmese.ruleset:3
 msgid "Burmese"
@@ -26512,18 +26508,16 @@ msgid ""
 "The Union of Burma (officially \"Myanmar\") is the largest country in "
 "mainland Southeast Asia."
 msgstr ""
-"Burma - die offizielle Bezeichnung ist 'Myanmar' - ist das größte Land in "
+"Burma ‒ die offizielle Bezeichnung ist „Myanmar“ ‒ ist das größte Land in "
 "Südostasien."
 
 #: data/nation/burundi.ruleset:3
-#, fuzzy
 msgid "Burundian"
-msgstr "bulgarisch"
+msgstr "burundisch"
 
 #: data/nation/burundi.ruleset:4
-#, fuzzy
 msgid "?plural:Burundians"
-msgstr "Inder"
+msgstr "Burunder"
 
 #: data/nation/burundi.ruleset:7
 msgid ""
@@ -26539,12 +26533,11 @@ msgstr ""
 
 #: data/nation/buryat.ruleset:3
 msgid "Buryat"
-msgstr ""
+msgstr "burjatisch"
 
 #: data/nation/buryat.ruleset:4
-#, fuzzy
 msgid "?plural:Buryats"
-msgstr "?plural:Araber"
+msgstr "Burjaten"
 
 #: data/nation/buryat.ruleset:6
 msgid ""
@@ -26585,14 +26578,12 @@ msgstr ""
 "Nordafrika, Italien und Teile von Spanien."
 
 #: data/nation/californian.ruleset:3
-#, fuzzy
 msgid "Californian"
-msgstr "babylonisch"
+msgstr "kalifornisch"
 
 #: data/nation/californian.ruleset:4
-#, fuzzy
 msgid "?plural:Californians"
-msgstr "?plural:Babylonier"
+msgstr "Kalifornier"
 
 #: data/nation/californian.ruleset:6
 msgid ""
@@ -26608,28 +26599,25 @@ msgstr ""
 
 #: data/nation/californian.ruleset:34 data/nation/texan.ruleset:28
 #: data/nation/vermont.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Sheriff %s"
-msgstr "schwedisch"
+msgstr "Sheriff %s"
 
 #: data/nation/californian.ruleset:34 data/nation/texan.ruleset:28
 #: data/nation/vermont.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Sheriff %s"
-msgstr "Stammesführerin"
+msgstr "Sheriff %s"
 
 #: data/nation/cambodian.ruleset:3
-#, fuzzy
 msgid "Cambodian"
-msgstr "kanadisch"
+msgstr "kambodschanisch"
 
 #: data/nation/cambodian.ruleset:4
-#, fuzzy
 msgid "?plural:Cambodians"
-msgstr "?plural:Kanadier"
+msgstr "Kambodschaner"
 
 #: data/nation/cambodian.ruleset:6
-#, fuzzy
 msgid ""
 "Kampuchea (known in English as Cambodia) is the modern successor state of "
 "the mighty Khmer Empire, which ruled most of the Indochinese Peninsula "
@@ -26640,14 +26628,12 @@ msgstr ""
 "beherrschte."
 
 #: data/nation/cameroonian.ruleset:3
-#, fuzzy
 msgid "Cameroonian"
-msgstr "indisch"
+msgstr "kamerunisch"
 
 #: data/nation/cameroonian.ruleset:4
-#, fuzzy
 msgid "?plural:Cameroonians"
-msgstr "Kroaten"
+msgstr "Kameruner"
 
 #: data/nation/cameroonian.ruleset:6
 msgid ""
@@ -26655,6 +26641,9 @@ msgid ""
 "was divided between Britain and France after World War I. It has been "
 "independent since 1960."
 msgstr ""
+"Kamerun ist ein Staat in Zentralwestafrika. Es wurde vno den Deutschen "
+"kolonisiert und wurde nach dem Ersten Weltkrieg zwischen Großbrittanien und "
+"Frankreich aufgeteilt. Seit 1960 ist es unabhängig."
 
 #: data/nation/canadian.ruleset:3
 msgid "Canadian"
@@ -26665,26 +26654,23 @@ msgid "?plural:Canadians"
 msgstr "?plural:Kanadier"
 
 #: data/nation/canadian.ruleset:7
-#, fuzzy
 msgid ""
 "Geographically, Canada is the second largest country in world. The magnetic "
 "north pole currently lies on Canadian territory."
 msgstr ""
-"Kanada ist das nördlichste Land der Erde. Der magnetische Nordpol liegt zur "
-"Zeit auf kanadischem Gebiet."
+"Geographisch ist Kanada ist das zweitgrößte Land der Erde. Der magnetische "
+"Nordpol liegt zur Zeit auf kanadischem Gebiet."
 
 #. TRANS: The third letter in "Canari" should be
 #. TRANS: U+00F1 LATIN SMALL LETTER N WITH TILDE if available in
 #. TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 241.
 #: data/nation/canari.ruleset:6
-#, fuzzy
 msgid "Canari"
-msgstr "kanadisch"
+msgstr "cañarisch"
 
 #: data/nation/canari.ruleset:7
-#, fuzzy
 msgid "?plural:Canaris"
-msgstr "?plural:Kanadier"
+msgstr "Cañares"
 
 #: data/nation/canari.ruleset:9
 msgid ""
@@ -26701,14 +26687,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/cantonese.ruleset:3
-#, fuzzy
 msgid "Cantonese"
-msgstr "sudanesisch"
+msgstr "kantonesisch"
 
 #: data/nation/cantonese.ruleset:4
-#, fuzzy
 msgid "?plural:Cantonese"
-msgstr "Sudanesen"
+msgstr "Kantonesen"
 
 #: data/nation/cantonese.ruleset:6
 msgid ""
@@ -26725,12 +26709,11 @@ msgstr ""
 
 #: data/nation/capeverdean.ruleset:3
 msgid "Cape Verdean"
-msgstr ""
+msgstr "kapverdisch"
 
 #: data/nation/capeverdean.ruleset:4
-#, fuzzy
 msgid "?plural:Cape Verdean"
-msgstr "?plural:Kanadier"
+msgstr "Kapverder"
 
 #: data/nation/capeverdean.ruleset:6
 msgid ""
@@ -26742,14 +26725,14 @@ msgid ""
 msgstr ""
 
 #: data/nation/capeverdean.ruleset:24 data/nation/santomean.ruleset:34
-#, fuzzy, c-format
+#, c-format
 msgid "Admiral %s"
-msgstr "Emir"
+msgstr "Admiral %s"
 
 #: data/nation/capeverdean.ruleset:24 data/nation/santomean.ruleset:34
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Admiral %s"
-msgstr "Genossin"
+msgstr "Admirälin %s"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/carthaginian.ruleset:9
@@ -26765,25 +26748,23 @@ msgstr ""
 
 #: data/nation/carthaginian.ruleset:24 data/nation/israelite.ruleset:32
 #: data/nation/miskito.ruleset:33 data/nation/sardinian.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "Judge %s"
-msgstr "Fertig"
+msgstr "Richter %s"
 
 #: data/nation/carthaginian.ruleset:24 data/nation/israelite.ruleset:32
 #: data/nation/miskito.ruleset:33 data/nation/sardinian.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Judge %s"
-msgstr "Präsidentin"
+msgstr "Richterin %s"
 
 #: data/nation/castilian.ruleset:3
-#, fuzzy
 msgid "Castilian"
-msgstr "Küstenverlauf"
+msgstr "kastilisch"
 
 #: data/nation/castilian.ruleset:4
-#, fuzzy
 msgid "?plural:Castilians"
-msgstr "Katalanen"
+msgstr "Kastilier"
 
 #: data/nation/castilian.ruleset:6
 msgid ""
@@ -26815,14 +26796,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/celtiberian.ruleset:3
-#, fuzzy
 msgid "Celtiberian"
-msgstr "nigerianisch"
+msgstr "keltoiberisch"
 
 #: data/nation/celtiberian.ruleset:4
-#, fuzzy
 msgid "?plural:Celtiberians"
-msgstr "Serben"
+msgstr "Keltoiberer"
 
 #: data/nation/celtiberian.ruleset:6
 msgid ""
@@ -26832,14 +26811,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/centralafrican.ruleset:3
-#, fuzzy
 msgid "Central African"
-msgstr "amerikanisch"
+msgstr "zentralafrikanisch"
 
 #: data/nation/centralafrican.ruleset:4
-#, fuzzy
 msgid "?plural:Central Africans"
-msgstr "?plural:Amerikaner"
+msgstr "Zentralafrikaner"
 
 #: data/nation/centralafrican.ruleset:6
 msgid ""
@@ -26850,14 +26827,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/centralamerican.ruleset:3
-#, fuzzy
 msgid "Central American"
-msgstr "amerikanisch"
+msgstr "zentralamerikanisch"
 
 #: data/nation/centralamerican.ruleset:4
-#, fuzzy
 msgid "?plural:Central Americans"
-msgstr "?plural:Amerikaner"
+msgstr "Zentralamerikaner"
 
 #: data/nation/centralamerican.ruleset:7
 msgid ""
@@ -26872,24 +26847,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/centralamerican.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Supreme Director %s"
-msgstr "Supreme Director"
+msgstr "Supreme Director %s"
 
 #: data/nation/centralamerican.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Supreme Directrice %s"
-msgstr "Supreme Director"
+msgstr "Supreme Directrice %s"
 
 #: data/nation/centrallithuanian.ruleset:3
-#, fuzzy
 msgid "Central Lithuanian"
-msgstr "litauisch"
+msgstr "zentrallitauisch"
 
 #: data/nation/centrallithuanian.ruleset:4
-#, fuzzy
 msgid "?plural:Central Lithuanians"
-msgstr "Litauer"
+msgstr "Zentrallitauer"
 
 #. TRANS: The second and seventh letter in "Wladyslaw" should be
 #. TRANS: U+0142 LATIN SMALL LETTER L WITH STROKE if available in
@@ -26918,25 +26891,23 @@ msgstr ""
 
 #: data/nation/centrallithuanian.ruleset:44 data/nation/chuvash.ruleset:28
 #: data/nation/volgagerman.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "People's Commissar %s"
-msgstr "Hoher Kommissar"
+msgstr "Volkskommissar %s"
 
 #: data/nation/centrallithuanian.ruleset:44 data/nation/chuvash.ruleset:28
 #: data/nation/volgagerman.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "?female:People's Commissar %s"
-msgstr "Präsidentin"
+msgstr "Volkskommissarin %s"
 
 #: data/nation/chadian.ruleset:3
-#, fuzzy
 msgid "Chadian"
-msgstr "kanadisch"
+msgstr "tschadisch"
 
 #: data/nation/chadian.ruleset:4
-#, fuzzy
 msgid "?plural:Chadians"
-msgstr "?plural:Kanadier"
+msgstr "Tschader"
 
 #. TRANS: The last letter in "Habre" should be
 #. TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in
@@ -26951,12 +26922,11 @@ msgstr ""
 
 #: data/nation/cham.ruleset:3
 msgid "Cham"
-msgstr ""
+msgstr "chamisch"
 
 #: data/nation/cham.ruleset:4
-#, fuzzy
 msgid "?plural:Chams"
-msgstr "?plural:Chilenen"
+msgstr "Cham"
 
 #: data/nation/cham.ruleset:6
 msgid ""
@@ -38038,9 +38008,8 @@ msgid "Allow guests to login if auth is enabled."
 msgstr "Gästelogin bei Authentifizierung erlauben."
 
 #: server/civserver.c:344
-#, fuzzy
 msgid "Allow new users to login if auth is enabled."
-msgstr "Neue Benutzer bei Authentifizierung erlauben.\n"
+msgstr "Neue Benutzer bei Authentifizierung erlauben."
 
 #. TRANS: "bind" is exactly what user must type, do not translate.
 #: server/civserver.c:348
@@ -38459,17 +38428,20 @@ msgid ""
 "instance, '/set topology wrapx|iso'. For these options, use syntax like '/"
 "set topology \"\"' to set no values."
 msgstr ""
+"Setzt eine Serveroption, die Syntax und die gültigen Werte hängen von der "
+"jeweiligen Option ab. Einige Optionen sind „bitweise“, d.h. sie bestehen aus "
+"einer Auswahl aus einem Satz von Werten. Diese werden mithilfe von | "
+"getrennt, z.B. „/set topology wrapx|iso“. Um diese Optionen zu leeren, "
+"können Sie die folgende Syntax verwenden: „/set topology \"\"“."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:227
-#, fuzzy
 msgid "team <player> <team>"
-msgstr "team <Spieler> [Team]"
+msgstr "team <Spieler> <Team>"
 
 #: server/commands.c:228
-#, fuzzy
 msgid "Change a player's team affiliation."
-msgstr "Spielerzugehörigkeit zu einem Team"
+msgstr "Spielerzugehörigkeit zu einem Team ändern"
 
 #: server/commands.c:229
 msgid ""
@@ -38479,6 +38451,12 @@ msgid ""
 "only member). This command changes which team a player is a member of. Use "
 "\"\" if names contain whitespace."
 msgstr ""
+"Ein Team ist eine Gruppe von Spielern, die als Verbündete starten, eine "
+"gemeinsame Vision und gemeinsame Botschaften haben. Sie kämpfen zusammen für "
+"den Teamsieg mithilfe ihrer durschnittlichen individuellen Punkte. Jeder "
+"Spieler ist immer Mitglied eines Teams (möglicherweise der einzige). Dieser "
+"Befehl legt fest, zu welchem Team ein Spieler gehört (nutzen Sie „\"\"“ wenn "
+"der Name Whitespace enthält)."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:239
@@ -38491,16 +38469,14 @@ msgstr "Neues Regelverzeichnis oder Modpack wählen."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:246
-#, fuzzy
 msgid "metamessage <meta-line>"
-msgstr "metapatch <Patch Info>"
+msgstr "metamessage <Metazeile>"
 
 #: server/commands.c:247
 msgid "Set metaserver info line."
 msgstr "Metaserver-Informationszeile setzen"
 
 #: server/commands.c:248
-#, fuzzy
 msgid ""
 "Set user defined metaserver info line. If parameter is omitted, previously "
 "set metamessage will be removed. For most of the time user defined "
@@ -38515,9 +38491,8 @@ msgstr ""
 
 #. TRANS: translate text between <> only
 #: server/commands.c:256
-#, fuzzy
 msgid "metapatches <meta-line>"
-msgstr "metapatch <Patch Info>"
+msgstr "metapatches <Patch-Info>"
 
 #: server/commands.c:257
 msgid "Set metaserver patches line."
