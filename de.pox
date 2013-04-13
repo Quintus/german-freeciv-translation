@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-13 09:46+0200\n"
-"PO-Revision-Date: 2013-03-07 17:38+0100\n"
+"PO-Revision-Date: 2013-04-13 11:39+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -9698,13 +9698,16 @@ msgstr ""
 
 #: client/options.c:2037
 msgid "Autoaccept tileset suggestions"
-msgstr ""
+msgstr "Vorschläge zum Feldgraphiksatz automatisch akzeptieren"
 
 #: client/options.c:2038
 msgid ""
 "If this option is enabled, any tileset suggested by the ruleset is "
 "automatically used; otherwise you are prompted to change tileset."
 msgstr ""
+"Wenn diese Option aktiv ist, wird jeder vom Regelwerk vorgeschlagene "
+"Feldgraphiksatz automatisch benutzt; andernfalls werden Sie nach dem "
+"Feldgraphiksatz gefragt."
 
 #: client/options.c:2044
 msgid "Background layer"
@@ -17224,6 +17227,8 @@ msgid ""
 "As long as honest men have sailed the seas, pirates have been a scourge of "
 "them and of all coastal dwelling peoples."
 msgstr ""
+"Schon so lange, wie ehrliche Leute die Meere besegelt haben, waren Piraten "
+"ihre Geißel und diejenige aller Küstenbewohner."
 
 #: data/civ2/techs.ruleset:66 data/default/techs.ruleset:77
 #: data/experimental/techs.ruleset:80 data/multiplayer/techs.ruleset:77
@@ -25813,7 +25818,10 @@ msgstr "Statthalter %s"
 msgid "Stadtholdress %s"
 msgstr "Stadthalterin %s"
 
-# MG: „belgenisch“ gibt es nicht, korrekt wäre „belgisch“. Im Sinne der Unterscheidbarkeit von Nationen (→ Belgien) habe ich mich hier absichtlich für dieses fragwürdige Wort entschieden.
+# MG: „belgenisch“ gibt es nicht, korrekt wäre „belgisch“.
+# Im Sinne der Unterscheidbarkeit von Nationen (→ Belgien)
+# habe ich mich hier absichtlich für dieses fragwürdige Wort
+# entschieden.
 #: data/nation/belgic.ruleset:3
 msgid "Belgic"
 msgstr "belgenisch"
@@ -25885,14 +25893,12 @@ msgstr ""
 "Region, der westliche bildet den indischen Bundesstaat Westbengalen."
 
 #: data/nation/beninese.ruleset:3
-#, fuzzy
 msgid "Beninese"
-msgstr "Bankwesen"
+msgstr "beninesisch"
 
 #: data/nation/beninese.ruleset:4
-#, fuzzy
 msgid "?plural:Beninese"
-msgstr "Belgier"
+msgstr "Beninesen"
 
 #: data/nation/beninese.ruleset:6
 msgid ""
@@ -25901,6 +25907,10 @@ msgid ""
 "in 1972 and renamed the country Benin three years later. Multiparty rule "
 "returned in 1990."
 msgstr ""
+"Einstmals das Königreich Dahomey, wurde das Land im 19. Jahrhundert durch "
+"Frankreich kolonisiert und wurde schließlich 1960 unabhängig. Das Land wurde "
+"von den 1972 an die Macht gekommenen Marxisten in „Benin“ umgetauft; seit "
+"1990 gibt es wieder ein Mehrparteiensystem."
 
 #: data/nation/benin.ruleset:3
 msgid "Benin"
@@ -25920,6 +25930,15 @@ msgid ""
 "Europeans chose other kingdoms to trade with after Benin's main port silted "
 "up. The Kingdom finally ended in 1897 when the British assumed control."
 msgstr ""
+"Das Königreich Benin (nicht zu verwechseln mit der modernen Republik Benin) "
+"wurde von irgendwann zwischen dem 12. und 14. Jahrhundert von Sprechern der "
+"Edo-Sprachen gegründet und vereinte eine weitläufige Gegend westlich des "
+"Nigerdeltas, wobei der Höhepunkt etwa im 16. Jahrhundert erreicht wurde. "
+"Eweka I. gründete die Uzama („staatliches Kanzlerkollegium“) zur Berufung "
+"des neuen Oba (König). Das Glück verließ das Land jedoch, als der "
+"europäische Handel sich anderen Staaten zuwandte, da der Haupthafen von "
+"Benin langsam verschlammte. 1897 schließlich endete das Königreich Benin mit "
+"der Machtübernahme durch die Briten."
 
 #: data/nation/bhutanese.ruleset:3
 msgid "Bhutanese"
@@ -26079,29 +26098,33 @@ msgstr "Staatspräsidentin %s"
 
 #: data/nation/boian.ruleset:3
 msgid "Boian"
-msgstr ""
+msgstr "boianisch"
 
 #: data/nation/boian.ruleset:4
-#, fuzzy
 msgid "?plural:Boii"
-msgstr "Belgier"
+msgstr "Boii"
 
+# MG: Keine Anführungszeichen um „Bohemia“ und „Bavaria“ im englischen
+# Original, daher gehe ich davon aus, dass der Text sich tatsächlich
+# auf die deutschen Bezeichnungen „Böhmen“ und „Bayern“ bezieht und
+# keine englische Ethymologie darstellt.
 #: data/nation/boian.ruleset:6
 msgid ""
 "The Boii were an ancient Celtic tribe or tribal confederation inhabiting "
 "Central Europe and Northern Italy. The names of both Bohemia and Bavaria "
 "probably derive from this people."
 msgstr ""
+"Die Boii waren ein antiker keltischer Stamm oder ein Stammesverbund, der "
+"Zentraleuropa und Norditalien bewohnte. Die Namen „Böhmen“ und „Bayern“ "
+"gehen möglicherweise auf dieses Volk zurück."
 
 #: data/nation/bolivian.ruleset:3
-#, fuzzy
 msgid "Bolivian"
-msgstr "belgisch"
+msgstr "bolivisch"
 
 #: data/nation/bolivian.ruleset:4
-#, fuzzy
 msgid "?plural:Bolivians"
-msgstr "Belgier"
+msgstr "Bolivier"
 
 #. TRANS: The fourth letter in "Simon" should be
 #. TRANS: U+00F3 LATIN SMALL LETTER O WITH ACUTE if available in
@@ -26117,11 +26140,20 @@ msgid ""
 "democratic rule in the 1980s. In 2006 Evo Morales became the country's first "
 "indigenous president."
 msgstr ""
+"Bolivien ist ein Landstaat in Südamerika, dessen Einwohner zum Großteil ein "
+"indigenes Erbe teilen. Benannt wurde es nach Simón Bolivar. Es ist seit 1825 "
+"unabhängig, wurde jedoch von Unsicherheit und Instabilität heimgesucht und "
+"verlor so schließlich seine Küste an Chile. Auch stellte der Chaco-Krieg "
+"gegen Paraguay von 1932 bis 1936 eine weitere erniedrigende Niederlage für "
+"das ärmliche Land da. Dazu kam, dass 1952 die kumulierende Unzufriedenheit "
+"über das oligarchische Regime Boliviens zu einer Revolution führte, die "
+"ihrerseits in den 1970ern von verschiedenen militärischen Putschen gefolgt "
+"wurde. Das Land kehrte erst in den 80er Jahren zu demokratischen Regeln "
+"zurück. Seit 2006 ist Evo Morales der erste indigene Präsident des Landes."
 
 #: data/nation/bosnia.ruleset:3
-#, fuzzy
 msgid "Bosnian-Herzegovinian"
-msgstr "Bosnien und Herzegowina"
+msgstr "bosnisch-herzegowinisch"
 
 #: data/nation/bosnia.ruleset:4
 msgid "?plural:Bosnians"
@@ -26138,24 +26170,24 @@ msgstr ""
 #. TRANS: Ban = Duke
 #: data/nation/bosnia.ruleset:25 data/nation/croatian.ruleset:32
 #: data/nation/slovenian.ruleset:18
-#, fuzzy, c-format
+#, c-format
 msgid "Ban %s"
-msgstr "in %s"
+msgstr "Ban %s"
 
 #: data/nation/bosnia.ruleset:25 data/nation/croatian.ruleset:32
 #: data/nation/slovenian.ruleset:18
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Ban %s"
-msgstr "Konsulin"
+msgstr "Ban %s"
 
 #: data/nation/bosporan.ruleset:3
 msgid "Bosporan"
-msgstr ""
+msgstr "bosporisch"
 
 #: data/nation/bosporan.ruleset:4
 #, fuzzy
 msgid "?plural:Bosporans"
-msgstr "?plural:Bosnier"
+msgstr "Bosporer"
 
 #: data/nation/bosporan.ruleset:6
 msgid ""
@@ -26164,14 +26196,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/botswanan.ruleset:3
-#, fuzzy
 msgid "Botswanan"
-msgstr "Mansa"
+msgstr "botswanisch"
 
 #: data/nation/botswanan.ruleset:4
-#, fuzzy
 msgid "?plural:Botswanans"
-msgstr "?plural:Bosnier"
+msgstr "Botswaner"
 
 #: data/nation/botswanan.ruleset:6
 msgid ""
@@ -26179,16 +26209,17 @@ msgid ""
 "independence from the UK in 1966. Botswana is considered the least corrupt "
 "country in Africa and it has a rapidly developing economy."
 msgstr ""
+"Die Republik Botswana ist ein Land in Südafrika, das 1966 vom Vereinigten "
+"Königreich unabhängig wurde. Es wird als das am wenigsten korrupte Land "
+"Afrikas angesehen und besitzt eine zügig wachsende Wirtschaft."
 
 #: data/nation/brandenburgian.ruleset:3
-#, fuzzy
 msgid "Brandenburgian"
-msgstr "barbarisch"
+msgstr "brandenburgisch"
 
 #: data/nation/brandenburgian.ruleset:4
-#, fuzzy
 msgid "?plural:Brandenburgians"
-msgstr "Bajuwaren"
+msgstr "Brandenburger"
 
 #: data/nation/brandenburgian.ruleset:6
 msgid ""
@@ -26199,18 +26230,24 @@ msgid ""
 "province of Prussia. Currently it is one of the states of the Federal "
 "Republic of Germany."
 msgstr ""
+"Früher der Nordzipfel von Ostfranken, wurde Brandenburg im 12. Jahrhundert "
+"ein Elektorat des Heiligen Römischen Reiches. 1618 wurde Brandenburg von "
+"Preußen erworben und 1701 schließlich geschluckt. Es behielt seine nominelle "
+"Unabhängigkeit noch bis 1806, als es als preußische Provinz eingegliedert "
+"wurde. Heute ist Brandenburg einer der Staaten der Bundesrepublik "
+"Deutschland."
 
 #: data/nation/brandenburgian.ruleset:29 data/nation/hessian.ruleset:29
 #: data/nation/palatinate.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Elector %s"
-msgstr "Elektronik"
+msgstr "Elektor %s"
 
 #: data/nation/brandenburgian.ruleset:29 data/nation/hessian.ruleset:29
 #: data/nation/palatinate.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Electress %s"
-msgstr "Elektronik"
+msgstr "Elektorin %s"
 
 #: data/nation/brazilian.ruleset:3
 msgid "Brazilian"
@@ -26228,6 +26265,11 @@ msgid ""
 "first established as an empire under the exiled Portuguese royal family. The "
 "empire lasted until the establishment of a republican government in 1889."
 msgstr ""
+"Brasilien wurde als Kolonie Portugals gegründet, wurde jedoch 1822 im Zuge "
+"der napoleonischen französischen Besetzung Portugals unabhängig. Als "
+"Königreich nominell gegründet wurde Land erstmalig unter der ins Exil "
+"getriebenen portugiesischen Königsfamilie, bis es 1889 in eine Republik "
+"überging."
 
 #: data/nation/brazilian.ruleset:30 data/nation/chinese.ruleset:29
 #: data/nation/comorian.ruleset:24 data/nation/congolesebrazzaville.ruleset:27
@@ -26238,29 +26280,27 @@ msgstr ""
 #: data/nation/palestinian.ruleset:23 data/nation/sammarinese.ruleset:23
 #: data/nation/southvietnamese.ruleset:22 data/nation/taiwanese.ruleset:25
 #: data/nation/tuvan.ruleset:30 data/nation/walloon.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Chairwoman %s"
-msgstr "Vorsitzender"
+msgstr "Sprecherin %s"
 
 #: data/nation/brazilian.ruleset:31 data/nation/romanian.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "Director-President %s"
-msgstr "Präsident"
+msgstr "Direktor-Präsident %s"
 
 #: data/nation/brazilian.ruleset:31 data/nation/romanian.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Director-President %s"
-msgstr "Präsident"
+msgstr "Direktor-Präsidentin %s"
 
 #: data/nation/breton.ruleset:3
-#, fuzzy
 msgid "Breton"
-msgstr "gebrochen"
+msgstr "bretonisch"
 
 #: data/nation/breton.ruleset:4
-#, fuzzy
 msgid "?plural:Bretons"
-msgstr "Briten"
+msgstr "Bretonen"
 
 #: data/nation/breton.ruleset:6
 msgid ""
@@ -26278,7 +26318,6 @@ msgid "British"
 msgstr "britisch"
 
 #: data/nation/british.ruleset:4
-#, fuzzy
 msgid "?plural:British"
 msgstr "Briten"
 
@@ -26298,17 +26337,17 @@ msgstr ""
 #: data/nation/holyroman.ruleset:32 data/nation/russian.ruleset:47
 #: data/nation/scottishgaelic.ruleset:36 data/nation/scottish.ruleset:23
 #: data/nation/spanish.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "Pretender %s"
-msgstr "Präsident"
+msgstr "Pretender %s"
 
 #: data/nation/british.ruleset:23 data/nation/english.ruleset:26
 #: data/nation/holyroman.ruleset:32 data/nation/russian.ruleset:47
 #: data/nation/scottishgaelic.ruleset:36 data/nation/scottish.ruleset:23
 #: data/nation/spanish.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Pretender %s"
-msgstr "Präsidentin"
+msgstr "Pretender %s"
 
 #: data/nation/british.ruleset:24 data/nation/chimu.ruleset:26
 #: data/nation/english.ruleset:27 data/nation/frisian.ruleset:36
@@ -26316,9 +26355,9 @@ msgstr "Präsidentin"
 #: data/nation/manx.ruleset:36 data/nation/mayan.ruleset:26
 #: data/nation/mixtec.ruleset:34 data/nation/toltec.ruleset:32
 #: data/nation/zapotec.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Lord %s"
-msgstr "Einschiffen"
+msgstr "Lord %s"
 
 #: data/nation/british.ruleset:24 data/nation/chimu.ruleset:26
 #: data/nation/english.ruleset:27 data/nation/frisian.ruleset:36
@@ -26326,18 +26365,17 @@ msgstr "Einschiffen"
 #: data/nation/manx.ruleset:36 data/nation/mayan.ruleset:26
 #: data/nation/mixtec.ruleset:34 data/nation/toltec.ruleset:32
 #: data/nation/zapotec.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Lady %s"
-msgstr "%d %s"
+msgstr "Lady %s"
 
 #: data/nation/briton.ruleset:3
-#, fuzzy
 msgid "Briton"
-msgstr "gebrochen"
+msgstr "britonisch"
 
 #: data/nation/briton.ruleset:4
 msgid "?plural:Britons"
-msgstr "Briten"
+msgstr "Britonen"
 
 #: data/nation/briton.ruleset:6
 msgid ""
@@ -37495,25 +37533,24 @@ msgid "%s is building %s%s."
 msgstr "%s baut %s%s."
 
 #: server/citytools.c:2607
-#, fuzzy, c-format
+#, c-format
 msgid "You sell %s in %s (now landlocked) for %d gold."
 msgid_plural "You sell %s in %s (now landlocked) for %d gold."
-msgstr[0] "%s in %s (ab jetzt landgebunden) für %d Goldstücke verkauft."
+msgstr[0] "%s in %s (ab jetzt landgebunden) für %d Goldstück verkauft."
 msgstr[1] "%s in %s (ab jetzt landgebunden) für %d Goldstücke verkauft."
 
 #: server/citytools.c:2740
-#, fuzzy, c-format
+#, c-format
 msgid "The size of the city map of %s is %s."
-msgstr "Heimatstadt von %s ist jetzt %s."
+msgstr "Die Größe der Stadtkarte von %s ist %s."
 
 #: server/citytools.c:2742
-#, fuzzy
 msgid "increased"
-msgstr "Fliegerhorst"
+msgstr "erhöht"
 
 #: server/citytools.c:2743
 msgid "reduced"
-msgstr ""
+msgstr "vermindert"
 
 #: server/cityturn.c:208
 #, c-format
@@ -37544,19 +37581,19 @@ msgid "Warning: Famine feared in %s."
 msgstr "VORSICHT, in %s ist eine Hungersnot zu befürchten!"
 
 #: server/cityturn.c:556
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING, we're LOW on FUNDS %s."
-msgstr "VORSICHT, die STAATSKASSE ist fast LEER!"
+msgstr "VORSICHT %s, die STAATSKASSE ist fast LEER!"
 
 #: server/cityturn.c:746
-#, fuzzy, c-format
+#, c-format
 msgid "%s needs %s (being built) to grow beyond size %d."
-msgstr "%s muß %s fertig bauen, um weiter wachsen zu können."
+msgstr "%s muss %s (im Bau) abschließen, um größer als %d werden zu können."
 
 #: server/cityturn.c:752
-#, fuzzy, c-format
+#, c-format
 msgid "%s needs an improvement to grow beyond size %d."
-msgstr "%s braucht eine Erweiterung, um weiter wachsen zu können."
+msgstr "%s braucht eine Erweiterung, um größer als %d werden zu können."
 
 #: server/cityturn.c:815
 #, c-format
@@ -37673,19 +37710,19 @@ msgstr ""
 "erforderlich. Der Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1187
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; only available from %s.  Postponing..."
 msgstr ""
-"%s kann %s aus der Arbeitsliste nicht bauen, da notwendige Kenntnisse "
-"fehlen. Der Auftrag wird zurückgestellt."
+"%s kann %s aus der Arbeitsliste nicht bauen; erst ab %s verfügbar. Der "
+"Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1225
-#, fuzzy, c-format
+#, c-format
 msgid "%s can't build %s from the worklist; reason unknown!  Postponing..."
 msgstr ""
-"%s can't build %s from the worklist - die Gründe sind nicht bekannt. Der "
-"Auftrag wird zurückgestellt."
+"%s kann %s aus der Arbeitsliste nicht bauen — die Gründe sind nicht bekannt! "
+"Der Auftrag wird zurückgestellt."
 
 #. TRANS: The <city> worklist ....
 #: server/cityturn.c:1264
@@ -37706,7 +37743,7 @@ msgstr "Bevölkerung in %s stirbt, weil %s nicht unterhalten wurde!"
 #: server/cityturn.c:1478 server/cityturn.c:1611
 #, c-format
 msgid "%s is building %s, which is no longer available."
-msgstr "%s baut %s, obwohl das nicht mehr erhältlich ist."
+msgstr "%s baut %s, obwohl das nicht mehr verfügbar ist."
 
 #: server/cityturn.c:1517
 #, c-format
@@ -37761,7 +37798,7 @@ msgstr ""
 "%s in %s verkauft, da die laufenden Kosten nicht erbracht werden konnten!"
 
 #: server/cityturn.c:1851
-#, fuzzy, c-format
+#, c-format
 msgid "Not enough gold. %s disbanded."
 msgstr "Zu wenig Gold. %s wurde aufgelöst."
 
@@ -37773,7 +37810,7 @@ msgstr "Umweltverschmutzung bei %s."
 #: server/cityturn.c:2246
 #, c-format
 msgid "Celebrations in your honor in %s."
-msgstr "Zu Deinen Ehren werden in %s Feiern veranstaltet."
+msgstr "Zu Ihren Ehren werden in %s Feiern veranstaltet."
 
 #: server/cityturn.c:2252
 #, c-format
@@ -37783,7 +37820,7 @@ msgstr "Die Feiern in %s wurden abgesagt."
 #: server/cityturn.c:2269
 #, c-format
 msgid "%s has been struck by a plague! Population lost!"
-msgstr ""
+msgstr "%s wird von einer Seuche heimgesucht! Bevölkerung verloren!"
 
 #: server/cityturn.c:2315
 #, c-format
@@ -37824,6 +37861,8 @@ msgstr "%s wurde aufgegeben, um %s zu bekommen."
 msgid ""
 "Migrants from %s can't go to %s because there is not enough food available!"
 msgstr ""
+"Migranten aus %s können nicht nach %s ziehen, weil es dort nicht genügend "
+"Nahrung für sie gibt."
 
 #. TRANS: From <city1> to <city2> (<city2 nation adjective>).
 #: server/cityturn.c:2609
@@ -37832,6 +37871,8 @@ msgid ""
 "Migrants from %s can't go to %s (%s) because there is not enough food "
 "available!"
 msgstr ""
+"Migranten aus %s können nicht nach %s (%s) ziehen, weil es dort nicht "
+"genügend Nachrung für sie gibt."
 
 #. TRANS: From <city1> (<city1 nation adjective>) to <city2>.
 #: server/cityturn.c:2614
@@ -37840,6 +37881,8 @@ msgid ""
 "Migrants from %s (%s) can't go to %s because there is not enough food "
 "available!"
 msgstr ""
+"Migranten aus %s (%s) können nicht nach %s ziehen, weil es dort nicht "
+"genügend Nahrung für sie gibt."
 
 #. TRANS: From <city1> to <city2>.
 #: server/cityturn.c:2629
@@ -37847,6 +37890,8 @@ msgstr ""
 msgid ""
 "Migrants from %s can't go to %s because it needs an improvement to grow!"
 msgstr ""
+"Migranten aus %s können nicht nach %s ziehen, weil es dort an einer "
+"Stadtverbesserung für Wachstum mangelt."
 
 #. TRANS: From <city1> to <city2> of <city2 nation adjective>.
 #: server/cityturn.c:2636
@@ -37854,6 +37899,8 @@ msgstr ""
 msgid ""
 "Migrants from %s can't go to %s (%s) because it needs an improvement to grow!"
 msgstr ""
+"Migranten aus %s können nicht nach %s (%s) ziehen, weil es dort an einer "
+"Stadtverbesserung für Wachstum mangelt."
 
 #. TRANS: From <city1> (<city1 nation adjective>) to <city2>.
 #: server/cityturn.c:2641
@@ -37861,34 +37908,41 @@ msgstr ""
 msgid ""
 "Migrants from %s (%s) can't go to %s because it needs an improvement to grow!"
 msgstr ""
+"Migranten aus %s (%s) können nicht nach %s ziehen, weil es dort an einer "
+"Stadtverbesserung für Wachstum mangelt."
 
 #: server/cityturn.c:2683
-#, fuzzy, c-format
+#, c-format
 msgid "%s was disbanded by its citizens."
-msgstr "%s wurde aufgegeben, um %s zu bekommen."
+msgstr "%s wurde von seinen Bürgern verlassen."
 
 #. TRANS: From <city1> to <city2>.
 #: server/cityturn.c:2719
 #, c-format
 msgid "Migrants from %s moved to %s in search of a better life."
 msgstr ""
+"Migranten zogen von %s auf der Suche nach einem besseren Leben nach %s."
 
 #. TRANS: From <city1> to <city2> (<city2 nation adjective>).
 #: server/cityturn.c:2725
 #, c-format
 msgid "Migrants from %s moved to %s (%s) in search of a better life."
 msgstr ""
+"Migranten zogen von %s auf der Suche nach einem besseren Leben nach %s (%s)."
 
 #. TRANS: From <city1> (<city1 nation adjective>) to <city2>.
 #: server/cityturn.c:2730
 #, c-format
 msgid "Migrants from %s (%s) moved to %s in search of a better life."
 msgstr ""
+"Migranten zogen von %s (%s) auf der Suche nach einem besseren Leben nach %s."
 
 #: server/cityturn.c:2917
 #, c-format
 msgid "Citizens of %s are thinking about migrating to %s for a better life."
 msgstr ""
+"Einige Bürger aus %s denken darüber nach, für ein besseres Leben nach %s "
+"umzuziehen."
 
 #. TRANS: <city1> to <city2> (<city2 nation adjective>).
 #: server/cityturn.c:2938
@@ -37896,64 +37950,69 @@ msgstr ""
 msgid ""
 "Citizens of %s are thinking about migrating to %s (%s) for a better life."
 msgstr ""
+"Einige Bürger aus %s denken darüber nach, für ein besseres Leben nach %s "
+"(%s) umzuziehen."
 
 #: server/civserver.c:95
 msgid "Setting timeout to 0. Autogame will stop."
-msgstr ""
+msgstr "Timeout auf 0 gesetzt. Automatisches Spiel wird angehalten."
 
 #: server/civserver.c:99
-#, fuzzy
 msgid "You must interrupt Freeciv twice within one second to make it exit."
 msgstr ""
-"Um Freeciv zu beenden, muß zweimal innerhalb einer Sekunde unterbrochen "
-"werden.\n"
+"Um Freeciv zu beenden, muss zweimal innerhalb einer Sekunde unterbrochen "
+"werden."
 
+# MG: TECHNICAL
 #: server/civserver.c:158
 #, c-format
 msgid "Failed to install SIGINT handler: %s\n"
-msgstr ""
+msgstr "Failed to install SIGINT handler: %s\n"
 
+# MG: TECHNICAL
 #: server/civserver.c:165
 #, c-format
 msgid "Failed to install SIGHUP handler: %s\n"
-msgstr ""
+msgstr "Failed to install SIGHUP handler: %s\n"
 
+# MG: TECHNICAL
 #: server/civserver.c:172
 #, c-format
 msgid "Failed to install SIGTERM handler: %s\n"
-msgstr ""
+msgstr "Failed to install SIGTERM handler: %s\n"
 
+# MG: TECHNICAL
 #: server/civserver.c:181
 #, c-format
 msgid "Failed to ignore SIGPIPE: %s\n"
-msgstr ""
+msgstr "Failed to ignore SIGPIPE: %s\n"
 
 #: server/civserver.c:227
 #, c-format
 msgid "Warning: the %s option is obsolete.  Use -m to enable the metaserver.\n"
 msgstr ""
-"WARNUNG: Die '%s' Option gibt es nicht mehr. Benutzen Sie '-m', um die\n"
+"WARNUNG: Die Option „%s“ gibt es nicht mehr. Benutzen Sie „-m“, um die\n"
 "         Metaserver-Option einzuschalten.\n"
 
 #: server/civserver.c:297
 #, c-format
 msgid "Illegal value \"%s\" for --Announce"
-msgstr ""
+msgstr "Ungültiger Wert „%s“ für --Announce"
 
 #: server/civserver.c:303
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to load AI module \"%s\"\n"
-msgstr "Fehler bei der Generierung des neuen KI-Spielers: %s."
+msgstr "Konnte KI-Modul „%s“ nicht laden\n"
 
 #: server/civserver.c:309
 #, c-format
 msgid "Error: unknown option '%s'\n"
-msgstr "FEHLER: unbekannte Option '%s'\n"
+msgstr "FEHLER: unbekannte Option „%s“\n"
 
 #: server/civserver.c:320
 #, c-format
 msgid "This is the server for %s"
-msgstr "%s Server"
+msgstr "Dies ist der Server von %s"
 
 #. TRANS: No full stop after the URL, could cause confusion.
 #: server/civserver.c:322
@@ -37964,159 +38023,139 @@ msgstr "Weitere Informationen zu Freeciv finden Sie auf %s."
 #. TRANS: "Database" is exactly what user must type, do not translate.
 #: server/civserver.c:336
 msgid "Database FILE"
-msgstr ""
+msgstr "Database DATEI"
 
 #: server/civserver.c:337
-#, fuzzy
 msgid "Enable database connection with configuration from FILE."
-msgstr ""
-"  -a  --auth DATEI\tServerauthentifizierung einschalten und Konfiguration "
-"aus DATEI lesen.\n"
+msgstr "Datenbankverbindung mit der Konfiguration aus DATEI aktivieren."
 
 #: server/civserver.c:340
 msgid "Enable server authentication (requires --Database)."
-msgstr ""
+msgstr "Serverauthentifizierung einschalten (erfordert --Database)."
 
 #: server/civserver.c:342
-#, fuzzy
 msgid "Allow guests to login if auth is enabled."
-msgstr "  -G  --Guests\t\tGästelogin bei Authentifizierung erlauben.\n"
+msgstr "Gästelogin bei Authentifizierung erlauben."
 
 #: server/civserver.c:344
 #, fuzzy
 msgid "Allow new users to login if auth is enabled."
-msgstr "  -N  --Newusers\tNeue Benutzer bei Authentifizierung erlauben.\n"
+msgstr "Neue Benutzer bei Authentifizierung erlauben.\n"
 
 #. TRANS: "bind" is exactly what user must type, do not translate.
 #: server/civserver.c:348
 msgid "bind ADDR"
-msgstr ""
+msgstr "bind ADRESSE"
 
 #: server/civserver.c:349
-#, fuzzy
 msgid "Listen for clients on ADDR"
-msgstr "  -b, --bind ADR\tNur an ADR auf Client warten\n"
+msgstr "Nur an ADRESSE auf Clients warten"
 
 #: server/civserver.c:351
-#, fuzzy
 msgid "Connect to metaserver from this address"
-msgstr "In diesem Spiel werden keine Daten an den Metaserver geschickt."
+msgstr "Von dieser Adresse zu Metaserver verbinden"
 
 #. TRANS: "file" is exactly what user must type, do not translate.
 #: server/civserver.c:372
 msgid "file FILE"
-msgstr ""
+msgstr "file DATEI"
 
 #: server/civserver.c:373
-#, fuzzy
 msgid "Load saved game FILE"
-msgstr "Spiel laden"
+msgstr "Gespeichertes Spiel aus DATEI laden"
 
 #. TRANS: "identity" is exactly what user must type, do not translate.
 #: server/civserver.c:378
 msgid "identity ADDR"
-msgstr ""
+msgstr "identity ADRESSE"
 
 #: server/civserver.c:379
-#, fuzzy
 msgid "Be known as ADDR at metaserver"
-msgstr "  -M, --Metaserver ADR\tMetaserveradresse ADR benutzen\n"
+msgstr "Am Metaserver unter ADRESSE bekannt sein"
 
 #: server/civserver.c:385
-#, fuzzy
 msgid "Notify metaserver and send server's info"
-msgstr "  -m, --meta\t\tMetaserver verständigen und Serverinfo senden\n"
+msgstr "Metaserver verständigen und Serverinfo senden"
 
 #. TRANS: "Metaserver" is exactly what user must type, do not translate.
 #: server/civserver.c:388
-#, fuzzy
 msgid "Metaserver ADDR"
-msgstr "Metaserver"
+msgstr "Metaserver ADRESSE"
 
 #: server/civserver.c:389
-#, fuzzy
 msgid "Set ADDR as metaserver address"
-msgstr "Metaserver <Adresse>"
+msgstr "Setze ADRESSE als Metaserver-Adresse"
 
 #: server/civserver.c:393
-#, fuzzy
 msgid "Listen for clients on port PORT"
-msgstr "  -p, --port PORT\tVerwende Portnummer PORT\n"
+msgstr "Warte an Port PORT auf Clients."
 
 #. TRANS: "quitidle" is exactly what user must type, do not translate.
 #: server/civserver.c:396
 msgid "quitidle TIME"
-msgstr ""
+msgstr "quitidle ZEIT"
 
 #: server/civserver.c:397
-#, fuzzy
 msgid "Quit if no players for TIME seconds"
-msgstr "  -q, --quitidle ZEIT\tAbbrechen, wenn ZEIT Sekunden ohne Spieler\n"
+msgstr "Abbrechen, wenn ZEIT Sekunden ohne Spieler"
 
 #: server/civserver.c:399
-#, fuzzy
 msgid "When a game ends, exit instead of restarting"
-msgstr "  -e, --exit-on-end\tBei Spielende stoppen, kein Neustart\n"
+msgstr "Bei Spielende stoppen, kein Neustart"
 
 #. TRANS: "saves" is exactly what user must type, do not translate.
 #: server/civserver.c:402
 msgid "saves DIR"
-msgstr ""
+msgstr "saves VERZ"
 
 #: server/civserver.c:403
-#, fuzzy
 msgid "Save games to directory DIR"
-msgstr "  -s, --saves VERZ\tSpielstände im Verzeichnis VERZ speichern\n"
+msgstr "Spielstände im Verzeichnis VERZ speichern"
 
 #. TRANS: "scenarios" is exactly what user must type, do not translate.
 #: server/civserver.c:406
-#, fuzzy
 msgid "scenarios DIR"
-msgstr "Szenario"
+msgstr "scenarios VERZ"
 
 #: server/civserver.c:407
-#, fuzzy
 msgid "Search for scenarios in directory DIR"
-msgstr "  -s, --saves VERZ\tSpielstände im Verzeichnis VERZ speichern\n"
+msgstr "Suche Szenarien im Verzeichnis VERZ"
 
 #. TRANS: "Serverid" is exactly what user must type, do not translate.
 #: server/civserver.c:410
-#, fuzzy
 msgid "Serverid ID"
-msgstr "Server-ID: %s"
+msgstr "Serverid ID"
 
 #: server/civserver.c:411
-#, fuzzy
 msgid "Sets the server id to ID"
-msgstr "  -S, --Serverid ID\tSetze die Server-ID auf ID\n"
+msgstr "Setze die Server-ID auf ID"
 
 #: server/civserver.c:415
-#, fuzzy
 msgid "Read startup script FILE"
-msgstr "  -r, --read DATEI\tStartskript DATEI laden\n"
+msgstr "Startskript DATEI laden"
 
 #. TRANS: "Ranklog" is exactly what user must type, do not translate.
 #: server/civserver.c:418
 msgid "Ranklog FILE"
-msgstr ""
+msgstr "Ranklog DATEI"
 
 #: server/civserver.c:419
-#, fuzzy
 msgid "Use FILE as ranking logfile"
-msgstr "  -R, --Ranklog DATEI\tSchreibe Ranking-Informationen in DATEI\n"
+msgstr "Schreibe Ranking-Informationen in DATEI"
 
 #. TRANS: "LoadAI" is exactly what user must type, do not translate.
 #: server/civserver.c:423
 msgid "LoadAI MODULE"
-msgstr ""
+msgstr "LoadAI MODUL"
 
 #: server/civserver.c:424
 msgid "Load ai module MODULE. Can appear multiple times"
-msgstr ""
+msgstr "Lade das KI-Modul MODUL. Kann mehrfach auftauchen."
 
 #: server/civserver.c:440
 msgid "Requested authentication with --auth, but no --Database given\n"
 msgstr ""
+"Authentifizierung mit --auth verlangt, aber --Database nicht gegeben.\n"
 
 #: server/commands.c:53
 msgid "Start the game, or restart after loading a savegame."
@@ -38136,10 +38175,11 @@ msgstr ""
 "Mit diesem Befehl wird ein Spiel begonnen. Bei neuen Spielen sollte er "
 "benutzt werden, nachdem alle menschlichen Spieler bereit sind, alle "
 "(benötigten) KI-Spieler erzeugt wurden und alle gewünschten "
-"Servereinstellungen gemacht wurden. Nach Eingabe von 'start' dürfen sich "
+"Servereinstellungen gemacht wurden. Nach Eingabe von „start“ dürfen sich "
 "alle menschlichen Spieler ihre Nation aussuchen; danach beginnt das Spiel. "
-"'start' wird auch benötigt, um ein geladenes Spiel fortzusetzen. Nach "
-"Spielbeginn steht der Befehl nicht mehr zur Verfügung."
+"„start“ wird auch benötigt, um ein geladenes Spiel fortzusetzen. Nach "
+"Spielbeginn steht der Befehl nicht mehr zur Verfügung, da er wirkungslos "
+"wäre."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:68
@@ -38161,7 +38201,6 @@ msgid "Show help about server commands and server options."
 msgstr "Hilfe zu Serverbefehlen und -einstellungen anzeigen"
 
 #: server/commands.c:74
-#, fuzzy
 msgid ""
 "With no arguments gives some introductory help. With argument \"commands\" "
 "or \"options\" gives respectively a list of all commands or all options. "
@@ -38171,16 +38210,16 @@ msgid ""
 "abbreviated where unambiguous."
 msgstr ""
 "Ohne Argumente wird eine kurze Einführung zum Hilfesystem angezeigt. Die "
-"Argumente 'commands' bzw. 'options' zeigen eine Liste der verfügbaren "
+"Argumente „commands“ bzw. „options“ zeigen eine Liste der verfügbaren "
 "Befehle bzw. Optionen an. Für alle anderen Argumente wird die spezifische "
-"Hilfe angezeigt. Das Argument darf abgekürzt werden, muß aber eindeutig sein."
+"Hilfe angezeigt. Das Argument darf abgekürzt werden, muss aber eindeutig "
+"sein."
 
 #: server/commands.c:96
 msgid "Show a list of various things."
-msgstr ""
+msgstr "Zeigt eine Liste verschiedener Dinge."
 
 #: server/commands.c:97
-#, fuzzy
 msgid ""
 "Show a list of:\n"
 " - the player colors,\n"
@@ -38194,9 +38233,17 @@ msgid ""
 " - the running votes.\n"
 "The argument may be abbreviated, and defaults to 'players' if absent."
 msgstr ""
-"Zeigt eine Liste der Spieler, Spielerteams, Serververbindungen oder der "
-"verfügbaren Szenarios. Das Argument kann abgekürzt werden, Standard ist "
-"'players'."
+"Zeigt eine Liste von:\n"
+" • Spielern im Spiel\n"
+" • Spielerfarben\n"
+" • Serververbindungen\n"
+" • Spielerteams\n"
+" • Spielerdelegationen\n"
+" • Verfügbaren Szenarien\n"
+" • Laufenden Abstimmungen\n"
+" • Ihre Ignorierliste\n"
+" • die Liste der definierten Kartenbilder\n"
+" Das Argument kann abgekürzt werden, Standard ist „players“."
 
 #: server/commands.c:114
 msgid "Quit the game and shutdown the server."
@@ -38212,7 +38259,6 @@ msgid "Cut a client's connection to server."
 msgstr "Eine Client-Server-Verbindung beenden."
 
 #: server/commands.c:121
-#, fuzzy
 msgid ""
 "Cut specified client's connection to the server, removing that client from "
 "the game. If the game has not yet started that client's player is removed "
@@ -38239,15 +38285,14 @@ msgid "Explain server options."
 msgstr "Serveroptionen erläutern"
 
 #: server/commands.c:133
-#, fuzzy
 msgid ""
 "The 'explain' command gives a subset of the functionality of 'help', and is "
 "included for backward compatibility. With no arguments it gives a list of "
 "options (like 'help options'), and with an argument it gives help for a "
 "particular option (like 'help <option-name>')."
 msgstr ""
-"Der Befehl 'explain' ist nur noch aus Kompatibilitätsgründen vorhanden. Er "
-"entspricht dem Befehl 'help options' bzw. 'help <Option>'."
+"Der Befehl „explain“ ist nur noch aus Kompatibilitätsgründen vorhanden. Er "
+"entspricht dem Befehl „help options“ bzw. „help <Option>“."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:142
@@ -38263,6 +38308,16 @@ msgid ""
 "show locked\n"
 "show rulesetdir"
 msgstr ""
+"show\n"
+"show <Option>\n"
+"show <Optionspräfix>\n"
+"show all\n"
+"show vital\n"
+"show situational\n"
+"show rare\n"
+"show changed\n"
+"show locked\n"
+"show rulesetdir"
 
 #: server/commands.c:152
 msgid "Show server options."
@@ -38278,6 +38333,14 @@ msgid ""
 "\"locked\" all settings locked by the ruleset will be listed. With \"ruleset"
 "\", it will show the current ruleset directory name."
 msgstr ""
+"Ohne Argumente werden die kritischen Serveroptionen angezeigt (oder, wenn "
+"von Clients verwendet, die verfügbaren Optionen). Mit einem Argument wird "
+"nur die benannte Option oder Optionen, die mit diesem Präfix beginnen, "
+"angezeigt. „all“ zeigt alle Optionen. „vital“, „situational“ und „rare“ "
+"zeigen eine Reihe von Optionen mit diesem Level. „changed“ zeigt alle "
+"veränderten Optionen und „locked“ diejenigen, die vom Regelsatz gesperrt "
+"sind. „ruleset“ schließlich zeigt den Verzeichnisnamen des aktuellen "
+"Regelsatzes."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:165
@@ -38286,7 +38349,7 @@ msgstr "wall <Nachricht>"
 
 #: server/commands.c:166
 msgid "Send message to all connections."
-msgstr "Nachricht an alle schicken."
+msgstr "Nachricht an alle Verbindungen schicken."
 
 #: server/commands.c:167
 msgid ""
@@ -38297,26 +38360,26 @@ msgstr ""
 
 #. TRANS: translate text between <> only
 #: server/commands.c:173
-#, fuzzy
 msgid "connectmsg <message>"
-msgstr "Mitteilungen zu Verbindungen"
+msgstr "connectmsg <Nachricht>"
 
 #: server/commands.c:174
-#, fuzzy
 msgid "Set message to show to connecting players."
-msgstr "Nachricht an alle schicken."
+msgstr "Nachricht für verbindende Spieler setzen."
 
 #: server/commands.c:175
 msgid ""
 "Set message to send to clients when they connect.\n"
 "Empty message means that no message is sent."
 msgstr ""
+"Setzt die Nachricht, die am Client angezeigt wird, wenn dieser sich "
+"verbindet. Eine leere Nachricht führt dazu, dass überhaupt keine Nachricht "
+"angezeigt wird."
 
 #. TRANS: translate text between [] only; "vote" is as a process
 #: server/commands.c:181
-#, fuzzy
 msgid "vote yes|no|abstain [vote number]"
-msgstr "vote yes|no [Abstimmungsnummer]"
+msgstr "vote yes|no|abstain [Abstimmungsnummer]"
 
 #. TRANS: "vote" as an instance of voting
 #: server/commands.c:183
@@ -38336,9 +38399,9 @@ msgid ""
 msgstr ""
 "Ein Spieler mit Zugangsberechtigung Info, der einen Befehl der Kontrollebene "
 "gibt, leitet damit eine Abstimmung ein. Jeder Spieler kann dann seine Stimme "
-"abgeben, indem er '/vote', gefolgt von 'yes' oder 'no', wahlweise gefolgt "
-"von einer Abstimmungsnummer, eingibt. Ohne Abstimmungsnummer bezieht sich "
-"die Stimmabgabe immer auf die letzte Abstimmung. Jeder Spieler kann zur "
+"abgeben, indem er „/vote“, gefolgt von „yes“, „no“ oder „abstain“, wahlweise "
+"gefolgt von einer Abstimmungsnummer, eingibt. Ohne Abstimmungsnummer bezieht "
+"sich die Stimmabgabe immer auf die letzte Abstimmung. Jeder Spieler kann zur "
 "gleichen Zeit nur eine Abstimmung einleiten. Die Abstimmung dauert bis zum "
 "Ablauf einer vollen Runde oder bis ein klares Votum (mehr als 50%) erreicht "
 "ist."
@@ -38356,13 +38419,21 @@ msgid ""
 "debug timing\n"
 "debug info"
 msgstr ""
+"debug diplomacy <Spieler>\n"
+"debug ferries\n"
+"debug player <Spieler>\n"
+"debug tech <Spieler>\n"
+"debug city <x> <y>\n"
+"debug units <x> <y>\n"
+"debug unit <d>\n"
+"debug timing\n"
+"debug info"
 
 #: server/commands.c:207
 msgid "Turn on or off AI debugging of given entity."
 msgstr "Fehlersuche für KI für ein Element ein- oder ausschalten."
 
 #: server/commands.c:208
-#, fuzzy
 msgid ""
 "Print AI debug information about given entity and turn continuous debugging "
 "output for this entity on or off."
