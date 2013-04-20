@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-20 19:09+0200\n"
-"PO-Revision-Date: 2013-04-13 12:33+0200\n"
+"PO-Revision-Date: 2013-04-20 20:43+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -5304,7 +5304,7 @@ msgstr "unbekannt"
 
 #. TRANS: unit type and home city, e.g. "Transport\n(New Orleans)"
 #: client/gui-gtk-2.0/unitselect.c:832 client/gui-gtk-3.0/unitselect.c:833
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s\n"
 "(%s)"
@@ -26561,7 +26561,6 @@ msgstr "Byzantiner"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/byzantium.ruleset:7
-#, fuzzy
 msgid ""
 "At the time of the decline of the old Roman empire, the Emperor Constantine "
 "moved the empire's capital to Byzantium and formed a new empire mostly known "
@@ -26736,7 +26735,6 @@ msgstr "Admirälin %s"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/carthaginian.ruleset:9
-#, fuzzy
 msgid ""
 "The Carthaginians, descendants of Phoenician traders, ran a naval empire in "
 "the Mediterranean from the 5th to 2nd centuries BCE. Carthage was destroyed "
@@ -26939,15 +26937,46 @@ msgid ""
 "majority of Muslims in modern Vietnam are of Cham ethnicity."
 msgstr ""
 
+# MG: Bei den folgenden Texten zu den Kynokephalen liegt meines
+# Erachtens ein Sachfehler vor. Der Begriff „chananean“ hat erstmal
+# nichts mit den Hundsköpfen zu tun — es ist die fragwürdige Übernahme
+# des lateinischen Begriffs „canineus“, den Walther von Speyer in seiner
+# Erzählung des hl. Christopherus verwendet. Dieser Begriff jedoch ist
+# eine abwertende Form von „caninus“ („zur Gattung Hund gehörend“) im
+# Sinne von „benimmt sich wie ein Hund“. „chananean“ hingegen wird
+# korrekterweise ins Deutsche übersetzt als „kanaanäisch“, und ich
+# bezweifle, dass die Kanaaniter sich gern als Hundsköpfe bezeichnen
+# lassen würden. Die englische Fehlbegrifflichung ist vermutlich durch
+# Missverständnis des Begriffs „canineus“ als „cananeus“, „kanaanäisch“,
+# zustandegekommen und führt zu einer Ununterscheidbarkeit der Begriff-
+# lichkeiten in der englischen Sprache. Siehe dazu auch
+# http://www.jakobus-weg.de/aJakw/3Spiritua/XroPilg.htm.
+#
+# Der Sachfehler liegt vor, weil Walther von Speyer keine Kanaaniter
+# beschrieben hat, sondern Kynokephale. Der Begriff „chananean“ im
+# Englischen ist _falsch_. Er muss, wenn schon nicht korrekt
+# „cynocephals“, dann doch wenigstens „caninean“ heißen.
+#
+# Ich plädiere daher für die weniger anstößliche Bezeichnung
+# „kynokephal“.
 #: data/nation/chananean.ruleset:3
-#, fuzzy
 msgid "Chananean"
-msgstr "kanadisch"
+msgstr "kynokephal"
 
+# MG: Gratulation. „Kynokephale“ ist eines der äußerst seltenen
+# Wörter, die im Deutschen zwei Nominative aufweisen. Als Einzelwort
+# gebraucht, etwa in einer Überschrift, spricht man von „Kynokephale“:
+# „Kynokephale in der Kunst“. In einem Satzzusammenhang hingegen haben
+# wir: „Die Kynokephalen nehmen eine prominente Stelle ein.“ In der
+# Annahme, dass dieses Wort in Freeciv meistens in Sätzen und weniger
+# in Überschriften gebraucht wird, habe ich mich für die letzere Form
+# entschieden.
+#
+# Die Beispiele habe ich dem Wikipedia-Artikel entnommen:
+# http://de.wikipedia.org/wiki/Kynokephale
 #: data/nation/chananean.ruleset:4
-#, fuzzy
 msgid "?plural:Chananeans"
-msgstr "?plural:Kanadier"
+msgstr "Kynokephalen"
 
 #: data/nation/chananean.ruleset:6
 msgid ""
@@ -26960,25 +26989,34 @@ msgid ""
 "comes from the German poet Walter of Speyer. In the account by Sir John "
 "Mandeville, the people were known as the Nacumerians."
 msgstr ""
+"Die Berichte von Kynokephalen (Menschen mit dem Kopf eines Hundes oder "
+"Jakals) können bis in die griechische Antike zurückverfolgt werden. Der "
+"Physiker Ktesias und der Reisende Megasthenes wollten sie in Indien gesehen "
+"haben; im Mittelalter wurden sie von Marco Polo und Giovanni da Pian "
+"erwähnt, der Theologe Ratramnus philosophierte gar darüber, ob Kynokephale "
+"als menschlich anzusehen seien oder nicht. Diverse Geschichten beschreiben "
+"ihr Auftreten in Schottland, Kanaan, Cyrenaica und auf den Andamanen, der "
+"Begriff des Landes „Chananäa“ geht jedoch auf den deutschen Dichter Walther "
+"von Speyer zurück. Sir John Mandeville führte sie unter dem Namen "
+"Nakumerianer."
 
 #: data/nation/chananean.ruleset:32 data/nation/werewolf.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "%s Alpha"
-msgstr "Alphabet"
+msgstr "%s-Alpha"
 
 #: data/nation/chananean.ruleset:32 data/nation/werewolf.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "?female:%s Alpha"
-msgstr "Genossin"
+msgstr "%s-Alpha"
 
 #: data/nation/chechen.ruleset:3
 msgid "Chechen"
-msgstr ""
+msgstr "tschetschenisch"
 
 #: data/nation/chechen.ruleset:4
-#, fuzzy
 msgid "?plural:Chechens"
-msgstr "Tschechen"
+msgstr "Tschetschenen"
 
 #: data/nation/chechen.ruleset:7
 msgid ""
@@ -26992,12 +27030,11 @@ msgstr ""
 
 #: data/nation/cherokee.ruleset:3
 msgid "Cherokee"
-msgstr ""
+msgstr "tscherokesisch"
 
 #: data/nation/cherokee.ruleset:4
-#, fuzzy
 msgid "?plural:Cherokees"
-msgstr "Griechen"
+msgstr "Cherokee"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/cherokee.ruleset:7
@@ -27005,15 +27042,16 @@ msgid ""
 "The Cherokee nation is the largest Native American nation in North America "
 "today."
 msgstr ""
+"Die Cherokee Nation ist die größte nativamerikanische Nation im heutigen "
+"Amerika."
 
 #: data/nation/chiapanec.ruleset:3
 msgid "Chiapanec"
-msgstr ""
+msgstr "chiapanisch"
 
 #: data/nation/chiapanec.ruleset:4
-#, fuzzy
 msgid "?plural:Chiapanecs"
-msgstr "Chinesen"
+msgstr "Chiapas"
 
 #: data/nation/chiapanec.ruleset:6
 msgid ""
@@ -27028,12 +27066,11 @@ msgstr ""
 
 #: data/nation/chickasaw.ruleset:3
 msgid "Chickasaw"
-msgstr ""
+msgstr "chickasawisch"
 
 #: data/nation/chickasaw.ruleset:4
-#, fuzzy
 msgid "?plural:Chickasaws"
-msgstr "?plural:Chilenen"
+msgstr "Chickasaw"
 
 #: data/nation/chickasaw.ruleset:6
 msgid ""
@@ -27062,25 +27099,23 @@ msgstr ""
 
 #: data/nation/chilean.ruleset:30 data/nation/puertorican.ruleset:28
 #: data/nation/yucatecan.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Captain General %s"
-msgstr "Captain General"
+msgstr "Generalkapitän %s"
 
 #: data/nation/chilean.ruleset:30 data/nation/puertorican.ruleset:28
 #: data/nation/yucatecan.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Captain General %s"
-msgstr "Captain General"
+msgstr "Generalkapitänin %s"
 
 #: data/nation/chimu.ruleset:3
-#, fuzzy
 msgid "Chimu"
-msgstr "Vorsitzender"
+msgstr "chimúisch"
 
 #: data/nation/chimu.ruleset:4
-#, fuzzy
 msgid "?plural:Chimu"
-msgstr "Thailänder"
+msgstr "Chimos"
 
 #: data/nation/chimu.ruleset:6
 msgid ""
@@ -27095,7 +27130,6 @@ msgstr ""
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/chinese.ruleset:7
-#, fuzzy
 msgid ""
 "China is the oldest major civilization that is still in existence today, "
 "with written records dating back over 3,500 years. After first being unified "
@@ -27116,12 +27150,11 @@ msgstr ""
 
 #: data/nation/chinook.ruleset:3
 msgid "Chinook"
-msgstr ""
+msgstr "chinookisch"
 
 #: data/nation/chinook.ruleset:4
-#, fuzzy
 msgid "?plural:Chinooks"
-msgstr "Chinesen"
+msgstr "Chinook"
 
 #: data/nation/chinook.ruleset:6
 msgid ""
@@ -27136,12 +27169,11 @@ msgstr ""
 
 #: data/nation/choctaw.ruleset:3
 msgid "Choctaw"
-msgstr ""
+msgstr "choctawisch"
 
 #: data/nation/choctaw.ruleset:4
-#, fuzzy
 msgid "?plural:Choctaws"
-msgstr "?plural:Chilenen"
+msgstr "Choctaw"
 
 #: data/nation/choctaw.ruleset:6
 msgid ""
@@ -27157,14 +27189,13 @@ msgid ""
 msgstr ""
 
 #: data/nation/chola.ruleset:3
-#, fuzzy
 msgid "Chola"
-msgstr "chilenisch"
+msgstr "cholanisch"
 
 #: data/nation/chola.ruleset:4
 #, fuzzy
 msgid "?plural:Cholas"
-msgstr "?plural:Chilenen"
+msgstr "Cholaner"
 
 #: data/nation/chola.ruleset:7
 msgid ""
@@ -27178,14 +27209,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/chrobatian.ruleset:3
-#, fuzzy
 msgid "Chrobatian"
-msgstr "kroatisch"
+msgstr "chorvatisch"
 
 #: data/nation/chrobatian.ruleset:4
-#, fuzzy
 msgid "?plural:Chrobatians"
-msgstr "Kroaten"
+msgstr "Chorvaten"
 
 #: data/nation/chrobatian.ruleset:6
 msgid ""
@@ -27201,22 +27230,23 @@ msgstr ""
 #: data/nation/czech.ruleset:33 data/nation/macedonian.ruleset:23
 #: data/nation/slavic.ruleset:33 data/nation/slovakian.ruleset:23
 #: data/nation/veletian.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Voivode %s"
-msgstr "Voievod"
+msgstr "Woiwode %s"
 
+# ? Mag mir jemand mit slawischen Kenntnissen helfen? Woiwodja?
 #: data/nation/chrobatian.ruleset:29 data/nation/czechoslovak.ruleset:31
 #: data/nation/czech.ruleset:33 data/nation/macedonian.ruleset:23
 #: data/nation/slavic.ruleset:33 data/nation/slovakian.ruleset:23
 #: data/nation/veletian.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Voivode %s"
-msgstr "Genossin"
+msgstr "Woiwode %s"
 
 #: data/nation/chrobatian.ruleset:30 data/nation/slovakian.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Priestess %s"
-msgstr "Priesterin"
+msgstr "Priesterin %s"
 
 #: data/nation/chrobatian.ruleset:31 data/nation/cossack.ruleset:30
 #: data/nation/cuyavian.ruleset:26 data/nation/finnish.ruleset:27
@@ -27226,9 +27256,9 @@ msgstr "Priesterin"
 #: data/nation/slavic.ruleset:32 data/nation/transylvanian.ruleset:29
 #: data/nation/ukrainian.ruleset:38 data/nation/veletian.ruleset:31
 #: data/nation/vistulan.ruleset:27 data/nation/westernpomeranian.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Grand Prince %s"
-msgstr "Prinzessin"
+msgstr "Großprinz %s"
 
 #: data/nation/chrobatian.ruleset:31 data/nation/cossack.ruleset:30
 #: data/nation/cuyavian.ruleset:26 data/nation/finnish.ruleset:27
@@ -27238,18 +27268,17 @@ msgstr "Prinzessin"
 #: data/nation/slavic.ruleset:32 data/nation/transylvanian.ruleset:29
 #: data/nation/ukrainian.ruleset:38 data/nation/veletian.ruleset:31
 #: data/nation/vistulan.ruleset:27 data/nation/westernpomeranian.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "Grand Princess %s"
-msgstr "Prinzessin"
+msgstr "Großprinzessin %s"
 
 #: data/nation/chumash.ruleset:3
 msgid "Chumash"
-msgstr ""
+msgstr "chumashisch"
 
 #: data/nation/chumash.ruleset:4
-#, fuzzy
 msgid "?plural:Chumash"
-msgstr "?plural:Chilenen"
+msgstr "Chumash"
 
 #: data/nation/chumash.ruleset:6
 msgid ""
