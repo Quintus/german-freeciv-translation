@@ -2,7 +2,7 @@
 # Copyright (C) 1999-2009 Free Software Foundation, Inc.
 # Egbert Hinzen <egbert@hinzen-koeln.de>, 1999-2002.
 # Christian Knoke <chrisk@cknoke.de>, 2003-2009.
-# Marvin Gülker <quintus@quintilianus.eu>, 2012
+# Marvin Gülker <quintus@quintilianus.eu>, 2012-2013
 #
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # + '# ?'  markiert Stellen, die noch nicht übersetzt wurden.           +
@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-26 15:32+0200\n"
-"PO-Revision-Date: 2013-04-26 16:49+0200\n"
+"PO-Revision-Date: 2013-04-27 12:08+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -28053,12 +28053,11 @@ msgstr ""
 
 #: data/nation/epirote.ruleset:3
 msgid "Epirote"
-msgstr ""
+msgstr "epirotisch"
 
 #: data/nation/epirote.ruleset:4
-#, fuzzy
 msgid "?plural:Epirotes"
-msgstr "Portugiesen"
+msgstr "Epiroten"
 
 #: data/nation/epirote.ruleset:6
 msgid ""
@@ -28068,23 +28067,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/epirote.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Tyrant %s"
-msgstr "Mansa"
+msgstr "Tyrant %s"
 
 #: data/nation/epirote.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Tyrant %s"
-msgstr "Thronräuberin"
+msgstr "Tyrant %s"
 
 #: data/nation/equatoguinean.ruleset:3
 msgid "Equatoguinean"
-msgstr ""
+msgstr "äquatorialguineisch"
 
 #: data/nation/equatoguinean.ruleset:4
-#, fuzzy
 msgid "?plural:Equatoguineans"
-msgstr "Bulgarier"
+msgstr "Äquatorialguineer"
 
 #: data/nation/equatoguinean.ruleset:6
 msgid ""
@@ -28095,14 +28093,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/eritrean.ruleset:3
-#, fuzzy
 msgid "Eritrean"
-msgstr "europäisch"
+msgstr "eritreisch"
 
 #: data/nation/eritrean.ruleset:4
-#, fuzzy
 msgid "?plural:Eritreans"
-msgstr "Koreaner"
+msgstr "Eritreer"
 
 #: data/nation/eritrean.ruleset:6
 msgid ""
@@ -28233,14 +28229,12 @@ msgid "?female:Commissioner %s"
 msgstr "Kommissarin %s"
 
 #: data/nation/evenki.ruleset:3
-#, fuzzy
 msgid "Evenki"
-msgstr "Ereignis"
+msgstr "ewenkisch"
 
 #: data/nation/evenki.ruleset:4
-#, fuzzy
 msgid "?plural:Evenks"
-msgstr "Griechen"
+msgstr "Ewenken"
 
 #: data/nation/evenki.ruleset:7
 msgid ""
@@ -28408,14 +28402,12 @@ msgid "?female:Captain %s"
 msgstr "Kapitänin %s"
 
 #: data/nation/franconian.ruleset:3
-#, fuzzy
 msgid "Franconian"
-msgstr "indisch"
+msgstr "frankonisch"
 
 #: data/nation/franconian.ruleset:4
-#, fuzzy
 msgid "?plural:Franconians"
-msgstr "Inder"
+msgstr "Frankonen"
 
 #: data/nation/franconian.ruleset:6
 msgid ""
@@ -28431,19 +28423,17 @@ msgstr ""
 #: data/nation/palatinate.ruleset:30 data/nation/rhenish.ruleset:38
 #: data/nation/tyrolian.ruleset:23 data/nation/walloon.ruleset:26
 #: data/nation/westphalian.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "Prince-Bishop %s"
-msgstr "Prinzessin"
+msgstr "Fürstbischof %s"
 
 #: data/nation/frankish.ruleset:3
-#, fuzzy
 msgid "Frankish"
-msgstr "türkisch"
+msgstr "fränkisch"
 
 #: data/nation/frankish.ruleset:4
-#, fuzzy
 msgid "?plural:Franks"
-msgstr "Perser"
+msgstr "Franken"
 
 #: data/nation/frankish.ruleset:6
 msgid ""
@@ -28462,14 +28452,14 @@ msgid ""
 msgstr ""
 
 #: data/nation/frankish.ruleset:43
-#, fuzzy, c-format
+#, c-format
 msgid "Mayor of the Palace %s"
-msgstr "Fehler bei der Generierung des neuen KI-Spielers: %s."
+msgstr "Hausmeier %s"
 
 #: data/nation/frankish.ruleset:43
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Mayor of the Palace %s"
-msgstr "Premierminister"
+msgstr "Hausmeierin %s"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/french.ruleset:7
@@ -28483,24 +28473,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/french.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "Citizen %s"
-msgstr "Bürger"
+msgstr "Bürger %s"
 
 #: data/nation/french.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Citizen %s"
-msgstr "Häuptling"
+msgstr "Bürgerin %s"
 
 #: data/nation/frisian.ruleset:3
-#, fuzzy
 msgid "Frisian"
-msgstr "persisch"
+msgstr "friesisch"
 
 #: data/nation/frisian.ruleset:4
-#, fuzzy
 msgid "?plural:Frisians"
-msgstr "Perser"
+msgstr "Friesen"
 
 #: data/nation/frisian.ruleset:6
 msgid ""
@@ -28516,14 +28504,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/friulian.ruleset:3
-#, fuzzy
 msgid "Friulian"
-msgstr "brasilianisch"
+msgstr "furlanisch"
 
 #: data/nation/friulian.ruleset:4
-#, fuzzy
 msgid "?plural:Friulian"
-msgstr "Perser"
+msgstr "Friuli"
 
 #: data/nation/friulian.ruleset:6
 msgid ""
@@ -28536,12 +28522,11 @@ msgstr ""
 
 #: data/nation/fulani.ruleset:3
 msgid "Fulani"
-msgstr ""
+msgstr "fulbisch"
 
 #: data/nation/fulani.ruleset:4
-#, fuzzy
 msgid "?plural:Fulani"
-msgstr "Perser"
+msgstr "Fulbe"
 
 #: data/nation/fulani.ruleset:6
 msgid ""
@@ -28555,14 +28540,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/gabonese.ruleset:3
-#, fuzzy
 msgid "Gabonese"
-msgstr "sudanesisch"
+msgstr "gabunisch"
 
 #: data/nation/gabonese.ruleset:4
-#, fuzzy
 msgid "?plural:Gabonese"
-msgstr "Sudanesen"
+msgstr "Gabuner"
 
 #: data/nation/gabonese.ruleset:6
 msgid ""
@@ -28574,14 +28557,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/gaelic.ruleset:3
-#, fuzzy
 msgid "Gaelic"
-msgstr "gallisch"
+msgstr "gälisch"
 
 #: data/nation/gaelic.ruleset:4
-#, fuzzy
 msgid "?plural:Gaels"
-msgstr "Gallier"
+msgstr "Gälen"
 
 #: data/nation/gaelic.ruleset:6
 msgid ""
@@ -28594,14 +28575,14 @@ msgstr ""
 
 #. TRANS: Taoiseach = Prime Minister
 #: data/nation/gaelic.ruleset:28 data/nation/irish.ruleset:44
-#, fuzzy, c-format
+#, c-format
 msgid "Taoiseach %s"
-msgstr "Taoiseach"
+msgstr "Taoiseach %s"
 
 #: data/nation/gaelic.ruleset:28 data/nation/irish.ruleset:44
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Taoiseach %s"
-msgstr "Taoiseach"
+msgstr "Taoiseach %s"
 
 #: data/nation/galician.ruleset:3
 msgid "Galician"
@@ -28636,14 +28617,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/gambian.ruleset:3
-#, fuzzy
 msgid "Gambian"
-msgstr "nigerianisch"
+msgstr "gambisch"
 
 #: data/nation/gambian.ruleset:4
-#, fuzzy
 msgid "?plural:Gambians"
-msgstr "Tunesier"
+msgstr "Gambier"
 
 #: data/nation/gambian.ruleset:6
 msgid ""
@@ -28655,25 +28634,24 @@ msgstr ""
 #: data/nation/gambian.ruleset:19 data/nation/malian.ruleset:20
 #: data/nation/mali.ruleset:27 data/nation/senegalese.ruleset:19
 #: data/nation/songhai.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "Mansa %s"
-msgstr "Mansa"
+msgstr "Mansa %s"
 
 #: data/nation/gambian.ruleset:19 data/nation/malian.ruleset:20
 #: data/nation/mali.ruleset:27 data/nation/senegalese.ruleset:19
 #: data/nation/songhai.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Mansa %s"
-msgstr "Genossin"
+msgstr "Mansa %s"
 
 #: data/nation/genoese.ruleset:3
 msgid "Genoese"
-msgstr ""
+msgstr "genuesisch"
 
 #: data/nation/genoese.ruleset:4
-#, fuzzy
 msgid "?plural:Genoese"
-msgstr "Lankesen"
+msgstr "Genuesen"
 
 #: data/nation/genoese.ruleset:6
 msgid ""
@@ -28688,14 +28666,14 @@ msgid ""
 msgstr ""
 
 #: data/nation/genoese.ruleset:51 data/nation/venetian.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Doge %s"
-msgstr "Fertig"
+msgstr "Doge %s"
 
 #: data/nation/genoese.ruleset:51 data/nation/venetian.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Dogaressa %s"
-msgstr "Diktatorin"
+msgstr "Dogaressa %s"
 
 #: data/nation/georgian.ruleset:3
 msgid "Georgian"
@@ -28715,14 +28693,13 @@ msgstr ""
 "4. Jahrhundert das Christentum übernahmen."
 
 #: data/nation/germanbelgian.ruleset:3
-#, fuzzy
 msgid "German Belgian"
-msgstr "belgisch"
+msgstr "deutschsprachig-belgisch"
 
+# ?
 #: data/nation/germanbelgian.ruleset:4
-#, fuzzy
 msgid "?plural:German Belgians"
-msgstr "Belgier"
+msgstr "Deutschsprachige Belgier"
 
 #: data/nation/germanbelgian.ruleset:6
 msgid ""
@@ -28738,14 +28715,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/germanic.ruleset:3
-#, fuzzy
 msgid "Germanic"
-msgstr "deutsch"
+msgstr "germanisch"
 
 #: data/nation/germanic.ruleset:4
-#, fuzzy
 msgid "?plural:Germanics"
-msgstr "Deutschen"
+msgstr "Germanen"
 
 #: data/nation/germanic.ruleset:6
 msgid ""
@@ -28763,14 +28738,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/ghanaian.ruleset:3
-#, fuzzy
 msgid "Ghanaian"
-msgstr "kanadisch"
+msgstr "ghanaisch"
 
 #: data/nation/ghanaian.ruleset:4
-#, fuzzy
 msgid "?plural:Ghanaian"
-msgstr "?plural:Kanadier"
+msgstr "Ghanaer"
 
 #: data/nation/ghanaian.ruleset:6
 msgid ""
@@ -28781,14 +28754,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/ghana.ruleset:3
-#, fuzzy
 msgid "Ghana"
-msgstr "kanadisch"
+msgstr "ghanisch"
 
 #: data/nation/ghana.ruleset:4
-#, fuzzy
 msgid "?plural:Ghana"
-msgstr "?plural:Kanadier"
+msgstr "Ghana"
 
 #: data/nation/ghana.ruleset:6
 msgid ""
@@ -28801,23 +28772,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/ghana.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Ghana %s"
-msgstr "in %s"
+msgstr "Ghana %s"
 
 #: data/nation/ghana.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Ghana %s"
-msgstr "Genossin"
+msgstr "Ghana %s"
 
 #: data/nation/ghaznavid.ruleset:3
 msgid "Ghaznavid"
-msgstr ""
+msgstr "ghaznawidisch"
 
 #: data/nation/ghaznavid.ruleset:4
-#, fuzzy
 msgid "?plural:Ghaznavids"
-msgstr "?plural:Kanadier"
+msgstr "Ghaznawiden"
 
 #: data/nation/ghaznavid.ruleset:6
 msgid ""
@@ -28828,12 +28798,11 @@ msgstr ""
 
 #: data/nation/gokturk.ruleset:3
 msgid "Gokturk"
-msgstr ""
+msgstr "kök-türkisch"
 
 #: data/nation/gokturk.ruleset:4
-#, fuzzy
 msgid "?plural:Gokturks"
-msgstr "Türken"
+msgstr "Kök-Türken"
 
 #. TRANS: The second letter in "Gokturk" should be
 #. TRANS: U+00F6 LATIN SMALL LETTER O WITH DIAERESIS if available in
@@ -28851,14 +28820,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/goldenhorde.ruleset:3
-#, fuzzy
 msgid "Golden Horde"
-msgstr "Gold: %d"
+msgstr "goldhordisch"
 
 #: data/nation/goldenhorde.ruleset:4
-#, fuzzy
 msgid "?plural:Golden Horde"
-msgstr "Buren"
+msgstr "Goldenen Horden"
 
 #: data/nation/goldenhorde.ruleset:6
 msgid ""
@@ -28871,16 +28838,22 @@ msgid ""
 "country gradually descended into instability, which at the beginning of the "
 "15th century led to the complete disintegration of the state."
 msgstr ""
+"Die Goldene Horde war ein historischer mongolisch-tartarischer Staat, der "
+"etwa um 1240 im westlichen Teil des Imperiums von Tschingis-Khan von dessen "
+"Enkel Batu-Khan gegründet wurde. Ihre Hauptstadt war Sarai Batu. Nach "
+"einigen Eroberungskriegen erstreckte sie sich in ihrem größten Ausmaß vom "
+"Irtysch bis zu den Bergen des Kaukasus über das Schwarze Meer und die Wolga "
+"bis hin zum Kama-Bassin. 1375 wurde das gesamte Land von Tamerlan unterjocht "
+"und vasallisiert. Im 14. Jh. destabilisierte sich das Land nach und nach bis "
+"es Anfang de 15. Jh. vollständig aufgelöst wurde."
 
 #: data/nation/gothic.ruleset:3
-#, fuzzy
 msgid "Gothic"
-msgstr "Karteneinsicht"
+msgstr "gotisch"
 
 #: data/nation/gothic.ruleset:4
-#, fuzzy
 msgid "?plural:Goths"
-msgstr "Schotten"
+msgstr "Goten"
 
 #: data/nation/gothic.ruleset:6
 msgid ""
@@ -28892,30 +28865,28 @@ msgid ""
 msgstr ""
 
 #: data/nation/greaterpolish.ruleset:3
-#, fuzzy
 msgid "Greater Polish"
-msgstr "Großer Pharao"
+msgstr "großpolnisch"
 
 #: data/nation/greaterpolish.ruleset:4
-#, fuzzy
 msgid "?plural:Greater Poles"
-msgstr "Polen"
+msgstr "Großpolen"
 
 #: data/nation/greaterpolish.ruleset:6
 msgid ""
 "Greater Poland or Wielkopolska is a historic and geographic region of "
 "central-western Poland."
 msgstr ""
+"Großpolen oder Wielkopolska ist eine historische und geographische Region in "
+"Zentralwestpolen."
 
 #: data/nation/greenlander.ruleset:3
-#, fuzzy
 msgid "Greenlander"
-msgstr "Großes Wunder"
+msgstr "grönländisch"
 
 #: data/nation/greenlander.ruleset:4
-#, fuzzy
 msgid "?plural:Greenlanders"
-msgstr "Isländer"
+msgstr "Grönländer"
 
 #: data/nation/greenlander.ruleset:6
 msgid ""
@@ -28927,14 +28898,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/grenadian.ruleset:3
-#, fuzzy
 msgid "Grenadian"
-msgstr "armenisch"
+msgstr "grenadinisch"
 
 #: data/nation/grenadian.ruleset:4
-#, fuzzy
 msgid "?plural:Grenadians"
-msgstr "Armenier"
+msgstr "Grenader"
 
 #: data/nation/grenadian.ruleset:6
 msgid ""
@@ -28944,14 +28913,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/guanche.ruleset:3
-#, fuzzy
 msgid "Guanche"
-msgstr "Abbrechen"
+msgstr "guanchisch"
 
 #: data/nation/guanche.ruleset:4
-#, fuzzy
 msgid "?plural:Guanches"
-msgstr "Manschuren"
+msgstr "Guanchen"
 
 #: data/nation/guanche.ruleset:6
 msgid ""
@@ -28961,14 +28928,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/guarani.ruleset:3
-#, fuzzy
 msgid "Guarani"
-msgstr "Maharadscha"
+msgstr "guaranisch"
 
 #: data/nation/guarani.ruleset:4
-#, fuzzy
 msgid "?plural:Guarani"
-msgstr "Inder"
+msgstr "Guaraní"
 
 #: data/nation/guarani.ruleset:6
 msgid ""
@@ -28979,14 +28944,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/guatemalan.ruleset:3
-#, fuzzy
 msgid "Guatemalan"
-msgstr "katalanisch"
+msgstr "guatemaltekisch"
 
 #: data/nation/guatemalan.ruleset:4
-#, fuzzy
 msgid "?plural:Guatemalans"
-msgstr "Katalanen"
+msgstr "Guatemalteken"
 
 #: data/nation/guatemalan.ruleset:6
 msgid ""
@@ -29000,12 +28963,11 @@ msgstr ""
 
 #: data/nation/guinean.ruleset:3
 msgid "Guinean"
-msgstr ""
+msgstr "guinesisch"
 
 #: data/nation/guinean.ruleset:4
-#, fuzzy
 msgid "?plural:Guinean"
-msgstr "Inder"
+msgstr "Guinesen"
 
 #. TRANS: The second letter in "Sekou" and last in "Toure" should be
 #. TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in
@@ -29019,12 +28981,11 @@ msgstr ""
 
 #: data/nation/gupta.ruleset:3
 msgid "Gupta"
-msgstr ""
+msgstr "guptisch"
 
 #: data/nation/gupta.ruleset:4
-#, fuzzy
 msgid "?plural:Gupta"
-msgstr "Holländer"
+msgstr "Gupta"
 
 #: data/nation/gupta.ruleset:7
 msgid ""
@@ -29033,14 +28994,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/guyanese.ruleset:3
-#, fuzzy
 msgid "Guyanese"
-msgstr "sudanesisch"
+msgstr "guyanisch"
 
 #: data/nation/guyanese.ruleset:4
-#, fuzzy
 msgid "?plural:Guyanese"
-msgstr "Sudanesen"
+msgstr "Guyaner"
 
 #: data/nation/guyanese.ruleset:7
 msgid ""
@@ -29051,20 +29010,20 @@ msgid ""
 msgstr ""
 
 #: data/nation/guyanese.ruleset:27 data/nation/lankese.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Executive President %s"
-msgstr "Präsident"
+msgstr "Exekutiv-Präsident %s"
 
 #: data/nation/guyanese.ruleset:27 data/nation/lankese.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Executive President %s"
-msgstr "Präsidentin"
+msgstr "Exekutiv-Präsidentin %s"
 
 #: data/nation/hacker.ruleset:3
 msgid "Hacker"
-msgstr "Hacker"
+msgstr "hackisch"
 
-# MG: Korrekter englischer Plurs wäre wohl "Hackers"...
+# MG: Korrekter englischer Plural wäre wohl "Hackers"...
 #: data/nation/hacker.ruleset:4
 msgid "?plural:Hackers"
 msgstr "Hacker"
