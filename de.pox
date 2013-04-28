@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-28 18:19+0200\n"
-"PO-Revision-Date: 2013-04-27 12:08+0200\n"
+"PO-Revision-Date: 2013-04-28 18:46+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -41818,7 +41818,7 @@ msgstr ""
 
 #: server/settings.c:1229
 msgid "Amount of \"special\" resource tiles"
-msgstr "Anzahl der »besonderen« Ressourcen"
+msgstr "Anzahl der „besonderen“ Ressourcen"
 
 # ? Original scheint fehlerhaft, siehe PR#11053
 #: server/settings.c:1230
@@ -42456,14 +42456,12 @@ msgid ""
 msgstr ""
 
 #: server/settings.c:1695
-#, fuzzy
 msgid "Barbarian onset turn"
-msgstr "Startjahr für Barbaren"
+msgstr "Startrunde für Barbaren"
 
 #: server/settings.c:1696
-#, fuzzy
 msgid "Barbarians will not appear before this turn."
-msgstr "Barbaren treten erst ab diesem Jahr auf."
+msgstr "Barbaren treten erst ab dieser Runde auf."
 
 #: server/settings.c:1702
 msgid "Length in turns of revolution"
@@ -42496,7 +42494,7 @@ msgstr ""
 
 #: server/settings.c:1721
 msgid "Whether fog of war applies to border changes"
-msgstr ""
+msgstr "Nebel des Krieges verdeckt Änderungen von Nationalgrenzen"
 
 #: server/settings.c:1722
 msgid ""
@@ -42505,11 +42503,15 @@ msgid ""
 "players can see any or all changes to borders as long as they have "
 "previously seen the tiles."
 msgstr ""
+"Wenn diese Einstellung aktiviert ist, kann ein Spieler die Änderung des "
+"Eigentums an einem Feld nicht erkennen, wenn er das betreffende Feld nicht "
+"direkt einsehen kann. Ist die Einstellung nicht aktiviert, kann jeder "
+"Spieler die Eigentumsänderungen an jedem Feld einsehen, vorausgesetzt, der "
+"betreffende Spieler hat zuvor zumindest das Feld selbst gesehen."
 
 #: server/settings.c:1731
-#, fuzzy
 msgid "Airlifting style"
-msgstr "Luftbeförderung"
+msgstr "Eigenschaften der Luftbeförderung"
 
 #. TRANS: The strings between double quotes are also
 #. * translated separately (they must match!). The strings
@@ -42530,12 +42532,10 @@ msgid ""
 msgstr ""
 
 #: server/settings.c:1753
-#, fuzzy
 msgid "Base chance for diplomats and spies to succeed"
 msgstr "Grundwahrscheinlichkeit für den Erfolg von Diplomaten und Spionen."
 
 #: server/settings.c:1754
-#, fuzzy
 msgid ""
 "The base chance of a spy returning from a successful mission and the base "
 "chance of success for diplomats and spies."
@@ -42555,14 +42555,15 @@ msgstr "1 erlaubt den Raumschiffbau."
 
 #: server/settings.c:1767
 msgid "Should the game end if the spaceship arrives?"
-msgstr ""
+msgstr "Spielende bei Ankunft des Raumschiffes?"
 
 #: server/settings.c:1768
-#, fuzzy
 msgid ""
 "If this option is turned on, the game will end with the arrival of a "
 "spaceship at Alpha Centauri."
-msgstr "1 erlaubt den Raumschiffbau."
+msgstr ""
+"Wenn eingeschaltet, wird das Spiel mit der Ankunft eines Raumschiffes bei "
+"Alpha Centauri enden."
 
 #: server/settings.c:1774
 msgid "Minimum number of cities for civil war"
@@ -42580,20 +42581,19 @@ msgstr ""
 
 #: server/settings.c:1784
 msgid "Restrict the use of the infrastructure for enemy units"
-msgstr ""
+msgstr "Benutzung der Infrastruktur durch feindliche Einheiten unterbinden"
 
 #: server/settings.c:1785
-#, fuzzy
 msgid ""
 "If this option is enabled, the use of roads and rails will be restricted for "
 "enemy units."
 msgstr ""
-"Mit dieser Option wird allen Chat-Nachrichten die Uhrzeit in der Form "
-"[Stunde:Minute:Sekunde] vorangestellt."
+"Mit dieser Option werden Einheiten daran gehindert, die Infrastruktur "
+"feindlicher Nationen zu benutzen."
 
 #: server/settings.c:1791
 msgid "Does unreachable unit protect reachable ones"
-msgstr ""
+msgstr "Immune Einheiten schützen gewöhnliche Einheiten"
 
 #: server/settings.c:1792
 msgid ""
@@ -42601,6 +42601,10 @@ msgid ""
 "can be attacked. If disabled, any tile with reachable units can be attacked. "
 "If enabled, tiles with an unreachable unit in them cannot be attacked."
 msgstr ""
+"Diese Einstellung legt fest, ob auf einem Feld, auf dem sich sowohl immune "
+"als auch gewöhnliche Einheiten befinden, die gewöhnlichen Einheiten "
+"angegriffen werden können. Falls eingeschaltet, können Felder mit einer "
+"immunen Einheit nicht angegriffen werden."
 
 #: server/settings.c:1800
 msgid "Turns until player contact is lost"
@@ -42670,9 +42674,8 @@ msgstr ""
 "Falls aktiviert, werden die Standardnamen abhängig von der Umgebung vergeben."
 
 #: server/settings.c:1849
-#, fuzzy
 msgid "Whether to enable citizen migration"
-msgstr "Nebel des Krieges"
+msgstr "Migration von Bürgern aktivieren"
 
 #. TRANS: The strings between single quotes are setting names
 #. * and should not be translated.
@@ -42693,9 +42696,8 @@ msgid ""
 msgstr ""
 
 #: server/settings.c:1870
-#, fuzzy
 msgid "Number of turns between migrations from a city"
-msgstr "Verzögerung des Begeisterungseffekts"
+msgstr "Anzahl der Runden zwischen Migrationen in einer Stadt"
 
 #. TRANS: Do not translate 'migration' setting name.
 #: server/settings.c:1872
@@ -42710,7 +42712,7 @@ msgstr ""
 
 #: server/settings.c:1885
 msgid "Whether migration is limited by food"
-msgstr ""
+msgstr "Migration durch verfügbare Nahrung begrenzen"
 
 #. TRANS: Do not translate 'migration' setting name.
 #: server/settings.c:1887
@@ -42721,9 +42723,8 @@ msgid ""
 msgstr ""
 
 #: server/settings.c:1895
-#, fuzzy
 msgid "Maximum distance citizens may migrate"
-msgstr "Mindestentfernung zwischen Städten"
+msgstr "Maximalentfernung, die ein umzugswilliger Bürger zurücklegen kann"
 
 #. TRANS: Do not translate 'migration' setting name.
 #: server/settings.c:1897
@@ -42737,7 +42738,7 @@ msgstr ""
 
 #: server/settings.c:1909
 msgid "Percent probability for migration within the same nation"
-msgstr ""
+msgstr "Wahrscheinlichkeit der inländischen Migration in Prozent"
 
 #. TRANS: Do not translate 'migration' setting name.
 #: server/settings.c:1911
@@ -42751,7 +42752,7 @@ msgstr ""
 
 #: server/settings.c:1922
 msgid "Percent probability for migration between foreign cities"
-msgstr ""
+msgstr "Wahrscheinlichkeit der Migration von Bürgern ins Ausland in Prozent"
 
 #. TRANS: Do not translate 'migration' setting name.
 #: server/settings.c:1924
@@ -42845,18 +42846,16 @@ msgstr ""
 "deaktiviert wird."
 
 #: server/settings.c:1987
-#, fuzzy
 msgid "Turn the game ends"
-msgstr "Letztes Spieljahr"
+msgstr "Letzte Spielrunde"
 
 #: server/settings.c:1988
-#, fuzzy
 msgid "The game will end at the end of the given turn."
-msgstr "Das Spiel endet mit Ablauf des angegebenen Jahres."
+msgstr "Das Spiel endet mit Ablauf der angegebenen Runde."
 
 #: server/settings.c:1994
 msgid "Reveal the map"
-msgstr ""
+msgstr "Karte offenlegen"
 
 #. TRANS: The strings between double quotes are also translated
 #. * separately (they must match!). The strings between single
@@ -42900,7 +42899,7 @@ msgstr ""
 
 #: server/settings.c:2030
 msgid "First turn timeout"
-msgstr ""
+msgstr "Zeitbeschränkung für die erste Runde"
 
 #. TRANS: The strings between single quotes are setting names and
 #. * should not be translated.
@@ -42911,6 +42910,11 @@ msgid ""
 "If set to -1, the special treatment of T0 will be disabled.\n"
 "See also 'timeout'."
 msgstr ""
+"Wenn dies größer 0 ist, dauert die erste Runde so viele Sekunden wie hier "
+"eingestellt.\n"
+"Wenn dies genau 0 ist, hat die erste Runde keine Zeitbeschränkung.\n"
+"Wenn dies genau -1 ist, wird die erste Runde nicht speziell behandelt.\n"
+"Siehe auch „timeout“."
 
 #: server/settings.c:2042
 msgid "Timeout at least n seconds when enemy moved"
@@ -42927,7 +42931,7 @@ msgstr ""
 
 #: server/settings.c:2049
 msgid "Time between unit moves over turn change"
-msgstr ""
+msgstr "Zeit zwischen Einheitenzügen gemessen am Rundenwechsel"
 
 #. TRANS: The string between single quotes is a setting name and
 #. * should not be translated.
@@ -42942,15 +42946,16 @@ msgid ""
 msgstr ""
 
 #: server/settings.c:2068
-#, fuzzy
 msgid "Control of simultaneous player/team phases"
-msgstr "Alle Spieler ziehen gleichzeitig"
+msgstr "Einstellung der Spieler/Theam-Phasen"
 
 #: server/settings.c:2069
 msgid ""
 "This setting controls whether players may make moves at the same time during "
 "a turn."
 msgstr ""
+"Diese Einstellung legt fest, ob Spieler in einer Runde gleichzeitig ziehen "
+"können."
 
 #: server/settings.c:2075
 msgid "Seconds to let a client's network connection block"
@@ -43093,7 +43098,7 @@ msgstr ""
 
 #: server/settings.c:2165
 msgid "Which savegames are generated automatically"
-msgstr ""
+msgstr "Welche Arten von Spielständen automatisch gesichert werden"
 
 #. TRANS: The strings between double quotes are also translated
 #. * separately (they must match!). The strings between single
@@ -43136,17 +43141,20 @@ msgstr ""
 
 #: server/settings.c:2199
 msgid "Save using the given savegame version"
-msgstr ""
+msgstr "Spielstand für spezifische Version erstellen"
 
 #: server/settings.c:2200
 msgid ""
 "Create a savegame which can be loaded by the given version of Freeciv. Note "
 "that some features will not be saved/restored for older versions."
 msgstr ""
+"Erstellt Spielstände, die ab der angegebenen Version von Freeciv geladen "
+"werden können. Beachten Sie, dass einige Features in älteren Versionen von "
+"Freeciv nicht verfügbar sind."
 
 #: server/settings.c:2207
 msgid "Definition of the save file name"
-msgstr ""
+msgstr "Dateiname für Spielstände"
 
 #. TRANS: %R, %S, %T and %Y must not be translated. The
 #. * strings (examples and setting names) between single quotes
@@ -43186,17 +43194,17 @@ msgstr ""
 
 #: server/settings.c:2240
 msgid "Name for the score log file"
-msgstr ""
+msgstr "Name der Highscore-Logdatei"
 
 #. TRANS: Don't translate the string in single quotes.
 #: server/settings.c:2242
 msgid "The default name for the score log file is 'freeciv-score.log'."
 msgstr ""
+"Der standardmäßige Name des Highscore-Logdatei ist „freeciv-score.log“."
 
 #: server/settings.c:2248
-#, fuzzy
 msgid "Maximum number of connections to the server per host"
-msgstr "Liste der Verbindungen zum Server:"
+msgstr "Maximale Anzahl von Verbindungen zum Server je Host"
 
 #: server/settings.c:2249
 msgid ""
@@ -43208,7 +43216,7 @@ msgstr ""
 
 #: server/settings.c:2259
 msgid "Time before a kicked user can reconnect"
-msgstr ""
+msgstr "Zeit bis ein gekickter Nutzer sich neu verbinden kann"
 
 #. TRANS: the string in double quotes is a server command name and
 #. * should not be translated
