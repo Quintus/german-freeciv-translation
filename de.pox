@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-28 18:19+0200\n"
-"PO-Revision-Date: 2013-04-28 18:46+0200\n"
+"PO-Revision-Date: 2013-04-28 19:37+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -30087,12 +30087,11 @@ msgstr "Thronräuberin"
 
 #: data/nation/khmer.ruleset:3
 msgid "Khmer"
-msgstr ""
+msgstr "khmerisch"
 
 #: data/nation/khmer.ruleset:4
-#, fuzzy
 msgid "?plural:Khmers"
-msgstr "Burmesen"
+msgstr "Khmer"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/khmer.ruleset:7
@@ -30102,6 +30101,11 @@ msgid ""
 "Khmers were great builders who erected innumerable stone temples to Hindu "
 "deities. The Khmers today are the majority ethnicity of Cambodia."
 msgstr ""
+"Das Khmer-Reich wurde 802 u.Z. gegründet und dominierte Südostasien für "
+"viele Jahrhunderte des Mittelalters. Sie unterlagen einem starken Einfluss "
+"durch die indische Kultur und hervorragende Baumeister, die zahllose "
+"hinduistische Steintempel errichteten. Khmer stellen heute den größten Teil "
+"der kambodschanischen Bevölkerung."
 
 #: data/nation/khwarezmian.ruleset:3
 #, fuzzy
@@ -30874,21 +30878,20 @@ msgid ""
 "Mali is a large country in Western Africa. Once part of French Sudan, it "
 "gained independence together with Senegal in 1959."
 msgstr ""
+"Mali ist ein großes Land in Westafrika. Es war früher Teil des französischen "
+"Sudans, wurde aber zusammen mit dem Senegal 1959 unabhängig."
 
 # CK: Originalform, Bedeutung: Königin
 #: data/nation/mali.ruleset:3
-#, fuzzy
 msgid "Mali"
-msgstr "Malikta"
+msgstr "malinkisch"
 
 #: data/nation/mali.ruleset:4
-#, fuzzy
 msgid "?plural:Malis"
-msgstr "Mali"
+msgstr "Malinke"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/mali.ruleset:7
-#, fuzzy
 msgid ""
 "Sub-Saharan Africa has been a cultural and ethnical melting pot for "
 "millennia. In medieval times, the region was home to a succession of empires "
@@ -32737,14 +32740,12 @@ msgstr ""
 "seine goldene Zeit am Ende des 16. Jahrhunderts."
 
 #: data/nation/polynesian.ruleset:3
-#, fuzzy
 msgid "Polynesian"
-msgstr "persisch"
+msgstr "polynesisch"
 
 #: data/nation/polynesian.ruleset:4
-#, fuzzy
 msgid "?plural:Polynesian"
-msgstr "Polen"
+msgstr "Polynesier"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/polynesian.ruleset:7
@@ -32752,6 +32753,8 @@ msgid ""
 "Polynesian culture stretches from Hawaii to New Zealand to Easter Island and "
 "covers all the islands in between."
 msgstr ""
+"Die polynesische Kultur erstreckt sich von Hawai’i über Neuseeland bis hin "
+"zu den Osterinseln und ist auf all den Inseln dazwischen präsent."
 
 #: data/nation/pontic.ruleset:3
 msgid "Pontic"
@@ -34056,12 +34059,11 @@ msgstr ""
 
 #: data/nation/songhai.ruleset:3
 msgid "Songhai"
-msgstr ""
+msgstr "songhaianisch"
 
 #: data/nation/songhai.ruleset:4
-#, fuzzy
 msgid "?plural:Songhai"
-msgstr "Sámi"
+msgstr "Songhai"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/songhai.ruleset:7
@@ -34073,6 +34075,12 @@ msgid ""
 "Songhai became known for their wealth as well as their devotion to the "
 "Muslim faith."
 msgstr ""
+"Die Songhai errichteten im 11. Jh u.Z. ein Reich mit der Hauptstadt Gao. "
+"Nach dem Fall des malinkischen Imperiums einige hundert Jahre später "
+"etablierten die Songhai ihr eigenes Imperium, das schließlich zu dem größten "
+"der afrikanischen Geschichte heranwuchs. Ihre Herrscher waren sowohl für "
+"ihren wohlhabenden Lebensstil als auch für ihre Hingabe an den islamischen "
+"Glauben bekannt."
 
 #: data/nation/sorbian.ruleset:3
 #, fuzzy
@@ -34503,15 +34511,16 @@ msgid ""
 msgstr ""
 
 #: data/nation/taino.ruleset:3
-#, fuzzy
 msgid "Taino"
-msgstr "thailändisch"
+msgstr "taínoisch"
 
 #: data/nation/taino.ruleset:4
-#, fuzzy
 msgid "?plural:Taino"
-msgstr "Thailänder"
+msgstr "Taíno"
 
+# MG: Die im Deutschen nicht verwendeten Wörter wie „potato“ habe ich
+# gemäß den unter https://de.wikipedia.org/wiki/Ta%C3%ADno aufgeführten
+# ersetzt.
 #. TRANS: Legend for nation in "core" set
 #: data/nation/taino.ruleset:8
 msgid ""
@@ -34527,6 +34536,18 @@ msgid ""
 "traders between islands. Recent genetic studies show that roughly half of "
 "Puerto Ricans have Taino maternal descent."
 msgstr ""
+"Die Ureinwohner der Bahamas, Kuba, Hispaniola, Puerto Rico, Jamaica und "
+"anderen karibischen Inseln gaben uns die Wortwurzeln für den Hurrican, "
+"Ananas, Tabak, Kanu, Barbecue, Kaiman und Yukka. Sie waren ein matrilineales "
+"Volk und darüberhinaus das erste, mit dem Kolumbus 1492 in Kontakt trat. "
+"Obwohl sie insgesamt hunderttausende zählten, wenn nicht gar Millionen, "
+"fielen sie in der gesamten Karibik der Sklaverei und Seuchen anheim, sodass "
+"im Ergebnis ihre Anzahl drastisch reduziert wurde. Die Spanier sahen sich "
+"als im Vergleich mit ihren südlicheren karibischen Nachbarn recht "
+"friedliches Volk an. Ihre Einbäume, häufig fast genauso lang wie Kolumbus’ "
+"Schiffe, transportierten Händler zwischen den einzelnen Inseln; jüngste "
+"genetische Studien legen zudem nahe, dass gut die Hälfte der Einwohner "
+"Puerto Ricos mütterlicherseits Taíno als Vorfahren haben."
 
 # EH: Diese Meldung sollte mE nicht übersetzt werden.
 #: data/nation/tairona.ruleset:3
@@ -34641,14 +34662,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/templar.ruleset:3
-#, fuzzy
 msgid "Knights Templar"
-msgstr "Ritter"
+msgstr "tempelritterlich"
 
 #: data/nation/templar.ruleset:4
-#, fuzzy
 msgid "?plural:Templars"
-msgstr "Texaner"
+msgstr "Tempelritter"
 
 #: data/nation/templar.ruleset:6
 msgid ""
@@ -34657,11 +34676,15 @@ msgid ""
 "immense power and wealth in the next 200 years, and were the innovators of "
 "many modern concepts such as Banking."
 msgstr ""
+"Die Tempelritter wurden nach dem ersten Kreuzzug gegründet, um die Pilger "
+"auf ihrem Weg in das Gelobte Land zu schützen. Die Organisation erlangte in "
+"den nächsten 200 Jahren eine außerordentliche Machtstellung und war der "
+"Erfinder vieler moderner Konzepte wie etwa dem Bankwesen."
 
 #: data/nation/teutonic.ruleset:3
 #, fuzzy
 msgid "Teutonic"
-msgstr "Elektronik"
+msgstr "teutonisch"
 
 #: data/nation/teutonic.ruleset:4
 #, fuzzy
@@ -35028,12 +35051,11 @@ msgstr ""
 
 #: data/nation/tupi.ruleset:3
 msgid "Tupi"
-msgstr ""
+msgstr "tupisch"
 
 #: data/nation/tupi.ruleset:4
-#, fuzzy
 msgid "?plural:Tupi"
-msgstr "Thailänder"
+msgstr "Tupi"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/tupi.ruleset:8
@@ -35045,6 +35067,13 @@ msgid ""
 "disease. The Tupi intermarried with African slaves and Europeans alike and a "
 "great many Brazilian place names are derived from Tupi words. "
 msgstr ""
+"Die Tupi sind Ureinwohner Brasiliens und mit den Guarani, die die heutigen "
+"brasilianischen Staaten Paraiba, Pernambuco, Ceara, Rio Grande do Norte, "
+"Alogas, Sergipe und einige weitere bewohnten, verwandt. Ihre Stämme wurden "
+"im Zuge zahlreicher portugiesischer Raubüberfälle verskavt, missioniert, "
+"oder starben an Krankheiten. Sie vermischten sich sowohl mit afrikanischen "
+"Sklaven als auch mit Europäern, sodass viele heute bekannte brasilianische "
+"Ortsnamen aus tupischen Wörtern entstanden sind."
 
 #: data/nation/turkishcypriot.ruleset:3
 #, fuzzy
@@ -35096,7 +35125,6 @@ msgid "?female:Turkmenbashi %s"
 msgstr "Basileus"
 
 #: data/nation/turk.ruleset:3
-#, fuzzy
 msgid "Turkish"
 msgstr "türkisch"
 
@@ -35106,7 +35134,6 @@ msgstr "Türken"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/turk.ruleset:7
-#, fuzzy
 msgid ""
 "Modern Turkey is the successor state of the Ottoman Empire, which collapsed "
 "and was dismembered by the victors in World War I after backing the Central "
@@ -35115,8 +35142,8 @@ msgid ""
 msgstr ""
 "Die heutige Türkei ist der Nachfolgestaat des Ottomanischen Reiches, das im "
 "ersten Weltkrieg die Zentralmächte unterstützte und von den Siegern geteilt "
-"wurde. Im Anschluß wurde das Land von Kemal Mustafa, dem Helden Verteidigung "
-"von Gallipoli, reformiert und säkularisiert."
+"wurde. Im Anschluß wurde das Land von Kemal Mustafa, dem Helden der "
+"Verteidigung von Gallipoli, reformiert und säkularisiert."
 
 #: data/nation/tuvan.ruleset:3
 msgid "Tuvan"
