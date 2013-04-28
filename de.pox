@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-28 18:19+0200\n"
-"PO-Revision-Date: 2013-04-28 19:37+0200\n"
+"PO-Revision-Date: 2013-04-28 20:05+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -30622,15 +30622,14 @@ msgstr ""
 "indogermanischen Sprachen."
 
 #: data/nation/lojbanistani.ruleset:3
-#, fuzzy
 msgid "Lojbanistani"
-msgstr "rumänisch"
+msgstr "lojbanistanisch"
 
 #: data/nation/lojbanistani.ruleset:4
-#, fuzzy
 msgid "?plural:Lojbanistanis"
-msgstr "Rumänen"
+msgstr "Lojbanistani"
 
+# MG: Ähh, irgendjemand Lojban hier?
 #: data/nation/lojbanistani.ruleset:6
 msgid ""
 "Lojbanistan is a fictional place where people speak Lojban. Lojban is a "
@@ -30638,6 +30637,10 @@ msgid ""
 "unambiguous (\"Time flies like an arrow. Fruit flies like a banana.\"), "
 "culturally neutral and simple to learn."
 msgstr ""
+"Lojbanistan ist ein fiktives Land, in dem Lojban gesprochen wird. Lojban ist "
+"eine konstruierte Sprache zur menschlichen Kommunikation und syntaktisch "
+"eindeutig („Die Zeit fliegt dahin. Die Frucht fliegt dahin.“). Sie ist "
+"kulturell neutral und leicht zu lernen."
 
 #: data/nation/lorrain.ruleset:3
 #, fuzzy
@@ -31783,14 +31786,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/nestorian.ruleset:5
-#, fuzzy
 msgid "Nestorian"
-msgstr "Netz"
+msgstr "nestorianisch"
 
 #: data/nation/nestorian.ruleset:6
-#, fuzzy
 msgid "?plural:Nestorians"
-msgstr "Österreicher"
+msgstr "Nestorianer"
 
 #: data/nation/nestorian.ruleset:8
 msgid ""
@@ -32326,14 +32327,12 @@ msgid "?female:Padishah %s"
 msgstr "Taoiseach"
 
 #: data/nation/ozite.ruleset:3
-#, fuzzy
 msgid "Ozite"
-msgstr "Elite"
+msgstr "ozitisch"
 
 #: data/nation/ozite.ruleset:4
-#, fuzzy
 msgid "?plural:Ozites"
-msgstr "?plural:Azteken"
+msgstr "Oz"
 
 #: data/nation/ozite.ruleset:8
 msgid ""
@@ -32343,16 +32342,21 @@ msgid ""
 "Munchkin Country, and Gillikin Country. Oz is surrounded by an impassable "
 "desert."
 msgstr ""
+"Die Welt von Oz wurde erstmals 1900 von L. Frank Baum in seinem Roman „Der "
+"Zauberer von Oz“ erwähnt und führte zu einer Anzahl weiterer Bücher. Das "
+"Land besteht aus vier Hauptterittorien: Winkie Country, Quadling Country, "
+"Munchkin Country und Gillikin Country. Oz ist von einer unpassierbaren Wüste "
+"umgeben."
 
 #: data/nation/ozite.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "Wizard %s"
-msgstr "Kriegsherr"
+msgstr "Zauberer %s"
 
 #: data/nation/ozite.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "Witch %s"
-msgstr "Breite"
+msgstr "Hexe %s"
 
 #: data/nation/paeonian.ruleset:3
 #, fuzzy
@@ -34147,14 +34151,12 @@ msgstr ""
 "demokratisch gewählte Präsident Südafrikas."
 
 #: data/nation/southamerican.ruleset:3
-#, fuzzy
 msgid "South American"
-msgstr "südafrikanisch"
+msgstr "südamerikanisch"
 
 #: data/nation/southamerican.ruleset:4
-#, fuzzy
 msgid "?plural:South Americans"
-msgstr "Südafrikaner"
+msgstr "Südamerikaner"
 
 #: data/nation/southamerican.ruleset:6
 msgid ""
@@ -34162,6 +34164,9 @@ msgid ""
 "European Union, but panamericanism has already existed since the 19th "
 "century."
 msgstr ""
+"Die Union Südamerikanischer Staaten wurde 2008 nach dem Modell der "
+"Europäischen Union gegründet, der Panamerikanismus existierte jedoch bereits "
+"seit dem 19. Jahrhundert."
 
 #: data/nation/southkorean.ruleset:3
 #, fuzzy
@@ -35244,29 +35249,29 @@ msgstr ""
 "Sowjetunion. Sie besitzt eines der fruchtbarsten Kornanbaugebiete der Erde."
 
 #: data/nation/un.ruleset:3
-#, fuzzy
 msgid "UN"
-msgstr "Unt."
+msgstr "UN"
 
 #: data/nation/un.ruleset:4
-#, fuzzy
 msgid "?plural:UN"
-msgstr "Sámi"
+msgstr "UN"
 
 #: data/nation/un.ruleset:6
 msgid ""
 "The United Nations believe in human rights and the protection of the weak."
 msgstr ""
+"Die Vereinten Nationen glauben an die Menschenrechte und den Schutz der "
+"Schwachen."
 
 #: data/nation/un.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Secretary-General %s"
-msgstr "Generalgouverneur"
+msgstr "Generalsekretär %s"
 
 #: data/nation/un.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Secretary-General %s"
-msgstr "Konsulin"
+msgstr "Generalsekräterin %s"
 
 #: data/nation/uruguayan.ruleset:3
 msgid "Uruguayan"
@@ -35606,12 +35611,11 @@ msgstr ""
 #. TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 252.
 #: data/nation/volapuk.ruleset:6
 msgid "Volapukan"
-msgstr ""
+msgstr "volapükisch"
 
 #: data/nation/volapuk.ruleset:7
-#, fuzzy
 msgid "?plural:Volapukans"
-msgstr "Papua"
+msgstr "Volapük"
 
 #: data/nation/volapuk.ruleset:9
 msgid ""
@@ -35699,12 +35703,11 @@ msgstr ""
 
 #: data/nation/werewolf.ruleset:4
 msgid "Werewolf"
-msgstr ""
+msgstr "werwölfisch"
 
 #: data/nation/werewolf.ruleset:5
-#, fuzzy
 msgid "?plural:Werewolves"
-msgstr "Waliser"
+msgstr "Werwölfe"
 
 #: data/nation/werewolf.ruleset:7
 msgid ""
@@ -35713,6 +35716,11 @@ msgid ""
 "to terrorize villages in search of human flesh and were often blamed for "
 "unexplained or particularly brutal killings."
 msgstr ""
+"Ein Werwolf ist ein Mensch, der sich unter bestimmten Umständen in eine "
+"wolfsähnliche Bestie verwandelt. Im europäischen Mittelalter glaubte man, "
+"dass Werwölfe auf der Suche nach menschlichem Fleisch Dörfer terrorisierten "
+"und sie wurden häufig für unerklärliche oder besonders brutale Morde "
+"verantwortlich gemacht."
 
 #: data/nation/westernpomeranian.ruleset:3
 #, fuzzy
@@ -42974,7 +42982,7 @@ msgstr ""
 
 #: server/settings.c:2068
 msgid "Control of simultaneous player/team phases"
-msgstr "Einstellung der Spieler/Theam-Phasen"
+msgstr "Einstellung der Spieler/Team-Phasen"
 
 #: server/settings.c:2069
 msgid ""
