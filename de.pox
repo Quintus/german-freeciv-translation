@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-08 21:36+0200\n"
-"PO-Revision-Date: 2013-04-28 20:05+0200\n"
+"PO-Revision-Date: 2013-06-08 22:56+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: \n"
@@ -15186,7 +15186,7 @@ msgstr "Ozean"
 
 #: data/civ1/terrain.ruleset:216 data/civ2/terrain.ruleset:224
 msgid "Oceans cover much of the world."
-msgstr ""
+msgstr "Die Weltmeere bedecken den größten Teil der Erde."
 
 #: data/civ1/terrain.ruleset:221
 msgid "Arctic"
@@ -27620,6 +27620,8 @@ msgid ""
 "the 18th century. Crimean Tatars invaded Poland and Russia, which caused "
 "wars with Turkey."
 msgstr ""
+"Historischer Feudalstaat vom 15. bis zum 18. Jh.. Die Krim-Tartaren fielen "
+"in Polen und Russland ein, wodurch Kriege mit der Türkei ausgelöst wurden."
 
 #: data/nation/croatian.ruleset:3
 msgid "Croatian"
@@ -27821,7 +27823,6 @@ msgstr "Dänen"
 #. TRANS: A+00E5 LATIN SMALL LETTER A WITH RING if available in
 #. TRANS: your charset.  In ISO-8859-1 (ISO Latin 1) this is 0xE5.
 #: data/nation/danish.ruleset:10
-#, fuzzy
 msgid ""
 "The founding of the Danish kingdom is generally assigned to the reign of "
 "Harald Blatand, who unified what is now Denmark between 958 CE and 988 CE."
@@ -29153,6 +29154,10 @@ msgid ""
 "Sea and Baltic regions. Members of the league had their own law system and "
 "occasionally the Hansa went to war with rival powers."
 msgstr ""
+"Die Hanse war in der Zeit vom 12. bis zum 19. Jh. eine mächtige Allianz von "
+"Handelsstädten. Die Städte verteilten sich über den Bereich der Nordsee und "
+"den der baltischen Regionen; sie besaßen ein eigenes Rechtssystem und "
+"führten gelegentlich sogar Krieg mit rivalisierenden Mächten."
 
 #: data/nation/hasinay.ruleset:3
 msgid "Hasinay"
@@ -29335,12 +29340,10 @@ msgid ""
 msgstr ""
 
 #: data/nation/holysee.ruleset:3
-#, fuzzy
 msgid "Papal"
-msgstr "kirchlich"
+msgstr "kirchenstaatlich"
 
 #: data/nation/holysee.ruleset:4
-#, fuzzy
 msgid "?plural:Papal States"
 msgstr "Kirchenstaaten"
 
@@ -29352,6 +29355,11 @@ msgid ""
 "wealthy, the Papal States grew to become the dominant power in Italy for "
 "centuries."
 msgstr ""
+"Die Kirchenstaaten waren jene Territorien auf der italienischen Hablinsel "
+"(und anderswo), die der direkten Hoheitsgewalt der römisch-katholischen "
+"Päpste unterstanden. Ihre Anfänge reichen bis ins 8. Jh. zurück, als sie aus "
+"Geschenken Gläubiger und Wohlhabender an die Kirche gebildet wurden. "
+"Jahrhundertelang waren sie eine der herrschenden Mächte in Italien."
 
 #: data/nation/holysee.ruleset:28
 #, c-format
@@ -29484,7 +29492,6 @@ msgid "?plural:Illyrians"
 msgstr "Illyrier"
 
 #: data/nation/illyrian.ruleset:6
-#, fuzzy
 msgid ""
 "Illyrians were Indo-European tribes who appeared in the western part of the "
 "Balkan Peninsula before 1000 BCE, including Corcyra island and Ambracia bay "
@@ -29492,7 +29499,7 @@ msgid ""
 "the east, and settled Messapia across the Adriatic Sea. Illyrian kingdoms "
 "were independent for centuries, until conquered by the Roman Republic."
 msgstr ""
-"Die Illyrer waren indoeuropäische Stämme, die vor 1000 v. Chr. im westlichen "
+"Die Illyrer waren indoeuropäische Stämme, die vor 1000 v.u.Z. im westlichen "
 "Balkan auftauchten, einschließlich der Insel Korfu und dem Ambrakischen Golf "
 "im prähistorischen Epirus im Süden. Sie vermischten sich mit den Thrakern in "
 "Daldanien im Osten und siedelnden Messapiern jenseits der Adria. Die "
@@ -29543,7 +29550,7 @@ msgstr "Sapa-Inka %s"
 #: data/nation/inca.ruleset:35
 #, c-format
 msgid "Sapa Qoya %s"
-msgstr "Sapa-Inka %s"
+msgstr "Sapa-Qoya %s"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/indian.ruleset:7
@@ -29559,7 +29566,6 @@ msgid "Indo-European"
 msgstr "indoeuropäisch"
 
 #: data/nation/indoeuropean.ruleset:4
-#, fuzzy
 msgid "?plural:Indo-Europeans"
 msgstr "Indoeuropäer"
 
@@ -29700,7 +29706,6 @@ msgid "?plural:Israelis"
 msgstr "Israelis"
 
 #: data/nation/israeli.ruleset:6
-#, fuzzy
 msgid ""
 "The nation of Israel was founded in 1948 as a scattered collection of "
 "cantons in British Palestine, and has gradually expanded through winning "
@@ -29758,7 +29763,6 @@ msgstr "Italiener"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/italian.ruleset:7
-#, fuzzy
 msgid ""
 "The Italian nation was unified in 1870 CE after decades of campaigning by "
 "indigenous nationalists. It was a monarchy under the House of Savoy until "
@@ -29781,14 +29785,12 @@ msgid "Ducezza %s"
 msgstr "Ducezza %s"
 
 #: data/nation/ivoirian.ruleset:3
-#, fuzzy
 msgid "Ivoirian"
-msgstr "ivoirisch"
+msgstr "ivorisch"
 
 #: data/nation/ivoirian.ruleset:4
-#, fuzzy
 msgid "?plural:Ivoirian"
-msgstr "Elfenbeinküstler"
+msgstr "Ivorer"
 
 #. TRANS: The second letter in "Cote" should be
 #. TRANS: U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX if available in
@@ -29799,6 +29801,9 @@ msgid ""
 "relatively stable compared to other West African countries, but in the 2000s "
 "it lived through a civil war."
 msgstr ""
+"Die Elfenbeinküste oder Côte d’Ivoire wurde 1960 unabhängig. Es ist im "
+"Vergleich mit anderen afrikanischen Ländern einer der stabileren Staaten, in "
+"den 2000er Jahren durchlebte es jedoch einen Bürgerkrieg."
 
 #: data/nation/jaffna.ruleset:3
 msgid "Jaffna"
@@ -29875,14 +29880,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/jordanian.ruleset:3
-#, fuzzy
 msgid "Jordanian"
-msgstr "indisch"
+msgstr "jordanisch"
 
 #: data/nation/jordanian.ruleset:4
-#, fuzzy
 msgid "?plural:Jordanian"
-msgstr "Inder"
+msgstr "Jordanier"
 
 #: data/nation/jordanian.ruleset:6
 msgid ""
@@ -29898,12 +29901,11 @@ msgstr ""
 
 #: data/nation/kalmyk.ruleset:3
 msgid "Kalmyk"
-msgstr ""
+msgstr "kalmückisch"
 
 #: data/nation/kalmyk.ruleset:4
-#, fuzzy
 msgid "?plural:Kalmyks"
-msgstr "Maya"
+msgstr "Kalmücken"
 
 #: data/nation/kalmyk.ruleset:6
 msgid ""
@@ -29912,30 +29914,35 @@ msgid ""
 "formed a khanate that was allied with Russia. The Kalmyks are the only "
 "Buddhist nation of Europe."
 msgstr ""
+"Die Kalmücken sind ein ethnische Gruppe in der westlichen Mongolei und "
+"Südrussland. Im 17. Jh. wanderten sie in die kaspischenen Ebenen ein und "
+"gründeten ein mit Russland alliiertes Khanat; heute sind die Kalmücken die "
+"einzige buddhistische Nation Europas."
 
 #: data/nation/kanem-bornu.ruleset:3
 msgid "Kanem-Bornu"
-msgstr ""
+msgstr "kanem-bornisch"
 
 #: data/nation/kanem-bornu.ruleset:4
-#, fuzzy
 msgid "?plural:Kanem-Bornu"
-msgstr "Koreaner"
+msgstr "Kanem-Bornu"
 
 #: data/nation/kanem-bornu.ruleset:7
 msgid ""
 "This empire lasted in some form from the 9th-century until 1893 in modern "
 "Chad and Nigeria and controlled much of the trans-Saharan trade."
 msgstr ""
+"Dieses Reich wurde irgendwann im 9. Jahrhundert gegründet und ging 1893 im "
+"heutigen Tschad und Nigeria auf. Es kontrollierte einen großen Teil des "
+"Handels durch die Sahara."
 
 #: data/nation/karabakhi.ruleset:3
 msgid "Karabakhi"
-msgstr ""
+msgstr "karabachisch"
 
 #: data/nation/karabakhi.ruleset:4
-#, fuzzy
 msgid "?plural:Karabakhis"
-msgstr "Maya"
+msgstr "Karabachen"
 
 #: data/nation/karabakhi.ruleset:6
 msgid ""
@@ -29951,14 +29958,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/karelian.ruleset:3
-#, fuzzy
 msgid "Karelian"
-msgstr "Vorsitzender"
+msgstr "karelisch"
 
 #: data/nation/karelian.ruleset:4
-#, fuzzy
 msgid "?plural:Karelians"
-msgstr "Koreaner"
+msgstr "Karelier"
 
 #: data/nation/karelian.ruleset:6
 msgid ""
@@ -29966,16 +29971,17 @@ msgid ""
 "currently divided between Finland and Russia. They are closely related to "
 "the Finns."
 msgstr ""
+"Die Karelier sind ein finnisch-ugrisches Volk, das Karelien, ein momentan "
+"zwischen Russland und Finnland aufgeteiltes Gebiet, bewohnen. Sie sind eng "
+"mit den Finnen verwandt."
 
 #: data/nation/karen.ruleset:3
-#, fuzzy
 msgid "Karen"
-msgstr "Vorsitzender"
+msgstr "karenisch"
 
 #: data/nation/karen.ruleset:4
-#, fuzzy
 msgid "?plural:Karens"
-msgstr "Koreaner"
+msgstr "Karen"
 
 #: data/nation/karen.ruleset:7
 msgid ""
@@ -29988,14 +29994,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/kashmiri.ruleset:3
-#, fuzzy
 msgid "Kashmiri"
-msgstr "Basis"
+msgstr "kaschmirisch"
 
 #: data/nation/kashmiri.ruleset:4
-#, fuzzy
 msgid "?plural:Kashmiris"
-msgstr "Burmesen"
+msgstr "Kaschmiri"
 
 #: data/nation/kashmiri.ruleset:6
 msgid ""
@@ -30003,16 +30007,17 @@ msgid ""
 "Having been inhabited for millennia, it is a melting pot of Hindu, Tibetan, "
 "and Islamic culture."
 msgstr ""
+"Das Kaschmirtal liegt in den westlichen Vorgebirgen des Himalaya. Es ist "
+"seit Jahrmillionen bewohnt und ein Schmelztiegel von hinduistischer, "
+"tibetanischer und islamischer Kultur."
 
 #: data/nation/kashubian.ruleset:3
-#, fuzzy
 msgid "Kashubian"
-msgstr "kubanisch"
+msgstr "kaschubisch"
 
 #: data/nation/kashubian.ruleset:4
-#, fuzzy
 msgid "?plural:Kashubians"
-msgstr "Kubaner"
+msgstr "Kaschuben"
 
 #: data/nation/kashubian.ruleset:6
 msgid ""
@@ -30027,14 +30032,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/katangan.ruleset:3
-#, fuzzy
 msgid "Katangan"
-msgstr "Saya"
+msgstr "katangisch"
 
 #: data/nation/katangan.ruleset:4
-#, fuzzy
 msgid "?plural:Katangans"
-msgstr "Katalanen"
+msgstr "Katanga"
 
 #: data/nation/katangan.ruleset:6
 msgid ""
@@ -30048,12 +30051,11 @@ msgstr ""
 
 #: data/nation/kazakh.ruleset:3
 msgid "Kazakh"
-msgstr ""
+msgstr "kasachisch"
 
 #: data/nation/kazakh.ruleset:4
-#, fuzzy
 msgid "?plural:Kazakhs"
-msgstr "Maya"
+msgstr "Kasachen"
 
 #: data/nation/kazakh.ruleset:6
 msgid ""
@@ -30062,6 +30064,10 @@ msgid ""
 "dissolution of the Soviet Union. It is one of the ten largest states in the "
 "world by area."
 msgstr ""
+"Die Kasachen sind die Nachfahren türkischer und mongolischer Stämme. Sie "
+"wurden im 18. Jh. von Russland erobert und 1991 mit der Auflösung der "
+"Sowjetunion als Kasachstan unabhängig. Heute ist Kasachstan gemessen an "
+"seiner Fläche einer der zehn weltgrößten Staaten."
 
 #: data/nation/kenyan.ruleset:3
 msgid "Kenyan"
@@ -30076,14 +30082,12 @@ msgid "Kenya gained independence from Britain in December 1963."
 msgstr "Kenia errang 1963 die Unabhängigkeit von Großbritannien."
 
 #: data/nation/khazar.ruleset:3
-#, fuzzy
 msgid "Khazar"
-msgstr "Khagan"
+msgstr "chasarisch"
 
 #: data/nation/khazar.ruleset:4
-#, fuzzy
 msgid "?plural:Khazars"
-msgstr "Maya"
+msgstr "Chasaren"
 
 #: data/nation/khazar.ruleset:6
 msgid ""
@@ -30091,16 +30095,19 @@ msgid ""
 "Early Middle Ages. Originally shamanists, they adopted Judaism as their "
 "state religion."
 msgstr ""
+"Die Chasaren gründeten im frühen Mittelalter in den Ebenen des südlichen "
+"Russlands einen Steppenstaat. Ursprünglich waren sie Schamanen, später "
+"adaptierten sie den Judaismus als Staatsreligion."
 
 #: data/nation/khazar.ruleset:34 data/nation/volgabulgar.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Tarkhan %s"
-msgstr "Thane"
+msgstr "Tarkhan %s"
 
 #: data/nation/khazar.ruleset:34 data/nation/volgabulgar.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Tarkhan %s"
-msgstr "Thronräuberin"
+msgstr "Tarkhan %s"
 
 #: data/nation/khmer.ruleset:3
 msgid "Khmer"
