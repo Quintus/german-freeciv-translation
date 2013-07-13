@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-07-13 21:04+0200\n"
+"PO-Revision-Date: 2013-07-13 21:37+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -34703,15 +34703,14 @@ msgstr ""
 "den nächsten 200 Jahren eine außerordentliche Machtstellung und war der "
 "Erfinder vieler moderner Konzepte wie etwa dem Bankwesen."
 
+# MG: Bessere Idee, irgendjemand?
 #: data/nation/teutonic.ruleset:3
-#, fuzzy
 msgid "Teutonic"
-msgstr "teutonisch"
+msgstr "deutschordensritterlich"
 
 #: data/nation/teutonic.ruleset:4
-#, fuzzy
 msgid "?plural:Teutonic Order"
-msgstr "Isländer"
+msgstr "Deutschordensritter"
 
 #: data/nation/teutonic.ruleset:6
 msgid ""
@@ -34748,7 +34747,6 @@ msgstr "Thailänder"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/thai.ruleset:7
-#, fuzzy
 msgid ""
 "The Thai kingdom was the only country in Southeast Asia to preserve its "
 "independence through the colonial era of the 18th and 19th centuries CE."
@@ -34757,27 +34755,24 @@ msgstr ""
 "18. und 19. Jahrhundert seine Unabhängigkeit bewahrte."
 
 #: data/nation/thracian.ruleset:3
-#, fuzzy
 msgid "Thracian"
-msgstr "thailändisch"
+msgstr "thrakisch"
 
 #: data/nation/thracian.ruleset:4
-#, fuzzy
 msgid "?plural:Thracians"
-msgstr "Inder"
+msgstr "Thraker"
 
 #: data/nation/thracian.ruleset:7
 msgid "The second most numerous people in the ancient western world."
-msgstr ""
+msgstr "Das zweitgrößte Volk in der antiken westlichen Welt."
 
 #: data/nation/thuringian.ruleset:3
 msgid "Thuringian"
-msgstr ""
+msgstr "thüringisch"
 
 #: data/nation/thuringian.ruleset:4
-#, fuzzy
 msgid "?plural:Thuringians"
-msgstr "Inder"
+msgstr "Thüringer"
 
 #: data/nation/thuringian.ruleset:6
 msgid ""
@@ -34826,23 +34821,22 @@ msgstr ""
 "unter der Kontrolle der Gelugpa-Schule des Tibetischen Buddhismus."
 
 #: data/nation/tibetan.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Dalai Lama %s"
-msgstr "Dalai Lama"
+msgstr "Dalai Lama %s"
 
 #: data/nation/tibetan.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Dalai Lama %s"
-msgstr "Genossin"
+msgstr "Dalai Lama %s"
 
 #: data/nation/timurid.ruleset:3
 msgid "Timurid"
-msgstr ""
+msgstr "timuridisch"
 
 #: data/nation/timurid.ruleset:4
-#, fuzzy
 msgid "?plural:Timurids"
-msgstr "Türken"
+msgstr "Timuriden"
 
 #: data/nation/timurid.ruleset:6
 msgid ""
@@ -34855,14 +34849,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/tocharian.ruleset:3
-#, fuzzy
 msgid "Tocharian"
-msgstr "marsianisch"
+msgstr "tocharisch"
 
 #: data/nation/tocharian.ruleset:4
-#, fuzzy
 msgid "?plural:Tocharians"
-msgstr "Marsianer"
+msgstr "Tocharer"
 
 #: data/nation/tocharian.ruleset:7
 msgid ""
@@ -34883,14 +34875,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/togolese.ruleset:3
-#, fuzzy
 msgid "Togolese"
-msgstr "Bedienungselemente"
+msgstr "togoisch"
 
 #: data/nation/togolese.ruleset:4
-#, fuzzy
 msgid "?plural:Togolese"
-msgstr "Mongolen"
+msgstr "Togoer"
 
 #: data/nation/togolese.ruleset:6
 msgid ""
@@ -34902,12 +34892,11 @@ msgstr ""
 
 #: data/nation/toltec.ruleset:3
 msgid "Toltec"
-msgstr ""
+msgstr "toltekisch"
 
 #: data/nation/toltec.ruleset:4
-#, fuzzy
 msgid "?plural:Toltecs"
-msgstr "Polen"
+msgstr "Tolteken"
 
 #: data/nation/toltec.ruleset:6
 msgid ""
@@ -34928,12 +34917,11 @@ msgstr ""
 
 #: data/nation/tongan.ruleset:3
 msgid "Tongan"
-msgstr ""
+msgstr "tongaisch"
 
 #: data/nation/tongan.ruleset:4
-#, fuzzy
 msgid "?plural:Tongans"
-msgstr "?plural:Bosnier"
+msgstr "Tongaer"
 
 #: data/nation/tongan.ruleset:6
 msgid ""
@@ -34946,12 +34934,11 @@ msgstr ""
 #: data/nation/transnistrian.ruleset:3
 #, fuzzy
 msgid "Transnistrian"
-msgstr "kanadisch"
+msgstr "transnistrisch"
 
 #: data/nation/transnistrian.ruleset:4
-#, fuzzy
 msgid "?plural:Transnistrians"
-msgstr "Tunesier"
+msgstr "Transnistrier"
 
 #: data/nation/transnistrian.ruleset:6
 msgid ""
@@ -34963,14 +34950,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/transylvanian.ruleset:3
-#, fuzzy
 msgid "Transylvanian"
-msgstr "kanadisch"
+msgstr "siebenbürgisch"
 
 #: data/nation/transylvanian.ruleset:4
-#, fuzzy
 msgid "?plural:Transylvanians"
-msgstr "?plural:Kanadier"
+msgstr "Transsilvanier"
 
 #: data/nation/transylvanian.ruleset:6
 msgid ""
@@ -34984,12 +34969,12 @@ msgstr ""
 
 #: data/nation/trinidadian.ruleset:3
 msgid "Trinidadian and Tobagonian"
-msgstr ""
+msgstr "trinidadisch-tobagoisch"
 
 #: data/nation/trinidadian.ruleset:4
 #, fuzzy
 msgid "?plural:Trinidadians and Tobagonians"
-msgstr "?plural:Kanadier"
+msgstr "Trinidadier und Tobagonier"
 
 #: data/nation/trinidadian.ruleset:6
 msgid ""
@@ -35005,14 +34990,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/tswana.ruleset:3
-#, fuzzy
 msgid "Tswana"
-msgstr "Mansa"
+msgstr "tswanisch"
 
 #: data/nation/tswana.ruleset:4
-#, fuzzy
 msgid "?plural:Batswana"
-msgstr "?plural:Bosnier"
+msgstr "Batswana"
 
 #: data/nation/tswana.ruleset:7
 #, no-c-format
@@ -35025,12 +35008,11 @@ msgstr ""
 
 #: data/nation/tuareg.ruleset:3
 msgid "Tuareg"
-msgstr ""
+msgstr "tuaregisch"
 
 #: data/nation/tuareg.ruleset:4
-#, fuzzy
 msgid "?plural:Tuaregs"
-msgstr "Türken"
+msgstr "Tuareg"
 
 #: data/nation/tuareg.ruleset:6
 msgid ""
@@ -35062,8 +35044,8 @@ msgid ""
 "protectorate. The country became independent in 1956."
 msgstr ""
 "Die Phönizier gründeten auf dem Gebiet des heutigen Tunesiens Karthago. "
-"Karthago wurde später eine Hauptmacht der Mittelmeerregion, bis es 146 v. "
-"Chr. von den Römern besiegt wurde. Später führten Eroberungen arabischer "
+"Karthago wurde später eine Hauptmacht der Mittelmeerregion, bis es 146 v.u."
+"Z. von den Römern besiegt wurde. Später führten Eroberungen arabischer "
 "Muslime im 7. Jahrhundert zu Einwanderungen aus arabischen und ottomanischen "
 "Staaten. Aber es gab ebenso eine Menge Juden und spanischer Mauren, die Ende "
 "des 16. Jahrhunderts in das Gebiet zogen. Tunesien erhielt 1861 weitgehende "
@@ -35098,14 +35080,12 @@ msgstr ""
 "Ortsnamen aus tupischen Wörtern entstanden sind."
 
 #: data/nation/turkishcypriot.ruleset:3
-#, fuzzy
 msgid "Turkish Cypriot"
-msgstr "Streitwagen"
+msgstr "türkisch-zypriotisch"
 
 #: data/nation/turkishcypriot.ruleset:4
-#, fuzzy
 msgid "?plural:Turkish Cypriots"
-msgstr "Kroaten"
+msgstr "Türk-Zyprioten"
 
 #: data/nation/turkishcypriot.ruleset:6
 msgid ""
@@ -35118,14 +35098,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/turkmen.ruleset:3
-#, fuzzy
 msgid "Turkmen"
-msgstr "türkisch"
+msgstr "turkemnisch"
 
 #: data/nation/turkmen.ruleset:4
-#, fuzzy
 msgid "?plural:Turkmens"
-msgstr "Türken"
+msgstr "Turkmenen"
 
 #: data/nation/turkmen.ruleset:6
 msgid ""
@@ -35137,14 +35115,14 @@ msgid ""
 msgstr ""
 
 #: data/nation/turkmen.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Turkmenbashi %s"
-msgstr "türkisch"
+msgstr "Türkmenbaşy %s"
 
 #: data/nation/turkmen.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Turkmenbashi %s"
-msgstr "Basileus"
+msgstr "Türkmenbaşy %s"
 
 #: data/nation/turk.ruleset:3
 msgid "Turkish"
@@ -35169,12 +35147,11 @@ msgstr ""
 
 #: data/nation/tuvan.ruleset:3
 msgid "Tuvan"
-msgstr ""
+msgstr "tuwinisch"
 
 #: data/nation/tuvan.ruleset:4
-#, fuzzy
 msgid "?plural:Tuvans"
-msgstr "Texaner"
+msgstr "Tuwiner"
 
 #: data/nation/tuvan.ruleset:6
 msgid ""
@@ -35188,14 +35165,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/tyrolian.ruleset:3
-#, fuzzy
 msgid "Tyrolian"
-msgstr "Vorsitzender"
+msgstr "tirolisch"
 
 #: data/nation/tyrolian.ruleset:4
-#, fuzzy
 msgid "?plural:Tyrolians"
-msgstr "Serben"
+msgstr "Tiroler"
 
 #: data/nation/tyrolian.ruleset:6
 msgid ""
@@ -35203,26 +35178,27 @@ msgid ""
 "and the region passed to Habsburg Austria. The southern part was annexed by "
 "Italy after World War I."
 msgstr ""
+"Tirol war ein Alpenstaat, dessen eigene Dynastie im 16. Jh. ausstarb und "
+"daraufhin an das habsburgische Österreich überging. Der südliche Teil wurde "
+"nach dem Ersten Weltkrieg von Italien annektiert."
 
 #: data/nation/tyrolian.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Princely Count %s"
-msgstr "Prinzessin"
+msgstr "Graf von Tirol %s"
 
 #: data/nation/tyrolian.ruleset:24
-#, fuzzy, c-format
+#, c-format
 msgid "Princely Countess %s"
-msgstr "Anzahl"
+msgstr "Gräfin von Tirol %s"
 
 #: data/nation/ugandan.ruleset:3
-#, fuzzy
 msgid "Ugandan"
-msgstr "rumänisch"
+msgstr "ugandisch"
 
 #: data/nation/ugandan.ruleset:4
-#, fuzzy
 msgid "?plural:Ugandans"
-msgstr "?plural:Kanadier"
+msgstr "Ugander"
 
 #: data/nation/ugandan.ruleset:6
 msgid ""
@@ -35241,12 +35217,12 @@ msgstr ""
 #: data/nation/ugandan.ruleset:40
 #, c-format
 msgid "Kabaka %s"
-msgstr ""
+msgstr "Kabaka %s"
 
 #: data/nation/ugandan.ruleset:40
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Kabaka %s"
-msgstr "Konsulin"
+msgstr "Kabaka %s"
 
 #: data/nation/ukrainian.ruleset:3
 msgid "Ukrainian"
