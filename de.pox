@@ -28,16 +28,26 @@
 #   Entwicklerkommentar (TRANS:) migegeben wurde, findet sich dort ein
 #   Übersetzerkomentar (CK: TECHNICAL, EH: oder MG:).
 #
-#
+# - In Deutschland ist bekanntlicherweise alles genormt, so auch
+#   Staaten- und Staatsangehörigenbezeichnungen. Hierzulande übernimmt
+#   diese Aufgabe der Ständige Ausschuss für Geographische Namen
+#   (StAGN), der jährlich eine Liste mit den offiziellen
+#   Staatenbezeichnungen und Bezeichnungen der Einwohner dieser
+#   Staaten herausgibt, die unter http://www.stagn.de abgerufen
+#   werden kann. Für Völkerbezeichnungen in Freeciv sind die dort
+#   gelisteten Bezeichnungen daher verpflichtend. Für dort nicht
+#   gelistete Völker (das betrifft vornehmlich ausgestorbene
+#   Völker) hat sich eine Kombination aus englischer und deutscher
+#   Wikipedia als nützlich erwiesen.
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-06-08 22:56+0200\n"
+"PO-Revision-Date: 2013-07-13 19:23+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
-"Language: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33722,14 +33732,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/senegalese.ruleset:3
-#, fuzzy
 msgid "Senegalese"
-msgstr "Bedienungselemente"
+msgstr "senegalesisch"
 
 #: data/nation/senegalese.ruleset:4
-#, fuzzy
 msgid "?plural:Senegalese"
-msgstr "Bengalier"
+msgstr "Senegalesen"
 
 #: data/nation/senegalese.ruleset:6
 msgid ""
@@ -33737,6 +33745,9 @@ msgid ""
 "independent from France since 1960. Senegal is relatively stable and "
 "democratic compared to its neighbors."
 msgstr ""
+"Der Senegal ist der westlichste Staat Hauptafrikas und seit 1960 von "
+"Frankreich unabhängig. Er ist im Vergleich mit seinen Nachbarn relativ "
+"stabil und demokratisch."
 
 #: data/nation/serbian.ruleset:3
 msgid "Serbian"
@@ -33758,12 +33769,11 @@ msgstr ""
 
 #: data/nation/seychellois.ruleset:3
 msgid "Seychellois"
-msgstr ""
+msgstr "seychellisch"
 
 #: data/nation/seychellois.ruleset:4
-#, fuzzy
 msgid "?plural:Seychellois"
-msgstr "Schotten"
+msgstr "Seycheller"
 
 #: data/nation/seychellois.ruleset:6
 msgid ""
@@ -33780,12 +33790,11 @@ msgstr ""
 
 #: data/nation/shan.ruleset:3
 msgid "Shan"
-msgstr ""
+msgstr "shanisch"
 
 #: data/nation/shan.ruleset:4
-#, fuzzy
 msgid "?plural:Shans"
-msgstr "Spanier"
+msgstr "Shan"
 
 #: data/nation/shan.ruleset:6
 msgid ""
@@ -33797,14 +33806,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/shawnee.ruleset:3
-#, fuzzy
 msgid "Shawnee"
-msgstr "Thane"
+msgstr "shawneeisch"
 
 #: data/nation/shawnee.ruleset:4
-#, fuzzy
 msgid "?plural:Shawnee"
-msgstr "Sudanesen"
+msgstr "Shownee"
 
 #: data/nation/shawnee.ruleset:6
 msgid ""
@@ -33816,12 +33823,11 @@ msgstr ""
 
 #: data/nation/sherpa.ruleset:3
 msgid "Sherpa"
-msgstr ""
+msgstr "sherpisch"
 
 #: data/nation/sherpa.ruleset:4
-#, fuzzy
 msgid "?plural:Sherpas"
-msgstr "Spanier"
+msgstr "Sherpa"
 
 #: data/nation/sherpa.ruleset:6
 msgid ""
@@ -33837,14 +33843,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/siberian.ruleset:3
-#, fuzzy
 msgid "Siberian"
-msgstr "nigerianisch"
+msgstr "sibirisch"
 
 #: data/nation/siberian.ruleset:4
-#, fuzzy
 msgid "?plural:Siberians"
-msgstr "Serben"
+msgstr "Sibirier"
 
 #: data/nation/siberian.ruleset:6
 msgid ""
