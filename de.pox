@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-07-13 21:37+0200\n"
+"PO-Revision-Date: 2013-07-13 22:09+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -42666,9 +42666,8 @@ msgstr ""
 "technologischen Voraussetzungen dafür nicht vorhanden sind."
 
 #: server/settings.c:1820
-#, fuzzy
 msgid "Give caught units a homecity"
-msgstr "* hat niemals eine Heimatstadt.\n"
+msgstr "Weise gefangenen Einheiten eine Heimatstadt zu"
 
 #. TRANS: The string between single quotes is a setting name and
 #. * should not be translated.
@@ -42677,10 +42676,12 @@ msgid ""
 "If unset, caught units will have no homecity and will be subject to the "
 "'killunhomed' option."
 msgstr ""
+"Falls nicht aktiviert, haben gefangene Einheiten keine Heimatstadt und sind "
+"dementsprechend von der Option „killunhomed“ betroffen."
 
 #: server/settings.c:1830
 msgid "Whether allied players can win together"
-msgstr ""
+msgstr "Alliierte Spieler können gemeinsam gewinnen"
 
 #: server/settings.c:1831
 msgid ""
@@ -42689,6 +42690,10 @@ msgid ""
 "not part of this alliance, then the game will end in an immediate shared "
 "victory for the allied players."
 msgstr ""
+"Wenn diese Option aktiviert ist und es kommt zu einer Spielsituation, in der "
+"alle Spieler, die gewinnen könnten, miteinander verbündet sind (und "
+"mindestens ein besiegter Spieler war kein Teil der Allianz), so endet das "
+"Spiel mit einem sofortigen geteilten Sieg für die Alliierten."
 
 #: server/settings.c:1840
 msgid "Whether to use natural city names"
