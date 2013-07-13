@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-07-13 19:23+0200\n"
+"PO-Revision-Date: 2013-07-13 21:04+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -33811,7 +33811,7 @@ msgstr "shawneeisch"
 
 #: data/nation/shawnee.ruleset:4
 msgid "?plural:Shawnee"
-msgstr "Shownee"
+msgstr "Shawnee"
 
 #: data/nation/shawnee.ruleset:6
 msgid ""
@@ -33857,16 +33857,19 @@ msgid ""
 "Slavic colonists. In 1918 a Siberian Republic was proclaimed but it was "
 "annexed by the USSR after only a few months."
 msgstr ""
+"Sibirien ist eine historische und geographische Region von Russland und der "
+"UdSSR. Während der Zarenzeit wurden in einigen slawischen Kolonisten "
+"separatistische Gefühle geweckt, bis 1918 schließlich eine Sibirische "
+"Republik proklamiert wurde, die jedoch bereits nach wenigen Monaten von der "
+"UdSSR annektiert wurde."
 
 #: data/nation/sicilian.ruleset:3
-#, fuzzy
 msgid "Sicilian"
-msgstr "schlesisch"
+msgstr "sizilianisch"
 
 #: data/nation/sicilian.ruleset:4
-#, fuzzy
 msgid "?plural:Sicilians"
-msgstr "Schlesier"
+msgstr "Sizilier"
 
 #: data/nation/sicilian.ruleset:6
 msgid ""
@@ -33880,12 +33883,12 @@ msgstr ""
 
 #: data/nation/sierraleonean.ruleset:3
 msgid "Sierra Leonean"
-msgstr ""
+msgstr "sierra-leonisch"
 
 #: data/nation/sierraleonean.ruleset:4
 #, fuzzy
 msgid "?plural:Sierra Leoneans"
-msgstr "Serben"
+msgstr "Sierra-Leoner"
 
 #: data/nation/sierraleonean.ruleset:6
 msgid ""
@@ -33897,14 +33900,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/sikh.ruleset:3
-#, fuzzy
 msgid "Sikh"
-msgstr "schwedisch"
+msgstr "sikhitisch"
 
 #: data/nation/sikh.ruleset:4
-#, fuzzy
 msgid "?plural:Sikhs"
-msgstr "Schweizer"
+msgstr "Sikhs"
 
 #: data/nation/sikh.ruleset:6
 msgid ""
@@ -33913,16 +33914,19 @@ msgid ""
 "Pakistan and India, is the heartland of Sikhism. In the 19th century a Sikh "
 "Empire existed in the region."
 msgstr ""
+"Sikhs sind die Anhänger einer monotheistischen Religion, die dem indischen "
+"Subkontinent enstammt und deren Enstehung auf das 15. Jahrhundert datiert "
+"werden kann. Das Punjab, gelegen an der Grenze zwischen Pakistan und Indien, "
+"ist das Herzland des Sikhismus; im 19. Jh. existierte gar ein sikhitisches "
+"Imperium in der Gegend."
 
 #: data/nation/sikkimese.ruleset:3
-#, fuzzy
 msgid "Sikkimese"
-msgstr "burmesisch"
+msgstr "sikkimesisch"
 
 #: data/nation/sikkimese.ruleset:4
-#, fuzzy
 msgid "?plural:Sikkimese"
-msgstr "Schweizer"
+msgstr "Sikkimer"
 
 #: data/nation/sikkimese.ruleset:6
 msgid ""
@@ -33930,6 +33934,9 @@ msgid ""
 "by a lineage of monarchs known as chogyals for centuries, until becoming the "
 "22nd state of India in 1975."
 msgstr ""
+"Das himalayanische Königreich Sikkim, zwischen Nepal und Bhutan "
+"eingequetscht, wurde jahrhundertelang von einer Abfolge als Chogyal "
+"bekannter Monarchen regiert. 1975 wurde es der 22. indische Staat."
 
 #: data/nation/silesian.ruleset:3
 msgid "Silesian"
@@ -33964,14 +33971,12 @@ msgstr ""
 "malaysischen Halbinsel."
 
 #: data/nation/sinhalese.ruleset:3
-#, fuzzy
 msgid "Sinhalese"
-msgstr "Bedienungselemente"
+msgstr "singhalesisch"
 
 #: data/nation/sinhalese.ruleset:4
-#, fuzzy
 msgid "?plural:Sinhalese"
-msgstr "Bengalier"
+msgstr "Singhalesen"
 
 #: data/nation/sinhalese.ruleset:7
 msgid ""
@@ -33979,16 +33984,17 @@ msgid ""
 "Prince Vijaya who settled the island of Sri Lanka together with 700 "
 "followers in 543 BCE."
 msgstr ""
+"Die Ahnenreihe der Singhalesen von Sri Lanka lässt sich bis zu dem quasi-"
+"legendären Prinzen Vijaya zurückverfolgen, der 543 v.u.Z. die Insel Sri "
+"Lanka mit 700 Anhängern besiedelte."
 
 #: data/nation/slavic.ruleset:3
-#, fuzzy
 msgid "Slavic"
-msgstr "Segelschiff"
+msgstr "slawisch"
 
 #: data/nation/slavic.ruleset:4
-#, fuzzy
 msgid "?plural:Slavs"
-msgstr "?plural:Chilenen"
+msgstr "Slawen"
 
 #: data/nation/slavic.ruleset:6
 msgid ""
@@ -34031,15 +34037,14 @@ msgid ""
 msgstr ""
 "Slowenien war die nordwestliche Teilrepublik des früheren Jugoslawiens."
 
+# StAGN.
 #: data/nation/solomonislander.ruleset:3
-#, fuzzy
 msgid "Solomon Islander"
-msgstr "Gleiche Insel"
+msgstr "salomonisch"
 
 #: data/nation/solomonislander.ruleset:4
-#, fuzzy
 msgid "?plural:Solomon Islanders"
-msgstr "Isländer"
+msgstr "Salomoner"
 
 #: data/nation/solomonislander.ruleset:6
 msgid ""
@@ -34051,14 +34056,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/somaliland.ruleset:3
-#, fuzzy
 msgid "Somaliland"
-msgstr "Normal"
+msgstr "Somaliland"
 
 #: data/nation/somaliland.ruleset:4
-#, fuzzy
 msgid "?plural:Somalilanders"
-msgstr "Römer"
+msgstr "somaliländisch"
 
 #: data/nation/somaliland.ruleset:6
 msgid ""
@@ -34070,14 +34073,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/somali.ruleset:3
-#, fuzzy
 msgid "Somali"
-msgstr "Normal"
+msgstr "somalisch"
 
 #: data/nation/somali.ruleset:4
-#, fuzzy
 msgid "?plural:Somalis"
-msgstr "Römer"
+msgstr "Somalier"
 
 #: data/nation/somali.ruleset:6
 msgid ""
@@ -34115,14 +34116,12 @@ msgstr ""
 "Glauben bekannt."
 
 #: data/nation/sorbian.ruleset:3
-#, fuzzy
 msgid "Sorbian"
-msgstr "serbisch"
+msgstr "sorbisch"
 
 #: data/nation/sorbian.ruleset:4
-#, fuzzy
 msgid "?plural:Sorbs"
-msgstr "Schotten"
+msgstr "Sorben"
 
 #: data/nation/sorbian.ruleset:6
 msgid ""
@@ -34130,15 +34129,18 @@ msgid ""
 "Saxony and Southern Brandenburg (Lusatia). The region has historically been "
 "associated with Poland and Bohemia."
 msgstr ""
+"Die Sorben sind ein westslawisches Volk, das im östlichen Deutschland in "
+"Ostsachsen und Südbrandenburg (der Lausitz) ansässig ist. Die Region ist "
+"historisch mit Polen und Böhmen verbunden."
 
+# ?
 #: data/nation/sotho.ruleset:3
 msgid "Sotho"
-msgstr ""
+msgstr "sothisch"
 
 #: data/nation/sotho.ruleset:4
-#, fuzzy
 msgid "?plural:Basotho"
-msgstr "Burmesen"
+msgstr "Basotho"
 
 #: data/nation/sotho.ruleset:6
 msgid ""
@@ -34158,7 +34160,6 @@ msgid "?plural:South Africans"
 msgstr "Südafrikaner"
 
 #: data/nation/southafrican.ruleset:6
-#, fuzzy
 msgid ""
 "Dutch settlers began colonizing southern Africa in the 17th century. After "
 "many wars between primarily Boers (descendants of Dutch settlers), British "
@@ -34197,14 +34198,12 @@ msgstr ""
 "seit dem 19. Jahrhundert."
 
 #: data/nation/southkorean.ruleset:3
-#, fuzzy
 msgid "South Korean"
-msgstr "südafrikanisch"
+msgstr "südkoreanisch"
 
 #: data/nation/southkorean.ruleset:4
-#, fuzzy
 msgid "?plural:South Koreans"
-msgstr "Südafrikaner"
+msgstr "Südkoreaner"
 
 #: data/nation/southkorean.ruleset:6
 msgid ""
@@ -34214,16 +34213,19 @@ msgid ""
 "formed from the nationalist and anti-communist \"Provisional Government of "
 "the Republic of Korea\" in 1948."
 msgstr ""
+"Die koreanische Halbinsel, einst Zeuge eines geeinten Korea, ist heute in "
+"zwei Staaten — Nord- und Südkorea — aufgeteilt, ein Ergebnis der Waffenruhe "
+"nach dem Koreanischen Krieg 1953. Die südkoreanische Regierung wurde 1948 "
+"aus der nationalistischen und antikommunistischen Partei „Provisorische "
+"Regierung der Republik Korea“ gegründet."
 
 #: data/nation/southsudanese.ruleset:3
-#, fuzzy
 msgid "South Sudanese"
-msgstr "sudanesisch"
+msgstr "südsudanesisch"
 
 #: data/nation/southsudanese.ruleset:4
-#, fuzzy
 msgid "?plural:South Sudanese"
-msgstr "Sudanesen"
+msgstr "Südsudanesen"
 
 #: data/nation/southsudanese.ruleset:6
 msgid ""
@@ -34234,14 +34236,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/southvietnamese.ruleset:3
-#, fuzzy
 msgid "South Vietnamese"
-msgstr "vietnamesisch"
+msgstr "südvietnamesisch"
 
 #: data/nation/southvietnamese.ruleset:4
-#, fuzzy
 msgid "?plural:South Vietnamese"
-msgstr "Vietnamesen"
+msgstr "Südvietnam"
 
 #: data/nation/southvietnamese.ruleset:6
 msgid ""
@@ -34249,21 +34249,22 @@ msgid ""
 "state during the Vietnam War. The country was reunited with North Vietnam "
 "after it was conquered by communist forces in 1975."
 msgstr ""
+"Südvietnam, offiziell Republic Vietnam, war ein US-amerikanisch "
+"unterstützter Staat im Vietnamkrieg. Das Land wurde 1975 nach Eroberung "
+"durch die kommunistischen Kräfte mit Nordvietnam wiedervereinigt."
 
 #: data/nation/southvietnamese.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "Madame %s"
-msgstr "Spiel laden"
+msgstr "Madame %s"
 
 #: data/nation/southyemeni.ruleset:3
-#, fuzzy
 msgid "South Yemeni"
-msgstr "südafrikanisch"
+msgstr "Südjemenitisch"
 
 #: data/nation/southyemeni.ruleset:4
-#, fuzzy
 msgid "?plural:South Yemenis"
-msgstr "Südafrikaner"
+msgstr "Südjemen"
 
 #: data/nation/southyemeni.ruleset:6
 msgid ""
@@ -34271,6 +34272,9 @@ msgid ""
 "declared independence in 1967 and joined the communist bloc. It was united "
 "with North Yemen in 1990."
 msgstr ""
+"Das Gebiet um den Golf von Aden wurde 1839 von den Briten kolonisiert. "
+"Südjemen postulierte 1967 seine Unabhängigkeit und trat zum kommunistischen "
+"Block über; 1990 wurde es mit Nordjemen vereinigt."
 
 #: data/nation/soviet.ruleset:3
 msgid "Soviet"
@@ -34281,7 +34285,6 @@ msgid "?plural:Soviets"
 msgstr "Sowjets"
 
 #: data/nation/soviet.ruleset:6
-#, fuzzy
 msgid ""
 "The history of the Soviet Union starts in November 1917, when under Lenin's "
 "leadership a Bolshevik revolution occurred. On December 31 1922, four Soviet "
@@ -34299,12 +34302,11 @@ msgstr ""
 
 #: data/nation/srivijaya.ruleset:3
 msgid "Sri Vijaya"
-msgstr ""
+msgstr "srivijanisch"
 
 #: data/nation/srivijaya.ruleset:4
-#, fuzzy
 msgid "?plural:Sri Vijaya"
-msgstr "Maya"
+msgstr "Srivijaya"
 
 #: data/nation/srivijaya.ruleset:7
 msgid ""
@@ -34329,17 +34331,15 @@ msgid ""
 "independent in 1956."
 msgstr ""
 "Der Sudan kam 1820 unter ägyptische und später unter britische Herrschaft. "
-"Der Sudan wurde 1956 unabhängig."
+"Er wurde 1956 unabhängig."
 
 #: data/nation/suebian.ruleset:3
-#, fuzzy
 msgid "Suebian"
-msgstr "serbisch"
+msgstr "suebisch"
 
 #: data/nation/suebian.ruleset:4
-#, fuzzy
 msgid "?plural:Suebians"
-msgstr "Serben"
+msgstr "Sueben"
 
 #: data/nation/suebian.ruleset:6
 msgid ""
@@ -34376,14 +34376,12 @@ msgstr ""
 "5550 Jahre alt, älter als jedes andere schriftliche Zeugnis der Geschichte."
 
 #: data/nation/surinamese.ruleset:3
-#, fuzzy
 msgid "Surinamese"
-msgstr "burmesisch"
+msgstr "surinamisch"
 
 #: data/nation/surinamese.ruleset:4
-#, fuzzy
 msgid "?plural:Surinamese"
-msgstr "Burmesen"
+msgstr "Suranamer"
 
 #: data/nation/surinamese.ruleset:7
 msgid ""
@@ -34395,23 +34393,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/surinamese.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Sergeant %s"
-msgstr "serbisch"
+msgstr "Sergeant %s"
 
 #: data/nation/surinamese.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Sergeant %s"
-msgstr "Pfarrer"
+msgstr "Sergeant %s"
 
 #: data/nation/swahili.ruleset:3
 msgid "Swahili"
-msgstr ""
+msgstr "swahilisch"
 
 #: data/nation/swahili.ruleset:4
-#, fuzzy
 msgid "?plural:Swahili"
-msgstr "Swasi"
+msgstr "Swahili"
 
 #: data/nation/swahili.ruleset:6
 msgid ""
@@ -34430,14 +34427,13 @@ msgstr ""
 
 #: data/nation/swazi.ruleset:3
 msgid "Swazi"
-msgstr "swasisch"
+msgstr "swasiländisch"
 
 #: data/nation/swazi.ruleset:4
 msgid "?plural:Swazis"
 msgstr "Swasi"
 
 #: data/nation/swazi.ruleset:6
-#, fuzzy
 msgid ""
 "The Swazi are a Bantu people of southern Africa. Under the leadership of "
 "Mswati II (1820 - 1868), the Swazis expanded their territory and stabilized "
@@ -34457,7 +34453,6 @@ msgstr "Schweden"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/swedish.ruleset:7
-#, fuzzy
 msgid ""
 "The Kingdom of Sweden was christianized and consolidated as a political "
 "entity by the 12th century CE. The country rose to prominence as one of the "
@@ -34490,47 +34485,50 @@ msgid ""
 "established a protective alliance at the end of the 13th century, forming a "
 "loose confederation of states which persisted for centuries."
 msgstr ""
+"Die Schweiz existiert als Staat in der heutigen Form seit der Annahme der "
+"Schweizer Föderalverfassung 1848. Vorgänger der modernen Schweiz gründeten "
+"Ende des 13. Jh. eine protektorische Allianz, die eine lose Konföderation "
+"von Staaten verband und über Jahrhunderte andauerte."
 
+# Bezieht sich auf den Schweizer Bundesrat
 #: data/nation/swiss.ruleset:38
-#, fuzzy, c-format
+#, c-format
 msgid "Federal Councillor %s"
-msgstr "Bundeskanzler"
+msgstr "Bundeskanzler %s"
 
 #: data/nation/swiss.ruleset:38
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Federal Councillor %s"
-msgstr "Bundeskanzler"
+msgstr "Bundeskanzlerin %s"
 
 #: data/nation/syrian.ruleset:3
-#, fuzzy
 msgid "Syrian"
-msgstr "serbisch"
+msgstr "syrisch"
 
 #: data/nation/syrian.ruleset:4
-#, fuzzy
 msgid "?plural:Syrians"
-msgstr "Serben"
+msgstr "Syrer"
 
 #: data/nation/syrian.ruleset:6
 msgid ""
 "The modern Syrian Arab Republic was formed from a French mandate and "
 "gradually gained independence during the 1940s."
 msgstr ""
+"Die moderne Arabische Republik Syrien entsprang einem französischen Mandat "
+"und erarbeitete sich in den 1940er Jahren graduell die Unabhängigkeit."
 
 #: data/nation/syrian.ruleset:20
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Shaykha %s"
-msgstr "Genossin"
+msgstr "Shaykha %s"
 
 #: data/nation/tahitian.ruleset:3
-#, fuzzy
 msgid "Tahitian"
-msgstr "wartet"
+msgstr "tahitisch"
 
 #: data/nation/tahitian.ruleset:4
-#, fuzzy
 msgid "?plural:Tahitians"
-msgstr "Galizier"
+msgstr "Tahitier"
 
 #: data/nation/tahitian.ruleset:6
 msgid ""
@@ -34584,14 +34582,12 @@ msgstr ""
 
 # EH: Diese Meldung sollte mE nicht übersetzt werden.
 #: data/nation/tairona.ruleset:3
-#, fuzzy
 msgid "Tairona"
-msgstr "Raina"
+msgstr "taironaisch"
 
 #: data/nation/tairona.ruleset:4
-#, fuzzy
 msgid "?plural:Tairona"
-msgstr "Thailänder"
+msgstr "Tairona"
 
 #: data/nation/tairona.ruleset:7
 msgid ""
@@ -34624,14 +34620,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/tajik.ruleset:3
-#, fuzzy
 msgid "Tajik"
-msgstr "thailändisch"
+msgstr "tadschikisch"
 
 #: data/nation/tajik.ruleset:4
-#, fuzzy
 msgid "?plural:Tajiks"
-msgstr "Thailänder"
+msgstr "Tadschiken"
 
 #: data/nation/tajik.ruleset:6
 msgid ""
@@ -34642,12 +34636,11 @@ msgstr ""
 
 #: data/nation/tanganyikan.ruleset:3
 msgid "Tanganyikan"
-msgstr ""
+msgstr "tanganjikisch"
 
 #: data/nation/tanganyikan.ruleset:4
-#, fuzzy
 msgid "?plural:Tanganyikans"
-msgstr "?plural:Kanadier"
+msgstr "Tanganjika"
 
 #: data/nation/tanganyikan.ruleset:6
 msgid ""
@@ -34658,14 +34651,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/tanzanian.ruleset:3
-#, fuzzy
 msgid "Tanzanian"
-msgstr "kanadisch"
+msgstr "tansanisch"
 
 #: data/nation/tanzanian.ruleset:4
-#, fuzzy
 msgid "?plural:Tanzanians"
-msgstr "?plural:Kanadier"
+msgstr "Tansanier"
 
 #: data/nation/tanzanian.ruleset:6
 msgid ""
@@ -34676,14 +34667,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/tatar.ruleset:3
-#, fuzzy
 msgid "Tatar"
-msgstr "Zarin"
+msgstr "tatarisch"
 
 #: data/nation/tatar.ruleset:4
-#, fuzzy
 msgid "?plural:Tatars"
-msgstr "Maya"
+msgstr "Tataren"
 
 #: data/nation/tatar.ruleset:7
 msgid ""
