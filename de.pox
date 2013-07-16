@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-07-13 22:09+0200\n"
+"PO-Revision-Date: 2013-07-16 10:21+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -44679,75 +44679,76 @@ msgstr "Ruleset-Verzeichnis ist jetzt '%s'"
 
 #: server/stdinhand.c:3813 server/stdinhand.c:3849 server/stdinhand.c:6146
 msgid "That would be rather silly, since you are not a player."
-msgstr ""
+msgstr "Das wäre ziemlich sinnlos, denn Sie sind kein Spieler."
 
 #: server/stdinhand.c:3820
 #, c-format
 msgid "%s. Try /help ignore"
-msgstr ""
+msgstr "%s. Versuchen Sie /help ignore"
 
 #: server/stdinhand.c:3832
 #, c-format
 msgid "Added pattern %s as entry %d to your ignore list."
-msgstr ""
+msgstr "Muster %s als Eintrag %d in Ihre Ignorierliste eingefügt."
 
 #: server/stdinhand.c:3858 server/stdinhand.c:6151
-#, fuzzy
 msgid "Your ignore list is empty."
-msgstr "Die Arbeitsliste von %s ist jetzt leer."
+msgstr "Ihre Ignorierliste ist leer."
 
 #: server/stdinhand.c:3865
 msgid "Missing range. Try /help unignore."
-msgstr ""
+msgstr "Fehlender Bereich. Versuchen Sie /help unignore."
 
 #: server/stdinhand.c:3874 server/stdinhand.c:3882 server/stdinhand.c:3888
 #, c-format
 msgid "\"%s\" is not a valid range. Try /help unignore."
-msgstr ""
+msgstr "„%s“ ist kein gültiger Bereich. Versuchen Sie /help unignore."
 
 #: server/stdinhand.c:3897
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid entry number: %d."
-msgstr "Unzulässiger Name '%s'"
+msgstr "Unzulässige Eintragsnummer: %d."
 
 #: server/stdinhand.c:3900
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid range: %d to %d."
-msgstr "%d ist unzulässig."
+msgstr "Unzulässiger Bereich: %d bis %d."
 
 #: server/stdinhand.c:3914
 #, c-format
 msgid "Removed pattern %s (entry %d) from your ignore list."
-msgstr ""
+msgstr "Muster %s (Eintrag %d) wurde aus Ihrer Ignorierliste entfernt."
 
 #: server/stdinhand.c:3944
 msgid "Two arguments needed. See '/help playercolor'."
-msgstr ""
+msgstr "Zwei Argumente benötigt. Siehe „/help playercolor“."
 
 #: server/stdinhand.c:3959
 msgid ""
 "Can only set player color prior to game start if 'plrcolormode' is PLR_SET."
 msgstr ""
+"Die Spielerfarben können nur dann vor dem Spieleginn ausgewählt werden, wenn "
+"„plrcolormoode“ auf PLR_SET gesetzt ist."
 
 #: server/stdinhand.c:3970
-#, fuzzy
 msgid "Can only unset player color before game starts."
-msgstr "Die Quoten können nicht vor Spielbeginn geändert werden."
+msgstr "Die Spielerfarben können nur vor dem Spielbeginn gelöscht werden. "
 
 #: server/stdinhand.c:3976
 msgid "Invalid player color definition. See '/help playercolor'."
-msgstr ""
+msgstr "Ungültige Definition der Spielerfarbe. Siehe „/help playercolor“."
 
 #. TRANS: "... [c0ffee] for Caesar ... to Hammurabi."
 #: server/stdinhand.c:3987
 #, c-format
 msgid "Warning: new color [%s] for %s is identical to %s."
 msgstr ""
+"Warnung: Die neue Farbe [%s] für %s ist identisch mit derjenigen von %s."
 
 #: server/stdinhand.c:4000
-#, fuzzy, c-format
+#, c-format
 msgid "Color of player %s set to [%s]."
-msgstr "Spieler %s gehört zu Team %s."
+msgstr "Spielerfarbe von %s ist jetzt [%s]."
 
 #: server/stdinhand.c:4043
 msgid "Goodbye."
@@ -44761,41 +44762,40 @@ msgstr "Keine Berechtigung zur Erteilung von Serverbefehlen."
 #, c-format
 msgid "Warning: '%s' interpreted as '%s', but it is ambiguous.  Try '%shelp'."
 msgstr ""
-"Warnung: '%s' wurde (obwohl es mehrdeutig ist) als '%s' ausgelegt.\n"
-"         '%shelp' gibt nähere Informationen."
+"Warnung: „%s“ wurde (obwohl es mehrdeutig ist) als „%s“ ausgelegt.\n"
+"         „%shelp“ gibt nähere Informationen."
 
 #: server/stdinhand.c:4141
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown command '%s%s'.  Try '%shelp'."
-msgstr "Unbekannter Befehl. '%shelp' gibt nähere Informationen."
+msgstr "Unbekannter Befehl „%s%s“. Versuchen Sie „%shelp“."
 
 #. TRANS: "vote" as a process
 #: server/stdinhand.c:4168
-#, fuzzy
 msgid "Your new vote canceled your previous vote."
-msgstr "Deine Wahl wurde abgeändert."
+msgstr "Sie haben neu abgestimmt; Ihre altes Votum wird ignoriert."
 
 #. TRANS: "vote" as a process
 #: server/stdinhand.c:4175
 msgid "New teamvote"
-msgstr ""
+msgstr "Neue Teamabstimmung"
 
 #. TRANS: "[New vote|New teamvote] (number 3)
 #. * by fred: proposed change"
 #: server/stdinhand.c:4187
-#, fuzzy, c-format
+#, c-format
 msgid "%s (number %d) by %s: %s"
-msgstr "Neue Abstimmung (Nr. %d) von %s über den Befehl: %s"
+msgstr "%s (Nr. %d) von %s: %s"
 
 #. TRANS: "vote" as a process
 #: server/stdinhand.c:4197
 #, c-format
 msgid "Your new vote (\"%s\") was not legal or was not recognized."
-msgstr "Dein neues Votum ('%s') war nicht gültig oder wurde nicht erkannt."
+msgstr "Ihr neues Votum („%s“) war nicht gültig oder wurde nicht erkannt."
 
 #: server/stdinhand.c:4240
 msgid "(server prompt)"
-msgstr "Serverbefehl"
+msgstr "(Serverbefehl)"
 
 #: server/stdinhand.c:4389
 msgid ""
@@ -44815,142 +44815,149 @@ msgstr "%s hat das Spiel aufgegeben und kann nicht mehr gewinnen."
 
 #: server/stdinhand.c:4415
 msgid "You cannot surrender now."
-msgstr "Du kannst jetzt nicht aufgeben."
+msgstr "Sie können jetzt nicht aufgeben."
 
 #: server/stdinhand.c:4465
-#, fuzzy
 msgid "Guessing argument 'ruleset'."
-msgstr "Unvollständige Eingabe ('%s').\n"
+msgstr "Rate Argument „ruleset“."
 
 #: server/stdinhand.c:4469
-#, fuzzy
 msgid "Guessing argument 'game'."
-msgstr "Unvollständige Eingabe ('%s').\n"
+msgstr "Rate Argument „game“."
 
 #: server/stdinhand.c:4477
 msgid "The valid arguments are: 'game', 'ruleset', 'script' or 'default'."
 msgstr ""
+"Die zulässigen Argumente sind: „game“, „ruleset“, „script“ oder „default“."
 
 #: server/stdinhand.c:4492
-#, fuzzy
 msgid "Reset all settings to the values at the game start."
-msgstr "Diese Einstellung kann nach Spielstart nicht mehr geändert werden."
+msgstr "Alle Einstellungen auf ihre Werte bei Spielbeginn zurücksetzen."
 
 #: server/stdinhand.c:4495
 msgid "No saved settings from the game start available."
-msgstr ""
+msgstr "Bei Spielstart wurde keine Einstellungen gesichert."
 
 #: server/stdinhand.c:4499
-#, fuzzy
 msgid "No game started..."
-msgstr "Spiel begonnen."
+msgstr "Kein Spiel begonnen…"
 
 #: server/stdinhand.c:4506
 msgid "Reset all settings to ruleset values."
-msgstr ""
+msgstr "Alle Einstellungen auf ihre Werte im Regelsatz zurücksetzen."
 
 #: server/stdinhand.c:4513
 msgid "Reset all settings and rereading the server start script."
 msgstr ""
+"Alle Einstellungen zurücksetzen und das Server-Startskript neu einlesen."
 
 #: server/stdinhand.c:4531
-#, fuzzy
 msgid "Reset all settings to default values."
-msgstr "Alle Optionen, die vom Standardwert abweichen"
+msgstr "Alle Einstellungen auf die Standardwerte zurücksetzen."
 
 #: server/stdinhand.c:4537
 msgid "Settings re-initialized."
-msgstr ""
+msgstr "Einstellungen neu feestgelegt."
 
 #: server/stdinhand.c:4597
 #, c-format
 msgid "Fall back to old syntax '%slua <script command>'."
-msgstr ""
+msgstr "Falle auf alte Syntax „%slua <Skriptkommando>“ zurück."
 
 #: server/stdinhand.c:4607
-#, fuzzy, c-format
+#, c-format
 msgid "No lua command or lua script file. See '%shelp lua'."
-msgstr "Kann die Skriptdatei '%s' nicht lesen."
+msgstr "Kein Lua-Kommando oder keine Lua-Skriptdatei. Siehe „%shelp lua“."
 
 #: server/stdinhand.c:4630
-#, fuzzy, c-format
+#, c-format
 msgid "Freeciv script '%s' disallowed for security reasons."
-msgstr "Der Name \"%s\" ist aus Sicherheitsgründen nicht erlaubt."
+msgstr "Das Freeciv-Skript „%s“ wird aus Sicherheitsgründen abgelehnt."
 
 #: server/stdinhand.c:4644
-#, fuzzy, c-format
+#, c-format
 msgid "No Freeciv script found by the name '%s'."
-msgstr "Kein Kommandoskript mit der Bezeichnung '%s' gefunden."
+msgstr "Kein Freeciv-Skript mit der Bezeichnung „%s“ gefunden."
 
 #: server/stdinhand.c:4666
-#, fuzzy, c-format
+#, c-format
 msgid "Loading Freeciv script file '%s'."
-msgstr "Lade Skriptdatei '%s'"
+msgstr "Lade Freeciv-Skriptdatei „%s“."
 
 #: server/stdinhand.c:4674
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot read Freeciv script '%s'."
-msgstr "Kann die Skriptdatei '%s' nicht lesen."
+msgstr "Kann die Freeciv-Skriptdatei „%s“ nicht lesen."
 
 #: server/stdinhand.c:4723
 msgid "Game not started - cannot delegate yet."
-msgstr ""
+msgstr "Spiel hat noch nicht begonnen — kann Kontrolle nicht abgeben."
 
 #. TRANS: do not translate the command 'delegate'.
 #: server/stdinhand.c:4776
 #, c-format
 msgid "Valid arguments for 'delegate' are: %s."
-msgstr ""
+msgstr "Zulässige Argumente für „delegate“ sind: %s."
 
 #: server/stdinhand.c:4796 server/stdinhand.c:4886
-#, fuzzy, c-format
+#, c-format
 msgid "Command level '%s' or greater needed to modify others' delegations."
-msgstr "Spieler können nach Spielstart nicht mehr entfernt werden."
+msgstr ""
+"Zugriffsberechtigung „%s“ oder besser erforderlich, um die Kontrollabgaben "
+"anderer Leute zu bearbeiten."
 
 #: server/stdinhand.c:4805
 msgid "Please specify a player for whom delegation should be canceled."
 msgstr ""
+"Bitte geben Sie einen Spieler an, dessen Kontrollabgabe beendet werden soll."
 
 #: server/stdinhand.c:4816 server/stdinhand.c:4846
-#, fuzzy
 msgid "You can't switch players from the console."
-msgstr "Das Übernehmen von neuen Spielern ist jetzt nicht möglich."
+msgstr "Spielerwechsel auf der Konsole ist nicht möglich."
 
 #: server/stdinhand.c:4835
 msgid "Please specify a player for whom the delegation should be shown."
 msgstr ""
+"Bitte geben Sie einen Spieler an, dessen Kontrollabgabe angezeigt werden "
+"soll."
 
 #: server/stdinhand.c:4860
-#, fuzzy
 msgid "Please specify a player to take control of."
-msgstr "Fehler bei der Generierung des neuen KI-Spielers: %s."
+msgstr ""
+"Bitte geben Sie einen Spieler an, dessen Kontrolle Sie übernehmen wollen."
 
 #: server/stdinhand.c:4871
 msgid "Please specify a user to whom control is to be delegated."
 msgstr ""
+"Bitte geben Sie den Nutzer an, an den Sie die Kontrolle abgeben wollen."
 
 #: server/stdinhand.c:4895
-#, fuzzy
 msgid "You do not control a player."
-msgstr "Du bist nicht mit einem Spieler verbunden."
+msgstr "Sie kontrollieren keinen Spieler."
 
 #: server/stdinhand.c:4931
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Can't delegate control of '%s' belonging to %s while they are controlling "
 "another player."
 msgstr ""
+"Die Kontrolle von „%s“ (zu %s gehörig) kann nicht abgegeben werden, solange "
+"sie einen anderen Spieler kontrollieren."
 
 #: server/stdinhand.c:4937
 #, c-format
 msgid "Can't change delegation of '%s' while controlled by delegate %s."
 msgstr ""
+"Solange „%s“ von %s kontrolliert wird, kann die Kontrolle nicht an jemand "
+"anderen abgegeben werden."
 
 #: server/stdinhand.c:4944
 msgid ""
 "You can't delegate control while you are controlling a delegated player "
 "yourself."
 msgstr ""
+"Sie können die Kontrolle nicht abgeben, während Sie selbst eine abgegebene "
+"Kontrolle wahrnehmen."
 
 #. TRANS: don't translate 'delegate cancel'
 #: server/stdinhand.c:4958
@@ -44959,6 +44966,9 @@ msgid ""
 "%s already owns '%s', so cannot also be delegate. Use '%sdelegate cancel' to "
 "cancel an existing delegation."
 msgstr ""
+"Die Kontrolle kann nicht an den Benutzer %s abgegeben werden, da er „%s“ "
+"bereits kontrolliert. Sie können „%sdelegate cancel“ verwenden, um eine "
+"bestehende Kontrollabgabe aufzuheben."
 
 #. TRANS: don't translate '/delegate cancel'
 #: server/stdinhand.c:4967
@@ -44966,30 +44976,34 @@ msgid ""
 "You can't delegate control to yourself. Use '/delegate cancel' to cancel an "
 "existing delegation."
 msgstr ""
+"Sie können die Kontrolle nicht an sich selbst abgeben. Verwenden Sie „/"
+"delegate cancel“, um eine bestehende Kontrollabgabe aufzuheben."
 
 #: server/stdinhand.c:4980 server/stdinhand.c:4997
-#, fuzzy, c-format
+#, c-format
 msgid "Control of player '%s' delegated to user %s."
-msgstr "Die Kontrolle über den Spieler »%s« wurde an »%s«%s übertragen."
+msgstr ""
+"Die Kontrolle über den Spieler „%s“ wurde an den Benutzer %s abgegeben."
 
 #: server/stdinhand.c:4993 server/stdinhand.c:5008
-#, fuzzy, c-format
+#, c-format
 msgid "No delegation defined for '%s'."
-msgstr "Keine Verbindung mit der Bezeichnung '%s'."
+msgstr "Die Kontrolle über „%s“ wurde nicht abgegeben."
 
+# MG: TECHNICAL
 #: server/stdinhand.c:5028 server/stdinhand.c:5104 server/stdinhand.c:5134
 msgid "Unexpected failure."
-msgstr ""
+msgstr "Unexpected failure."
 
 #: server/stdinhand.c:5033
-#, fuzzy, c-format
+#, c-format
 msgid "Your delegated control of player '%s' was canceled."
-msgstr "%s kann sich nicht weiter von der Küste entfernen."
+msgstr "Die Ihnen übergebene Kontrolle über den Spieler „%s“ wurde eingezogen."
 
 #: server/stdinhand.c:5038
-#, fuzzy, c-format
+#, c-format
 msgid "Delegation of '%s' canceled."
-msgstr "Die Feiern in %s wurden abgesagt."
+msgstr "DIe Kontrollabgabe von „%s“ wurde beendet."
 
 #. TRANS: don't translate '/delegate restore'.
 #: server/stdinhand.c:5052
@@ -44997,6 +45011,9 @@ msgid ""
 "You are already controlling a delegated player. Use '/delegate restore' to "
 "relinquish control of your current player first."
 msgstr ""
+"Ihnen wurde die Kontrolle über einen anderen Spieler übertragen. Verwenden "
+"Sie „/delegate restore“, um zunächst die Kontrolle über Ihren aktuellen "
+"Spieler wiederherzustellen."
 
 #. TRANS: don't translate '/delegate cancel'.
 #: server/stdinhand.c:5066
@@ -45004,74 +45021,73 @@ msgid ""
 "Can't take player while you have delegated control yourself. Use '/delegate "
 "cancel' to cancel your own delegation first."
 msgstr ""
+"Sie können einen Spieler nicht übernehmen, während Sie die Kontrolle "
+"abgegeben haben. Verwenden Sie „/delegate cancel“, um Ihre eigene "
+"Kontrollabgabe zu widerrufen."
 
 #: server/stdinhand.c:5076
-#, fuzzy, c-format
+#, c-format
 msgid "You already control '%s'."
-msgstr "%s kontrolliert %s bereits."
+msgstr "Sie kontrollieren „%s“ bereits."
 
 #: server/stdinhand.c:5085
-#, fuzzy, c-format
+#, c-format
 msgid "Control of player '%s' has not been delegated to you."
-msgstr "%s auf '%s' gesetzt."
+msgstr "Die Kontrolle über den Spieler „%s“ ist Ihnen nicht übertragen worden."
 
 #: server/stdinhand.c:5094
-#, fuzzy, c-format
+#, c-format
 msgid "Another user already controls player '%s'."
-msgstr "%s kontrolliert %s bereits."
+msgstr "Der Spieler „%s“ wird bereits von einem anderen Benutzer kontrolliert."
 
 #: server/stdinhand.c:5110
-#, fuzzy, c-format
+#, c-format
 msgid "%s is now controlling player '%s'."
-msgstr "%s wird nicht von der KI kontrolliert."
+msgstr "%s kontrolliert nun den Spieler „%s“."
 
 #: server/stdinhand.c:5123
-#, fuzzy
 msgid "You are not currently controlling a delegated player."
-msgstr "Du bist nicht mit einem Spieler verbunden."
+msgstr ""
+"Ihnen ist keine Kontrolle über einen anderen Spieler übertragen worden."
 
 #. TRANS: "<user> is now connected to <player>" where <player>
 #. * can also be "global observer" or "nothing"
 #: server/stdinhand.c:5142
-#, fuzzy, c-format
+#, c-format
 msgid "%s is now connected as %s."
-msgstr "%s ist nicht verbunden."
+msgstr "%s ist nun verbunden als: %s."
 
 #: server/stdinhand.c:5163
-#, fuzzy, c-format
+#, c-format
 msgid "%s (observer)"
-msgstr " (Beobachter)"
+msgstr "%s (Beobachter)"
 
 #: server/stdinhand.c:5168
-#, fuzzy
 msgid "global observer"
-msgstr "Beobachter"
+msgstr "Globaler Beobachter"
 
 #. TRANS: in place of player name or "global observer"
 #: server/stdinhand.c:5171
-#, fuzzy
 msgid "nothing"
-msgstr "Karteneinsicht"
+msgstr "(nichts)"
 
 #: server/stdinhand.c:5226
-#, fuzzy
 msgid "Ambiguous 'mapimg' command."
-msgstr "Mehrdeutige Optionsbezeichnung."
+msgstr "Mehrdeutiger „mapimg“-Befehl."
 
 #: server/stdinhand.c:5252 server/stdinhand.c:5505
-#, fuzzy, c-format
+#, c-format
 msgid "The valid arguments are: %s."
-msgstr "%d ist unzulässig."
+msgstr "Die zulässigen Argumente sind: %s."
 
 #: server/stdinhand.c:5267
-#, fuzzy
 msgid "Missing argument for 'mapimg define'."
-msgstr "Unvollständige Eingabe ('%s').\n"
+msgstr "Fehlendes Argument für „mapimg define“."
 
 #: server/stdinhand.c:5273 server/stdinhand.c:5282
-#, fuzzy, c-format
+#, c-format
 msgid "Can't use definition: %s."
-msgstr "Unzulässiger Name '%s'"
+msgstr "Kann Definition nicht verwenden: %s."
 
 #: server/stdinhand.c:5289
 #, fuzzy, c-format
