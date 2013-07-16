@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-07-16 10:21+0200\n"
+"PO-Revision-Date: 2013-07-16 10:37+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -45149,7 +45149,7 @@ msgstr "Falscher Parameter für »mapimg create«: »%s«."
 
 #: server/stdinhand.c:5457
 msgid "Freeciv database script deactivated at compile time."
-msgstr ""
+msgstr "Freeciv-Datenbanskript zur Kompilationszeit deaktiviert."
 
 #: server/stdinhand.c:5475
 msgid "Ambiguous fcdb command."
@@ -45298,15 +45298,15 @@ msgid "<no connections>"
 msgstr "<keine Verbindungen>"
 
 #: server/stdinhand.c:6110
-#, fuzzy
 msgid "List of all delegations:"
-msgstr "Liste der Teams:"
+msgstr "Liste aller Kontrollabgaben:"
 
 #. TRANS: last %s is either " (active)" or empty string
 #: server/stdinhand.c:6122
 #, fuzzy, c-format
 msgid "%s delegates control over player '%s' to user %s%s."
-msgstr "Die Kontrolle über den Spieler »%s« wurde an »%s«%s übertragen."
+msgstr ""
+"%s hat die Kontrolle über den Spieler „%s“ an den Benutzer %s%s abgegeben."
 
 #: server/stdinhand.c:6124
 msgid " (active)"
@@ -45314,7 +45314,7 @@ msgstr " (aktiv)"
 
 #: server/stdinhand.c:6130
 msgid "No delegations defined."
-msgstr ""
+msgstr "Keine Kontrollabgaben definiert."
 
 #: server/stdinhand.c:6155
 msgid "Your ignore list:"
@@ -45459,7 +45459,7 @@ msgstr ""
 "erforschen sollen."
 
 #: server/techtools.c:374
-#, fuzzy, c-format
+#, c-format
 msgid "Learned %s. Scientists choose to research %s."
 msgstr ""
 "%s erforscht. Unsere Wissenschaftler entscheiden sich für die Erforschung "
@@ -45574,14 +45574,14 @@ msgstr[0] "%1$s für %3$d Gold durch %2$s ersetzt."
 msgstr[1] "%1$s für %3$d Gold zu %2$s ersetzt."
 
 #: server/unithand.c:217
-#, fuzzy, c-format
+#, c-format
 msgid "%s converted to %s."
-msgstr "%s hat %s erobert."
+msgstr "%s mit %s ausgetauscht."
 
 #: server/unithand.c:222
-#, fuzzy, c-format
+#, c-format
 msgid "%s cannot be converted."
-msgstr "%s können nicht aufgelöst werden."
+msgstr "%s kann nicht ausgetauscht werden."
 
 #. TRANS: <tile-terrain>.
 #: server/unithand.c:566
@@ -45743,15 +45743,15 @@ msgstr ""
 
 #. TRANS: <unit> ... <unit>
 #: server/unithand.c:1479
-#, fuzzy, c-format
+#, c-format
 msgid "Your %s succeeded in capturing the %s."
-msgstr "Dein %s hat %s erfolgreich bestochen."
+msgstr "Ihr %s hat %s erfolgreich gefangen genommen."
 
 #. TRANS: <unit> ... <Poles>
 #: server/unithand.c:1484
-#, fuzzy, c-format
+#, c-format
 msgid "Your %s was captured by the %s."
-msgstr "%s wurde von den %s bestochen."
+msgstr "Ihr %s wurde von den %s gefangen genommen."
 
 #: server/unithand.c:1509
 msgid "This unit is being transported, and so cannot bombard."
@@ -45903,11 +45903,11 @@ msgid "%s escaped the destruction of %s, and fled to %s."
 msgstr "%s ist der Zerstörung von %s entgangen und nach %s geflüchtet."
 
 #: server/unittools.c:1807
-#, fuzzy, c-format
+#, c-format
 msgid "Barbarian leader captured; %d gold ransom paid."
 msgid_plural "Barbarian leader captured; %d gold ransom paid."
-msgstr[0] "Barbarenanführer gefaßt, %d Goldstücke Belohnung erhalten."
-msgstr[1] "Barbarenanführer gefaßt, %d Goldstücke Belohnung erhalten."
+msgstr[0] "Barbarenanführer gefasst, %d Goldstück Belohnung erhalten."
+msgstr[1] "Barbarenanführer gefasst, %d Goldstücke Belohnung erhalten."
 
 #. TRANS: "... Cannon ... the Polish Destroyer."
 #: server/unittools.c:1828
@@ -45978,7 +45978,6 @@ msgstr "%s wurde von %s atomar angegriffen."
 # "wurde von XY atomar angegriffen" und in 
 # "Sie haben XY atomar angegriffen" eingesetzt.
 #: server/unittools.c:2280 server/unittools.c:2298
-#, fuzzy
 msgid "yourself"
 msgstr "sich selbst"
 
@@ -46191,7 +46190,7 @@ msgstr "%s oder %s"
 #. TRANS: start of an "or"-separated string list with more than two
 #. * items.
 #: utility/astring.c:297
-#, fuzzy, c-format
+#, c-format
 msgid "?or-list:%s"
 msgstr "%s"
 
@@ -46321,14 +46320,14 @@ msgstr[0] " (insgesamt 1 Wiederholung)"
 msgstr[1] " (insgesamt %d Wiederholungen)"
 
 #: utility/netfile.c:66
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to fetch %s"
-msgstr "Fehler bei der Generierung des neuen KI-Spielers: %s."
+msgstr "Konnte %s nicht übertragen"
 
 #: utility/netfile.c:139
-#, fuzzy, c-format
+#, c-format
 msgid "Could not open %s for writing"
-msgstr "'%s' konnte nicht geöffnet werden."
+msgstr "Konnte %s nicht zum Schreiben öffnen"
 
 #: utility/shared.c:209
 #, c-format
