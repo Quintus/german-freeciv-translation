@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-07-18 22:28+0200\n"
+"PO-Revision-Date: 2013-07-18 23:49+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -24094,7 +24094,7 @@ msgstr "Oberste Mutter %s"
 
 #: data/nation/acehnese.ruleset:3
 msgid "Acehnese"
-msgstr "Achinesisch"
+msgstr "acehnisch"
 
 #: data/nation/acehnese.ruleset:4
 msgid "?plural:Acehnese"
@@ -30149,14 +30149,12 @@ msgstr ""
 "der kambodschanischen Bevölkerung."
 
 #: data/nation/khwarezmian.ruleset:3
-#, fuzzy
 msgid "Khwarezmian"
-msgstr "Vorsitzender"
+msgstr "choresmisch"
 
 #: data/nation/khwarezmian.ruleset:4
-#, fuzzy
 msgid "?plural:Khwarezmians"
-msgstr "Koreaner"
+msgstr "Choresmier"
 
 #: data/nation/khwarezmian.ruleset:7
 msgid ""
@@ -30173,25 +30171,24 @@ msgstr ""
 #: data/nation/khwarezmian.ruleset:27 data/nation/median.ruleset:30
 #: data/nation/parthian.ruleset:34 data/nation/persian.ruleset:23
 #: data/nation/seleucid.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Satrap %s"
-msgstr "Status: %s"
+msgstr "Satrap %s"
 
 #: data/nation/khwarezmian.ruleset:27 data/nation/median.ruleset:30
 #: data/nation/parthian.ruleset:34 data/nation/persian.ruleset:23
 #: data/nation/seleucid.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Satrap %s"
-msgstr "Genossin"
+msgstr "Satrapin %s"
 
 #: data/nation/kiribati.ruleset:3
 msgid "Kiribati"
-msgstr ""
+msgstr "kiribatisch"
 
 #: data/nation/kiribati.ruleset:4
-#, fuzzy
 msgid "?plural:I-Kiribati"
-msgstr "Inder"
+msgstr "Kiribatier"
 
 #: data/nation/kiribati.ruleset:6
 msgid ""
@@ -30206,12 +30203,11 @@ msgstr ""
 
 #: data/nation/kittitian.ruleset:3
 msgid "Kittitian and Nevisian"
-msgstr ""
+msgstr "kittsisch-nevisisch"
 
 #: data/nation/kittitian.ruleset:4
-#, fuzzy
 msgid "?plural:Kittitians and Nevisians"
-msgstr "?plural:Kanadier"
+msgstr "Kittser/Neviser"
 
 #: data/nation/kittitian.ruleset:6
 msgid ""
@@ -30222,14 +30218,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/kongo.ruleset:3
-#, fuzzy
 msgid "Kongo"
-msgstr "mongolisch"
+msgstr "kongolesisch"
 
 #: data/nation/kongo.ruleset:4
-#, fuzzy
 msgid "?plural:Kongo"
-msgstr "Mongolen"
+msgstr "Kongolesen"
 
 #: data/nation/kongo.ruleset:7
 msgid ""
@@ -31306,9 +31300,8 @@ msgid ""
 msgstr ""
 
 #: data/nation/mikmaq.ruleset:3
-#, fuzzy
 msgid "Mi'kmaq"
-msgstr "von Mi’kmaq"
+msgstr "mi’kmaqisch"
 
 #: data/nation/mikmaq.ruleset:4
 msgid "?plural:Mi'kmaq"
@@ -33512,12 +33505,11 @@ msgstr ""
 
 #: data/nation/seljuk.ruleset:3
 msgid "Seljuk"
-msgstr ""
+msgstr "seldschukisch"
 
 #: data/nation/seljuk.ruleset:4
-#, fuzzy
 msgid "?plural:Seljuks"
-msgstr "Schweden"
+msgstr "Seldschuken"
 
 #: data/nation/seljuk.ruleset:6
 msgid ""
@@ -33533,12 +33525,11 @@ msgstr ""
 
 #: data/nation/seminole.ruleset:3
 msgid "Seminole"
-msgstr ""
+msgstr "seminolisch"
 
 #: data/nation/seminole.ruleset:4
-#, fuzzy
 msgid "?plural:Seminoles"
-msgstr "Bengalier"
+msgstr "Seminolen"
 
 #: data/nation/seminole.ruleset:6
 msgid ""
@@ -33711,7 +33702,6 @@ msgid "Sierra Leonean"
 msgstr "sierra-leonisch"
 
 #: data/nation/sierraleonean.ruleset:4
-#, fuzzy
 msgid "?plural:Sierra Leoneans"
 msgstr "Sierra-Leoner"
 
@@ -33882,11 +33872,11 @@ msgstr ""
 
 #: data/nation/somaliland.ruleset:3
 msgid "Somaliland"
-msgstr "Somaliland"
+msgstr "somaliländisch"
 
 #: data/nation/somaliland.ruleset:4
 msgid "?plural:Somalilanders"
-msgstr "somaliländisch"
+msgstr "Somaliländer"
 
 #: data/nation/somaliland.ruleset:6
 msgid ""
@@ -34085,7 +34075,7 @@ msgstr "Madame %s"
 
 #: data/nation/southyemeni.ruleset:3
 msgid "South Yemeni"
-msgstr "Südjemenitisch"
+msgstr "südjemenitisch"
 
 #: data/nation/southyemeni.ruleset:4
 msgid "?plural:South Yemenis"
@@ -34315,7 +34305,7 @@ msgstr ""
 "Ende des 13. Jh. eine protektorische Allianz, die eine lose Konföderation "
 "von Staaten verband und über Jahrhunderte andauerte."
 
-# Bezieht sich auf den Schweizer Bundesrat
+# MG: Bezieht sich auf den Schweizer Bundesrat
 #: data/nation/swiss.ruleset:38
 #, c-format
 msgid "Federal Councillor %s"
@@ -34405,7 +34395,6 @@ msgstr ""
 "genetische Studien legen zudem nahe, dass gut die Hälfte der Einwohner "
 "Puerto Ricos mütterlicherseits Taíno als Vorfahren haben."
 
-# EH: Diese Meldung sollte mE nicht übersetzt werden.
 #: data/nation/tairona.ruleset:3
 msgid "Tairona"
 msgstr "taironaisch"
@@ -34757,7 +34746,6 @@ msgid ""
 msgstr ""
 
 #: data/nation/transnistrian.ruleset:3
-#, fuzzy
 msgid "Transnistrian"
 msgstr "transnistrisch"
 
@@ -34791,13 +34779,19 @@ msgid ""
 "first country in Europe to proclaim religious freedom. The principality lost "
 "its independence to Habsburg Austria in 1711."
 msgstr ""
+"Siebenbürgen (Transilvanien) ist ein historisches Gebiet im heutigen "
+"Rumänien, das von Rumänen, Ungarn und sächsischen Deutschen bewohnt wird. "
+"Unter der nominellen ungarischen Herrschaft wurde Siebenbürgen zu einer "
+"eigenen Provinz, die schließlich unter den ottomanischen Einfällen zu leiden "
+"hatte. Während der Reformation war Transilvanien das erste europäische Land, "
+"das die Religionsfreiheit proklamierte — es verlor seine Unabhängigkeit "
+"jedoch 1711 an das habsburgische Österreich."
 
 #: data/nation/trinidadian.ruleset:3
 msgid "Trinidadian and Tobagonian"
 msgstr "trinidadisch-tobagoisch"
 
 #: data/nation/trinidadian.ruleset:4
-#, fuzzy
 msgid "?plural:Trinidadians and Tobagonians"
 msgstr "Trinidadier und Tobagonier"
 
@@ -34857,7 +34851,6 @@ msgid "?plural:Tunisians"
 msgstr "Tunesier"
 
 #: data/nation/tunisian.ruleset:6
-#, fuzzy
 msgid ""
 "The Phoenicians founded Carthage in the area where Tunisia is today. "
 "Carthage later became a major power in the Mediterranean region until it was "
@@ -35058,7 +35051,6 @@ msgid "?plural:Ukrainians"
 msgstr "Ukrainer"
 
 #: data/nation/ukrainian.ruleset:6
-#, fuzzy
 msgid ""
 "Ukraine is a vast region on the westernmost marches of the former Soviet "
 "Union. It includes some of the most fertile black-soil cropland on Earth."
@@ -35093,12 +35085,11 @@ msgstr "Generalsekräterin %s"
 
 #: data/nation/uruguayan.ruleset:3
 msgid "Uruguayan"
-msgstr ""
+msgstr "uruguayisch"
 
 #: data/nation/uruguayan.ruleset:4
-#, fuzzy
 msgid "?plural:Uruguayans"
-msgstr "Bulgarier"
+msgstr "Uruguayer"
 
 #: data/nation/uruguayan.ruleset:6
 msgid ""
@@ -35116,7 +35107,6 @@ msgid "?plural:Uyghurs"
 msgstr "Uiguren"
 
 #: data/nation/uyghur.ruleset:6
-#, fuzzy
 msgid ""
 "Uyghur was an east Turk empire and civilization. At its height in 820 CE it "
 "controlled most of Central and North Asia. After clashing with the Chinese "
@@ -35135,12 +35125,11 @@ msgstr ""
 
 #: data/nation/uzbek.ruleset:3
 msgid "Uzbek"
-msgstr ""
+msgstr "usbekisch"
 
 #: data/nation/uzbek.ruleset:4
-#, fuzzy
 msgid "?plural:Uzbeks"
-msgstr "Griechen"
+msgstr "Usbeken"
 
 #: data/nation/uzbek.ruleset:6
 msgid ""
@@ -35181,12 +35170,11 @@ msgstr ""
 
 #: data/nation/vanuatuan.ruleset:3
 msgid "Vanuatuan"
-msgstr ""
+msgstr "vanatuisch"
 
 #: data/nation/vanuatuan.ruleset:4
-#, fuzzy
 msgid "?plural:Ni-Vanuatu"
-msgstr "Kubaner"
+msgstr "Ni-Vanuatu"
 
 #: data/nation/vanuatuan.ruleset:6
 msgid ""
@@ -35198,24 +35186,20 @@ msgid ""
 msgstr ""
 
 #: data/nation/vedic.ruleset:3
-#, fuzzy
 msgid "Vedic"
-msgstr "Medizin"
+msgstr "vedisch"
 
 #: data/nation/vedic.ruleset:4
-#, fuzzy
 msgid "?plural:Vedics"
-msgstr "Mexikaner"
+msgstr "Veden"
 
 #: data/nation/veletian.ruleset:3
-#, fuzzy
 msgid "Veletian"
-msgstr "Veteran"
+msgstr "wilzisch"
 
 #: data/nation/veletian.ruleset:4
-#, fuzzy
 msgid "?plural:Veletians"
-msgstr "Venezuleaner"
+msgstr "Wilzen"
 
 #: data/nation/veletian.ruleset:6
 msgid ""
@@ -35231,12 +35215,11 @@ msgstr ""
 
 #: data/nation/venda.ruleset:3
 msgid "Venda"
-msgstr ""
+msgstr "vendisch"
 
 #: data/nation/venda.ruleset:4
-#, fuzzy
 msgid "?plural:Vhavenda"
-msgstr "?plural:Kanadier"
+msgstr "Vhavenda"
 
 #: data/nation/venda.ruleset:6
 msgid ""
@@ -35247,14 +35230,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/venetian.ruleset:3
-#, fuzzy
 msgid "Venetian"
-msgstr "Veteran"
+msgstr "venezianisch"
 
 #: data/nation/venetian.ruleset:4
-#, fuzzy
 msgid "?plural:Venetians"
-msgstr "Venezuleaner"
+msgstr "Venezianer"
 
 #: data/nation/venetian.ruleset:6
 msgid ""
@@ -35268,14 +35249,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/venetic.ruleset:3
-#, fuzzy
 msgid "Venetic"
-msgstr "Veteran"
+msgstr "venetisch"
 
 #: data/nation/venetic.ruleset:4
-#, fuzzy
 msgid "?plural:Veneti"
-msgstr "Venezuleaner"
+msgstr "Veneter"
 
 #: data/nation/venetic.ruleset:6
 msgid ""
@@ -35288,13 +35267,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/venezuelan.ruleset:3
-#, fuzzy
 msgid "Venezuelan"
-msgstr "venezuleanisch"
+msgstr "venezolanisch"
 
 #: data/nation/venezuelan.ruleset:4
 msgid "?plural:Venezuelans"
-msgstr "Venezuleaner"
+msgstr "Venezolaner"
 
 #. TRANS: The fourth letter in "Simon" should be
 #. TRANS: U+00F3 LATIN SMALL LETTER O WITH ACUTE if available in
@@ -35315,14 +35293,12 @@ msgstr ""
 "Führerschaft von 'El Libertador' - dem Befreier - Simón Bolívar unabhängig."
 
 #: data/nation/vermont.ruleset:3
-#, fuzzy
 msgid "Vermont"
-msgstr "Version"
+msgstr "vermontisch"
 
 #: data/nation/vermont.ruleset:4
-#, fuzzy
 msgid "?plural:Vermonters"
-msgstr "Deutschen"
+msgstr "Vermonter"
 
 #: data/nation/vermont.ruleset:6
 msgid ""
@@ -35341,7 +35317,6 @@ msgid "?plural:Vietnamese"
 msgstr "Vietnamesen"
 
 #: data/nation/vietnamese.ruleset:6
-#, fuzzy
 msgid ""
 "The Vietnamese nation was founded in the first century CE by twin sisters "
 "who became the war leaders of a revolt against a Chinese military governor."
@@ -35351,7 +35326,6 @@ msgstr ""
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/viking.ruleset:7
-#, fuzzy
 msgid ""
 "The Vikings raided and traded along the coasts of Europe between 800 CE and "
 "1100 CE. Viking raiders eventually became the rulers of Normandy, Russia, "
@@ -35359,17 +35333,15 @@ msgid ""
 msgstr ""
 "Die Wikinger raubten und handelten an Europas Küsten zwischen 800 und 1100. "
 "Wikingische Räuber wurden schließlich die Herrscher der Normandie, von "
-"Russland, und, für kurze Zeit, des Königsreiches Sizilien."
+"Russland, und, für kurze Zeit, des Königreiches Sizilien."
 
 #: data/nation/vincentian.ruleset:3
-#, fuzzy
 msgid "Vincentian"
-msgstr "Patentierung"
+msgstr "vincentisch"
 
 #: data/nation/vincentian.ruleset:4
-#, fuzzy
 msgid "?plural:Vincentians"
-msgstr "Venezuleaner"
+msgstr "Vincenter"
 
 #: data/nation/vincentian.ruleset:6
 msgid ""
@@ -35382,14 +35354,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/visigothic.ruleset:3
-#, fuzzy
 msgid "Visigothic"
-msgstr "Karteneinsicht"
+msgstr "westgotisch"
 
 #: data/nation/visigothic.ruleset:4
-#, fuzzy
 msgid "?plural:Visigoths"
-msgstr "Wikinger"
+msgstr "Westgoten"
 
 #: data/nation/visigothic.ruleset:6
 msgid ""
@@ -35406,12 +35376,11 @@ msgstr ""
 
 #: data/nation/vistulan.ruleset:3
 msgid "Vistulan"
-msgstr ""
+msgstr "wislanisch"
 
 #: data/nation/vistulan.ruleset:4
-#, fuzzy
 msgid "?plural:Vistulans"
-msgstr "Österreicher"
+msgstr "Wislanen"
 
 #: data/nation/vistulan.ruleset:6
 msgid ""
@@ -35447,12 +35416,11 @@ msgstr ""
 
 #: data/nation/volgabulgar.ruleset:3
 msgid "Volga Bulgar"
-msgstr ""
+msgstr "wolgabulgarisch"
 
 #: data/nation/volgabulgar.ruleset:4
-#, fuzzy
 msgid "?plural:Volga Bulgars"
-msgstr "Bulgarier"
+msgstr "Wolgabulgaren"
 
 #: data/nation/volgabulgar.ruleset:6
 msgid ""
@@ -35463,14 +35431,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/volgagerman.ruleset:3
-#, fuzzy
 msgid "Volga German"
-msgstr "deutsch"
+msgstr "wolgadeutsch"
 
 #: data/nation/volgagerman.ruleset:4
-#, fuzzy
 msgid "?plural:Volga Germans"
-msgstr "Deutschen"
+msgstr "Wolgadeutschen"
 
 #: data/nation/volgagerman.ruleset:6
 msgid ""
@@ -35485,14 +35451,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/walloon.ruleset:3
-#, fuzzy
 msgid "Walloon"
-msgstr "Galeone"
+msgstr "wallonisch"
 
 #: data/nation/walloon.ruleset:4
-#, fuzzy
 msgid "?plural:Walloons"
-msgstr "Spanier"
+msgstr "Wallonen"
 
 #: data/nation/walloon.ruleset:6
 msgid ""
@@ -35541,14 +35505,12 @@ msgstr ""
 "verantwortlich gemacht."
 
 #: data/nation/westernpomeranian.ruleset:3
-#, fuzzy
 msgid "Western Pomeranian"
-msgstr "Veteran"
+msgstr "vorpommeranisch"
 
 #: data/nation/westernpomeranian.ruleset:4
-#, fuzzy
 msgid "?plural:Western Pomeranians"
-msgstr "Römer"
+msgstr "Vorpommern"
 
 #: data/nation/westernpomeranian.ruleset:6
 msgid ""
@@ -35562,14 +35524,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/westernroman.ruleset:3
-#, fuzzy
 msgid "Western Roman"
-msgstr "Veteran"
+msgstr "weströmisch"
 
 #: data/nation/westernroman.ruleset:4
-#, fuzzy
 msgid "?plural:West Romans"
-msgstr "Römer"
+msgstr "Weströmer"
 
 #: data/nation/westernroman.ruleset:6
 msgid ""
@@ -35581,14 +35541,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/westindian.ruleset:3
-#, fuzzy
 msgid "West Indian"
-msgstr "indisch"
+msgstr "westindisch"
 
 #: data/nation/westindian.ruleset:4
-#, fuzzy
 msgid "?plural:West Indians"
-msgstr "Inder"
+msgstr "Westindier"
 
 #: data/nation/westindian.ruleset:6
 msgid ""
@@ -35619,14 +35577,12 @@ msgstr ""
 "deutschen Bundeslandes Nordrhein-Westfalen."
 
 #: data/nation/wuerttembergian.ruleset:3
-#, fuzzy
 msgid "Wuerttembergian"
-msgstr "sumerisch"
+msgstr "württembergisch"
 
 #: data/nation/wuerttembergian.ruleset:4
-#, fuzzy
 msgid "?plural:Wuerttembergians"
-msgstr "Sumerer"
+msgstr "Württemberger"
 
 #: data/nation/wuerttembergian.ruleset:6
 msgid ""
@@ -35637,12 +35593,11 @@ msgstr ""
 
 #: data/nation/xhosa.ruleset:3
 msgid "Xhosa"
-msgstr ""
+msgstr "xhosaisch"
 
 #: data/nation/xhosa.ruleset:4
-#, fuzzy
 msgid "?plural:amaXhosa"
-msgstr "Aramäer"
+msgstr "amaXhosa"
 
 #: data/nation/xhosa.ruleset:6
 msgid ""
@@ -35654,12 +35609,11 @@ msgstr ""
 
 #: data/nation/xiongnu.ruleset:3
 msgid "Xiongnu"
-msgstr ""
+msgstr "xiōngnúisch"
 
 #: data/nation/xiongnu.ruleset:4
-#, fuzzy
 msgid "?plural:Xiongnu"
-msgstr "?plural:Bosnier"
+msgstr "Xiōngnú"
 
 #: data/nation/xiongnu.ruleset:6
 msgid ""
@@ -35674,12 +35628,11 @@ msgstr ""
 
 #: data/nation/yakut.ruleset:3
 msgid "Yakut"
-msgstr ""
+msgstr "jakutisch"
 
 #: data/nation/yakut.ruleset:4
-#, fuzzy
 msgid "?plural:Yakuts"
-msgstr "Gallier"
+msgstr "Jakuten"
 
 #: data/nation/yakut.ruleset:6
 msgid ""
@@ -35696,14 +35649,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/yemeni.ruleset:3
-#, fuzzy
 msgid "Yemeni"
-msgstr "Lanzenkämpfer"
+msgstr "jemenitisch"
 
 #: data/nation/yemeni.ruleset:4
-#, fuzzy
 msgid "?plural:Yemenis"
-msgstr "Armenier"
+msgstr "Jemeniten"
 
 #: data/nation/yemeni.ruleset:6
 msgid ""
@@ -35714,12 +35665,11 @@ msgstr ""
 
 #: data/nation/yucatecan.ruleset:3
 msgid "Yucatecan"
-msgstr ""
+msgstr "yucatánisch"
 
 #: data/nation/yucatecan.ruleset:4
-#, fuzzy
 msgid "?plural:Yucatecans"
-msgstr "Aramäer"
+msgstr "Yucatáner"
 
 #. TRANS: The sixth letter in "Yucatan" should be
 #. TRANS: U+00E1 LATIN SMALL LETTER A WITH ACUTE if available in
@@ -35735,12 +35685,11 @@ msgstr ""
 
 #: data/nation/yugoslav.ruleset:3
 msgid "Yugoslav"
-msgstr ""
+msgstr "jugoslawisch"
 
 #: data/nation/yugoslav.ruleset:4
-#, fuzzy
 msgid "?plural:Yugoslavs"
-msgstr "?plural:Chilenen"
+msgstr "Jugoslawen"
 
 #: data/nation/yugoslav.ruleset:6
 msgid ""
@@ -35752,14 +35701,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/zambian.ruleset:3
-#, fuzzy
 msgid "Zambian"
-msgstr "nigerianisch"
+msgstr "sambisch"
 
 #: data/nation/zambian.ruleset:4
-#, fuzzy
 msgid "?plural:Zambians"
-msgstr "Tunesier"
+msgstr "Sambier"
 
 #: data/nation/zambian.ruleset:6
 msgid ""
@@ -35770,12 +35717,11 @@ msgstr ""
 
 #: data/nation/zanzibari.ruleset:3
 msgid "Zanzibari"
-msgstr ""
+msgstr "sansibarisch"
 
 #: data/nation/zanzibari.ruleset:4
-#, fuzzy
 msgid "?plural:Zanzibaris"
-msgstr "Maya"
+msgstr "Sansibarer"
 
 #: data/nation/zanzibari.ruleset:6
 msgid ""
@@ -35791,12 +35737,11 @@ msgstr ""
 
 #: data/nation/zapotec.ruleset:3
 msgid "Zapotec"
-msgstr ""
+msgstr "zapotekisch"
 
 #: data/nation/zapotec.ruleset:4
-#, fuzzy
 msgid "?plural:Zapotecs"
-msgstr "?plural:Azteken"
+msgstr "Zapoteken"
 
 #. TRANS: The last letter in "Binniza", the fourth letter in
 #. TRANS: "Alban" and and the third letter in "Juarez" should be
@@ -35812,12 +35757,11 @@ msgstr ""
 
 #: data/nation/zhuang.ruleset:3
 msgid "Zhuang"
-msgstr ""
+msgstr "zhuangisch"
 
 #: data/nation/zhuang.ruleset:4
-#, fuzzy
 msgid "?plural:Zhuang"
-msgstr "Thailänder"
+msgstr "Zhuang"
 
 #: data/nation/zhuang.ruleset:6
 msgid ""
@@ -35834,12 +35778,11 @@ msgstr ""
 
 #: data/nation/zimbabwean.ruleset:3
 msgid "Zimbabwean"
-msgstr ""
+msgstr "simbabwisch"
 
 #: data/nation/zimbabwean.ruleset:4
-#, fuzzy
 msgid "?plural:Zimbabweans"
-msgstr "Tibeter"
+msgstr "Simbabwer"
 
 #: data/nation/zimbabwean.ruleset:6
 msgid ""
@@ -35853,63 +35796,53 @@ msgid ""
 msgstr ""
 
 #: data/scenarios/british-isles-85x80-v2.80.sav:3
-#, fuzzy
 msgid "British Isles (classic/medium)"
 msgstr "Britische Inseln (klassisch, mittelgroß)"
 
 #: data/scenarios/british-isles-85x80-v2.80.sav:4
 msgid "Classic-style 85x80 map of the British Isles."
-msgstr "Klassische 85x80 Karte der Britischen Inseln."
+msgstr "Klassische 85x80-Karte der Britischen Inseln."
 
 #: data/scenarios/earth-160x90-v2.sav:3
-#, fuzzy
 msgid "Earth (classic/large)"
 msgstr "Erde (klassisch, groß)"
 
 #: data/scenarios/earth-160x90-v2.sav:4
 #, fuzzy
 msgid "Classic-style 160x90 map of the Earth."
-msgstr "Klassische 85x80 Karte der Britischen Inseln."
+msgstr "Klassische 160x90-Karte der Britischen Inseln."
 
 #: data/scenarios/earth-80x50-v3.sav:44
-#, fuzzy
 msgid "Earth (classic/small)"
 msgstr "Erde (klassisch, klein)"
 
 #: data/scenarios/earth-80x50-v3.sav:45
-#, fuzzy
 msgid "Classic-style 80x50 map of the Earth."
-msgstr "Klassische 85x80 Karte der Britischen Inseln."
+msgstr "Klassische 80x50-Karte der Erde."
 
 #: data/scenarios/europe-200x100-v2.sav:3
-#, fuzzy
 msgid "Europe (classic/giant)"
-msgstr "Europa (riesig, klassisch)"
+msgstr "Europa (klassisch, riesig)"
 
 #: data/scenarios/europe-200x100-v2.sav:4
-#, fuzzy
 msgid "Classic-style 200x100 map of Europe."
-msgstr "Sehr große Europakarte im klassischen Stil."
+msgstr "Sehr große 200x100-Europakarte im klassischen Stil."
 
 #: data/scenarios/france-140x90-v2.sav:3
-#, fuzzy
 msgid "France (classic/large)"
-msgstr "Erde (klassisch, groß)"
+msgstr "Frankreich (klassisch, groß)"
 
 #: data/scenarios/france-140x90-v2.sav:4
-#, fuzzy
 msgid "Classic-style 140x90 map of France."
-msgstr "Klassische 160x90 Erdkarte."
+msgstr "Klassische 140x90-Karte von Frankreich."
 
 #: data/scenarios/hagworld-120x60-v1.2.sav:5
-#, fuzzy
 msgid "Earth (classic/medium)"
 msgstr "Erde (klassisch, mittelgroß)"
 
 #: data/scenarios/hagworld-120x60-v1.2.sav:6
-#, fuzzy
 msgid "Classic-style 120x60 map of the Earth."
-msgstr "Klassische 85x80 Karte der Britischen Inseln."
+msgstr "Klassische 120x60-Karte der Erde."
 
 #: data/scenarios/iberian-peninsula-136x100-v1.0.sav:3
 msgid "Iberian Peninsula (classic/large)"
