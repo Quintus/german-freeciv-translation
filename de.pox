@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-07-18 16:02+0200\n"
+"PO-Revision-Date: 2013-07-18 16:33+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -33066,12 +33066,11 @@ msgstr ""
 
 #: data/nation/sahrawi.ruleset:3
 msgid "Sahrawi"
-msgstr ""
+msgstr "sahrauisch"
 
 #: data/nation/sahrawi.ruleset:4
-#, fuzzy
 msgid "?plural:Sahrawis"
-msgstr "Schweizer"
+msgstr "Sahrauis"
 
 #: data/nation/sahrawi.ruleset:6
 msgid ""
@@ -33082,14 +33081,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/saintlucian.ruleset:3
-#, fuzzy
 msgid "Saint Lucian"
-msgstr "galizisch"
+msgstr "saint-lucianisch"
 
 #: data/nation/saintlucian.ruleset:4
-#, fuzzy
 msgid "?plural:Saint Lucian"
-msgstr "Serben"
+msgstr "Saint Lucianer"
 
 #: data/nation/saintlucian.ruleset:6
 msgid ""
@@ -33102,12 +33099,11 @@ msgstr ""
 
 #: data/nation/saka.ruleset:3
 msgid "Saka"
-msgstr ""
+msgstr "sakisch"
 
 #: data/nation/saka.ruleset:4
-#, fuzzy
 msgid "?plural:Saka"
-msgstr "Sámi"
+msgstr "Saken"
 
 #: data/nation/saka.ruleset:6
 msgid ""
@@ -33118,12 +33114,11 @@ msgstr ""
 
 #: data/nation/salishan.ruleset:3
 msgid "Salishan"
-msgstr ""
+msgstr "küsten-salish"
 
 #: data/nation/salishan.ruleset:4
-#, fuzzy
 msgid "?plural:Salishans"
-msgstr "Mali"
+msgstr "Küsten-Salish"
 
 #: data/nation/salishan.ruleset:6
 msgid ""
@@ -33137,14 +33132,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/salvadoran.ruleset:3
-#, fuzzy
 msgid "Salvadoran"
-msgstr "bulgarisch"
+msgstr "salvadorianisch"
 
 #: data/nation/salvadoran.ruleset:4
-#, fuzzy
 msgid "?plural:Salvadorans"
-msgstr "Bajuwaren"
+msgstr "Salvadorianer"
 
 #. TRANS: The fifth letter in "Hernandez" should be
 #. TRANS: U+00E1 LATIN SMALL LETTER A WITH ACUTE if available in
@@ -33175,7 +33168,6 @@ msgid "?plural:Sami"
 msgstr "Sámi"
 
 #: data/nation/sami.ruleset:6
-#, fuzzy
 msgid ""
 "The Sami are a people of northern Scandinavia. Their nation spans over the "
 "northernmost regions of the Scandinavian countries and northwestern Russia."
@@ -33185,14 +33177,12 @@ msgstr ""
 "Finnmark in Norwegen, und Lappland in Schweden und Finnland."
 
 #: data/nation/sammarinese.ruleset:3
-#, fuzzy
 msgid "Sammarinese"
-msgstr "U-Boot"
+msgstr "san-marinesisch"
 
 #: data/nation/sammarinese.ruleset:4
-#, fuzzy
 msgid "?plural:Sammarinese"
-msgstr "Burmesen"
+msgstr "San-Marinesen"
 
 #: data/nation/sammarinese.ruleset:6
 msgid ""
@@ -33202,14 +33192,14 @@ msgid ""
 msgstr ""
 
 #: data/nation/sammarinese.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "Captain-Regent %s"
-msgstr "Captain General"
+msgstr "Regierender Hauptmann %s"
 
 #: data/nation/sammarinese.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Captain-Regent %s"
-msgstr "Captain General"
+msgstr "Regierende Hauptfrau %s"
 
 #: data/nation/samnite.ruleset:3
 msgid "Samnite"
