@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-07-16 10:37+0200\n"
+"PO-Revision-Date: 2013-07-18 14:35+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -27618,11 +27618,11 @@ msgstr ""
 
 #: data/nation/crimeantatar.ruleset:3
 msgid "Crimean Tatar"
-msgstr "krimtartarisch"
+msgstr "krimtatarisch"
 
 #: data/nation/crimeantatar.ruleset:4
 msgid "?plural:Crimean Tatars"
-msgstr "Krim-Tartaren"
+msgstr "Krim-Tataren"
 
 #: data/nation/crimeantatar.ruleset:6
 msgid ""
@@ -27630,8 +27630,8 @@ msgid ""
 "the 18th century. Crimean Tatars invaded Poland and Russia, which caused "
 "wars with Turkey."
 msgstr ""
-"Historischer Feudalstaat vom 15. bis zum 18. Jh.. Die Krim-Tartaren fielen "
-"in Polen und Russland ein, wodurch Kriege mit der Türkei ausgelöst wurden."
+"Historischer Feudalstaat vom 15. bis zum 18. Jh.. Die Krim-Tataren fielen in "
+"Polen und Russland ein, wodurch Kriege mit der Türkei ausgelöst wurden."
 
 #: data/nation/croatian.ruleset:3
 msgid "Croatian"
@@ -28499,6 +28499,13 @@ msgid ""
 "part of the Frankish empire during the High Middle Ages. France - and indeed "
 "the world - was shaken on its foundations by the French Revolution of 1789."
 msgstr ""
+"Frankreich ist seit langem eine europäische Großmacht. Französische Eroberer "
+"wie Napoléon und Karl der Große vereinten große Teile Europas unter der "
+"französischen Flagge; das Land wurde darüber hinaus die zweitgrößte "
+"Kolonialmacht. Das französische Königreich entwickelte sich aus dem "
+"westlichen Teil des fränkischen Imperiums in der Zeit des Hohen "
+"Mittelalters. Mit der französischen Revolution 1789 wurde es — und mit ihm "
+"der Rest der Welt — in seinen Grundfesten erschüttert."
 
 #: data/nation/french.ruleset:40
 #, c-format
@@ -28866,7 +28873,7 @@ msgid ""
 "country gradually descended into instability, which at the beginning of the "
 "15th century led to the complete disintegration of the state."
 msgstr ""
-"Die Goldene Horde war ein historischer mongolisch-tartarischer Staat, der "
+"Die Goldene Horde war ein historischer mongolisch-tatarischer Staat, der "
 "etwa um 1240 im westlichen Teil des Imperiums von Tschingis-Khan von dessen "
 "Enkel Batu-Khan gegründet wurde. Ihre Hauptstadt war Sarai Batu. Nach "
 "einigen Eroberungskriegen erstreckte sie sich in ihrem größten Ausmaß vom "
@@ -30243,7 +30250,6 @@ msgstr "Koreaner"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/korean.ruleset:7
-#, fuzzy
 msgid ""
 "According to legend, the first Korean kingdom was founded in prehistory by "
 "the ancestral Tangun in southern Manchuria. The Korean kingdoms were united "
@@ -30259,12 +30265,11 @@ msgstr ""
 
 #: data/nation/kosovar.ruleset:3
 msgid "Kosovar"
-msgstr ""
+msgstr "kosovarisch"
 
 #: data/nation/kosovar.ruleset:4
-#, fuzzy
 msgid "?plural:Kosovars"
-msgstr "Mali"
+msgstr "Kosovaren"
 
 #: data/nation/kosovar.ruleset:6
 msgid ""
@@ -30272,15 +30277,17 @@ msgid ""
 "claims Kosovo as a province and its independence is not universally "
 "recognized."
 msgstr ""
+"Kosovo ist ein Land im Balkan, das 2008 seine Unabhängigkeit proklamierte. "
+"Serbien betrachtet Kosovo jedoch nach wie vor als Provinz und seine "
+"Unabhängigkeit ist nicht allseits anerkannt."
 
 #: data/nation/kuna.ruleset:3
 msgid "Kuna"
-msgstr ""
+msgstr "kunisch"
 
 #: data/nation/kuna.ruleset:4
-#, fuzzy
 msgid "?plural:Kunas"
-msgstr "Kenianer"
+msgstr "Kuna"
 
 #: data/nation/kuna.ruleset:6
 msgid ""
@@ -30294,14 +30301,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/kurd.ruleset:3
-#, fuzzy
 msgid "Kurdish"
-msgstr "irisch"
+msgstr "kurdisch"
 
 #: data/nation/kurd.ruleset:4
-#, fuzzy
 msgid "?plural:Kurds"
-msgstr "Türken"
+msgstr "Kurden"
 
 #: data/nation/kurd.ruleset:6
 msgid ""
@@ -30317,14 +30322,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/kuwaiti.ruleset:3
-#, fuzzy
 msgid "Kuwaiti"
-msgstr "wartet"
+msgstr "kuwaitisch"
 
 #: data/nation/kuwaiti.ruleset:4
-#, fuzzy
 msgid "?plural:Kuwaitis"
-msgstr "Galizier"
+msgstr "Kuwaiter"
 
 #: data/nation/kuwaiti.ruleset:6
 msgid ""
@@ -30339,18 +30342,21 @@ msgstr ""
 
 #: data/nation/kyrgyz.ruleset:3
 msgid "Kyrgyz"
-msgstr ""
+msgstr "kirgisisch"
 
 #: data/nation/kyrgyz.ruleset:4
 #, fuzzy
 msgid "?plural:Kyrgyzs"
-msgstr "Uiguren"
+msgstr "Kirgisen"
 
 #: data/nation/kyrgyz.ruleset:6
 msgid ""
 "Nation in Central Asia. Conquered by the Russian Empire in the 19th century, "
 "Kyrgyzstan got independence from the Soviet Union in 1991."
 msgstr ""
+"Eine Nation in Zentralasien. Sie wurde im 19. Jh. vom russischen Imperium "
+"erobert und erlangte als Kirgisistan 1991 die Unabhängigkeit von der "
+"Sowjetunion."
 
 #: data/nation/lankese.ruleset:3
 msgid "Lankese"
@@ -30361,7 +30367,6 @@ msgid "?plural:Lankese"
 msgstr "Lankesen"
 
 #: data/nation/lankese.ruleset:6
-#, fuzzy
 msgid ""
 "Prince Vijaya came to Sri Lanka from Orissa, in north-eastern India, during "
 "the 6th century BCE and founded the Sinhalese kingdom there. During British "
@@ -30372,24 +30377,22 @@ msgstr ""
 "der britischen Kolonisation wurde das Land Ceylon genannt."
 
 #: data/nation/lankese.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "Supreme Commander %s"
-msgstr "Oberster Kommandeur"
+msgstr "Oberster Kommandeur %s"
 
 #: data/nation/lankese.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Supreme Commander %s"
-msgstr "Oberster Kommandeur"
+msgstr "Oberste Kommandeurin %s"
 
 #: data/nation/laotian.ruleset:3
-#, fuzzy
 msgid "Laotian"
-msgstr "lettisch"
+msgstr "laotisch"
 
 #: data/nation/laotian.ruleset:4
-#, fuzzy
 msgid "?plural:Laotians"
-msgstr "Letten"
+msgstr "Laoten"
 
 #: data/nation/laotian.ruleset:6
 msgid ""
@@ -30402,15 +30405,16 @@ msgid ""
 "enterprise started."
 msgstr ""
 
+# MG: Gemeint ist das lateinische Kaiserreich (Imperium Romaniae), nicht
+# zu verwechseln mit den Latinern, die später das Imperium Romanum
+# begründen und als Römer in die Geschichte eingehen sollten.
 #: data/nation/latin.ruleset:3
-#, fuzzy
 msgid "Latin"
-msgstr "Bewertung"
+msgstr "lateinisch"
 
 #: data/nation/latin.ruleset:4
-#, fuzzy
 msgid "?plural:Latins"
-msgstr "Letten"
+msgstr "Lateiner"
 
 #: data/nation/latin.ruleset:6
 msgid ""
@@ -30431,7 +30435,6 @@ msgid "?plural:Latvians"
 msgstr "Letten"
 
 #: data/nation/latvian.ruleset:7
-#, fuzzy
 msgid ""
 "In the aftermath of World War I Latvia proclaimed its independence from "
 "Russia. In 1940, Latvia was forcibly occupied by the Soviet Union. After the "
@@ -30443,14 +30446,12 @@ msgstr ""
 "wieder her."
 
 #: data/nation/lebanese.ruleset:3
-#, fuzzy
 msgid "Lebanese"
-msgstr "lankesisch"
+msgstr "libanesisch"
 
 #: data/nation/lebanese.ruleset:4
-#, fuzzy
 msgid "?plural:Lebanese"
-msgstr "Lankesen"
+msgstr "Libanesen"
 
 #: data/nation/lebanese.ruleset:6
 msgid ""
@@ -30462,19 +30463,17 @@ msgid ""
 msgstr ""
 
 #: data/nation/lebanese.ruleset:27 data/nation/santomean.ruleset:33
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Secretary General %s"
-msgstr "Konsulin"
+msgstr "Generalsekretärin %s"
 
 #: data/nation/lendian.ruleset:3
-#, fuzzy
 msgid "Lendian"
-msgstr "indisch"
+msgstr "lendizisch"
 
 #: data/nation/lendian.ruleset:4
-#, fuzzy
 msgid "?plural:Lendians"
-msgstr "Inder"
+msgstr "Lendizen"
 
 #: data/nation/lendian.ruleset:6
 msgid ""
@@ -30487,14 +30486,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/leonese.ruleset:3
-#, fuzzy
 msgid "Leonese"
-msgstr "lankesisch"
+msgstr "leónisch"
 
 #: data/nation/leonese.ruleset:4
-#, fuzzy
 msgid "?plural:Leonese"
-msgstr "Lankesen"
+msgstr "Leóner"
 
 #: data/nation/leonese.ruleset:6
 msgid ""
@@ -30502,15 +30499,17 @@ msgid ""
 "peninsula. Currently Leon is part of the Spanish autonomous community of "
 "Castile and Leon."
 msgstr ""
+"León war ein mittelalterliches Königreich im nordwestlichen Teil der "
+"iberischen Halbinsel. Heute ist León ein Teil der spanischen autonomen "
+"Region Castilla y León."
 
 #: data/nation/lesothoan.ruleset:3
 msgid "Lesothoan"
-msgstr ""
+msgstr "lesothisch"
 
 #: data/nation/lesothoan.ruleset:4
-#, fuzzy
 msgid "?plural:Lesothoans"
-msgstr "Österreicher"
+msgstr "Lesother"
 
 #: data/nation/lesothoan.ruleset:6
 msgid ""
@@ -30523,14 +30522,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/liberian.ruleset:3
-#, fuzzy
 msgid "Liberian"
-msgstr "nigerianisch"
+msgstr "liberianisch"
 
 #: data/nation/liberian.ruleset:4
-#, fuzzy
 msgid "?plural:Liberians"
-msgstr "Serben"
+msgstr "Liberianer"
 
 #: data/nation/liberian.ruleset:6
 msgid ""
@@ -30546,14 +30543,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/liburnian.ruleset:3
-#, fuzzy
 msgid "Liburnian"
-msgstr "litauisch"
+msgstr "liburnisch"
 
 #: data/nation/liburnian.ruleset:4
-#, fuzzy
 msgid "?plural:Liburnians"
-msgstr "Litauer"
+msgstr "Liburner"
 
 #: data/nation/liburnian.ruleset:6
 msgid ""
@@ -30584,14 +30579,14 @@ msgstr ""
 "aufgrund des alliierten Friedensvertrages mit Italien die Unabhängigkeit "
 "gewährt."
 
+# MG: StAGN
 #: data/nation/liechtensteiner.ruleset:3
 msgid "Liechtensteiner"
-msgstr ""
+msgstr "liechtensteinisch"
 
 #: data/nation/liechtensteiner.ruleset:4
-#, fuzzy
 msgid "?plural:Liechtensteiners"
-msgstr "?plural:Argentinier"
+msgstr "Liechtensteiner"
 
 #: data/nation/liechtensteiner.ruleset:6
 msgid ""
@@ -30602,14 +30597,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/lipkatatar.ruleset:3
-#, fuzzy
 msgid "Lipka Tatar"
-msgstr "kanadisch"
+msgstr "lipka-tatarisch"
 
 #: data/nation/lipkatatar.ruleset:4
-#, fuzzy
 msgid "?plural:Lipka Tatars"
-msgstr "Maya"
+msgstr "Lipka-Tataren"
 
 #: data/nation/lipkatatar.ruleset:6
 msgid ""
@@ -30621,20 +30614,20 @@ msgid ""
 msgstr ""
 
 #: data/nation/lippe.ruleset:3
-#, fuzzy
 msgid "Lippian"
-msgstr "äthiopisch"
+msgstr "lippisch"
 
 #: data/nation/lippe.ruleset:4
-#, fuzzy
 msgid "?plural:Lippians"
-msgstr "Libyer"
+msgstr "Lipper"
 
 #: data/nation/lippe.ruleset:6
 msgid ""
 "Lippe was a historical state in Germany. It was located between the Weser "
 "River and the southeast part of the Teutoburg forest."
 msgstr ""
+"Lippe war ein historischer deutscher Staat, der zwischen der Weser und dem "
+"südöstlichen Teil des Teutoburger Waldes lag."
 
 #: data/nation/lithuanian.ruleset:3
 msgid "Lithuanian"
@@ -30645,7 +30638,6 @@ msgid "?plural:Lithuanians"
 msgstr "Litauer"
 
 #: data/nation/lithuanian.ruleset:6
-#, fuzzy
 msgid ""
 "Lithuania is a small country on the south coast of the Baltic Sea, northeast "
 "of Poland. Lithuanian is the most archaic and complex of the northern Indo-"
@@ -30653,7 +30645,7 @@ msgid ""
 msgstr ""
 "Litauen ist ein kleines Land an der Südküste der Ostsee, nordöstlich Polens. "
 "Litauisch ist die archaischste und komplexeste der nördlichen "
-"indogermanischen Sprachen."
+"indoeuropäischen Sprachen."
 
 #: data/nation/lojbanistani.ruleset:3
 msgid "Lojbanistani"
@@ -30677,14 +30669,12 @@ msgstr ""
 "kulturell neutral und leicht zu lernen."
 
 #: data/nation/lorrain.ruleset:3
-#, fuzzy
 msgid "Lorrain"
-msgstr "Geländeformen"
+msgstr "lothringisch"
 
 #: data/nation/lorrain.ruleset:4
-#, fuzzy
 msgid "?plural:Lorrains"
-msgstr "Koreaner"
+msgstr "Lothringer"
 
 #: data/nation/lorrain.ruleset:6
 msgid ""
@@ -30698,12 +30688,11 @@ msgstr ""
 
 #: data/nation/luwian.ruleset:3
 msgid "Luwian"
-msgstr ""
+msgstr "luwisch"
 
 #: data/nation/luwian.ruleset:4
-#, fuzzy
 msgid "?plural:Luwians"
-msgstr "Libyer"
+msgstr "Luwier"
 
 #: data/nation/luwian.ruleset:6
 msgid ""
@@ -30714,14 +30703,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/luxembourgish.ruleset:3
-#, fuzzy
 msgid "Luxembourgish"
-msgstr "Luxus:"
+msgstr "luxemburgisch"
 
 #: data/nation/luxembourgish.ruleset:4
-#, fuzzy
 msgid "?plural:Luxembourgians"
-msgstr "Georgier"
+msgstr "Luxemburger"
 
 #: data/nation/luxembourgish.ruleset:6
 msgid ""
@@ -30731,14 +30718,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/maasai.ruleset:3
-#, fuzzy
 msgid "Maasai"
-msgstr "Mansa"
+msgstr "massaiisch"
 
 #: data/nation/maasai.ruleset:4
-#, fuzzy
 msgid "?plural:Maasais"
-msgstr "Maya"
+msgstr "Massai"
 
 #: data/nation/maasai.ruleset:6
 msgid ""
@@ -30749,14 +30734,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/macedonian.ruleset:3
-#, fuzzy
 msgid "Macedonian"
-msgstr "armenisch"
+msgstr "mazedonisch"
 
 #: data/nation/macedonian.ruleset:4
-#, fuzzy
 msgid "?plural:Macedonians"
-msgstr "Mali"
+msgstr "Mazedonier"
 
 #: data/nation/macedonian.ruleset:6
 msgid ""
@@ -30766,12 +30749,11 @@ msgstr ""
 
 #: data/nation/macedon.ruleset:3
 msgid "Macedon"
-msgstr ""
+msgstr "makedonisch"
 
 #: data/nation/macedon.ruleset:4
-#, fuzzy
 msgid "?plural:Macedons"
-msgstr "Spanier"
+msgstr "Makedonen"
 
 #: data/nation/macedon.ruleset:6
 msgid ""
@@ -30782,23 +30764,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/macedon.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "Diadochos %s"
-msgstr "Diktator"
+msgstr "Diadochos %s"
 
 #: data/nation/macedon.ruleset:23
-#, fuzzy, c-format
+#, c-format
 msgid "Diadocha %s"
-msgstr "Diktator"
+msgstr "Diadocha %s"
 
 #: data/nation/majapahit.ruleset:3
 msgid "Majapahit"
-msgstr ""
+msgstr "majapahitisch"
 
 #: data/nation/majapahit.ruleset:4
-#, fuzzy
 msgid "?plural:Majapahit"
-msgstr "Madagassen"
+msgstr "Majapahiten"
 
 #: data/nation/majapahit.ruleset:7
 msgid ""
@@ -30829,24 +30810,22 @@ msgstr ""
 "Stämme aus Indonesien, Ostafrika und der arabischen Welt auf die Insel."
 
 #: data/nation/malagasy.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "High Commissioner %s"
-msgstr "Hoher Kommissar"
+msgstr "Hoher Kommissar %s"
 
 #: data/nation/malagasy.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:High Commissioner %s"
-msgstr "Hoher Kommissar"
+msgstr "Hohe Kommissarin %s"
 
 #: data/nation/malawian.ruleset:3
-#, fuzzy
 msgid "Malawian"
-msgstr "malisch"
+msgstr "malawisch"
 
 #: data/nation/malawian.ruleset:4
-#, fuzzy
 msgid "?plural:Malawians"
-msgstr "Mali"
+msgstr "Malawier"
 
 #: data/nation/malawian.ruleset:6
 msgid ""
@@ -30873,24 +30852,22 @@ msgstr ""
 "14. Jahrhundert."
 
 #: data/nation/malaysian.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Paramount Ruler %s"
-msgstr "Großer Häuptling"
+msgstr "Großherrscher %s"
 
 #: data/nation/malaysian.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Paramount Ruler %s"
-msgstr "Großer Häuptling"
+msgstr "Großherrscherin %s"
 
 #: data/nation/maldivian.ruleset:3
-#, fuzzy
 msgid "Maldivian"
-msgstr "belgisch"
+msgstr "maledivisch"
 
 #: data/nation/maldivian.ruleset:4
-#, fuzzy
 msgid "?plural:Maldivians"
-msgstr "Mali"
+msgstr "Malediver"
 
 #: data/nation/maldivian.ruleset:6
 msgid ""
@@ -30945,14 +30922,12 @@ msgstr ""
 "Republik Mali hat hiervon seinen Namen abgeleitet."
 
 #: data/nation/maltese.ruleset:3
-#, fuzzy
 msgid "Maltese"
-msgstr "männlich"
+msgstr "maltesisch"
 
 #: data/nation/maltese.ruleset:4
-#, fuzzy
 msgid "?plural:Maltese"
-msgstr "Lankesen"
+msgstr "Maltesen"
 
 #: data/nation/maltese.ruleset:6
 msgid ""
@@ -30964,24 +30939,23 @@ msgstr ""
 
 #: data/nation/maltese.ruleset:27 data/nation/templar.ruleset:40
 #: data/nation/teutonic.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Master %s"
-msgstr "Laser"
+msgstr "Herr %s"
 
 #: data/nation/maltese.ruleset:27 data/nation/templar.ruleset:40
 #: data/nation/teutonic.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Mistress %s"
-msgstr "Großer Barde"
+msgstr "Lady %s"
 
 #: data/nation/mamluk.ruleset:3
 msgid "Mamluk"
-msgstr ""
+msgstr "mamlukisch"
 
 #: data/nation/mamluk.ruleset:4
-#, fuzzy
 msgid "?plural:Mamluks"
-msgstr "Mali"
+msgstr "Mamluken"
 
 #: data/nation/mamluk.ruleset:6
 msgid ""
@@ -30995,16 +30969,16 @@ msgstr ""
 #: data/nation/mamluk.ruleset:33 data/nation/ottoman.ruleset:27
 #: data/nation/riffian.ruleset:22 data/nation/sudanese.ruleset:18
 #: data/nation/turkishcypriot.ruleset:26 data/nation/turk.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "%s Pasha"
-msgstr "Basis"
+msgstr "%s-Pascha"
 
 #: data/nation/mamluk.ruleset:33 data/nation/ottoman.ruleset:27
 #: data/nation/riffian.ruleset:22 data/nation/sudanese.ruleset:18
 #: data/nation/turkishcypriot.ruleset:26 data/nation/turk.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "?female:%s Pasha"
-msgstr "Genossin"
+msgstr "%s-Pascha"
 
 #: data/nation/manchu.ruleset:3
 msgid "Manchu"
@@ -31026,12 +31000,11 @@ msgstr ""
 
 #: data/nation/manx.ruleset:3
 msgid "Manx"
-msgstr ""
+msgstr "mankisch"
 
 #: data/nation/manx.ruleset:4
-#, fuzzy
 msgid "?plural:Manx"
-msgstr "Manschuren"
+msgstr "Manx"
 
 #: data/nation/manx.ruleset:6
 msgid ""
@@ -31046,15 +31019,15 @@ msgstr ""
 
 #: data/nation/manx.ruleset:35 data/nation/westindian.ruleset:23
 #: data/nation/zanzibari.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Chief Minister %s"
-msgstr "Premierminister"
+msgstr "Oberminister %s"
 
 #: data/nation/manx.ruleset:35 data/nation/westindian.ruleset:23
 #: data/nation/zanzibari.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Chief Minister %s"
-msgstr "Premierminister"
+msgstr "Oberministerin %s"
 
 #: data/nation/maori.ruleset:3
 msgid "Maori"
@@ -31075,14 +31048,12 @@ msgstr ""
 "10. Jahrhundert, und setzte sich bis ins 15. Jahrhundert fort."
 
 #: data/nation/mapuche.ruleset:3
-#, fuzzy
 msgid "Mapuche"
-msgstr "kambodschanisch"
+msgstr "mapuchisch"
 
 #: data/nation/mapuche.ruleset:4
-#, fuzzy
 msgid "?plural:Mapuche"
-msgstr "Kambodschaner"
+msgstr "Mapuche"
 
 #: data/nation/mapuche.ruleset:7
 msgid ""
@@ -31094,12 +31065,11 @@ msgstr ""
 
 #: data/nation/marathi.ruleset:3
 msgid "Marathi"
-msgstr ""
+msgstr "marathisch"
 
 #: data/nation/marathi.ruleset:4
-#, fuzzy
 msgid "?plural:Marathis"
-msgstr "Marsianer"
+msgstr "Marathi"
 
 #: data/nation/marathi.ruleset:6
 msgid ""
@@ -31110,14 +31080,14 @@ msgid ""
 msgstr ""
 
 #: data/nation/marathi.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "High Brahmin %s"
-msgstr "Hoher König"
+msgstr "Hoher Brahmane %s"
 
 #: data/nation/marathi.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "?female:High Brahmin %s"
-msgstr "Präsidentin"
+msgstr "Hohe Brahmanin %s"
 
 #: data/nation/martian.ruleset:3
 msgid "Martian"
@@ -31128,19 +31098,16 @@ msgid "?plural:Martians"
 msgstr "Marsianer"
 
 #: data/nation/martian.ruleset:6
-#, fuzzy
 msgid "Marsmen landed on Earth in 4000 BCE!"
-msgstr "Die Marsmenschen landeten auf der Erde im Jahre 4000 v. Chr.!"
+msgstr "Die Marsmenschen landeten im Jahre 4000 v.u.Z. auf der Erde!"
 
 #: data/nation/mauritanian.ruleset:3
-#, fuzzy
 msgid "Mauritanian"
-msgstr "karthagisch"
+msgstr "mauretanisch"
 
 #: data/nation/mauritanian.ruleset:4
-#, fuzzy
 msgid "?plural:Mauritanians"
-msgstr "Marsianer"
+msgstr "Mauretanier"
 
 #: data/nation/mauritanian.ruleset:6
 msgid ""
@@ -31151,14 +31118,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/mauritian.ruleset:3
-#, fuzzy
 msgid "Mauritian"
-msgstr "marsianisch"
+msgstr "mauritisch"
 
 #: data/nation/mauritian.ruleset:4
-#, fuzzy
 msgid "?plural:Mauritians"
-msgstr "Marsianer"
+msgstr "Mauritier"
 
 #: data/nation/mauritian.ruleset:6
 msgid ""
@@ -31190,27 +31155,26 @@ msgstr ""
 "Pyramiden und Paläste, die sie im Dschungel errichteten."
 
 #: data/nation/mazovian.ruleset:3
-#, fuzzy
 msgid "Mazovian"
-msgstr "malisch"
+msgstr "masowisch"
 
 #: data/nation/mazovian.ruleset:4
-#, fuzzy
 msgid "?plural:Mazovians"
-msgstr "Mali"
+msgstr "Masowier"
 
 #: data/nation/mazovian.ruleset:6
 msgid "Mazovia is a historic and geographic region of central-eastern Poland."
 msgstr ""
+"Masowien ist eine historische und geographische Region im zentralöstlichen "
+"Plen."
 
 #: data/nation/mecklenburgian.ruleset:3
 msgid "Mecklenburgian"
-msgstr ""
+msgstr "mecklenburgisch"
 
 #: data/nation/mecklenburgian.ruleset:4
-#, fuzzy
 msgid "?plural:Mecklenburgians"
-msgstr "Belgier"
+msgstr "Mecklenburger"
 
 #: data/nation/mecklenburgian.ruleset:6
 msgid ""
@@ -31225,14 +31189,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/median.ruleset:3
-#, fuzzy
 msgid "Median"
-msgstr "indisch"
+msgstr "medisch"
 
 #: data/nation/median.ruleset:4
-#, fuzzy
 msgid "?plural:Medians"
-msgstr "Inder"
+msgstr "Meder"
 
 #: data/nation/median.ruleset:6
 msgid ""
@@ -31245,19 +31207,17 @@ msgid ""
 msgstr ""
 
 #: data/nation/median.ruleset:31
-#, fuzzy, c-format
+#, c-format
 msgid "%s Shahanshah"
-msgstr "Khan"
+msgstr "%s-Schahanschah"
 
 #: data/nation/messapian.ruleset:3
-#, fuzzy
 msgid "Messapian"
-msgstr "Nachrichtendarstellung"
+msgstr "messapisch"
 
 #: data/nation/messapian.ruleset:4
-#, fuzzy
 msgid "?plural:Messapians"
-msgstr "Perser"
+msgstr "Messapier"
 
 #: data/nation/messapian.ruleset:6
 msgid ""
@@ -31270,14 +31230,12 @@ msgstr ""
 #. TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in
 #. TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 233.
 #: data/nation/metis.ruleset:6
-#, fuzzy
 msgid "Metis"
-msgstr "Magnetismus"
+msgstr "métisch"
 
 #: data/nation/metis.ruleset:7
-#, fuzzy
 msgid "?plural:Metis"
-msgstr "Mexikaner"
+msgstr "Métis"
 
 #: data/nation/metis.ruleset:9
 msgid ""
@@ -31315,12 +31273,11 @@ msgstr ""
 
 #: data/nation/miao.ruleset:3
 msgid "Miao"
-msgstr ""
+msgstr "miaoisch"
 
 #: data/nation/miao.ruleset:4
-#, fuzzy
 msgid "?plural:Miao"
-msgstr "Maori"
+msgstr "Miao"
 
 #: data/nation/miao.ruleset:6
 msgid ""
@@ -31334,14 +31291,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/micronesian.ruleset:3
-#, fuzzy
 msgid "Micronesian"
-msgstr "indonesisch"
+msgstr "mikronesisch"
 
 #: data/nation/micronesian.ruleset:4
-#, fuzzy
 msgid "?plural:Micronesian"
-msgstr "Polen"
+msgstr "Mikronesier"
 
 #: data/nation/micronesian.ruleset:6
 msgid ""
@@ -31351,13 +31306,13 @@ msgid ""
 msgstr ""
 
 #: data/nation/mikmaq.ruleset:3
+#, fuzzy
 msgid "Mi'kmaq"
-msgstr ""
+msgstr "von Mi’kmaq"
 
 #: data/nation/mikmaq.ruleset:4
-#, fuzzy
 msgid "?plural:Mi'kmaq"
-msgstr "Libyer"
+msgstr "Mi’kmaq"
 
 #: data/nation/mikmaq.ruleset:6
 msgid ""
@@ -31368,14 +31323,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/milanese.ruleset:3
-#, fuzzy
 msgid "Milanese"
-msgstr "taiwanesisch"
+msgstr "milanesisch"
 
 #: data/nation/milanese.ruleset:4
-#, fuzzy
 msgid "?plural:Milanese"
-msgstr "Taiwanesen"
+msgstr "Milanesen"
 
 #: data/nation/milanese.ruleset:6
 msgid ""
@@ -31385,14 +31338,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/miskito.ruleset:3
-#, fuzzy
 msgid "Miskito"
-msgstr "Karteneinsicht"
+msgstr "miskitisch"
 
 #: data/nation/miskito.ruleset:4
-#, fuzzy
 msgid "?plural:Miskito"
-msgstr "Burmesen"
+msgstr "Miskito"
 
 #: data/nation/miskito.ruleset:6
 msgid ""
@@ -31408,12 +31359,11 @@ msgstr ""
 
 #: data/nation/mitanni.ruleset:3
 msgid "Mitanni"
-msgstr ""
+msgstr "mittanisch"
 
 #: data/nation/mitanni.ruleset:4
-#, fuzzy
 msgid "?plural:Mitanni"
-msgstr "Maori"
+msgstr "Mittanier"
 
 #: data/nation/mitanni.ruleset:6
 msgid ""
@@ -31423,14 +31373,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/mixtec.ruleset:3
-#, fuzzy
 msgid "Mixtec"
-msgstr "Bergwerk"
+msgstr "mixtekisch"
 
 #: data/nation/mixtec.ruleset:4
-#, fuzzy
 msgid "?plural:Mixtecs"
-msgstr "?plural:Azteken"
+msgstr "Mixteken"
 
 #. TRANS: The first letter in "Nuu" should be
 #. TRANS: U+00D1 LATIN CAPITAL LETTER N WITH TILDE if available in
@@ -31449,12 +31397,11 @@ msgstr ""
 
 #: data/nation/moldovan.ruleset:3
 msgid "Moldovan"
-msgstr ""
+msgstr "moldauisch"
 
 #: data/nation/moldovan.ruleset:4
-#, fuzzy
 msgid "?plural:Moldovans"
-msgstr "Mali"
+msgstr "Moldauer"
 
 #: data/nation/moldovan.ruleset:6
 msgid ""
@@ -31466,12 +31413,11 @@ msgstr ""
 
 #: data/nation/moluccan.ruleset:3
 msgid "Moluccan"
-msgstr ""
+msgstr "molukkisch"
 
 #: data/nation/moluccan.ruleset:4
-#, fuzzy
 msgid "?plural:Moluccans"
-msgstr "Mali"
+msgstr "Molukkaner"
 
 #: data/nation/moluccan.ruleset:6
 msgid ""
@@ -31488,12 +31434,11 @@ msgstr ""
 
 #: data/nation/monegasque.ruleset:3
 msgid "Monegasque"
-msgstr ""
+msgstr "monegassisch"
 
 #: data/nation/monegasque.ruleset:4
-#, fuzzy
 msgid "?plural:Monegasque"
-msgstr "Mongolen"
+msgstr "Monegassen"
 
 #: data/nation/monegasque.ruleset:6
 msgid ""
@@ -31507,40 +31452,38 @@ msgid ""
 msgstr ""
 
 #: data/nation/monegasque.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Minister of State %s"
-msgstr "Premierminister"
+msgstr "Staatsminister %s"
 
 #: data/nation/monegasque.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Minister of State %s"
-msgstr "Premierminister"
+msgstr "Staatsministerin %s"
 
 #: data/nation/mon.ruleset:3
-#, fuzzy
 msgid "Mon"
-msgstr "Fertig"
+msgstr "monisch"
 
 #: data/nation/mon.ruleset:4
-#, fuzzy
 msgid "?plural:Mons"
-msgstr "Mongolen"
+msgstr "Mon"
 
 #: data/nation/mon.ruleset:6
 msgid ""
 "The Mon people were among the earliest inhabitants of Southeast Asia and "
 "instrumental in the spread of Buddhism in the region."
 msgstr ""
+"Die Mon waren unter den ersten Einwohnern von Südostasien und spielten eine "
+"Schlüsselrolle bei der Verbreitung des Buddhismus in der Region."
 
 #: data/nation/montenegrin.ruleset:3
-#, fuzzy
 msgid "Montenegrin"
-msgstr "Verbinden"
+msgstr "montenegrinisch"
 
 #: data/nation/montenegrin.ruleset:4
-#, fuzzy
 msgid "?plural:Montenegrins"
-msgstr "Mongolen"
+msgstr "Montenegriner"
 
 #: data/nation/montenegrin.ruleset:6
 msgid ""
@@ -31550,14 +31493,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/moravian.ruleset:3
-#, fuzzy
 msgid "Moravian"
-msgstr "malisch"
+msgstr "großmährisch"
 
 #: data/nation/moravian.ruleset:4
-#, fuzzy
 msgid "?plural:Moravians"
-msgstr "Mali"
+msgstr "Großmähren"
 
 #: data/nation/moravian.ruleset:6
 msgid ""
@@ -31573,12 +31514,11 @@ msgstr ""
 
 #: data/nation/mordvin.ruleset:3
 msgid "Mordvin"
-msgstr ""
+msgstr "mordwinisch"
 
 #: data/nation/mordvin.ruleset:4
-#, fuzzy
 msgid "?plural:Mordvins"
-msgstr "Mali"
+msgstr "Mordwinen"
 
 #: data/nation/mordvin.ruleset:6
 msgid ""
@@ -31589,12 +31529,11 @@ msgstr ""
 
 #: data/nation/moroccan.ruleset:3
 msgid "Moroccan"
-msgstr ""
+msgstr "marrokanisch"
 
 #: data/nation/moroccan.ruleset:4
-#, fuzzy
 msgid "?plural:Moroccans"
-msgstr "Mali"
+msgstr "Marrokaner"
 
 #: data/nation/moroccan.ruleset:6
 msgid ""
@@ -31604,30 +31543,28 @@ msgid ""
 msgstr ""
 
 #: data/nation/mozambican.ruleset:3
-#, fuzzy
 msgid "Mozambican"
-msgstr "amerikanisch"
+msgstr "mosambikanisch"
 
 #: data/nation/mozambican.ruleset:4
-#, fuzzy
 msgid "?plural:Mozambicans"
-msgstr "Mali"
+msgstr "Mosambikaner"
 
 #: data/nation/mozambican.ruleset:6
 msgid ""
 "Mozambique is a country in Southeast Africa. It gained independence from "
 "Portugal in 1975."
 msgstr ""
+"Mosambik ist ein Staat in Südostafrika. Es wurde 1975 von Portugal "
+"unabhängig."
 
 #: data/nation/mughal.ruleset:3
-#, fuzzy
 msgid "Mughal"
-msgstr "männlich"
+msgstr "mogulisch"
 
 #: data/nation/mughal.ruleset:4
-#, fuzzy
 msgid "?plural:Mughals"
-msgstr "Mali"
+msgstr "Moguln"
 
 #: data/nation/mughal.ruleset:6
 msgid ""
@@ -31637,12 +31574,11 @@ msgstr ""
 
 #: data/nation/muscovite.ruleset:3
 msgid "Muscovite"
-msgstr ""
+msgstr "moskowitisch"
 
 #: data/nation/muscovite.ruleset:4
-#, fuzzy
 msgid "?plural:Muscovites"
-msgstr "?plural:Azteken"
+msgstr "Moskowiter"
 
 #: data/nation/muscovite.ruleset:6
 msgid ""
@@ -31654,14 +31590,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/muskogee.ruleset:3
-#, fuzzy
 msgid "Muskogee"
-msgstr "Musketiere"
+msgstr "muskogeeisch"
 
 #: data/nation/muskogee.ruleset:4
-#, fuzzy
 msgid "?plural:Muskogee"
-msgstr "Burmesen"
+msgstr "Muskogee"
 
 #: data/nation/muskogee.ruleset:6
 msgid ""
@@ -31672,16 +31606,13 @@ msgid ""
 "during the early 1800s."
 msgstr ""
 
-# CK: Originalform, Bedeutung: Königin
 #: data/nation/mwiska.ruleset:3
-#, fuzzy
 msgid "Mwiska"
-msgstr "Malikta"
+msgstr "muiscisch"
 
 #: data/nation/mwiska.ruleset:4
-#, fuzzy
 msgid "?plural:Mwiska"
-msgstr "Schweizer"
+msgstr "Muisca"
 
 #: data/nation/mwiska.ruleset:6
 msgid ""
@@ -31695,24 +31626,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/mwiska.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "Cacique %s"
-msgstr "Gletscher"
+msgstr "Kazike %s"
 
 #: data/nation/mwiska.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Cacique %s"
-msgstr "Thronräuberin"
+msgstr "Kazike %s"
 
 #: data/nation/namibian.ruleset:3
-#, fuzzy
 msgid "Namibian"
-msgstr "nigerianisch"
+msgstr "namibisch"
 
 #: data/nation/namibian.ruleset:4
-#, fuzzy
 msgid "?plural:Namibians"
-msgstr "Tunesier"
+msgstr "Namibier"
 
 #: data/nation/namibian.ruleset:7
 msgid ""
@@ -31725,12 +31654,12 @@ msgstr ""
 
 #: data/nation/nauruan.ruleset:3
 msgid "Nauruan"
-msgstr ""
+msgstr "nauruisch"
 
+# MG: StAGN.
 #: data/nation/nauruan.ruleset:4
-#, fuzzy
 msgid "?plural:Nauruans"
-msgstr "Nigerier"
+msgstr "Nauruer"
 
 #: data/nation/nauruan.ruleset:6
 msgid ""
@@ -31751,12 +31680,11 @@ msgstr ""
 
 #: data/nation/navajo.ruleset:3
 msgid "Navajo"
-msgstr ""
+msgstr "navajisch"
 
 #: data/nation/navajo.ruleset:4
-#, fuzzy
 msgid "?plural:Navajo"
-msgstr "Sámi"
+msgstr "Navajo"
 
 #. TRANS: The last letter in "Dine" should be
 #. TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in
