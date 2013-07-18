@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-07-18 14:35+0200\n"
+"PO-Revision-Date: 2013-07-18 16:02+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -31697,14 +31697,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/neapolitan.ruleset:3
-#, fuzzy
 msgid "Neapolitan"
-msgstr "malisch"
+msgstr "neapolitanisch"
 
 #: data/nation/neapolitan.ruleset:4
-#, fuzzy
 msgid "?plural:Neapolitans"
-msgstr "Mali"
+msgstr "Neapolitaner"
 
 #: data/nation/neapolitan.ruleset:6
 msgid ""
@@ -31716,28 +31714,27 @@ msgstr ""
 
 #: data/nation/nenets.ruleset:3
 msgid "Nenets"
-msgstr ""
+msgstr "nenzisch"
 
 #: data/nation/nenets.ruleset:4
-#, fuzzy
 msgid "?plural:Nenets"
-msgstr "Venezuleaner"
+msgstr "Nenzen"
 
 #: data/nation/nenets.ruleset:6
 msgid ""
 "The Nenets are a people living in north-western Russia and the most populous "
 "among the Samoyed peoples."
 msgstr ""
+"Die Nenzen sind ein in Nordwestrussland lebendes Volk. Sie stellen die "
+"größte Gruppe der samojedischen Völker."
 
 #: data/nation/nepali.ruleset:3
-#, fuzzy
 msgid "Nepali"
-msgstr "bengalisch"
+msgstr "nepalesisch"
 
 #: data/nation/nepali.ruleset:4
-#, fuzzy
 msgid "?plural:Nepalis"
-msgstr "Bengalier"
+msgstr "Nepalesen"
 
 #: data/nation/nepali.ruleset:6
 msgid ""
@@ -31768,14 +31765,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/newfoundland.ruleset:3
-#, fuzzy
 msgid "Newfoundland"
-msgstr "neuseeländisch"
+msgstr "neufundländisch"
 
 #: data/nation/newfoundland.ruleset:4
-#, fuzzy
 msgid "?plural:Newfoundlanders"
-msgstr "Neuseeländer"
+msgstr "Neufundländer"
 
 #: data/nation/newfoundland.ruleset:7
 msgid ""
@@ -31809,12 +31804,11 @@ msgstr ""
 
 #: data/nation/nicaraguan.ruleset:3
 msgid "Nicaraguan"
-msgstr ""
+msgstr "nicaraguanisch"
 
 #: data/nation/nicaraguan.ruleset:4
-#, fuzzy
 msgid "?plural:Nicaraguans"
-msgstr "Nigerier"
+msgstr "Nicaraguaner"
 
 #: data/nation/nicaraguan.ruleset:6
 msgid ""
@@ -31842,15 +31836,14 @@ msgid ""
 msgstr ""
 "Nigeria errang 1960 die volle Unabhängigkeit von britischer Herrschaft."
 
+# MG: StAGN.
 #: data/nation/nigerien.ruleset:3
-#, fuzzy
 msgid "Nigerien"
-msgstr "nigerianisch"
+msgstr "nigrisch"
 
 #: data/nation/nigerien.ruleset:4
-#, fuzzy
 msgid "?plural:Nigeriens"
-msgstr "Nigerier"
+msgstr "Nigrer"
 
 #: data/nation/nigerien.ruleset:6
 msgid ""
@@ -31868,12 +31861,11 @@ msgstr ""
 #. TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 00ED.
 #: data/nation/nimiipuu.ruleset:6
 msgid "Nimiipuu"
-msgstr ""
+msgstr "nimíipuuisch"
 
 #: data/nation/nimiipuu.ruleset:7
-#, fuzzy
 msgid "?plural:Nimiipuu"
-msgstr "Tunesier"
+msgstr "Nimíipuu"
 
 #. TRANS: The last letter in "Perce" should be
 #. TRANS: U+00E9 LATIN SMALL LETTER E WITH ACUTE if available in
@@ -31890,14 +31882,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/norman.ruleset:3
-#, fuzzy
 msgid "Norman"
-msgstr "Normal"
+msgstr "normannisch"
 
 #: data/nation/norman.ruleset:4
-#, fuzzy
 msgid "?plural:Normans"
-msgstr "Römer"
+msgstr "Normannen"
 
 #: data/nation/norman.ruleset:6
 msgid ""
@@ -31909,14 +31899,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/northkorean.ruleset:3
-#, fuzzy
 msgid "North Korean"
-msgstr "koreanisch"
+msgstr "nordkoreanisch"
 
 #: data/nation/northkorean.ruleset:4
-#, fuzzy
 msgid "?plural:North Koreans"
-msgstr "Koreaner"
+msgstr "Nordkoreaner"
 
 #: data/nation/northkorean.ruleset:6
 msgid ""
@@ -31926,34 +31914,32 @@ msgid ""
 msgstr ""
 
 #: data/nation/northkorean.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "Dear Leader %s"
-msgstr "Großer Führer"
+msgstr "Geliebter Führer %s"
 
 #: data/nation/northkorean.ruleset:25
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Dear Leader %s"
-msgstr "Großer Führer"
+msgstr "Geliebte Führerin %s"
 
 #: data/nation/northkorean.ruleset:26 data/nation/soviet.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "Great Leader %s"
-msgstr "Großer Führer"
+msgstr "Großer Führer %s"
 
 #: data/nation/northkorean.ruleset:26 data/nation/soviet.ruleset:30
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Great Leader %s"
-msgstr "Großer Führer"
+msgstr "Große Führerin %s"
 
 #: data/nation/northumbrian.ruleset:3
-#, fuzzy
 msgid "Northumbrian"
-msgstr "koreanisch"
+msgstr "northumbrisch"
 
 #: data/nation/northumbrian.ruleset:4
-#, fuzzy
 msgid "?plural:Northumbrians"
-msgstr "Römer"
+msgstr "Northumbrier"
 
 #: data/nation/northumbrian.ruleset:6
 msgid ""
@@ -31972,7 +31958,6 @@ msgid "?plural:Norwegians"
 msgstr "Norweger"
 
 #: data/nation/norwegian.ruleset:6
-#, fuzzy
 msgid ""
 "After centuries of Danish rule, the Norwegians made their own constitution "
 "in Eidsvoll, 1814 CE. Finally, in 1905 CE the Norwegians got their "
@@ -31983,14 +31968,12 @@ msgstr ""
 "1905 unabhängig."
 
 #: data/nation/nubian.ruleset:3
-#, fuzzy
 msgid "Nubian"
-msgstr "kubanisch"
+msgstr "nubisch"
 
 #: data/nation/nubian.ruleset:4
-#, fuzzy
 msgid "?plural:Nubians"
-msgstr "Kubaner"
+msgstr "Nubier"
 
 #: data/nation/nubian.ruleset:6
 msgid ""
@@ -32010,14 +31993,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/numidian.ruleset:3
-#, fuzzy
 msgid "Numidian"
-msgstr "nigerianisch"
+msgstr "numidisch"
 
 #: data/nation/numidian.ruleset:4
-#, fuzzy
 msgid "?plural:Numidians"
-msgstr "Tunesier"
+msgstr "Numidier"
 
 #: data/nation/numidian.ruleset:7
 msgid ""
@@ -32034,12 +32015,11 @@ msgstr ""
 
 #: data/nation/nuu-chah-nulth.ruleset:3
 msgid "Nuu-chah-nulth"
-msgstr ""
+msgstr "nuu-chah-nulthisch"
 
 #: data/nation/nuu-chah-nulth.ruleset:4
-#, fuzzy
 msgid "?plural:Nuu-chah-nulth"
-msgstr "Kambodschaner"
+msgstr "Nuu-chah-nulth"
 
 #: data/nation/nuu-chah-nulth.ruleset:7
 msgid ""
@@ -32051,14 +32031,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/occitan.ruleset:3
-#, fuzzy
 msgid "Occitan"
-msgstr "Ozean"
+msgstr "okzitanisch"
 
 #: data/nation/occitan.ruleset:4
-#, fuzzy
 msgid "?plural:Occitans"
-msgstr "Ottomanen"
+msgstr "Okzitanier"
 
 #: data/nation/occitan.ruleset:6
 msgid ""
@@ -32071,24 +32049,23 @@ msgid ""
 msgstr ""
 
 #: data/nation/occitan.ruleset:28 data/nation/portuguese.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Viscount %s"
-msgstr "Karteneinsicht"
+msgstr "Vicomte %s"
 
+# ?
 #: data/nation/occitan.ruleset:28 data/nation/portuguese.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Viscountess %s"
-msgstr "Anzahl"
+msgstr "Vicomte %s"
 
 #: data/nation/ohlone.ruleset:2
-#, fuzzy
 msgid "Ohlone"
-msgstr "Oberst"
+msgstr "ohlonisch"
 
 #: data/nation/ohlone.ruleset:3
-#, fuzzy
 msgid "?plural:Ohlone"
-msgstr "Chinesen"
+msgstr "Muwekma Ohlone"
 
 #: data/nation/ohlone.ruleset:5
 msgid ""
@@ -32104,14 +32081,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/oldenburgian.ruleset:3
-#, fuzzy
 msgid "Oldenburgian"
-msgstr "algerisch"
+msgstr "oldenburgisch"
 
 #: data/nation/oldenburgian.ruleset:4
-#, fuzzy
 msgid "?plural:Oldenburgians"
-msgstr "Georgier"
+msgstr "Oldenburger"
 
 #: data/nation/oldenburgian.ruleset:6
 msgid ""
@@ -32127,14 +32102,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/oldprussian.ruleset:3
-#, fuzzy
 msgid "Old Prussian"
-msgstr "persisch"
+msgstr "altpreußisch"
 
 #: data/nation/oldprussian.ruleset:4
-#, fuzzy
 msgid "?plural:Old Prussians"
-msgstr "Russen"
+msgstr "Altpreußen"
 
 #: data/nation/oldprussian.ruleset:6
 msgid ""
@@ -32145,14 +32118,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/omani.ruleset:3
-#, fuzzy
 msgid "Omani"
-msgstr "Ozeanien"
+msgstr "omanisch"
 
 #: data/nation/omani.ruleset:4
-#, fuzzy
 msgid "?plural:Omanis"
-msgstr "Ottomanen"
+msgstr "Omaner"
 
 #: data/nation/omani.ruleset:6
 msgid ""
@@ -32162,24 +32133,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/omani.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "General Commander %s"
-msgstr "Oberster Kommandeur"
+msgstr "Generalkommandeur %s"
 
 #: data/nation/omani.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "?female:General Commander %s"
-msgstr "Oberster Kommandeur"
+msgstr "Generalkommandeurin %s"
 
 #: data/nation/ossetian.ruleset:3
-#, fuzzy
 msgid "Ossetian"
-msgstr "russisch"
+msgstr "ossetisch"
 
 #: data/nation/ossetian.ruleset:4
-#, fuzzy
 msgid "?plural:Ossetians"
-msgstr "Russen"
+msgstr "Osseten"
 
 #: data/nation/ossetian.ruleset:6
 msgid ""
@@ -32192,14 +32161,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/ostrogothic.ruleset:3
-#, fuzzy
 msgid "Ostrogothic"
-msgstr "Karteneinsicht"
+msgstr "ostgothisch"
 
 #: data/nation/ostrogothic.ruleset:4
-#, fuzzy
 msgid "?plural:Ostrogoths"
-msgstr "Wikinger"
+msgstr "Ostgothisch"
 
 #: data/nation/ostrogothic.ruleset:6
 msgid ""
@@ -32212,27 +32179,25 @@ msgid ""
 msgstr ""
 
 #: data/nation/ostrogothic.ruleset:31 data/nation/vandalic.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Presbyter %s"
-msgstr "Präsident"
+msgstr "Presbyter %s"
 
 #: data/nation/ostrogothic.ruleset:31 data/nation/vandalic.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Presbyter %s"
-msgstr "Präsidentin"
+msgstr "Presbyterin %s"
 
 #. TRANS: The fifth letter in "Otomi" and "Otomies" should be
 #. TRANS: U+00ED LATIN SMALL LETTER I WITH ACUTE if available in
 #. TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 237.
 #: data/nation/otomi.ruleset:6
-#, fuzzy
 msgid "Otomi"
-msgstr "ottomanisch"
+msgstr "otomisch"
 
 #: data/nation/otomi.ruleset:7
-#, fuzzy
 msgid "?plural:Otomies"
-msgstr "Ottomanen"
+msgstr "Otomí"
 
 #. TRANS: The second and fifth letters in "Hnahnu" should be
 #. TRANS: U+00F1 LATIN SMALL LETTER N WITH TILDE if available in
@@ -32260,7 +32225,6 @@ msgid "?plural:Ottomans"
 msgstr "Ottomanen"
 
 #: data/nation/ottoman.ruleset:6
-#, fuzzy
 msgid ""
 "In the beginning of the 14th century Osman, a leader of a minor Turkish "
 "tribe in western Anatolia, conquered all his neighboring tribes. A century "
@@ -32279,14 +32243,14 @@ msgstr ""
 "Supermacht, die erst nach dem ersten Weltkrieg aufgelöst wurde."
 
 #: data/nation/ottoman.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Padishah %s"
-msgstr "Padisah"
+msgstr "Padischah %s"
 
 #: data/nation/ottoman.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Padishah %s"
-msgstr "Taoiseach"
+msgstr "Padischah %s"
 
 #: data/nation/ozite.ruleset:3
 msgid "Ozite"
@@ -32321,14 +32285,12 @@ msgid "Witch %s"
 msgstr "Hexe %s"
 
 #: data/nation/paeonian.ruleset:3
-#, fuzzy
 msgid "Paeonian"
-msgstr "armenisch"
+msgstr "paionisch"
 
 #: data/nation/paeonian.ruleset:4
-#, fuzzy
 msgid "?plural:Paeonians"
-msgstr "Mali"
+msgstr "Paionier"
 
 #: data/nation/paeonian.ruleset:6
 msgid ""
@@ -32341,14 +32303,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/pakistani.ruleset:3
-#, fuzzy
 msgid "Pakistani"
-msgstr "Partisanen"
+msgstr "pakistanisch"
 
 #: data/nation/pakistani.ruleset:4
-#, fuzzy
 msgid "?plural:Pakistanis"
-msgstr "Rumänen"
+msgstr "Pakistani"
 
 #: data/nation/pakistani.ruleset:6
 msgid ""
@@ -32357,14 +32317,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/palatinate.ruleset:3
-#, fuzzy
 msgid "Palatinate"
-msgstr "Malen"
+msgstr "pfälzisch"
 
 #: data/nation/palatinate.ruleset:4
-#, fuzzy
 msgid "?plural:Palatinate Germans"
-msgstr "Deutschen"
+msgstr "Pfälzer"
 
 #: data/nation/palatinate.ruleset:6
 msgid ""
@@ -32378,24 +32336,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/palatinate.ruleset:29
-#, fuzzy, c-format
+#, c-format
 msgid "Count Palatine %s"
-msgstr "Bevölkerung: %s"
+msgstr "Pfalzgraf %s"
 
 #: data/nation/palatinate.ruleset:29
 #, c-format
 msgid "Countess Palatine %s"
-msgstr ""
+msgstr "Pfalzgräfin %s"
 
 #: data/nation/palestinian.ruleset:3
-#, fuzzy
 msgid "Palestinian"
-msgstr "persisch"
+msgstr "palästinensisch"
 
 #: data/nation/palestinian.ruleset:4
-#, fuzzy
 msgid "?plural:Palestinian"
-msgstr "Polen"
+msgstr "Palästinenser"
 
 #: data/nation/palestinian.ruleset:6
 msgid ""
@@ -32405,12 +32361,11 @@ msgstr ""
 
 #: data/nation/palmyrene.ruleset:3
 msgid "Palmyrene"
-msgstr ""
+msgstr "palmyrisch"
 
 #: data/nation/palmyrene.ruleset:4
-#, fuzzy
 msgid "?plural:Palmyrenes"
-msgstr "Maya"
+msgstr "Palmyrer"
 
 #: data/nation/palmyrene.ruleset:6
 msgid ""
@@ -32419,14 +32374,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/panamanian.ruleset:3
-#, fuzzy
 msgid "Panamanian"
-msgstr "kanadisch"
+msgstr "panamaisch"
 
 #: data/nation/panamanian.ruleset:4
-#, fuzzy
 msgid "?plural:Panamanians"
-msgstr "?plural:Kanadier"
+msgstr "Panamaer"
 
 #: data/nation/panamanian.ruleset:6
 msgid ""
@@ -32441,12 +32394,11 @@ msgstr ""
 
 #: data/nation/papuanewguinean.ruleset:3
 msgid "Papua New Guinean"
-msgstr ""
+msgstr "papua-neuguineisch"
 
 #: data/nation/papuanewguinean.ruleset:4
-#, fuzzy
 msgid "?plural:Papua New Guineans"
-msgstr "Papua"
+msgstr "Papua-Neuguineer"
 
 #: data/nation/papuanewguinean.ruleset:6
 msgid ""
@@ -32458,14 +32410,14 @@ msgid ""
 msgstr ""
 
 #: data/nation/papuanewguinean.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "Governor-General %s"
-msgstr "Generalgouverneur"
+msgstr "Generalgouverneur %s"
 
 #: data/nation/papuanewguinean.ruleset:22
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Governor-General %s"
-msgstr "Bürgermeister"
+msgstr "Generalgouverneurin %s"
 
 #: data/nation/papuan.ruleset:3
 msgid "Papuan"
@@ -32494,12 +32446,11 @@ msgstr ""
 
 #: data/nation/paraguayan.ruleset:3
 msgid "Paraguayan"
-msgstr ""
+msgstr "paraguayisch"
 
 #: data/nation/paraguayan.ruleset:4
-#, fuzzy
 msgid "?plural:Paraguayans"
-msgstr "Bulgarier"
+msgstr "Paraguayaner"
 
 #: data/nation/paraguayan.ruleset:6
 msgid ""
@@ -32520,14 +32471,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/parthian.ruleset:3
-#, fuzzy
 msgid "Parthian"
-msgstr "Partisanen"
+msgstr "parthisch"
 
 #: data/nation/parthian.ruleset:4
-#, fuzzy
 msgid "?plural:Parthians"
-msgstr "Marsianer"
+msgstr "Parther"
 
 #: data/nation/parthian.ruleset:6
 msgid ""
@@ -32538,24 +32487,22 @@ msgid ""
 msgstr ""
 
 #: data/nation/parthian.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "Shah %s"
-msgstr "schwedisch"
+msgstr "Schah %s"
 
 #: data/nation/parthian.ruleset:35
-#, fuzzy, c-format
+#, c-format
 msgid "Shahbanu %s"
-msgstr "Shahbanu"
+msgstr "Schahbanu %s"
 
 #: data/nation/pashtun.ruleset:3
-#, fuzzy
 msgid "Pashtun"
-msgstr "Verschwendung"
+msgstr "paschtunisch"
 
 #: data/nation/pashtun.ruleset:4
-#, fuzzy
 msgid "?plural:Pashtuns"
-msgstr "Papua"
+msgstr "Paschtunen"
 
 #: data/nation/pashtun.ruleset:6
 msgid ""
@@ -32565,14 +32512,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/pelasgian.ruleset:3
-#, fuzzy
 msgid "Pelasgian"
-msgstr "belgisch"
+msgstr "pelasgisch"
 
 #: data/nation/pelasgian.ruleset:4
-#, fuzzy
 msgid "?plural:Pelasgians"
-msgstr "Perser"
+msgstr "Pelasger"
 
 #: data/nation/pelasgian.ruleset:6
 msgid ""
@@ -32583,23 +32528,20 @@ msgstr ""
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/persian.ruleset:7
-#, fuzzy
 msgid ""
 "The first Persian (Achaemenid) Empire lasted from 550 BCE to 330 BCE; the "
 "second (Sassanid) from 226 CE to 642 CE."
 msgstr ""
-"Das erste persische (achämenidische) Reich existierte von 330-55 v. Chr.; "
-"das zweite (sassanidische) Reich von 226-642 n. Chr."
+"Das erste persische (achämenidische) Reich existierte von 330-55  v.u.Z.; "
+"das zweite (sassanidische) Reich von 226-642 u.Z."
 
 #: data/nation/peruvian.ruleset:3
-#, fuzzy
 msgid "Peruvian"
-msgstr "persisch"
+msgstr "peruanisch"
 
 #: data/nation/peruvian.ruleset:4
-#, fuzzy
 msgid "?plural:Peruvians"
-msgstr "Perser"
+msgstr "Peruaner"
 
 #: data/nation/peruvian.ruleset:6
 msgid ""
@@ -32628,14 +32570,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/phrygian.ruleset:3
-#, fuzzy
 msgid "Phrygian"
-msgstr "georgisch"
+msgstr "phrygisch"
 
 #: data/nation/phrygian.ruleset:4
-#, fuzzy
 msgid "?plural:Phrygians"
-msgstr "Perser"
+msgstr "Phrygier"
 
 #: data/nation/phrygian.ruleset:6
 msgid ""
@@ -32649,14 +32589,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/pictish.ruleset:3
-#, fuzzy
 msgid "Pictish"
-msgstr "britisch"
+msgstr "piktisch"
 
 #: data/nation/pictish.ruleset:4
-#, fuzzy
 msgid "?plural:Picts"
-msgstr "Portugiesen"
+msgstr "Pikten"
 
 #: data/nation/pictish.ruleset:6
 msgid ""
@@ -32670,12 +32608,11 @@ msgstr ""
 
 #: data/nation/piedmontese.ruleset:3
 msgid "Piedmontese"
-msgstr ""
+msgstr "piemontesisch"
 
 #: data/nation/piedmontese.ruleset:4
-#, fuzzy
 msgid "?plural:Piedmontese"
-msgstr "Deutschen"
+msgstr "Piemonteser"
 
 #: data/nation/piedmontese.ruleset:6
 msgid ""
@@ -32724,12 +32661,11 @@ msgstr ""
 
 #: data/nation/pontic.ruleset:3
 msgid "Pontic"
-msgstr ""
+msgstr "pontisch"
 
 #: data/nation/pontic.ruleset:4
-#, fuzzy
 msgid "?plural:Pontians"
-msgstr "Mali"
+msgstr "Ponter"
 
 #: data/nation/pontic.ruleset:6
 msgid ""
@@ -32764,14 +32700,12 @@ msgstr ""
 "Vorsprung im Schiffsbau, durch Prinz Heinrich der Navigator."
 
 #: data/nation/prussian.ruleset:3
-#, fuzzy
 msgid "Prussian"
-msgstr "persisch"
+msgstr "preußisch"
 
 #: data/nation/prussian.ruleset:4
-#, fuzzy
 msgid "?plural:Prussians"
-msgstr "Russen"
+msgstr "Preußen"
 
 #: data/nation/prussian.ruleset:7
 msgid ""
@@ -32785,14 +32719,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/puertorican.ruleset:3
-#, fuzzy
 msgid "Puerto Rican"
-msgstr "kroatisch"
+msgstr "puerto-ricanisch"
 
 #: data/nation/puertorican.ruleset:4
-#, fuzzy
 msgid "?plural:Puerto Ricans"
-msgstr "Perser"
+msgstr "Puerto-Ricaner"
 
 #: data/nation/puertorican.ruleset:6
 msgid ""
@@ -32805,12 +32737,11 @@ msgstr ""
 
 #: data/nation/purhepecha.ruleset:3
 msgid "P'urhepecha"
-msgstr ""
+msgstr "p’hurépechaisch"
 
 #: data/nation/purhepecha.ruleset:4
-#, fuzzy
 msgid "?plural:P'urhepecha"
-msgstr "Franzosen"
+msgstr "P’hurépecha"
 
 #. TRANS: The eighth letter in "Michoacan" should be
 #. TRANS: 00E1 LATIN SMALL LETTER O WITH ACUTE if available in
@@ -32832,14 +32763,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/qatari.ruleset:3
-#, fuzzy
 msgid "Qatari"
-msgstr "Zarin"
+msgstr "katarisch"
 
 #: data/nation/qatari.ruleset:4
-#, fuzzy
 msgid "?plural:Qataris"
-msgstr "Maya"
+msgstr "Katarer"
 
 #: data/nation/qatari.ruleset:6
 msgid ""
@@ -32866,12 +32795,11 @@ msgstr ""
 
 #: data/nation/rapanui.ruleset:3
 msgid "Rapa Nui"
-msgstr ""
+msgstr "rapa-nuisch"
 
 #: data/nation/rapanui.ruleset:4
-#, fuzzy
 msgid "?plural:Rapa Nui"
-msgstr "?plural:Barbaren"
+msgstr "Rapa-Nui"
 
 #: data/nation/rapanui.ruleset:6
 msgid ""
@@ -32882,17 +32810,19 @@ msgid ""
 "Chile. Their script Rongorongo has never been deciphered."
 msgstr ""
 
+# MG: https://de.wikipedia.org/wiki/Tarahumara
+#
+# Die Rarámuri sind nur die Männer.
 #. TRANS: The fourth letter in "Raramuri" should be
 #. TRANS: U+00E1 LATIN SMALL LETTER A WITH ACUTE if available in
 #. TRANS: your charset. In ISO-8859-1 (ISO Latin 1) this is 00E1.
 #: data/nation/raramuri.ruleset:6
 msgid "Raramuri"
-msgstr ""
+msgstr "tarahumarisch"
 
 #: data/nation/raramuri.ruleset:7
-#, fuzzy
 msgid "?plural:Raramuris"
-msgstr "?plural:Barbaren"
+msgstr "Rarahumarisch"
 
 #: data/nation/raramuri.ruleset:9
 msgid ""
@@ -32904,14 +32834,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/rhenish.ruleset:3
-#, fuzzy
 msgid "Rhenish"
-msgstr "litauisch"
+msgstr "rheinländisch"
 
 #: data/nation/rhenish.ruleset:4
-#, fuzzy
 msgid "?plural:Rhenish"
-msgstr "Russen"
+msgstr "Rheinländer"
 
 #: data/nation/rhenish.ruleset:6
 msgid ""
@@ -32927,12 +32855,11 @@ msgstr ""
 
 #: data/nation/riffian.ruleset:3
 msgid "Riffian"
-msgstr ""
+msgstr "rifisch"
 
 #: data/nation/riffian.ruleset:4
-#, fuzzy
 msgid "?plural:Riffians"
-msgstr "Perser"
+msgstr "Riffer"
 
 #: data/nation/riffian.ruleset:6
 msgid ""
@@ -32944,12 +32871,11 @@ msgstr ""
 
 #: data/nation/riograndense.ruleset:3
 msgid "Rio-Grandense"
-msgstr ""
+msgstr "rio-grandisch"
 
 #: data/nation/riograndense.ruleset:4
-#, fuzzy
 msgid "?plural:Rio-Grandenses"
-msgstr "?plural:Kanadier"
+msgstr "Rio-Grandiner"
 
 #: data/nation/riograndense.ruleset:6
 msgid ""
@@ -32995,38 +32921,48 @@ msgid ""
 "CE, the Eastern Roman or Byzantine Empire survived almost a thousand years "
 "more; its capital Constantinople fell to the Turks in 1453."
 msgstr ""
+"Der Legende nach wurde Rom durch Romulus im Jahre 753 v.u.Z. gegründet. Auf "
+"der Höhe seiner Macht kontrollierte Rom große Teile Europas, Nordafrikas und "
+"des Nahen Ostens, die römische Kultur unterlag dabei zahlreichen Einflüssen "
+"der eroberten Zivilisationen, unter denen etwa die Griechen und Etrusker "
+"waren. Sie formte den Grundstein der westlichen Kultur und noch heute ist "
+"der römische Einfluss auf Recht, Philosophie und Sprache nicht zu übersehen. "
+"Insgesamt umspannte die römische Zivilisation mehr als ein Jahrtausend: "
+"Zunächst als Königreich, später als Republik und seit 27 u.Z. schließlich "
+"als Kaiserreich. Im 4.Jh. u.Z. wurde das römische Kaiserreich aufgespalten; "
+"das westliche Rom fiel 476, wohingegen Ostrom, bekannt unter dem Namen des "
+"byzantinischen Imperiums, fast ein weiteres Jahrtausend länger überlebte. "
+"Ihre Hauptstadt Konstantinopel fiel erst 1453 in die Hände der Türken."
 
 #: data/nation/roman.ruleset:49 data/nation/sabine.ruleset:27
 #: data/nation/samnite.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "Tribune %s"
-msgstr "Prinzessin"
+msgstr "Tribun %s"
 
 #: data/nation/roman.ruleset:49 data/nation/sabine.ruleset:27
 #: data/nation/samnite.ruleset:27
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Tribune %s"
-msgstr "Konsulin"
+msgstr "Tribunin %s"
 
 #: data/nation/roman.ruleset:51 data/nation/westernroman.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "%s Augustus"
-msgstr "August"
+msgstr "%s Augustus"
 
 #: data/nation/roman.ruleset:51 data/nation/westernroman.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "%s Augusta"
-msgstr "August"
+msgstr "%s Augusta"
 
 #: data/nation/romansh.ruleset:3
-#, fuzzy
 msgid "Romansh"
-msgstr "römisch"
+msgstr "rätoromanisch"
 
 #: data/nation/romansh.ruleset:4
-#, fuzzy
 msgid "?plural:Romansh"
-msgstr "Römer"
+msgstr "Rätoromanen"
 
 #: data/nation/romansh.ruleset:6
 msgid ""
@@ -33041,7 +32977,6 @@ msgstr ""
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/russian.ruleset:7
-#, fuzzy
 msgid ""
 "Russia is the largest country in the world, occupying a huge part of both "
 "Europe and Asia. According to legend, Slavic tribes of Novgorod invited the "
@@ -33066,14 +33001,12 @@ msgstr ""
 "Russland 1991 erneut auf der Weltkarte, dieses Mal als föderale Republik."
 
 #: data/nation/ruthenian.ruleset:3
-#, fuzzy
 msgid "Ruthenian"
-msgstr "litauisch"
+msgstr "ruthenisch"
 
 #: data/nation/ruthenian.ruleset:4
-#, fuzzy
 msgid "?plural:Ruthenians"
-msgstr "Russen"
+msgstr "Ruthenen"
 
 #: data/nation/ruthenian.ruleset:6
 msgid ""
@@ -33084,14 +33017,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/rwandan.ruleset:3
-#, fuzzy
 msgid "Rwandan"
-msgstr "rumänisch"
+msgstr "ruandisch"
 
 #: data/nation/rwandan.ruleset:4
-#, fuzzy
 msgid "?plural:Rwandans"
-msgstr "?plural:Kanadier"
+msgstr "Ruander"
 
 #: data/nation/rwandan.ruleset:6
 msgid ""
@@ -33118,12 +33049,11 @@ msgstr ""
 
 #: data/nation/sabine.ruleset:3
 msgid "Sabine"
-msgstr ""
+msgstr "sabinisch"
 
 #: data/nation/sabine.ruleset:4
-#, fuzzy
 msgid "?plural:Sabines"
-msgstr "Spanier"
+msgstr "Sabiner"
 
 #: data/nation/sabine.ruleset:6
 msgid ""
