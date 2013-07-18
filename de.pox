@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-13 18:34+0200\n"
-"PO-Revision-Date: 2013-07-18 16:33+0200\n"
+"PO-Revision-Date: 2013-07-18 22:28+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -33203,12 +33203,11 @@ msgstr "Regierende Hauptfrau %s"
 
 #: data/nation/samnite.ruleset:3
 msgid "Samnite"
-msgstr ""
+msgstr "samnitisch"
 
 #: data/nation/samnite.ruleset:4
-#, fuzzy
 msgid "?plural:Samnites"
-msgstr "Iraker"
+msgstr "Samniten"
 
 #: data/nation/samnite.ruleset:6
 msgid ""
@@ -33219,14 +33218,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/samoan.ruleset:3
-#, fuzzy
 msgid "Samoan"
-msgstr "Schamane"
+msgstr "samoanisch"
 
 #: data/nation/samoan.ruleset:4
-#, fuzzy
 msgid "?plural:Samoans"
-msgstr "Spanier"
+msgstr "Samoaner"
 
 #: data/nation/samoan.ruleset:6
 msgid ""
@@ -33239,40 +33236,40 @@ msgid ""
 msgstr ""
 
 #: data/nation/samoan.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "Chief of the Government %s"
-msgstr "Wähle die neue Regierungsform"
+msgstr "Regierungsoberhaupt %s"
 
 #: data/nation/samoan.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Chief of the Government %s"
-msgstr "Bürgermeister"
+msgstr "Regierungsoberhäuptin %s"
 
 #: data/nation/samogitian.ruleset:3
-#, fuzzy
 msgid "Samogitian"
-msgstr "Schamane"
+msgstr "schemaitisch"
 
 #: data/nation/samogitian.ruleset:4
-#, fuzzy
 msgid "?plural:Samogitians"
-msgstr "Letten"
+msgstr "Schemaitier"
 
 #: data/nation/samogitian.ruleset:6
 msgid ""
 "Samogitia - historical country near the Baltic Sea - home to the last pagans "
 "in Europe (official until 1413). Today, Samogitia is a region of Lithuania."
 msgstr ""
+"Žemaitėjė — ein historisches Land nahe des Baltischen Meers — war die Heimat "
+"der letzten Eingeborenen von Europa (offiziell bis 1413). Heute ist "
+"Schemaitien Teil von Litauen."
 
+# MG: StAGN.
 #: data/nation/santomean.ruleset:3
-#, fuzzy
 msgid "Santomean"
-msgstr "aramäisch"
+msgstr "são-toméisch"
 
 #: data/nation/santomean.ruleset:4
-#, fuzzy
 msgid "?plural:Santomeans"
-msgstr "Aramäer"
+msgstr "São-Toméer"
 
 #. TRANS: The second letter in "Sao" should be
 #. TRANS: U+00E3 LATIN SMALL LETTER A WITH TILDE if available in
@@ -33294,14 +33291,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/sardinian.ruleset:3
-#, fuzzy
 msgid "Sardinian"
-msgstr "karthagisch"
+msgstr "sardinisch"
 
 #: data/nation/sardinian.ruleset:4
-#, fuzzy
 msgid "?plural:Sardinians"
-msgstr "Serben"
+msgstr "Sardinier"
 
 #: data/nation/sardinian.ruleset:6
 msgid ""
@@ -33318,14 +33313,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/sarmatian.ruleset:3
-#, fuzzy
 msgid "Sarmatian"
-msgstr "marsianisch"
+msgstr "sarmatisch"
 
 #: data/nation/sarmatian.ruleset:4
-#, fuzzy
 msgid "?plural:Sarmatians"
-msgstr "Marsianer"
+msgstr "Sarmaten"
 
 #: data/nation/sarmatian.ruleset:6
 msgid ""
@@ -33336,14 +33329,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/saudi.ruleset:3
-#, fuzzy
 msgid "Saudi"
-msgstr "Segelschiff"
+msgstr "saudisch"
 
 #: data/nation/saudi.ruleset:4
-#, fuzzy
 msgid "?plural:Saudis"
-msgstr "Swasi"
+msgstr "Saudis"
 
 #: data/nation/saudi.ruleset:6
 msgid ""
@@ -33356,14 +33347,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/savoyard.ruleset:3
-#, fuzzy
 msgid "Savoyard"
-msgstr "Saya"
+msgstr "savoyardisch"
 
 #: data/nation/savoyard.ruleset:4
-#, fuzzy
 msgid "?plural:Savoyards"
-msgstr "Maya"
+msgstr "Savoyarden"
 
 #: data/nation/savoyard.ruleset:6
 msgid ""
@@ -33376,14 +33365,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/saxon.ruleset:3
-#, fuzzy
 msgid "Saxon"
-msgstr "Sound"
+msgstr "sächsisch"
 
 #: data/nation/saxon.ruleset:4
-#, fuzzy
 msgid "?plural:Saxons"
-msgstr "Spanier"
+msgstr "Sachsen"
 
 #: data/nation/saxon.ruleset:6
 msgid ""
@@ -33392,14 +33379,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/scanian.ruleset:3
-#, fuzzy
 msgid "Scanian"
-msgstr "indisch"
+msgstr "schonisch"
 
 #: data/nation/scanian.ruleset:4
-#, fuzzy
 msgid "?plural:Scanians"
-msgstr "Inder"
+msgstr "Schoninger"
 
 #: data/nation/scanian.ruleset:6
 msgid ""
@@ -33412,12 +33397,11 @@ msgstr ""
 
 #: data/nation/schleswig-holsteinian.ruleset:3
 msgid "Schleswig-Holsteinian"
-msgstr ""
+msgstr "schleswig-holsteinisch"
 
 #: data/nation/schleswig-holsteinian.ruleset:4
-#, fuzzy
 msgid "?plural:Schleswig-Holsteinians"
-msgstr "Slowenen"
+msgstr "Schleswig-Holsteiner"
 
 #: data/nation/schleswig-holsteinian.ruleset:6
 msgid ""
@@ -33431,14 +33415,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/scottishgaelic.ruleset:3
-#, fuzzy
 msgid "Scottish Gaelic"
-msgstr "schottisch"
+msgstr "schottisch-gälisch"
 
 #: data/nation/scottishgaelic.ruleset:4
-#, fuzzy
 msgid "?plural:Scottish Gaels"
-msgstr "Schotten"
+msgstr "Schottisch-Gälen"
 
 #: data/nation/scottishgaelic.ruleset:6
 msgid ""
@@ -33454,24 +33436,24 @@ msgid ""
 msgstr ""
 
 #: data/nation/scottishgaelic.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "Clan Chief %s"
-msgstr "Häuptling"
+msgstr "Klanchef %s"
 
 #: data/nation/scottishgaelic.ruleset:37
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Clan Chief %s"
-msgstr "Stammesführerin"
+msgstr "Klanchefin %s"
 
 #: data/nation/scottishgaelic.ruleset:39 data/nation/scottish.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "First Minister %s"
-msgstr "Premierminister"
+msgstr "Erster Minister %s"
 
 #: data/nation/scottishgaelic.ruleset:39 data/nation/scottish.ruleset:26
-#, fuzzy, c-format
+#, c-format
 msgid "?female:First Minister %s"
-msgstr "Premierminister"
+msgstr "Erste Ministerin %s"
 
 #: data/nation/scottish.ruleset:3
 msgid "Scottish"
@@ -33482,7 +33464,6 @@ msgid "?plural:Scots"
 msgstr "Schotten"
 
 #: data/nation/scottish.ruleset:6
-#, fuzzy
 msgid ""
 "Scotland, originally settled in late Roman times by Irish raiders who "
 "displaced the native Picts, was an independent kingdom from around 1034 CE "
@@ -33493,14 +33474,12 @@ msgstr ""
 "Krone von England 1710 ein unabhängiges Königreich."
 
 #: data/nation/scythian.ruleset:3
-#, fuzzy
 msgid "Scythian"
-msgstr "serbisch"
+msgstr "skythisch"
 
 #: data/nation/scythian.ruleset:4
-#, fuzzy
 msgid "?plural:Scythians"
-msgstr "Serben"
+msgstr "Skythen"
 
 #: data/nation/scythian.ruleset:6
 msgid ""
@@ -33515,14 +33494,12 @@ msgid ""
 msgstr ""
 
 #: data/nation/seleucid.ruleset:3
-#, fuzzy
 msgid "Seleucid"
-msgstr "Auswählen"
+msgstr "seleukidisch"
 
 #: data/nation/seleucid.ruleset:4
-#, fuzzy
 msgid "?plural:Seleucids"
-msgstr "Schweden"
+msgstr "Seleukiden"
 
 #: data/nation/seleucid.ruleset:6
 msgid ""
