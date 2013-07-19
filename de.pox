@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-19 09:56+0200\n"
-"PO-Revision-Date: 2013-07-18 23:50+0200\n"
+"PO-Revision-Date: 2013-07-19 11:13+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -18415,21 +18415,19 @@ msgid "You are playing Freeciv with default ruleset for single player games."
 msgstr ""
 "Sie spielen Freeciv mit dem Standardregelsatz für Einzelspieler-Spiele."
 
-# MG: Sollte pedantisch gesehen "u.Z.", unserer Zeit, sein, aber
-# das benutzt de facto niemand.
+# MG: u.Z. = unserer Zeit
 #. TRANS: year label (Common Era)
 #: data/default/game.ruleset:201 data/experimental/game.ruleset:207
 #: data/multiplayer/game.ruleset:205
 msgid "CE"
-msgstr "n.Chr."
+msgstr "u.Z."
 
-# MG: Sollte pedantisch gesehen "v.u.Z", vor unserer Zeit, sein, aber
-# das benutzt de facto niemand.
+# MG: v.u.Z. = vor unserer Zeit
 #. TRANS: year label (Before Common Era)
 #: data/default/game.ruleset:203 data/experimental/game.ruleset:209
 #: data/multiplayer/game.ruleset:207
 msgid "BCE"
-msgstr "v.Chr."
+msgstr "v.u.Z."
 
 #: data/default/nations.ruleset:25
 msgid "?nationset:Core"
@@ -25859,6 +25857,14 @@ msgid ""
 "legions but eventually succumbed to the Romans. The modern country of "
 "Belgium derives its name from the Belgae."
 msgstr ""
+"Die Belgen war einen antiker keltischer Stamm, der in jenem Gebiet siedelte, "
+"das später die römische Provinz Gallia Belgica werden sollte. Ihr Ursprung "
+"lag vermutlich in einer Vermischung von Kelten und Germanen, das sie den "
+"Gaul von hinter dem Rhein aus erreichten, einige germanische Aspekte "
+"aufwiesen und die Namen ihrer Anführer trotzdem gälisch waren. Julius Caesar "
+"nannte die Belgen die mutigsten Anwohner des Gaul; sie leisteten hartnäckig "
+"widerstand gegen Caesars Legionen, wurden aber schließlich von der Römern "
+"unterjocht. Der moderne Staat Belgien leitet seinen Namen von diesem Volk ab."
 
 #: data/nation/belizean.ruleset:3
 msgid "Belizean"
@@ -25877,6 +25883,13 @@ msgid ""
 "diverse, its population consisting of Creoles, Mayans, Spanish-speaking "
 "mestizos, Garifunas, Chinese, Mennonites, and Indians."
 msgstr ""
+"Belize ist das kleine Land Zentralamerikas. Es war ein Teil des Mayareiches, "
+"wurde aber im 17. Jh. von britischen Piraten und Kolonisten besiedelt. 1862, "
+"damals noch unter dem Namen Britisch-Honduras, wurde das Land eine "
+"Kronkolonie, 1981 wurde es unabhängig. Belize ist ein von zahlreichen "
+"Ethnien bewohntes Land, dessen Bevölkerung aus Kreolen, Maya, "
+"spanischsprechenden Mischlingen, Garifunen, Chinesen, Mennoiten und Indern "
+"besteht."
 
 #: data/nation/belizean.ruleset:25
 #, c-format
@@ -25973,6 +25986,11 @@ msgid ""
 "under Shabdrung Ngawang Namgyal, who repelled a Mongol invasion and united "
 "the rivaling Bhutanese tribes."
 msgstr ""
+"Das im Himalaya liegende Bhutan ist eines der weltweit isoliertesten Länder "
+"überhaupt; es wurde mindestens ein Jahrtausend lang nie von fremden Mächten "
+"erobert oder auch nur besetzt. Erst im 17. Jh. wurde Bhutan unter Shabdrung "
+"Ngawang Namgyal, der eine mongolische Invasion abwehrte und so die "
+"rivalisierenden bhutanesischen Stämme zusammenführte, vereinigt."
 
 #: data/nation/bhutanese.ruleset:25 data/nation/buryat.ruleset:28
 #: data/nation/kalmyk.ruleset:25 data/nation/sikkimese.ruleset:22
@@ -26012,6 +26030,12 @@ msgid ""
 "because of famine and disease caused by the blockade of Biafran ports. "
 "Biafra surrendered in 1970."
 msgstr ""
+"1967 proklamierte Biafra nach Jahren ethnischer, religiöser und ökonomischer "
+"Konflikte seine Unabhängigkeit vom damals seinerseits frisch unabhängigen "
+"Nigeria. Es folgte ein Krieg zwischen Nigeria und Biafra, der bis zu zwei "
+"Millionen Leben fordere; Gründe dafür waren vor allem die durch die Blockade "
+"der biafrischen Häfen erzeugte Hungersnot und damit einhergehenden "
+"Krankheiten. 1970 kapitulierte Biafra."
 
 #: data/nation/biafran.ruleset:21 data/nation/hellenic.ruleset:20
 #: data/nation/nigerien.ruleset:23
@@ -26557,6 +26581,15 @@ msgid ""
 "Following international pressure after World War II, Burundi became an "
 "independent nation in January 1962."
 msgstr ""
+"In den 1100er Jahren entwickelte sich im Gebiet der Großen Seen von "
+"Ostafrika eine Monarchie, die von einem Mwami (König) und zahlreichen Ganwa "
+"(Prinzen) regiert wurde. Nachdem es eine Periode des Wachstums und der "
+"Expansien erlebt hatte, umfasste es um 1600 etwa das Gebiet des heutigen "
+"Burundi. Im späten 18. und dem frühen 19. Jh. schwächte eine Debatte um die "
+"Thronfolge das Land, bis es schließlich am Ende des 19. Jh. eine deutsche "
+"Kolonie wurde. Nach dem Ersten Weltkrieg fiel diese an Belgien, nach dem "
+"Zweiten Weltkrieg wurde Burundi auf internationalen Druck hin im Januar 1962 "
+"ein unabhängiger Staat."
 
 #: data/nation/buryat.ruleset:3
 msgid "Buryat"
@@ -26577,6 +26610,14 @@ msgid ""
 "half-million Buryats in the world as well as the center of Buddhism in "
 "Russia."
 msgstr ""
+"Den mongolischen historischen Annalen zufolge waren die Burjaten in den den "
+"Beikalsee umgebenden Wäldern lebende mongolische Stämme, 1207 wurden sie von "
+"Jochi, dem ältesten Sohn von Dschinghis-Khan, unterjocht. Als Russland das "
+"burjatische Heimatland zwischen 1689 und 1728 vertraglich annektierte, "
+"wurden sie politisch vom Rest der Mongolen abgeschnitten und entwickelten "
+"eine eigene nationale Identität. Heute ist die Burjatische Republik Heimat "
+"für die weltweit etwa eine Million Burjaten und Zentrum des Buddhismus in "
+"Russland."
 
 #: data/nation/byzantium.ruleset:3
 msgid "Byzantine"
@@ -26749,6 +26790,12 @@ msgid ""
 "Atlantic slave trade. The islands declared independence from Portugal in "
 "1975. The Cape Verdean population is of mixed European and African descent."
 msgstr ""
+"Die Kapverden sind eine Inselgruppe vor der Küste von Westafrika. Bevor sie "
+"im 15. Jh. von den Portugiesen besiedelt wurden, waren sie aller "
+"Wahrscheinlichkeit nach nicht bewohnt; danach wurden sie ein wichtiges "
+"Zentrum für den altantischen Sklavenhandel. 1975 prokolamierten die "
+"Kapverdischen Inseln ihre Unabhängigkeit von Portugal, die Bevölkerung "
+"besteht aus einer Mischung von europäischen und afrikanischen Abkömmlingen."
 
 #: data/nation/capeverdean.ruleset:24 data/nation/santomean.ruleset:34
 #, c-format
@@ -26798,6 +26845,10 @@ msgid ""
 "Its current territory is divided over several autonomous communities of "
 "Spain."
 msgstr ""
+"Kastilien wurde eines der mächtigsten mittelalterlichen spanischen "
+"Königreiche. Nachdem es zunächst León übernahm und später eine Union mit "
+"Aragon einging, ist sein Gebiet heute über zahlreiche autonome Regionen "
+"Spaniens verstreut."
 
 #: data/nation/catalan.ruleset:3
 msgid "Catalan"
@@ -26819,6 +26870,17 @@ msgid ""
 "out of the alliance, and the Catalans were finally defeated in 1714, losing "
 "their national rights as a result."
 msgstr ""
+"Im Laufe des Mittelalters besiegten und übernahmen die katalanischen Könige "
+"eine Vielzahl von Königreichen an den Küsten des Mittelmeers von der "
+"iberischen Halbinsel bis hin zu Teilen Italiens und Griechenlands. Diese "
+"Konföderation bzw. dieses Reich wurde zu einer starken maritimen und "
+"Handelsmacht im Mittelmeerraum; die Katalanen behielten ihr "
+"Selbstbestimmungsrecht nach einer dynastischen Vereinigung mit dem "
+"benachbarten kastilischen Köngreich und verbündeten sich mit England und "
+"Österreich gegen Frankreich und Kastilien im spanischen Erbfolgekrieg. 1713 "
+"unterzeichnete England den Vertrag zu Utrecht und löste sich von der "
+"Allianz, sodass die Katalanen 1714 besiegt wurden und im Ergebnis ihre "
+"nationalen Rechte einbüßten."
 
 #: data/nation/celtiberian.ruleset:3
 msgid "Celtiberian"
@@ -26834,6 +26896,9 @@ msgid ""
 "last millennium BCE. They were of mixed Celtic and Iberian descent and were "
 "defeated by Rome in the Numantian War."
 msgstr ""
+"Die Keltoiberer waren ein ostzentralspanisches Volk, das während des letzten "
+"Jahrtausends v.u.Z. lebte. Sie bestanden aus einer Mischung von keltischen "
+"und iberischen Nachfahren und wurden von Rom im Numantischen Krieg besiegt."
 
 #: data/nation/centralafrican.ruleset:3
 msgid "Central African"
