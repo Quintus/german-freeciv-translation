@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-28 17:20+0200\n"
-"PO-Revision-Date: 2013-07-28 19:09+0200\n"
+"PO-Revision-Date: 2013-07-28 22:53+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -39246,6 +39246,8 @@ msgstr "Stadt %s an %s abgegeben."
 msgid "You agree on a cease-fire with %s."
 msgstr "Du stimmst einer Feuerpause mit %s zu."
 
+# MG: Grammatikalisch schwierig, weil "Österreicher" und "Inka"
+# unterschiedliche Formen annehmen; daher Nominativ erforderlich.
 #. TRANS: ... the Poles ... Polish territory.
 #: server/diplhand.c:519 server/diplhand.c:531
 #, c-format
@@ -39256,10 +39258,10 @@ msgid_plural ""
 "You agree on an armistice with the %s. In %d turns, it will become a peace "
 "treaty. Move your units out of %s territory."
 msgstr[0] ""
-"Du hast einem Waffenstillstand mit den %s zugestimmt. In %d Runde wird "
-"daraus ein Friedensvertrag. Entferne deine Einheiten aus dem %sen Gebiet."
+"Die %s und Sie haben einen Waffenstillstand vereinbart. In %d Runde wird "
+"daraus ein Friedensvertrag. Entfernen Sie Ihre Einheiten aus dem %sen Gebiet."
 msgstr[1] ""
-"Du hast einem Waffenstillstand mit den %s zugestimmt. In %d Runden wird "
+"Die %s und Sie haben einen Waffenstillstand vereinbart. In %d Runden wird "
 "daraus ein Friedensvertrag. Entferne deine Einheiten aus dem %sen Gebiet."
 
 #: server/diplhand.c:553 server/diplhand.c:556
@@ -40073,31 +40075,26 @@ msgstr ""
 "Tundra geworden."
 
 #: server/maphand.c:229
-#, fuzzy
 msgid ""
 "New hope sweeps like fire through the country as the discovery of railroad "
 "is announced."
 msgstr ""
-"Als die Entwicklung der Eisenbahn bekannt gegeben wird, fassen\n"
-"       die Arbeiter neuen Mut. Spontan statten sie alle Städte damit aus."
+"Neue Hoffnung setzt das Land in Brand als die Entdeckung der Eisenbahn "
+"bekannt gegeben wird."
 
 #: server/maphand.c:233
-#, fuzzy
 msgid ""
 "The people are pleased to hear that your scientists finally know about "
 "railroads."
 msgstr ""
-"Das Volk ist begeistert über die Entwicklung der Eisenbahn durch unsere "
-"Wissenschaftler.\n"
-"       Spontan haben sie alle Städte damit ausgestattet."
+"Das Volk ist begeistert von der Entwicklung der Eisenbahn durch unsere "
+"Wissenschaftler."
 
 #: server/maphand.c:237
-#, fuzzy
 msgid "Workers spontaneously gather and upgrade all cities with railroads."
 msgstr ""
-"Die Bevölkerung in %s ist von deinen technischen Errungenschaften\n"
-"       begeistert! Die Arbeiter haben die Stadt spontan mit einer\n"
-"       Eisenbahn ausgestattet."
+"Die Arbeiterschaft versammelt sich spontan und stattet alle Städte mit "
+"Gleisen aus."
 
 #: server/maphand.c:1496
 #, c-format
@@ -40114,9 +40111,8 @@ msgid "Not reporting to the metaserver in this game."
 msgstr "In diesem Spiel werden keine Daten an den Metaserver geschickt."
 
 #: server/meta.c:234
-#, fuzzy
 msgid "Error connecting to metaserver"
-msgstr "Verbindung zum Server verloren!"
+msgstr "Fehler bei der Verbindung zum Metaserver"
 
 #: server/plrhand.c:134
 #, c-format
