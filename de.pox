@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-28 17:20+0200\n"
-"PO-Revision-Date: 2013-07-19 11:13+0200\n"
+"PO-Revision-Date: 2013-07-28 19:09+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -40338,17 +40338,21 @@ msgid ""
 "User '%s' is currently allowed to take control of your player while you are "
 "away. Use '/delegate cancel' to revoke this access."
 msgstr ""
+"Der Benutzer „%s“ darf Ihren Spieler übernehmen, während Sie abwesend sind. "
+"„/delegate cancel“ widerruft dies."
 
 #: server/plrhand.c:2577
-#, fuzzy, c-format
+#, c-format
 msgid "Control of player '%s' is delegated to you."
-msgstr "%s auf '%s' gesetzt."
+msgstr "Ihnen wurde die Kontrolle über den Spieler „%s“ übergeben."
 
 #. TRANS: '/delegate take' is a server command and must not
 #. * be translated; but <player> should be translated.
 #: server/plrhand.c:2586
 msgid "Use '/delegate take <player>' to take control of a delegated player."
 msgstr ""
+"Benutzen Sie „/delegate take <Spieler>“ um die Kontrolle über einen "
+"zulässigen Spieler zu übernehmen."
 
 #. TRANS: year <name> reports ...
 #: server/report.c:84
@@ -40399,7 +40403,7 @@ msgstr "Plinius der Ältere"
 #. TRANS: [year] <name> [reports ...]
 #: server/report.c:103
 msgid "Livy"
-msgstr "Livy"
+msgstr "Livius"
 
 #. TRANS: [year] <name> [reports ...]
 #: server/report.c:105
@@ -40529,7 +40533,7 @@ msgstr "%2d: Die nichtswürdigen %s"
 #: server/report.c:211
 #, c-format
 msgid "%2d: The Wretched %s"
-msgstr "%2d: Die heruntergekommenen %s"
+msgstr "%2d: Die verkommenen %s"
 
 #: server/report.c:280
 msgid "Historian Publishes!"
@@ -40567,9 +40571,9 @@ msgstr "Die fünf großartigsten Städte der Welt!"
 
 #. TRANS: "Colossus in Rhodes (Greek, team 2)".
 #: server/report.c:396
-#, fuzzy, c-format
+#, c-format
 msgid "%s in %s (%s, %s)\n"
-msgstr "%s in %s (%s)\n"
+msgstr "%s in %s (%s, %s)\n"
 
 #: server/report.c:402
 #, c-format
@@ -40583,9 +40587,9 @@ msgstr "%s wurde ZERSTÖRT\n"
 
 #. TRANS: "([...] (Roman, team 4))".
 #: server/report.c:428
-#, fuzzy, c-format
+#, c-format
 msgid "(building %s in %s (%s, %s))\n"
-msgstr "(baut %s in %s (%s))\n"
+msgstr "(baut %s in %s (%s, %s))\n"
 
 #: server/report.c:433
 #, c-format
@@ -40594,33 +40598,29 @@ msgstr "(baut %s in %s (%s))\n"
 
 #. TRANS: abbreviation of "square miles"
 #: server/report.c:792
-#, fuzzy
 msgid " sq. mi."
 msgid_plural " sq. mi."
-msgstr[0] " qkm"
-msgstr[1] " qkm"
+msgstr[0] " km²"
+msgstr[1] " km²"
 
 #. TRANS: "M tons" = million tons, so always plural
 #: server/report.c:812
-#, fuzzy
 msgid " M tons"
 msgid_plural " M tons"
-msgstr[0] " M t"
-msgstr[1] " M t"
+msgstr[0] " Mt"
+msgstr[1] " Mt"
 
 #. TRANS: "M goods" = million goods, so always plural
 #: server/report.c:822
-#, fuzzy
 msgid " M goods"
 msgid_plural " M goods"
-msgstr[0] " M Produkte"
-msgstr[1] " M Produkte"
+msgstr[0] " Mio. Erzeugnisse"
+msgstr[1] " Mio. Erzeugnisse"
 
 #: server/report.c:831
-#, fuzzy
 msgid " bulb"
 msgid_plural " bulbs"
-msgstr[0] " Punkte"
+msgstr[0] " Punkt"
 msgstr[1] " Punkte"
 
 #: server/report.c:840
@@ -40638,7 +40638,7 @@ msgstr[1] " t"
 #: server/report.c:881
 #, c-format
 msgid "(ranked %d)"
-msgstr ""
+msgstr "(%d. Platz)"
 
 #: server/report.c:997 server/report.c:1024
 msgid "Demographics Report:"
@@ -40664,7 +40664,7 @@ msgid ""
 "(M goods)"
 msgstr ""
 "Handel\n"
-"(M Produkte)"
+"(Mio. Erzeugnisse)"
 
 #. TRANS: "M tons" = million tons
 #: server/report.c:1470
@@ -40673,7 +40673,7 @@ msgid ""
 "(M tons)"
 msgstr ""
 "Produktion\n"
-"(M t)"
+"(Mt)"
 
 #: server/report.c:1471
 msgid "Cities\n"
@@ -40688,7 +40688,7 @@ msgid ""
 "Military Service\n"
 "(months)"
 msgstr ""
-"Militärdienst\n"
+"Wehrdienst\n"
 "(Monate)"
 
 #: server/report.c:1474
@@ -40710,7 +40710,7 @@ msgid ""
 "(sq. mi.)"
 msgstr ""
 "Landfläche\n"
-"(qkm)"
+"(km²)"
 
 #. TRANS: "sq. mi." is abbreviation for "square miles"
 #: server/report.c:1479
@@ -40719,7 +40719,7 @@ msgid ""
 "(sq. mi.)"
 msgstr ""
 "Besiedelte Fläche\n"
-"(qkm)"
+"(km²)"
 
 #: server/report.c:1480
 msgid ""
@@ -40734,20 +40734,18 @@ msgid "Spaceship\n"
 msgstr "Raumschiff\n"
 
 #: server/report.c:1482
-#, fuzzy
 msgid "Built Units\n"
-msgstr "Einheiten im Bau "
+msgstr "Ausgebildete Einheiten\n"
 
 #: server/report.c:1483
-#, fuzzy
 msgid "Killed Units\n"
-msgstr "Mögliche Einheiten"
+msgstr "Getötete Einheiten\n"
 
 #: server/report.c:1484
-#, fuzzy
 msgid "Unit Losses\n"
-msgstr "Schild"
+msgstr "Truppenverluste\n"
 
+# MG: TECHNICAL
 #. TRANS: message about an installation error.
 #: server/ruleset.c:225
 #, c-format
@@ -40755,39 +40753,34 @@ msgid "Could not find a readable \"%s.%s\" ruleset file."
 msgstr "Could not find a readable \"%s.%s\" ruleset file."
 
 #: server/ruleset.c:4180
-#, fuzzy
 msgid "Loading rulesets."
-msgstr "Lade Regelsätze"
+msgstr "Lade Regelsätze."
 
 #: server/ruleset.c:4256
-#, fuzzy
 msgid "Reducing aifill because there are not enough playable nations."
-msgstr ""
-"Du kannst keinen neuen Spieler übernehmen, weil es keine freien Plätze mehr "
-"gibt."
+msgstr "aifill wird verringert, weil es nicht genug spielbare Nationen gibt."
 
 #. TRANS: Minor error message.
 #: server/savegame2.c:301 server/savegame.c:190
-#, fuzzy
 msgid ""
 "Saved game contains incomplete map data. This can happen with old saved "
 "games, or it may indicate an invalid saved game file. Proceed at your own "
 "risk."
 msgstr ""
 "Die Karte wurde nicht komplett gespeichert. Das kann entweder daran liegen, "
-"daß es sich um eine ältere Sicherung handelt oder daß die Sicherungsdatei "
+"daß es sich um eine ältere Sicherung handelt oder dass die Sicherungsdatei "
 "beschädigt ist. Wenn Sie weitermachen wollen: Auf eigene Gefahr!"
 
 #: server/savegame2.c:3099 server/savegame.c:5337 server/srv_main.c:1899
 #: server/srv_main.c:1904
-#, fuzzy, c-format
+#, c-format
 msgid "%s has been added as %s level AI-controlled player (%s)."
-msgstr "%s ist als KI-Spieler mit dem Level '%s' dazu gekommen."
+msgstr "%s ist als KI-Spieler mit dem Level „%s“ dazu gekommen (%s)."
 
 #: server/savegame2.c:3104 server/savegame.c:5342
-#, fuzzy, c-format
+#, c-format
 msgid "%s has been added as human player."
-msgstr "%s ist als KI-Spieler dazu gekommen."
+msgstr "%s ist als menschlicher Spieler dazu gekommen."
 
 #. TRANS: Minor error message: <Leader> ... <Poles>.
 #: server/savegame2.c:3127 server/savegame.c:5389
@@ -40796,30 +40789,31 @@ msgid "%s had invalid nation; changing to %s."
 msgstr "%s ist eine ungültige Nation und wird geändert auf %s."
 
 #: server/savegame2.c:6035
-#, fuzzy
 msgid "current version"
-msgstr "(Beta-Version)"
+msgstr "aktuelle Version"
 
 #: server/savegame2.c:6039
-#, fuzzy
 msgid "freeciv 2.3.0"
-msgstr "Freeciv"
+msgstr "freeciv 2.3.0"
 
 #: server/savegame2.c:6041
-#, fuzzy
 msgid "freeciv 2.4.0"
-msgstr "Freeciv"
+msgstr "freeciv 2.4.0"
 
 #: server/savegame2.c:6092
 #, c-format
 msgid ""
 "Run compatibility function for version: <%d (save file: %d; server: %d)."
 msgstr ""
+"Führe Kompatibilitätsfunktion aus für Version: <%d (Spielstand: %d; Server: "
+"%d)."
 
 #: server/savegame2.c:6126
 #, c-format
 msgid "Run compatibility function for version: <%d (want: %d, server: %d)."
 msgstr ""
+"Führe Kompatibilitätsfunktion aus für Version: <%d (erwartet: %d, Server: "
+"%d)."
 
 #. TRANS: Fatal error message.
 #: server/savegame.c:4536
@@ -40854,12 +40848,12 @@ msgstr "abgewiesen"
 
 #: server/sernet.c:553
 msgid "Restarting for lack of players."
-msgstr "Neustart, da keine Spieler mehr"
+msgstr "Neustart, da keine Spieler mehr."
 
 #: server/sernet.c:571
 #, c-format
 msgid "Restarting in %d seconds for lack of players."
-msgstr "Neustart in %d Sekunden, da keine Spieler mehr"
+msgstr "Neustart in %d Sekunden, da keine Spieler mehr."
 
 #: server/sernet.c:574
 msgid "restarting soon for lack of players"
