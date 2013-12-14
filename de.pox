@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-14 13:25+0100\n"
-"PO-Revision-Date: 2013-12-14 14:08+0100\n"
+"PO-Revision-Date: 2013-12-14 18:19+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -36268,7 +36268,6 @@ msgstr ""
 "Nutzen aus ihnen zu ziehen."
 
 #: data/scenarios/tutorial.sav:209
-#, fuzzy
 msgid ""
 "You have built a settler unit.  Settlers are best used to build \n"
 "new cities, so as to expand your civilization.  Move your settler\n"
@@ -36283,19 +36282,19 @@ msgid ""
 "of much use to small cities.  See the help on Terrain for more\n"
 "information about terrain specs."
 msgstr ""
-"Du hast Siedler gebaut. Siedler werden am besten genutzt,\n"
-"um neue Städte zu gründen und deine Zivilisation zu\n"
-"erweitern. Ziehe deine Siedler aus dem Gebiet der Städte weg,\n"
-"um einen freien Platz für eine neue Stadt zu finden. Dann\n"
-"drücke 'B' um die Stadt zu bauen.\n"
+"Sie haben einen Siedler gebaut. Siedler werden am besten genutzt, um\n"
+"neue Städte zu gründen und so Ihre Zivilisation zu erweitern. Ziehen\n"
+"Sie Ihren Siedler aus dem Gebiet der Städte weg, um einen freien Platz\n"
+"für eine neue Stadt zu finden. Wenn Sie einen ausgewählt haben, können\n"
+"Sie dort mit „B“ eine Stadt gründen.\n"
 "\n"
-"Nochmals, Städte werden am besten auf offenem Gelände und\n"
-"in der Nähe von Wasser gebaut. Grasland und Ebenen liefern\n"
-"der Stadt Nahrung, Wälder und Hügel liefern die Ressourcen für\n"
-"die Produktion. Flüsse und Meere geben Handelsbonusse, die der\n"
-"ganzen Zivilisation zu gute kommen. Wüsten, Tundra und Berge\n"
-"liefern meist wenig Ressourcen und nutzen kleinen Städten wenig.\n"
-"In der Hilfe zu Geländeformen findest du genauere Informationen."
+"Nochmals: Städte werden am besten auf offenem Gelände und in der Nähe\n"
+"von Wasser gebaut. Grasland und Ebenen liefern der Stadt Nahrung,\n"
+"Wälder und Hügel liefern die Ressourcen für die Produktion. Flüsse und\n"
+"Meere geben Handelsboni, die der ganzen Zivilisation zugute\n"
+"kommen. Wüsten, Tundra und Berge liefern meist wenig Ressourcen und\n"
+"nutzen kleinen Städten wenig.  In der Hilfe zu Geländeformen finden\n"
+"Sie genauere Informationen."
 
 #: data/scenarios/tutorial.sav:223
 msgid ""
@@ -36319,7 +36318,6 @@ msgstr ""
 "die Städte mehr Ressourcen zur Verfügung und können sehr groß werden."
 
 #: data/scenarios/tutorial.sav:246
-#, fuzzy
 msgid ""
 "You have built a Barracks.  This building will make any military\n"
 "units you build start out as veterans.  Veteran units are stronger\n"
@@ -36332,15 +36330,15 @@ msgid ""
 "and have a small upkeep as well, so it is not a good idea to let\n"
 "them go to waste."
 msgstr ""
-"Du hast Kasernen gebaut. Durch diese Stadterweiterung beginnen\n"
-"alle gebauten Einheiten als Veteranen. Sie sind stärker als\n"
-"unerfahrene Truppen, und können im Kampf länger überleben. In\n"
-"der Hilfe findest du mehr Informationen über diese und andere\n"
+"Sie haben eine Kaserne errichtet. Durch diese Stadterweiterung\n"
+"beginnen alle gebauten Einheiten als Veteranen. Sie sind stärker als\n"
+"unerfahrene Truppen und können im Kampf länger überleben. In der\n"
+"Hilfe finden Sie mehr Informationen über diese und andere\n"
 "Stadterweiterungen.\n"
 "\n"
 "Es lohnt sich, hier eine militärische Einheit zu bauen. Kasernen\n"
 "sind eine bedeutende Investition und benötigen auch etwas Unterhalt,\n"
-"deshalb solltest du sie nicht ungenutzt lassen."
+"deshalb sollten Sie sie nicht ungenutzt lassen."
 
 #: data/scenarios/tutorial.sav:268
 msgid ""
@@ -36381,20 +36379,20 @@ msgid ""
 "are at war, however, you may wish to move your unit toward an enemy\n"
 "city to attack.  Be careful not to lose it though!"
 msgstr ""
-"Du hast deine erste militärische Einheit gebaut. Sie dient zwei\n"
-"Zwecken: Angriff und Verteidigung. Jede Einheit hat eine Angriffsstärke\n"
-"und eine Verteidigungsstärke. Die Werte von Kriegern sind schwach\n"
-"(1/1), eine Phalanx ist ein viel besserer Verteidiger mit 2\n"
-"Verteidigungspunkten (1/2). Ein Katapult ist eine gute Angriffseinheit\n"
-"mit 6 Angriffspunkten (6/1).\n"
+"Sie haben Ihre erste militärische Einheit gebaut! Militärtruppen\n"
+"dienen zwei Zwecken: Angriff und Verteidigung. Jede Einheit hat eine\n"
+"Angriffs- und eine Verteidigungsstärke. Die Werte von Kriegern sind\n"
+"schwach (1/1), eine Phalanx ist mit 2 Verteidigungspunkten ein viel\n"
+"besserer Verteidiger (1/2). Ein Katapult ist mit 6 Angriffspunkten\n"
+"eine gute Angriffseinheit (6/1).\n"
 "\n"
 "Es ist eine gute Idee, in jeder Stadt ein oder zwei Verteidiger zu\n"
-"haben. Wichtige Städte wie deine Hauptstadt verdienen zusätzlichen\n"
+"haben. Wichtige Städte wie Ihre Hauptstadt verdienen zusätzlichen\n"
 "Schutz. Einheiten, die in einer Stadt gebaut wurden, können zur\n"
-"Verteidigung in eine andere geschickt werden (drücke 'G' und du kannst\n"
-"die Gehe-nach-Funktion dafür nutzen). Während des Krieges kannst du\n"
-"die Einheit zu einer feindlichen Stadt schicken, um anzugreifen. Aber\n"
-"verliere sie nicht!"
+"Verteidigung in eine andere geschickt werden (drücken Sie „G“ und Sie\n"
+"können die „Gehe nach“-Funktion dafür nutzen). Während des Krieges\n"
+"können Sie Einheiten zu einer feindlichen Stadt schicken, um\n"
+"anzugreifen. Aber verlieren Sie sie nicht!"
 
 #: data/scenarios/tutorial.sav:305
 #, fuzzy
@@ -36417,25 +36415,26 @@ msgid ""
 "technology.  When you are done playing around click on the View tab\n"
 "(F1) to return to the map view."
 msgstr ""
-"Du hast deine erste Technologie (Fortschritt) erforscht. Fortschritte\n"
-"sind ein Kernelement von Freeciv. Je mehr du die Wissenschaft\n"
-"voranbringst, werden um so mehr neue Einheiten, Stadterweiterungen,\n"
-"Regierungsformen und verschiedene Bonusse verfügbar.\n"
+"Sie haben Ihre erste Technologie erforscht! Der Fortschritt ist ein\n"
+"Kernelement von Freeciv. Je mehr Sie die Wissenschaft voranbringen,\n"
+"desto mehr neue Einheiten, Stadterweiterungen, Regierungsformen und\n"
+"verschiedene Boni werden verfügbar.\n"
 "\n"
-"Schau dir zunächst den Forschungsbericht an und probiere ihn aus.\n"
-"Mit 'F6' kannst du ihn öffnen. Suche den Fortschritt 'Republik' und\n"
-"klicke darauf. Damit hast du die Republik als Forschungsziel\n"
-"ausgewählt. Die einzelnen Fortschritte, die auf dem Weg dahin erforscht\n"
-"werden müssen, werden automatisch ausgewählt. Im Kopf steht, wieviel\n"
-"Forschungspunkte du jede Runde erzielst - sie ergeben sich aus dem\n"
-"besteuerbaren Handel deiner Städte. Im unteren Teil des Berichts ist\n"
-"der Technologiebaum dargestellt. Ein Linksklick wählt das\n"
-"Forschungsziel, ein Rechtsklick zeigt die Hilfe für die Technologie\n"
-"an. Wenn du mit probieren fertig bist, klicke auf den Reiter 'Karte'\n"
-"und schalte auf die Karte zurück."
+"Sehen Sie sich mit „F6“ (oder durch Klick auf den Reiter „Forschung“\n"
+"im Hauptfenster) den Forschungsbericht an und probieren Sie ihn\n"
+"aus. Suchen Sie den Fortschritt „Republik“ und klicken Sie\n"
+"darauf. Dies wählt die Republik als Forschungsziel aus, d.h. die\n"
+"einzelnen Technologien, die auf dem Weg dorthin erforscht werden\n"
+"müssen, werden automatisch mit ausgewählt. Im oberen Bereich des\n"
+"Fensters können Sie kontrollieren, wie viele Forschungspunkte Sie pro\n"
+"Runde erhalten — sie ergeben sich aus dem besteuerbaren Handel Ihrer\n"
+"Städte. Im unteren Teil des Berichts wird der Technologiebaum\n"
+"dargestellt; ein Linksklick legt ein Forschungsziel fest, wohingegen\n"
+"ein Rechtsklick die Hilfe für den jeweiligen Fortschritt anzeigt. Wenn\n"
+"Sie mit dem Probieren fertig sind, klicken Sie auf den Reiter „Karte“\n"
+"(oder drücken „F1“), um zur Karte umzuschalten.\n"
 
 #: data/scenarios/tutorial.sav:324
-#, fuzzy
 msgid ""
 "Now you have researched your second technology.  Go back into the\n"
 "Research report (F6) and take a quick look at your progress.  If you\n"
@@ -36451,20 +36450,22 @@ msgid ""
 "to worry about picking a new research target each time you finish\n"
 "researching a technology."
 msgstr ""
-"Nun hast du den zweiten Fortschritt errungen. Gehe mit 'F6' zum\n"
-"Forschungsbericht und wird einen Blick darauf. Falls du vorher\n"
-"die Republik als Forschungsziel angegeben hast, dann wurde der nächste\n"
-"Schritt automatisch bestimmt. Falls du jedoch kein Ziel gesetzt hast,\n"
-"solltest du jetzt den nächsten Schritt bestimmen.\n"
+"Nun haben Sie den zweiten Fortschritt errungen. Kehren Sie mit „F6“\n"
+"zum Forschungsbericht zurück und werfen Sie einen Blick auf Ihren\n"
+"momentanen Fortschritt. Falls Sie zuvor die Republik als\n"
+"Forschungsziel angegeben haben, sollte der nächste Forschungsschritt\n"
+"automatisch bestimmt worden sein. Andernfalls sollten Sie diesen\n"
+"nächsten Schritt nun festlegen.\n"
 "\n"
-"In der Runde, wo ein neuer Fortschritt errungen wurde, kannst du\n"
-"den nächsten Schritt wählen. Wenn du jedoch während der Erforschung\n"
-"den aktuellen Schritt änderst, geht die bis dahin geleistete Forschung\n"
-"verloren. Wählst du das Forschungsziel sorgfältig aus, dann brauchst\n"
-"du dich um die einzelnen Schritte nicht mehr zu kümmern."
+"In der Runde, in der eine Technologie erforscht wurde, können Sie\n"
+"einen neuen zu erforschenden Fortschritt auswählen. Wenn Sie jedoch\n"
+"während der Forschungsarbeiten an einer Technologie einen neuen\n"
+"Forschungsauftrag erteilen, geht die bis dahin geleistete Forschung\n"
+"vollständig verloren.  Wählen Sie daher Ihr Forschungsziel sorgfältig\n"
+"aus, sodass Sie sich nicht mehr um die einzelnen Zwischenschritte\n"
+"kümmern müssen."
 
 #: data/scenarios/tutorial.sav:339
-#, fuzzy
 msgid ""
 "You have successfully completed research into The Republic.  This\n"
 "technology is particularly useful because it allows a new form of\n"
@@ -36482,24 +36483,24 @@ msgid ""
 "However Republic is a substantially better form of government\n"
 "than Despotism so the investment will soon pay off."
 msgstr ""
-"Du hast die Erforschung der Republik beendet. Dieser Fortschritt ist\n"
-"besonders nützlich, da er die Wahl einer neuen Regierungsform\n"
-"erlaubt. Die Regierung, der deine Zivilisation folgt, ist\n"
-"entscheidend für deine Entwicklung. Zu Beginn regierst du im\n"
-"Despotismus, einer sehr ineffizienten Regierungsform. Spätere\n"
-"Regierungsformen ermöglichen es dir, deine Zivilisation als\n"
-"friedliche Handelsnation oder als erobernder Moloch zu führen\n"
-"Beides hat Vorteile.\n"
+"Sie haben die Forschungsarbeiten an der Republik abgeschlossen. Dieser\n"
+"Fortschritt ist besonders nützlich, da er die Wahl einer neuen\n"
+"Regierungsform erlaubt. Die Regierung, die Ihre Zivilisation\n"
+"beherrscht, ist ein für Ihre weitere Entwicklung entscheidendes\n"
+"Merkmal. Zu Beginn regieren Sie als Despot in einer sehr ineffizienten\n"
+"Regierungsform, spätere Staatsformen aber ermöglichen es Ihnen, Ihre\n"
+"Zivilisation zu einer friedlichen Handelsnation zu entwickeln oder sie\n"
+"zu einem erobernden Moloch zu machen. Beides hat seine Vorteile.\n"
 "\n"
-"Jetzt hast du die Gelegenheit, direkt zur Republik zu wechseln.\n"
-"Im Menü 'Regierung' wählst du 'Regierung ändern' und 'Republik'.\n"
-"Ja, du willst eine Revolution! Während des Regierungswechsels gibt\n"
-"es ein paar Runden Anarchie, das mußt du in Kauf nehmen.\n"
-"Die Republik ist eine wesentlich bessere Regierungsform als\n"
-"der Despotismus, es zahlt sich also aus."
+"Sie haben jetzt die Gelegenheit, direkt zur Republik zu wechseln.\n"
+"Wählen Sie im Menü „Zivilisation“ den Punkt „Regierungsformen“ und\n"
+"dort den Unterpunkt „Republik“. Ja, Sie wollen eine Revolution!\n"
+"Während des Wechsels der Staatsform gibt es naturgemäß ein paar Runden\n"
+"Anarchie, die Sie jedoch in Kauf nehmen müssen. Die Republik ist eine\n"
+"wesentlich bessere Regierungsform als der Despotismus, es zahlt sich\n"
+"also aus."
 
 #: data/scenarios/tutorial.sav:366
-#, fuzzy
 msgid ""
 "Your unit has found a Hut.  These are small villages scattered across\n"
 "the landscape.  When a unit enters one, several things may happen.  The\n"
@@ -36511,14 +36512,14 @@ msgid ""
 "unit instantly.  On average, it is beneficial to search out and enter\n"
 "any huts you find as soon as possible."
 msgstr ""
-"Deine Einheit hat ein Dorf entdeckt. Diese kleinen Dörfer sind\n"
-"über die Karte verteilt. Wenn eine Einheit ein Dorf erreicht, kann\n"
-"verschiedenes passieren: meistens findest du etwas Gold. In dem\n"
-"Dorf kann jedoch auch ein Fortschritt zu finden sein, oder Söldner.\n"
-"In einigen Dörfern gibt es eingeborene Siedler, die sich mit ihrer\n"
-"Stadt deiner Zivilisation anschließen. Schließlich können dort auch\n"
-"Barbaren hausen, die deine Einheit sofort vernichten. Im\n"
-"Durchschnitt ist es vorteilhaft, Dörfer ausfindig zu machen und\n"
+"Ihre Einheit hat ein Dorf entdeckt. Diese kleinen Dörfer sind über die\n"
+"Karte verteilt und wenn eine Einheit ein Dorf erreicht, kann\n"
+"Verschiedenes passieren: meistens erhalten Sie etwas Gold, in dem Dorf\n"
+"kann jedoch auch ein Fortschritt zu finden sein oder Söldner. In\n"
+"einigen Dörfern gibt es eingeborene Siedler, die sich mit ihrer Stadt\n"
+"Ihrer Zivilisation anschließen. Schließlich können dort aber auch\n"
+"Barbaren hausen, die Ihre Einheit sofort vernichten; im Durchschnitt\n"
+"ist es allerdings meist vorteilhaft, Dörfer ausfindig zu machen und\n"
 "sofort zu betreten."
 
 #: data/scenarios/tutorial.sav:381
@@ -36528,7 +36529,7 @@ msgstr "Lade Ereignisse der Einführung."
 #: manual/civmanual.c:152
 #, c-format
 msgid "Could not write manual file %s."
-msgstr "Konnte die Handbuch-Datei '%s' nicht schreiben."
+msgstr "Konnte die Handbuch-Datei „%s“ nicht schreiben."
 
 #: manual/civmanual.c:160
 #, c-format
@@ -36830,9 +36831,8 @@ msgid "?license:Unknown"
 msgstr "Unbekannt"
 
 #: modinst/modinst.c:293
-#, fuzzy
 msgid "?modpack:Type"
-msgstr "Ungültiger Modpack-Typ."
+msgstr "Typ"
 
 #. TRANS: noun
 #: modinst/modinst.c:300
@@ -36905,7 +36905,7 @@ msgstr "Kann KI-Modul %s nicht öffnen (%s)"
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: server/aiiface.c:90
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot find capstr function from ai module %s (%s)"
 msgstr "Cannot find capstr function from ai module %s (%s)"
 
@@ -37025,9 +37025,8 @@ msgid "%s was rejected: Too many wrong password tries."
 msgstr "%s abgewiesen: zu viele falsche Passworteingaben."
 
 #: server/auth.c:236 server/auth.c:256
-#, fuzzy
 msgid "auth failed"
-msgstr "fehlgeschlagen"
+msgstr "Authentifizierung fehlgeschlagen"
 
 #: server/auth.c:243
 msgid "Your password is incorrect. Try again."
@@ -37068,7 +37067,7 @@ msgstr ""
 #: server/barbarian.c:640
 #, c-format
 msgid "Native unrest near %s led by %s."
-msgstr "Barbarenaufstand bei %s; Anführer ist %s."
+msgstr "Barbarenaufstand bei %s unter Führung von %s."
 
 #: server/barbarian.c:645
 #, c-format
@@ -37080,7 +37079,7 @@ msgid "You have already sold something here this turn."
 msgstr "In dieser Runde wurde hier bereits etwas verkauft."
 
 #: server/cityhand.c:275
-#, fuzzy, c-format
+#, c-format
 msgid "You sell %s in %s for %d gold."
 msgid_plural "You sell %s in %s for %d gold."
 msgstr[0] "%s in %s wurde für %d Goldstück verkauft."
@@ -37202,10 +37201,9 @@ msgid "You already had a city called %s. The city was renamed to %s."
 msgstr "Es gab bereits eine Stadt namens %s. Sie wurde in %s umbenannt."
 
 #: server/citytools.c:1074
-#, fuzzy, c-format
+#, c-format
 msgid "The people in %s are stunned by your technological insight!"
-msgstr ""
-"Die Bevölkerung in %s ist von Ihren technischen Errungenschaften begeistert!"
+msgstr "Die Bevölkerung in %s ist von Ihren technologischen Errungenschaften begeistert!"
 
 #: server/citytools.c:1078
 #, c-format
@@ -37233,12 +37231,10 @@ msgstr ""
 "verloren."
 
 #: server/citytools.c:1480
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "When %s was disbanded your %s in %s was trapped, and it was therefore lost."
-msgstr ""
-"Als %s aufgelöst wurde sind, konnten die %s nicht fliehen und gingen "
-"verloren."
+msgstr "Als %s aufgelöst wurde, konnte %s nicht aus %s fliehen und ging verloren."
 
 #: server/citytools.c:1647
 #, c-format
@@ -37254,8 +37250,8 @@ msgstr "%s wurde von %s zerstört."
 #, c-format
 msgid "You conquer %s; your lootings accumulate to %d gold!"
 msgid_plural "You conquer %s; your lootings accumulate to %d gold!"
-msgstr[0] "Du hast %s erobert. Beute im Wert von %d Goldstück gemacht!"
-msgstr[1] "Du hast %s erobert. Beute im Wert von %d Goldstücken gemacht!"
+msgstr[0] "Sie haben %s erobert. Beute im Wert von %d Goldstück gemacht!"
+msgstr[1] "Sie haben %s erobert. Beute im Wert von %d Goldstücken gemacht!"
 
 #: server/citytools.c:1683
 #, c-format
@@ -37265,9 +37261,9 @@ msgstr[0] "%s hat %s erobert und Beute im Wert von %d Goldstück gemacht."
 msgstr[1] "%s hat %s erobert und Beute im Wert von %d Goldstücken gemacht."
 
 #: server/citytools.c:1692
-#, fuzzy, c-format
+#, c-format
 msgid "You conquer %s."
-msgstr "Du eroberst %s."
+msgstr "Sie haben %s erobert."
 
 #: server/citytools.c:1695
 #, c-format
@@ -37291,7 +37287,7 @@ msgstr[1] "%s befreite %s und machte Beute im Wert von %d Goldstücken."
 #: server/citytools.c:1718
 #, c-format
 msgid "You have liberated %s!"
-msgstr "Du hast %s befreit!"
+msgstr "Sie haben %s befreit!"
 
 #: server/citytools.c:1721
 #, c-format
