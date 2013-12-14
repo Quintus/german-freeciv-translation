@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-14 13:25+0100\n"
-"PO-Revision-Date: 2013-07-19 11:13+0200\n"
+"PO-Revision-Date: 2013-12-14 14:08+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -1470,9 +1470,8 @@ msgstr ""
 "Server '%1$s' an Port %2$d herzustellen..."
 
 #: client/connectdlg_common.c:219
-#, fuzzy
 msgid "Starting local server..."
-msgstr "Starte Server..."
+msgstr "Starte lokalen Server..."
 
 #: client/connectdlg_common.c:375
 msgid "Couldn't start the server."
@@ -1493,7 +1492,7 @@ msgstr "Kann vermutlich nicht hier gestartet werden."
 #: client/connectdlg_common.c:523
 msgid ""
 "Established control over the server. You have command access level 'hack'."
-msgstr "Wir kontrollieren den Server (Zugriffsberechtigung 'hack')."
+msgstr "Wir kontrollieren den Server (Zugriffsberechtigung „hack“)."
 
 #: client/connectdlg_common.c:529
 msgid ""
@@ -6084,17 +6083,17 @@ msgid ""
 "Sir!, the %s ambassador has arrived\n"
 "What are your wishes?"
 msgstr ""
-"Der %se Botschafter ist angekommen!\n"
-"Welches sind die Befehle?"
+"Herr! Der %se Botschafter ist angekommen!\n"
+"Wie lauten Ihre Befehle?"
 
 #: client/gui-sdl/diplodlg.c:1514
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Ma'am!, the %s ambassador has arrived\n"
 "What are your wishes?"
 msgstr ""
-"Der %se Botschafter ist angekommen!\n"
-"Welches sind die Befehle?"
+"Ma’am! Der %se Botschafter ist angekommen!\n"
+"Wie lauten Ihre Befehle?"
 
 #: client/gui-sdl/diplodlg.c:1531
 msgid "Declare WAR"
@@ -10377,7 +10376,7 @@ msgstr "KI-Modus AUSGESCHALTET."
 #. TRANS: No connection
 #: client/plrdlg_common.c:195
 msgid "noconn"
-msgstr ""
+msgstr "getrennt"
 
 #: client/plrdlg_common.c:199 client/plrdlg_common.c:208
 msgid "waiting"
@@ -10385,9 +10384,8 @@ msgstr "wartet"
 
 #. TRANS: Turnblocking & player not connected
 #: client/plrdlg_common.c:204
-#, fuzzy
 msgid "blocking"
-msgstr "gesperrt"
+msgstr "blockiert"
 
 #: client/plrdlg_common.c:256
 msgid "?Player:Name"
@@ -13115,7 +13113,6 @@ msgid "Temple"
 msgstr "Tempel"
 
 #: data/civ1/buildings.ruleset:617 data/civ2/buildings.ruleset:922
-#, fuzzy
 msgid ""
 "Makes one unhappy citizen content.  The Mysticism advance doubles this "
 "effect, as does Oracle wonder.  With both Mysticism and the Oracle, 4 "
@@ -13379,14 +13376,12 @@ msgid "Oracle"
 msgstr "das Orakel"
 
 #: data/civ1/buildings.ruleset:965 data/civ2/buildings.ruleset:1377
-#, fuzzy
 msgid ""
 "Doubles the effect of a Temple in every city. Does not affect citizens made "
 "unhappy by military activity."
 msgstr ""
-"Stellt in jeder Stadt auf dem gleichen Kontinent zwei Unzufriedene "
-"zufrieden, abgesehen von solchen, die wegen militärischer Aktivitäten "
-"unzufrieden sind."
+"Verdoppelt in jeder Stadt die Auswirkungen eines Tempels, hat jedoch keinen "
+"Einfluss auf wegen militärischer Aktivitäten unzufriedene Bürger."
 
 #: data/civ1/buildings.ruleset:971 data/civ2/buildings.ruleset:1383
 #: data/default/buildings.ruleset:1451
@@ -18523,14 +18518,12 @@ msgstr "Seen sind abgeschlossene Bereiche frischen Wassers."
 
 #: data/default/terrain.ruleset:270 data/experimental/terrain.ruleset:272
 #: data/multiplayer/terrain.ruleset:270
-#, fuzzy
 msgid ""
 "Shallow oceans are mostly found near coastlines, and are often rich sources "
 "of food and other resources."
 msgstr ""
 "Seichtes Wasser ist meist in Küstennähe zu finden und reich an Nahrung sowie "
-"anderen Ressourcen. Es kann von Seeeinheiten (einschließlich Triremen) "
-"befahren werden."
+"anderen Ressourcen."
 
 #: data/default/terrain.ruleset:276 data/experimental/terrain.ruleset:278
 #: data/multiplayer/terrain.ruleset:276
@@ -27474,7 +27467,6 @@ msgid "?plural:Colombians"
 msgstr "Kolumbianer"
 
 #: data/nation/colombian.ruleset:6
-#, fuzzy
 msgid ""
 "Colombia is a country in northern South America. The region was an "
 "Amerindian cultural center in pre-European time. The Spanish began settling "
@@ -27628,7 +27620,7 @@ msgid "General-in-Chief %s"
 msgstr "Oberkommandant %s"
 
 #: data/nation/corsican.ruleset:32
-#, fuzzy, c-format
+#, c-format
 msgid "?female:General-in-Chief %s"
 msgstr "Oberkommandantin %s"
 
@@ -28407,9 +28399,9 @@ msgstr ""
 #: data/nation/tahitian.ruleset:28 data/nation/tairona.ruleset:26
 #: data/nation/tswana.ruleset:30 data/nation/vanuatuan.ruleset:25
 #: data/nation/venda.ruleset:22 data/nation/xhosa.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "Paramount Chief %s"
-msgstr "Großer Häuptling"
+msgstr "Großer Häuptling %s"
 
 #: data/nation/fijian.ruleset:24 data/nation/maasai.ruleset:21
 #: data/nation/maori.ruleset:23 data/nation/nauruan.ruleset:33
@@ -28417,9 +28409,9 @@ msgstr "Großer Häuptling"
 #: data/nation/tahitian.ruleset:28 data/nation/tairona.ruleset:26
 #: data/nation/tswana.ruleset:30 data/nation/vanuatuan.ruleset:25
 #: data/nation/venda.ruleset:22 data/nation/xhosa.ruleset:28
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Paramount Chief %s"
-msgstr "Großer Häuptling"
+msgstr "Großer Häuptling %s"
 
 #: data/nation/filipino.ruleset:3
 msgid "Filipino"
@@ -28812,7 +28804,6 @@ msgid "?plural:Georgians"
 msgstr "Georgier"
 
 #: data/nation/georgian.ruleset:6
-#, fuzzy
 msgid ""
 "The Georgians were one of the first peoples in history to adopt "
 "Christianity, in the 300s CE."
@@ -29253,7 +29244,6 @@ msgid "Hanseatic"
 msgstr "hanseatisch"
 
 #: data/nation/hansa.ruleset:4
-#, fuzzy
 msgid "?plural:Hanseatic League"
 msgstr "Hanse"
 
@@ -29425,7 +29415,7 @@ msgid ""
 "controlled central Anatolia, north-western Syria and Mesopotamia down to "
 "Babylon."
 msgstr ""
-"Das hittitische Königreich dauerte von etwa 1680 bis 1180 v. Chr. Es war die "
+"Das hittitische Königreich dauerte von etwa 1680 bis 1180 v.u.Z. Es war die "
 "erste Zivilisation, die die Eisenverarbeitung beherrschte. Auf ihrem "
 "Höhepunkt kontrollierten sie Zentralanatolien, Nordwest-Syrien und "
 "Mesopotamien bis hinunter nach Babylon."
@@ -30432,7 +30422,6 @@ msgid "Kyrgyz"
 msgstr "kirgisisch"
 
 #: data/nation/kyrgyz.ruleset:4
-#, fuzzy
 msgid "?plural:Kyrgyzs"
 msgstr "Kirgisen"
 
@@ -31915,12 +31904,12 @@ msgid "?plural:Nigerians"
 msgstr "Nigerier"
 
 #: data/nation/nigerian.ruleset:6
-#, fuzzy
 msgid ""
 "Nigeria won full independence from British rule in 1960. It is the most "
 "populous country of Africa."
 msgstr ""
-"Nigeria errang 1960 die volle Unabhängigkeit von britischer Herrschaft."
+"Nigeria errang 1960 die volle Unabhängigkeit von britischer Herrschaft. Es "
+"ist das bevölkerungsreichste Land Afrikas."
 
 # MG: StAGN.
 #: data/nation/nigerien.ruleset:3
@@ -35383,7 +35372,11 @@ msgid ""
 msgstr ""
 "Venezuela ist das nördlichste Land Südamerikas. Seit dem 16. Jahrhundert "
 "eine spanische Kolonie, wurde das Land am 5. Juli 1811 unter der "
-"Führerschaft von 'El Libertador' - dem Befreier - Simón Bolívar unabhängig."
+"Führerschaft von „El Libertador“ - dem Befreier - Simón Bolivar unabhängig. "
+"Venezuela verfügt über einige der weltweit größten Öl- und Gasreserven und "
+"war während des Ölbooms in den 1970er Jahren einer der wohlhabendsten "
+"Staaten Lateinamerikas. Das Land ist bekannt für seine wechselhafte "
+"Landschaft und seinen hohen Artenreichtum."
 
 #: data/nation/vermont.ruleset:3
 msgid "Vermont"
@@ -35901,9 +35894,8 @@ msgid "Earth (classic/large)"
 msgstr "Erde (klassisch, groß)"
 
 #: data/scenarios/earth-160x90-v2.sav:4
-#, fuzzy
 msgid "Classic-style 160x90 map of the Earth."
-msgstr "Klassische 160x90-Karte der Britischen Inseln."
+msgstr "Klassische 160x90-Karte der Erde."
 
 #: data/scenarios/earth-80x50-v3.sav:44
 msgid "Earth (classic/small)"
@@ -35942,43 +35934,36 @@ msgid "Iberian Peninsula (classic/large)"
 msgstr "Iberische Halbinsel (klassisch, groß)"
 
 #: data/scenarios/iberian-peninsula-136x100-v1.0.sav:4
-#, fuzzy
 msgid ""
 "Classic-style 136x100 map of the Iberian Peninsula (modern-day Spain and "
 "Portugal)."
 msgstr ""
-"Große Karte der Iberischen Halbinsel im klassischen Stil (heutiges Spanien "
+"136x100-Karte der Iberischen Halbinsel im klassischen Stil (heutiges Spanien "
 "und Portugal)."
 
 #: data/scenarios/italy-100x100-v1.5.sav:3
-#, fuzzy
 msgid "Italy (classic/medium)"
-msgstr "Erde (klassisch, mittelgroß)"
+msgstr "Italien (klassisch, mittelgroß)"
 
 #: data/scenarios/italy-100x100-v1.5.sav:4
-#, fuzzy
 msgid "Classic-style 100x100 map of Italy."
-msgstr "Klassische 85x80 Karte der Britischen Inseln."
+msgstr "Klassische 100x100-Karte von Italien."
 
 #: data/scenarios/japan-88x100-v1.3.sav:4
-#, fuzzy
 msgid "Japan (classic/medium)"
-msgstr "Erde (klassisch, mittelgroß)"
+msgstr "Japan (klassisch, mittelgroß)"
 
 #: data/scenarios/japan-88x100-v1.3.sav:5
-#, fuzzy
 msgid "Classic-style 88x100 map of Japan."
-msgstr "Klassische 85x80 Karte der Britischen Inseln."
+msgstr "Klassische 88x100-Karte von Japan."
 
 #: data/scenarios/north_america_116x100-v1.2.sav:4
-#, fuzzy
 msgid "North America (classic/medium)"
-msgstr "Erde (klassisch, mittelgroß)"
+msgstr "Nordamerika (klassisch, mittelgroß)"
 
 #: data/scenarios/north_america_116x100-v1.2.sav:5
-#, fuzzy
 msgid "Classic-style 116x100 map of North America."
-msgstr "Klassische 160x90 Erdkarte."
+msgstr "Klassische 116x100-Karte von Nordamerika."
 
 #: data/scenarios/tutorial.sav:3
 msgid "Tutorial"
@@ -35987,6 +35972,7 @@ msgstr "Einführung"
 #: data/scenarios/tutorial.sav:4
 msgid "Play this tutorial scenario to get an introduction to Freeciv."
 msgstr ""
+"Spielen Sie dieses Szenario, um eine Einführung in Freeciv zu erhalten."
 
 #: data/scenarios/tutorial.sav:19
 msgid ""
@@ -36116,7 +36102,6 @@ msgstr ""
 "wachsen wird."
 
 #: data/scenarios/tutorial.sav:97
-#, fuzzy
 msgid ""
 "As the number of cities in your empire grows, it becomes harder to\n"
 "manage individual cities.  This is where the Cities report becomes\n"
@@ -36127,14 +36112,15 @@ msgid ""
 "aspect of the cities from this report.  The full power of the Cities\n"
 "report is beyond the scope of this tutorial, however."
 msgstr ""
-"Mit wachsender Zahl von Städten in deinem Reich wird es\n"
-"schwieriger, die Städte zu verwalten. Hierbei hilft der Stadtbericht.\n"
-"Du erhältst ihn mit 'F4'. Der Bericht zeigt eine Liste der Städte\n"
-"mit verschiedenen Statistiken über jede. Probiere dies aus, zurück\n"
-"zur Karte kommst du, wenn du auf den Reiter 'Karte' klickst. Mit etwas\n"
-"Übung kann man beinahe jede Einstellung der Städte von hier vornehmen.\n"
-"Wir können hier jedoch nicht alle Möglichkeiten erklären, die der\n"
-"Stadtbericht bietet."
+"Mit wachsender Zahl von Städten in Ihrem Reich wird es schwieriger,\n"
+"die Städte zu verwalten. Hierbei hilft der Stadtbericht, den Sie mit\n"
+"„F4“ aufrufen können. Der Bericht zeigt eine Liste der Städte mit\n"
+"verschiedenen Statistiken über jede einzelne. Wenn Sie mögen, können\n"
+"Sie ein wenig mit ihm herumspielen (zurück zur Karte gelangen Sie mit\n"
+"„F1“ oder durch Klick auf den Reiter „Karte“). Mit etwas Übung kann\n"
+"man beinahe jede Einstellung der Städte von hier vornehmen. Wir können\n"
+"hier jedoch nicht alle Möglichkeiten erklären, die der Stadtbericht\n"
+"bietet."
 
 #: data/scenarios/tutorial.sav:116
 msgid ""
@@ -36159,7 +36145,6 @@ msgstr ""
 "fertigzustellen."
 
 #: data/scenarios/tutorial.sav:128
-#, fuzzy
 msgid ""
 "Your city has grown again!  Now with three citizens you have\n"
 "a fair amount of choice over where the city should focus its\n"
@@ -36177,24 +36162,25 @@ msgid ""
 "all specialists - right now they are all entertainers which provide\n"
 "only luxuries (which will not be useful until later)."
 msgstr ""
-"Deine Stadt ist erneut gewachsen! Mit drei Bürgern hast du nun\n"
-"gute Wahlmöglichkeiten, worauf die Stadt ihre Ressourcen bündelt.\n"
-"Sie kann nun drei Felder bearbeiten, und zusätzlich das Stadtzentrum.\n"
-"Im Stadtfenster zeigt die Karte, welche Felder bearbeitet werden,\n"
-"und wieviel Nahrung, Produktion und Handel daraus erzielt werden.\n"
-"Mit Nahrung kann die Stadt wachsen, Produktion dient der Erstellung\n"
-"von Stadterweiterungen und Einheiten, und Handel liefert besteuerbares\n"
-"Einkommen, das in Forschung, Gold oder Luxus investiert werden kann.\n"
+"Ihre Stadt ist erneut gewachsen! Mit drei Bürgern haben Sie nun gute\n"
+"Wahlmöglichkeiten im Hinblick auf die Bündelung der Ressourcen der\n"
+"Stadt. Sie kann nun drei Felder bearbeiten, zusätzlich das\n"
+"Stadtzentrum. Im Stadtfenster zeigt die Karte, welche Felder\n"
+"bearbeitet werden, und wieviel Nahrung, Produktion und Handel daraus\n"
+"erzielt werden. Mit Nahrung kann die Stadt wachsen, Produktion dient\n"
+"der Erstellung von Stadterweiterungen und Einheiten, und Handel\n"
+"liefert besteuerbares Einkommen, das in Forschung, Gold oder Luxus\n"
+"investiert werden kann.\n"
 "\n"
-"Klicke auf ein bearbeitetes Feld um den Bürger von dem Feld zu\n"
-"entfernen. Platziere ihn mit einem weiteren Klick auf einem freien\n"
+"Klicken Sie auf ein bearbeitetes Feld, um einen Bürger von seinem Feld zu\n"
+"entfernen. Platzieren Sie ihn mit einem weiteren Klick auf einem freien\n"
 "Feld. Natürlich können nur drei Bürger eingesetzt werden. Die nicht\n"
 "eingesetzten Bürger sind Spezialisten - im Moment sind dies alles\n"
 "Unterhalter, die nur Luxus produzieren (der in der jetzigen Spielphase\n"
 "nichts nützt)."
 
 #: data/scenarios/tutorial.sav:146
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Now your city has grown to size five.  As cities get larger unrest\n"
 "becomes a problem.  A city of this size will usually have one unhappy\n"
@@ -36211,20 +36197,21 @@ msgid ""
 "citizen).  Building a marketplace enhances the benefit from this\n"
 "by providing +50%% luxuries to the city."
 msgstr ""
-"Nun ist deine Stadt zur Größe 5 gewachsen. In größeren Städten\n"
-"wird Unzufriedenheit ein Problem. Eine Stadt mit Größe 5 hat\n"
+"Nun ist Ihre Stadt zur Größe 5 gewachsen. In größeren Städten\n"
+"wird Unzufriedenheit zu einem Problem; eine Stadt mit Größe 5 hat\n"
 "meist einen unglücklichen Bürger, wenn keine Maßnahmen zur\n"
 "Befriedung ergriffen werden. Es wird ein Unterhalter\n"
 "benötigt, um die Bürger zufrieden zu machen. Damit wird\n"
 "praktisch ein Bürger verschwendet.\n"
 "\n"
-"Dagegen kannst du verschiedene Dinge unternehmen. Recht einfach\n"
-"kann ein Tempel (oder eine andere kulturelle Stadterweiterung)\n"
-"errichtet werden, der einen Bürger zufrieden macht (in der Hilfe für\n"
-"Stadterweiterungen steht mehr). Hast du weitere große Städte, kann\n"
-"es sich lohnen, die Steuerrate anzupassen, um mehr Luxus zu erhalten\n"
-"(je 2 Luxus stellen einen Bürger zufrieden). Ein Marktplatz in der Stadt\n"
-"erhöht diesen Nutzen, indem der Luxus um 50%% gesteigert wird."
+"Dagegen können Sie verschiedene Dinge unternehmen. Recht einfach kann\n"
+"ein Tempel (oder eine andere kulturelle Stadterweiterung) errichtet\n"
+"werden, der einen Bürger zufrieden macht (in der Hilfe für\n"
+"Stadterweiterungen finden Sie mehr dazu). Besitzen Sie weitere große\n"
+"Städte, kann es sich lohnen, die Steuerrate anzupassen (mithilfe von\n"
+"Strg-T), um mehr Luxus zu erhalten (je 2 Luxus stellen einen Bürger\n"
+"zufrieden). Ein Marktplatz in der Stadt erhöht diesen Nutzen, da der\n"
+"Luxus um 50%% gesteigert wird."
 
 #: data/scenarios/tutorial.sav:163
 msgid ""
@@ -36255,7 +36242,6 @@ msgstr ""
 "Fortschritt 'Hygiene' bekannt sein."
 
 #: data/scenarios/tutorial.sav:179
-#, fuzzy
 msgid ""
 "Congratulations, you have grown a city to size 13.  A city this\n"
 "large can provide a tremendous amount of output if properly upgraded.\n"
@@ -36269,17 +36255,17 @@ msgid ""
 "provide enough taxable revenue (gold) to allow you to purchase some\n"
 "buildings to accelerate their productions."
 msgstr ""
-"Herzlichen Glückwunsch, du hast eine Stadt der Größe 13. Eine\n"
-"Stadt dieser Größe kann eine enorme Produktion liefern, wenn sie\n"
-"gut verwaltet wird. Stelle sicher, das du genug Steuern und\n"
-"kulturelle Stadterweiterungen hast, damit deine Bürger zufrieden sind.\n"
-"Außerdem solltest du auf Stadterweiterungen achten, die die Produktion\n"
-"erhöhen. Bibliotheken, Marktplätze, Fabriken und Bohrinseln sind\n"
-"Erweiterungen, die sich lohnen. Überlege, wieviel Nutzen ein Gebäude\n"
-"bringt und was es kostet - für sehr große Städte lohnen sich fast alle\n"
-"Stadterweiterungen. Sie liefern sogar soviel besteuerbares Einkommen,\n"
-"daß du einige Erweiterungen kaufen kannst, um schneller Nutzen aus\n"
-"ihnen zu ziehen."
+"Herzlichen Glückwunsch, Sie besitzen nun eine Stadt der Größe 13. Eine\n"
+"Stadt dieser Größe kann eine enorme Produktion liefern, wenn sie gut\n"
+"verwaltet wird. Stellen Sie sicher, das Sie genug Steuern und\n"
+"kulturelle Stadterweiterungen haben, um Ihre Bürger zufrieden stellen\n"
+"zu können. Außerdem sollten Sie auf Stadterweiterungen achten, die die\n"
+"Produktion erhöhen. Bibliotheken, Marktplätze, Fabriken und Bohrinseln\n"
+"sind Erweiterungen, die sich lohnen. Überlegen Sie, wieviel Nutzen ein\n"
+"Gebäude bringt und was es kostet - für sehr große Städte lohnen sich\n"
+"fast alle Stadterweiterungen. Sie liefern sogar soviel besteuerbares\n"
+"Einkommen (Gold), dass Sie einige Erweiterungen kaufen können, um schneller\n"
+"Nutzen aus ihnen zu ziehen."
 
 #: data/scenarios/tutorial.sav:209
 #, fuzzy
