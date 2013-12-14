@@ -3,4 +3,60 @@ German translation for Freeciv
 
 Upstream homepage: http://freeciv.org
 
-TODO: Write a README.
+This is the German translation for Freeciv.
+
+How to get a translation file
+-----------------------------
+
+First you need to clone Freeciv’s Subversion repository and configure freeciv:
+
+~~~~~~~~~~~~~~~~~~~~~~
+$ svn co svn://svn.gna.org/svn/freeciv/branches/S2_4 freeciv-2.4
+$ cd freeciv-2.4
+$ ./autogen.sh
+$ ./configure --prefix=/opt/freeciv-trans
+~~~~~~~~~~~~~~~~~~~~~~
+
+Now change into the `po/` directory and have the translation file created for you:
+
+~~~~~~~~~~~~~~~~~~~~~~
+$ cd po
+$ make de.pox
+~~~~~~~~~~~~~~~~~~~~~~
+
+The resulting `de.pox` file is the file you want to work on. When
+you’ve finished doing your translations, copy it into this repository
+and commit the changes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+$ cp de.pox $THISREPO
+$ cd $THISREPO
+$ git add .
+$ git commit
+~~~~~~~~~~~~~~~~~~~~~~
+
+Testing it
+----------
+
+After you did a number of commits, you should test your translations. Overwrite
+the original `po/de.po` in the Freeciv repository file with your `de.pox` file
+(and remove the now unnecessary `de.pox` file in there).
+
+~~~~~~~~~~~~~~~~~~~~~~
+$ cd $FREECIVREPO/po
+$ cp $THISREPO/de.pox de.po
+$ rm de.pox
+~~~~~~~~~~~~~~~~~~~~~~
+
+Then compile Freeciv and install it. Note you do *not* have to reconfigure
+Freeciv as you already did this at the very beginning.
+
+~~~~~~~~~~~~~~~~~~~~~~
+$ cd ..
+$ make
+$ make install
+~~~~~~~~~~~~~~~~~~~~~~
+
+Run `/opt/freeciv-trans/bin/freeciv-gtk2` and enjoy your new translations.
+If you don’t find them good, fix them. If you do find them good, submit the
+new `de.po` file in compressed format (XZ preferred) to `freeciv-i18n@gna.org`.
