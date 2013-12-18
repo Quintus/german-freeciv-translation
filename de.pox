@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-14 13:25+0100\n"
-"PO-Revision-Date: 2013-12-14 18:19+0100\n"
+"PO-Revision-Date: 2013-12-18 20:41+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -29408,7 +29408,6 @@ msgstr "Hittiter"
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/hittite.ruleset:7
-#, fuzzy
 msgid ""
 "The Hittite kingdom lasted from about 1680 BCE to about 1180 BCE. They were "
 "the first civilization to discover iron working. At its height, they "
@@ -35360,7 +35359,6 @@ msgstr "Venezolaner"
 #. TRANS: U+00F3 LATIN SMALL LETTER O WITH ACUTE if available in
 #. TRANS: your charset.  In ISO-8859-1 (ISO Latin 1) this is 243.
 #: data/nation/venezuelan.ruleset:9
-#, fuzzy
 msgid ""
 "Venezuela is the northernmost country in South America. Having been a "
 "Spanish colony since the 16th century, the country gained independence on "
@@ -36364,7 +36362,6 @@ msgstr ""
 "ist am besten, Ebenen und Hügel sind beinahe so gut."
 
 #: data/scenarios/tutorial.sav:280
-#, fuzzy
 msgid ""
 "You have built your first military unit!  Military units have two\n"
 "basic purposes: attack and defense.  Each unit has an attack strength\n"
@@ -36395,7 +36392,6 @@ msgstr ""
 "anzugreifen. Aber verlieren Sie sie nicht!"
 
 #: data/scenarios/tutorial.sav:305
-#, fuzzy
 msgid ""
 "You have researched your first technology!  Technological advances\n"
 "are an integral concept in Freeciv.  As you increase your technology\n"
@@ -36432,7 +36428,7 @@ msgstr ""
 "dargestellt; ein Linksklick legt ein Forschungsziel fest, wohingegen\n"
 "ein Rechtsklick die Hilfe für den jeweiligen Fortschritt anzeigt. Wenn\n"
 "Sie mit dem Probieren fertig sind, klicken Sie auf den Reiter „Karte“\n"
-"(oder drücken „F1“), um zur Karte umzuschalten.\n"
+"(oder drücken „F1“), um zur Karte umzuschalten."
 
 #: data/scenarios/tutorial.sav:324
 msgid ""
@@ -37203,7 +37199,9 @@ msgstr "Es gab bereits eine Stadt namens %s. Sie wurde in %s umbenannt."
 #: server/citytools.c:1074
 #, c-format
 msgid "The people in %s are stunned by your technological insight!"
-msgstr "Die Bevölkerung in %s ist von Ihren technologischen Errungenschaften begeistert!"
+msgstr ""
+"Die Bevölkerung in %s ist von Ihren technologischen Errungenschaften "
+"begeistert!"
 
 #: server/citytools.c:1078
 #, c-format
@@ -37234,7 +37232,8 @@ msgstr ""
 #, c-format
 msgid ""
 "When %s was disbanded your %s in %s was trapped, and it was therefore lost."
-msgstr "Als %s aufgelöst wurde, konnte %s nicht aus %s fliehen und ging verloren."
+msgstr ""
+"Als %s aufgelöst wurde, konnte %s nicht aus %s fliehen und ging verloren."
 
 #: server/citytools.c:1647
 #, c-format
@@ -37933,7 +37932,6 @@ msgid "Start the game, or restart after loading a savegame."
 msgstr "Spiel beginnen oder nach Laden einer Sicherung neu starten."
 
 #: server/commands.c:54
-#, fuzzy
 msgid ""
 "This command starts the game. When starting a new game, it should be used "
 "after all human players have connected, and AI players have been created (if "
@@ -38158,7 +38156,7 @@ msgid "Cast a vote."
 msgstr "Abstimmung durchführen."
 
 #: server/commands.c:185
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "A player with basic level access issuing a control level command starts a "
 "new vote for the command. The /vote command followed by \"yes\", \"no\", or "
@@ -38168,14 +38166,14 @@ msgid ""
 "of the voters who have not abstained vote for it, or fail immediately if at "
 "least half of the voters who have not abstained vote against it."
 msgstr ""
-"Ein Spieler mit Zugangsberechtigung Info, der einen Befehl der Kontrollebene "
-"gibt, leitet damit eine Abstimmung ein. Jeder Spieler kann dann seine Stimme "
-"abgeben, indem er „/vote“, gefolgt von „yes“, „no“ oder „abstain“, wahlweise "
-"gefolgt von einer Abstimmungsnummer, eingibt. Ohne Abstimmungsnummer bezieht "
-"sich die Stimmabgabe immer auf die letzte Abstimmung. Jeder Spieler kann zur "
-"gleichen Zeit nur eine Abstimmung einleiten. Die Abstimmung dauert bis zum "
-"Ablauf einer vollen Runde oder bis ein klares Votum (mehr als 50%) erreicht "
-"ist."
+"Ein Spieler mit Zugangsberechtigung „basic“, der einen Befehl der "
+"Kontrollebene gibt, leitet damit eine Abstimmung ein. Jeder Spieler kann "
+"dann seine Stimme abgeben, indem er „/vote“, gefolgt von „yes“, „no“ oder "
+"„abstain“, wahlweise gefolgt von einer Abstimmungsnummer, eingibt. Ohne "
+"Abstimmungsnummer bezieht sich die Stimmabgabe immer auf die letzte "
+"Abstimmung. Jeder Spieler kann zur gleichen Zeit nur eine Abstimmung "
+"einleiten. Die Abstimmung dauert bis zum Ablauf einer vollen Runde oder bis "
+"ein klares Votum (mehr als 50%) erreicht ist."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:198
@@ -38311,9 +38309,9 @@ msgid ""
 "'metaconnection down' or 'metac d' brings the metaserver connection down. "
 "'metaconnection up' or 'metac u' brings the metaserver connection up."
 msgstr ""
-"'metaconnection ?' zeigt den Verbindungsstatus zum Metaserver an\n"
-"'metaconnection down' oder 'metac d' beendet die Verbindung zum Metaserver\n"
-"'metaconnection up' oder 'metac u' stellt die Verbindung zum Metaserver her"
+"„metaconnection ?“ zeigt den Verbindungsstatus zum Metaserver an. "
+"„metaconnection down“ oder „metac d“ beendet die Verbindung zum Metaserver. "
+"„metaconnection up“ oder „metac u“ stellt die Verbindung zum Metaserver her."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:274
@@ -38344,7 +38342,6 @@ msgstr "Den Platz eines Spielers im Spiel einnehmen."
 
 #. TRANS: Don't translate text between ''
 #: server/commands.c:289
-#, fuzzy
 msgid ""
 "Only the console and connections with cmdlevel 'hack' can force other "
 "connections to take over a player. If you're not one of these, only the "
@@ -38353,11 +38350,13 @@ msgid ""
 "assigned to the connection. The 'allowtake' option controls which players "
 "may be taken and in what circumstances."
 msgstr ""
-"Nur die Konsole oder Verbindungen mit der Zugriffsberechtigung 'hack' kann "
-"anderen Verbindungen einen Spieler zuweisen. Anderenfalls kannst du nur für "
-"deine eigene Verbindung eine Spieler übernehmen. Dann ist nur das Argument "
-"<Spieler> erlaubt. Wenn für den Spielernamen '-' angegeben wird, und die "
-"Verbindung noch keinen Spieler kontrolliert, wird ein neuer Spieler erzeugt."
+"Nur die Konsole oder Verbindungen mit der Zugriffsberechtigung „hack“ können "
+"anderen Verbindungen einen Spieler zwangszuweisen. Wenn Sie nicht hierunter "
+"fallen, können Sie lediglich Ihrer eigenen Verbindung einen Spieler zuweisen "
+"und nur das Argument <Spieler> verwenden. Wenn für den Spielernamen „-“ "
+"angegeben wird, und die Verbindung noch keinen Spieler kontrolliert, wird "
+"ein neuer Spieler erzeugt. Die Option „allowtake“ legt fest, welche Spieler "
+"unter welchen Umständen übernommen werden können."
 
 #. TRANS: translate text between [] only
 #: server/commands.c:300
@@ -38380,10 +38379,11 @@ msgid ""
 "observed and in what circumstances."
 msgstr ""
 "Mit diesem Kommando kann eine Verbindung einen Spieler oder das ganze Spiel "
-"beobachten. Nur auf der Konsole oder mit Zugriffsberechtigung 'hack' kann "
-"einer fremden Verbindung der Beobachtungsstatus zugewiesen werden. Sonst ist "
+"beobachten. Nur auf der Konsole oder mit Zugriffsberechtigung „hack“ kann "
+"einer fremden Verbindung der Beobachtungsstatus zugewiesen werden, sonst ist "
 "nur das Argument <Spieler> erlaubt. Wenn kein Spielername angegeben wird, "
-"beobachtet die Verbindung das Spiel global."
+"beobachtet die Verbindung das Spiel global. Die Option „allowtake“ legt "
+"fest, welche Spieler unter welchen Umständen beobachtet werden können."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:313
@@ -38391,7 +38391,6 @@ msgid "detach <connection-name>"
 msgstr "detach <Verbindungsname>"
 
 #: server/commands.c:314
-#, fuzzy
 msgid "Detach from a player."
 msgstr "Verbindung zu Spieler lösen."
 
@@ -38400,19 +38399,17 @@ msgid ""
 "Only the console and connections with cmdlevel 'hack' can force other "
 "connections to detach from a player."
 msgstr ""
-"Nur auf der Konsole, oder mit Zugriffsberechtigung 'hack', können fremde "
-"Verbindungen von einem Spieler gelöst werden. Sonst ist nur das Argument "
-"<Spieler> erlaubt"
+"Nur auf der Konsole oder mit Zugriffsberechtigung „hack“ können fremde "
+"Verbindungen von einem Spieler gelöst werden."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:321
-#, fuzzy
 msgid "create <player-name> [ai type]"
-msgstr "create <Spieler>"
+msgstr "create <Spieler> [KI-Typ]"
 
 #: server/commands.c:322
 msgid "Create an AI player with a given name."
-msgstr "KI-Spieler erzeugen"
+msgstr "KI-Spieler mit einem bestimmten Namen erzeugen."
 
 #. TRANS: don't translate text between single quotes
 #: server/commands.c:324
@@ -38426,14 +38423,24 @@ msgid ""
 "player can be reused (removing all record of that player from the running "
 "game)."
 msgstr ""
+"Der „create“-Befehl erstellt einen neuen Spieler mit dem angegebenen Namen.\n"
+"Der Parameter „KI-Typ“ legt dabei fest, welches KI-Modul für den neu "
+"erstellten Spieler verwendet wird; dies erfordert allerdings, dass Freeciv "
+"mit der Unterstützung für nachladbare KI-Module kompiliert und das "
+"entsprechende Modul auch tatsächlich geladen wurde.\n"
+"Wenn das Spiel bereits gestartet wurde, erhält der Spieler keine Einheiten "
+"oder Städte. Ist in der Spielerliste kein Platz für den neuen Spieler "
+"vorhanden, kann der Listenplatz eines besiegten Spielers verwendet werden "
+"(wodurch sämtliche Informationen zu diesem Spieler aus dem Spiel entfernt "
+"werden)."
 
 #: server/commands.c:339
 msgid "Set yourself in away mode. The AI will watch your back."
-msgstr "Abwesenheitsmodus. Die KI hält dir den Rücken frei."
+msgstr "Abwesenheitsmodus. Die KI hält Ihnen den Rücken frei."
 
 #: server/commands.c:340
 msgid "The AI will govern your nation but do minimal changes."
-msgstr "Die KI regiert deine Nation, ändert aber nur sehr wenig."
+msgstr "Die KI regiert Ihre Nation, ändert aber nur sehr wenig."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:345
@@ -38446,17 +38453,16 @@ msgstr ""
 
 #: server/commands.c:347
 msgid "Set one or all AI players to 'novice'."
-msgstr "Einen oder alle KI-Spieler auf 'sehr leichte' Spielstärke einstellen."
+msgstr "Einen oder alle KI-Spieler auf Spielstärke „sehr leicht“ einstellen."
 
 #: server/commands.c:348
-#, fuzzy
 msgid ""
 "With no arguments, sets all AI players to skill level 'novice', and sets the "
 "default level for any new AI players to 'novice'. With an argument, sets the "
 "skill level for that player only."
 msgstr ""
-"Ohne Argumente werden alle vorhandenen und zukünftigen KI-Spieler auf 'sehr "
-"leicht' gestellt. Mit Argument wird nur die Spielstärke für den angegeben KI-"
+"Ohne Argumente werden alle vorhandenen und zukünftigen KI-Spieler auf „sehr "
+"leicht“ gestellt. Mit Argument wird nur die Spielstärke für den angegeben KI-"
 "Spieler eingestellt."
 
 #. TRANS: translate text between <> only
@@ -38470,17 +38476,16 @@ msgstr ""
 
 #: server/commands.c:357
 msgid "Set one or all AI players to 'easy'."
-msgstr "Einen oder alle KI-Spieler auf 'einfache' Spielstärke einstellen."
+msgstr "Einen oder alle KI-Spieler auf Spielstärke „einfach“ einstellen."
 
 #: server/commands.c:358
-#, fuzzy
 msgid ""
 "With no arguments, sets all AI players to skill level 'easy', and sets the "
 "default level for any new AI players to 'easy'. With an argument, sets the "
 "skill level for that player only."
 msgstr ""
 "Ohne Argumente werden alle vorhandenen und zukünftigen KI-Spieler auf "
-"'einfach' gestellt. Mit Argument wird nur die Spielstärke für den angegeben "
+"„einfach“ gestellt. Mit Argument wird nur die Spielstärke für den angegeben "
 "KI-Spieler eingestellt."
 
 #. TRANS: translate text between <> only
@@ -38494,17 +38499,16 @@ msgstr ""
 
 #: server/commands.c:367
 msgid "Set one or all AI players to 'normal'."
-msgstr "Einen oder alle KI-Spieler auf 'normale' Spielstärke einstellen."
+msgstr "Einen oder alle KI-Spieler auf Spielstärke „normal“ einstellen."
 
 #: server/commands.c:368
-#, fuzzy
 msgid ""
 "With no arguments, sets all AI players to skill level 'normal', and sets the "
 "default level for any new AI players to 'normal'. With an argument, sets the "
 "skill level for that player only."
 msgstr ""
 "Ohne Argumente werden alle vorhandenen und zukünftigen KI-Spieler auf "
-"'normal' gestellt. Mit Argument wird nur die Spielstärke für den angegeben "
+"„normal“ gestellt. Mit Argument wird nur die Spielstärke für den angegeben "
 "KI-Spieler eingestellt."
 
 #. TRANS: translate text between <> only
@@ -38521,14 +38525,13 @@ msgid "Set one or all AI players to 'hard'."
 msgstr "Einen oder alle KI-Spieler auf 'schwere' Spielstärke einstellen."
 
 #: server/commands.c:378
-#, fuzzy
 msgid ""
 "With no arguments, sets all AI players to skill level 'hard', and sets the "
 "default level for any new AI players to 'hard'. With an argument, sets the "
 "skill level for that player only."
 msgstr ""
 "Ohne Argumente werden alle vorhandenen und zukünftigen KI-Spieler auf "
-"'schwer' gestellt. Mit Argument wird nur die Spielstärke für den angegeben "
+"„schwer“ gestellt. Mit Argument wird nur die Spielstärke für den angegeben "
 "KI-Spieler eingestellt."
 
 #. TRANS: translate text between <> only
@@ -38542,17 +38545,16 @@ msgstr ""
 
 #: server/commands.c:387
 msgid "Set one or all AI players to 'cheating'."
-msgstr "Einen oder alle KI-Spieler auf Spielstärke 'Mogeln' einstellen."
+msgstr "Einen oder alle KI-Spieler auf Spielstärke „Mogeln“ einstellen."
 
 #: server/commands.c:388
-#, fuzzy
 msgid ""
 "With no arguments, sets all AI players to skill level 'cheating', and sets "
 "the default level for any new AI players to 'cheating'. With an argument, "
 "sets the skill level for that player only."
 msgstr ""
 "Ohne Argumente werden alle vorhandenen und zukünftigen KI-Spieler auf "
-"'Mogeln' gestellt. Mit Argument wird nur die Spielstärke für den angegeben "
+"„Mogeln“ gestellt. Mit Argument wird nur die Spielstärke für den angegeben "
 "KI-Spieler eingestellt."
 
 #. TRANS: translate text between <> only
@@ -38567,10 +38569,9 @@ msgstr ""
 #: server/commands.c:397
 msgid "Set one or all AI players to 'experimental'."
 msgstr ""
-"Einen oder alle KI-Spieler auf 'experimentelle' Spielstärke einstellen."
+"Einen oder alle KI-Spieler auf „experimentelle“ Spielstärke einstellen."
 
 #: server/commands.c:398
-#, fuzzy
 msgid ""
 "With no arguments, sets all AI players to skill 'experimental', and sets the "
 "default level for any new AI players to this. With an argument, sets the "
@@ -38578,7 +38579,7 @@ msgid ""
 "FEATURES! For ordinary servers, this option has no effect."
 msgstr ""
 "Ohne Argumente werden alle vorhandenen und zukünftigen KI-Spieler auf "
-"'experimentell' gestellt. Mit Argument wird nur die Spielstärke für den "
+"„experimentell“ gestellt. Mit Argument wird nur die Spielstärke für den "
 "angegeben KI-Spieler eingestellt. DIESE OPTION DIENT NUR ZUM TESTEN VON "
 "NEUEM KI-CODE! Auf normalen Servern hat diese Option keine Auswirkungen."
 
@@ -38624,24 +38625,26 @@ msgid ""
 "untrusted person could reconnect with the same name. Note that this command "
 "now takes connection names, not player names."
 msgstr ""
-"Mit 'cmdlevel' wird die Zugangsberechtigung der Spieler zu den "
-"verschiedenen\n"
-"Serverbefehlen geregelt. Es gibt folgende Berechtigungen:\n"
-"   none - kein Zugriff\n"
-"   info - Befehle zur Informationsabfrage\n"
-"   ctrl - Befehle, die Spiel und Benutzer betreffen\n"
-"   hack - *alle* Befehle (GEFÄHRLICH!)\n"
-"Ohne Argument werden die derzeitigen Zugangsberechtigungen angezeigt.\n"
-"Mit nur einem Argument wird die Zugangsberechtigung für alle bereits\n"
-"vorhandenen und zukünftigen Verbindungen gesetzt. Falls 'new' angegeben\n"
-"wurde, wird die Zugangsberechtigung für neu hinzukommende Verbindungen\n"
-"gesetzt; mit 'first come' werden die Rechte für den ersten Spieler, der\n"
-"sich einloggt, geregelt. Sollten bereits Verbindungen bestehen, erhält\n"
-"der Spieler, der zuerst den 'firstlevel' Befehl eingibt, diese Rechte.\n"
-"Durch die Angabe eines Verbindungsnamens wird die Zugangsberechtigung nur\n"
-"für die betreffende Verbindung gesetzt.\n"
-"Um Mißbrauch zu verhindern, gelten Zugangsberechtigungen nur bis zum Ende\n"
-"einer Verbindung."
+"Die Kommandokontrollebenen regeln die Zugangsberechtigung der Spieler zu den "
+"verschiedenen Serverbefehlen in der Chatzeile. Es gibt folgende "
+"Berechtigungen:\n"
+"   none — kein Zugriff\n"
+"   info — Befehle zur Informationsabfrage oder Beobachtung\n"
+"   basic — Befehle für teilnehmende Spieler\n"
+"   ctrl — Befehle, die Spiel und Benutzer betreffen\n"
+"   admin — Befehle, die das Serververhalten beeinflussen\n"
+"   hack — *alle* Befehle (GEFÄHRLICH!)\n"
+"Ohne Argument werden die derzeitigen Zugangsberechtigungen angezeigt. Mit "
+"nur einem Argument wird die Zugangsberechtigung für alle bereits vorhandenen "
+"und zukünftigen Verbindungen gesetzt. Falls „new“ angegeben wurde, wird die "
+"Zugangsberechtigung für neu hinzukommende Verbindungen gesetzt; mit „first "
+"come“ werden die Rechte für den ersten Spieler, der sich einloggt, geregelt. "
+"Sollten bereits Verbindungen bestehen, erhält der Spieler, der zuerst den "
+"Befehl „first“ gibt, diese Rechte. Durch die Angabe eines Verbindungsnamens "
+"wird die Zugangsberechtigung nur für die betreffende Verbindung gesetzt.\n"
+"Um Missbrauch zu verhindern, gelten Zugangsberechtigungen nur bis zum Ende "
+"einer Verbindung. Beachten Sie, dass dieser Befehl neuerdings Verbindungs- "
+"statt Spielernamen erwartet."
 
 #: server/commands.c:439
 msgid "If there is none, become the game organizer with increased permissions."
@@ -38654,18 +38657,18 @@ msgstr "timeoutincrease <Zug> <Zugzahl> <Wert> <Faktor>"
 
 #: server/commands.c:446
 msgid "See \"help timeoutincrease\"."
-msgstr "siehe 'help timeoutincrease'"
+msgstr "siehe „help timeoutincrease“"
 
 #: server/commands.c:447
-#, fuzzy
 msgid ""
 "Every <turn> turns, add <value> to timeout timer, then add <turninc> to "
 "<turn> and multiply <value> by <valuemult>. Use this command in concert with "
 "the option \"timeout\". Defaults are 0 0 0 1"
 msgstr ""
-"Der Timeout-Timer wird alle <n1> Runden um <n2> erhöht; danach erhöht sich "
-"<n1> um <n3> und <n2> wird mit <n4> multipliziert. Dieser Befehl wird von "
-"der Option 'timeout' benutzt. Die Standardwerte sind 0 0 0 1."
+"Der Timeout-Timer wird alle <Zug> Runden um <Wert> erhöht; addiere danach "
+"<Zug> und <Zugazhl> und multipliziere <Wert> mit <Faktor>. Dieser Befehl "
+"sollte zusammen mit der Option „timeout“ verwendet werden. Die Standardwerte "
+"sind 0 0 0 1."
 
 #. TRANS: translate text between <> only; "vote" is as a process
 #: server/commands.c:454
@@ -38674,11 +38677,14 @@ msgid ""
 "cancelvote <vote number>\n"
 "cancelvote all\n"
 msgstr ""
+"cancelvote\n"
+"cancelvote <Nummer>\n"
+"cancelvote all\n"
 
 #. TRANS: "vote" as a process
 #: server/commands.c:458
 msgid "Cancel a running vote.\n"
-msgstr ""
+msgstr "Bricht eine laufende Abstimmung ab.\n"
 
 #. TRANS: "vote" as a process
 #: server/commands.c:460
@@ -38687,15 +38693,19 @@ msgid ""
 "access level, you can cancel any vote by vote number, or all votes with the "
 "'all' argument."
 msgstr ""
+"Ohne Argument bricht dieser Befehl Ihre eigene Abstimmung ab. Mit der "
+"Zugriffsberechtigung „admin“ können Sie jede vorhandene Abstimmung über ihre "
+"Identifikationsnummer oder einfach alle Abstimmungen mit dem Argument „all“ "
+"abbrechen."
 
 #. TRANS: translate text between <> and [] only
 #: server/commands.c:467
 msgid "ignore [type=]<pattern>"
-msgstr ""
+msgstr "ignore [Typ=]<Muster>"
 
 #: server/commands.c:468
 msgid "Block all messages from users matching the pattern."
-msgstr ""
+msgstr "Filtere alle Nachrichten von Nutzern, die auf das Muster passen."
 
 #: server/commands.c:469
 msgid ""
@@ -38707,16 +38717,22 @@ msgid ""
 "of 'a' 'b' or 'c', etc. To access your current ignore list, issue \"/list "
 "ignore\"."
 msgstr ""
+"Das angegebene <Muster> wird zu Ihrer Filterliste hinzugefügt, d.h. Sie "
+"erhalten von Nutzern, die dieses Muster erfüllen, keine Nachrichten mehr. "
+"Der <Typ> kann „user“, „host“ oder „ip“ sein, wobei der Standardtyp bei "
+"Auslassung den Nutzernamen erfasst. Das Muster kann UNIX-artige Jokerzeichen "
+"enthalten; so passt * etwa auf null oder mehr Zeichen, ? auf genau ein "
+"Zeichen und [abc] auf eines der Zeichen „a“, „b“ oder „c“. Ihre aktuelle "
+"Filterliste können sie mit „/list ignore“ einsehen."
 
 #. TRANS: translate text between <>
 #: server/commands.c:480
 msgid "unignore <range>"
-msgstr ""
+msgstr "unignore <Bereich>"
 
 #: server/commands.c:481
-#, fuzzy
 msgid "Remove ignore list entries."
-msgstr "Vorgabe entfernen"
+msgstr "Entfernt Einträge aus Ihrer Filterliste."
 
 #: server/commands.c:482
 msgid ""
@@ -38727,6 +38743,13 @@ msgid ""
 "assumed to be the last valid ignore list index. To access your current "
 "ignore list, issue \"/list ignore\"."
 msgstr ""
+"Die im angebenen Bereich befindlichen Einträge werden aus Ihrer Filterliste "
+"entfernt, sodass Sie wieder Nachrichten von den jeweiligen Nutzern erhalten. "
+"Der Parameter <Bereich> kann eine einzelne Zahl oder ein von einer Tileder "
+"„~“ getrenntes Zahlenpaar sein; wird die erste Zahl ausgelassen, wird sie "
+"als 1 angenommen, fehlt die zweite, so wird der letzte gültige Index der "
+"Filterliste angenommen. Sie können Ihre momentane Filterliste mit „/list "
+"ignore“ einsehen."
 
 #. TRANS: translate text between <>
 #: server/commands.c:493
@@ -38734,11 +38757,12 @@ msgid ""
 "playercolor <player-name> <color>\n"
 "playercolor <player-name> reset"
 msgstr ""
+"playercolor <Spielername> <Farbe>\n"
+"playercolor <Spielername> reset"
 
 #: server/commands.c:495
-#, fuzzy
 msgid "Define the color of a player."
-msgstr "Verbindung zu Spieler lösen."
+msgstr "Spielerfarbe festlegen."
 
 #: server/commands.c:496
 msgid ""
@@ -38758,6 +38782,23 @@ msgid ""
 "changes the player color in any mode; 'reset' cannot be used.\n"
 "To list the player colors, use 'list colors'."
 msgstr ""
+"Dieser Befehl legt die Farbe eines bestimmten Spielers fest und überschreibt "
+"dabei jegliche mithilfe der Option „plrcolormode“ festgelegte "
+"Farbeinstellung.\n"
+"Die Farbe wird über eine hexadezimale Angabe (Hexwert) der Farbkomponenten "
+"Rot, Grün und Blau (RGB) festgelegt, ähnlich zu HTML. Für jede Komponente "
+"ist der kleinstmögliche (= dunkelste) Wert 0 (als Hexwert: 00) und der "
+"höchstmögliche Wert 255 (als Hexwert: FF). Die gesamte Farbdefinition "
+"besteht einfach aus einer Aneinanderreihung der drei einzelnen Hexwerte "
+"(RRGGBB). Beispielsweise legt der folgende Befehl für Cäsar die Farbe Rot "
+"fest:\n"
+"  playercolor Cäsar ff0000\n"
+"Vor dem Spielstart kann dieser Befehl nur verwendet werden, wenn die Option "
+"„plrcolormode“ auf „PLR_SET“ gesetzt wurde. Mithilfe von „reset“ kann eine "
+"Spielerfarbe wieder zurückgesetzt werden.\n"
+"Nach Beginn des Spiels und Zuweisung der Farben ändert dieser Befehl die "
+"Farbe unabhängig vom Modus, „reset“ kann nicht verwendet werden.\n"
+"Sie können die Spielerfarben mit „list colors“ einsehen."
 
 #: server/commands.c:516
 msgid "End the game immediately in a draw."
@@ -38772,7 +38813,7 @@ msgid ""
 "This tells everyone else that you concede the game, and if all but one "
 "player (or one team) have conceded the game in this way then the game ends."
 msgstr ""
-"Allen wird mitgeteilt, das du aus dem Spiel ausscheidest, und wenn alle bis "
+"Allen wird mitgeteilt, dass Sie aus dem Spiel ausscheiden und wenn alle bis "
 "auf einen Spieler (oder ein Team) ausgeschieden sind, endet das Spiel."
 
 #. TRANS: translate text between <> only
@@ -38785,7 +38826,6 @@ msgid "Fully remove player from game."
 msgstr "Spieler vollständig aus dem Spiel entfernen"
 
 #: server/commands.c:532
-#, fuzzy
 msgid ""
 "This *completely* removes a player from the game, including all cities and "
 "units etc. Use with care!"
@@ -38816,11 +38856,11 @@ msgid ""
 "and use the 'start' command once players have reconnected."
 msgstr ""
 "Speichert das Spiel in der Datei <Dateiname>. Wenn kein Dateiname angegeben "
-"wird, heißt die Datei '<auto-save nameprefix><year>m.sav[.gz]'.\n"
-"Um ein gespeichertes Spiel fortzuführen, ruft man den Server mit dem "
-"Argument\n"
+"wird, heißt die Datei '<auto-save name prefix><year>m.sav[.gz]'. Um ein "
+"gespeichertes Spiel fortzuführen, ruft man den Server mit dem Argument\n"
 "      --file <Dateiname>\n"
-"auf und gibt nachdem alle Mitspieler bereit sind, 'start' ein."
+"auf und gibt, nachdem alle Mitspieler sich wieder verbunden haben, den "
+"Befehl „start“ ein."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:551
@@ -38842,7 +38882,7 @@ msgid ""
 "and server options are lost."
 msgstr ""
 "Spieldatei <Dateiname> laden. Alle derzeitigen Daten (auch über Spieler, "
-"Regelsatz und Serveroptionen) gehen dabei verloren.\n"
+"Regelsatz und Serveroptionen) gehen dabei verloren."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:560
@@ -38863,9 +38903,8 @@ msgid "Write current settings as server commands to file."
 msgstr "Servereinstellungen als Datei speichern"
 
 #: server/commands.c:573
-#, fuzzy
 msgid "Reset all server settings."
-msgstr "Serveroption einstellen."
+msgstr "Alle Servereinstellungen zurücksetzen."
 
 #: server/commands.c:574
 msgid ""
@@ -38875,6 +38914,12 @@ msgid ""
 "  script   - using default values and rereading the start script\n"
 "  default  - using default values\n"
 msgstr ""
+"Setzt soweit es möglich ist alle Einstellungen zurück. Die folgenden Stufen "
+"werden unterstützt:\n"
+"  game    — Nutze die Werte, die bei Spielbeginn vorlagen\n"
+"  ruleset — Nutze die Werte, die im Regelsatz festgelegt sind\n"
+"  script  — Nutze die Standartwerte und lese das Startskript neu ein\n"
+"  default — Nutze die Standardwerte\n"
 
 #. TRANS: translate text between <> only
 #: server/commands.c:584
@@ -38883,22 +38928,26 @@ msgid ""
 "lua file <script file>\n"
 "lua <script line> (deprecated)"
 msgstr ""
+"lua cmd <Skriptzeile>\n"
+"lua file <Skriptdatei>\n"
+"lua <Skriptzeile> (missbilligt)"
 
 #: server/commands.c:587
 msgid ""
 "Evaluate a line of Freeciv script or a Freeciv script file in the current "
 "game."
 msgstr ""
+"Führt eine Zeile Freeciv-Skript oder eine Freeciv-Skriptdatei im laufenden "
+"Spiel aus."
 
 #. TRANS: translate text between <>
 #: server/commands.c:593
 msgid "kick <user>"
-msgstr ""
+msgstr "kick <Nutzer>"
 
 #: server/commands.c:594
-#, fuzzy
 msgid "Cut a connection and disallow reconnect."
-msgstr "Die Verbindung zum Metaserver wurde bereits beendet."
+msgstr "Trennt eine bestehende und verbietet die neuerliche Verbindung."
 
 #: server/commands.c:595
 msgid ""
@@ -38906,11 +38955,14 @@ msgid ""
 "not allowed to reconnect. The time the user wouldn't be able to reconnect is "
 "controlled by the 'kicktime' setting."
 msgstr ""
+"Die durch das Argument „Nutzer“ angegebene Verbindung wird vom Server "
+"getrennt und neue Verbindungsversuche werden unterbunden. Der Nutzer kann "
+"sich nicht bis zum Ablauf der in der Einstellung „kicktime“ festgelegten "
+"Zeit wiederverbinden."
 
 #: server/commands.c:605
-#, fuzzy
 msgid "Save game to file using the old format."
-msgstr "Spiel speichern"
+msgstr "Spiel im alten Dateiformat abspeichern."
 
 #. TRANS: translate only text between [] and <>
 #: server/commands.c:611
@@ -38921,10 +38973,15 @@ msgid ""
 "delegate restore\n"
 "delegate show <player-name>"
 msgstr ""
+"delegate to <Nutzer> [Spieler]\n"
+"delegate cancel [Spieler]\n"
+"delegate take <Spieler>\n"
+"delegate restore\n"
+"delagate show <Spieler>"
 
 #: server/commands.c:616
 msgid "Delegate control to another user."
-msgstr ""
+msgstr "Delegiere die Kontrolle zu einem anderen Nutzer."
 
 #: server/commands.c:617
 msgid ""
@@ -38943,6 +39000,25 @@ msgid ""
 "The [player-name] argument can only be used by connections with cmdlevel "
 "'admin' or above to force the corresponding change of the delegation status."
 msgstr ""
+"Mithilfe der Delegation kann ein Nutzer einen anderen benennen, der eine "
+"Zeitlang die Kontrolle über den eigenen Spieler übernehmen soll, während er "
+"selbst abwesend ist.\n"
+"„delegate to <Nutzer>“: Erlaubt es <Nutzer>, mit „delegate take“ Ihren "
+"Spieler zu übernehmen.\n"
+"„delegate cancel“: Der nominierte Nutzer kann Ihren Spieler nicht länger "
+"übernehmen.\n"
+"„delegate take <Spieler>“: Übernimmt die Kontrolle über einen Spieler, der "
+"an Sie delegiert wurde (verhält sich wie „take“, aber ohne die "
+"Beschränkungen von „allowtake“).\n"
+"„delegate restore“: Gibt die Kontrolle über einen delegierten Spieler frei "
+"(Gegenteil von „delegate take“) und stellt ggf. Ihre vorige Sicht wieder her "
+"(dies geschieht auch automatisch, wenn der Eigentümer des Spielers sich "
+"wiederverbindet).\n"
+"„delegate show“: Zeigt, an wen die Kontrolle Ihres Spielers momentan "
+"delegiert wird.\n"
+"Das Argument [Spieler] kann nur von Verbindungen der Kontrollebene „admin“ "
+"oder höher verwendet werden, um eine entsprechende Änderung des "
+"Delegationsstatus zu erreichen."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:637
@@ -38950,10 +39026,12 @@ msgid ""
 "fcdb reload\n"
 "fcdb lua <script>"
 msgstr ""
+"fcdb reload\n"
+"fcdb lua <Skript>"
 
 #: server/commands.c:639
 msgid "Manage the authentication database."
-msgstr ""
+msgstr "Verwaltet die Authentifizierungsdatenbank."
 
 #: server/commands.c:640
 msgid ""
@@ -38961,6 +39039,9 @@ msgid ""
 "change, while the argument 'lua' evaluates a line of Lua script in the "
 "context of the Lua instance for the database."
 msgstr ""
+"Das Argument „reload“ veranlasst die Neueinlesung des Datenbankskripts nach "
+"einer Veränderung, das Argument „lua“ führt eine Zeile Lua-Code im Kontext "
+"der Lua-Instanz der Datenbank aus."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:647
@@ -38971,10 +39052,15 @@ msgid ""
 "mapimg delete <id>|all\n"
 "mapimg colortest"
 msgstr ""
+"maping define <Kartendef.>\n"
+"maping show <ID>|all\n"
+"maping create <ID>|all\n"
+"maping delete <ID>|all\n"
+"maping colortest"
 
 #: server/commands.c:652
 msgid "Create image files of the world/player map."
-msgstr ""
+msgstr "Erstellt Bilder der Welt-/Spielerkarte."
 
 #: server/commands.c:659
 msgid "Switch server output between 'RFC-style' and normal style."
@@ -39008,16 +39094,22 @@ msgstr "%s von %s hat Verbindung aufgenommen."
 #, c-format
 msgid "Your delegate %s was controlling your player '%s'; now detached."
 msgstr ""
+"%s kontrollierte Ihren Spieler „%s“ im Wege der Delegation; seine Kontrolle "
+"wurde beendet."
 
 #: server/connecthand.c:200
 #, c-format
 msgid "%s reconnected, ending your delegated control of player '%s'."
 msgstr ""
+"%s hat sich wieder verbunden, die an Sie delegierte Kontrolle über den "
+"Spieler „%s“ wurde widerrufen."
 
 #: server/connecthand.c:209
 #, c-format
 msgid "Couldn't get control of '%s' from delegation to %s."
 msgstr ""
+"Konnte die Kontrolle über „%s“ nicht aus der Delegation an %s heraus "
+"übernehmen."
 
 #: server/connecthand.c:228
 msgid "Couldn't attach your connection to new player."
@@ -39027,23 +39119,23 @@ msgstr "Es steht kein neuer Spieler mehr zur Verfügung."
 #, c-format
 msgid "You are logged in as '%s' connected to no player."
 msgstr ""
-"Sie sind als '%s' mit dem Spiel verbunden, kontrollieren aber keinen Spieler."
+"Sie sind als „%s“ mit dem Spiel verbunden, kontrollieren aber keinen Spieler."
 
 #: server/connecthand.c:254
 #, c-format
 msgid "You are logged in as '%s' connected to an anonymous player."
 msgstr ""
-"Sie sind als '%s' mit dem Spiel und mit einem Spieler ohne Namen verbunden."
+"Sie sind als „%s“ mit dem Spiel und mit einem Spieler ohne Namen verbunden."
 
 #: server/connecthand.c:259
 #, c-format
 msgid "You are logged in as '%s' connected to %s."
-msgstr "Sie sind als '%s' eingeloggt und mit dem Spieler %s verbunden."
+msgstr "Sie sind als „%s“ eingeloggt und mit dem Spieler %s verbunden."
 
 #: server/connecthand.c:273
-#, fuzzy, c-format
+#, c-format
 msgid "%s has connected from %s (player %s)."
-msgstr "%s von %s hat Verbindung aufgenommen."
+msgstr "%s von %s hat Verbindung aufgenommen (Spieler %s)."
 
 #: server/connecthand.c:295
 #, c-format
@@ -39051,14 +39143,13 @@ msgid "Turn-blocking game play: waiting on %s to finish turn..."
 msgstr "Runden-Sperre aktiv: %s hat die Runde noch nicht beendet..."
 
 #: server/connecthand.c:304
-#, fuzzy
 msgid " *** Server is in edit mode. *** "
-msgstr " *** Der Server hat den Edit-Modus verlassen. *** "
+msgstr " *** Der Server befindet sich im Bearbeitungsmodus. *** "
 
 #: server/connecthand.c:331
 #, c-format
 msgid "Client rejected: %s."
-msgstr "Spieler %s wurde abgewiesen."
+msgstr "Klient %s wurde abgewiesen."
 
 #: server/connecthand.c:345
 #, c-format
@@ -39098,7 +39189,7 @@ msgstr ""
 #: server/connecthand.c:390
 #, c-format
 msgid "Invalid username '%s'"
-msgstr "Unzulässiger Name '%s'"
+msgstr "Unzulässiger Name „%s“"
 
 #: server/connecthand.c:392
 #, c-format
@@ -39110,16 +39201,18 @@ msgstr "%s wurde abgewiesen: Name [%s] ungültig."
 msgid ""
 "You have been kicked from this server and cannot reconnect for %d seconds."
 msgstr ""
+"Sie wurden vom Server gekickt und können sich für %d Sekunden nicht neu "
+"verbinden."
 
 #: server/connecthand.c:402
-#, fuzzy, c-format
+#, c-format
 msgid "%s was rejected: Connection kicked (%d seconds remaining)."
-msgstr "%s wurde abgewiesen: Verbindungszeitablauf bei der Paßworteingabe."
+msgstr "%s wurde abgewiesen: Verbindung gekickt (%d Sekunden verbleibend)."
 
 #: server/connecthand.c:411
 #, c-format
 msgid "'%s' already connected."
-msgstr "Verbindung zu %s besteht schon."
+msgstr "„%s“ ist bereits verbunden."
 
 #: server/connecthand.c:414
 #, c-format
@@ -39132,7 +39225,7 @@ msgid "Lost connection: %s."
 msgstr "Verbindung verloren: %s."
 
 #: server/connecthand.c:728
-#, fuzzy, c-format
+#, c-format
 msgid "Detaching from %s."
 msgstr "Löse Verbindung zu %s."
 
@@ -39146,7 +39239,7 @@ msgstr "OK. Standard-Stil."
 
 #: server/console.c:263
 msgid "For introductory help, type 'help'."
-msgstr "'help' gibt Erläuterungen zur Verwendung der Online-Hilfe."
+msgstr "„help“ gibt Erläuterungen zur Verwendung der Online-Hilfe."
 
 #: server/diplhand.c:196
 #, c-format
@@ -39628,14 +39721,14 @@ msgstr ""
 "verursacht."
 
 #: server/edithand.c:193
-#, fuzzy, c-format
+#, c-format
 msgid " *** Server set to edit mode by %s! *** "
-msgstr " *** Der Server befindet sich im Edit-Modus! *** "
+msgstr " *** %s hat den Bearbeitungsmodus des Servers aktiviert! *** "
 
 #: server/edithand.c:199
 #, c-format
 msgid " *** Edit mode canceled by %s. *** "
-msgstr ""
+msgstr " *** %s hat den Bearbeitungsmodus deaktiviert. *** "
 
 #: server/edithand.c:349 server/edithand.c:385 server/edithand.c:412
 #: server/edithand.c:445 server/edithand.c:480
