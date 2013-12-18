@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-14 13:25+0100\n"
-"PO-Revision-Date: 2013-12-18 21:00+0100\n"
+"PO-Revision-Date: 2013-12-18 23:25+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -37331,7 +37331,7 @@ msgstr "%s verkauft %s (veraltet) für %d Goldstücke."
 #: server/cityturn.c:392
 #, c-format
 msgid "Notice: Wonder %s in %s will be finished next turn."
-msgstr "Hinweis: %s in %s in der nächsten Runde fertig."
+msgstr "Hinweis: %2$s wird %1$s in der nächsten Runde abschließen."
 
 #: server/cityturn.c:427
 #, c-format
@@ -40708,30 +40708,26 @@ msgstr "(baut %s in %s (%s))\n"
 
 #. TRANS: abbreviation of "square miles"
 #: server/report.c:792
-#, fuzzy
 msgid " sq. mi."
 msgid_plural " sq. mi."
-msgstr[0] " qkm"
-msgstr[1] " qkm"
+msgstr[0] " km²"
+msgstr[1] " km²"
 
 #. TRANS: "M tons" = million tons, so always plural
 #: server/report.c:812
-#, fuzzy
 msgid " M tons"
 msgid_plural " M tons"
-msgstr[0] " M t"
-msgstr[1] " M t"
+msgstr[0] " Mt"
+msgstr[1] " Mt"
 
 #. TRANS: "M goods" = million goods, so always plural
 #: server/report.c:822
-#, fuzzy
 msgid " M goods"
 msgid_plural " M goods"
-msgstr[0] " M Produkte"
-msgstr[1] " M Produkte"
+msgstr[0] " Mio. Produkte"
+msgstr[1] " Mio. Produkte"
 
 #: server/report.c:831
-#, fuzzy
 msgid " bulb"
 msgid_plural " bulbs"
 msgstr[0] " Punkte"
@@ -40752,7 +40748,7 @@ msgstr[1] " t"
 #: server/report.c:881
 #, c-format
 msgid "(ranked %d)"
-msgstr ""
+msgstr "(%d. Platz)"
 
 #: server/report.c:997 server/report.c:1024
 msgid "Demographics Report:"
@@ -40762,10 +40758,11 @@ msgstr "Bericht zur Lage der Nation:"
 msgid "Sorry, the Demographics report is unavailable."
 msgstr "Der Bericht zur Lage der Nation ist leider nicht verfügbar."
 
+# MG: Isländische Monarchie (250 u.Z.)
 #: server/report.c:1003
 #, c-format
 msgid "%s %s (%s)"
-msgstr "%s  %s (%s)"
+msgstr "%se %s (%s)"
 
 #: server/report.c:1466
 msgid "Population\n"
@@ -45617,7 +45614,7 @@ msgstr ""
 #: server/unithand.c:1183
 #, c-format
 msgid "Your %s survived the pathetic attack from the %s %s."
-msgstr "Deine %s überlebte den Angriff der %sen %s."
+msgstr "Ihr %s überlebte den mutigen Angriff der %sen %s."
 
 #. TRANS: "... Cannon ... the Polish Destroyer."
 #: server/unithand.c:1193
