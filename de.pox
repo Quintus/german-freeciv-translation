@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-14 13:25+0100\n"
-"PO-Revision-Date: 2013-12-19 14:55+0100\n"
+"PO-Revision-Date: 2013-12-19 18:43+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -39773,37 +39773,43 @@ msgstr ""
 
 #. TRANS: ..." at <tile-coordinates> because"...
 #: server/edithand.c:545
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot create a unit at %s because the given unit type id %d is invalid."
-msgstr "Kann keine %s auf diesem Gelände erzeugen."
+msgstr ""
+"Kann keine Einheit bei %s erzeugen, da die angegebene Einheitentyp-ID %d "
+"ungültig ist."
 
 #. TRANS: ..." type <unit-type> at <tile-coordinates>"...
 #: server/edithand.c:555
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot create a unit of type %s at %s because the given owner's player id %d "
 "is invalid."
-msgstr "Kann keine %s auf diesem Gelände erzeugen."
+msgstr ""
+"Kann keine Einheit des Typs %s bei %s erzeugen, da die angegebene Spieler-ID "
+"%d ungültig ist."
 
 #. TRANS: ..." type <unit-type> on enemy tile
 #. * <tile-coordinates>"...
 #: server/edithand.c:568
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot create unit of type %s on enemy tile %s."
-msgstr "Kann keine Einheit auf einem feindlichen Feld erzeugen."
+msgstr "Kann keine Einheit des Typs %s auf dem feindlichen Feld %s erzeugen."
 
 #. TRANS: ..." type <unit-type> on the terrain at
 #. * <tile-coordinates>"...
 #: server/edithand.c:578
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot create a unit of type %s on the terrain at %s."
-msgstr "Kann keine %s auf diesem Gelände erzeugen."
+msgstr "Kann keine Einheit des Typs %s auf dem Gelände des Felds %s erzeugen."
 
 #: server/edithand.c:621
 #, c-format
 msgid "Cannot remove units because %d is not a valid tile index on this map!"
 msgstr ""
+"Kann Einheiten nicht entfernen, da %d kein gültiger Feldindex auf dieser "
+"Karte ist!"
 
 #. TRANS: ..." at <tile-coordinates> because"...
 #: server/edithand.c:630
@@ -39822,9 +39828,9 @@ msgid ""
 msgstr ""
 
 #: server/edithand.c:672 server/edithand.c:695
-#, fuzzy, c-format
+#, c-format
 msgid "No such unit (ID %d)."
-msgstr "Keine Abstimmung mit der Nummer %d vorhanden."
+msgstr "Einheit nicht gefunden (ID: %d)."
 
 #: server/edithand.c:734
 #, c-format
@@ -39845,9 +39851,9 @@ msgstr ""
 
 #. TRANS: ..." at <tile-coordinates>."
 #: server/edithand.c:786
-#, fuzzy, c-format
+#, c-format
 msgid "A city may not be built at %s."
-msgstr "* Kann nicht in Städten gebaut werden.\n"
+msgstr "Auf %s kann keine Stadt gegründet werden."
 
 #: server/edithand.c:833
 #, c-format
@@ -39855,9 +39861,9 @@ msgid "Cannot edit city with invalid city ID %d."
 msgstr ""
 
 #: server/edithand.c:846
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot edit city name: %s"
-msgstr "Verbindungsname: %s"
+msgstr "Kann Stadtnamen nicht ändern: %s"
 
 #: server/edithand.c:857
 #, c-format
@@ -39882,13 +39888,13 @@ msgid ""
 msgstr ""
 
 #: server/edithand.c:984
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "No more players can be added because the maximum number of players (%d) has "
 "been reached."
 msgstr ""
-"Du kannst keinen neuen Spieler übernehmen, weil die Höchtszahl von %d "
-"Spieler bereits erreicht ist (Option mayplayers)."
+"Es können keine weiteren Spieler hinzugefügt werden, da die Höchstzahl von "
+"Spielern (%d) bereits erreicht wurde."
 
 #: server/edithand.c:992
 #, c-format
@@ -39898,19 +39904,19 @@ msgid ""
 msgstr ""
 
 #: server/edithand.c:1001
-#, fuzzy
 msgid "Player cannot be created because random nation selection failed."
-msgstr "Spieler können nach Spielstart nicht mehr entfernt werden."
+msgstr ""
+"Spieler konnte nicht erzeugt werden, da die zufällige Nationenwahl "
+"fehlschlug."
 
 #: server/edithand.c:1009
-#, fuzzy
 msgid "Player creation failed."
-msgstr "Spieler zerstört"
+msgstr "Spielererzeugung fehlgeschlagen."
 
 #: server/edithand.c:1043
-#, fuzzy, c-format
+#, c-format
 msgid "No such player (ID %d)."
-msgstr "Keine Abstimmung mit der Nummer %d vorhanden."
+msgstr "Spieler nicht gefunden (ID: %d)."
 
 #: server/edithand.c:1072
 #, c-format
@@ -39956,19 +39962,20 @@ msgid ""
 msgstr ""
 
 #: server/edithand.c:1283
-#, fuzzy, c-format
+#, c-format
 msgid "No such city (ID %d)."
-msgstr "Keine Abstimmung mit der Nummer %d vorhanden."
+msgstr "Stadt nicht gefunden (ID: %d)."
 
 #: server/edithand.c:1309
-#, fuzzy
 msgid "Cannot toggle fog-of-war when it is already disabled."
-msgstr "Spiel kann nicht gestartet werden: es läuft bereits."
+msgstr ""
+"Kann Nebel des Krieges nicht umschalten, wenn dieser bereits deaktiviert "
+"wurde."
 
 #: server/edithand.c:1317
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot toggle fog-of-war for invalid player ID %d."
-msgstr "Barbaren können nicht von Menschen gespielt werden."
+msgstr "Kann Nebel des Krieges nicht für ungültige Spieler-ID %d umschalten."
 
 #: server/edithand.c:1345 server/edithand.c:1384
 #, c-format
@@ -39997,9 +40004,9 @@ msgstr ""
 
 #. TRANS: Further information about option will follow.
 #: server/fcdb.c:121
-#, fuzzy, c-format
+#, c-format
 msgid "fcdb option \"%s\":"
-msgstr "Authentifizierungsoption '%s':"
+msgstr "fcdb option \"%s\":"
 
 #. TRANS: After 'fcdb option "user":'. Option value
 #. may have been inserted between these. Preserve
@@ -40024,16 +40031,18 @@ msgid " (set)"
 msgstr " (Konsole)"
 
 #: server/fcdb.c:190
-#, fuzzy, c-format
+#, c-format
 msgid "Illegal value for fcdb port: \"%s\""
-msgstr "Unzulässiger Wert für den Auth-Port: '%s'"
+msgstr "Unzulässiger Wert für den fcdb-Port: „%s“"
 
 #: server/fcdb.c:239
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot load fcdb config file '%s':\n"
 "%s"
-msgstr "Kann Konfigurationsdatei '%s' für Authentifizierung nicht laden!"
+msgstr ""
+"Kann fcdb-Konfigurationsdatei „%s“ nicht laden:\n"
+"%s"
 
 #: server/gamehand.c:171
 #, c-format
@@ -40048,7 +40057,6 @@ msgid "No units placed for %s!"
 msgstr "%s hat keine Einheiten!"
 
 #: server/gamehand.c:551
-#, fuzzy
 msgid "The turn timeout has exceeded its maximum value, fixing at its maximum."
 msgstr ""
 "Die zulässige Rundenzeit hat das Maximum überschritten, sie wird auf den "
@@ -40060,7 +40068,7 @@ msgstr "Die zulässige Rundenzeit ist negativ, sie wird auf Null gesetzt."
 
 #: server/generator/mapgen.c:1467
 msgid "The server couldn't allocate starting positions."
-msgstr ""
+msgstr "Der Server konnte die Startpositionen nicht festlegen."
 
 #: server/generator/mapgen.c:2110
 msgid "High landmass - this may take a few seconds."
@@ -40136,14 +40144,16 @@ msgid "%s is an ambiguous connection name-prefix."
 msgstr "%s ist nicht eindeutig."
 
 #: server/handchat.c:116
-#, fuzzy, c-format
+#, c-format
 msgid "%s is an anonymous name. Use connection name."
-msgstr "Der Name %s ist unbekannt. Verwenden Sie den Verbindungsnamen."
+msgstr "%s ist ein anonymer Name. Verwenden Sie den Verbindungsnamen."
 
 #: server/handchat.c:135 server/handchat.c:172
 #, c-format
 msgid "You cannot send messages to %s; you are ignored."
 msgstr ""
+"Ihre Nachrichten an %s werden gefiltert, daher können Sie ihm/ihr keine "
+"Nachricht senden."
 
 #: server/handchat.c:231
 #, c-format
@@ -40151,9 +40161,9 @@ msgid "%s to allies: %s"
 msgstr "%s an Verbündete: %s"
 
 #: server/handchat.c:263
-#, fuzzy, c-format
+#, c-format
 msgid "%s to global observers: %s"
-msgstr "%s beobachtet jetzt den Spieler %s"
+msgstr "%s an globale Beobachter: %s"
 
 #: server/handchat.c:352
 msgid "You are not attached to a player."
@@ -40196,32 +40206,30 @@ msgstr ""
 "Feuchtgebiete sind ausgetrocknet und große Teile des Graslands sind zu "
 "Tundra geworden."
 
+# MG: Wird nur bei Eigenentdeckung angezeigt
 #: server/maphand.c:229
-#, fuzzy
 msgid ""
 "New hope sweeps like fire through the country as the discovery of railroad "
 "is announced."
 msgstr ""
-"Als die Entwicklung der Eisenbahn bekannt gegeben wird, fassen\n"
-"       die Arbeiter neuen Mut. Spontan statten sie alle Städte damit aus."
+"Als die Entwicklung der Eisenbahn bekannt gegeben wird, erleuchtet die "
+"Flamme der Hoffnung das Land."
 
+# MG: Wird nur bei Aquise durch Diplomatie, Eroberung, etc. angezeigt
 #: server/maphand.c:233
-#, fuzzy
 msgid ""
 "The people are pleased to hear that your scientists finally know about "
 "railroads."
 msgstr ""
-"Das Volk ist begeistert über die Entwicklung der Eisenbahn durch unsere "
-"Wissenschaftler.\n"
-"       Spontan haben sie alle Städte damit ausgestattet."
+"Das Volk ist begeistert davon, dass nun auch unsere Wissenschaftler die "
+"Eisenbahn verstehen."
 
+# MG: Wird immer angezeigt
 #: server/maphand.c:237
-#, fuzzy
 msgid "Workers spontaneously gather and upgrade all cities with railroads."
 msgstr ""
-"Die Bevölkerung in %s ist von deinen technischen Errungenschaften\n"
-"       begeistert! Die Arbeiter haben die Stadt spontan mit einer\n"
-"       Eisenbahn ausgestattet."
+"Die Arbeiter fassen neuen Mut und statten spontan alle Städte mit "
+"Eisenbahnschienen aus."
 
 #: server/maphand.c:1502
 #, c-format
@@ -40238,9 +40246,8 @@ msgid "Not reporting to the metaserver in this game."
 msgstr "In diesem Spiel werden keine Daten an den Metaserver geschickt."
 
 #: server/meta.c:234
-#, fuzzy
 msgid "Error connecting to metaserver"
-msgstr "Verbindung zum Server verloren!"
+msgstr "Fehler bei der Verbindung zum Metaserver"
 
 #: server/plrhand.c:134
 #, c-format
@@ -40292,19 +40299,16 @@ msgid "You should choose a new government from the government menu."
 msgstr "Bitte wählen Sie eine neue Regierung im Menü Regierung."
 
 #: server/plrhand.c:451
-#, fuzzy
 msgid "Tax rate exceeded the max rate; adjusted."
-msgstr "Die Steuerquote übersteigt die Höchstgrenze für %s; angepaßt."
+msgstr "Die Steuerquote übersteigt die Höchstgrenze; angepasst."
 
 #: server/plrhand.c:455
-#, fuzzy
 msgid "Science rate exceeded the max rate; adjusted."
-msgstr "Die Forschungsquote übersteigt die Höchstgrenze für %s; angepaßt."
+msgstr "Die Forschungsquote übersteigt die Höchstgrenze; angepasst."
 
 #: server/plrhand.c:459
-#, fuzzy
 msgid "Luxury rate exceeded the max rate; adjusted."
-msgstr "Die Luxusquote übersteigt die Höchstgrenze für %s; angepaßt."
+msgstr "Die Luxusquote übersteigt die Höchstgrenze; angepasst."
 
 #: server/plrhand.c:563
 #, c-format
@@ -40394,10 +40398,10 @@ msgid "That nation is already in use."
 msgstr "Diese Nation ist bereits vergeben."
 
 #: server/plrhand.c:1606
-#, fuzzy, c-format
+#, c-format
 msgid "Another player already has the name '%s'. Please choose another name."
 msgstr ""
-"Ein anderer Spieler nimmt bereits unter dem Namen '%s' am Spiel teil. Bitte "
+"Ein anderer Spieler nimmt bereits unter dem Namen „%s“ am Spiel teil. Bitte "
 "wählen Sie einen anderen Namen."
 
 #: server/plrhand.c:1630
@@ -40405,14 +40409,13 @@ msgid "Please choose a name containing only ASCII characters."
 msgstr "Bitte wählen Sie einen Namen, der nur ASCII-Zeichen enthält."
 
 #: server/plrhand.c:1705 server/plrhand.c:1719
-#, fuzzy, c-format
+#, c-format
 msgid "Player no. %d"
-msgstr "Spieler %d"
+msgstr "Spieler Nr. %d"
 
 #: server/plrhand.c:1734
-#, fuzzy
 msgid "A poorly-named player"
-msgstr "Eine schlecht benannte Stadt"
+msgstr "Ein schlecht benannter Spieler"
 
 #: server/plrhand.c:1803 server/plrhand.c:1807
 #, c-format
@@ -40422,16 +40425,18 @@ msgstr "Die %s entdeckt. Ihr Herrscher ist %s."
 #: server/plrhand.c:2339
 #, c-format
 msgid "Could not throw %s into civil war - too many players"
-msgstr "Bürgerkrieg der %s ist nicht möglich - zu viele Spieler"
+msgstr "Konnte die %s nicht in den Bürgerkrieg treiben — zu viele Spieler"
 
 #: server/plrhand.c:2345
 #, c-format
 msgid "Could not throw %s into civil war - no available nations"
-msgstr "Bürgerkrieg der %s ist nicht möglich - keine Nationen verfügbar"
+msgstr ""
+"Konnte die %s nicht in den Bürgerkrieg treiben — keine Nationen mehr "
+"verfügbar"
 
 #: server/plrhand.c:2375
 msgid "Your nation is thrust into civil war."
-msgstr "Die Nation wird vom Bürgerkrieg gespalten."
+msgstr "In Ihrer Nation ist der Bürgerkrieg ausgebrochen!"
 
 #. TRANS: <leader> ... the Poles.
 #: server/plrhand.c:2379
@@ -40463,15 +40468,17 @@ msgid ""
 msgstr ""
 
 #: server/plrhand.c:2578
-#, fuzzy, c-format
+#, c-format
 msgid "Control of player '%s' is delegated to you."
-msgstr "%s auf '%s' gesetzt."
+msgstr "Kontrolle über den Spieler „%s“ an Sie delegiert."
 
 #. TRANS: '/delegate take' is a server command and must not
 #. * be translated; but <player> should be translated.
 #: server/plrhand.c:2587
 msgid "Use '/delegate take <player>' to take control of a delegated player."
 msgstr ""
+"Verwenden Sie „/delegate take <Spieler>“ um die Kontrolle über einen "
+"delegierten Spieler zu übernehmen."
 
 #. TRANS: year <name> reports ...
 #: server/report.c:84
@@ -40522,7 +40529,7 @@ msgstr "Plinius der Ältere"
 #. TRANS: [year] <name> [reports ...]
 #: server/report.c:103
 msgid "Livy"
-msgstr "Livy"
+msgstr "Livius"
 
 #. TRANS: [year] <name> [reports ...]
 #: server/report.c:105
@@ -40537,7 +40544,7 @@ msgstr "Gibbon"
 #. TRANS: [year] <name> [reports ...]
 #: server/report.c:109
 msgid "Ssu-ma Ch'ien"
-msgstr "Ssu-ma Ch'ien"
+msgstr "Ssu-ma Ch’ien"
 
 #. TRANS: [year] <name> [reports ...]
 #: server/report.c:111
@@ -40660,9 +40667,9 @@ msgstr "Historiker veröffentlicht:"
 
 #. TRANS:"The French City of Lyon (team 3) of size 18".
 #: server/report.c:350
-#, fuzzy, c-format
+#, c-format
 msgid "%2d: The %s City of %s (%s) of size %d, "
-msgstr "%2d: Die %se Stadt %s der Größe %d "
+msgstr "%2d: Die %se Stadt %s (%s) der Größe %d "
 
 #: server/report.c:356
 #, c-format
@@ -40677,7 +40684,7 @@ msgstr "ohne Weltwunder\n"
 #, c-format
 msgid "with %d wonder\n"
 msgid_plural "with %d wonders\n"
-msgstr[0] "mit 1 Weltwunder\n"
+msgstr[0] "mit %d Weltwunder\n"
 msgstr[1] "mit %d Weltwundern\n"
 
 #: server/report.c:369 server/report.c:443
@@ -40690,9 +40697,9 @@ msgstr "Die fünf großartigsten Städte der Welt!"
 
 #. TRANS: "Colossus in Rhodes (Greek, team 2)".
 #: server/report.c:396
-#, fuzzy, c-format
+#, c-format
 msgid "%s in %s (%s, %s)\n"
-msgstr "%s in %s (%s)\n"
+msgstr "%s in %s (%s, %s)\n"
 
 #: server/report.c:402
 #, c-format
@@ -40706,9 +40713,9 @@ msgstr "%s wurde ZERSTÖRT\n"
 
 #. TRANS: "([...] (Roman, team 4))".
 #: server/report.c:428
-#, fuzzy, c-format
+#, c-format
 msgid "(building %s in %s (%s, %s))\n"
-msgstr "(baut %s in %s (%s))\n"
+msgstr "(baut %s in %s (%s, %s))\n"
 
 #: server/report.c:433
 #, c-format
@@ -40854,20 +40861,18 @@ msgid "Spaceship\n"
 msgstr "Raumschiff\n"
 
 #: server/report.c:1482
-#, fuzzy
 msgid "Built Units\n"
-msgstr "Einheiten im Bau "
+msgstr "Ausgebildete Einheiten\n"
 
 #: server/report.c:1483
-#, fuzzy
 msgid "Killed Units\n"
-msgstr "Mögliche Einheiten"
+msgstr "Getötete Einheiten\n"
 
 #: server/report.c:1484
-#, fuzzy
 msgid "Unit Losses\n"
-msgstr "Schild"
+msgstr "Einheitenverluste\n"
 
+# MG: TECHNICAL
 #. TRANS: message about an installation error.
 #: server/ruleset.c:225
 #, c-format
@@ -40875,39 +40880,36 @@ msgid "Could not find a readable \"%s.%s\" ruleset file."
 msgstr "Could not find a readable \"%s.%s\" ruleset file."
 
 #: server/ruleset.c:4280
-#, fuzzy
 msgid "Loading rulesets."
-msgstr "Lade Regelsätze"
+msgstr "Lade Regelsätze."
 
 #: server/ruleset.c:4356
-#, fuzzy
 msgid "Reducing aifill because there are not enough playable nations."
 msgstr ""
-"Du kannst keinen neuen Spieler übernehmen, weil es keine freien Plätze mehr "
-"gibt."
+"„aifill“ wird verringert, weil es nicht genügend spielbare Nationen gibt."
 
 #. TRANS: Minor error message.
 #: server/savegame2.c:301 server/savegame.c:190
-#, fuzzy
 msgid ""
 "Saved game contains incomplete map data. This can happen with old saved "
 "games, or it may indicate an invalid saved game file. Proceed at your own "
 "risk."
 msgstr ""
 "Die Karte wurde nicht komplett gespeichert. Das kann entweder daran liegen, "
-"daß es sich um eine ältere Sicherung handelt oder daß die Sicherungsdatei "
+"dass es sich um eine ältere Sicherung handelt oder dass die Sicherungsdatei "
 "beschädigt ist. Wenn Sie weitermachen wollen: Auf eigene Gefahr!"
 
 #: server/savegame2.c:3099 server/savegame.c:5337 server/srv_main.c:1899
 #: server/srv_main.c:1904
-#, fuzzy, c-format
+#, c-format
 msgid "%s has been added as %s level AI-controlled player (%s)."
-msgstr "%s ist als KI-Spieler mit dem Level '%s' dazu gekommen."
+msgstr ""
+"%s ist als KI-Spieler mit dem Schwierigkeitsgrad „%s“ dazu gekommen (%s)."
 
 #: server/savegame2.c:3104 server/savegame.c:5342
-#, fuzzy, c-format
+#, c-format
 msgid "%s has been added as human player."
-msgstr "%s ist als KI-Spieler dazu gekommen."
+msgstr "%s ist als menschlicher Spieler dazu gekommen."
 
 #. TRANS: Minor error message: <Leader> ... <Poles>.
 #: server/savegame2.c:3127 server/savegame.c:5389
@@ -40916,19 +40918,16 @@ msgid "%s had invalid nation; changing to %s."
 msgstr "%s ist eine ungültige Nation und wird geändert auf %s."
 
 #: server/savegame2.c:6035
-#, fuzzy
 msgid "current version"
-msgstr "(Beta-Version)"
+msgstr "Aktuelle Version"
 
 #: server/savegame2.c:6039
-#, fuzzy
 msgid "freeciv 2.3.0"
-msgstr "Freeciv"
+msgstr "Freeciv 2.3.0"
 
 #: server/savegame2.c:6041
-#, fuzzy
 msgid "freeciv 2.4.0"
-msgstr "Freeciv"
+msgstr "Freeciv 2.4.0"
 
 #: server/savegame2.c:6092
 #, c-format
@@ -41261,9 +41260,9 @@ msgstr ""
 "geladen wurde."
 
 #: server/settings.c:580
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid score name definition: '%s'."
-msgstr "Unzulässiger Name '%s'"
+msgstr "Unzulässige Highscore-Definition: „%s“"
 
 #: server/settings.c:602
 #, c-format
@@ -41275,13 +41274,13 @@ msgstr ""
 "Nähere Informationen sind mit »help demography« erhältlich."
 
 #: server/settings.c:644
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Allowed take string validation failed at character: '%c'. Try \"help "
 "allowtake\"."
 msgstr ""
-"Der Optionsstring zu zulässigen Verbindungen enthält ungültige Zeichen. "
-"Nähere Informationen sind mit 'help allowconnect' erhältlich."
+"Der Optionsstring zur Übernahme von Spielern enthält das ungültige Zeichen "
+"„%c“. Nähere Informationen sind mit „help allowtake“ erhältlich."
 
 #: server/settings.c:682
 #, c-format
@@ -41673,7 +41672,6 @@ msgid "Average temperature of the planet"
 msgstr "Mittlere Temperatur des Planeten"
 
 #: server/settings.c:1153
-#, fuzzy
 msgid ""
 "Small values will give a cold map, while larger values will give a hotter "
 "map.\n"
@@ -41690,15 +41688,11 @@ msgstr ""
 "\n"
 "100 bedeutet einen sehr trockenen und heißen Planeten ohne Polareiszonen, "
 "nur mit tropischen oder Trockenzonen.\n"
-"\n"
-"70 bedeutet einen heißen Planeten mit wenig Polareis.\n"
-"\n"
-"50 bedeutet einen normalwarmen Planeten mit Polar-, kalten, warmen und "
+"  70 bedeutet einen heißen Planeten mit wenig Polareis.\n"
+"  50 bedeutet einen normalwarmen Planeten mit Polar-, kalten, warmen und "
 "tropischen Zonen; eine Wüstenzone überlagert tropische und warme Zonen.\n"
-"\n"
-"30 bedeutet einen kalten Planeten mit kleineren Tropenzonen.\n"
-"\n"
-"0 bedeutet einen sehr kalten Planeten mit ausgedehnten Polarzonen und ohne "
+"  30 bedeutet einen kalten Planeten mit kleineren Tropenzonen.\n"
+"  0 bedeutet einen sehr kalten Planeten mit ausgedehnten Polarzonen und ohne "
 "Tropen."
 
 #: server/settings.c:1170
@@ -42072,7 +42066,6 @@ msgstr "Abzug für »kostenlose« Entwicklungen"
 #. TRANS: The strings between single quotes are setting names and
 #. * shouldn't be translated.
 #: server/settings.c:1433
-#, fuzzy
 msgid ""
 "For each technology you gain \"for free\" (other than covered by 'diplcost' "
 "or 'conquercost': for instance, from huts or from Great Library effects), "
@@ -42166,7 +42159,6 @@ msgid "Minimum distance between cities"
 msgstr "Mindestentfernung zwischen Städten"
 
 #: server/settings.c:1504
-#, fuzzy
 msgid ""
 "When a player attempts to found a new city, it is prevented if the distance "
 "from any existing city is less than this setting. For example, when this "
@@ -42178,7 +42170,8 @@ msgstr ""
 "der angegebenen Entfernung existiert. Beispiel: Wenn dieser Wert 3 ist, "
 "müssen zwischen zwei Städten mindestens zwei leere Felder in allen "
 "Richtungen liegen. Wenn dieser Wert 0 ist (Standard), wird der Wert durch "
-"den verwendeten Regelsatz bestimmt."
+"den verwendeten Regelsatz bestimmt. Ein Wert von 1 hebt derlei "
+"Beschränkungen vollständig auf."
 
 #: server/settings.c:1516
 msgid "Technology trading"
@@ -42439,13 +42432,12 @@ msgid "Length in turns of revolution"
 msgstr "Dauer der Revolution in Runden"
 
 #: server/settings.c:1701
-#, fuzzy
 msgid ""
 "When changing governments, a period of anarchy lasting this many turns will "
 "occur. Setting this value to 0 will give a random length of 1-5 turns."
 msgstr ""
 "Beim Wechsel der Regierungsform gibt es eine Zwischenperiode von der "
-"angegebenen Anzahl Runden. Der Wert Null gibt eine zufällige Dauer von 1-6 "
+"angegebenen Anzahl Runden. Der Wert Null gibt eine zufällige Dauer von 1-5 "
 "Runden."
 
 #: server/settings.c:1710
@@ -42453,15 +42445,15 @@ msgid "Whether to enable fog of war"
 msgstr "Nebel des Krieges"
 
 #: server/settings.c:1711
-#, fuzzy
 msgid ""
 "If this is enabled, only those units and cities within the vision range of "
 "your own units and cities will be revealed to you. You will not see new "
 "cities or terrain changes in tiles not observed."
 msgstr ""
-"Bei 1 verhindern die 'Nebel des Krieges', daß Einheiten außer Sichtweite "
-"eigener Einheiten angezeigt werden. Auch neue Städte oder "
-"Landschaftsänderungen auf unbeobachteten Feldern bleiben unbemerkt."
+"Wenn dies aktiviert ist, werden nur solche Einheiten und Städte aufgedeckt, "
+"die sich in Sichtweite Ihrer eigenen Einheiten Städte befinden. Auch neue "
+"Städte oder Landschaftsänderungen auf unbeobachteten Feldern bleiben "
+"unbemerkt."
 
 #: server/settings.c:1719
 msgid "Whether fog of war applies to border changes"
@@ -42520,9 +42512,8 @@ msgid "Whether to allow space race"
 msgstr "Weltraumrennen erlaubt?"
 
 #: server/settings.c:1760
-#, fuzzy
 msgid "If this option is enabled, players can build spaceships."
-msgstr "1 erlaubt den Raumschiffbau."
+msgstr "Diese Option erlaubt den Bau eines Raumschiffs."
 
 #: server/settings.c:1765
 msgid "Should the game end if the spaceship arrives?"
@@ -42596,7 +42587,6 @@ msgid "Rebuild palace whenever capital is conquered"
 msgstr "Ewiger Palast"
 
 #: server/settings.c:1810
-#, fuzzy
 msgid ""
 "If this is turned on, when the capital is conquered the palace is "
 "automatically rebuilt for free in another randomly chosen city. This is "
@@ -42604,9 +42594,11 @@ msgid ""
 "ignored. (In some rulesets, buildings other than the palace are affected by "
 "this setting.)"
 msgstr ""
-"Falls 1, wird beim Verlust der Hauptstadt automatisch in einer zufällig "
-"ausgewählten Stadt kostenfrei ein neuer errichtet, auch wenn die "
-"technologischen Voraussetzungen dafür nicht vorhanden sind."
+"Falls eingeschaltet, wird beim Verlust der Hauptstadt automatisch in einer "
+"zufällig ausgewählten Stadt kostenfrei ein neuer Palast errichtet, auch wenn "
+"die technologischen Voraussetzungen dafür nicht vorhanden sind (in einigen "
+"Regelsätzen sind neben dem Palast noch andere Gebäude von dieser Einstellung "
+"betroffen)."
 
 #: server/settings.c:1820
 msgid "Give caught units a homecity"
