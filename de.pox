@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-14 13:25+0100\n"
-"PO-Revision-Date: 2013-12-18 23:25+0100\n"
+"PO-Revision-Date: 2013-12-19 14:55+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -38303,7 +38303,6 @@ msgid "Control metaserver connection."
 msgstr "Verbindung zum Metaserver."
 
 #: server/commands.c:266
-#, fuzzy
 msgid ""
 "'metaconnection ?' reports on the status of the connection to metaserver. "
 "'metaconnection down' or 'metac d' brings the metaserver connection down. "
@@ -38369,7 +38368,6 @@ msgstr "Beobachten des Spiels oder eines Spielers."
 
 #. TRANS: Don't translate text between ''
 #: server/commands.c:303
-#, fuzzy
 msgid ""
 "Only the console and connections with cmdlevel 'hack' can force other "
 "connections to observe a player. If you're not one of these, only the "
@@ -38603,7 +38601,6 @@ msgid "Query or set command access level access."
 msgstr "Abfrage bzw. Setzen der Zugriffsberechtigung"
 
 #: server/commands.c:413
-#, fuzzy
 msgid ""
 "The command access level controls which server commands are available to "
 "users via the client chatline. The available levels are:\n"
@@ -38847,7 +38844,6 @@ msgid "Save game to file."
 msgstr "Spiel speichern"
 
 #: server/commands.c:541
-#, fuzzy
 msgid ""
 "Save the current game to file <file-name>. If no file-name argument is given "
 "saves to \"<auto-save name prefix><year>m.sav[.gz]\". To reload a savegame "
@@ -38856,7 +38852,7 @@ msgid ""
 "and use the 'start' command once players have reconnected."
 msgstr ""
 "Speichert das Spiel in der Datei <Dateiname>. Wenn kein Dateiname angegeben "
-"wird, heißt die Datei '<auto-save name prefix><year>m.sav[.gz]'. Um ein "
+"wird, heißt die Datei „<auto-save name prefix><year>m.sav[.gz]“. Um ein "
 "gespeichertes Spiel fortzuführen, ruft man den Server mit dem Argument\n"
 "      --file <Dateiname>\n"
 "auf und gibt, nachdem alle Mitspieler sich wieder verbunden haben, den "
@@ -38876,7 +38872,6 @@ msgid "Load game from file."
 msgstr "Spieldatei laden."
 
 #: server/commands.c:554
-#, fuzzy
 msgid ""
 "Load a game from <file-name>. Any current data including players, rulesets "
 "and server options are lost."
@@ -39329,38 +39324,38 @@ msgid "The %s have acquired %s from the %s."
 msgstr "Die %s haben %s von den %s übernommen."
 
 #: server/diplhand.c:450
-#, fuzzy, c-format
+#, c-format
 msgid "You get %d gold."
 msgid_plural "You get %d gold."
-msgstr[0] "%d Goldstücke erhalten."
+msgstr[0] "%d Goldstück erhalten."
 msgstr[1] "%d Goldstücke erhalten."
 
 #. TRANS: ... Polish worldmap.
 #: server/diplhand.c:458
 #, c-format
 msgid "You receive the %s worldmap."
-msgstr "Du hast die %se Weltkarte erhalten."
+msgstr "Sie haben die %se Weltkarte erhalten."
 
 #. TRANS: ... Polish seamap.
 #: server/diplhand.c:467
 #, c-format
 msgid "You receive the %s seamap."
-msgstr "Du hast die %se Seekarte erhalten."
+msgstr "Sie haben die %se Seekarte erhalten."
 
 #: server/diplhand.c:483
-#, fuzzy, c-format
+#, c-format
 msgid "You receive the city of %s from %s."
 msgstr "Stadt %s von %s erhalten."
 
 #: server/diplhand.c:487
-#, fuzzy, c-format
+#, c-format
 msgid "You give the city of %s to %s."
 msgstr "Stadt %s an %s abgegeben."
 
 #: server/diplhand.c:499 server/diplhand.c:502
 #, c-format
 msgid "You agree on a cease-fire with %s."
-msgstr "Du stimmst einer Feuerpause mit %s zu."
+msgstr "Sie stimmen einer Feuerpause mit %s zu."
 
 #. TRANS: ... the Poles ... Polish territory.
 #: server/diplhand.c:519 server/diplhand.c:531
@@ -39372,16 +39367,16 @@ msgid_plural ""
 "You agree on an armistice with the %s. In %d turns, it will become a peace "
 "treaty. Move your units out of %s territory."
 msgstr[0] ""
-"Du hast einem Waffenstillstand mit den %s zugestimmt. In %d Runde wird "
-"daraus ein Friedensvertrag. Entferne deine Einheiten aus dem %sen Gebiet."
+"Sie haben einem Waffenstillstand mit den %s zugestimmt, in %d Runde wird "
+"daraus ein Friedensvertrag. Entfernen Sie Ihre Einheiten aus dem %sen Gebiet."
 msgstr[1] ""
-"Du hast einem Waffenstillstand mit den %s zugestimmt. In %d Runden wird "
-"daraus ein Friedensvertrag. Entferne deine Einheiten aus dem %sen Gebiet."
+"Sie haben einem Waffenstillstand mit den %s zugestimmt, in %d Runden wird "
+"daraus ein Friedensvertrag. Entfernen Sie Ihre Einheiten aus dem %sen Gebiet."
 
 #: server/diplhand.c:553 server/diplhand.c:556
 #, c-format
 msgid "You agree on an alliance with %s."
-msgstr "Du hast einer Allianz mit %s zugestimmt."
+msgstr "Sie haben einer Allianz mit %s zugestimmt."
 
 #: server/diplhand.c:564
 #, c-format
@@ -39593,40 +39588,41 @@ msgstr "Die %s vernichteten %s in %s."
 #: server/diplomats.c:1175
 #, c-format
 msgid "An enemy %s has been eliminated by your %s."
-msgstr "Feindlicher %s wurde von Deinem %s getötet."
+msgstr "Ein feindlicher %s wurde von Ihrem %s getötet."
 
 #. TRANS: <unit> ... <city> ... <diplomat>
 #: server/diplomats.c:1182
 #, c-format
 msgid "Your %s has been eliminated defending %s against a %s."
-msgstr "%s wurde während des Dienstes von einem %s in %s getötet."
+msgstr "Ihr %s wurde während des Dienstes in %s von einem %s getötet."
 
 #. TRANS: <nation adj> <unit> ... <city>
 #. * TRANS: ... <diplomat>
 #: server/diplomats.c:1189
-#, fuzzy, c-format
+#, c-format
 msgid "A %s %s has been eliminated defending %s against a %s."
-msgstr "%s wurde während des Dienstes von einem %s in %s getötet."
+msgstr "Ein %ser %s wurde während des Dienstes in %s von einem %s getötet."
 
 #. TRANS: ... <unit> ... <nation adj> <city>
 #. * TRANS: ... <diplomat>
 #: server/diplomats.c:1196
-#, fuzzy, c-format
+#, c-format
 msgid "Your %s has been eliminated defending %s %s against a %s."
-msgstr "%s wurde während des Dienstes von einem %s in %s getötet."
+msgstr ""
+"Ihr %s wurde während des Dienstes in der %sen Stadt %s von einem %s getötet."
 
 #. TRANS: <unit> ... <diplomat>
 #. TRANS: ... <unit> ... <diplomat>
 #: server/diplomats.c:1205 server/diplomats.c:1216
 #, c-format
 msgid "Your %s has been eliminated defending against a %s."
-msgstr "%s wurde von feindlichem %s getötet."
+msgstr "Ihr %s wurde im Kampf mit einem %s getötet."
 
 #. TRANS: <nation adj> <unit> ... <diplomat>
 #: server/diplomats.c:1210
-#, fuzzy, c-format
+#, c-format
 msgid "A %s %s has been eliminated defending against a %s."
-msgstr "%s wurde von feindlichem %s getötet."
+msgstr "Ein %ser %s wurde im Kampf mit einem %s getötet."
 
 #: server/diplomats.c:1238
 #, c-format
@@ -39634,91 +39630,103 @@ msgid "Your %s was eliminated by a defending %s."
 msgstr "%s wurde von einem Wächter (%s) getötet."
 
 #: server/diplomats.c:1244
-#, fuzzy, c-format
+#, c-format
 msgid "Eliminated a %s %s while infiltrating %s."
-msgstr "%ser %s wurde bei dem Versuch %s zu unterwandern getötet."
+msgstr ""
+"Ein %ser %s wurde bei dem Versuch %s zu unterwandern ertappt und getötet."
 
 #: server/diplomats.c:1249
-#, fuzzy, c-format
+#, c-format
 msgid "A %s %s eliminated a %s %s while infiltrating %s."
-msgstr "%ser %s wurde bei dem Versuch %s zu unterwandern getötet."
+msgstr ""
+"Ein %3$ser %4$s wurde bei dem Versuch, %5$s zu unterwandern, von einem "
+"%1$sen %2$s ertappt und getötet."
 
 #: server/diplomats.c:1254
-#, fuzzy, c-format
+#, c-format
 msgid "Your %s eliminated a %s %s while infiltrating %s."
-msgstr "%ser %s wurde bei dem Versuch %s zu unterwandern getötet."
+msgstr ""
+"Ihr %s hat einen %sen %s bei dem Versuch, %s zu unterwandern, ertappt und "
+"getötet."
 
 #: server/diplomats.c:1262
-#, fuzzy, c-format
+#, c-format
 msgid "Eliminated a %s %s while infiltrating our troops."
-msgstr "%ser %s wurde bei dem Versuch unsere Einheiten zu bestechen getötet."
+msgstr ""
+"Ein %ser %s wurde bei dem Versuch, unsere Truppen zu unterwandern, ertappt "
+"und getötet."
 
 #: server/diplomats.c:1267
-#, fuzzy, c-format
+#, c-format
 msgid "A %s %s eliminated a %s %s while infiltrating our troops."
-msgstr "%ser %s wurde bei dem Versuch unsere Einheiten zu bestechen getötet."
+msgstr ""
+"Ein %ser %s hat einen %sen %s bei dem Versuch, unsere Truppen zu "
+"unterwandern, ertappt und ihn getötet."
 
 #. TRANS: ... <unit> ... <diplomat>
 #: server/diplomats.c:1273
-#, fuzzy, c-format
+#, c-format
 msgid "Your %s eliminated a %s %s while infiltrating our troops."
-msgstr "%ser %s wurde bei dem Versuch unsere Einheiten zu bestechen getötet."
+msgstr ""
+"Ihr %s hat einen %sen %s bei dem Versuch, unsere Truppen zu unterwandern, "
+"ertappt und ihn getötet."
 
 #: server/diplomats.c:1337
 #, c-format
 msgid ""
 "Your %s has successfully completed the mission and returned unharmed to %s."
 msgstr ""
-"Dein %s hat seine Mission erfolgreich beendet und ist unverletzt nach %s "
+"Ihr %s hat seine Mission erfolgreich beendet und ist unverletzt nach %s "
 "zurückgekehrt."
 
 #: server/diplomats.c:1356
 #, c-format
 msgid "Your %s was captured after completing the mission in %s."
-msgstr "Dein %s wurde nach Beendigung seiner Mission in %s gefangen genommen."
+msgstr "Ihr %s wurde nach Beendigung seiner Mission in %s gefangen genommen."
 
 #: server/diplomats.c:1362
 #, c-format
 msgid "Your %s was captured after completing the mission."
-msgstr "%s wurde nach Beendigung seiner Mission gefangen genommen."
+msgstr "Ihr %s wurde nach Beendigung seiner Mission gefangen genommen."
 
 #: server/diplomats.c:1387
 #, c-format
 msgid "You have caused an incident while bribing the %s %s."
-msgstr "Die Bestechung der %sen %s hat eine diplomatische Krise verursacht."
+msgstr "Die Bestechung der %sen %s hat einen diplomatische Eklat verursacht!"
 
 #: server/diplomats.c:1392
 #, c-format
 msgid "%s has caused an incident while bribing your %s."
-msgstr "%s hat mit der Bestechung von %s eine diplomatische Krise verursacht."
+msgstr ""
+"%s hat mit der Bestechung von %s einen diplomatischen Eklat verursacht!"
 
 #: server/diplomats.c:1398
 #, c-format
 msgid "You have caused an incident while attempting to steal tech from %s."
 msgstr ""
-"Du hast durch den Diebstahl eines Forschungsergebnisses von den %s einen "
-"diplomatischen Zwischenfall verursacht."
+"Sie haben durch den Diebstahl der Forschungsergebnisse von %s einen "
+"diplomatischen Eklat verursacht!"
 
 #: server/diplomats.c:1402
 #, c-format
 msgid "%s has caused an incident while attempting to steal tech from you."
 msgstr ""
-"Die %s haben durch den Diebstahl eines Forschungsergebnisses von dir einen "
-"diplomatischen Zwischenfall verursacht."
+"%s hat durch den Diebstahl Ihrer Forschungsergebnisse einen diplomatischen "
+"Eklat verursacht!"
 
 #: server/diplomats.c:1408
 #, c-format
 msgid "You have caused an incident while inciting a revolt in %s."
 msgstr ""
-"Die Anstiftung zu einer Revolte in %s hat eine diplomatische Krise "
+"Die Anstiftung zu einer Revolte in %s hat einen diplomatischen Eklat "
 "verursacht."
 
 #: server/diplomats.c:1412
-#, fuzzy, c-format
+#, c-format
 msgid "The %s have caused an incident while inciting a revolt in %s."
 msgstr ""
-"%s hat durch die Anstiftung einer Revolte in %s eine diplomatische Krise "
-"verursacht."
+"Die %s haben mit der Anstiftung einer Revolte in %s einen diplomatischen "
+"Eklat verursacht."
 
 #: server/edithand.c:193
 #, c-format
@@ -40339,7 +40347,8 @@ msgstr "Die %s und die %s haben jetzt %s."
 msgid ""
 " %s canceled the diplomatic agreement! The diplomatic state between the %s "
 "and the %s is now %s."
-msgstr "%s hat das Abkommen aufgekündigt! Zwischen den %s und den %s herrscht nun %s."
+msgstr ""
+"%s hat das Abkommen aufgekündigt! Zwischen den %s und den %s herrscht nun %s."
 
 #: server/plrhand.c:689
 #, c-format
