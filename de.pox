@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-14 13:25+0100\n"
-"PO-Revision-Date: 2013-12-28 19:39+0100\n"
+"PO-Revision-Date: 2013-12-28 20:58+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -26255,6 +26255,8 @@ msgid ""
 "The Bosporan Kingdom was an ancient state in eastern Crimea and the Taman "
 "Peninsula on the shores of the Cimmerian Bosporus."
 msgstr ""
+"Das bosporische Königreich war ein antiker Staat an der östlichen Krim und "
+"auf der tamischen Halbinsel an den Küsten des Kimmerischen Bosporus."
 
 #: data/nation/botswanan.ruleset:3
 msgid "Botswanan"
@@ -26373,6 +26375,14 @@ msgid ""
 "people speaking French instead. The Dukedom of Brittany itself was formally "
 "annexed to France in 1491."
 msgstr ""
+"Schon den Römern war die Bretagne unter dem Namen „Armorica“ bekannt, die "
+"Einwohner aber sprachen Keltisch schon Jahrhunderte bevor die Bretonen als "
+"Kaufleute, Kolonisten und Flüchtlinge vor dem Chaos in Gaul und der Invasion "
+"Britanniens durch germanische Stämme im fünften Jahrhundert die Halbinsel "
+"erreichten. Im Laufe der Jahrhunderte schrumpfte unter dem Einfluss des "
+"Überhand nehmenden Französisch der Ausbreitungsraum der bretonischen Sprache "
+"auf den Westen der Halbinsel zusammen. Die Grafschaft Bretagne wurde 1491 "
+"formal von Frankreich annektiert."
 
 #: data/nation/british.ruleset:3
 msgid "British"
@@ -26684,6 +26694,16 @@ msgid ""
 "numbers of immigrants to California. In the 20th century the state became a "
 "center of the world's entertainment and technology industries."
 msgstr ""
+"Kalifornien ist an Bevölkerung und Wirtschaft gemessen der größte US-"
+"Bundesstaat. Zunächst war er von amerikanischen Ureinwohnern besiedelt, bis "
+"er im 18. Jahrhundert von spanischen Missionaren kolonisiert und danach mit "
+"dessen Unabhängigkeit ein Teil Mexikos wurde. Während des mexikanisch-"
+"amerikanischen Krieges proklamierten lokale amerikanische Siedler die „Bear "
+"Flag Republic“ (engl. „Bärenflaggen-Republik“), die kurz darauf jedoch in "
+"die Vereinigten Staaten aufgenommen wurde. 1848 brach der Goldrausch aus und "
+"bescherte dem Staat eine massive Anzahl Einwanderer, im 20. Jahrhundert "
+"wurde er ein Zentrum der weltweiten Unterhaltungs- und Technologie-"
+"Industrien."
 
 #: data/nation/californian.ruleset:34 data/nation/texan.ruleset:28
 #: data/nation/vermont.ruleset:25
@@ -26773,6 +26793,17 @@ msgid ""
 "fierce resistance. They rebelled during the Incan civil war and sided with "
 "the Spanish during their conquest of the Inca empire."
 msgstr ""
+"Die Cañares waren eine präkolumbianische Zivilisation im heutigen Ecuador, "
+"deren Existenz sich bis ins 6. Jahrhundert hinein zurückverfolgen lässt. Sie "
+"waren eine der wenigen andenfixierten Kulturen, die nicht die Sonne "
+"anbeteten; ihre Sprache war vermutlich ursprünglich verwandt mit dem "
+"peruanischen Mochica, zur Zeit der spanischen Eroberung hatten die Cañares "
+"bereits größtenteils zum Ketschua gewechselt. Ihre Stämme bildeten eine lose "
+"Konföderation, deren politisches Zentrum in Guapdondelig (heute Cuenca, "
+"Hauptstadt der Provinz Azuay) lag. Im 15. Jahrhundert wurden sie von den "
+"Inka unterworfen, leisteten aber beständig starken Widerstand, der später im "
+"inkaischen Bürgerkrieg aufging, in welchem sie sich mit dem Spaniern gegen "
+"die Inka verbündeten."
 
 #: data/nation/cantonese.ruleset:3
 msgid "Cantonese"
@@ -26794,6 +26825,15 @@ msgid ""
 "incorporated into Han Dynasty China. Cantonese is the second most spoken "
 "Chinese language after Mandarin."
 msgstr ""
+"Die Kantonesen sind eine Untergruppe der Chinesen und stammen aus der "
+"Provinz Guangdong im südlichen China. Sie umfassen etwa 70 Millionen "
+"Mitglieder, sind für ihre Musik und ihre Speisen bekannt und stellen ein "
+"wichtiges Element von Chinas transozeanischen Gemeinschaften da. Sie stellen "
+"die Mehrheit der Bevölkerung in den Speziellen Autononomen Regionen Hong-"
+"Kong und Macao. Im zweiten Jahrhunder v.u.Z. beherrschte das kantonesisch "
+"dominierte Königreich Nanyue großte Teile Südchinas und Vietnams, 111 v.u.Z. "
+"wurde Nanyue vom China der Han-Dynastie geschluckt. Kantonesisch ist nach "
+"Mandarin die meistgesprochene chinesische Sprache."
 
 #: data/nation/capeverdean.ruleset:3
 msgid "Cape Verdean"
@@ -26936,6 +26976,11 @@ msgid ""
 "dictatorship in the 70s under Emperor Bokassa I during which it was called "
 "the Central African Empire."
 msgstr ""
+"Die Zentralafrikanische Republik liegt im Herzen Afrikas und war früher als "
+"französisch-afrikanisches Gebiet Ubangi-Shari bekannt. In den 70er Jahren "
+"wurde das Land für eine kurze Zeit als Dikatatur von Kaiser Bokassa I. "
+"regiert, währenddessen es unter dem Namen Zentralafrikanisches Kaiserreich "
+"firmierte."
 
 #: data/nation/centralamerican.ruleset:3
 msgid "Central American"
@@ -26956,6 +27001,14 @@ msgid ""
 "American republics cooperate in the Central American Integration System "
 "(SICA)."
 msgstr ""
+"Während der Kolonialära erklärte die Zentralamerikanische Konföderation 1821 "
+"die Unabhängigkeit von Spanien, trat kurz darauf Mexiko bei und formte dann "
+"eine föderale Republik. Gefechte zwischen Guatemala und anderen Provinzen "
+"sowie zwischen Liberalen und Konservativen führte zum Niedergang der "
+"Konföderation, die 1840 so gut wie nicht mehr existierte. Spätere Versuche "
+"der Vereinigung schlugen fehl, seit 1993 aber arbeiten die "
+"zentralafrikanischen Republiken immerhin im Rahmen des Zentralamerikanischen "
+"Integrationssystems (SICA) zusammen."
 
 #: data/nation/centralamerican.ruleset:29
 #, c-format
@@ -27030,6 +27083,10 @@ msgid ""
 "remains one of the poorest countries of the world. From 1982 to 1990 Hissene "
 "Habre led a notoriously brutal dictatorship."
 msgstr ""
+"Der Tschad ist ein Land ohne Küste in Afrika. Er wurde 1900 als Reich von "
+"Kanem-Bornu durch Frankreich kolonisiert und 1960 unabhängig, dennoch blieb "
+"der Tschad bis heute eines der ärmsten Länder der Welt. Zwischen 1982 und "
+"1990 führte Hissène Habré das Land in einer notorisch brutalen Dikatur."
 
 #: data/nation/cham.ruleset:3
 msgid "Cham"
@@ -27049,6 +27106,14 @@ msgid ""
 "century. By this time, most of the Cham nobility had converted to Islam. The "
 "majority of Muslims in modern Vietnam are of Cham ethnicity."
 msgstr ""
+"Champa war der Name einiger eng verwandter politischer Gruppen im heutigen "
+"Südvietnam. Schon in den frühesten historischen Quellen werden die Champa-"
+"Könige als Hindus bezeichnet, die insbesondere Shiva verehren. Es war "
+"jahrhundertelang in Konflikte mit dem benachbarten Khmer- und Dai-Viet-"
+"Staaten verwickelt, im späten 15. Jahrhundert wurde es dann von Dai Viet de "
+"facto unterworfen. Zu diesem Zeitpunkt war der Großteil der chamischen "
+"Adelsklasse bereits zum Islam konvertiert; bis heute ist die Mehrheit der "
+"Muslime in Vietnam chamischen Ursprungs."
 
 # MG: Bei den folgenden Texten zu den Kynokephalen liegt meines
 # Erachtens ein Sachfehler vor. Der Begriff „chananean“ hat erstmal
@@ -27076,17 +27141,6 @@ msgstr ""
 msgid "Chananean"
 msgstr "kynokephal"
 
-# MG: Gratulation. „Kynokephale“ ist eines der äußerst seltenen
-# Wörter, die im Deutschen zwei Nominative aufweisen. Als Einzelwort
-# gebraucht, etwa in einer Überschrift, spricht man von „Kynokephale“:
-# „Kynokephale in der Kunst“. In einem Satzzusammenhang hingegen haben
-# wir: „Die Kynokephalen nehmen eine prominente Stelle ein.“ In der
-# Annahme, dass dieses Wort in Freeciv meistens in Sätzen und weniger
-# in Überschriften gebraucht wird, habe ich mich für die letzere Form
-# entschieden.
-#
-# Die Beispiele habe ich dem Wikipedia-Artikel entnommen:
-# http://de.wikipedia.org/wiki/Kynokephale
 #: data/nation/chananean.ruleset:4
 msgid "?plural:Chananeans"
 msgstr "Kynokephalen"
@@ -27140,6 +27194,12 @@ msgid ""
 "war erupted when Chechen separatists proclaimed an independent Chechen "
 "Republic of Ichkeria."
 msgstr ""
+"Tschetschenien ist eine antike Nation des Kaukasus, die heute ein Teil der "
+"Russischen Föderation ist. 1588 unterwarfen sich die Tschetschenen "
+"freiwillig als Vasallen dem moskovitischen Zaren, führten aber "
+"nichtsdestotrotz wiederholt Krieg gegen Russland, bis 1990 nach dem "
+"Aufbrechen der Sowjetunion ein Bürgerkrieg ausbrach, in dem tschetschenische "
+"Separatisten eine unabhängige tschetschenische Republik Itschkeria ausriefen."
 
 #: data/nation/cherokee.ruleset:3
 msgid "Cherokee"
