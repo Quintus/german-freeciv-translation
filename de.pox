@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-14 13:25+0100\n"
-"PO-Revision-Date: 2013-12-28 20:58+0100\n"
+"PO-Revision-Date: 2014-01-08 13:33+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -36952,7 +36952,7 @@ msgstr "S2_5"
 
 #: po/Strings.txt:16
 msgid "?vertag:crosser"
-msgstr ""
+msgstr "Crosser"
 
 #: server/aiiface.c:83
 #, c-format
@@ -39328,12 +39328,12 @@ msgstr ""
 #: server/diplhand.c:250
 #, c-format
 msgid "You cannot form an alliance because you are at war with an ally of %s."
-msgstr ""
+msgstr "Sie können keine Allianz eingehen, da Sie sich mit einem der Verbündeten von %s im Krieg befinden."
 
 #: server/diplhand.c:255
 #, c-format
 msgid "You cannot form an alliance because %s is at war with an ally of yours."
-msgstr ""
+msgstr "Sie können keine Allianz eingehen, da %s sich mit einem Ihrer Verbündeten im Krieg befindet."
 
 #: server/diplhand.c:266
 msgid "You don't have enough gold, you can't accept treaty."
@@ -39803,14 +39803,14 @@ msgstr " *** %s hat den Bearbeitungsmodus deaktiviert. *** "
 #: server/edithand.c:445 server/edithand.c:480
 #, c-format
 msgid "Cannot edit the tile because %d is not a valid tile index on this map!"
-msgstr ""
+msgstr "Kann das Feld nicht bearbeiten, weil %s kein gültiger Feldindex auf dieser Karte ist."
 
 #. TRANS: ..." the tile <tile-coordinates> because"...
 #: server/edithand.c:358
 #, c-format
 msgid ""
 "Cannot modify terrain for the tile %s because %d is not a valid terrain id."
-msgstr ""
+msgstr "Kann das Gelände von Feld %s nicht ändern, weil %d keine gültige Gelände-ID ist."
 
 #. TRANS: ..." the tile <tile-coordinates> because"...
 #: server/edithand.c:420
@@ -39818,19 +39818,20 @@ msgstr ""
 msgid ""
 "Cannot modify specials for the tile %s because %d is not a valid terrain "
 "special id."
-msgstr ""
+msgstr "Kann die Boni für Feld %s nicht ändern, weil %d keine gültige Geländebonus-ID ist."
 
+# MG: "Basis" meint hier: Festung, Boje, Flugplatz
 #. TRANS: ..." the tile <tile-coordinates> because"...
 #: server/edithand.c:455
 #, c-format
 msgid ""
 "Cannot modify base for the tile %s because %d is not a valid base type id."
-msgstr ""
+msgstr "Kann die Anlage auf Feld %s nicht ändern, weil %d keine gültige Anlagentyp-ID ist."
 
 #: server/edithand.c:536
 #, c-format
 msgid "Cannot create units because %d is not a valid tile index on this map!"
-msgstr ""
+msgstr "Kann Einheiten nicht erstellen, weil %d kein gültiger Feldindex auf dieser Karte ist!"
 
 #. TRANS: ..." at <tile-coordinates> because"...
 #: server/edithand.c:545
@@ -39877,7 +39878,7 @@ msgstr ""
 #, c-format
 msgid ""
 "Cannot remove a unit at %s because the given unit type id %d is invalid."
-msgstr ""
+msgstr "Kann die Einheit auf %s nicht entfernen, weil die angegebene Einheitentyp-ID %d ungültig ist."
 
 #. TRANS: ..." type <unit-type> at <tile-coordinates>
 #. * because"...
@@ -39886,7 +39887,7 @@ msgstr ""
 msgid ""
 "Cannot remove a unit of type %s at %s because the given owner's player id %d "
 "is invalid."
-msgstr ""
+msgstr "Kann Einheit des Typs %s auf %s nicht entfernen, weil die Spieler-ID des Eigentümers %d ungültig ist."
 
 #: server/edithand.c:672 server/edithand.c:695
 #, c-format
@@ -39896,19 +39897,19 @@ msgstr "Einheit nicht gefunden (ID: %d)."
 #: server/edithand.c:734
 #, c-format
 msgid "Invalid veteran level %d for unit %d (%s)."
-msgstr ""
+msgstr "Ungültiger Veteranengrad %d für Einheit %d (%s)."
 
 #: server/edithand.c:765
 #, c-format
 msgid "Cannot create a city because %d is not a valid tile index on this map!"
-msgstr ""
+msgstr "Kann Stadt nicht erstellen, weil %d kein gültiger Feldindex auf dieser Karte ist!"
 
 #. TRANS: ..." at <tile-coordinates> because"...
 #: server/edithand.c:774
 #, c-format
 msgid ""
 "Cannot create a city at %s because the given owner's player id %d is invalid"
-msgstr ""
+msgstr "Kann Stadt auf %s nicht erstellen, weil die Spieler-ID %d des Eigentümers ungültig ist"
 
 #. TRANS: ..." at <tile-coordinates>."
 #: server/edithand.c:786
@@ -39919,7 +39920,7 @@ msgstr "Auf %s kann keine Stadt gegründet werden."
 #: server/edithand.c:833
 #, c-format
 msgid "Cannot edit city with invalid city ID %d."
-msgstr ""
+msgstr "Kann Stadt mit ungültiger Stadt-ID %d nicht bearbeiten."
 
 #: server/edithand.c:846
 #, c-format
@@ -39929,24 +39930,24 @@ msgstr "Kann Stadtnamen nicht ändern: %s"
 #: server/edithand.c:857
 #, c-format
 msgid "Invalid city size %d for city %s."
-msgstr ""
+msgstr "Ungültige Stadtgröße %d für Stadt %s."
 
 #: server/edithand.c:874
 #, c-format
 msgid "It is impossible for a city to have %s!"
-msgstr ""
+msgstr "Es ist für eine Stadt unmöglich, %s zu besitzen!"
 
 #: server/edithand.c:923
 #, c-format
 msgid ""
 "Invalid city food stock amount %d for city %s (allowed range is %d to %d)."
-msgstr ""
+msgstr "Ungültiger Füllstand %d des städtischen Kornspeichers von %s (zulässiger Bereich liegt zwischen %d und %d)."
 
 #: server/edithand.c:937
 #, c-format
 msgid ""
 "Invalid city shield stock amount %d for city %s (allowed range is %d to %d)."
-msgstr ""
+msgstr "Ungültige Produktionsmenge %d für Stadt %s (zulässiger Bereich liegt zwischen %d und %d)."
 
 #: server/edithand.c:984
 #, c-format
@@ -39962,7 +39963,7 @@ msgstr ""
 msgid ""
 "No more players can be added because there are no available nations (%d "
 "used)."
-msgstr ""
+msgstr "Es können keine weiteren Spieler hinzugefügt werden, da keine Nationen mehr verfügbar sind (%d in Verwendung)."
 
 #: server/edithand.c:1001
 msgid "Player cannot be created because random nation selection failed."
@@ -39982,45 +39983,45 @@ msgstr "Spieler nicht gefunden (ID: %d)."
 #: server/edithand.c:1072
 #, c-format
 msgid "Cannot edit player with invalid player ID %d."
-msgstr ""
+msgstr "Kann Spieler mit der ungültigen Spieler-ID %d nicht bearbeiten."
 
 #: server/edithand.c:1089
 #, c-format
 msgid "Cannot change name of player (%d) '%s' to '%s': %s"
-msgstr ""
+msgstr "Kann Namen des Spielers (%d) nicht von „%s“ auf „%s“ ändern: %s"
 
 #: server/edithand.c:1100
 #, c-format
 msgid ""
 "Cannot change nation for player %d (%s) because the given nation ID %d is "
 "invalid."
-msgstr ""
+msgstr "Kann Nation des Spielers %d (%s) nicht ändern, da die angegebene Nations-ID %d ungültig ist."
 
 #: server/edithand.c:1106
 #, c-format
 msgid ""
 "Cannot change nation for player %d (%s) to nation %d (%s) because that "
 "nation is already assigned to player %d (%s)."
-msgstr ""
+msgstr "Kann Nation des Spielers %d (%s) nicht auf %d (%s) ändern, weil diese schon dem Spieler %d (%s) zugewiesen wurde."
 
 #: server/edithand.c:1142
 #, c-format
 msgid ""
 "Cannot set gold for player %d (%s) because the value %d is outside the "
 "allowed range."
-msgstr ""
+msgstr "Kann Goldmenge für Spieler %d (%s) nicht auf den Wert %s festlegen, da sih %d außerhalb des zugelassenen Bereichs befindet."
 
 #: server/edithand.c:1201
 #, c-format
 msgid "Cannot edit vision because %d is not a valid tile index on this map!"
-msgstr ""
+msgstr "Kann Karteneinsicht nicht bearbeiten, da %d kein gültiger Feldindex auf dieser Karte ist!"
 
 #. TRANS: ..." at <tile-coordinates> because"...
 #: server/edithand.c:1210
 #, c-format
 msgid ""
 "Cannot edit vision for the tile at %s because given player id %d is invalid."
-msgstr ""
+msgstr "Kann Karteneinsicht für Feld %s nicht bearbeiten, da die angegebene Spieler-ID %d ungültig ist."
 
 #: server/edithand.c:1283
 #, c-format
@@ -40041,23 +40042,23 @@ msgstr "Kann Nebel des Krieges nicht für ungültige Spieler-ID %d umschalten."
 #: server/edithand.c:1345 server/edithand.c:1384
 #, c-format
 msgid "Invalid tile index %d for start position."
-msgstr ""
+msgstr "Ungültiger Feldindex %d für Startposition."
 
 #: server/edithand.c:1392
 #, c-format
 msgid ""
 "Cannot edit start position nations at (%d, %d) because there is no start "
 "position there."
-msgstr ""
+msgstr "Kann Nationen für Startposition auf (%d|%d) nicht bearbeiten, weil es dort keine Startposition gibt."
 
 #: server/edithand.c:1424
 #, c-format
 msgid "Cannot set invalid game year %d. Valid year range is from %d to %d."
-msgstr ""
+msgstr "Kann unzulässiges Spieljahr %d nicht festlegen. Zulässiger Bereich liegt zwischen %d und %d."
 
 #: server/edithand.c:1467
 msgid "No permissions to remotely save scenario."
-msgstr ""
+msgstr "Keine Rechte, um Szenario entfernt zu speichern."
 
 #: server/edithand.c:1474
 msgid "Scenario information not set. Cannot save scenario."
@@ -40147,33 +40148,33 @@ msgstr "Kartengenerator 3 hat %li Land nicht plaziert."
 #: server/generator/mapgen_topology.c:244
 #, c-format
 msgid "Creating a map of size %d x %d = %d tiles (%d requested)."
-msgstr ""
+msgstr "Erstelle eine Karte der Größe %d ✕ %d = %d Felder (%d angefordert)."
 
 #: server/generator/mapgen_topology.c:284
 #, c-format
 msgid "Creating a map of size %d x %d = %d tiles (map size: %d)."
-msgstr ""
+msgstr "Erstelle eine Karte der Größe %d ✕ %d = %d Felder (Kartengröße: %d)."
 
 #: server/generator/mapgen_topology.c:296
 #, c-format
 msgid ""
 "Map size calculated for %d (land) tiles per player and %d player(s) too "
 "small. Setting map size to the minimal size %d."
-msgstr ""
+msgstr "Die für %d (Land-)Felder pro Spieler bei %d Spieler(n) berechnete Kartengröße ist zu klein. Auf die minimale Kartengröße %d heraufgesetzt."
 
 #: server/generator/mapgen_topology.c:301
 #, c-format
 msgid ""
 "Map size calculated for %d (land) tiles per player and %d player(s) too "
 "large. Setting map size to the maximal size %d."
-msgstr ""
+msgstr "Die für %d (Land-)Felder pro Spieler bei %d Spieler(n) berechnete Karte ist zu groß. Auf die maximale Kartengröße %d herabgesetzt."
 
 #: server/generator/mapgen_topology.c:306
 #, c-format
 msgid ""
 "Setting map size to %d (approx. %d (land) tiles for each of the %d "
 "player(s))."
-msgstr ""
+msgstr "Lege die Kartengröße auf %d Felder fest (ca. %d (Land-)Felder für jeden der %d Spieler)."
 
 #: server/generator/startpos.c:403
 msgid ""
@@ -40334,7 +40335,7 @@ msgstr "%s regiert die %s jetzt als %s."
 msgid ""
 "The tax rates for the %s are changed from %3d%%/%3d%%/%3d%% (tax/luxury/"
 "science) to %3d%%/%3d%%/%3d%%."
-msgstr ""
+msgstr "Die Steuerquoten der %s werden angepasst und von %3d%%/%3d%%/%3d%% (Steuern/Luxus/Forschung) auf %3d%%/%3d%%/%3d%% geändert."
 
 #. TRANS: this is a message event so don't make it
 #. * too long.
@@ -40434,7 +40435,7 @@ msgstr ""
 
 #: server/plrhand.c:1382
 msgid "no color"
-msgstr ""
+msgstr "keine Farbe"
 
 #: server/plrhand.c:1450
 #, c-format
@@ -40526,7 +40527,7 @@ msgstr[1] "Der Bürgerkrieg spaltet die %s; die %s kontrollieren nun %d Städte.
 msgid ""
 "User '%s' is currently allowed to take control of your player while you are "
 "away. Use '/delegate cancel' to revoke this access."
-msgstr ""
+msgstr "Der Spieler „%s“ darf momentan in Ihrer Abwesenheit die Kontrolle über Ihren Spieler übernehmen. Verwenden Sie „/delegate cancel“ um diesen Zugriff zu widerrufen."
 
 #: server/plrhand.c:2578
 #, c-format
@@ -40994,12 +40995,12 @@ msgstr "Freeciv 2.4.0"
 #, c-format
 msgid ""
 "Run compatibility function for version: <%d (save file: %d; server: %d)."
-msgstr ""
+msgstr "Führe Kompatibilitätsfunktion aus für Version: <%d (Spielstand: %d; Server: %d)."
 
 #: server/savegame2.c:6126
 #, c-format
 msgid "Run compatibility function for version: <%d (want: %d, server: %d)."
-msgstr ""
+msgstr "Führe Kompatibilitätsfunktion aus für Version: <%d (gefordert: %d, Server: %d)."
 
 #. TRANS: Fatal error message.
 #: server/savegame.c:4536
@@ -41308,7 +41309,7 @@ msgstr "ein"
 #: server/settings.c:538
 #, c-format
 msgid "Invalid save name definition: '%s' (resolves to '%s')."
-msgstr ""
+msgstr "Ungültige Definition von Spielstandnamen: „%s“ (löst zu „%s“ auf)."
 
 #: server/settings.c:557
 msgid "You cannot disable the map generator."
