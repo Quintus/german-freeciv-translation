@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-22 11:33+0100\n"
-"PO-Revision-Date: 2013-12-28 20:58+0100\n"
+"PO-Revision-Date: 2014-01-22 12:02+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -1044,9 +1044,8 @@ msgid "?number_trade_routes:R"
 msgstr "HaW"
 
 #: client/cityrepdata.c:706
-#, fuzzy
 msgid "Number (and total value) of trade routes"
-msgstr "Anzahl der Handelswege"
+msgstr "Anzahl (und Gesamthandelsvolumen) der Handelswege"
 
 #: client/cityrepdata.c:708
 msgid "?pollution [short]:Pol"
@@ -5138,9 +5137,8 @@ msgid "?Upgradable unit [short]:U"
 msgstr "veraltet"
 
 #: client/gui-gtk-2.0/repodlgs.c:1224 client/gui-gtk-3.0/repodlgs.c:1256
-#, fuzzy
 msgid "Upgradable"
-msgstr "Modernisieren"
+msgstr "Veraltet"
 
 #. TRANS: "In progress" abbrevation.
 #. URD_COL_IN_PROGRESS
@@ -5149,9 +5147,8 @@ msgid "In-Prog"
 msgstr "im Bau"
 
 #: client/gui-gtk-2.0/repodlgs.c:1229 client/gui-gtk-3.0/repodlgs.c:1261
-#, fuzzy
 msgid "In progress"
-msgstr "Kein Fortschritt"
+msgstr "Im Bau"
 
 #: client/gui-gtk-2.0/repodlgs.c:1230 client/gui-gtk-3.0/repodlgs.c:1262
 msgid "Active"
@@ -5164,7 +5161,7 @@ msgstr "Schild"
 
 #: client/gui-gtk-2.0/repodlgs.c:1233 client/gui-gtk-3.0/repodlgs.c:1265
 msgid "Total shield upkeep"
-msgstr ""
+msgstr "Unterhaltskosten Gesamt"
 
 #: client/gui-gtk-2.0/repodlgs.c:1234 client/gui-gtk-3.0/repodlgs.c:1266
 #: common/city.c:82
@@ -7964,9 +7961,9 @@ msgid "?clistmore:, %s"
 msgstr ", %s"
 
 #: client/helpdata.c:771
-#, fuzzy, c-format
+#, c-format
 msgid "Allows %s (with %s but no %s)."
-msgstr "Ermöglicht %s (mit %s)."
+msgstr "Ermöglicht %s (mit %s, aber ohne %s)."
 
 #: client/helpdata.c:775
 #, c-format
@@ -7974,9 +7971,9 @@ msgid "Allows %s (with %s)."
 msgstr "Ermöglicht %s (mit %s)."
 
 #: client/helpdata.c:781
-#, fuzzy, c-format
+#, c-format
 msgid "Allows %s (absent %s)."
-msgstr "Ermöglicht %s (mit %s)."
+msgstr "Ermöglicht %s (Konflikt mit %s)."
 
 #: client/helpdata.c:785
 #, c-format
@@ -7984,9 +7981,9 @@ msgid "Allows %s."
 msgstr "Ermöglicht %s."
 
 #: client/helpdata.c:791
-#, fuzzy, c-format
+#, c-format
 msgid "Prevents %s."
-msgstr "Priesterin %s"
+msgstr "Verhindert %s."
 
 #. TRANS: "%*s" is replaced with spaces
 #: client/helpdata.c:951
@@ -36781,18 +36778,16 @@ msgstr "Mehr Information"
 
 #. TRANS: improvement requires a feature to be absent.
 #: manual/civmanual.c:392
-#, fuzzy, c-format
+#, c-format
 msgid "no %s"
-msgstr "Nabongo"
+msgstr "Konflikt mit %s"
 
 #: manual/civmanual.c:410
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<h1>Freeciv %s governments help</h1>\n"
 "\n"
-msgstr ""
-"<h1>Freeciv %s Hilfe für Wunder</h1>\n"
-"\n"
+msgstr "<h1>Freeciv %s Hilfe zu Regierungsformen</h1>\n\n"
 
 #: manual/civmanual.c:427
 #, c-format
@@ -36801,7 +36796,7 @@ msgstr "Handbuchdatei „%s“ erfolgreich geschrieben."
 
 #: manual/civmanual.c:454
 msgid "Multiple rulesets requested. Only one ruleset at time supported"
-msgstr ""
+msgstr "Mehrere Regelsätze angefordert. Nur ein einzelner Regelsatz kann zeitgleich verwendet werden."
 
 #: manual/civmanual.c:539 server/civserver.c:383
 msgid "Use FILE as logfile"
