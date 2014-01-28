@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-28 12:59+0100\n"
-"PO-Revision-Date: 2014-01-22 12:02+0100\n"
+"PO-Revision-Date: 2014-01-28 13:43+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -5161,7 +5161,7 @@ msgstr "Schild"
 
 #: client/gui-gtk-2.0/repodlgs.c:1233 client/gui-gtk-3.0/repodlgs.c:1265
 msgid "Total shield upkeep"
-msgstr "Unterhaltskosten Gesamt"
+msgstr "Gesamte Unterhaltskosten Produktion"
 
 #: client/gui-gtk-2.0/repodlgs.c:1234 client/gui-gtk-3.0/repodlgs.c:1266
 #: common/city.c:82
@@ -5170,11 +5170,11 @@ msgstr "Nahrung"
 
 #: client/gui-gtk-2.0/repodlgs.c:1235 client/gui-gtk-3.0/repodlgs.c:1267
 msgid "Total food upkeep"
-msgstr ""
+msgstr "Gesamte Unterhaltskosten Nahrung"
 
 #: client/gui-gtk-2.0/repodlgs.c:1237 client/gui-gtk-3.0/repodlgs.c:1269
 msgid "Total gold upkeep"
-msgstr ""
+msgstr "Gesamte Unterhaltskosten Gold"
 
 #: client/gui-gtk-2.0/repodlgs.c:1375 client/gui-gtk-3.0/repodlgs.c:1407
 msgid "Totals:"
@@ -27068,7 +27068,7 @@ msgid ""
 "Zeligowski announced the creation of a Republic of Central Lithuania, which "
 "was then incorporated into Poland. After World War II most of the Lithuanian "
 "Poles were displaced to Poland's new western territories."
-msgstr ""
+msgstr "Die größtenteils in der Aukshtota-Region vorzufindende Polnische Minderheit in Litauen ist ein Überbleibsel des polnisch-litauischen Commonwealth, der bei Gründung der Union von Lublin eingerichtet wurde. Der Staat einte das Königreich Polen mit dem Großherzogtum Litauen unter dem Einfluss des litauischen Großherzogs Jogaila, der später den Königsnamen Władisław annahm, jedoch reichen die Anfänge der polnischen Ethnie in Litauen zurück bis in die Zeit des Herzogs Mindaugas von Litauen. Die ersten Polen erreichten Litauen als Kriegsgefangene aus Raubzügen an den (größtenteils masowischen) Grenzen und nach der Vereinigung der zwei Staaten ließ sich eine sehr starke Polonisierung des litauischen Adels beobachten. Später überlebte die polnischsprachige Gemeinde in Litauen den Zusammenbruch und die Teilung des polnischen Staats und lebte friedlich mit den litauischsprachigen Bevölkerungsteilen zusammen, bis 1920 der Rebellengeneral Żeligowski die Gründung einer Republik Zentrallitauen ausrief, die anschließend in Polen eingegliedert wurde. Nach dem Zweiten Weltkrieg wurden große Teile der Polnischen Minderheit in Litauen in die neuen westlichen Gebiete Polens zwangsumgesiedelt."
 
 #: data/nation/centrallithuanian.ruleset:44 data/nation/chuvash.ruleset:28
 #: data/nation/volgagerman.ruleset:37
@@ -27252,7 +27252,7 @@ msgid ""
 "indigenous peasants and the mostly Ladino elite. The state's colonial "
 "cities, Mayan peoples and natural wealth have made it one of Mexico's major "
 "tourist destinations."
-msgstr ""
+msgstr "Chiapas ist ein Staat in Südmexiko, der während der Kolonialzeit unter der Herrschaft Guatemalas stand, sich im Jahre 1824 jedoch nach kurzer Unabhängigkeit zum Anschluss an Mexiko entschloss. Chiapas’ Bevölkerung besteht zu einem nicht unerheblichen Anteil aus Indigenen (größtenteils Maya), die in der Vergangenheit häufig in Aufstände gegen die zu großen Teilen aus Ladinos bestehende Elite verwickelt waren. Die kolonialzeitlichen Städte, die Maya und sein Naturreichtum haben den Staat zu einem von Mexikos beliebtesten Tourismuszielen gemacht."
 
 #: data/nation/chickasaw.ruleset:3
 msgid "Chickasaw"
@@ -27268,7 +27268,7 @@ msgid ""
 "what is today the northern part of the U.S. state of Mississippi at the time "
 "of first contact with Europeans. The name \"Mississippi\" itself originates "
 "from a Chickasaw word meaning \"Without Source.\""
-msgstr ""
+msgstr "Als einer der sogenannten „Fünf Zivilisierten Stämme“ dominierten die Chickasaw zur Zeit der ersten europäischen Kontakte den heutigen nördlichen Teil des U.S.-Staats Mississippi. Der Name „Mississippi“ selbst entstammt einem Chickasaw-Wort mit der Bedeutung „ohne Quelle“."
 
 #: data/nation/chilean.ruleset:3
 msgid "Chilean"
@@ -27285,7 +27285,7 @@ msgid ""
 "indigenous Mapuche people, Chile more than doubled its territory in the 19th "
 "century. Often having been more stable and prosperous than its neighbors, "
 "Chile currently is the most developed country of Latin America."
-msgstr ""
+msgstr "Chile befindet sich an der Südwestküste Südamerikas. Es erklärte 1810 seine Unabhängigkeit von Spanien und erweiterte im 19. Jh. auf Kosten von Bolivien, Peru und der indigenen Mapuche sein Territorium auf mehr als das Doppelte seiner ursprünglichen Größe. Das oftmals als stabiler und wohlhabender als seine Nachbarn angesehene Land ist momentan der am weitesten entwickelte Staat Lateinamerikas."
 
 #: data/nation/chilean.ruleset:30 data/nation/puertorican.ruleset:28
 #: data/nation/yucatecan.ruleset:30
@@ -27376,7 +27376,7 @@ msgid ""
 "but there is also a vibrant band in Mississippi made up of Choctaw who "
 "managed to escape removal and stay behind. The word \"Oklahoma\" itself is "
 "derived from a Choctaw language term meaning \"red people\"."
-msgstr ""
+msgstr "Als einer der sogenannten „Fünf Zivilisierten Stämme“ besiedelten die Chactaw von Alters her große Teile der Mitte und des Südens des heutigen U.S.-Staats Mississippi. Sie wurden erstmals im 16. Jh. von spanischen Kundschaftern entdeckt und entwickelten sich im Laufe der Zeit zu zuverlässigen Verbündeten Frankreichs, bevor sie sich im Amerikanischen Bürgerkrieg auf die Seite der Konföderierten schlugen. Heute lebt die Mehrheit der Choctaw aufgrund der Zwangsumsiedelung unter Präsident Andrew Jackson im Jahre 1831 in Oklahoma, doch gibt es noch immer eine lebhafte Gruppe entkommener Choctaw in Mississippi. Das Wort „Oklahoma“ selbst leitet sich aus einem Choctaw-Wort mit der Bedeutung „Rotes Volk“ ab."
 
 #: data/nation/chola.ruleset:3
 msgid "Chola"
