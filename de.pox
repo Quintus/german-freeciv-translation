@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-04 12:18+0200\n"
-"PO-Revision-Date: 2014-01-28 13:43+0100\n"
+"PO-Revision-Date: 2014-05-04 13:10+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -722,9 +722,9 @@ msgstr "%+4d : Verbrauch\n"
 #. TRANS: City output that we cannot explain.
 #. * Should never happen.
 #: client/citydlg_common.c:553
-#, fuzzy, c-format
+#, c-format
 msgid "%+4d : (unknown)\n"
-msgstr "(unbekannt)"
+msgstr "%+4d: (unbekannt)\n"
 
 #: client/citydlg_common.c:557 client/citydlg_common.c:603
 #: client/citydlg_common.c:627
@@ -7785,24 +7785,22 @@ msgstr "Dies ist %s, %s-Klient."
 #: client/helpdata.c:344
 #, fuzzy, c-format
 msgid "Requires knowledge of the technology %s.\n"
-msgstr ""
-"Erfordert den Fortschritt %s.\n"
-"\n"
+msgstr "Erfordert den Fortschritt %s.\n"
 
 #: client/helpdata.c:349
 #, c-format
 msgid "Prevented by knowledge of the technology %s.\n"
-msgstr ""
+msgstr "Blockiert durch die Entdeckung von %s.\n"
 
 #: client/helpdata.c:357
-#, fuzzy, c-format
+#, c-format
 msgid "Requires that some player knows the technology %s.\n"
 msgstr "Erfordert die Entdeckung von %s durch irgendjemanden.\n"
 
 #: client/helpdata.c:362
-#, fuzzy, c-format
+#, c-format
 msgid "Requires that no player knows the technology %s.\n"
-msgstr "Erfordert die Entdeckung von %s durch irgendjemanden.\n"
+msgstr "Erfordert, dass bisher niemand %s erforscht hat.\n"
 
 #: client/helpdata.c:383
 #, c-format
@@ -7810,49 +7808,49 @@ msgid "Requires the %s government.\n"
 msgstr "Erfordert %s als Regierungsform.\n"
 
 #: client/helpdata.c:386
-#, fuzzy, c-format
+#, c-format
 msgid "Not available under the %s government.\n"
-msgstr "Erfordert %s als Regierungsform.\n"
+msgstr "Ist in der Regierungsform %s nicht verfügbar.\n"
 
+# MG: "den Leuchtturm" muss hier hineinpassen
 #. TRANS: %s is a wonder
 #: client/helpdata.c:400
 #, c-format
 msgid ""
 "Requires that %s was built at some point, and that it has not yet been "
 "rendered obsolete.\n"
-msgstr ""
+msgstr "Erfordert %s (darf noch nicht veraltet sein).\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:408
-#, fuzzy, c-format
+#, c-format
 msgid "Requires that %s was built at some point.\n"
-msgstr "Erfordert die Stadtverbesserung %s.\n"
+msgstr "Erfordert %s.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:416
 #, c-format
 msgid "Prevented if %s has ever been built, unless it would be obsolete.\n"
-msgstr ""
+msgstr "Blockiert durch %s, außer wenn bereits veraltet.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:423
 #, c-format
 msgid "Prevented if %s has ever been built.\n"
-msgstr ""
+msgstr "Blockiert durch %s.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:434
-#, fuzzy, c-format
+#, c-format
 msgid "Requires %s to be owned by any player and not yet obsolete.\n"
 msgstr ""
-"Erfordert den Besitz des Weltwunders %s und die Lage auf demselben "
-"Kontinent.\n"
+"Erfordert, dass irgendjemand %s besitzt (darf noch nicht veraltet sein).\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:441
-#, fuzzy, c-format
+#, c-format
 msgid "Requires %s to be owned by any player.\n"
-msgstr "Erfordert den Bau des Weltwunders %s durch irgendjemanden.\n"
+msgstr "Erfordert, dass irgendjemand %s besitzt.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:449
@@ -7860,12 +7858,13 @@ msgstr "Erfordert den Bau des Weltwunders %s durch irgendjemanden.\n"
 msgid ""
 "Prevented if %s is currently owned by any player, unless it is obsolete.\n"
 msgstr ""
+"Blockiert, wenn irgendjemand %s besitzt, außer wenn bereits veraltet.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:456
 #, c-format
 msgid "Prevented if %s is currently owned by any player.\n"
-msgstr ""
+msgstr "Blockiert, wenn irgendjemand %s besitzt.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:474
@@ -7874,66 +7873,66 @@ msgid ""
 "Requires you to have built %s at some point, and for it not to have been "
 "rendered obsolete.\n"
 msgstr ""
+"Erfordert, dass Sie %s errichtet haben (darf noch nicht veraltet sein).\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "Requires you to have built %s at some point.\n"
-msgstr "Erfordert den Besitz des Weltwunders %s.\n"
+msgstr "Erfordert, dass Sie %s errichtet haben.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:490
 #, c-format
 msgid "Prevented if you have ever built %s, unless it would be obsolete.\n"
 msgstr ""
+"Blockiert, wenn Sie jemals %s errichtet haben, außer wenn bereits veraltet.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:497
 #, c-format
 msgid "Prevented if you have ever built %s.\n"
-msgstr ""
+msgstr "Blockiert, wenn Sie jemals %s errichtet haben.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:508
-#, fuzzy, c-format
+#, c-format
 msgid "Requires you to own %s, which must not be obsolete.\n"
-msgstr "Erfordert den Besitz des Weltwunders %s.\n"
+msgstr "Erfordert, dass Sie %s besitzen (darf noch nicht veraltet sein).\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:515
-#, fuzzy, c-format
+#, c-format
 msgid "Requires you to own %s.\n"
-msgstr "Erfordert den Besitz des Weltwunders %s.\n"
+msgstr "Erfordert, dass Sie %s besitzen.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:523
 #, c-format
 msgid "Prevented if you own %s, unless it is obsolete.\n"
-msgstr ""
+msgstr "Blockiert, wenn Sie %s besitzen, außer wenn bereits veraltet.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:530
-#, fuzzy, c-format
+#, c-format
 msgid "Prevented if you own %s.\n"
-msgstr "Habe %s nach %s teleportiert."
+msgstr "Blockiert, wenn Sie %s besitzen.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:546
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Requires %s in one of your cities on the same continent, and not yet "
 "obsolete.\n"
 msgstr ""
-"Erfordert den Besitz des Weltwunders %s und die Lage auf demselben "
-"Kontinent.\n"
+"Erfordert %s in einer Ihrer Städte auf demselben Kontinent. Darf noch nicht "
+"veraltet sein.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:553
-#, fuzzy, c-format
+#, c-format
 msgid "Requires %s in one of your cities on the same continent.\n"
-msgstr ""
-"Erfordert den Besitz des Weltwunders %s und die Lage auf demselben "
-"Kontinent.\n"
+msgstr "Erfordert %s in einer Ihrer Städte auf demselben Kontinent.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:562
@@ -7942,150 +7941,147 @@ msgid ""
 "Prevented if %s is in one of your cities on the same continent, unless it is "
 "obsolete.\n"
 msgstr ""
+"Blockiert, wenn eine Ihrer Städte auf demselben Kontinent %s besitzt, außer "
+"wenn bereits veraltet.\n"
 
 #. TRANS: %s is a wonder
 #: client/helpdata.c:569
-#, fuzzy, c-format
+#, c-format
 msgid "Prevented if %s is in one of your cities on the same continent.\n"
-msgstr "Gilt als Stadtmauer für jede Ihrer Städte auf demselben Kontintent."
+msgstr ""
+"Blockiert, wenn eine Ihrer Städte auf demselben Kontinent %s besitzt.\n"
 
 #. TRANS: %s is a building or wonder
 #: client/helpdata.c:585
-#, fuzzy, c-format
+#, c-format
 msgid "Requires %s in the city (and not yet obsolete).\n"
-msgstr "Erfordert ein %s auf einem unmittelbar angrenzenden Feld.\n"
+msgstr "Erfordert %s in der Stadt (darf noch nicht veraltet sein).\n"
 
 #. TRANS: %s is a building or wonder
 #: client/helpdata.c:591
-#, fuzzy, c-format
+#, c-format
 msgid "Requires %s in the city.\n"
-msgstr "Erfordert ein %s auf diesem Feld.\n"
+msgstr "Erfordert %s in der Stadt.\n"
 
 #. TRANS: %s is a building or wonder
 #: client/helpdata.c:600
 #, c-format
 msgid "Prevented by %s in the city (unless it is obsolete).\n"
-msgstr ""
+msgstr "Blockiert durch %s in der Stadt (außer wenn veraltet).\n"
 
 #. TRANS: %s is a building or wonder
 #: client/helpdata.c:607
-#, fuzzy, c-format
+#, c-format
 msgid "Prevented by %s in the city.\n"
-msgstr "Erfordert die Stadtverbesserung %s.\n"
+msgstr "Blockiert durch %s in der Stadt.\n"
 
 #: client/helpdata.c:616
 #, c-format
 msgid "Only applies to \"%s\" buildings.\n"
-msgstr "Betrifft nur '%s'-Stadtverbesserungen.\n"
+msgstr "Betrifft nur „%s“-Stadtverbesserungen.\n"
 
 #: client/helpdata.c:621
-#, fuzzy, c-format
+#, c-format
 msgid "Does not apply to \"%s\" buildings.\n"
-msgstr "Betrifft nur '%s'-Stadtverbesserungen.\n"
+msgstr "Betrifft keine „%s“-Stadtverbesserungen.\n"
 
 #: client/helpdata.c:639
-#, fuzzy, c-format
+#, c-format
 msgid "?special:Requires %s on the tile.\n"
-msgstr "Erfordert ein %s auf diesem Feld.\n"
+msgstr "Erfordert %s auf diesem Feld.\n"
 
 #: client/helpdata.c:643
-#, fuzzy, c-format
+#, c-format
 msgid "?special:Prevented by %s on the tile.\n"
-msgstr "Erfordert ein %s auf diesem Feld.\n"
+msgstr "Blockiert durch %s auf diesem Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:650
-#, fuzzy, c-format
+#, c-format
 msgid "?special:Requires %s on the tile or a cardinally adjacent tile.\n"
 msgstr "Erfordert %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:655
-#, fuzzy, c-format
+#, c-format
 msgid "?special:Prevented by %s on the tile or any cardinally adjacent tile.\n"
-msgstr "Erfordert %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
+msgstr ""
+"Blockiert durch %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:663
-#, fuzzy, c-format
+#, c-format
 msgid "?special:Requires %s on the tile or an adjacent tile.\n"
 msgstr "Erfordert %s auf diesem oder einem angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:668
-#, fuzzy, c-format
+#, c-format
 msgid "?special:Prevented by %s on the tile or any adjacent tile.\n"
-msgstr "Erfordert %s auf diesem oder einem angrenzenden Feld.\n"
+msgstr "Blockiert durch %s auf diesem oder einem angrenzenden Feld.\n"
 
 #: client/helpdata.c:687
-#, fuzzy, c-format
+#, c-format
 msgid "?terrain:Requires %s on the tile.\n"
-msgstr "Erfordert ein %s auf diesem Feld.\n"
+msgstr "Erfordert %s auf diesem Feld.\n"
 
 #: client/helpdata.c:690
-#, fuzzy, c-format
+#, c-format
 msgid "?terrain:Prevented by %s on the tile.\n"
-msgstr "Erfordert ein %s auf diesem Feld.\n"
+msgstr "Blockiert durch %s auf diesem Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:697
-#, fuzzy, c-format
+#, c-format
 msgid "?terrain:Requires %s on the tile or a cardinally adjacent tile.\n"
 msgstr "Erfordert %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:702
-#, fuzzy, c-format
+#, c-format
 msgid "?terrain:Prevented by %s on the tile or any cardinally adjacent tile.\n"
-msgstr "Erfordert %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
+msgstr ""
+"Blockiert durch %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:710
-#, fuzzy, c-format
+#, c-format
 msgid "?terrain:Requires %s on the tile or an adjacent tile.\n"
 msgstr "Erfordert %s auf diesem oder einem angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:715
-#, fuzzy, c-format
+#, c-format
 msgid "?terrain:Prevented by %s on the tile or any adjacent tile.\n"
-msgstr "Erfordert %s auf diesem oder einem angrenzenden Feld.\n"
+msgstr "Blockiert durch %s auf diesem oder einem angrenzenden Feld.\n"
 
 #. TRANS: "... playing as the Swedes."
 #: client/helpdata.c:736
-#, fuzzy, c-format
+#, c-format
 msgid "Requires that you are playing as the %s.\n"
-msgstr "Erfordert die Nation %s.\n"
+msgstr "Sie müssen die %s spielen.\n"
 
 #. TRANS: "... playing as the Turks."
 #: client/helpdata.c:741
-#, fuzzy, c-format
+#, c-format
 msgid "Requires that you are not playing as the %s.\n"
-msgstr "Erfordert die Nation %s.\n"
+msgstr "Sie dürfen nicht die %s spielen.\n"
 
 #. TRANS: "Requires the Apaches to have ..."
 #: client/helpdata.c:750
-#, fuzzy, c-format
+#, c-format
 msgid "Requires the %s to have been in the game.\n"
-msgstr "Erfordert die Nation %s im Spiel.\n"
+msgstr "Die %s müssen im Spiel gewesen sein.\n"
 
 #. TRANS: "Requires the Celts never to have ..."
 #: client/helpdata.c:755
-#, fuzzy, c-format
+#, c-format
 msgid "Requires the %s never to have been in the game.\n"
-msgstr "Erfordert die Nation %s im Spiel.\n"
+msgstr "Die %s dürfen niemals im Spiel gewesen sein.\n"
 
 #. TRANS: "Requires the Belgians in the game."
 #: client/helpdata.c:763
-#, fuzzy, c-format
+#, c-format
 msgid "Requires the %s in the game.\n"
-msgstr "Erfordert die Nation %s im Spiel.\n"
+msgstr "Die %s müssen im Spiel sein.\n"
 
 #. TRANS: "Requires that the Russians are not ...
 #: client/helpdata.c:768
-#, fuzzy, c-format
+#, c-format
 msgid "Requires that the %s are not in the game.\n"
-msgstr "Erfordert die Nation %s im Spiel.\n"
+msgstr "Die %s dürfen nicht im Spiel sein.\n"
 
 #. TRANS: %s is a single kind of unit (e.g., "Settlers").
 #: client/helpdata.c:789
@@ -8095,9 +8091,9 @@ msgstr "Erfordert %s.\n"
 
 #. TRANS: %s is a single kind of unit (e.g., "Settlers").
 #: client/helpdata.c:793
-#, fuzzy, c-format
+#, c-format
 msgid "?unit:Does not apply to %s.\n"
-msgstr "Betrifft nur %s.\n"
+msgstr "Betrifft keine %s.\n"
 
 #. TRANS: %s is a list of unit types separated by "or".
 #: client/helpdata.c:821
@@ -8107,9 +8103,9 @@ msgstr "Erfordert %s.\n"
 
 #. TRANS: %s is a list of unit types separated by "or".
 #: client/helpdata.c:825
-#, fuzzy, c-format
+#, c-format
 msgid "?ulist:Does not apply to %s.\n"
-msgstr "Betrifft nur %s.\n"
+msgstr "Betrifft keine %s.\n"
 
 #. TRANS: %s is a single unit class (e.g., "Air").
 #: client/helpdata.c:850
@@ -8119,9 +8115,9 @@ msgstr "Erfordert Einheitentyp %s.\n"
 
 #. TRANS: %s is a single unit class (e.g., "Air").
 #: client/helpdata.c:854
-#, fuzzy, c-format
+#, c-format
 msgid "?uclass:Does not apply to %s units.\n"
-msgstr "Erfordert Einheitentyp %s.\n"
+msgstr "Betrifft nicht den Einheitentyp %s.\n"
 
 #. TRANS: %s is a list of unit classes separated by "or".
 #: client/helpdata.c:888
@@ -8131,9 +8127,9 @@ msgstr "Erfordert Einheitentyp %s.\n"
 
 #. TRANS: %s is a list of unit classes separated by "or".
 #: client/helpdata.c:892
-#, fuzzy, c-format
+#, c-format
 msgid "?uclasslist:Does not apply to %s units.\n"
-msgstr "Erfordert Einheitentyp %s.\n"
+msgstr "Betrifft nicht die Einheitentypen %s.\n"
 
 #. TRANS: "Applies only to Food."
 #: client/helpdata.c:921
@@ -8143,9 +8139,9 @@ msgstr "Betrifft nur %s.\n"
 
 #. TRANS: "Does not apply to Food."
 #: client/helpdata.c:925
-#, fuzzy, c-format
+#, c-format
 msgid "?output:Does not apply to %s.\n"
-msgstr "Betrifft nur %s.\n"
+msgstr "Betrifft %s nicht.\n"
 
 #. TRANS: "Applies only to Scientists."
 #: client/helpdata.c:936
@@ -8155,147 +8151,136 @@ msgstr "Betrifft nur %s.\n"
 
 #. TRANS: "Does not apply to Scientists."
 #: client/helpdata.c:940
-#, fuzzy, c-format
+#, c-format
 msgid "?specialist:Does not apply to %s.\n"
-msgstr "Betrifft nur %s.\n"
+msgstr "Betrifft keine %s.\n"
 
 #: client/helpdata.c:951
-#, fuzzy, c-format
+#, c-format
 msgid "Requires a minimum city size of %d.\n"
 msgid_plural "Requires a minimum city size of %d.\n"
 msgstr[0] "Erfordert mindestens die Größe %d.\n"
 msgstr[1] "Erfordert mindestens die Größe %d.\n"
 
 #: client/helpdata.c:957
-#, fuzzy, c-format
+#, c-format
 msgid "Requires the city size to be less than %d.\n"
 msgid_plural "Requires the city size to be less than %d.\n"
-msgstr[0] "Das Jahr %d muss erreicht worden sein.\n"
-msgstr[1] "Das Jahr %d muss erreicht worden sein.\n"
+msgstr[0] "Erfordert eine Stadtgröße kleiner %d.\n"
+msgstr[1] "Erfordert eine Stadtgröße kleiner %d.\n"
 
 #. TRANS: AI level (e.g., "Easy")
 #: client/helpdata.c:971
-#, fuzzy, c-format
+#, c-format
 msgid "Applies to %s AI players.\n"
-msgstr ""
-"Betrifft nur %s.\n"
-"\n"
+msgstr "Betrifft KI-Spieler der Stärke „%s“.\n"
 
 #. TRANS: AI level (e.g., "Cheating")
 #: client/helpdata.c:976
-#, fuzzy, c-format
+#, c-format
 msgid "Does not apply to %s AI players.\n"
-msgstr "Du bist nicht mit einem Spieler verbunden."
+msgstr "Betrifft keine KI-Spieler der Stärke „%s“.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #. TRANS: %s is a terrain class
 #: client/helpdata.c:987
-#, fuzzy, c-format
+#, c-format
 msgid "?terrainclass:Requires %s terrain on the tile.\n"
 msgstr "Erfordert %s auf diesem Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #. TRANS: %s is a terrain class
 #: client/helpdata.c:993
-#, fuzzy, c-format
+#, c-format
 msgid "?terrainclass:Prevented by %s terrain on the tile.\n"
-msgstr "Erfordert %s auf diesem Feld.\n"
+msgstr "Blockiert durch %s auf diesem Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #. TRANS: %s is a terrain class
 #: client/helpdata.c:1002
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?terrainclass:Requires %s terrain on the tile or a cardinally adjacent "
 "tile.\n"
 msgstr "Erfordert %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #. TRANS: %s is a terrain class
 #: client/helpdata.c:1009
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?terrainclass:Prevented by %s terrain on the tile or any cardinally adjacent "
 "tile.\n"
-msgstr "Erfordert %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
+msgstr ""
+"Blockiert durch %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #. TRANS: %s is a terrain class
 #: client/helpdata.c:1019
-#, fuzzy, c-format
+#, c-format
 msgid "?terrainclass:Requires %s terrain on the tile or an adjacent tile.\n"
 msgstr "Erfordert %s auf diesem oder einem angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #. TRANS: %s is a terrain class
 #: client/helpdata.c:1026
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?terrainclass:Prevented by %s terrain on the tile or any adjacent tile.\n"
-msgstr "Erfordert %s auf diesem oder einem angrenzenden Feld.\n"
+msgstr "Blockiert durch %s auf diesem oder einem angrenzenden Feld.\n"
 
 #: client/helpdata.c:1047
-#, fuzzy, c-format
+#, c-format
 msgid "?base:Requires %s on the tile.\n"
-msgstr "Erfordert ein %s auf diesem Feld.\n"
+msgstr "Erfordert %s auf diesem Feld.\n"
 
 #: client/helpdata.c:1051
-#, fuzzy, c-format
+#, c-format
 msgid "?base:Prevented by %s on the tile.\n"
-msgstr "Erfordert ein %s auf diesem Feld.\n"
+msgstr "Blockiert durch %s auf diesem Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:1058
-#, fuzzy, c-format
+#, c-format
 msgid "?base:Requires %s on the tile or a cardinally adjacent tile.\n"
 msgstr "Erfordert %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:1063
-#, fuzzy, c-format
+#, c-format
 msgid "?base:Prevented by %s on the tile or any cardinally adjacent tile.\n"
-msgstr "Erfordert %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
+msgstr ""
+"Blockiert durch %s auf diesem oder einem unmittelbar angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:1071
-#, fuzzy, c-format
+#, c-format
 msgid "?base:Requires %s on the tile or an adjacent tile.\n"
 msgstr "Erfordert %s auf diesem oder einem angrenzenden Feld.\n"
 
-# MG: "Erfordert Gelände Sumpf" klingt komisch.
 #: client/helpdata.c:1076
-#, fuzzy, c-format
+#, c-format
 msgid "?base:Prevented by %s on the tile or any adjacent tile.\n"
-msgstr "Erfordert %s auf diesem oder einem angrenzenden Feld.\n"
+msgstr "Blockiert durch %s auf diesem oder einem angrenzenden Feld.\n"
 
 #: client/helpdata.c:1097
-#, fuzzy, c-format
+#, c-format
 msgid "Requires the game to have reached the year %s.\n"
-msgstr "Das Jahr %d muss erreicht worden sein.\n"
+msgstr "Das Jahr %s muss erreicht worden sein.\n"
 
 #: client/helpdata.c:1101
-#, fuzzy, c-format
+#, c-format
 msgid "Requires that the game has not yet reached the year %s.\n"
-msgstr "Das Jahr %d muss erreicht worden sein.\n"
+msgstr "Das Jahr %s darf noch nicht erreicht worden sein.\n"
 
 #: client/helpdata.c:1112
-#, fuzzy, c-format
+#, c-format
 msgid "Requires terrain on which alteration %s is possible.\n"
-msgstr "Erfordert ein Geländefeld, auf dem %s gebaut werden kann.\n"
+msgstr "Erfordert ein Geländefeld, das in %s umgewndelt werden kann.\n"
 
 #: client/helpdata.c:1118
-#, fuzzy, c-format
+#, c-format
 msgid "Prevented by terrain on which alteration %s can be made.\n"
-msgstr "Erfordert ein Geländefeld, auf dem %s gebaut werden kann.\n"
+msgstr "Erfordert ein Geländefeld, das nicht in %s umgewandelt werden kann.\n"
 
 #: client/helpdata.c:1141
 msgid "Applies only to city centers.\n"
 msgstr "Betrifft nur Stadtzentren.\n"
 
 #: client/helpdata.c:1143
-#, fuzzy
 msgid "Does not apply to city centers.\n"
-msgstr "Betrifft nur Stadtzentren.\n"
+msgstr "Betrifft keine Stadtzentren.\n"
 
 #. TRANS: continue list, in case comma is not the separator of choice.
 #: client/helpdata.c:1206 client/helpdata.c:1802 client/text.c:1629
