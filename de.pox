@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-04 12:18+0200\n"
-"PO-Revision-Date: 2014-05-04 13:33+0200\n"
+"PO-Revision-Date: 2014-05-04 13:53+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -9204,24 +9204,24 @@ msgstr "• Es gibt keine unzufriedenen Bürger.\n"
 #: client/helpdata.c:3029
 #, c-format
 msgid "?unitclass:* New %s units will be veteran.\n"
-msgstr ""
+msgstr "• Neue %s-Einheiten erhalten automatisch den Veteranengrad.\n"
 
 #. TRANS: %s is a unit type flag
 #: client/helpdata.c:3035
 #, c-format
 msgid "?unitflag:* New %s units will be veteran.\n"
-msgstr ""
+msgstr "• Neue %s-Einheiten erhalten automatisch den Veteranengrad.\n"
 
 #. TRANS: "* New Partisan units will have the rank
 #. * of elite."
 #: client/helpdata.c:3047
 #, c-format
 msgid "?unittype:* New %s units will have the rank of %s.\n"
-msgstr ""
+msgstr "• Neue %s-Einheiten erhalten automatisch den Rang eines %ss.\n"
 
 #: client/helpdata.c:3056
 msgid "* New units will be veteran.\n"
-msgstr ""
+msgstr "• Neue Einheiten erhalten automatisch den Veteranengrad.\n"
 
 #. TRANS: %s is list of output types, with 'or';
 #. * pluralised in %d but of course the output types
@@ -27734,6 +27734,14 @@ msgid ""
 "manufacture of Inka artistic wares. Until its fall, Chimor controlled "
 "perhaps 2/3 of the population of the northern Andes."
 msgstr ""
+"Chimú begann als Erbe der Moche-Kultur im 12. Jahrhundert seine Erweiterung "
+"vom Moche-Flusstal aus, welches im heutigen Nordperu liegt. Seine Blütezeit "
+"setzte sich bis zur Eroberung durch das Inka-Reich 1470 fort, bei der ihr "
+"letzter Herrscher, Minchancaman, gefangen genommen und in die inkaische "
+"Hauptstadt Qosqo verbracht wurde. Chimúische Handwerker trugen jedoch auch "
+"danach weiterhin große Teile zum inkaischen Kunstwarenangebot bei und bis zu "
+"ihrem Ende stellten die Chimú bis zu 2/3 der Bevölkerung in den nördlichen "
+"Anden."
 
 #. TRANS: Legend for nation in "core" set
 #: data/nation/chinese.ruleset:7
@@ -27773,6 +27781,13 @@ msgid ""
 "Whites throughout Oregon, Washington, British Columbia and all the way to "
 "Alaska."
 msgstr ""
+"Die Chinook-Konföderation war eine Gruppe verschiedener Gemeinden mit "
+"gemeinsamen Gewohnheiten und gemeinsamer Sprache. Es handelte sich um ein "
+"sesshafter Volk, das entlang des Columbia-Flusses im heutigen Oregon/"
+"Washington in den Vereinigten Staaten lebte. Der regionale Einfluss der "
+"Chinook kann daran gemessen werden, dass ihre Zunge die Grundlage für eine "
+"Handelsverkehrssprache zwischen den Uramerikanern und den Weißen in ganz "
+"Oregon, Washington, British Columbia bis hin nach Alaska stellte."
 
 #: data/nation/choctaw.ruleset:3
 msgid "Choctaw"
@@ -27823,6 +27838,13 @@ msgid ""
 "Indonesian kingdom of Sri Vijaya. They collapsed, however, in the 1250s as "
 "other southern Indian states rose up."
 msgstr ""
+"Die Cholaner waren eine Tamil-Dynastie aus Südindien, die ungewöhnlich "
+"großen Einfluss auf das nördliche Indien hatte. Ursprünglich begannen sie "
+"als Tributstaat der Pallavas, jedoch stieg ihre Macht im 9. Jh. deutlich an. "
+"Im 11. Jh. führten sie Kriege gegen andere indische Staaten bis hin zum "
+"nördlichen Bengal, darunter die Malediven, Sri Lanka und sogar das "
+"indonesische Königreich Sri Vijaya. In den 1250er Jahren brach das Imperium "
+"unter dem Aufstieg anderer südindischer Staaten zusammen."
 
 #: data/nation/chrobatian.ruleset:3
 msgid "Chrobatian"
