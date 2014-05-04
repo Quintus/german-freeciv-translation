@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-04 12:18+0200\n"
-"PO-Revision-Date: 2014-05-04 13:10+0200\n"
+"PO-Revision-Date: 2014-05-04 13:33+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -7783,7 +7783,7 @@ msgid "This is %s, %s client."
 msgstr "Dies ist %s, %s-Klient."
 
 #: client/helpdata.c:344
-#, fuzzy, c-format
+#, c-format
 msgid "Requires knowledge of the technology %s.\n"
 msgstr "Erfordert den Fortschritt %s.\n"
 
@@ -9044,21 +9044,21 @@ msgstr "• Sie zahlen keinen Unterhalt für Ihre Einheiten.\n"
 #. TRANS: %s is the output type, like 'shield'
 #. * or 'gold'.
 #: client/helpdata.c:2835
-#, fuzzy, c-format
+#, c-format
 msgid "* You pay %.2g times normal %s upkeep for your units.\n"
-msgstr "• Sie zahlen den %d-fachen %s-Unterhalt für Ihre Einheiten.\n"
+msgstr "• Sie zahlen den %.2g-fachen %s-Unterhalt für Ihre Einheiten.\n"
 
 #: client/helpdata.c:2840
-#, fuzzy, c-format
+#, c-format
 msgid "* You pay %.2g times normal upkeep for your units.\n"
-msgstr "• Sie zahlen den %d-fachen Unterhalt für Ihre Einheiten.\n"
+msgstr "• Sie zahlen den %.2g-fachen Unterhalt für Ihre Einheiten.\n"
 
 #. TRANS: %s is the output type, like 'shield' or
 #. * 'gold'; pluralised in %d but there is currently
 #. * no way to control the singular/plural name of the
 #. * output type; sorry
 #: client/helpdata.c:2855
-#, fuzzy, c-format
+#, c-format
 msgid "* Each of your cities will avoid paying %d %s upkeep for your units.\n"
 msgid_plural ""
 "* Each of your cities will avoid paying %d %s upkeep for your units.\n"
@@ -9068,12 +9068,12 @@ msgstr[1] "• Jede Stadt erspart %d %s für den Unterhalt von Einheiten.\n"
 #. TRANS: Amount is subtracted from upkeep cost
 #. * for each upkeep type.
 #: client/helpdata.c:2864
-#, fuzzy, c-format
+#, c-format
 msgid "* Each of your cities will avoid paying %d upkeep for your units.\n"
 msgid_plural ""
 "* Each of your cities will avoid paying %d upkeep for your units.\n"
 msgstr[0] ""
-"• Jede Stadt erspart %d Goldstücke für den Unterhalt von Einheiten.\n"
+"• Jede Stadt erspart %d Goldstück für den Unterhalt von Einheiten.\n"
 msgstr[1] ""
 "• Jede Stadt erspart %d Goldstücke für den Unterhalt von Einheiten.\n"
 
@@ -9086,7 +9086,7 @@ msgstr ""
 
 #. TRANS: %d should always be greater than 2.
 #: client/helpdata.c:2884
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* When you have %d city, the first unhappy citizen will appear in each city "
 "due to civilization size.\n"
@@ -9095,14 +9095,14 @@ msgid_plural ""
 "city due to civilization size.\n"
 msgstr[0] ""
 "• Zusätzliche unzufriedene Bürger aufgrund der Zivilisationsgröße gibt es ab "
-"%d Städten.\n"
+"%d Stadt.\n"
 msgstr[1] ""
 "• Zusätzliche unzufriedene Bürger aufgrund der Zivilisationsgröße gibt es ab "
 "%d Städten.\n"
 
 #. TRANS: %d should always be greater than 2.
 #: client/helpdata.c:2897
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* After the first unhappy citizen due to civilization size, for each %d "
 "additional city another unhappy citizen will appear.\n"
@@ -9111,7 +9111,7 @@ msgid_plural ""
 "additional cities another unhappy citizen will appear.\n"
 msgstr[0] ""
 "• Wenn bereits ein Bürger aufgrund der Zivilisationsgröße unzufrieden ist, "
-"wird für je %d zusätzliche Städte ein weiterer Bürger unzufrieden.\n"
+"wird für je %d zusätzliche Stadt ein weiterer Bürger unzufrieden.\n"
 msgstr[1] ""
 "• Wenn bereits ein Bürger aufgrund der Zivilisationsgröße unzufrieden ist, "
 "wird für je %d zusätzliche Städte ein weiterer Bürger unzufrieden.\n"
@@ -9227,7 +9227,7 @@ msgstr ""
 #. * pluralised in %d but of course the output types
 #. * can't be pluralised; sorry
 #: client/helpdata.c:3066
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* Each worked tile that gives more than %d %s will suffer a -1 penalty, "
 "unless the city working it is celebrating."
@@ -9250,7 +9250,7 @@ msgstr " (Städte unter einer Größe von %d werden nicht feiern.)"
 
 #. TRANS: %s is list of output types, with 'or'
 #: client/helpdata.c:3086
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* Each worked tile with at least 1 %s will yield %d more of it while the "
 "city working it is celebrating."
@@ -9266,7 +9266,7 @@ msgstr[1] ""
 
 #. TRANS: %s is list of output types, with 'or'
 #: client/helpdata.c:3105
-#, fuzzy, c-format
+#, c-format
 msgid "* Each worked tile with at least 1 %s will yield %d more of it.\n"
 msgid_plural ""
 "* Each worked tile with at least 1 %s will yield %d more of it.\n"
@@ -12749,9 +12749,9 @@ msgstr "Größe %d"
 
 #. TRANS: Unit type flag
 #: common/requirements.c:1555
-#, fuzzy, c-format
+#, c-format
 msgid "?utflag:\"%s\" units"
-msgstr "»%s« Einheiten"
+msgstr "„%s“-Einheiten"
 
 #. TRANS: Unit class
 #: common/requirements.c:1562
@@ -12761,9 +12761,9 @@ msgstr "%s Einheiten"
 
 #. TRANS: Unit class flag
 #: common/requirements.c:1568
-#, fuzzy, c-format
+#, c-format
 msgid "?ucflag:\"%s\" units"
-msgstr "»%s« Einheiten"
+msgstr "„%s“-Einheiten"
 
 #. TRANS: "Hard AI"
 #: common/requirements.c:1586
@@ -12789,9 +12789,8 @@ msgid "%s possible"
 msgstr "%s möglich"
 
 #: common/requirements.c:1607
-#, fuzzy
 msgid "City center"
-msgstr "Stadtzentrumsfeld"
+msgstr "Stadtzentrum"
 
 #: common/road.c:28 manual/civmanual.c:285
 msgid "Road"
@@ -17923,7 +17922,6 @@ msgid "?unitclass:Helicopter"
 msgstr "Helikopter"
 
 #: data/civ2/units.ruleset:235
-#, fuzzy
 msgid ""
 "Upkeep for Settlers is in food as well as production, and a Settler can die "
 "if its supporting city runs out of food. Settlers require twice as much food "
@@ -17932,9 +17930,8 @@ msgstr ""
 "Erhaltungskosten für Siedler setzen sich sowohl aus Nahrung wie auch aus "
 "Produktion zusammen, und wenn die den Siedler unterstützende Stadt keine "
 "Nahrung mehr liefert, kann dieser verhungern. Siedler in einer Republik oder "
-"Demokratie benötigen die doppelte Menge an Nahrung pro Runde, in "
-"kommunistischen und fundamentalistischen Gesellschaften sogar die dreifache "
-"Menge."
+"Demokratie, in kommunistischen oder fundamentalistischen Gesellschaften "
+"benötigen die doppelte Menge an Nahrung pro Runde."
 
 #: data/civ2/units.ruleset:243 data/default/units.ruleset:390
 #: data/experimental/units.ruleset:415 data/multiplayer/units.ruleset:391
@@ -37959,7 +37956,7 @@ msgstr ""
 "%s notwendig. Der Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1091
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?special:%s can't build %s from the worklist; %s is required.  Postponing..."
 msgstr ""
@@ -37967,13 +37964,13 @@ msgstr ""
 "Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1104
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?terrain:%s can't build %s from the worklist; %s terrain is required.  "
 "Postponing..."
 msgstr ""
-"%s kann %s aus der Arbeitsliste nicht bauen, die Geländeform %s ist "
-"erforderlich. Der Auftrag wird zurückgestellt."
+"%s kann %s aus der Arbeitsliste nicht bauen, da die Geländeform %s "
+"erforderlich ist. Der Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1119
 #, c-format
@@ -38001,7 +37998,7 @@ msgstr ""
 "%s darf dies bauen. Der Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1161
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?terrainclass:%s can't build %s from the worklist; %s terrain is required.  "
 "Postponing..."
@@ -38085,14 +38082,13 @@ msgstr "%s kann zur Zeit %s nicht bauen."
 msgid "%s is finished building %s."
 msgstr "%s hat %s fertiggestellt."
 
-# MG: ?? Singular/Plural-Übersetzung?
 #. TRANS: "<unit> cost... <city> shrinks..."
 #. * Plural in "%d population", not "size %d".
 #: server/cityturn.c:1687
-#, fuzzy, c-format
+#, c-format
 msgid "%s cost %d population. %s shrinks to size %d."
 msgid_plural "%s cost %d population. %s shrinks to size %d."
-msgstr[0] "%s kostet %d Bevölkerungspunkte. %s schrumpft auf Größe %d."
+msgstr[0] "%s kostet %d Bevölkerungspunkt. %s schrumpft auf Größe %d."
 msgstr[1] "%s kostet %d Bevölkerungspunkte. %s schrumpft auf Größe %d."
 
 #: server/cityturn.c:1772
@@ -38421,9 +38417,8 @@ msgid "scenarios DIR"
 msgstr "scenarios VERZ"
 
 #: server/civserver.c:407
-#, fuzzy
 msgid "Save scenarios to directory DIR"
-msgstr "Spielstände im Verzeichnis VERZ speichern"
+msgstr "Szenarien im Verzeichnis VERZ speichern"
 
 #. TRANS: "Serverid" is exactly what user must type, do not translate.
 #: server/civserver.c:410
@@ -41506,28 +41501,26 @@ msgid "rejected"
 msgstr "abgewiesen"
 
 #: server/sernet.c:558
-#, fuzzy
 msgid "Shutting down for lack of players."
-msgstr "Baldiger Neustart, da keine Spieler mehr"
+msgstr "Fahre herunter, da keine Spieler mehr."
 
 #: server/sernet.c:561
 msgid "Restarting for lack of players."
-msgstr "Neustart, da keine Spieler mehr"
+msgstr "Neustart, da keine Spieler mehr."
 
 #: server/sernet.c:581
-#, fuzzy, c-format
+#, c-format
 msgid "Shutting down in %d seconds for lack of players."
-msgstr "Neustart in %d Sekunden, da keine Spieler mehr"
+msgstr "Fahre in %d Sekunden herunter, da keine Spieler mehr."
 
 #: server/sernet.c:584
-#, fuzzy
 msgid "shutting down soon for lack of players"
-msgstr "Baldiger Neustart, da keine Spieler mehr"
+msgstr "Baldiges Herunterfahren, da keine Spieler mehr"
 
 #: server/sernet.c:586
 #, c-format
 msgid "Restarting in %d seconds for lack of players."
-msgstr "Neustart in %d Sekunden, da keine Spieler mehr"
+msgstr "Neustart in %d Sekunden, da keine Spieler mehr."
 
 #: server/sernet.c:589
 msgid "restarting soon for lack of players"
@@ -43468,13 +43461,12 @@ msgid "Control of simultaneous player/team phases"
 msgstr "Einstellung der Spieler/Team-Phasen"
 
 #: server/settings.c:2067
-#, fuzzy
 msgid ""
 "This setting controls whether players may make moves at the same time during "
 "a turn. Change in setting takes effect next turn."
 msgstr ""
 "Diese Einstellung legt fest, ob Spieler in einer Runde gleichzeitig ziehen "
-"können."
+"können. Änderungen werden ab der nächsten Runde wirksam."
 
 #: server/settings.c:2074
 msgid "Seconds to let a client's network connection block"
@@ -46225,23 +46217,25 @@ msgid "This unit is being transported, and so cannot bombard."
 msgstr "Diese Einheit wird transportiert und kann daher nicht bombardieren."
 
 #: server/unithand.c:1527
-#, fuzzy, c-format
+#, c-format
 msgid "%s is not an attack unit."
-msgstr "%s beim Angriff der %sen %s verloren."
+msgstr "%s ist keine Offensiveinheit."
 
 #: server/unithand.c:1531
 msgid "You can't attack there since there's an unreachable unit."
 msgstr ""
+"Sie können das nicht angreifen, weil sich dort eine unerreichbare Einheit "
+"aufhält."
 
 #: server/unithand.c:1535
-#, fuzzy, c-format
+#, c-format
 msgid "%s can't launch attack from %s."
-msgstr "Nur %s können von See aus angreifen."
+msgstr "%s kann keinen Angriff von einem %s-Feld aus starten."
 
 #: server/unithand.c:1541
-#, fuzzy, c-format
+#, c-format
 msgid "%s can't attack to %s."
-msgstr "Nur %s können von See aus angreifen."
+msgstr "%s kann ein %s-Feld nicht angreifen."
 
 #: server/unithand.c:1592
 msgid "A transported unit is not allied to all units or city on target tile."
@@ -46319,11 +46313,13 @@ msgid "Sorry, the %s canceled the trade route from %s to your city %s."
 msgstr ""
 "Die %s haben den Handelsweg zwischen %s und Ihrer Stadt %s geschlossen."
 
+# MG: Im Code heißt es nation_plural_for_player() für das
+# Nationsattribut. Das ist wohl falsch.
 #: server/unithand.c:1851 server/unithand.c:1882
-#, fuzzy, c-format
+#, c-format
 msgid "We canceled the trade route from %s to %s city %s."
 msgstr ""
-"Die %s haben den Handelsweg zwischen %s und Ihrer Stadt %s geschlossen."
+"Wir haben den Handelsweg zwischen %s und der %sen Stadt %s geschlossen."
 
 #: server/unittools.c:331
 #, c-format
