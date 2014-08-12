@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-12 12:40+0200\n"
-"PO-Revision-Date: 2014-05-11 14:47+0200\n"
+"PO-Revision-Date: 2014-08-12 13:44+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -700,23 +700,23 @@ msgid "%+4d : Bonus from %s (%+d%%)\n"
 msgstr "%+4d : Bonus von %s (%+d%%)\n"
 
 #: client/citydlg_common.c:530
-#, fuzzy, c-format
+#, c-format
 msgid "%+4d : Size penalty\n"
-msgstr "%+4d : Bürger\n"
+msgstr "%+4d : Größeneinbuße\n"
 
 #. TRANS: %s is normally empty, but becomes '?' if client is
 #. * uncertain about its accounting (should never happen)
 #: client/citydlg_common.c:547
-#, fuzzy, c-format
+#, c-format
 msgid "%+4d : Waste%s\n"
-msgstr "%+4d : Verschwendung\n"
+msgstr "%+4d : Verschwendung%s\n"
 
 #. TRANS: %s is normally empty, but becomes '?' if client is
 #. * uncertain about its accounting (should never happen)
 #: client/citydlg_common.c:552
-#, fuzzy, c-format
+#, c-format
 msgid "%+4d : Corruption%s\n"
-msgstr "%+4d : Korruption\n"
+msgstr "%+4d : Korruption%s\n"
 
 #: client/citydlg_common.c:562
 #, c-format
@@ -3947,13 +3947,12 @@ msgid "What should we call our new city?"
 msgstr "Wie soll die neue Stadt heißen?"
 
 #: client/gui-gtk-2.0/mapview.c:103 client/gui-gtk-3.0/mapview.c:103
-#, fuzzy
 msgid "Time to forced turn change"
-msgstr "Zeit zwischen Einheitenzügen gemessen am Rundenwechsel"
+msgstr "Zeit bis zur zwangsweisen Beendigung der Runde"
 
 #: client/gui-gtk-2.0/mapview.c:105 client/gui-gtk-3.0/mapview.c:105
 msgid "Turn timeout disabled"
-msgstr ""
+msgstr "Runden-Timeout ausgeschaltet"
 
 #: client/gui-gtk-2.0/mapview.c:183 client/gui-gtk-3.0/mapview.c:180
 msgid "Shows your current luxury/science/tax rates; click to toggle them."
@@ -4683,7 +4682,7 @@ msgstr "Zurücksetzen"
 
 #: client/gui-gtk-2.0/pages.c:109 client/gui-gtk-3.0/pages.c:109
 msgid "Compiling scenario list."
-msgstr ""
+msgstr "Kompiliere Szenarien-Liste."
 
 #. TRANS: "version 2.4.0, gui-gtk-2.0 client"
 #. TRANS: "version 2.4.0, gui-gtk-3.0 client"
@@ -8375,12 +8374,15 @@ msgstr "• Ermöglicht %s.\n"
 #: client/helpdata.c:1779
 msgid "* All players start with this improvement in their first city.\n"
 msgstr ""
+"• Diese Stadtverbesserung steht allen Spielern in ihrer ersten Stadt zur "
+"Verfügung.\n"
 
 #. TRANS: %s is a nation plural
 #: client/helpdata.c:1798
 #, c-format
 msgid "* The %s start with this improvement in their first city.\n"
 msgstr ""
+"• Den %s steht diese Stadtverbesserung in ihrer ersten Stadt zur Verfügung.\n"
 
 #. TRANS: don't translate 'savepalace'
 #: client/helpdata.c:1808
@@ -8466,13 +8468,14 @@ msgstr "• Kann nicht in Städten gebaut werden.\n"
 msgid "* Only barbarians may build this.\n"
 msgstr "• Kann nur von Barbaren gebaut werden.\n"
 
+# MG: TODO: "einer" wird im Deutschen nicht als Zahl geschrieben, sondern als Wort. Evtl. über den Format-String hinwegsetzen?
 #. TRANS: %s is a nation plural
 #: client/helpdata.c:1960
 #, c-format
 msgid "* The %s start the game with %d of these units.\n"
 msgid_plural "* The %s start the game with %d of these units.\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "• Die %s starten im Spiel mit %d dieser Einheiten.\n"
+msgstr[1] "• Die %s starten im Spiel mit %d dieser Einheiten.\n"
 
 #. TRANS: %s is a list of unit types separated by "or".
 #: client/helpdata.c:1979
@@ -8518,11 +8521,8 @@ msgid "* Must stay next to coast.\n"
 msgstr "• Muss sich direkt an der Küste befinden.\n"
 
 #: client/helpdata.c:2031
-#, fuzzy
 msgid "* Can establish trade routes (must travel to target city).\n"
-msgstr ""
-"%s kann keinen Handelsweg eröffnen, da dieser Einheit keine Heimatstadt "
-"zugeordnet ist."
+msgstr "• kann Handelsrouten eröffnen (muss zur Zielstadt reisen)\n"
 
 #: client/helpdata.c:2035
 #, c-format
@@ -8541,11 +8541,11 @@ msgstr ""
 "zu erhalten.\n"
 
 #: client/helpdata.c:2048
-#, fuzzy, c-format
+#, c-format
 msgid "* Can build new cities (initial population %d).\n"
 msgid_plural "* Can build new cities (initial population %d).\n"
-msgstr[0] "• Kann neue Städte gründen.\n"
-msgstr[1] "• Kann neue Städte gründen.\n"
+msgstr[0] "• Kann neue Städte gründen (initiale Größe: %d).\n"
+msgstr[1] "• Kann neue Städte gründen (initiale Größe: %d).\n"
 
 #. TRANS: Plural in "%d population", not "size %d".
 #: client/helpdata.c:2056
@@ -8825,15 +8825,14 @@ msgid " This number may vary depending on what other players research.\n"
 msgstr " Diese Anzahl hängt davon ab, was die anderen Spieler erforschen.\n"
 
 #: client/helpdata.c:2393
-#, fuzzy
 msgid "* All players start the game with knowledge of this technology.\n"
-msgstr "• Ermöglicht allen Spielern mit Kenntnis von %s den Bau von %s.\n"
+msgstr "• Diese Technologie ist allen Spielern bei Spielstart bekannt.\n"
 
 #. TRANS: %s is a nation plural
 #: client/helpdata.c:2411
-#, fuzzy, c-format
+#, c-format
 msgid "* The %s start the game with knowledge of this technology.\n"
-msgstr "Erfordert den Fortschritt %s.\n"
+msgstr "• Den %s ist diese Technologie bei Spielstart bekannt.\n"
 
 #: client/helpdata.c:2420
 #, c-format
@@ -13200,6 +13199,8 @@ msgstr "Gerichtsgebäude"
 msgid ""
 "Reduces the corruption in a city by 50%. Has no effect in your capital city."
 msgstr ""
+"Halbiert die Korruption in einer Stadt. Hat keine Auswirkungen in der "
+"Hauptstadt."
 
 #: data/civ1/buildings.ruleset:227 data/civ2/buildings.ruleset:284
 #: data/default/buildings.ruleset:324 data/experimental/buildings.ruleset:329
@@ -13346,7 +13347,6 @@ msgstr "Palast"
 
 #: data/civ1/buildings.ruleset:435 data/default/buildings.ruleset:584
 #: data/experimental/buildings.ruleset:636
-#, fuzzy
 msgid ""
 "Makes a city the capital and the center of your government. Corruption in "
 "other cities is related to how far away from the capital they are, except "
@@ -13356,9 +13356,9 @@ msgid ""
 msgstr ""
 "Macht eine Stadt zur Hauptstadt und somit zum Regierungssitz. Außer in einer "
 "Demokratie oder im Kommunismus ist die Korruption in anderen Städten davon "
-"abhängig, wie weit diese von der Hauptstadt entfernt sind; abgesehen davon "
-"hängen auch die Kosten eines Aufrufs zur Revolution — unabhängig von der "
-"Regierungsform — von der Entfernung der jeweiligen Stadt zur Hauptstadt ab."
+"abhängig, wie weit diese von der Hauptstadt entfernt sind; darüber hinaus "
+"ist die Korruption in der Hauptstadt selbst nur halb so schlimm wie üblich, "
+"d.h. verhält sich so, als ob dort ein Gerichtsgebäude eingerichtet wäre."
 
 #: data/civ1/buildings.ruleset:441
 msgid ""
@@ -13368,6 +13368,12 @@ msgid ""
 "enemy agents try to evade your own agents stationed in the city, or sabotage "
 "your buildings."
 msgstr ""
+"Die Kosten, die feindliche Diplomaten zur Anstiftung zu einer Revolte "
+"aufwenden müssen, hängt unter allen Regierungsformen auch von der Entfernung "
+"zur Hauptstadt ab. In der Hauptstadt selbst kann nicht zu einer Revolte "
+"angestiftet werden, zudem genießt sie einen Bonus im Bezug auf feindliche "
+"Agenten, die Ihre eigenen in der Stadt stationierten Agenten umgehen oder "
+"Gebäude sabotieren wollen."
 
 #: data/civ1/buildings.ruleset:447 data/civ2/buildings.ruleset:550
 #: data/default/buildings.ruleset:597 data/experimental/buildings.ruleset:649
@@ -16754,18 +16760,19 @@ msgid ""
 "of the city 4 times bigger. (These effects are redundant in your capital "
 "city.)"
 msgstr ""
+"Halbiert Korruption und Verschwendung in einer Stadt, die Kosten einer "
+"Revolte werden vervierfacht. Beides gilt jedoch nicht für die Hauptstadt, "
+"die diesen Beschränkungen kraft ihres Status’ ohnehin unterliegt."
 
 #: data/civ2/buildings.ruleset:278 data/default/buildings.ruleset:318
 #: data/experimental/buildings.ruleset:323
 #: data/multiplayer/buildings.ruleset:319
-#, fuzzy
 msgid ""
 "Under a Democracy, a Courthouse also makes 1 unhappy citizen content (unless "
 "that citizen is unhappy about military activity)."
 msgstr ""
-"Halbiert die Korruption. In einer Demokratie macht es einen Unzufriedenen "
-"zufrieden (außer wenn der Betroffene wegen militärischer Aktivität "
-"unzufrieden ist). Außerdem werden die Kosten einer Revolte vervierfacht."
+"In einer Demokratie macht das Gerichtsgebäude einen Unzufriedenen zufrieden "
+"(außer wenn der Betroffene wegen militärischer Aktivität unzufrieden ist)."
 
 #: data/civ2/buildings.ruleset:329 data/default/buildings.ruleset:369
 #: data/experimental/buildings.ruleset:374
@@ -16830,7 +16837,6 @@ msgstr ""
 "werden."
 
 #: data/civ2/buildings.ruleset:536 data/multiplayer/buildings.ruleset:574
-#, fuzzy
 msgid ""
 "Makes a city the capital and the center of your government. Corruption and "
 "waste in other cities is related to how far away from the capital they are, "
@@ -16840,9 +16846,10 @@ msgid ""
 msgstr ""
 "Macht eine Stadt zur Hauptstadt und somit zum Regierungssitz. Außer in einer "
 "Demokratie oder im Kommunismus ist die Korruption in anderen Städten davon "
-"abhängig, wie weit diese von der Hauptstadt entfernt sind; abgesehen davon "
-"hängen auch die Kosten eines Aufrufs zur Revolution — unabhängig von der "
-"Regierungsform — von der Entfernung der jeweiligen Stadt zur Hauptstadt ab."
+"abhängig, wie weit diese von der Hauptstadt entfernt sind; darüber hinaus "
+"sind Korruption und Verschwendung in der Hauptstadt selbst nur halb so "
+"schlimm wie üblich, d.h. verhalten sich so, als ob dort ein Gerichtsgebäude "
+"eingerichtet wäre."
 
 #: data/civ2/buildings.ruleset:543 data/default/buildings.ruleset:590
 #: data/experimental/buildings.ruleset:642
@@ -16854,6 +16861,12 @@ msgid ""
 "enjoys a bonus when enemy agents try to evade your own agents stationed in "
 "the city, or sabotage your buildings."
 msgstr ""
+"In allen Regierungsformen hängen auch die Kosten, die ein feindlicher "
+"Diplomat oder Spion zur Anstiftung zu einer Revolte in einer Stadt benötigt, "
+"von der Entfernung zur Hauptstadt ab. In der Hauptstadt selbst kann zur "
+"Revolte nicht angestiftet werden, zudem genießt sie einen Bonus im Bezug auf "
+"feindliche Agenten, die Ihre in der Stadt stationierten Agenten umgehen oder "
+"Gebäude in der Stadt sabotieren wollen."
 
 #: data/civ2/buildings.ruleset:557 data/default/buildings.ruleset:609
 #: data/experimental/buildings.ruleset:661
@@ -18548,6 +18561,9 @@ msgid ""
 "Reduces the corruption in a city by 50%, and makes the revolt cost of the "
 "city 4 times bigger. (These effects are redundant in your capital city.)"
 msgstr ""
+"Halbiert die Korruption in der Stadt und vervierfacht die Kosten einer "
+"Revolte. Beides gilt nicht für die Hauptstadt, die diesen Beschränkungen "
+"kraft ihres Status’ ohnehin unterliegt."
 
 #: data/default/buildings.ruleset:408 data/experimental/buildings.ruleset:433
 #: data/multiplayer/buildings.ruleset:406
@@ -19850,7 +19866,6 @@ msgid "Take Player"
 msgstr "Spieler übernehmen"
 
 #: data/helpdata.txt:41
-#, fuzzy
 msgid ""
 "Freeciv is a turn-based strategy game, in which each player becomes the "
 "leader of a civilization. You compete against several opponents to found "
@@ -19869,8 +19884,8 @@ msgstr ""
 "siegreich hervorgeht. Jeder Gegner kann entweder von einem echten "
 "menschlichen Spielpartner oder vom Computer kontrolliert werden; jeder "
 "einzelne von ihnen erhält zu Anbeginn aller menschlichen Geschichte nur eine "
-"Handvoll Einheiten — typischerweise einen Kundschafter und zwei Siedler im "
-"Jahre 4000 v.Chr. — und setzt es sich zum Ziel, aus diesen bescheidenen "
+"Handvoll Einheiten — typischerweise einen Kundschafter und einige Siedler im "
+"Jahre 4000 v.u.Z. — und setzt es sich zum Ziel, aus diesen bescheidenen "
 "Verhältnissen heraus immer weiter zu expandieren."
 
 #: data/helpdata.txt:51
@@ -19908,7 +19923,6 @@ msgstr ""
 "Raumschiff dieses Sonnensystem erreicht, gewinnt das Spiel."
 
 #: data/helpdata.txt:65
-#, fuzzy
 msgid ""
 " - In the absence of other means to determine victory, the game will end "
 "after 5000 turns if no spacecraft have yet been launched. The surviving "
@@ -19916,7 +19930,7 @@ msgid ""
 "winner."
 msgstr ""
 "‒ Trifft keine andere Siegbedingung zu und wurde kein Raumschiff gestartet, "
-"wird das Spiel im Jahre 2000 n.Chr. enden und die noch existierenden "
+"wird das Spiel nach 5000 Runden enden und die noch existierenden "
 "Zivilisationen werden bewertet. Diejenige, die die höchste Bewertung erhält, "
 "wird zum Sieger ernannt."
 
@@ -22011,7 +22025,6 @@ msgstr ""
 "Unterstützung."
 
 #: data/helpdata.txt:1056
-#, fuzzy
 msgid ""
 "Most units begin every turn with one or more movement points. Every action "
 "undertaken by a unit consumes movement points."
@@ -22021,7 +22034,6 @@ msgstr ""
 "können."
 
 #: data/helpdata.txt:1059
-#, fuzzy
 msgid ""
 "The most basic action is movement; units can move into any of the tiles "
 "surrounding their current location, subject to restrictions imposed by their "
@@ -22032,11 +22044,12 @@ msgid ""
 msgstr ""
 "Die grundlegendste dieser Aktionen ist die Bewegung: eine Einheit vermag "
 "sich auf jedes der an sie angrenzenden Felder zu bewegen, welche jedoch "
-"zuvor im Hinblick auf die Beschränkungen ihrer jeweiligen Einheitenklasse, "
+"zuvor im Hinblick auf die Beschränkungen ihrer jeweiligen Einheitenklasse "
+"(Einheiten können nur das ihnen „natürliche“ Gelände betreten), "
 "diplomatische Restriktionen (siehe den Abschnitt über Diplomatie) und die "
-"Präsenz feindlicher Einheiten überprüft werden. Die genaue Anzahl "
-"verbrauchter Bewegungspunkte hängt vom Geländetyp ab; siehe die Hilfe zu "
-"Geländeformen."
+"Präsenz feindlicher Einheiten (siehe den Abschnitt über Kontrollzonen) "
+"überprüft werden. Die genaue Anzahl verbrauchter Bewegungspunkte hängt vom "
+"Geländetyp ab; siehe die Hilfe zu Geländeformen."
 
 #: data/helpdata.txt:1067
 msgid ""
@@ -22976,7 +22989,6 @@ msgstr ""
 "gegnerischen Hauptstadt."
 
 #: data/helpdata.txt:1544
-#, fuzzy
 msgid ""
 "Each player in the game is represented by a nation. A nation can be a modern-"
 "day nation state, a historical state or empire, an ethnic group, or even a "
@@ -22984,9 +22996,7 @@ msgid ""
 msgstr ""
 "Jede Spieler repräsentiert eine Nation. Eine Nation kann dabei eine heutige, "
 "reale Nation sein, ein historischer Staat oder ein historisches Imperium, "
-"eine ethnische Gruppe oder auch eine vollkommen fiktive Nation. Nationen "
-"unterscheiden sich in ihren Flaggen, Anführern und Stadtnamen, sind aber "
-"ansonsten vollkommen gleich und folgen denselben Regeln."
+"eine ethnische Gruppe oder auch eine vollkommen fiktive Nation."
 
 #: data/helpdata.txt:1548
 msgid ""
@@ -22994,6 +23004,10 @@ msgid ""
 "default rules they are identical in all other aspects and play by the same "
 "rules, but other rules may have nation-specific behavior."
 msgstr ""
+"Nationen unterscheiden sich in ihren Flaggen, Anführern und Stadtnamen, sind "
+"aber zumindest im Standardregelsatz ansonsten vollkommen gleich und folgen "
+"denselben Regeln. Andere Regelsätze können nationenspezifisches Verhalten "
+"enthalten."
 
 #: data/helpdata.txt:1559
 msgid ""
@@ -23324,7 +23338,6 @@ msgstr ""
 "Rechtsklick beendet den Modus wieder."
 
 #: data/helpdata.txt:1715
-#, fuzzy
 msgid ""
 "  Chatline (GTK):\n"
 "  ===============\n"
@@ -23337,6 +23350,8 @@ msgid ""
 msgstr ""
 "  Chatzeile (GTK):\n"
 "  ================\n"
+"  ' (Einfaches Anführungs-\n"
+"     zeichen oben):           Chatzeile fokussieren\n"
 "  Strg-Alt-Rechtsklick:       Stadt- oder Feldlink in die Chatzeile "
 "einfügen\n"
 "  Shift-Strg-Alt-Rechtsklick: Einheitenlink in die Chatzeile einfügen\n"
@@ -23882,21 +23897,21 @@ msgstr ""
 "unter der Adresse:"
 
 #: data/helpdata.txt:2286
-#, fuzzy
 msgid ""
 "Please quote the above version information. For more information about "
 "submitting bug reports see the file BUGS in the Freeciv distribution."
 msgstr ""
 "Nennen Sie bitte die oben angegebene Versionsinformation. Weitere "
-"Informationen zum Melden von Fehlern können in der Datei »BUGS« im "
-"Quellcodearchiv vom Freeciv gefunden werden. Allgemeine Informationen können "
-"Sie auf der Freeciv-Webseite finden:"
+"Informationen zum Melden von Fehlern können der Datei „BUGS“ im "
+"Quellcodearchiv von Freeciv entnommen werden."
 
 #: data/helpdata.txt:2290
 msgid ""
 "To contact the developers about anything else, please email one of the "
 "project's mailing lists:"
 msgstr ""
+"Wenn Sie die Entwickler aus anderen Gründen kontaktieren möchten, schreiben "
+"Sie dazu bitte eine der folgenden Mailinglisten des Projekts:"
 
 #: data/helpdata.txt:2293
 msgid ""
@@ -23905,6 +23920,10 @@ msgid ""
 "    freeciv-maintainers@gna.org - private project administration\n"
 "                                  list (for security issues, etc)"
 msgstr ""
+"    freeciv-dev@gna.org         — öffentliche Entwicklungsmailingliste\n"
+"                                  (Das Archiv ist frei zugänglich)\n"
+"    freeciv-maintainers@gna.org — private Projektadministrationsliste\n"
+"                                  (für Sicherheitsprobleme u.ä.)"
 
 #: data/helpdata.txt:2298
 msgid ""
@@ -23922,6 +23941,7 @@ msgstr "Die heutigen Ansprechpartner:"
 #: data/helpdata.txt:2312
 msgid "For more information in general, visit the Freeciv website, at:"
 msgstr ""
+"Weitere allgemeine Informationen finden Sie auf der Freeciv-Website unter:"
 
 #: data/multiplayer/buildings.ruleset:89
 msgid "Amphitheater"
@@ -39113,7 +39133,6 @@ msgstr ""
 
 #. TRANS: translate text between <> only
 #: server/commands.c:198
-#, fuzzy
 msgid ""
 "debug diplomacy <player>\n"
 "debug ferries\n"
@@ -39126,11 +39145,10 @@ msgid ""
 msgstr ""
 "debug diplomacy <Spieler>\n"
 "debug ferries\n"
-"debug player <Spieler>\n"
 "debug tech <Spieler>\n"
 "debug city <x> <y>\n"
 "debug units <x> <y>\n"
-"debug unit <d>\n"
+"debug unit <id>\n"
 "debug timing\n"
 "debug info"
 
