@@ -2,7 +2,7 @@
 # Copyright (C) 1999-2009 Free Software Foundation, Inc.
 # Egbert Hinzen <egbert@hinzen-koeln.de>, 1999-2002.
 # Christian Knoke <chrisk@cknoke.de>, 2003-2009.
-# Marvin Gülker <quintus@quintilianus.eu>, 2012-2013
+# Marvin Gülker <quintus@quintilianus.eu>, 2012-2013,2015
 #
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # + '# ?'  markiert Stellen, die noch nicht übersetzt wurden.           +
@@ -28,6 +28,8 @@
 #   Entwicklerkommentar (TRANS:) migegeben wurde, findet sich dort ein
 #   Übersetzerkomentar (CK: TECHNICAL, EH: oder MG:).
 #
+# Weitere Hinweise:
+#
 # - In Deutschland ist bekanntlicherweise alles genormt, so auch
 #   Staaten- und Staatsangehörigenbezeichnungen. Hierzulande übernimmt
 #   diese Aufgabe der Ständige Ausschuss für Geographische Namen
@@ -39,12 +41,17 @@
 #   gelistete Völker (das betrifft vornehmlich ausgestorbene
 #   Völker) hat sich eine Kombination aus englischer und deutscher
 #   Wikipedia als nützlich erwiesen.
+#
+# - Bei Auflistungen sind Unicode-Zeichen zu verwenden. Die erste Ebene
+#   nutzt • (U+2022 BULLET), die Zweite ‒ (U+2012 FIGURE DASH), und die
+#   Dritte ‣ (U+2023 TRIANGULAR BULLET). Ebenen erkennt man an den vorangehenden
+#   Leerzeichen im zu übersetzenden Text.
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-28 00:42+0200\n"
+"PO-Revision-Date: 2015-06-28 11:00+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -6451,37 +6458,38 @@ msgstr[1] "Bewässerung: +%1 Nahrung in %2 Runden"
 #: client/gui-qt/helpdlg.cpp:861
 msgid "Irrigation: %1 in %2 turn"
 msgid_plural "Irrigation: %1 in %2 turns"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bewässerung: %1 in %2 Runde"
+msgstr[1] "Bewässerung: %1 in %2 Runden"
 
 #: client/gui-qt/helpdlg.cpp:873
 msgid "Mining: +%1 shields in %2 turn"
 msgid_plural "Mining: +%1 shields in %2 turns"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bergbau: +%1 Schilde in %2 Runde"
+msgstr[1] "Bergbau: +%1 Schilde in %2 Runden"
 
 #: client/gui-qt/helpdlg.cpp:883
 msgid "Mining: %1 in %2 turn"
 msgid_plural "Mining: %1 in %2 turns"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bergbau: %1 in %2 Runde"
+msgstr[1] "Bergbau: %1 in %2 Runden"
 
 #: client/gui-qt/helpdlg.cpp:896
-#, fuzzy
 msgid "Transform: %1 in %2 turn"
 msgid_plural "Transform: %1 in %2 turns"
-msgstr[0] "Zu %s verändern"
-msgstr[1] "Zu %s verändern"
+msgstr[0] "Geländeänderung: %1 in %2 Runde"
+msgstr[1] "Geländeänderung: %1 in %2 Runden"
 
 #. TRANS: %1 food, %2 shields, %3 trade
 #: client/gui-qt/helpdlg.cpp:917
 msgid "Tile output becomes %1, %2, %3."
-msgstr ""
+msgstr "Erträge des Feldes verändern sich zu %1, %2, %3."
 
 #. TRANS: Tooltip decorating strings like "1, 2, 3".
 #: client/gui-qt/helpdlg.cpp:922
 msgid "Output (Food, Shields, Trade) of a tile where the resource is present."
 msgstr ""
+"Erträge (Nahrung, Produktion, Handel) eines Feldes, auf welchem die "
+"Ressource sich befindet."
 
 #: client/gui-qt/mapview.cpp:1136
 #, fuzzy
@@ -6514,7 +6522,7 @@ msgstr "%s von %s"
 
 #: client/gui-qt/menu.cpp:120
 msgid "Roger that"
-msgstr ""
+msgstr "Roger"
 
 #: client/gui-qt/menu.cpp:198 client/gui-xaw/menu.c:133
 msgid "Revolution..."
@@ -6536,12 +6544,10 @@ msgid "Server Options"
 msgstr "Serveroptionen"
 
 #: client/gui-qt/menu.cpp:425 client/gui-qt/menu.cpp:1993
-#, fuzzy
 msgid "Save Game As..."
-msgstr "Spiel speichern _als..."
+msgstr "Spiel speichern als..."
 
 #: client/gui-qt/menu.cpp:430
-#, fuzzy
 msgid "Leave game"
 msgstr "Spiel verlassen"
 
@@ -6561,14 +6567,12 @@ msgid "Fullscreen"
 msgstr "Vollbildmodus"
 
 #: client/gui-qt/menu.cpp:449
-#, fuzzy
 msgid "Minimap"
-msgstr "Minimum:"
+msgstr "Minikarte"
 
 #: client/gui-qt/menu.cpp:464
-#, fuzzy
 msgid "City Outlines"
-msgstr "_Stadtgrenzen"
+msgstr "Stadtgrenzen"
 
 #: client/gui-qt/menu.cpp:474 client/gui-xaw/menu.c:142
 msgid "Map Grid"
@@ -6592,34 +6596,28 @@ msgid "City Production Levels"
 msgstr "Stadtproduktion"
 
 #: client/gui-qt/menu.cpp:507
-#, fuzzy
 msgid "City Traderoutes"
-msgstr "_Handelswege"
+msgstr "Handelswege"
 
 #: client/gui-qt/menu.cpp:515
-#, fuzzy
 msgid "Single Unit (Unselect Others)"
-msgstr "Ei_nzelne Einheit (andere abwählen)"
+msgstr "Einzelne Einheit (andere abwählen)"
 
 #: client/gui-qt/menu.cpp:519
-#, fuzzy
 msgid "All On Tile"
-msgstr "Alle a_uf diesem Feld"
+msgstr "Alle auf diesem Feld"
 
 #: client/gui-qt/menu.cpp:524
-#, fuzzy
 msgid "Same Type on Tile"
-msgstr "Alle dieses _Typs auf dem Feld"
+msgstr "Alle dieses Typs auf dem Feld"
 
 #: client/gui-qt/menu.cpp:528
-#, fuzzy
 msgid "Same Type on Continent"
-msgstr "Alle dieses Typs auf dem _Kontinent"
+msgstr "Alle dieses Typs auf dem Kontinent"
 
 #: client/gui-qt/menu.cpp:533
-#, fuzzy
 msgid "Same Type Everywhere"
-msgstr "Alle dieses T_yps überall"
+msgstr "Alle dieses Typs überall"
 
 #: client/gui-qt/menu.cpp:544 client/gui-sdl/menu.c:414
 #: client/gui-xaw/menu.c:214
@@ -6631,15 +6629,13 @@ msgid "Done"
 msgstr "Fertig"
 
 #: client/gui-qt/menu.cpp:555
-#, fuzzy
 msgid "Units Filter"
-msgstr "Anzeige der Einheiten"
+msgstr "Einheitenfilter"
 
 #. TRANS: Any activity for given selection of units
 #: client/gui-qt/menu.cpp:557
-#, fuzzy
 msgid "Any activity"
-msgstr "Tätigkeit: %s"
+msgstr "Jegliche Tätigkeit"
 
 #: client/gui-qt/menu.cpp:564 common/unit.c:758
 msgid "Idle"
@@ -6650,22 +6646,20 @@ msgid "Fortified"
 msgstr "Befestigt"
 
 #: client/gui-qt/menu.cpp:578
-#, fuzzy
 msgid "Sentried"
-msgstr "Alle Wartenden Bewachen"
+msgstr "Bewachend"
 
 #: client/gui-qt/menu.cpp:586
-#, fuzzy
 msgid "Any unit"
-msgstr "Stellung halten"
+msgstr "Jede Einheit"
 
 #: client/gui-qt/menu.cpp:593
 msgid "Full HP"
-msgstr ""
+msgstr "Volle TP"
 
 #: client/gui-qt/menu.cpp:600
 msgid "Full MP"
-msgstr ""
+msgstr "Volle BP"
 
 #: client/gui-qt/menu.cpp:610 client/gui-sdl/menu.c:527
 #: client/gui-xaw/menu.c:202
@@ -6673,7 +6667,6 @@ msgid "Go to Tile"
 msgstr "Gehe nach Feld"
 
 #: client/gui-qt/menu.cpp:614
-#, fuzzy
 msgid "Go to Nearest City"
 msgstr "Rückkehr zur nächsten Stadt"
 
@@ -6708,9 +6701,8 @@ msgid "Upgrade"
 msgstr "Modernisieren"
 
 #: client/gui-qt/menu.cpp:663 common/unit.c:786
-#, fuzzy
 msgid "Convert"
-msgstr "_Konvertieren"
+msgstr "Konvertieren"
 
 #: client/gui-qt/menu.cpp:667 client/gui-sdl/dialogs.c:912
 msgid "Disband"
@@ -6728,14 +6720,12 @@ msgid "Pillage"
 msgstr "Brandschatzen"
 
 #: client/gui-qt/menu.cpp:687
-#, fuzzy
 msgid "Diplomat/Spy actions"
 msgstr "Aktionen von Diplomaten/Spionen"
 
 #: client/gui-qt/menu.cpp:693
-#, fuzzy
 msgid "Work"
-msgstr "_Arbeit"
+msgstr "Arbeit"
 
 #: client/gui-qt/menu.cpp:694 client/gui-qt/menu.cpp:1089
 #: client/gui-sdl/mapctrl.c:2602 client/gui-sdl/menu.c:895
@@ -6744,9 +6734,8 @@ msgid "Build City"
 msgstr "Stadt gründen"
 
 #: client/gui-qt/menu.cpp:698
-#, fuzzy
 msgid "Go And Build City"
-msgstr "_Gehe nach und gründe Stadt"
+msgstr "Gehe nach und gründe Stadt"
 
 #: client/gui-qt/menu.cpp:702 client/gui-sdl/menu.c:617
 #: client/gui-sdl/menu.c:1315 client/gui-xaw/menu.c:195
@@ -6774,7 +6763,6 @@ msgid "Connect With Road"
 msgstr "Verbinden/Straße"
 
 #: client/gui-qt/menu.cpp:724
-#, fuzzy
 msgid "Connect With Railroad"
 msgstr "Verbinden/Eisenbahn"
 
@@ -6799,9 +6787,8 @@ msgid "Clean Nuclear Fallout"
 msgstr "Fallout beseitigen"
 
 #: client/gui-qt/menu.cpp:751
-#, fuzzy
 msgid "Civilization"
-msgstr "Zi_vilisation"
+msgstr "Zivilisation"
 
 #: client/gui-qt/menu.cpp:752 client/gui-xaw/menu.c:128
 msgid "Tax Rates..."
@@ -6822,9 +6809,8 @@ msgstr "Raumschiff"
 
 #: client/gui-qt/menu.cpp:1022 client/gui-qt/menu.cpp:1041
 #: client/gui-qt/menu.cpp:1069
-#, fuzzy
 msgid "Transform to %1"
-msgstr "Zu %s verändern"
+msgstr "Zu %1 verändern"
 
 #: client/gui-qt/menu.cpp:1049 client/gui-xaw/menu.c:172
 msgid "Build Farmland"
@@ -6836,9 +6822,8 @@ msgid "Drop Paratrooper"
 msgstr "Fallschirmspringer abwerfen"
 
 #: client/gui-qt/menu.cpp:1990
-#, fuzzy
 msgid "Save Games"
-msgstr "Spiel speichern"
+msgstr "Spiele speichern"
 
 #: client/gui-qt/optiondlg.cpp:79 client/gui-qt/pages.cpp:332
 #: data/Freeciv.in:1671 data/Freeciv.in:1818 data/Freeciv.in:1977
@@ -6846,52 +6831,46 @@ msgid "Refresh"
 msgstr "Neu laden"
 
 #: client/gui-qt/optiondlg.cpp:85
-#, fuzzy
 msgid "Apply"
-msgstr "Testen"
+msgstr "Anwenden"
 
 #. TRANS: "version 2.6.0, Qt client"
 #: client/gui-qt/pages.cpp:113
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s, Qt client"
-msgstr "%s%s, %s-Klient."
+msgstr "%s%s, Qt-Klient."
 
 #. TRANS: "commit: [modified] <git commit id>"
 #: client/gui-qt/pages.cpp:123 tools/mpcli.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "commit: %s"
-msgstr "Einheit: %s"
+msgstr "Commit: %s"
 
 #: client/gui-qt/pages.cpp:128
-#, fuzzy
 msgid "Qt client"
-msgstr "%s%s, %s-Klient."
+msgstr "Qt-Klient."
 
 #. TRANS: "version 2.6.0 (r25000), Qt client"
 #: client/gui-qt/pages.cpp:132
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s (%s), Qt client"
-msgstr "%s%s, %s-Klient."
+msgstr "%s%s (%s), Qt-Klient."
 
 #: client/gui-qt/pages.cpp:151
-#, fuzzy
 msgid "Start new game"
 msgstr "Neues Spiel beginnen"
 
 #: client/gui-qt/pages.cpp:151
-#, fuzzy
 msgid "Start scenario game"
-msgstr "_Szenariospiel beginnen"
+msgstr "Szenariospiel beginnen"
 
 #: client/gui-qt/pages.cpp:152
-#, fuzzy
 msgid "Load saved game"
-msgstr "Gespeichertes Spiel aus DATEI laden"
+msgstr "Gespeichertes Spiel laden"
 
 #: client/gui-qt/pages.cpp:152
-#, fuzzy
 msgid "Connect to network game"
-msgstr "Mit Netzwerkspiel _verbinden"
+msgstr "Mit Netzwerkspiel verbinden"
 
 #: client/gui-qt/pages.cpp:316 client/gui-qt/pages.cpp:343
 #: client/gui-sdl/connectdlg.c:626 client/gui-xaw/connectdlg.c:326
@@ -6900,49 +6879,44 @@ msgid "Connect"
 msgstr "Verbinden"
 
 #: client/gui-qt/pages.cpp:316
-#, fuzzy
 msgid "Login"
-msgstr "Name:"
+msgstr "Nutzername:"
 
 #: client/gui-qt/pages.cpp:317 data/Freeciv.in:105
 msgid "Password"
 msgstr "Passwort"
 
 #: client/gui-qt/pages.cpp:317
-#, fuzzy
 msgid "Confirm Password"
-msgstr "Passwort _wiederholen:"
+msgstr "Passwort wiederholen:"
 
 #: client/gui-qt/pages.cpp:352
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
 #: client/gui-qt/pages.cpp:353
 msgid "NETWORK"
-msgstr ""
+msgstr "NETZWERK"
 
 #: client/gui-qt/pages.cpp:401
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #: client/gui-qt/pages.cpp:500
-#, fuzzy
 msgid "Load Scenario"
-msgstr "Szenario speichern"
+msgstr "Szenario laden"
 
 #: client/gui-qt/pages.cpp:520
-#, fuzzy
 msgid "Leader"
 msgstr "Anführer:"
 
 #: client/gui-qt/pages.cpp:537
-#, fuzzy
 msgid "More Game Options"
-msgstr "Weitere Spiel_optionen..."
+msgstr "Weitere Spieloptionen..."
 
 #: client/gui-qt/pages.cpp:544 client/gui-xaw/menu.c:122 data/Freeciv.in:3226
 msgid "Disconnect"
-msgstr "Verbindung zum Server trennen"
+msgstr "Verbindung trennen"
 
 #: client/gui-qt/pages.cpp:562 client/gui-sdl/chatline.c:800
 #: data/Freeciv.in:3444
@@ -6950,24 +6924,20 @@ msgid "Start"
 msgstr "Start"
 
 #: client/gui-qt/pages.cpp:664
-#, fuzzy
 msgid "Save Files"
-msgstr "Spieler speichern"
+msgstr "Spielstände"
 
 #: client/gui-qt/pages.cpp:667
-#, fuzzy
 msgid "Open Save File"
-msgstr "_Speichere Datei:"
+msgstr "Spielstand laden"
 
 #: client/gui-qt/pages.cpp:680
-#, fuzzy
 msgid "Scenarios Files"
-msgstr "Szenarienname"
+msgstr "Szenarien"
 
 #: client/gui-qt/pages.cpp:683
-#, fuzzy
 msgid "Open Scenario File"
-msgstr "Szenarienname"
+msgstr "Szenario laden"
 
 #: client/gui-qt/pages.cpp:1242 client/gui-qt/voteinfo_bar.cpp:36
 #: client/gui-sdl/citydlg.c:1208 client/gui-sdl/cma_fe.c:344
@@ -7002,34 +6972,28 @@ msgid "No"
 msgstr "Nein"
 
 #: client/gui-qt/pages.cpp:1292
-#, fuzzy
 msgid "Global observers"
-msgstr "Globaler Beobachter"
+msgstr "Globale Beobachter"
 
 #: client/gui-qt/pages.cpp:1447
-#, fuzzy
 msgid "Set difficulty"
-msgstr ", Schwierigkeitsgrad %s"
+msgstr "Schwierigkeitsgrad festlegen"
 
 #: client/gui-qt/pages.cpp:1470
-#, fuzzy
 msgid "Put on team"
-msgstr "Zu %s hinzugefügt"
+msgstr "Zum Team hinzufügen"
 
 #: client/gui-qt/plrdlg.cpp:462
-#, fuzzy
 msgid "<b>Techs unknown by %1:</b>"
-msgstr "unbekannt"
+msgstr "<b>%1 unbekannte Technologien:</b>"
 
 #: client/gui-qt/plrdlg.cpp:464
-#, fuzzy
 msgid "<b>Techs unknown by you :</b>"
-msgstr "unbekannt"
+msgstr "<b>Ihnen unbekannte Technologien :</b>"
 
 #: client/gui-qt/plrdlg.cpp:504
-#, fuzzy
 msgid "<b>Techs known by %1:</b>"
-msgstr "unbekannt"
+msgstr "<b>%1 bekannte Technologien:</b>"
 
 #: client/gui-qt/plrdlg.cpp:563 data/Freeciv.in:3286
 msgid "Meet"
@@ -7040,19 +7004,16 @@ msgid "Cancel Treaty"
 msgstr "Abkommen aufkündigen"
 
 #: client/gui-qt/plrdlg.cpp:567
-#, fuzzy
 msgid "Withdraw Vision"
-msgstr "Karteneinsicht _verbieten"
+msgstr "Karteneinsicht verbieten"
 
 #: client/gui-qt/ratesdlg.cpp:62
-#, fuzzy
 msgid "%1 - max rate: %2%"
-msgstr "%s Maximum: %d%%"
+msgstr "%1 — Maximum: %2%"
 
 #: client/gui-qt/repodlgs.cpp:449
-#, fuzzy
 msgid "Find Nearest"
-msgstr "_Finde nächste"
+msgstr "Finde nächste"
 
 #: client/gui-qt/repodlgs.cpp:1086
 #, fuzzy
@@ -7066,11 +7027,11 @@ msgstr "Start"
 
 #: client/gui-qt/voteinfo_bar.cpp:38
 msgid "Abstain"
-msgstr ""
+msgstr "Enthalten"
 
 #: client/gui-qt/voteinfo_bar.cpp:145
 msgid "<b>%1 called a vote for:</b>"
-msgstr ""
+msgstr "<b>%1 rief zur Abstimmung auf über:</b>"
 
 # MG: Kann "Dein/Ihr" nicht beugen, weil keine Information zu gr. Geschlecht von %s vorhanden ist.
 #: client/gui-sdl/caravan_dialog.c:140
@@ -7136,9 +7097,8 @@ msgid "Upgrade unit"
 msgstr "Einheit modernisieren"
 
 #: client/gui-sdl/citydlg.c:715 client/gui-sdl/mapview.c:786
-#, fuzzy
 msgid "?homecity:None"
-msgstr "Name"
+msgstr "Keine"
 
 #: client/gui-sdl/citydlg.c:939
 msgid ""
@@ -7569,9 +7529,8 @@ msgid "What nation will you be?"
 msgstr "Welche Nation nimmst du?"
 
 #: client/gui-sdl/dialogs.c:3342
-#, fuzzy
 msgid "Nationset"
-msgstr "Nationen"
+msgstr "Nationensatz"
 
 #: client/gui-sdl/diplodlg.c:568
 msgid "World map"
@@ -7754,7 +7713,6 @@ msgid "Help : Improvements"
 msgstr "Hilfe : Stadterweiterungen"
 
 #: client/gui-sdl/helpdlg.c:376 tools/civmanual.c:453
-#, fuzzy
 msgid "?req:None"
 msgstr "Nichts"
 
@@ -7797,7 +7755,7 @@ msgstr[1] "Gold"
 
 #: client/gui-sdl/helpdlg.c:835
 msgid "?utype:None"
-msgstr ""
+msgstr "Keiner"
 
 #: client/gui-sdl/helpdlg.c:1019
 msgid "( with "
@@ -7930,9 +7888,8 @@ msgid "The SDL event buffer is full; you may see drawing errors as a result."
 msgstr "The SDL event buffer is full; you may see drawing errors as a result."
 
 #: client/gui-sdl/mapview.c:317
-#, fuzzy
 msgid "?gov:None"
-msgstr "Nichts"
+msgstr "Keine"
 
 #: client/gui-sdl/mapview.c:412
 #, c-format
@@ -7993,10 +7950,10 @@ msgid_plural ""
 "%s territory (%d turn armistice)"
 msgstr[0] ""
 "\n"
-"%ses Gebiet (%d Runde Feuerpause)"
+"%ses Gebiet (%d Runde Waffenstillstand)"
 msgstr[1] ""
 "\n"
-"%ses Gebiet (%d Runden Feuerpause)"
+"%ses Gebiet (%d Runden Waffenstillstand)"
 
 #: client/gui-sdl/mapview.c:589
 #, c-format
@@ -8005,7 +7962,7 @@ msgid ""
 "Territory of the %s %s"
 msgstr ""
 "\n"
-"Gebiet der %2$s, %1$s"
+"Territorium der %2$s, %1$s"
 
 #: client/gui-sdl/mapview.c:594
 msgid ""
@@ -8260,21 +8217,21 @@ msgstr "Neue Arbeitsliste"
 
 #. TRANS: Freeciv 2.4.0
 #: client/gui-sdl/pages.c:156
-#, fuzzy, c-format
+#, c-format
 msgid "Freeciv %s"
-msgstr "Freeciv"
+msgstr "Freeciv %s"
 
 #. TRANS: Freeciv 2.4.0 (r25000)
 #: client/gui-sdl/pages.c:159
-#, fuzzy, c-format
+#, c-format
 msgid "Freeciv %s (%s)"
 msgstr "Freeciv Version %s (%s)"
 
 #. TRANS: gui-sdl client
 #: client/gui-sdl/pages.c:175
-#, fuzzy, c-format
+#, c-format
 msgid "%s client"
-msgstr "%s%s, %s-Klient."
+msgstr "%s-Klient."
 
 #: client/gui-sdl/pages.c:189
 msgid "Start New Game"
@@ -8297,9 +8254,9 @@ msgid "SDLClient welcomes you..."
 msgstr "SDLClient heißt Dich willkommen ..."
 
 #: client/gui-sdl/pages.c:333 client/gui-xaw/gui_main.c:529
-#, fuzzy, c-format
+#, c-format
 msgid "Commit: %s"
-msgstr "Stadt: %s"
+msgstr "Commit: %s"
 
 #. TRANS: Dead -- Rest In Peace -- Reqia In Pace
 #: client/gui-sdl/plrdlg.c:429 client/plrdlg_common.c:179
@@ -8863,7 +8820,7 @@ msgstr "Konflikt mit: "
 #: client/gui-xaw/helpdlg.c:1135
 #, c-format
 msgid "Bonus (F/P/T): %s\n"
-msgstr ""
+msgstr "Bonus (N/P/H): %s\n"
 
 #: client/gui-xaw/inteldlg.c:207 client/gui-xaw/inteldlg.c:450
 #, c-format
@@ -10012,7 +9969,7 @@ msgstr ""
 
 #: client/helpdata.c:2357
 msgid "  * May fortify to stay put.\n"
-msgstr ""
+msgstr "  ‒ Kann sich eingraben um sich zu schützen.\n"
 
 #: client/helpdata.c:2362
 msgid "  * Is unreachable. Most units cannot attack this one.\n"
@@ -10029,15 +9986,12 @@ msgstr ""
 "besetzten Feld fortzusetzen.\n"
 
 #: client/helpdata.c:2375
-#, fuzzy
 msgid "  * Can attack units on non-native tiles.\n"
-msgstr ""
-"• Kann nur Einheiten auf Ozeanfeldern angreifen (keine Landangriffe).\n"
+msgstr "  ‒ Kann Einheiten auf nicht-nativen Feldern angreifen.\n"
 
 #: client/helpdata.c:2381
-#, fuzzy
 msgid "  * Can launch attack from non-native tiles.\n"
-msgstr "%s kann keinen Angriff von einem %s-Feld aus starten."
+msgstr "  ‒ Kann von einem nicht-nativen Feld aus angreifen.\n"
 
 #: client/helpdata.c:2386
 #, c-format
@@ -10672,7 +10626,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Die Bauzeit und der Ressourcenbonus hängen vom Gelände ab:\n"
+"Die Bauzeit und der Ertragsbonus hängen vom Gelände ab:\n"
 "\n"
 
 #. TRANS: Header for fixed-width road properties table.
@@ -10694,7 +10648,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Erzeugt einen Ressourcenbonus auf bestimmtem Gelände:\n"
+"Erzeugt einen Ertragsbonus auf bestimmtem Gelände:\n"
 "\n"
 
 #: client/helpdata.c:3569
@@ -13676,28 +13630,28 @@ msgstr "Kann die Skriptdatei '%s' nicht lesen."
 #, c-format
 msgid ""
 "Missing %s building activity sprite for tags \"%s\" and alternative \"%s\"."
-msgstr ""
+msgstr "Grafik für Bauaktivität %s für Tags „%s“ und Alternative „%s“ fehlt."
 
 #: client/tilespec.c:3206
 #, c-format
 msgid "No graphics for base \"%s\" at all!"
-msgstr ""
+msgstr "Überhaupt keine Grafiken für Basis „%s“!"
 
 #: client/tilespec.c:3240
 #, c-format
 msgid "Terrain \"%s\": no graphic tile \"%s\" or \"%s\"."
-msgstr ""
+msgstr "Gelände „%s“: Keine Grafik für Feld „%s“ oder „%s“."
 
 #. TRANS: 'base' means 'base of terrain gfx', not 'military base'
 #: client/tilespec.c:3275
-#, fuzzy, c-format
+#, c-format
 msgid "Missing base sprite for tag \"%s\"."
-msgstr "Unvollständige Eingabe ('%s').\n"
+msgstr "Zugrundeliegende Grafik für Tag „%s“ fehlt."
 
 #: client/tilespec.c:3535
 #, c-format
 msgid "Nation %s: no national flag."
-msgstr ""
+msgstr "Nation %s: Keine Nationalflagge."
 
 # MG: TECHNICAL
 #: client/tilespec.c:4724
@@ -13722,17 +13676,17 @@ msgstr ""
 #: client/tilespec.c:5167
 #, c-format
 msgid "City style \"%s\": no city graphics."
-msgstr ""
+msgstr "Stadtstil „%s“: Keine Stadtgrafiken."
 
 #: client/tilespec.c:5171
 #, c-format
 msgid "City style \"%s\": no wall graphics."
-msgstr ""
+msgstr "Stadtstil „%s“: Keine Mauergrafiken."
 
 #: client/tilespec.c:5175
 #, c-format
 msgid "City style \"%s\": no occupied graphics."
-msgstr ""
+msgstr "Stadtstil „%s“: Keine Grafiken für Besetzung."
 
 # MG: TECHNICAL
 #: common/ai.c:300
@@ -14979,19 +14933,19 @@ msgstr "KannFlussHaben"
 
 #: common/terrain.h:132
 msgid "UnsafeCoast"
-msgstr ""
+msgstr "UnsichereKüste"
 
 #: common/terrain.h:135
 msgid "FreshWater"
-msgstr ""
+msgstr "Trinkwasser"
 
 #: common/terrain.h:138
 msgid "NotGenerated"
-msgstr ""
+msgstr "NichtGeneriert"
 
 #: common/unit.c:766
 msgid "Fortifying"
-msgstr "beim befestigen"
+msgstr "beim Befestigen"
 
 #: common/unit.c:774 data/Freeciv.in:1141
 msgid "Goto"
@@ -15168,7 +15122,7 @@ msgstr "Städte"
 
 #: common/unittype.h:173
 msgid "?unitflag:Only_Native_Attack"
-msgstr ""
+msgstr "Nur_nativer_Angriff"
 
 #: common/unittype.h:176
 #, fuzzy
@@ -15232,7 +15186,7 @@ msgstr "Große Landeinheit"
 
 #: common/unittype.h:213
 msgid "?unitflag:BadWallAttacker"
-msgstr ""
+msgstr "SchlechtBeiStadtmauerAngriff"
 
 #: common/unittype.h:216
 #, fuzzy
@@ -15291,7 +15245,7 @@ msgstr "Verteidigung:"
 
 #: common/unittype.h:295
 msgid "?unitflag:DefendGood"
-msgstr ""
+msgstr "GuteVerteidigung"
 
 #: common/unittype.h:298
 #, fuzzy
@@ -21490,27 +21444,24 @@ msgid "BCE"
 msgstr "v.u.Z."
 
 #: data/classic/game.ruleset:258 data/civ2civ3/game.ruleset:278
-#, fuzzy
 msgid "Nuclear Accident"
-msgstr "Nuklearer Winter"
+msgstr "Nuklearer GAU"
 
 #: data/classic/script.lua:69 data/civ2civ3/script.lua:69
-#, fuzzy
 msgid "Highest Peak"
-msgstr "Hohepriester %s"
+msgstr "Höchster Gipfel"
 
 #: data/classic/script.lua:74 data/civ2civ3/script.lua:74
-#, fuzzy
 msgid "Deep Trench"
-msgstr "Tiefsee"
+msgstr "Tiefer Graben"
 
 #: data/classic/script.lua:79 data/civ2civ3/script.lua:79
 msgid "Scorched Spot"
-msgstr ""
+msgstr "Versengtes Land"
 
 #: data/classic/script.lua:84 data/civ2civ3/script.lua:84
 msgid "Frozen Lake"
-msgstr ""
+msgstr "Zugefrorener See"
 
 #: data/classic/techs.ruleset:225 data/experimental/techs.ruleset:243
 #: data/multiplayer/techs.ruleset:225
@@ -21669,12 +21620,16 @@ msgid ""
 "Settlers are one of the key units in the game, as they are your main means "
 "of founding new cities."
 msgstr ""
+"Siedler sind eine der Schlüsseleinheiten im Spiel, denn sie stellen Ihr "
+"Hauptwerkzeug zur Gründung neuer Städte da."
 
 #: data/classic/units.ruleset:413 data/experimental/units.ruleset:427
 #: data/civ2civ3/units.ruleset:436 data/multiplayer/units.ruleset:413
 msgid ""
 "Settlers can also perform some of the same terrain alterations as Workers."
 msgstr ""
+"Siedler können außerdem einige der Arbeiten ausführen, die eigentlich "
+"Arbeitern zugedacht sind."
 
 #: data/classic/units.ruleset:423 data/experimental/units.ruleset:437
 #: data/civ2civ3/units.ruleset:484 data/multiplayer/units.ruleset:424
@@ -21683,11 +21638,10 @@ msgstr "Arbeiter"
 
 #: data/classic/units.ruleset:455 data/experimental/units.ruleset:474
 #: data/civ2civ3/units.ruleset:516 data/multiplayer/units.ruleset:456
-#, fuzzy
 msgid "Workers have the ability to improve terrain tiles."
 msgstr ""
-"Siedler, Arbeiter und Ingenieure sind in der Lage, Geländeformen auf "
-"verschiedenste Weisen zu verändern."
+"Arbeiter sind in der Lage, Geländefelder auf unterschiedliche Weise zu "
+"verbessern."
 
 #: data/classic/units.ruleset:457 data/experimental/units.ruleset:476
 #: data/multiplayer/units.ruleset:458
@@ -21705,17 +21659,18 @@ msgstr ""
 "voller Breite (und nicht nur an einer Ecke) angrenzendes Nachbarfeld ist ein "
 "Ozean-, ein See- oder ein Flussfeld oder besitzt bereits ein "
 "Bewässerungssystem. Ist die Bewässerung einmal eingerichtet, bleibt sie auch "
-"dann bestehen, wenn die ursprüngliche Wasserquelle entfernt wird.\n"
-"\n"
-"Bewässerung hilft, eine größere Menge Nahrung zu erzeugen. Entsprechende "
-"Kenntnisse vorausgesetzt, kann durch eine Verbesserung des "
-"Bewässerungssystems noch produktiveres Ackerland geschaffen werden."
+"dann bestehen, wenn die ursprüngliche Wasserquelle entfernt wird. Wenn Ihre "
+"Nation die Kühltechnik erforscht hat, können Bewässerungssysteme durch "
+"erneute Bewässerung in Ackerland verwandelt werden, welches einer Stadt mit "
+"Supermarkt zusätzliche Nahrung zur Verfügung stellt.\n"
 
 #: data/classic/units.ruleset:476 data/experimental/units.ruleset:495
 msgid ""
 "Workers can build airbases and buoys, which Settlers cannot. Workers must be "
 "on board a ship to build buoys."
 msgstr ""
+"Arbeiter können im Gegensatz zu Siedlern Fliegerhorste und Bojen errichten. "
+"Für letzteres müssen sie sich an Bord eines Schiffes befinden."
 
 #: data/classic/units.ruleset:517 data/experimental/units.ruleset:541
 #: data/multiplayer/units.ruleset:517
@@ -21729,9 +21684,11 @@ msgid ""
 "See the Terrain Alterations section for more details."
 msgstr ""
 "Ingenieure sind Arbeitern sehr ähnlich, arbeiten aber doppelt so schnell und "
-"können sich doppelt so schnell bewegen. Außerdem sind sie im Gegensatz zu "
-"Siedlern dazu fähig, Geländeformen zu verändern (z.B. Tundra in Wüste, siehe "
-"den Abschnitt über Geländeveränderungen für mehr Informationen)."
+"können sich doppelt so schnell bewegen. Außerdem sind sie dazu fähig, mehr "
+"Geländeformen zu verändern als Siedler und Arbeiter, z. B. Tundra in Wüste "
+"oder unter gewissen Umständen gar Ozean in Sumpf  (wenn an Bord eines "
+"Schiffs, auf einem von ausreichend vorhandenem Land umgebenen Feld). Siehe "
+"den Abschnitt über Geländeveränderungen für weitere Informationen."
 
 #: data/classic/units.ruleset:525 data/experimental/units.ruleset:549
 #: data/multiplayer/units.ruleset:525
@@ -21993,7 +21950,6 @@ msgid "Experimental ruleset"
 msgstr "Experimenteller Regelsatz"
 
 #: data/experimental/game.ruleset:24
-#, fuzzy
 msgid ""
 "You are playing with the experimental ruleset. This showcases new or unusual "
 "features available in Freeciv without regard for strict game balancing or "
@@ -22003,8 +21959,8 @@ msgstr ""
 "Sie spielen Freeciv mit dem experimentellen Regelwerk. Es enthält neue oder "
 "auch ungewöhnliche Features in Freeciv, die nichts mehr mit ausgewogenem "
 "Spiel oder auch nur Spielbarkeit zu tun haben müssen. Eine Beschreibung der "
-"Unterschiede vom Standardregelwerk finden Sie in der Datei »README."
-"ruleset_experimental«."
+"Unterschiede vom klassischen Regelwerk finden Sie in der Datei „README."
+"ruleset_experimental“."
 
 #: data/experimental/governments.ruleset:77
 msgid "Under Anarchy, technology cannot be lost due to lack of upkeep."
@@ -22013,11 +21969,11 @@ msgstr ""
 "Sie den Unterhalt nicht bestreiten können."
 
 #: data/experimental/techs.ruleset:776
-#, fuzzy
 msgid ""
 "Allows Settlers, Workers and Engineers to upgrade railroads with maglev."
 msgstr ""
-"Erlaubt es Siedlern, Arbeitern und Ingenieuren, Festungen zu errichten."
+"Erlaubt es Siedlern, Arbeitern und Ingenieuren, Eisenbahntrassen zum "
+"Transrapid aufzurüsten."
 
 #: data/experimental/terrain.ruleset:1192
 msgid ""
@@ -22026,16 +21982,24 @@ msgid ""
 "terrain such as Mountains and Forest. On some terrain, roads also provide a "
 "trade bonus."
 msgstr ""
+"Straßen erlauben Ihren Landeinheiten eine schnellere Fortbewegung und "
+"ermöglichen es einigen sperrigen Einheiten wie Katapulten und Lastwagen "
+"überhaupt erst, schwer passierbares Terrain wie Gebirge und Wälder zu "
+"durchqueren. Auf einigen Geländearten erzeugen Straßen zudem einen "
+"Handelsbonus."
 
 #: data/experimental/terrain.ruleset:1228 data/civ2civ3/terrain.ruleset:1282
 msgid ""
 "Once you learn the Railroad technology, you may upgrade your roads to "
 "railroads. Units travel considerably faster along railroads than along roads."
 msgstr ""
+"Mit der Entdeckung der Eisenbahntechnik können Sie Ihre Straßen zu "
+"Eisenbahntrassen modernisieren. Mit dem Zug reisende Einheiten bewegen sich "
+"erheblich schneller als solche, die noch Straßen benutzen müssen."
 
 #: data/experimental/terrain.ruleset:1242
 msgid "Maglev"
-msgstr ""
+msgstr "Transrapid"
 
 #: data/experimental/terrain.ruleset:1264
 msgid ""
@@ -22043,6 +22007,11 @@ msgid ""
 "your railroad routes. Land units expend no movement points when riding a "
 "maglev; you may ride indefinitely. (As may your enemies!)"
 msgstr ""
+"Mit der Kenntnis der erforderlichen Technologie sind Sie in der Lage, Ihre "
+"Eisenbahntrassen mit Magnetschwebetechnik aufzurüsten. Landeinheiten, die "
+"den Transrapid benutzen, büßen keinerlei Bewegungspunkte ein und können "
+"unendlich lange Strecken zurücklegen. Das gilt allerdings auch für Ihre "
+"Gegner."
 
 #: data/experimental/terrain.ruleset:1268
 msgid ""
@@ -22050,24 +22019,27 @@ msgid ""
 "which the maglev system is unsuitable, and they continue to provide "
 "production and trade bonuses."
 msgstr ""
+"Die gewöhnlichen Eisenbahnen werden weiterhin für solche Landeinheiten "
+"eingesetzt, die aufgrund ihrer Größe und ihres Gewichts nicht im Transrapid "
+"transportiert werden können. Sie erzeugen auch weiterhin Produktions- und "
+"Handelsboni."
 
 #: data/experimental/terrain.ruleset:1272
 msgid ""
 "City center tiles with railroads are automatically upgraded to maglev when "
 "you learn about Superconductors."
 msgstr ""
+"Stadtzentrenfelder mit Eisenbahntrassen werden automatisch mit dem "
+"Transrapid ausgestattet, sobald Sie die Supraleiter erforscht haben."
 
 #: data/experimental/terrain.ruleset:1292
-#, fuzzy
 msgid ""
 "Any land terrain type may have a River on it. A River adds 1 trade to the "
 "resources produced by that tile. It also increases a tile's defense factor "
 "by 50%."
 msgstr ""
-"Auf jeder Landgeländeform können Flüsse vorkommen. Ein Fluß gibt einen "
-"zusätzlichen Handelspunkt und erhöht den Verteidigungsfaktor um 50%. "
-"Zusätzlich kostet die (nicht-diagonale) Bewegung von Landeinheiten entlang "
-"eines Flusses nur 1/3 Bewegungspunkt pro Feld."
+"Auf jeder Landgeländeform können Flüsse vorkommen. Ein Fluss gibt einen "
+"zusätzlichen Handelspunkt und erhöht den Verteidigungsfaktor um 50%."
 
 #: data/experimental/terrain.ruleset:1296
 msgid ""
@@ -22076,15 +22048,19 @@ msgid ""
 "through otherwise difficult terrain. Triremes may also travel up rivers "
 "(although later boats cannot)."
 msgstr ""
+"An einem Fluss können Landeinheiten schneller vorankommen (allerdings nicht "
+"diagonal), außerdem können sie von großen und sperrigen Landeinheiten wie "
+"Katapulten und Lastwagen genutzt werden, um schwieriges Gelände zu "
+"überwinden. Triremen können aufgrund des geringen Tiefgangs Flüsse "
+"hinauffahren (spätere Schiffe können das nicht)."
 
 #: data/experimental/terrain.ruleset:1301
-#, fuzzy
 msgid ""
 "Roads, railroads, and maglev can only be built on River tiles if your "
 "civilization has learned Bridge Building technology."
 msgstr ""
-"Straßen und Eisenbahnlinien können auf Flussfeldern nur mit der Kenntnis des "
-"Brückenbaus errichtet werden."
+"Straßen, Eisenbahntrassen und der Transrapid können auf Flussfeldern nur mit "
+"der Kenntnis des Brückenbaus errichtet werden."
 
 #. TRANS: "Big Land" is a unit class, like Land or Sea. Big Land units
 #. TRANS: cannot move into rough terrain. Unit class names are used
@@ -22110,7 +22086,6 @@ msgid "?worker_level:master"
 msgstr "Meister"
 
 #: data/experimental/units.ruleset:785 data/civ2civ3/units.ruleset:884
-#, fuzzy
 msgid ""
 "A number of Partisans are granted free when an enemy conquers your city -- "
 "they automatically assume defensive positions in the surrounding countryside "
@@ -22121,12 +22096,12 @@ msgid ""
 " - You must run either a Democracy or a Communist government."
 msgstr ""
 "Falls eine Ihrer Städte vom Feind erobert wird, werden unter folgenden "
-"Bedingungen Partisanen kostenlos in der näheren Umgebung zur Verfügung "
-"gestellt:\n"
-"- Guerillakrieg ist mindestens einem Spieler bekannt.\n"
-"- Sie müssen der ursprüngliche Gründer der Stadt sein.\n"
-"- Kommunismus und Schießpulver sind Ihnen bekannt.\n"
-"- Ihre Regierungsform ist Demokratie oder Kommunismus."
+"Bedingungen Partisanen kostenlos in der näheren Umgebung in defensiven "
+"Stellungen zur Verfügung gestellt:\n"
+" • Guerillakrieg ist mindestens einem Spieler bekannt.\n"
+" • Mindestens drei Viertel der Einwohner muss Ihrer Nation angehören.\n"
+" • Kommunismus und Schießpulver sind Ihnen bekannt.\n"
+" • Ihre Regierungsform ist Demokratie oder Kommunismus."
 
 #: data/experimental/units.ruleset:917
 msgid ""
@@ -22146,17 +22121,19 @@ msgid ""
 msgstr ""
 "Die Trireme ist Ihre erste See-Einheit. Sie kann als Transportschiff dienen "
 "und hat eine einfache Angriffsstärke, darf sich aber nicht zu weit von der "
-"Küste entfernen."
+"Küste entfernen. Im Gegensatz zu späteren Schiffseinheiten kann sie Flüsse "
+"hinauffahren."
 
 #: data/experimental/units.ruleset:2224
 msgid ""
 "The Freight is twice as fast alternative to the Caravan, but unable to move "
 "at all outside flat terrains and roads."
 msgstr ""
+"Lastwagen sind zwar doppelt so schnell wie die herkömmlichen Karawanen, aber "
+"sie können sich nur auf flachem Gelände oder auf Straßen fortbewegen."
 
 #: data/civ2civ3/buildings.ruleset:103 data/civ2civ3/buildings.ruleset:137
 #: data/civ2civ3/buildings.ruleset:172
-#, fuzzy
 msgid ""
 "Allows a city to grow larger than size 8. (A Sewer System is required for a "
 "city to grow larger than size 16.)"
@@ -22172,6 +22149,10 @@ msgid ""
 "units; however, such large settlements have a small risk of fire, which can "
 "destroy buildings in the city."
 msgstr ""
+"Solche größeren Städte besitzen einerseits einen erhöhten Verteidigungsbonus "
+"von 50% sowohl gegenüber Land- als auch gegenüber Seeeinheiten, andererseits "
+"laufen sie stets ein wenig Gefahr, Opfer eines Stadtbrands zu werden, dem "
+"Gebäude in der Stadt zum Opfer fallen können."
 
 #: data/civ2civ3/buildings.ruleset:114 data/civ2civ3/buildings.ruleset:148
 #: data/civ2civ3/buildings.ruleset:183
@@ -22180,34 +22161,41 @@ msgid ""
 "Starting at size 5, growing cities incur an increasing risk of plague due to "
 "overcrowding; an Aqueduct reduces that base chance by 30%."
 msgstr ""
+"Ab einer Größe von 5 können in aufstrebenden Städten zunehmend Seuchen "
+"auftreten. Ein Aquädukt reduziert die Seuchengefahr um 30%."
 
 #: data/civ2civ3/buildings.ruleset:117
 msgid ""
 "Building an Aqueduct in a city without access to a lake or river requires "
 "knowledge of Construction, and it costs more to build and maintain."
 msgstr ""
+"Befindet sich die Stadt nicht an einem See oder Fluss, so erfordert die "
+"Errichtung eines Aquädukts die Kenntnis der Konstruktion und sein Unterhalt "
+"mehr Aufwand als üblich."
 
 #: data/civ2civ3/buildings.ruleset:123
-#, fuzzy
 msgid "Aqueduct, Lake"
-msgstr "Aquädukt"
+msgstr "Aquädukt am See"
 
 #: data/civ2civ3/buildings.ruleset:151
 msgid ""
 "Aqueducts in cities with access to a lake require no special technology and "
 "are cheap to build and maintain."
 msgstr ""
+"Aquädukte in an Seen gelegenen Städten erfordern keine besonderen Kenntnisse "
+"und sind kostengünstig zu errichten und zu unterhalten."
 
 #: data/civ2civ3/buildings.ruleset:157
-#, fuzzy
 msgid "Aqueduct, River"
-msgstr "Aquädukt"
+msgstr "Aquädukt am Fluss"
 
 #: data/civ2civ3/buildings.ruleset:186
 msgid ""
 "Aqueducts in cities with access to a river require no special technology and "
 "are cheap to build and maintain."
 msgstr ""
+"Aquädukte in an Flüssen gelegenen Städten erfordern keine besonderen "
+"Kenntnisse und sind kostengünstig zu errichten und zu unterhalten."
 
 #: data/civ2civ3/buildings.ruleset:208
 #, fuzzy, no-c-format
