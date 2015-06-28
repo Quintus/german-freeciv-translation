@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-28 14:12+0200\n"
+"PO-Revision-Date: 2015-06-28 15:32+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -34468,9 +34468,11 @@ msgstr ""
 "%s."
 
 #: server/gamehand.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "Didn't find optimal solution for team placement in %d iterations."
-msgstr "Es gibt keinen Weg zu diesem Ziel!"
+msgstr ""
+"Konnte in %d Durchläufen keine optimale Lösung für die Teamplatzierung "
+"finden."
 
 #: server/gamehand.c:824
 #, c-format
@@ -34507,12 +34509,12 @@ msgstr "Kartengenerator 3 hat %li Land nicht plaziert."
 #: server/generator/mapgen_topology.c:245
 #, c-format
 msgid "Creating a map of size %d x %d = %d tiles (%d requested)."
-msgstr ""
+msgstr "Erstelle eine Karte der Größe %d ✕ %d = %d Felder (%d angefordert)."
 
 #: server/generator/mapgen_topology.c:301
 #, c-format
 msgid "Creating a map of size %d x %d = %d tiles (map size: %d)."
-msgstr ""
+msgstr "Erstelle eine Karte der Größe %d ✕ %d = %d Felder (Kartengröße: %d)."
 
 #: server/generator/mapgen_topology.c:313
 #, c-format
@@ -34520,6 +34522,8 @@ msgid ""
 "Map size calculated for %d (land) tiles per player and %d player(s) too "
 "small. Setting map size to the minimal size %d."
 msgstr ""
+"Die für %d (Land-)Felder pro Spieler bei %d Spieler(n) berechnete "
+"Kartengröße ist zu klein. Es wurde das Minimum %d festgelegt."
 
 #: server/generator/mapgen_topology.c:320
 #, c-format
@@ -34527,6 +34531,8 @@ msgid ""
 "Map size calculated for %d (land) tiles per player and %d player(s) too "
 "large. Setting map size to the maximal size %d."
 msgstr ""
+"Die für %d (Land-)Felder pro Süieler bei %d Spieler(n) berechnete "
+"Kartengröße ist zu groß. Es wurde das Maximum %d festgelegt."
 
 #: server/generator/mapgen_topology.c:326
 #, c-format
@@ -34534,6 +34540,8 @@ msgid ""
 "Setting map size to %d (approx. %d (land) tiles for each of the %d "
 "player(s))."
 msgstr ""
+"Lege Kartengröße auf %d fest (etwa %d (Land-)Felder für jeden der %d "
+"Spieler)."
 
 #: server/generator/startpos.c:479
 msgid ""
@@ -34629,71 +34637,68 @@ msgstr ""
 
 # MG: Wird nur bei Eigenentdeckung angezeigt
 #: server/maphand.c:293
-#, fuzzy
 msgid ""
 "New hope sweeps like fire through the country as the discovery of new road "
 "building technology is announced."
 msgstr ""
-"Als die Entwicklung der Eisenbahn bekannt gegeben wird, erleuchtet die "
-"Flamme der Hoffnung das Land."
+"Als die Entwicklung der neuen Transporttechnik bekannt gegeben wird, "
+"erleuchtet die Flamme der Hoffnung das Land."
 
 # MG: Wird nur bei Aquise durch Diplomatie, Eroberung, etc. angezeigt
 #: server/maphand.c:300
-#, fuzzy
 msgid ""
 "The people are pleased to hear that your scientists finally know about new "
 "road building technology."
 msgstr ""
 "Das Volk ist begeistert davon, dass nun auch unsere Wissenschaftler die "
-"Eisenbahn verstehen."
+"neuen Straßentechniken verstehen."
 
-# MG: Wird immer angezeigt
+# MG: Wird immer angezeigt.
+# MG: Da die Verbesserungen nur Eisenbahn und Transrapid sind,
+# MG: ist „Schienen“ als Übersetzung gerechtfertigt. Die neuen
+# MG: Freeciv-Originaltexte in diesem Bereich entbehren jeglicher
+# MG: Romantik und sind ganz fürchterlich.
 #: server/maphand.c:307
-#, fuzzy
 msgid ""
 "Workers spontaneously gather and upgrade all possible cities with better "
 "roads."
 msgstr ""
-"Die Arbeiter fassen neuen Mut und statten spontan alle Städte mit "
-"Eisenbahnschienen aus."
+"Die Arbeiter fassen neuen Mut und statten spontan alle Städte mit den neuen "
+"Schienen aus."
 
 # MG: Wird immer angezeigt
 #: server/maphand.c:311 server/maphand.c:417
-#, fuzzy, c-format
+#, c-format
 msgid "Workers spontaneously gather and upgrade all possible cities with %s."
 msgstr ""
-"Die Arbeiter fassen neuen Mut und statten spontan alle Städte mit "
-"Eisenbahnschienen aus."
+"Die Arbeiter fassen neuen Mut und statten spontan alle Städte mit %s aus."
 
 # MG: Wird nur bei Eigenentdeckung angezeigt
 #: server/maphand.c:398
-#, fuzzy
 msgid ""
 "New hope sweeps like fire through the country as the discovery of new base "
 "building technology is announced."
 msgstr ""
-"Als die Entwicklung der Eisenbahn bekannt gegeben wird, erleuchtet die "
-"Flamme der Hoffnung das Land."
+"Wie ein Wirbelwind verbreitet sich die Nachricht über die neuen Erkenntnisse "
+"in der Errichtung von Stützpunkten im Lande."
 
 # MG: Wird nur bei Aquise durch Diplomatie, Eroberung, etc. angezeigt
 #: server/maphand.c:405
-#, fuzzy
 msgid ""
 "The people are pleased to hear that your scientists finally know about new "
 "base building technology."
 msgstr ""
 "Das Volk ist begeistert davon, dass nun auch unsere Wissenschaftler die "
-"Eisenbahn verstehen."
+"neuen Techniken zur Errichtung von Stützpunkten verstehen."
 
 # MG: Wird immer angezeigt
 #: server/maphand.c:413
-#, fuzzy
 msgid ""
 "Workers spontaneously gather and upgrade all possible cities with better "
 "bases."
 msgstr ""
-"Die Arbeiter fassen neuen Mut und statten spontan alle Städte mit "
-"Eisenbahnschienen aus."
+"Arbeiter versammeln sich spontan und entscheiden, alle Städte mit besseren "
+"Stützpunkten auszustatten."
 
 #: server/maphand.c:1743
 #, c-format
@@ -35029,7 +35034,6 @@ msgstr "Forschungstempo"
 
 #. TRANS: How literate people are.
 #: server/report.c:162
-#, fuzzy
 msgid "?ability:Literacy"
 msgstr "Bildung"
 
@@ -35351,9 +35355,8 @@ msgid "Ruleset couldn't be loaded. Keeping previous one."
 msgstr ""
 
 #: server/ruleset.c:6040
-#, fuzzy
 msgid "Ruleset couldn't be loaded. Switching to default one."
-msgstr "Alle Einstellungen auf die Standardwerte zurücksetzen."
+msgstr "Regelsatz konnte nicht geladen werden. Wechsle zum Standardregelsatz."
 
 #: server/ruleset.c:6079
 msgid "Loading rulesets."
@@ -35403,10 +35406,11 @@ msgstr "%s ist eine ungültige Nation und wird geändert auf %s."
 msgid ""
 "Run compatibility function for version: <%d (save file: %d; server: %d)."
 msgstr ""
+"Führe Kompatibilitätsfunktion aus für Version: <%d (Spielstand: %d; Server: "
+"%d)."
 
 #. TRANS: Fatal error message.
 #: server/savegame.c:3380
-#, fuzzy
 msgid ""
 "Saved game uses the ancient format terrain ruleset, and is no longer "
 "supported."
@@ -35531,9 +35535,8 @@ msgid "Island-based"
 msgstr "Inselbasierter Generator"
 
 #: server/settings.c:249
-#, fuzzy
 msgid "Fair islands"
-msgstr "Ackerland"
+msgstr "Faire Inseln"
 
 #: server/settings.c:261
 msgid "Generator's choice"
@@ -35556,22 +35559,20 @@ msgid "Depending on size of continents"
 msgstr "Abhängig von der Größe der Kontinente"
 
 #: server/settings.c:283
-#, fuzzy
 msgid "As close as possible"
-msgstr "%s möglich"
+msgstr "So nah wie möglich"
 
 #: server/settings.c:285
-#, fuzzy
 msgid "On the same continent"
-msgstr "Ein Spieler pro Kontinent"
+msgstr "Auf demselben Kontinent"
 
 #: server/settings.c:287
 msgid "Horizontal placement"
-msgstr ""
+msgstr "Horizontale Platzierung"
 
 #: server/settings.c:289
 msgid "Vertical placement"
-msgstr ""
+msgstr "Vertikale Platzierung"
 
 #: server/settings.c:300
 msgid "New turn"
@@ -35610,9 +35611,8 @@ msgid "Per-team, in order"
 msgstr "Pro Team, sortiert"
 
 #: server/settings.c:335
-#, fuzzy
 msgid "Per-nation, in order"
-msgstr "Pro Team, sortiert"
+msgstr "Pro Nation, sortiert"
 
 # MG: Diplomatie erlauben
 #: server/settings.c:346
@@ -35628,14 +35628,12 @@ msgid "Only allowed between AI players"
 msgstr "Nur zwischen KI-Spielern"
 
 #: server/settings.c:350
-#, fuzzy
 msgid "Only allowed when human involved"
-msgstr "Nur zwischen menschlichen Spielern"
+msgstr "Nur wenn ein menschlicher Spieler beteiligt ist"
 
 #: server/settings.c:351
-#, fuzzy
 msgid "Only allowed between two humans, or two AI players"
-msgstr "Nur zwischen menschlichen Spielern"
+msgstr "Nur zwischen zwei menschlichen Spielern oder zwischen zwei KI-Spielern"
 
 #: server/settings.c:352
 msgid "Restricted to teams"
@@ -35742,24 +35740,24 @@ msgid "enabled"
 msgstr "ein"
 
 #: server/settings.c:479
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This setting controls whether players may make moves at the same time during "
 "a turn. Change in setting takes effect next turn. Currently, at least to the "
 "end of this turn, mode is \"%s\"."
 msgstr ""
 "Diese Einstellung legt fest, ob Spieler in einer Runde gleichzeitig ziehen "
-"können. Änderungen werden ab der nächsten Runde wirksam."
+"können. Änderungen werden ab der nächsten Runde wirksam. Der Modus ist "
+"momentan und wenigstens bis zum Ende dieser Runde „%s“."
 
 #: server/settings.c:538
-#, fuzzy
 msgid "Warning: not enough nations for all current players."
-msgstr "Nicht genug Nationen für alle Spieler, Spiel wird nicht gestartet."
+msgstr "Nicht genug Nationen für alle aktiven Spieler."
 
 #: server/settings.c:605
 #, c-format
 msgid "Invalid save name definition: '%s' (resolves to '%s')."
-msgstr ""
+msgstr "Ungültige Spielstandsnamen-Definition: „%s“ (löst nach „%s“ auf)."
 
 #: server/settings.c:624
 msgid "You cannot disable the map generator."
@@ -35838,6 +35836,7 @@ msgstr ""
 #, c-format
 msgid "Unknown nation set \"%s\". See '%slist nationsets' for possible values."
 msgstr ""
+"Unbekannter Nationensatz „%s“. Siehe „%slist nationsets“ für mögliche Werte."
 
 #: server/settings.c:841
 msgid "You are not allowed to set timeout values less than 30 seconds."
@@ -36054,7 +36053,6 @@ msgstr "Art der Kartengenerierung"
 #. * translated. The strings between parentheses and in uppercase
 #. * must stay as untranslated.
 #: server/settings.c:1175
-#, fuzzy
 msgid ""
 "Specifies the algorithm used to generate the map. If the default value of "
 "the 'startpos' option is used, then the chosen generator chooses an "
@@ -36078,22 +36076,24 @@ msgid ""
 "server may fall back to another generator."
 msgstr ""
 "Legt den Algorithmus fest, nach dem die Karte generiert wird. Ist der "
-"Standardwert der Option »startpos« aktiv, wird der gewählte Generator eine "
-"für »startpos« angemessene Einstellung wählen; andernfalls versucht der "
-"Generator, die Karte an »startpos« anzupassen.\n"
-"‒ »Szenarienkarte« (SCENARIO): Eine zuvor generierte Karte soll geladen "
+"Standardwert der Option „startpos“ aktiv, wird der gewählte Generator eine "
+"für „startpos“ angemessene Einstellung wählen; andernfalls versucht der "
+"Generator, die Karte an „startpos“ anzupassen.\n"
+"‒ „Szenarienkarte“ (SCENARIO): Eine zuvor generierte Karte soll geladen "
 "werden. Standardmäßig werden, sofern keine Startpositionen im Szenario "
 "festgelegt wurden, diese abhängig von der Größe der Kontinente festgelegt.\n"
-"‒ »Zufallshöhengenerator« (RANDOM): Generiert eine Karte mit einer Anzahl "
+"‒ „Zufallshöhengenerator“ (RANDOM): Generiert eine Karte mit einer Anzahl "
 "ungefähr gleich großer, kleiner Inseln. Standardmäßig werden Startpositionen "
 "abhängig von der Kontinentgröße vergeben.\n"
-"‒ »Pseudofraktaler Höhengenerator« (FRACTAL): Generiert einen erdähnlichen "
+"‒ „Pseudofraktaler Höhengenerator“ (FRACTAL): Generiert einen erdähnlichen "
 "Planeten mit einem oder mehreren großen Kontinenten und ein paar kleinen "
 "Inseln. Standardmäßig werden alle Spieler auf einem einzelnen Kontinent "
 "untergebracht.\n"
-"‒ »Inselbasierter Generator« (ISLAND): Generiert eine »faire« Karte mit "
+"‒ „Inselbasierter Generator“ (ISLAND): Generiert eine „faire“ Karte mit "
 "einer Anzahl ähnlich großer und bestückter Inseln, die auch alle ähnliches "
 "Gelände aufweisen. Standardmäßig erhält jeder Spieler seine eigene Insel.\n"
+"‒ „Faire Inseln“ (FAIR): Generiert eine exakt identische Kopie der immer "
+"gleichen Insel für jeden Spieler oder jedes Team.\n"
 "Ist der angeforderte Generator mit anderen Servereinstellungen inkompatibel, "
 "kann der Server auf einen anderen zurückgreifen."
 
@@ -36154,9 +36154,8 @@ msgstr ""
 "die Spieleranzahl zu finden, daher ist dies eher unwahrscheinlich.)"
 
 #: server/settings.c:1237
-#, fuzzy
 msgid "Method used for placement of team mates"
-msgstr "Art der Kartengenerierung"
+msgstr "Methode zur Festlegung von Teamspielern"
 
 #. TRANS: The strings between double quotes are also translated
 #. * separately (they must match!). The strings between single
@@ -36400,9 +36399,8 @@ msgstr ""
 "alle KI-Spieler."
 
 #: server/settings.c:1412
-#, fuzzy
 msgid "Set of nations to choose from"
-msgstr "Liste der Verbindungen zum Server:"
+msgstr "Nationensatz, aus dem gewählt werden kann"
 
 #. TRANS: do not translate '/list nationsets'
 #: server/settings.c:1414
@@ -36415,6 +36413,16 @@ msgid ""
 "If this is left blank, the ruleset's default nation set is used.\n"
 "See '/list nationsets' for possible choices for the currently loaded ruleset."
 msgstr ""
+"Legt den im Spiel erlaubten Satz an Nationen fest. Die Wahlmöglichkeiten "
+"bestimmt der Regelsatz.\n"
+"Unter allen Umständen werden nur Nationen in dem hier festgelegten "
+"Nationensatz erlaubt sein, einschließlich neuer Spieler und Bürgerkrieg; "
+"kleinere Nationensätze führen dementsprechend zu einer Begrenzung der "
+"Spieleranzahl.\n"
+"Wenn dies ausgelassen wird, wird der Standardnationensatz des Regelwerks "
+"benutzt.\n"
+"Siehe „/list nationsets“ für Wahlmöglichkeiten im aktuell geladenen "
+"Regelwerk."
 
 #: server/settings.c:1428
 msgid "Event cache for this number of turns"
@@ -36492,15 +36500,16 @@ msgstr ""
 "    A   = Starker Angreifer (z.B. Katapult)\n"
 
 #: server/settings.c:1482
-#, fuzzy
 msgid "Whether player starts with a city"
-msgstr "Spielerstatistiken"
+msgstr "Spielstart mit einer Stadt"
 
 #: server/settings.c:1483
 msgid ""
 "If this is set, game will start with player's first city already founded to "
 "starting location."
 msgstr ""
+"Wenn dies aktiviert ist, startet der Spieler mit einer ersten Stadt direkt "
+"an der Startposition."
 
 #: server/settings.c:1489
 msgid "Area where initial units are located"
@@ -36656,7 +36665,7 @@ msgstr ""
 
 #: server/settings.c:1597
 msgid "Research point debt threshold for losing tech"
-msgstr ""
+msgstr "Punktabzugsgrenze für Technologieverlust"
 
 #: server/settings.c:1598
 msgid ""
@@ -36666,10 +36675,15 @@ msgid ""
 "The special value -1 prevents loss of technology regardless of research "
 "points."
 msgstr ""
+"Wenn Ihre Nation eine negative Forschungsrate aufweist und ihr Rückfall "
+"größer ist als dieser Prozentsatz, gerät eine bereits erforschte Technologie "
+"wieder in Vergessenheit.\n"
+"Der Wert -1 verhindert einen Verlust von Technologien unabhängig von der "
+"Forschungsrate."
 
 #: server/settings.c:1609
 msgid "Research points restored after losing a tech"
-msgstr ""
+msgstr "Wiederhergestellte Punkte nach Verlust einer Technologie"
 
 #: server/settings.c:1610
 msgid ""
@@ -36679,6 +36693,12 @@ msgid ""
 "The special value -1 means that your research balance is always restored to "
 "zero, regardless of your previous shortfall."
 msgstr ""
+"Wenn Ihre Nation eine Technologie wegen negativer Forschungsbilanz (siehe "
+"„techlossforgiveness“) vergisst, wird Ihnen dieser Prozentsatz der "
+"jeweiligen Forschungskosten wieder gutgeschrieben (was nicht heißt, dass "
+"Ihre Forschungsrate dann auch wieder positiv sein muss).\n"
+"Der Wert -1 setzt die Forschungsrate unabhängig von vorangegangenen "
+"Rückfällen immer auf Null zurück."
 
 #: server/settings.c:1622
 msgid "Food required for a city to grow"
@@ -36695,21 +36715,21 @@ msgstr ""
 "der Stadtgröße ab."
 
 #: server/settings.c:1631
-#, fuzzy
 msgid "Percentage food lost when city can't grow"
-msgstr "Nahrungsverluste in Prozent, wenn eine Stadterweiterung benötigt wird."
+msgstr "Nahrungsverluste in Prozent, wenn eine Stadt nicht wachsen kann"
 
 #: server/settings.c:1632
-#, fuzzy
 msgid ""
 "If a city would expand, but it can't because it lacks some prerequisite "
 "(traditionally an Aqueduct or Sewer System), this is the base percentage of "
 "its foodbox that is lost each turn; the penalty may be reduced by buildings "
 "or other circumstances, depending on the ruleset."
 msgstr ""
-"Wenn eine Stadt wachsen würde, aber mangels eines fehlenden Aquäduktes (oder "
-"Abwassersystems) nicht kann, geht dieser Prozentsatz (oder die Hälfte davon, "
-"falls ein Kornspeicher vorhanden ist) verloren."
+"Wenn eine Stadt wachsen würde, aber mangels einer Anforderung "
+"(typischerweise wegen eines fehlenden Aquäduktes oder Abwassersystems) nicht "
+"kann, geht dieser Prozentsatz ihres Nahrungsvorrats jede Runde verloren. "
+"Diese Strafe kann durch gewisse Stadtverbesserungen oder andere Umstände "
+"abhängig vom Regelsatz reduziert werden."
 
 #: server/settings.c:1642
 msgid "Multiplier percentage for production costs"
@@ -36839,7 +36859,7 @@ msgstr ""
 
 #: server/settings.c:1737
 msgid "Frequency of disasters"
-msgstr ""
+msgstr "Häufigkeit von Katastrophen"
 
 #: server/settings.c:1738
 msgid ""
@@ -36847,6 +36867,9 @@ msgid ""
 "the ruleset. The relative frequency of disaster types is set by the ruleset. "
 "Zero prevents any random disasters from occurring."
 msgstr ""
+"Gibt an, wie oft zufällige Katastrophen eine Stadt treffen können, sofern "
+"der Regelsatz solche enthält. Die relative Häufigkeit von Katastrophen hängt "
+"vom Regelsatz ab. Null verhindert jegliche Katastrophen."
 
 #: server/settings.c:1748
 msgid "Chance for conquered building destruction"
@@ -36892,10 +36915,9 @@ msgstr ""
 
 #: server/settings.c:1774
 msgid "Do all units in tile die with defender"
-msgstr ""
+msgstr "Alle Einheiten auf Feld sterben mit dem Verteidiger"
 
 #: server/settings.c:1775
-#, fuzzy
 msgid ""
 "If this is enabled, each time a defender unit loses in combat, and is not "
 "inside a city or suitable base, all units in the same tile are destroyed "
@@ -36904,21 +36926,23 @@ msgid ""
 msgstr ""
 "Falls der Verteidiger verliert und sich nicht innerhalb einer Stadt oder "
 "befestigten Stellung befunden hat, werden alle anderen Einheiten an seinem "
-"Standort ebenfalls zerstört."
+"Standort ebenfalls zerstört. Ist diese Option nicht aktiviert, so wird nur "
+"der Verteidiger zerstört."
 
 #: server/settings.c:1783
 msgid "Reduce city population after attack"
 msgstr "Verminderung der Bevölkerung nach einem Angriff"
 
 #: server/settings.c:1784
-#, fuzzy
 msgid ""
 "This flag indicates whether a city's population is reduced after a "
 "successful attack by an enemy unit. If this is disabled, population is never "
 "reduced. Even when this is enabled, only some units may kill citizens."
 msgstr ""
 "Hier wird eingestellt, ob die Bevölkerung einer Stadt nach einem Angriff "
-"abhängig vom Typ der Angreifer reduziert wird."
+"abhängig vom Typ der Angreifer reduziert wird. Wenn diese Option nicht "
+"aktiviert ist, wird die Bevölkerung niemals dezimiert; wenn sie aktiviert "
+"ist, werden nur gewisse Einheiten möglicherweise Verluste herbeiführen."
 
 #: server/settings.c:1792
 msgid "Slowly kill units without home cities (e.g., starting units)"
@@ -37056,6 +37080,8 @@ msgid ""
 "This setting controls how frequently the barbarians appear in the game. See "
 "also the 'onsetbarbs' setting."
 msgstr ""
+"Diese Einstellung legt fest, wie oft Barbaren im Spiel auftreten. Siehe auch "
+"die Option „onsetbarbs“."
 
 #: server/settings.c:1898
 msgid "Barbarian onset turn"
@@ -37300,6 +37326,21 @@ msgid ""
 "  'mgr_worldchance'  - Chance for inter-nation migration.\n"
 "  'mgr_nationchance' - Chance for intra-nation migration."
 msgstr ""
+"Die ist die Haupteinstellung zur Kontrolle der Bürgermigration. Wenn "
+"eingeschaltet, können Bürger sich dazu entscheiden, von weniger angenehmen "
+"Städten in vorzugswürdigere umzuziehen. Diese „Vorzugswürdigkeit“ einer "
+"Stadt wird unter Berücksichtigung verschiedener Faktoren berechnet. Generell "
+"bevorzugt werden größere Städte mit größerem Einkommen und mehr "
+"Stadtverbesserungen. Weder werden Bürger die Hauptstadt verlassen, noch "
+"werden sie eine Stadt auflösen, in der sich ein Weltwunder befindet. Einige "
+"weitere Einstellungen betreffend die Migration:\n"
+"  „mgr_turninterval“ — Wie oft Einwohner einen Umzug versuchen.\n"
+"  „mgr_foodneeded“   — Ob verfügbare Nahrungspunkte geprüft werden.\n"
+"  „mgr_distance“     — Welche Entfernung ein Bürger zurücklegen will.\n"
+"  „mgr_worldchance“  — Wahrscheinlichkeit einer Auswanderung aus dem "
+"Heimatland.\n"
+"  „mgr_nationchance“ — Wahrscheinlichkeit eines Umzugs innerhalb des "
+"Heimatlands."
 
 #: server/settings.c:2073
 msgid "Number of turns between migrations from a city"
@@ -37327,6 +37368,10 @@ msgid ""
 "not have enough food to support them. This setting has no effect unless "
 "migration is enabled by the 'migration' setting."
 msgstr ""
+"Wenn diese Einstellung aktiviert ist, werden Einwohner nicht in Städte "
+"umziehen, in denen es nicht ausreichend Nahrung für sie gibt. Diese "
+"Einstellung hat keine Auswirkungen, wenn Migration nicht durch die "
+"Einstellung „migration“ aktiviert wurde."
 
 #: server/settings.c:2098
 msgid "Maximum distance citizens may migrate"
@@ -37700,6 +37745,9 @@ msgid ""
 "How many turns elapse between automatic game saves. This setting only has an "
 "effect when the 'autosaves' setting includes \"New turn\"."
 msgstr ""
+"Wie viele Runden zwischen automatischen Speicherungen des Spielstands "
+"vergehen sollen. Diese Einstellung hat nur dann Auswirkungen, wenn die "
+"Einstellung „autosaves“ den Wert „Neue Runde“ enthält."
 
 #: server/settings.c:2368
 msgid "Which savegames are generated automatically"
@@ -37720,6 +37768,15 @@ msgid ""
 "- \"Server interrupted\" (INTERRUPT): Save when server quits due to "
 "interrupt."
 msgstr ""
+"Diese Einstellung legt fest, welche automatischen Spielstände erzeugt "
+"werden:\n"
+"• „Neue Runde“ (TURN): Speichere am Anfang einer Runde, einmal alle "
+"„saveturns“ Runden.\n"
+"• „Spielende“ (GAMEOVER): Finaler Spieltstand wenn das Spiel endet.\n"
+"• „Keine Spielerverbindungen“ (QUITIDLE): Speichere vor einem Serverneustart "
+"wegen Mangels an Spielern.\n"
+"• „Serverunterbrechung“ (INTERRUPT): Speichere, wenn der Server wegen einer "
+"Unterbrechung (Prozessignal) herunterfährt."
 
 #: server/settings.c:2386
 msgid "Savegame compression level"
@@ -38372,7 +38429,7 @@ msgstr "%s wird jetzt von einem Menschen kontrolliert."
 
 #: server/stdinhand.c:838
 msgid "Wrong number of arguments to create command."
-msgstr ""
+msgstr "Falsche Anzahl Argumente für den create-Befehl."
 
 #: server/stdinhand.c:896
 msgid "A living user already exists by that name."
