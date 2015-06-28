@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-28 17:33+0200\n"
+"PO-Revision-Date: 2015-06-28 21:50+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -22951,12 +22951,17 @@ msgid ""
 "thereafter all cities on the map are continuously visible to its owner "
 "despite fog-of-war."
 msgstr ""
+"Der Spieler, der dieses Weltwunder vollendet, erhält sofort eine neue "
+"Technologie und kann zudem alle Städte auf der Karte unabhängig von Nebel "
+"des Krieges sehen."
 
 #: data/civ2civ3/buildings.ruleset:1731
 msgid ""
 "Completion of this wonder permanently doubles the effect of Research Labs "
 "for every player."
 msgstr ""
+"Die Fertigstellung dieses Weltwunders verdoppelt den Effekt von "
+"Forschungslabors für alle Spieler dauerhaft."
 
 #: data/civ2civ3/buildings.ruleset:1752
 #, fuzzy
@@ -22970,6 +22975,8 @@ msgid ""
 "Upon completion of this wonder, entertainer specialists' luxury output "
 "increases to 3 permanently for every nation."
 msgstr ""
+"Mit der Fertigstellung dieses Weltwunders werden die von den Unterhaltern "
+"jeder Nation erzeugten Luxuspunkte permanent auf 3 erhöht."
 
 #: data/civ2civ3/buildings.ruleset:1775
 #, fuzzy
@@ -23002,6 +23009,12 @@ msgid ""
 "inclined to be friendly and forgiving toward the owner of this wonder. These "
 "effects last until the Apollo Program is completed."
 msgstr ""
+"Errichtet einen Weltsenat, der die unprovozierte Kriegserklärung von nicht "
+"nuklear aufgerüsteten Staaten verhindert, also solcher Staaten, die nach "
+"Abschluss des Manhattan-Projekts noch keine Kenntnisse über die Kernspaltung "
+"erworben haben. KI-Spieler verhalten sich freundlicher und nachsichtiger "
+"gegenüber dem Eigentümer dieses Weltwunders, was sich allerdings mit "
+"Abschluss des Apollo-Programms ändert."
 
 #: data/civ2civ3/buildings.ruleset:1826
 #, fuzzy
@@ -23178,10 +23191,21 @@ msgid ""
 "* Base production waste is 10%. This increases with distance from the "
 "capital (half as fast with knowledge of Trade)."
 msgstr ""
+"• Ihre Hauptstadt erhält einen 75%-Bonus auf ihre Goldproduktion.\n"
+"• Jede Stadt kann bis zu zwei Einheiten umsonst unterstützen; weitere "
+"Einheiten kosten je ein Gold pro Runde.\n"
+"• Im Gegensatz zu anderen Regierungsformen führen Militäreinheiten auch dann "
+"nicht zu Unzufriedenheit, wenn sie aggressiv eingesetzt werden.\n"
+"• Die Grundkorruption beträgt 20% und erhöht sich mit zunehmender Entfernung "
+"von der Hauptstadt (ab Kenntnis der Firma nur noch halb so schnell)\n"
+"• Die Grundverschwendung in der Produktion beträgt 10% und wächst micht "
+"zunehmender Entfernung von der Hauptstadt (ab Kenntnis des Handelns nur noch "
+"halb so schnell)."
 
 #: data/civ2civ3/governments.ruleset:167
 msgid "Monarchy gives low unit upkeep costs."
 msgstr ""
+"Der Unterhalt für Einheiten ist in einer Monarchie verhältnismäßig niedrig."
 
 #: data/civ2civ3/governments.ruleset:171
 #, no-c-format
@@ -23198,12 +23222,26 @@ msgid ""
 "* Base production waste is 20%. This increases with distance from the "
 "capital (half as fast with knowledge of Trade)."
 msgstr ""
+"• Ihre Hauptstadt erhält einen Bonus von 50% auf ihre Goldproduktion.\n"
+"• Feiernde Städte erzeugen einen extra Handelspunkt für jedes Feld, welches "
+"bereits Handel erzeugt (Städte kleiner 3 werden nicht feiern).\n"
+"• Jede Stadt kann bis zu drei Einheiten umsonst unterstützen; jede weitere "
+"Einheit kostet ein Gold pro Runde.\n"
+"• Jede Stadt toleriert bis zu 3 aggressiv eingesetzte Militäreinheiten, jede "
+"weitere verursacht einen unzufriedenen Bürger.\n"
+"• Die Grundkorruption beträgt 10% und erhöht sich mit der Entfernung von der "
+"Hauptstadt (ab Entdeckung der Firma nur noch halb so schnell).\n"
+"• Die Grundverschwendung in der Produktion beträgt 20% und wächst mit "
+"zunehmender Entfernung von der Hauptstadt (ab Entdeckung des Handels nur "
+"noch halb so schnell)."
 
 #: data/civ2civ3/governments.ruleset:203
 msgid ""
 "Communism is a good government for maximizing shield production, and for "
 "large empires."
 msgstr ""
+"Der Kommunismus eignet sich zur Maximierung der Produktion und zur "
+"Verwaltung großer Imperien."
 
 #: data/civ2civ3/governments.ruleset:208
 #, no-c-format
@@ -23217,12 +23255,25 @@ msgid ""
 "* Base corruption is 30%, but is not affected by distance to the capital.\n"
 "* There is no production waste."
 msgstr ""
+"• Stadtverbesserungen, die sonst ein Gold Unterhalt erfordern, benötigen "
+"keinen Unterhalt.\n"
+"• Jede Stadt kann bis zu drei Einheiten umsonst unterstützen, jede weitere "
+"Einheit kostet ein Schild pro Runde.\n"
+"• Jede Stadt toleriert bis zu drei aggressiv eingesetzte Militäreinheiten, "
+"jede weitere verursacht einen unzufriedenen Bürger.\n"
+"• Die Grundkorruption beträgt 30%, ist aber unabhängig von der Entfernung "
+"zur Hauptstadt.\n"
+"• Es gibt keinerlei Verschwendung in der Produktion."
 
 #: data/civ2civ3/governments.ruleset:245
 msgid ""
 "Fundamentalism is a good government for maximizing gold, and its Fanatics "
 "are useful in wartime, but it has a heavy penalty to technological progress."
 msgstr ""
+"Im Fundamentalismus wird das Gold maximiert. Die Fanatiker, die unter dieser "
+"Regierungsform das Sagen haben, sind sehr nützlich in Kriegszeiten, leiden "
+"aber unter einem veritablen Problem im Bezug auf den technologischen "
+"Fortschritt."
 
 #: data/civ2civ3/governments.ruleset:251
 #, no-c-format
@@ -23237,11 +23288,21 @@ msgid ""
 "* Base production waste is 15%. This increases with distance from the "
 "capital (half as fast with knowledge of Trade)."
 msgstr ""
+"• Der wissenschaftliche Fortschritt ist gegenüber anderen Regierungsformen "
+"halbiert.\n"
+"• Jede Stadt kann bis zu zwei Einheiten umsonst unterstützen, jede weitere "
+"Einheit — außer Fanatikern — kostet 2 Gold pro Runde.\n"
+"• Jede Stadt toleriert bis zu zwei aggressiv eingesetzte Militäreinheiten, "
+"jede weitere verursacht einen unzufriedenen Bürger.\n"
+"• Die Grundkorruption beträgt 15% und erhöht sich mit der Entfernung von der "
+"Hauptstadt (ab Kenntnis der Firma nur noch halb so schnell)\n"
+"• Die Grundverschwendung in der Produktion beträgt 15% nimmt mit der "
+"Entfernung von der Hauptstadt zu (ab Kenntnis des Handels nur noch halb so "
+"schnell)."
 
 #: data/civ2civ3/governments.ruleset:266
-#, fuzzy
 msgid "Federation"
-msgstr "Kältetechnik"
+msgstr "Föderalismus"
 
 #: data/civ2civ3/governments.ruleset:276
 msgid ""
@@ -23250,6 +23311,11 @@ msgid ""
 "corruption and waste caused by distance to capital, and avoids separatist "
 "movements."
 msgstr ""
+"In föderalen Staaten ist die Regierungsmacht zwischen der Bundesregierung "
+"und den Regierungen der einzelnen Länder innerhalb des Bundes geteilt. Diese "
+"Dezentralisierung trägt zur Minimierung der Korruption und der "
+"Produktionsverschwendung wegen Entfernung zur Hauptstadt bei und verhindert "
+"effektiv separatistische Bestrebungen."
 
 #: data/civ2civ3/governments.ruleset:283
 #, no-c-format
@@ -23266,6 +23332,18 @@ msgid ""
 "* Base production waste is 30%, but is not affected by distance to the "
 "capital."
 msgstr ""
+"• Feiernde Städte erzeugen einen extra Handelspunkt für jedes Feld, welches "
+"bereits Handel erzeugt (Städte kleiner 3 werden nicht feiern).\n"
+"• Jede Stadt kann bis zu zwei Einheiten umsonst unterstützen, jede weitere "
+"Einheit kostet zwei Gold pro Runde.\n"
+"• Jede Stadt toleriert bis zu zwei aggressiv eingesetzte Militäreinheiten, "
+"jede weitere Einheit verursacht einen unzufriedenen Bürger.\n"
+"• Es gibt keine Grundkorruption, aber mit zunehmender Entfernung von der "
+"Hauptstadt ensteht solche. Im Verhältnis zu anderen Regierungsformen beträgt "
+"diese Steigerung aber nur die Hälfte des Üblichen, mit Kenntnis der Firma "
+"wird sie vollständig beseitigt.\n"
+"• Die Grundverschwendung in der Produktion beträgt 30%, ist aber unabhängig "
+"von der Entfernung zur Hauptstadt."
 
 #: data/civ2civ3/governments.ruleset:319
 #, no-c-format
