@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-28 21:50+0200\n"
+"PO-Revision-Date: 2015-06-28 23:41+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -23362,9 +23362,22 @@ msgid ""
 "* Base production waste is 5%. This increases with distance from the capital "
 "(half as fast with knowledge of Trade)."
 msgstr ""
+"• Städte erzeugen einen extra Handelspunkt für jedes bewirtschaftete Feld, "
+"welches bereits Handel erzeugt.\n"
+"• Feiernde Städte erzeugen einen weiteren Handelspunkt für jedes "
+"bewirtschaftete Feld (Land oder Wasser), welches bereits Handel erzeugt "
+"(Städte kleiner 3 werden nicht feiern).\n"
+"• Jede Stadt kann eine Einheit umsonst unterstützen, weitere Einheiten "
+"kosten ein Schild pro Runde.\n"
+"• Jede Stadt toleriert eine aggressiv eingsetzte Militäreinheit, jede "
+"weitere verursacht einen unzufriedenen Bürger.\n"
+"• Die Grundkorruption beträgt 25% und nimmt mit der Entfernung von der "
+"Hauptstadt zu (ab Kenntnis der Firma nur noch halb so schnell)\n"
+"• Die Grundverschwendung in der Produktion beträgt 5% und nimmt mit "
+"Entfernung von der Hauptstadt zu (ab Kenntnis des Handels nur noch halb so "
+"schnell)."
 
 #: data/civ2civ3/governments.ruleset:348
-#, fuzzy
 msgid ""
 "Under Democracy, citizens govern directly by voting on issues. Democracy "
 "offers the highest possible level of trade, but also offers the most "
@@ -23392,10 +23405,24 @@ msgid ""
 "* Base production waste is 25%. This increases with distance from the "
 "capital (half as fast with knowledge of Trade)."
 msgstr ""
+"• Städte erzeugen einen extra Handelspunkt für jedes Feld, das bereits "
+"Handel erzeugt.\n"
+"• Feiernde Städte erzeugen einen weiteren Handelspunkt für jedes Feld, das "
+"bereits Handel erzeugt (Land oder Wasser; Städte kleiner 3 werden nicht "
+"feiern).\n"
+"• Jede Stadt kann eine Einheit umsonst unterstützen, jede weitere kostet "
+"zwei Gold pro Runde.\n"
+"• Jede Stadt toleriert eine aggressiv eingsetzte Militäreinheit, jede "
+"weitere verursacht zwei unzufriedene Bürger.\n"
+"• Die Grundkorruption beträgt 5% und nimmt mit der Entfernung von der "
+"Hauptstadt zu (ab Kenntnis der Firma nur noch halb so schnell).\n"
+"• Die Grundverschwendung in der Produktion beträgt 25% und nimmt mit der "
+"Entfernung von der Hauptstadt zu (ab Kenntnis des Handels nur noch halb so "
+"schnell)."
 
 #: data/civ2civ3/techs.ruleset:79
 msgid "Enables movement of nuclear units."
-msgstr ""
+msgstr "Erlaubt Verlegung nuklearer Einheiten."
 
 #: data/civ2civ3/techs.ruleset:245
 #, fuzzy
@@ -23408,10 +23435,12 @@ msgid ""
 "Allows irrigation without an adjacent water source, improves the effect of "
 "Amphitheaters, and increases city vision radius."
 msgstr ""
+"Erlaubt Bewässerung ohne angrenzende Wasserquelle, verbessert den Effekt von "
+"Amphitheatern und erhöht die Anzahl der um die Stadt aufgedeckten Felder."
 
 #: data/civ2civ3/techs.ruleset:360
 msgid "Makes it possible for Engineers to transform terrains."
-msgstr ""
+msgstr "Ermöglicht es Ingenieuren, Gelände zu verändern."
 
 #: data/civ2civ3/techs.ruleset:414
 #, fuzzy
@@ -23424,6 +23453,8 @@ msgid ""
 "Reduces the risk of plague in your cities by 30% of the base chance (this is "
 "additive with the benefits of any buildings)."
 msgstr ""
+"Reduziert das Seuchenrisiko in Ihren Städten um 30% der "
+"Grundwahrscheinlichkeit (zusätzlich zu weiteren diesbezüglichen Gebäuden)."
 
 #: data/civ2civ3/techs.ruleset:677
 #, fuzzy
@@ -23445,16 +23476,21 @@ msgid ""
 "For Despotism or Tribal governments, cancels the penalty to worked tiles "
 "with output greater than 2 (as if all your cities were always celebrating)."
 msgstr ""
+"Die Begrenzung auf zwei Erzeugnisse pro Feld in diktatorischen und "
+"stammesrechtlichen Regierungen wird aufgehoben (als ob alle Ihre Städte "
+"feiern würden)."
 
 #: data/civ2civ3/techs.ruleset:732
 msgid "Doubles movement of nuclear units."
-msgstr ""
+msgstr "Verdoppelt den Bewegungsspielraum nuklearer Einheiten."
 
 #: data/civ2civ3/techs.ruleset:814
 msgid ""
 "Halves the corruption of trade related to distance from the capital (or "
 "eliminates it for Federation governments)."
 msgstr ""
+"Halbiert die Korruption im Handel wegen Entfernung zur Hauptstadt (oder "
+"beseitigt sie im Falle föderaler Regierungen)."
 
 #: data/civ2civ3/techs.ruleset:864
 #, fuzzy
@@ -23468,12 +23504,17 @@ msgid ""
 "benefiting from an oasis, building irrigation will yield two extra food "
 "resources rather than the usual one."
 msgstr ""
+"Flüsse bringen fruchtbaren Boden in Wüsten; ein Wüstenfluss, der noch nicht "
+"von einer vorhandenen Oase profitiert, erhält durch den Bau einer "
+"Bewässerung zwei extra Nahrungspunkte statt dem üblichen einzelnen."
 
 #: data/civ2civ3/terrain.ruleset:563
 msgid ""
 "Cities built in hills are at risk of earthquakes, which can interrupt a "
 "city's current project."
 msgstr ""
+"Städte, die sich auf hügeligem Gelände befinden, können von Erdbeben "
+"betroffen sein, die das aktuelle Bauprojekt unterbrechen."
 
 #: data/civ2civ3/terrain.ruleset:607
 #, fuzzy
@@ -23488,6 +23529,10 @@ msgid ""
 "unit ending its turn in mountains will start its next turn with one fewer "
 "movement point. Big Land units may not move into mountains without a road."
 msgstr ""
+"Landeinheiten, die sich auf Bergen befinden, können weiter sehen, aber eine "
+"schnelle Landeinheit, deren Zug auf einem Bergfeld endet, wird in der "
+"nächsten Runde mit einem Bewegungspunkt weniger anfangen. Große "
+"Landeinheiten können ohne Straßen nicht auf Bergfelder ziehen."
 
 #: data/civ2civ3/terrain.ruleset:743
 #, fuzzy
@@ -23529,6 +23574,9 @@ msgid ""
 "As well as granting vision, a buoy in deep ocean yields a shield resource to "
 "cities with an Offshore Platform."
 msgstr ""
+"Bojen gewähren Einsicht auf die betroffenen Felder. Auf Tiefseefeldern "
+"erzeugen sie sogar ein extra Schild für solche Städte, die eine Bohrinsel "
+"besitzen."
 
 #: data/civ2civ3/terrain.ruleset:1243
 msgid ""
@@ -23537,10 +23585,16 @@ msgid ""
 "terrain (Mountains, Jungle, and Swamp), and Merchant units (Caravans and "
 "Freight) can only travel on roads, railroads, rivers or ships."
 msgstr ""
+"Straßen verbinden die Städte in Ihrem Reich und erlauben den Landeinheiten "
+"ein rasches Vorankommen. Große Landeinheiten mit Rädern, wie Streitwagen und "
+"Katapulte, können mit ihrer Hilfe ansonsten unpassierbares Terrain (Berge, "
+"Dschungel, Sümpfe) durchqueren. Händlereinheiten (Karawanen und Lastwagen) "
+"können sogar nur auf Straßen, Schienen, Flüssen oder Schiffen reisen."
 
 #: data/civ2civ3/terrain.ruleset:1249
 msgid "On some terrains, roads also provide a trade bonus."
 msgstr ""
+"Auf bestimmten Geländeformen gewähren Straßen zudem einen Handelsbonus."
 
 #: data/civ2civ3/terrain.ruleset:1311
 #, fuzzy, no-c-format
@@ -23561,6 +23615,10 @@ msgid ""
 "the absence of roads. Triremes may also travel up rivers (although later "
 "boats cannot)."
 msgstr ""
+"Landeinheiten können sich zwecks schnelleren Fortkommens an Flüssen "
+"entlangbewegen (allerdings nicht diagonal), Händlereinheiten (Karawanen und "
+"Lastwagen) müssen dies u.U. sogar, wenn eine Straße nicht vorhanden ist. "
+"Auch Triremen können Flüsse hinauffahren (spätere Schiffe aber nicht mehr)."
 
 #: data/civ2civ3/terrain.ruleset:1320
 #, fuzzy
@@ -23577,10 +23635,12 @@ msgid ""
 "Cities built on or next to rivers incur a small risk of flooding, which will "
 "destroy stored food."
 msgstr ""
+"Es kann in an Flüssen gelegenen Städten gelegentlich zu Überschwemmungen "
+"kommen, welche die aufgespeicherten Nahrungsvorräte verderben."
 
 #: data/civ2civ3/units.ruleset:31
 msgid "Attack value halved when attacking Destroyer."
-msgstr ""
+msgstr "Angriffswert bei Angriff auf Zerstörer halbiert."
 
 #. TRANS: Unit class: used adjectivally
 #: data/civ2civ3/units.ruleset:141
@@ -23599,11 +23659,13 @@ msgid ""
 "TIP: optimal production of Settlers occurs in cities of at most size 4, or "
 "cities with a Granary of at most size 6."
 msgstr ""
+"TIPP: Die optimale Produktion von Siedlern erreichen Sie in Städten, die "
+"höchstens die Größe 4 aufweisen, oder in Städten mit einem Kornspeicher "
+"höchstens Größe 6."
 
 #: data/civ2civ3/units.ruleset:445
-#, fuzzy
 msgid "Migrants"
-msgstr " Migration"
+msgstr " Migranten"
 
 #: data/civ2civ3/units.ruleset:477
 msgid ""
@@ -23611,6 +23673,10 @@ msgid ""
 "found new cities. They can also perform some of the same terrain alterations "
 "as Workers."
 msgstr ""
+"Von Zeit zu Zeit kann es vorkommen, dass sie Ihre Bevölkerung umsiedeln "
+"wollen. Migranten können zu diesem Zweck genutzt werden; sie funktionieren "
+"ähnlich wie Siedler, können aber keine neuen Städte gründen. Ferner können "
+"sie einige der auch Arbeitern möglichen Geländeveränderungen vornehmen."
 
 #: data/civ2civ3/units.ruleset:518
 #, fuzzy
@@ -23657,6 +23723,9 @@ msgid ""
 "Workers can build airbases and buoys, which Settlers and Migrants cannot. "
 "Workers must be on board a ship to build buoys."
 msgstr ""
+"Arbeiter können Fliegerhorste errichten und Bojen zu Wasser lassen, wozu "
+"weder Siedler noch Migranten fähig sind. Arbeiter müssen sich zum Anlegen "
+"von Bojen auf einem Schiffe befinden."
 
 #: data/civ2civ3/units.ruleset:579
 msgid ""
@@ -23664,6 +23733,10 @@ msgid ""
 "fast, and may gain experience from work enabling them to work up to four "
 "times faster than Workers."
 msgstr ""
+"Ingenieure verhalten sich ähnlich wie Arbeiter, erledigen ihre Aufträge aber "
+"doppelt so schnell, bewegen sich doppelt so schnell, und können durch ihre "
+"Arbeit Erfahrung erlangen, die es ihnen erlaubt, bis zu viermal so schnell "
+"wie Arbeiter zu handeln."
 
 #: data/civ2civ3/units.ruleset:583
 #, fuzzy
@@ -23715,6 +23788,12 @@ msgid ""
 "in rough terrain (mountains, swamps, and jungles) without roads, and they "
 "cannot be transported by sea using early ships (Triremes and Caravels)."
 msgstr ""
+"Bei Streitwagen handelt es sich um von Pferden gezogene Kriegsgefährte, die "
+"einen stärkeren Angriff als Reiter aufweisen, aber teuer in der Ausbildung "
+"sind und keine Defensivvorteile aus dem umgebenden Gelände ziehen können. "
+"Sie können in Ermangelung von Straßen nicht in schwieriges Terrain "
+"vordringen (Gebirge, Sümpfe und Dschungel) und können nicht mithilfe der "
+"frühen Seeeinheiten (Triremen und Karavellen) transportiert werden."
 
 #: data/civ2civ3/units.ruleset:1138
 #, fuzzy
@@ -23726,6 +23805,11 @@ msgstr ""
 "starke Angriffstruppen genutzt werden, sich gegen die meisten anderen "
 "Einheiten aber nur schlecht verteidigen können."
 
+# MG: „mounted“ wird sonst überall als „beritten“ übersetzt, aber
+# das passt hier aus naheliegenden Gründen nicht. Auf der anderen
+# Seite handelt es sich bei „mounted“ um ein spezielles Einheiten-Tag,
+# das eine besondere Eigenschaft verschiedene berittener Einheiten
+# darstellt.
 #: data/civ2civ3/units.ruleset:1296
 msgid ""
 "Armors are motorized war wagons that are faster, stronger, and can take more "
@@ -23733,6 +23817,11 @@ msgid ""
 "terrain (they cannot move into mountains, swamps, or jungles without roads), "
 "and unable to use less rough terrain to improve their defense."
 msgstr ""
+"Panzer sind motorisierte Kriegswagen, die schneller, stärker, und "
+"widerstandsfähiger als jede andere bemannte Einheit sind. Sie können sich "
+"allerdings nicht auf schwierigem Gelände bewegen (Gebirge, Sümpfe, "
+"Dschungel) und können weniger günstiges Gelände nicht zu Defensivzwecken "
+"ausnutzen."
 
 #: data/civ2civ3/units.ruleset:1335
 msgid ""
@@ -23740,6 +23829,10 @@ msgid ""
 "require roads to move in rough terrain (mountains, swamps, and jungles), are "
 "difficult to defend, and are too big for early ships (Triremes and Caravels)."
 msgstr ""
+"Katapulte und ihre Nachfolger sind starke Einheiten. Sie sind aber sperrig "
+"und können sich nur mithilfe von Straßen über schwieriges Gelände (Gebirge, "
+"Sümpfe, Dschungel) bewegen, außerdem sind sie schwer zu verteidigen und zu "
+"groß für die frühen Schiffe (Triremen und Karavellen)."
 
 #: data/civ2civ3/units.ruleset:1369
 #, fuzzy
@@ -23780,12 +23873,16 @@ msgid ""
 "A Bomber's attack against units on land is a bombard attack; against units "
 "on water it has a regular attack."
 msgstr ""
+"Der Angriff eines Bombers gegen eine Landeinheit ist ein Bombardement, gegen "
+"Einheiten zur See wird ein gewöhnlicher Angriff ausgeführt."
 
 #: data/civ2civ3/units.ruleset:1540
 msgid ""
 "A Helicopter's attack against units on land is a bombard attack; against "
 "units on water it has a regular attack."
 msgstr ""
+"Der Angriff eines Helikopters gegen eine Landeinheit ist ein Bombardement, "
+"gegen Einheiten zur See wird ein gewöhnlicher Angriff ausgeführt."
 
 #: data/civ2civ3/units.ruleset:1543
 msgid ""
@@ -23794,6 +23891,11 @@ msgid ""
 "(Paratroopers, Alpine Troops, Marines, Partisans, and Fanatics) can embark "
 "or disembark at any time."
 msgstr ""
+"Helikopter können eine Infanterieeinheit transportieren. Die meisten Truppen "
+"müssen in Städten oder Fliegerhorsten entladen werden, aber speziell auf "
+"Mobilität ausgelegte Einheiten (Fallschirmspringer, Gebirsgjäger, Marines, "
+"Partisanen und Fanatiker) können den Senkrechtstarter jederzeit betreten "
+"oder verlassen."
 
 #: data/civ2civ3/units.ruleset:1548
 #, fuzzy
@@ -23875,6 +23977,9 @@ msgid ""
 "With Advanced Flight, all Nuclear units (including those already built) gain "
 "a range of 8 movement points, and Rocketry increases this to 16."
 msgstr ""
+"Die Moderne Flugtechnik gewährt allen Nukleareinheiten (einschließlich "
+"bereits erbauter) einen Aktionsradius von 8 Bewegungspunkten, Raketentechnik "
+"erhöht diesen auf 16."
 
 #: data/civ2civ3/units.ruleset:2117
 #, fuzzy
@@ -24004,6 +24109,8 @@ msgid ""
 "Caravans can only travel on roads, railroads, rivers or ships, and are not "
 "affected by movement modifiers."
 msgstr ""
+"Karawanen können sich nur entlang Straßen, Schienen, Flüssen oder Schiffen "
+"bewegen und sind nicht von Bewegungsmodifikatoren betroffen."
 
 #: data/civ2civ3/units.ruleset:2347
 msgid ""
@@ -24012,6 +24119,11 @@ msgid ""
 "involved are on different continents. Each city can support a maximum of two "
 "trade routes."
 msgstr ""
+"Eine Karawane kann dazu genutzt werden, zwischen zwei Städten verschiedener "
+"Nationen einen Handelsweg zu eröffnen (sogar zu Ihren Feinden). Der "
+"fortwährende Gewinn einer Handelsroute wird verdoppelt, wenn die zwei Städte "
+"auf unterschiedlichen Kontinenten liegen. Jede Stadt kann maximal zwei "
+"Handelsrouten unterhalten."
 
 #: data/Freeciv.in:68
 msgid "Connect to Freeciv Server"
@@ -24527,6 +24639,12 @@ msgid ""
 "may not completely cover rulesets which are very different from the classic "
 "rules."
 msgstr ""
+"Ein warnendes Wort: Freeciv ist höchst konfigurierbar, sowohl durch "
+"Laufzeitkonfiguration als auch durch nutzerdefinierbare Regelsätze, die "
+"nahezu jeden Aspekt der Spielregeln verändern können. Das Hilfesystem "
+"versucht, sich an die unterschiedlichen Regeln anzupassen, aber es wird "
+"vermutlich nicht alle Regelsätze mit großen Unterschieden zum klassischen "
+"Regelsatz unterstützen können."
 
 #: data/helpdata.txt:83
 msgid ""
@@ -25062,6 +25180,11 @@ msgid ""
 "description uses the classic ruleset to illustrate this; other rulesets may "
 "have different rules, or even omit some of these alterations entirely."
 msgstr ""
+"Gewisse Einheiten (im klassischen Regelsatz Siedler, Arbeiter und "
+"Ingenieure) besitzen die Fähigkeit, Geländeformen in verschiedener Weise zu "
+"verändern. Die folgende Beschreibung illustriert dies am Beispiel des "
+"klassischen Regelsatzes, in anderen Regelsätzen herrschen womöglich andere "
+"Regeln oder sie fehlen ganz."
 
 #: data/helpdata.txt:342
 msgid ""
@@ -34428,6 +34551,8 @@ msgstr ""
 msgid ""
 "Cannot remove a unit at %s because the given unit type id %d is invalid."
 msgstr ""
+"Kann eine Einheit auf dem Feld %s nicht entfernen, weil die Einheitentyp-ID "
+"%d ungültig ist."
 
 #. TRANS: ..." type <unit-type> at <tile-coordinates>
 #. * because"...
@@ -34437,6 +34562,8 @@ msgid ""
 "Cannot remove a unit of type %s at %s because the given owner's player id %d "
 "is invalid."
 msgstr ""
+"Kann eine Einheit des Typs %s auf dem Feld %s nicht entfernen, weil die "
+"Spieler-ID des Eigentümers %d ungültig ist."
 
 #: server/edithand.c:800 server/edithand.c:823
 #, c-format
@@ -34446,12 +34573,14 @@ msgstr "Einheit nicht gefunden (ID: %d)."
 #: server/edithand.c:861
 #, c-format
 msgid "Invalid veteran level %d for unit %d (%s)."
-msgstr ""
+msgstr "Unzulässiger Veteranengrad %d für Einheit %d (%s)."
 
 #: server/edithand.c:892
 #, c-format
 msgid "Cannot create a city because %d is not a valid tile index on this map!"
 msgstr ""
+"Kann Stadt nicht erstellen, weil %d kein auf dieser Karte zulässiger "
+"Feldindex ist!"
 
 #. TRANS: ..." at <tile-coordinates> because"...
 #: server/edithand.c:901
@@ -34459,6 +34588,8 @@ msgstr ""
 msgid ""
 "Cannot create a city at %s because the given owner's player id %d is invalid"
 msgstr ""
+"Kann keine Stadt auf dem Feld %s erstellen, weil die Spieler-ID des "
+"angegebenen Eigentümers %d ungültig ist."
 
 #. TRANS: ..." at <tile-coordinates>."
 #: server/edithand.c:913
@@ -34469,7 +34600,7 @@ msgstr "Auf %s kann keine Stadt gegründet werden."
 #: server/edithand.c:961
 #, c-format
 msgid "Cannot edit city with invalid city ID %d."
-msgstr ""
+msgstr "Kann Stadt mit der ungültigen Stadt-ID %d nicht bearbeiten."
 
 #: server/edithand.c:974
 #, c-format
