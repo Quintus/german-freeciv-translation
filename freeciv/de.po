@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-28 15:32+0200\n"
+"PO-Revision-Date: 2015-06-28 17:33+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -22409,6 +22409,9 @@ msgid ""
 "produce up to two units each turn (but only single units of types which cost "
 "population)."
 msgstr ""
+"Bei ausreichender Produktion kann eine Stadt mit einer Fabrik bis zu zwei "
+"Einheiten pro Runde erzeugen (aber nur einzelne Einheiten von Typen, die "
+"Bevölkerung kosten)."
 
 #: data/civ2civ3/buildings.ruleset:613
 #, fuzzy
@@ -22427,12 +22430,19 @@ msgid ""
 "production to 50% of its normal value, or 25% in combination with a "
 "Recycling Center. (Its effect is the same as that of a Hydro Plant.)"
 msgstr ""
+"Ein Kernkraftwerk reduziert die mit der Produktion zusammenhängende "
+"Umweltverschmutzung um die hälfte ihres normalen Werts, oder um ein Viertel, "
+"wenn ein Recycling-Zentrum vorhanden ist. (Der Effekt ist der gleiche wie "
+"bei einem Wasserkraftwerk.)"
 
 #: data/civ2civ3/buildings.ruleset:654
 msgid ""
 "A Nuclear Plant has a small risk of suffering a nuclear accident, which can "
 "lead to fallout and reduce the city's population."
 msgstr ""
+"Kernkraftwerke unterliegen dem (geringen) Risiko eines nuklearen Unfalls "
+"(GAU), der zum Fallout führen und so die Bevölkerung einer Stadt reduzieren "
+"kann."
 
 #: data/civ2civ3/buildings.ruleset:675
 #, fuzzy
@@ -22484,6 +22494,10 @@ msgid ""
 "its city. It also makes up to 2 more unhappy citizens content provided they "
 "are not unhappy about aggression."
 msgstr ""
+"Eine Polizeiwache neutralisiert die durch eine Militäreinheit erzeugte "
+"Unzufriedenheit in ihrer Stadt. Außerdem werden 2 weitere unzufriedene "
+"Bürger zufrieden, sofern sie nicht ihrerseits wegen Militäraktivitäten "
+"unzufrieden sind."
 
 #: data/civ2civ3/buildings.ruleset:817
 #, fuzzy, no-c-format
@@ -22510,6 +22524,10 @@ msgid ""
 "all present in the same city, increasing to 300% once the Great Library, "
 "Isaac Newton's College, and the Internet have all been built."
 msgstr ""
+"Der Gesamtbonus beträgt 150% wenn eine Bibliothek, eine Universität und ein "
+"Forschungslabor alle in derselben Stadt vorhanden sind, was sich auf sogar "
+"300% erhöht, wenn die Große Bibliothek, Isaac Newtons Universität und das "
+"Internet gebaut bzw. entwickelt worden sind."
 
 #: data/civ2civ3/buildings.ruleset:868
 #, fuzzy
@@ -22554,6 +22572,9 @@ msgid ""
 "production to 25% of its normal value, or eliminates it entirely in "
 "combination with a Recycling Center."
 msgstr ""
+"Allerdings reduziert ein Solarkraftwerk die mit der Produktion "
+"zusammenhängende Umweltverschmutzung auf ein Viertel ihres normalen Werts, "
+"zusammen mit einem Recycling-Zentrum wird sie vollständig beseitigt."
 
 #: data/civ2civ3/buildings.ruleset:1066
 #, no-c-format
@@ -22563,6 +22584,10 @@ msgid ""
 "Exchange together in a city yield a total bonus of 150%; adding Super "
 "Highways yields a total of 200%."
 msgstr ""
+"Erhöht das Luxus- und Steueraufkommen in einer Stadt um 50% bzw. um 100% "
+"wenn Autobahnen vorhanden sind. Ein Marktplatz, eine Bank und eine Börse "
+"führen in einer Stadt zu einem Gesamtbonus von 150%, kommen Autobahnen dazu, "
+"sogar 200%."
 
 #: data/civ2civ3/buildings.ruleset:1088
 #, fuzzy
@@ -22580,6 +22605,8 @@ msgid ""
 "Also doubles the effect of any Stock Exchange in the city (increasing luxury "
 "and tax output by an additional 50%)."
 msgstr ""
+"Verdoppelt die Auswirkungen einer Börse in der Stadt (erhöht das Luxus- und "
+"Steueraufkommen um weitere 50%)."
 
 #: data/civ2civ3/buildings.ruleset:1096
 #, fuzzy
@@ -22616,6 +22643,9 @@ msgid ""
 "in the same city, increasing to 200% once the Great Library and Isaac "
 "Newton's College have both been built."
 msgstr ""
+"Sind sowohl eine Bibliothek als auch eine Universität in der Stadt "
+"vorhanden, ergibt sich ein Gesamtbonus von 100%, der sich auf 200% erhöht, "
+"wenn die Große Bibliothek und Isaak Newtons Universität erbaut worden sind."
 
 #: data/civ2civ3/buildings.ruleset:1188
 #, fuzzy
@@ -22638,6 +22668,11 @@ msgid ""
 "and AI players will no longer be friendly towards the owner of the United "
 "Nations or the Eiffel Tower."
 msgstr ""
+"Der Abschluss des Apollo-Programms erlaubt es atomar ausgerüsteten Staaten "
+"unabhängig von der Existenz der Vereinten Nationen einen Krieg ohne "
+"vorangegangene Provokation zu erklären, außerdem werden KI-Spieler sich "
+"nicht weiter freundlich gegenüber dem Eigentümer der Vereinten Nationen oder "
+"des Eiffelturms verhalten."
 
 #: data/civ2civ3/buildings.ruleset:1217
 #, fuzzy
@@ -22654,6 +22689,8 @@ msgid ""
 "Upon completion of this wonder, tax collector specialists' gold output "
 "increases to 3 permanently for every nation."
 msgstr ""
+"Mit der Fertigstellung dieses Weltwunders erhöht sich der Goldertrag von "
+"Steuerfahndern aller Nationen dauerhaft auf 3."
 
 #: data/civ2civ3/buildings.ruleset:1262
 #, fuzzy
@@ -22695,6 +22732,8 @@ msgid ""
 "Upon completion of this wonder, scientist specialists' research output "
 "increases to 3 permanently for every nation."
 msgstr ""
+"Mit der Fertigstellung dieses Weltwunders erhöht sich der Forschungsertrag "
+"von Wissenschaftlern aller Nationen permanent auf 3."
 
 #: data/civ2civ3/buildings.ruleset:1330
 msgid ""
@@ -22703,18 +22742,28 @@ msgid ""
 "pollution caused by the population; it counteracts the pollution associated "
 "with a single building in each of your cities."
 msgstr ""
+"KI-Spieler versuchen gegenüber dem Eigentümer dieses Weltwunders "
+"freundlicher und nachsichtiger zu handeln (bis das Apollo-Programm "
+"abgeschlossen wurde). Außerdem reduziert es die von der Bevölkerung "
+"verursachte Umweltverschmutzung und hebt die durch ein einzelnes Gebäude in "
+"jeder Ihrer Städte erzeugte Umweltverschmutzung auf."
 
 #: data/civ2civ3/buildings.ruleset:1353
 msgid ""
 "Gives an immediate technology advance to the player that builds it, and "
 "thereafter 4 extra research points every turn to its city."
 msgstr ""
+"Führt bei dem errichtenden Spieler zu der sofortigen Entdeckung einer "
+"weiteren Technologie und zu vier weiteren Forschungspunkten pro Runde in "
+"seiner Stadt."
 
 #: data/civ2civ3/buildings.ruleset:1356
 msgid ""
 "Completion of this wonder permanently doubles the effect of Libraries for "
 "every player."
 msgstr ""
+"Die Fertigstellung dieses Weltwunders verdoppelt die Auswirkungen von "
+"Bibliotheken für alle Spieler dauerhaft."
 
 #: data/civ2civ3/buildings.ruleset:1377
 #, fuzzy, no-c-format
@@ -22749,18 +22798,27 @@ msgid ""
 "from shield production by a further 25% in all cities with Hydro Plants, "
 "making them equivalent to Solar Plants."
 msgstr ""
+"Fungiert in der Stadt, in der es errichtet wird, wie ein Wasserkraftwerk und "
+"reduziert die mit der Produktion zusammenhängende Umweltverschmutzung um "
+"weitere 25% in allen Städten mit Wasserkraftwerken, wodurch sie "
+"Solarkraftwerken ebenbürtig werden."
 
 #: data/civ2civ3/buildings.ruleset:1446
 msgid ""
 "Gives an immediate technology advance to the player that builds it, and "
 "thereafter 6 extra research points every turn to its city."
 msgstr ""
+"Führt bei dem errichtenden Spieler zur sofortigen Entdeckung einer weiteren "
+"Technologie sowie zu sechs weiteren Forschungspunkten pro Runde in seiner "
+"Stadt."
 
 #: data/civ2civ3/buildings.ruleset:1449
 msgid ""
 "Completion of this wonder permanently doubles the effect of Universities for "
 "every player."
 msgstr ""
+"Die Fertigstellung dieses Weltwunders verdoppelt dauerhaft die Auswirkungen "
+"von Universitäten für alle Spieler."
 
 #: data/civ2civ3/buildings.ruleset:1469
 #, fuzzy
@@ -22809,6 +22867,9 @@ msgid ""
 "TIP: if you're behind in research, this can help you catch up, by reducing "
 "the cost of technologies that other players already know."
 msgstr ""
+"TIPP: Wenn Sie in der Forschung zurückliegen, kann dieses Weltwunder Ihnen "
+"helfen, indem es die Kosten von Technologien, die andere Spieler bereits "
+"kennen, reduziert."
 
 #: data/civ2civ3/buildings.ruleset:1617
 #, fuzzy
@@ -22823,7 +22884,7 @@ msgstr ""
 
 #: data/civ2civ3/buildings.ruleset:1624
 msgid "Mausoleum of Mausolos"
-msgstr ""
+msgstr "das Mausoleum des Mausolos"
 
 #: data/civ2civ3/buildings.ruleset:1638
 #, fuzzy
@@ -22836,9 +22897,8 @@ msgstr ""
 "(außer wenn der Betroffene wegen militärischer Aktivität unzufrieden ist)."
 
 #: data/civ2civ3/buildings.ruleset:1645
-#, fuzzy
 msgid "Statue of Zeus"
-msgstr "die Freiheitsstatue"
+msgstr "die Zeusstatue"
 
 #: data/civ2civ3/buildings.ruleset:1659
 #, fuzzy
@@ -22856,7 +22916,7 @@ msgstr ""
 
 #: data/civ2civ3/buildings.ruleset:1668
 msgid "Temple of Artemis"
-msgstr ""
+msgstr "der Artemistempel"
 
 #: data/civ2civ3/buildings.ruleset:1683
 #, fuzzy
@@ -22882,7 +22942,6 @@ msgstr ""
 "Handelspunkt."
 
 #: data/civ2civ3/buildings.ruleset:1712
-#, fuzzy
 msgid "Internet"
 msgstr "Das Internet"
 
@@ -22995,9 +23054,8 @@ msgstr ""
 "Schatzkammer."
 
 #: data/civ2civ3/game.ruleset:18
-#, fuzzy
 msgid "Civ2Civ3 ruleset"
-msgstr "Civ2-Regelsatz"
+msgstr "Civ2Civ3-Regelsatz"
 
 #: data/civ2civ3/game.ruleset:21
 msgid ""
@@ -23011,6 +23069,16 @@ msgid ""
 "Detailed description of the differences from the classic ruleset can be "
 "found in README.ruleset_civ2civ3."
 msgstr ""
+"Sie spielen Freeciv mit dem Civ2Civ3-Regelwerk\n"
+"\n"
+"Der Spielverlauf ähnelt mehr demjenigen von Civ3, behält aber das "
+"Kampfsystem von Civ2 bei.\n"
+"\n"
+"Dieser Regelsatz ist für Einzelspieler angepasst, mit einer weniger "
+"aggressiven KI zu Anfang, die jedoch gegen Ende immer fordernder wird.\n"
+"\n"
+"Eine detaillierte Beschreibung der Unterschiede zum klassischen Regelsatz "
+"kann der Datei „README.ruleset_civ2civ3“ entnommen werden."
 
 #: data/civ2civ3/governments.ruleset:74
 #, no-c-format
@@ -23026,26 +23094,42 @@ msgid ""
 "* Base production waste is 30%. This increases with distance from the "
 "capital (half as fast with knowledge of Trade)."
 msgstr ""
+"• Stadtverbesserungen und Technologien erfordern keinen Unterhalt.\n"
+"• Jede Stadt kann bis zu zwei Einheiten ohne Kosten unterstützen; jede "
+"weitere Einheit verursacht 1 Schild Kosten pro Runde.\n"
+"• Militäreinheiten verursachen auch dann keine Unzufriedenheit, wenn sie "
+"aggressiv eingsetzt werden.\n"
+"• Sie haben keine Kontrolle über die Steuersätze. Die Hälfte des "
+"Handelseinkommens geht schlicht an die Wirtschaft verloren, der Rest wird in "
+"Luxus umgewandelt. Die konventionelle Korruption erhöht sich mit der "
+"Entfernung von der Hauptstadt (ab der Entdeckung der Firma nur noch halb so "
+"schnell).\n"
+"• Der Grundverlust in der Produktion beträgt 30%. Dies erhöht sich mit "
+"zunehmender Entfernung von der Hauptstadt (ab der Entdeckung des Handels nur "
+"noch halb so schnell)."
 
 #: data/civ2civ3/governments.ruleset:90
 msgid "Tribal"
-msgstr ""
+msgstr "Stammesführung"
 
 #: data/civ2civ3/governments.ruleset:98
-#, fuzzy
 msgid ""
 "Under a Tribal government, you are part ruler of your people. Your control "
 "over your citizens is maintained largely by spiritual counsel."
 msgstr ""
-"In der Diktatur sind Sie der unbeschränkte Herrscher Ihres Volkes. Sie "
-"kontrollieren Ihre Bürger hauptsächlich durch den gewohnheitsmäßigen "
-"Gebrauch des Kriegsrechts."
+"In der Regierungsform der Stammesführung sind Sie Mitglied des Ältestenrats "
+"und dementsprechend eingeschränkter Teilherrscher über Ihr Volk. Ihre "
+"Kontrolle beruht im Wesentlichen auf den Entscheidungen der spirituellen "
+"Zusammenkünfte des Ältestenrats."
 
 #: data/civ2civ3/governments.ruleset:101
 msgid ""
 "Compared to Despotism, a Tribal economy is more shield-oriented. Its bonuses "
 "to veterancy and strong martial law can be an advantage in wartime."
 msgstr ""
+"Im Vergleich zur Diktatur ist eine stammesrechtlich geführte Wirtschaft "
+"produktiver. Ihre Boni in der Veteranenschaft und ein starkes Kriegsrecht "
+"können in Zeiten militärischer Konfrontation von Vorteil sein."
 
 #: data/civ2civ3/governments.ruleset:107
 #, no-c-format
@@ -23062,10 +23146,24 @@ msgid ""
 "* There is no base level of production waste, but an increasing amount with "
 "distance from the capital (half as fast with knowledge of Trade)."
 msgstr ""
+"• Erhöht die Wahrscheinlichkeit, dass Landeinheiten nach einem Kampf den "
+"nächsten Veteranengrad erreichen, um die Hälfte.\n"
+"• Jede Stadt kann umsonst bis zu zwei Einheiten unterstützen; jede weitere "
+"Einheit kostet ein Schild pro Runde.\n"
+"• Anders als in späteren Regierungsformen führen militärische Einheiten auch "
+"dann nicht zu Unzufriedenheit, wenn sie aggressiv eingsetzt werden.\n"
+"• Die Grundkorruption beträgt 30% (die höchste unter allen "
+"Regierungsformen). Sie erhöht sich mit der Entfernung von der Hauptstadt (ab "
+"Entdeckung der Firma nur noch halb so schnell).\n"
+"• Es gibt keine Grundverschwendung in der Produktion, aber sie erhöht sich "
+"dennoch mit einer größeren Entfernung zur Hauptstadt (ab Entdeckung des "
+"Handels nur noch halb so schnell)."
 
 #: data/civ2civ3/governments.ruleset:135
 msgid "Compared to Tribalism, a Despotic economy is more trade-oriented."
 msgstr ""
+"Im Vergleich zur Stammesführung ist eine dikatorisch geführte Wirtschaft "
+"handelsorientierter."
 
 #: data/civ2civ3/governments.ruleset:139
 #, no-c-format
