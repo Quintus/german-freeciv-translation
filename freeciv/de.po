@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-29 12:23+0200\n"
+"PO-Revision-Date: 2015-06-29 21:25+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -26316,7 +26316,7 @@ msgstr ""
 msgid ""
 "If you are at war with a civilization and some of your citizens are of that "
 "nationality, those citizens may also become unhappy."
-msgstr ""
+msgstr "Wenn Sie sich mit einer anderen Nation im Krieg befinden und einige Ihrer Einwohner die Staatsbürgerschaft Ihres Feindes besitzen, so können diese Bürger unzufrieden werden."
 
 #: data/helpdata.txt:855
 #, fuzzy
@@ -26892,11 +26892,11 @@ msgid ""
 "called 'bombardment', which works rather differently: the attacker sustains "
 "no damage, and damages every unit in the target tile or city, but defenders "
 "are never completely destroyed.)"
-msgstr ""
+msgstr "(In einigen Regelsätzen können bestimmte Einheiten eine alternative Angriffsform anwenden, das „Bombardement“, welches anders funktioniert: Der Angreifer erleidet keinerlei Schaden, schädigt aber alle Einheiten auf dem Zielfeld oder der Zielstadt. Verteidigungseinheiten werden niemals vollständig zerstört.)"
 
 #: data/helpdata.txt:1129
 msgid "The outcome of combat depends on several factors, including chance."
-msgstr ""
+msgstr "Der Ausgang einer Schlacht hängt von zahlreichen Faktoren ab, darunter auch der schlichte Zufall."
 
 #: data/helpdata.txt:1131
 #, fuzzy
@@ -26929,7 +26929,7 @@ msgid ""
 " - Some rulesets (but not the classic rules) have 'tired attacks': a unit "
 "that attacks with less than a full movement point will have its strength "
 "proportionally reduced."
-msgstr ""
+msgstr " • In einigen Regelsätzen (aber nicht im klassischen Regelwerk) gibt es einen „ermüdeten Angriff“, bei dem eine angreifende Einheit, die nicht mehr im Besitz ihrer vollen Bewergungspunkte ist, eine entsprechend reduzierte Angriffskraft aufweist."
 
 #: data/helpdata.txt:1145
 msgid "Next, the defender's strength is modified."
@@ -26962,7 +26962,7 @@ msgstr ""
 
 #: data/helpdata.txt:1156
 msgid " - Ruleset-specific bonuses are applied:"
-msgstr ""
+msgstr " • Regelsatzspezifische Boni werden angewandt:"
 
 #: data/helpdata.txt:1158
 #, fuzzy
@@ -32054,7 +32054,7 @@ msgstr "%s wächst zu Größe %d."
 #: server/cityturn.c:918
 #, c-format
 msgid "A recent plague outbreak prevents growth in %s."
-msgstr ""
+msgstr "Der jüngste Seuchenausbruch in %s verhindert ein Wachstum der Stadt."
 
 #: server/cityturn.c:940
 #, c-format
@@ -34528,7 +34528,7 @@ msgstr " *** %s hat den Bearbeitungsmodus deaktiviert. *** "
 #: server/edithand.c:527 server/edithand.c:562 server/edithand.c:597
 #, c-format
 msgid "Cannot edit the tile because %d is not a valid tile index on this map!"
-msgstr ""
+msgstr "Kann das Feld nicht bearbeiten, weil %d kein für diese Karte zulässiger Feldindex ist."
 
 #. TRANS: ..." the tile <tile-coordinates> because"...
 #: server/edithand.c:440
@@ -34563,12 +34563,12 @@ msgstr ""
 #, c-format
 msgid ""
 "Cannot modify base for the tile %s because %d is not a valid base type id."
-msgstr ""
+msgstr "Kann die Basis für das Feld %s nicht bearbeiten, weil %d keine gültige Basistypen-ID ist."
 
 #: server/edithand.c:664
 #, c-format
 msgid "Cannot create units because %d is not a valid tile index on this map!"
-msgstr ""
+msgstr "Kann Einheiten nicht erstellen, weil %d kein auf dieser Karte zulässiger Feldindex ist!"
 
 #. TRANS: ..." at <tile-coordinates> because"...
 #: server/edithand.c:673
@@ -34675,24 +34675,24 @@ msgstr "Kann Stadtnamen nicht ändern: %s"
 #: server/edithand.c:985
 #, c-format
 msgid "Invalid city size %d for city %s."
-msgstr ""
+msgstr "Unzulässige Größe %d für Stadt %s."
 
 #: server/edithand.c:1002
 #, c-format
 msgid "It is impossible for a city to have %s!"
-msgstr ""
+msgstr "Keine Stadt kann %s haben!"
 
 #: server/edithand.c:1051
 #, c-format
 msgid ""
 "Invalid city food stock amount %d for city %s (allowed range is %d to %d)."
-msgstr ""
+msgstr "Unzulässige Größe des Nahrungsvorrats %d in der Stadt %s (erlaubt sind Werte zwischen %d und %d)."
 
 #: server/edithand.c:1065
 #, c-format
 msgid ""
 "Invalid city shield stock amount %d for city %s (allowed range is %d to %d)."
-msgstr ""
+msgstr "Unzulässiger Wert des Schildvorrats %d in der Stadt %s (erlaubt sind Werte zwischen %d und %d)."
 
 #: server/edithand.c:1112
 #, c-format
@@ -34708,7 +34708,7 @@ msgstr ""
 msgid ""
 "No more players can be added because there are no available nations (%d "
 "used)."
-msgstr ""
+msgstr "Es können keine Spieler mehr hinzugefügt werden, weil der Vorrat an verfügbaren Nationen erschöpft ist (%d sind in Verwendung)."
 
 #: server/edithand.c:1129
 msgid "Player cannot be created because random nation selection failed."
@@ -34728,59 +34728,59 @@ msgstr "Spieler nicht gefunden (ID: %d)."
 #: server/edithand.c:1204
 #, c-format
 msgid "Cannot edit player with invalid player ID %d."
-msgstr ""
+msgstr "Kann Spieler mit der ungültigen Spieler-ID %d nicht bearbeiten."
 
 #: server/edithand.c:1221
 #, c-format
 msgid "Cannot change name of player (%d) '%s' to '%s': %s"
-msgstr ""
+msgstr "Kann den Namen des Spielers %d „%s“ nicht nach „%s“ ändern: %s"
 
 #: server/edithand.c:1232
 #, c-format
 msgid ""
 "Cannot change nation for player %d (%s) because the given nation ID %d is "
 "invalid."
-msgstr ""
+msgstr "Kann die Nation für den Spieler %d (%s) nicht ändern, weil die angegebene Nationen-ID ungültig ist."
 
 #: server/edithand.c:1238
 #, c-format
 msgid ""
 "Cannot change nation for player %d (%s) to nation %d (%s) because that "
 "nation is already assigned to player %d (%s)."
-msgstr ""
+msgstr "Kann die Nation für Spieler %2$s (%1$d) nicht nach %4$s (Nation %3$d) ändern, weil diese Nation bereits dem Spieler %6$s (%5$d) zugewiesen ist."
 
 #: server/edithand.c:1247
 #, c-format
 msgid ""
 "Cannot change nation for player %d (%s) to nation %d (%s) because that "
 "nation is not in the current nationset."
-msgstr ""
+msgstr "Kann die Nation für den Spieler %d (%s) nicht nach %d (%s) ändern, weil der aktuelle Nationensatz diese Nation nicht umfasst."
 
 #: server/edithand.c:1256
 #, c-format
 msgid ""
 "Cannot change nation for player %d (%s) to nation %d (%s) because that "
 "nation is unsuitable for this player."
-msgstr ""
+msgstr "Kann die Nation für den Spieler %d (%s) nicht nach %d (%s) ändern, weil diese Nation für jenen Spieler nicht geeignet ist."
 
 #: server/edithand.c:1297
 #, c-format
 msgid ""
 "Cannot set gold for player %d (%s) because the value %d is outside the "
 "allowed range."
-msgstr ""
+msgstr "Kann den Goldvorrat für Spieler %d (%s) nicht festsetzen, weil der Wert %d außerhalb der zulässigen Grenzen liegt."
 
 #: server/edithand.c:1356
 #, c-format
 msgid "Cannot edit vision because %d is not a valid tile index on this map!"
-msgstr ""
+msgstr "Kann Karteneinsicht nicht festlegen, weil %d kein gültiger Feldindex auf dieser Karte ist!"
 
 #. TRANS: ..." at <tile-coordinates> because"...
 #: server/edithand.c:1365
 #, c-format
 msgid ""
 "Cannot edit vision for the tile at %s because given player id %d is invalid."
-msgstr ""
+msgstr "Kann Karteneinsicht für das Feld %s nicht festlegen, weil die angegebene Spieler-ID %d ungültig ist."
 
 #: server/edithand.c:1434
 #, c-format
@@ -34801,27 +34801,27 @@ msgstr "Kann Nebel des Krieges nicht für ungültige Spieler-ID %d umschalten."
 #: server/edithand.c:1496 server/edithand.c:1535
 #, c-format
 msgid "Invalid tile index %d for start position."
-msgstr ""
+msgstr "Ungültiger Feldindex %d für die Startposition."
 
 #: server/edithand.c:1543
 #, c-format
 msgid ""
 "Cannot edit start position nations at (%d, %d) because there is no start "
 "position there."
-msgstr ""
+msgstr "Kann Startpositionen für Nationen nicht auf (%d|%d) festlegen, weil sich dort keine Startposition befindet."
 
 #: server/edithand.c:1575
 #, c-format
 msgid "Cannot set invalid game year %d. Valid year range is from %d to %d."
-msgstr ""
+msgstr "Das Spieljahr %d ist unzulässig und kann nicht festgelegt werden. Der erlaubte Bereich reicht von %d bis %d."
 
 #: server/edithand.c:1623
 msgid "No permissions to remotely save scenario."
-msgstr ""
+msgstr "Nicht ausreichend Rechte, um Szenario fernspeichern zu können."
 
 #: server/edithand.c:1630
 msgid "Scenario information not set. Cannot save scenario."
-msgstr ""
+msgstr "Es wurden keine Szenarieninformationen festgelegt. Das Szenario kann nicht gespeichert werden."
 
 #: server/fcdb.c:128
 #, c-format
@@ -35110,7 +35110,7 @@ msgstr "%s regiert die %s jetzt als %s."
 msgid ""
 "The tax rates for the %s are changed from %3d%%/%3d%%/%3d%% (tax/luxury/"
 "science) to %3d%%/%3d%%/%3d%%."
-msgstr ""
+msgstr "Die Steuersätze der %s werden von %3d%%/%3d%%/%3d%% (Steuern/Luxus/Forschung) nach %3d%%/%3d%%/%3d%% geändert."
 
 #. TRANS: this is a message event so don't make it
 #. * too long.
@@ -35210,7 +35210,7 @@ msgstr ""
 
 #: server/plrhand.c:1470
 msgid "no color"
-msgstr ""
+msgstr "keine Farbe"
 
 #: server/plrhand.c:1556
 #, c-format
@@ -35302,7 +35302,7 @@ msgstr[1] "Der Bürgerkrieg spaltet die %s; die %s kontrollieren nun %d Städte.
 msgid ""
 "User '%s' is currently allowed to take control of your player while you are "
 "away. Use '/delegate cancel' to revoke this access."
-msgstr ""
+msgstr "Der Nutzer „%s“ hat während Ihrer Abwesenheit die Kontrolle über Ihren Spieler inne. Verwenden Sie „/delegate cancel“ um diese Berechtigung aufzuheben."
 
 #: server/plrhand.c:2816
 #, c-format
@@ -35724,7 +35724,7 @@ msgstr "Could not find a readable \"%s.%s\" ruleset file."
 
 #: server/ruleset.c:6022
 msgid "Ruleset couldn't be loaded. Keeping previous one."
-msgstr ""
+msgstr "Regelsatz konnte nicht geladen werden. Der bisherige Regelsatz wird beibehalten."
 
 #: server/ruleset.c:6040
 msgid "Ruleset couldn't be loaded. Switching to default one."
@@ -36166,7 +36166,7 @@ msgstr ""
 
 #: server/settings.c:734
 msgid "Starting units string cannot be empty."
-msgstr ""
+msgstr "Die Liste der Starteinheiten darf nicht leer sein."
 
 #: server/settings.c:750
 #, c-format
@@ -36260,7 +36260,7 @@ msgstr "Die Kartengröße (%d × %d = %d) muss kleiner als %d Felder sein."
 
 #: server/settings.c:1007
 msgid "No nations in the currently loaded ruleset have associated colors."
-msgstr ""
+msgstr "Für keine der im aktuellen Regelsatz enthaltenen Nationen ist eine Farbe festgelegt."
 
 #: server/settings.c:1064
 msgid "Map size definition"
@@ -36550,6 +36550,12 @@ msgid ""
 "- \"Vertical placement\" (VERTICAL): players of the same team will be placed "
 "vertically."
 msgstr ""
+"Nachdem unter Zuhilfenahme der Einstellung „startpos“ die Startpositionen erzeugt wurden, legt diese Einstellung die Verteilung der verschiedenen Spieler eines Teams fest.\n"
+"• „Ausgeschaltet“ (DISABLED): Die Startpositionen werden unabhängig von der Teamzugehörigkeit zufällig zugewiesen.\n"
+"• „So nah wie möglich“ (CLOSEST): Die Spieler werden unabhängig von Koninentalgrenzen so nah aneinander wie möglich platziert.\n"
+"• „Auf demselben Kontinent“ (CONTINENT): Sofern möglich, werden alle Mitglieder eines Teams auf derselben Insel bzw. demselben Kontinent platziert.\n"
+"• „Horizontale Platzierung“ (HORIZONTAL): Die Mitglieder eines Teams werden horizontal platziert.\n"
+"• „Vertikale Platzierung“ (VERTICAL): Die Mitglieder eines Teams werden vertikal platziert."
 
 #: server/settings.c:1262
 msgid "Presence of 1x1 islands"
