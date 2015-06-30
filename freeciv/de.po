@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-30 18:01+0200\n"
+"PO-Revision-Date: 2015-06-30 18:44+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -23385,32 +23385,33 @@ msgstr ""
 "Straßen nicht passieren."
 
 #: data/civ2civ3/terrain.ruleset:1061
-#, fuzzy
 msgid ""
 "Units in a fortress receive double defense against land units and boats. Any "
 "kind of land unit remaining in a fortress for a whole turn without moving "
 "recovers a quarter of its hit points. With Astronomy, fortresses gain "
 "watchtowers from which units can see further afield."
 msgstr ""
-"Festungen erleichtern die Verteidigung für Landeinheiten. Neben anderen "
-"Effekten erhalten Landeinheiten, die sich bewegungslos eine ganze Runde in "
-"einer Festung aufhalten, ein Viertel ihrer Lebenspunkte zurück. Zusammen mit "
-"der Erfindung werden Festungen zu Außenposten, von denen aus Einheiten weit "
-"ins Land schauen können."
+"Festungen erleichtern die Verteidigung, indem sie den stationierten "
+"Einheiten gegenüber Land- und Seeeinheiten einen doppelten "
+"Verteidigungsbonus gewähren. Daneben erhalten Landeinheiten, die sich "
+"bewegungslos eine ganze Runde in einer Festung aufhalten, ein Viertel ihrer "
+"Lebenspunkte zurück. Mit der Entdeckung der Astronomie erhalten Festungen "
+"Außenposten, von denen aus Einheiten weit ins Land schauen können."
 
 #: data/civ2civ3/terrain.ruleset:1088
-#, fuzzy
 msgid ""
 "Airbases allow your air units to land and refuel. Units in an airbase "
 "receive double defense against enemy air units. An air unit remaining in an "
 "airbase for a whole turn without moving recovers a quarter of its hit "
 "points. Air units in an airbase may be attacked by land units."
 msgstr ""
-"Festungen erleichtern die Verteidigung für Landeinheiten. Neben anderen "
-"Effekten erhalten Landeinheiten, die sich bewegungslos eine ganze Runde in "
-"einer Festung aufhalten, ein Viertel ihrer Lebenspunkte zurück. Zusammen mit "
-"der Erfindung werden Festungen zu Außenposten, von denen aus Einheiten weit "
-"ins Land schauen können."
+"Auf einem Fliegerhorst landet Ihre Luftwaffe zum Auftanken, und auf ihnen "
+"stationierte Einheiten erhalten doppelte Verteidigungswerte gegenüber "
+"feindlichen Lufteinheiten. Eine Lufteinheit, die eine ganze Runde "
+"bewegungslos auf einem Fliegerhorst abgestellt bleibt, regeneriert ein "
+"Viertel ihrer Trefferpunkte. Achten Sie aber darauf, dass die auf einem "
+"Fliegerhorst untergebrachten Lufteinheiten von Landeinheiten angegriffen "
+"werden können."
 
 #: data/civ2civ3/terrain.ruleset:1115
 msgid ""
@@ -23440,16 +23441,14 @@ msgstr ""
 "Auf bestimmten Geländeformen gewähren Straßen zudem einen Handelsbonus."
 
 #: data/civ2civ3/terrain.ruleset:1311
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Any land terrain type may have a River on it. A River adds 1 trade to the "
 "resources produced by that tile. It also increases a tile's defense factor "
 "by 25%."
 msgstr ""
 "Auf jeder Landgeländeform können Flüsse vorkommen. Ein Fluß gibt einen "
-"zusätzlichen Handelspunkt und erhöht den Verteidigungsfaktor um 50%. "
-"Zusätzlich kostet die (nicht-diagonale) Bewegung von Landeinheiten entlang "
-"eines Flusses nur 1/3 Bewegungspunkt pro Feld."
+"zusätzlichen Handelspunkt und erhöht den Verteidigungsfaktor um 25%."
 
 #: data/civ2civ3/terrain.ruleset:1315
 msgid ""
@@ -23464,14 +23463,14 @@ msgstr ""
 "Auch Triremen können Flüsse hinauffahren (spätere Schiffe aber nicht mehr)."
 
 #: data/civ2civ3/terrain.ruleset:1320
-#, fuzzy
 msgid ""
 "Roads and railroads can only be built on River tiles if your civilization "
 "has learned Bridge Building technology. Fortresses and Airbases cannot be "
 "built on River tiles."
 msgstr ""
-"Straßen und Eisenbahnlinien können auf Flussfeldern nur mit der Kenntnis des "
-"Brückenbaus errichtet werden."
+"Straßen und Eisenbahntrassen können auf Flussfeldern nur mit der Kenntnis "
+"des Brückenbaus errichtet werden, Festungen und Fliegerhorste überhaupt "
+"nicht."
 
 #: data/civ2civ3/terrain.ruleset:1324
 msgid ""
@@ -23487,15 +23486,13 @@ msgstr "Angriffswert bei Angriff auf Zerstörer halbiert."
 
 #. TRANS: Unit class: used adjectivally
 #: data/civ2civ3/units.ruleset:141
-#, fuzzy
 msgid "?unitclass:Small Land"
-msgstr "Bodentruppen"
+msgstr "KleineLandeinheit"
 
 #. TRANS: Unit class: used adjectivally
 #: data/civ2civ3/units.ruleset:157
-#, fuzzy
 msgid "?unitclass:Merchant"
-msgstr "Seeeinheiten"
+msgstr "Händler"
 
 #: data/civ2civ3/units.ruleset:439
 msgid ""
@@ -23522,7 +23519,6 @@ msgstr ""
 "sie einige der auch Arbeitern möglichen Geländeveränderungen vornehmen."
 
 #: data/civ2civ3/units.ruleset:518
-#, fuzzy
 msgid ""
 "Building an irrigation system on a suitable tile causes it to produce some "
 "extra food each turn. Without knowledge of Electricity, this requires a "
@@ -23534,18 +23530,18 @@ msgid ""
 "Farmland by irrigating them a second time; this provides more food to a city "
 "if it has a Supermarket."
 msgstr ""
-"Verschiedene Geländeformen können bewässert werden, vorausgesetzt ein in "
-"voller Breite (und nicht nur an einer Ecke) angrenzendes Nachbarfeld ist ein "
-"Ozean-, ein See- oder ein Flussfeld oder besitzt bereits ein "
-"Bewässerungssystem. Ist die Bewässerung einmal eingerichtet, bleibt sie auch "
-"dann bestehen, wenn die ursprüngliche Wasserquelle entfernt wird.\n"
-"\n"
-"Bewässerung hilft, eine größere Menge Nahrung zu erzeugen. Entsprechende "
-"Kenntnisse vorausgesetzt, kann durch eine Verbesserung des "
-"Bewässerungssystems noch produktiveres Ackerland geschaffen werden."
+"Verschiedene Geländeformen können bewässert werden, vorausgesetzt, Sie haben "
+"die Elektrizität erforscht oder ein in voller Breite (und nicht nur an einer "
+"Ecke) angrenzendes Nachbarfeld ist ein Ozean-, ein See- oder ein Flussfeld "
+"oder besitzt bereits ein Bewässerungssystem. Ist die Bewässerung einmal "
+"eingerichtet, bleibt sie auch dann bestehen, wenn die ursprüngliche "
+"Wasserquelle entfernt wird. Bewässerung hilft, eine größere Menge Nahrung zu "
+"erzeugen. Entsprechende Kenntnisse in der Kühltechnik vorausgesetzt, kann "
+"durch eine Verbesserung des Bewässerungssystems durch erneutes Bewässern "
+"noch ertragreicheres Ackerland geschaffen werden, welches Städten mit einem "
+"Supermarkt zugute kommt."
 
 #: data/civ2civ3/units.ruleset:533
-#, fuzzy
 msgid ""
 "On terrain unsuitable for irrigation systems or mines, issuing the \"irrigate"
 "\" or \"mine\" order may permanently convert the terrain to another type; "
@@ -23553,13 +23549,14 @@ msgid ""
 "yield Plains. (Terrain conversion with the \"irrigate\" order does not "
 "require a water source.)"
 msgstr ""
-" ‒ Siedler und Arbeiter verfügen über begrenzte Möglichkeit, "
-"Geländeveränderungen vorzunehmen, die sie nutzen können, indem Sie die "
-"Befehle »Bewässerung einrichten« oder »Mine graben« erteilen, während eine "
-"solche Einheit auf einem Feld steht, das diese Art von Verbesserung nicht "
-"unterstützt; siehe die nachstehende Tabelle. (Die Umwandlung eines Feldes in "
-"ein anderes mit dem Befehl zur Einrichtung einer Bewässerungsanlage "
-"erfordert keine Wasserquelle.)"
+"Einige Einheiten verfügen über begrenzte Möglichkeit, Geländeveränderungen "
+"vorzunehmen, die Sie nutzen können, indem Sie die Befehle „Bewässerung "
+"einrichten“ oder „Bergwerk bauen“ erteilen, während eine solche Einheit auf "
+"einem Feld steht, das diese Art von Verbesserung nicht unterstützt, was "
+"allerdings üblicherweise teurer ist. So können Sie etwa Wald „bewässern“ und "
+"somit eine Ebene hervorbringen (die Umwandlung eines Feldes in ein anderes "
+"mit dem Befehl zur Einrichtung einer Bewässerungsanlage erfordert keine "
+"Wasserquelle)."
 
 #: data/civ2civ3/units.ruleset:539
 msgid ""
@@ -23582,7 +23579,6 @@ msgstr ""
 "wie Arbeiter zu handeln."
 
 #: data/civ2civ3/units.ruleset:583
-#, fuzzy
 msgid ""
 "With knowledge of Fusion Power, Engineers may also perform more radical "
 "terrain transformations than Workers, Settlers, or Migrants, with the "
@@ -23591,29 +23587,30 @@ msgid ""
 "vessel, on a tile surrounded by sufficient existing land). See the Terrain "
 "Alterations section for more details."
 msgstr ""
-"Ingenieure sind Arbeitern sehr ähnlich, arbeiten aber doppelt so schnell und "
-"können sich doppelt so schnell bewegen. Außerdem sind sie im Gegensatz zu "
-"Siedlern dazu fähig, Geländeformen zu verändern (z.B. Tundra in Wüste, siehe "
-"den Abschnitt über Geländeveränderungen für mehr Informationen)."
+"Ab Kenntnis der Kernkraft sind Ingenieure über den Befehl „Gelände "
+"verändern“ in der Lage, umwälzende Veränderungen am Gelände vorzunehmen, die "
+"außerhalb der Möglichkeiten von Arbeitern, Siedlern und Migranten liegen. "
+"Beispielsweise können Tundren in Ebenen oder unter Umständen sogar Ozeane in "
+"Sümpfe umgewandelt werden (dazu muss der Ingenieur sich an Bord eines "
+"Schiffes befinden und ausreichend umgebendes Land vorhanden sein). Siehe den "
+"Abschnitt über Geländeveränderung für weitere Informationen."
 
 #: data/civ2civ3/units.ruleset:683
-#, fuzzy
 msgid "Archers fight with bows and arrows and have a good offensive value."
 msgstr ""
-"Bogenschützen kämpfen mit Pfeil und Bogen und haben einen guten Angriffs- "
-"und einen akzeptablen Verteidigungswert."
+"Bogenschützen kämpfen mit Pfeil und Bogen und haben einen guten Angriffswert."
 
 #: data/civ2civ3/units.ruleset:926
-#, fuzzy
 msgid ""
 "Fundamentalist nations can maintain Fanatic units without having to pay any "
 "upkeep nor causing military unhappiness.  Instead, each unit reduces the "
 "population by 1."
 msgstr ""
-"Fundamentalistische Staaten können Fanatiker ohne Unterhaltskosten einsetzen."
+"In fundamentalistischen Staaten verursachen Fanatiker weder Unterhaltskosten "
+"noch Unzufriedenheit wegen militärischer Aktivitäten. Stattdessen reduziert "
+"jede Einheit die Bevölkerung um eins."
 
 #: data/civ2civ3/units.ruleset:1034
-#, fuzzy
 msgid ""
 "The Mechanized Infantry has the strongest inherent defensive strength of any "
 "land unit, and is very fast on roads and easy terrain, but it is hindered "
@@ -23621,7 +23618,10 @@ msgid ""
 "or jungles), and it is only available near the end of the technology tree."
 msgstr ""
 "Mechanische Infanterie ist die Landeinheit mit der höchsten "
-"Verteidigungsstärke, sie wird allerdings auch erst sehr spät verfügbar."
+"Verteidigungsstärke, sie wird allerdings auch erst sehr spät verfügbar. Sie "
+"bewegt sich auf Straßen und in einfachem Gelände extrem schnell, wird durch "
+"schwieriges Gelände aber massiv behindert (sie kann nicht auf Berg-, Sumpf- "
+"und Dschungelfelder ziehen)."
 
 #: data/civ2civ3/units.ruleset:1102
 msgid ""
@@ -23639,14 +23639,12 @@ msgstr ""
 "frühen Seeeinheiten (Triremen und Karavellen) transportiert werden."
 
 #: data/civ2civ3/units.ruleset:1138
-#, fuzzy
 msgid ""
 "Elephants are towering animals trained for war that are often used as "
 "powerful shock troops."
 msgstr ""
-"Elefanten sind hochragende, für den Krieg trainierte Tiere, die oft als "
-"starke Angriffstruppen genutzt werden, sich gegen die meisten anderen "
-"Einheiten aber nur schlecht verteidigen können."
+"Elefanten sind hochragende, für den Krieg trainierte Tiere, die mit ihrem "
+"starken Angriff oft zur Abschreckung eingesetzt werden."
 
 # MG: „mounted“ wird sonst überall als „beritten“ übersetzt, aber
 # das passt hier aus naheliegenden Gründen nicht. Auf der anderen
@@ -23678,7 +23676,6 @@ msgstr ""
 "groß für die frühen Schiffe (Triremen und Karavellen)."
 
 #: data/civ2civ3/units.ruleset:1369
-#, fuzzy
 msgid ""
 "Cannons are large firearms that can fire heavy projectiles over long "
 "distances. As with the catapults they replace, they are very strong "
@@ -23686,12 +23683,12 @@ msgid ""
 "effective, and have limited mobility."
 msgstr ""
 "Kanonen sind lange Feuerwaffen, die schwere Projektile über große "
-"Entfernungen abfeuern können. Sie sind sehr stark im Angriff und sehr "
-"schwach in der Verteidigung, und benötigen eine Eskorte, um wirksam "
-"angreifen zu können."
+"Entfernungen abfeuern können. Sie sind wie ihre Vorgänger, die Katapulte, "
+"sehr stark im Angriff und sehr schwach in der Verteidigung, und benötigen "
+"eine Eskorte, um wirksam angreifen zu können. Sie können sich nur "
+"eingeschränkt bewegen."
 
 #: data/civ2civ3/units.ruleset:1403
-#, fuzzy
 msgid ""
 "The artillery is an upgraded cannon. As with its predecessors, it is a very "
 "strong attacker but equally weak defender and will need an escort to be "
@@ -23699,17 +23696,17 @@ msgid ""
 msgstr ""
 "Die Artillerie ist eine verbesserte Kanone. Sie ist sehr stark im Angriff "
 "und sehr schwach in der Verteidigung, und benötigen eine Eskorte, um wirksam "
-"angreifen zu können."
+"angreifen zu können. Sie hat eine begrenzte Bewegungsfreiheit."
 
 #: data/civ2civ3/units.ruleset:1436
-#, fuzzy
 msgid ""
 "Howitzers are upgraded artillery with improved defensive as well as "
 "offensive capabilities. However, they still have the limited mobility of "
 "their predecessors."
 msgstr ""
 "Haubitzen sind weiterentwickelte Artillerie mit verbesserten Verteidigungs- "
-"und Angriffsfähigkeiten."
+"und Angriffsfähigkeiten, leiden aber noch immer unter derselben schwierigen "
+"Handhabung bei der Fortbewegung."
 
 #: data/civ2civ3/units.ruleset:1506
 msgid ""
@@ -23741,79 +23738,78 @@ msgstr ""
 "oder verlassen."
 
 #: data/civ2civ3/units.ruleset:1548
-#, fuzzy
 msgid ""
 "Care must be exercised, because Helicopters lose a small amount of health "
 "for every turn not spent in a city or airbase or on a Carrier."
 msgstr ""
-"Helikopter sind sehr starke Einheiten, da sie sowohl fliegen als auch Städte "
-"erobern können. Trotzdem muss man sie im Auge behalten, da sie jede Runde, "
-"die sie sich nicht in einer Stadt, in einem Fliegerhorst oder auf einem "
-"Flugzeugträger aufhalten, Trefferpunkte verlieren."
+"Man muss sie im Auge behalten, da Helikopter jede Runde, in der sie sich "
+"nicht in einer Stadt, in einem Fliegerhorst oder auf einem Flugzeugträger "
+"aufhalten, Trefferpunkte verlieren."
 
 #: data/civ2civ3/units.ruleset:1683
-#, fuzzy
 msgid "The Caravel is a sailing ship that can enter any ocean tile."
 msgstr ""
-"Die Karavelle ersetzt die Trireme und ist auf hoher See viel verlässlicher."
+"Die Karavelle ist ein Segelschiff, das auf jedes Ozeanfeld ziehen kann."
 
 #: data/civ2civ3/units.ruleset:1716
-#, fuzzy
 msgid ""
 "The Galleon is a pure transport ship, the first which can transport large "
 "wheeled units. It cannot attack other ships, though it may still defend "
 "itself when attacked."
 msgstr ""
 "Die Galeone ist ein reines Transportschiff, das andere Schiffe nicht "
-"angreifen kann, aber über eine Verteidigung verfügt."
+"angreifen kann, aber über eine Verteidigung verfügt. Es ist das erste "
+"Schiff, auf dem große und sperrige Landeinheiten mit Rädern transportiert "
+"werden können."
 
 #: data/civ2civ3/units.ruleset:1749
-#, fuzzy
 msgid ""
 "The Frigate is a specialized ship with a strong offensive value, and can "
 "attack units on land, but it cannot transport units."
-msgstr "Der Kreuzer ist ein sehr starkes Angriffsschiff."
+msgstr ""
+"Fregatten sind auf den Angriff spezialisierte Kriegsschiffe mit "
+"entsprechenden Offensivwerten. Sie können an Land befindliche Stellungen "
+"angreifen, aber selbst keine Einheiten transportieren."
 
 #: data/civ2civ3/units.ruleset:1781
-#, fuzzy
 msgid "The Ironclad is an armored ship, more sturdy than the Frigate."
 msgstr ""
 "Das Panzerschiff ist ein gepanzertes Schiff, das wesentlich "
-"widerstandsfähiger als die Fregatte ist, aber nicht mehr zum Transport "
-"genutzt werden kann."
+"widerstandsfähiger als die Fregatte ist."
 
 #: data/civ2civ3/units.ruleset:1817
-#, fuzzy
 msgid ""
 "An improved Ironclad, with better move rate and vision. Anti-submarine "
 "weapons double its defense against Submarines."
 msgstr ""
-"Ein verbessertes Panzerschiff mit besserer Fortbewegung und Sichtweite."
+"Ein verbessertes Panzerschiff mit besserer Fortbewegung und Sichtweite. "
+"Speziell gegen U-Boote gerichtete Waffentechnik verdoppelt seine "
+"Verteidigung gegenüber diesen heimtückischen Kriegsgeräten."
 
 #: data/civ2civ3/units.ruleset:1820
-#, fuzzy
 msgid ""
 "TIP:  A very fast unit, which is very useful for hunting down enemy "
 "Transports and Submarines."
 msgstr ""
 "HINWEIS: Eine sehr schnelle Einheit, sehr nützlich zur Jagd auf feindliche "
-"Transportschiffe."
+"Transportschiffe und U-Boote."
 
 #: data/civ2civ3/units.ruleset:2030
-#, fuzzy
 msgid "Transports can also clean pollution and fallout on water tiles."
-msgstr "• Kann Umweltverschmutzung beseitigen.\n"
+msgstr ""
+"Transporter können Umweltverschmutzung und Fallout auf Wasserfeldern "
+"beseitigen."
 
 #: data/civ2civ3/units.ruleset:2104
-#, fuzzy
 msgid ""
 "You can build Nuclear units when you have the required advance, and the "
 "Manhattan Project wonder has been built by any player. However, without "
 "further technology they cannot move on their own."
 msgstr ""
-"Sie können Nuklearraketen bauen, wenn Sie die erforderliche Technologie "
+"Sie können Nukleareinheiten bauen, wenn Sie die erforderliche Technologie "
 "erforscht haben und einer der Spieler das Manhattan-Projekt abgeschlossen "
-"hat."
+"hat. Ohne weitere Technologien können sie allerdings nicht selbstständig "
+"ziehen."
 
 #: data/civ2civ3/units.ruleset:2108
 msgid ""
@@ -23825,7 +23821,6 @@ msgstr ""
 "erhöht diesen auf 16."
 
 #: data/civ2civ3/units.ruleset:2117
-#, fuzzy
 msgid ""
 "Similar to pollution and global warming, the risk of global nuclear winter "
 "increases with fallout. If nuclear winter occurs, terrain across the globe "
@@ -23835,11 +23830,11 @@ msgstr ""
 "Ähnlich dem Zusammenhang zwischen Umweltverschmutzung und der globalen "
 "Erderwärmung steigt das Risiko eines globalen nuklearen Winters mit jedem "
 "Fallout. Kommt es zu dieser Katastrophe, verwandeln sich Geländefelder rund "
-"um den Globus in Sand- und Eiswüsten sowie Tundra. Siedler, Arbeiter und "
-"Ingenieure können nuklearen Fallout jedoch beseitigen."
+"um den Globus in Sand- und Eiswüsten sowie Tundra. Siedler, Arbeiter, "
+"Migranten und Ingenieure können nuklearen Fallout jedoch beseitigen, auf "
+"Wasserfeldern kann dies durch Transporter geschehen."
 
 #: data/civ2civ3/units.ruleset:2123
-#, fuzzy
 msgid ""
 "TIP:  You may be involved in a situation where you've invaded an enemy "
 "country en masse, but the enemy cities are too strong. Before using a "
@@ -23847,16 +23842,15 @@ msgid ""
 "them ready to fix the fallout on the same turn it occurs! This minimizes the "
 "chance of nuclear winter. Eco-friendly nukes!"
 msgstr ""
-"TIPP 2: Wenn Sie sich in einer Situation befinden, in der Sie ein "
-"feindliches Land überrannt haben, die gegnerischen Städte jedoch zu stark "
-"sind, sollten Sie vor dem Einsatz einer Nuklearrakete eine Gruppe von "
-"Siedlern in der Nähe der betroffenen Stadt bereit halten. Nach dem Einschlag "
-"können Sie so den Fallout noch in derselben Runde beseitigen, in der er "
-"auftritt, sodass die Wahrscheinlichkeit eines nuklearen Winters minimiert "
-"wird. Umweltfreundliche Atomwaffen!"
+"TIPP: Wenn Sie sich in einer Situation befinden, in der Sie ein feindliches "
+"Land überrannt haben, die gegnerischen Städte jedoch zu stark sind, sollten "
+"Sie vor dem Einsatz einer Nuklearwaffe einen Säuberungstrupp in der Nähe der "
+"betroffenen Stadt bereit halten. Nach dem Einschlag können Sie so den "
+"Fallout noch in derselben Runde beseitigen, in der er auftritt, sodass die "
+"Wahrscheinlichkeit eines nuklearen Winters minimiert wird. Umweltfreundliche "
+"Atomwaffen!"
 
 #: data/civ2civ3/units.ruleset:2181
-#, fuzzy
 msgid ""
 "Many covert actions may be attempted even in peacetime, but the more "
 "aggressive actions will be discovered and cause diplomatic incidents, giving "
@@ -23865,11 +23859,11 @@ msgid ""
 msgstr ""
 "Viele verdeckte Operationen können sogar in Friedenszeiten versucht werden, "
 "allerdings werden die aggressiveren Aktionen entdeckt werden und zu einem "
-"diplomatischen Eklat führen, der es sogar Republiken und Demokratien "
-"erlaubt, Verträge als nichtig anzusehen."
+"diplomatischen Eklat führen, der es sogar Föderationen und Demokratien "
+"erlaubt, Verträge als nichtig anzusehen. Gleiches gilt für von den Vereinten "
+"Nationen kontrollierte Staaten mit Atomwaffen."
 
 #: data/civ2civ3/units.ruleset:2187
-#, fuzzy
 msgid ""
 "If a foreign unit is alone on a tile, you may attempt to bribe it with your "
 "Diplomat. By paying a sum of gold the unit will immediately become yours; "
@@ -23882,23 +23876,24 @@ msgstr ""
 "Sie eine gewisse Summe gezahlt haben, wird sich die Einheit unverzüglich "
 "Ihnen anschließen; der genaue Betrag hängt vom Status der Einheit und ihrer "
 "Zivilisation ab. Es ist allerdings nicht möglich, Truppen einer "
-"demokratischen Regierung zu bestechen, und Bestechungsversuche in "
-"Friedenszeiten führen unvermeidbar zu einem diplomatischen Eklat."
+"demokratischen oder republikanischen Regierung zu bestechen, und "
+"Bestechungsversuche in Friedenszeiten führen unvermeidbar zu einem "
+"diplomatischen Eklat."
 
 #: data/civ2civ3/units.ruleset:2203
-#, fuzzy
 msgid ""
 " - \"Establish Embassy\": This action always succeeds, and gives permanent "
 "contact with the city's owner, as well as intelligence on their tax rates "
 "and technology. Each player you have an embassy with that knows a technology "
 "reduces that technology's research cost to you."
 msgstr ""
-" - \"Botschaft eröffnen\": Diese Aktion gelingt immer und ermöglicht Ihnen "
+" - „Botschaft eröffnen“: Diese Aktion gelingt immer und ermöglicht Ihnen "
 "einen dauerhaften Kontakt mit dem Eigentümer der Stadt. Darüber hinaus "
-"erhalten Sie Informationen zu Steuern und Forschung."
+"erhalten Sie Informationen zu Steuern und Forschung. Für jeden Spieler, bei "
+"dem Sie eine Botschaft haben und der eine Ihnen unbekannte Technologie "
+"kennt, reduzieren sich die Kosten dieser Technologie."
 
 #: data/civ2civ3/units.ruleset:2226
-#, fuzzy
 msgid ""
 " - \"Incite a Revolt\": In return for gold a foreign city will change "
 "allegiance and join your empire, bringing along all nearby units that call "
@@ -23909,43 +23904,39 @@ msgid ""
 "any city governed by a Federation or Democracy. Incitement may be attempted "
 "in peacetime, but will cause a diplomatic incident."
 msgstr ""
-" - \"Revolte anzetteln\": Im Austausch gegen Gold wird eine fremde Stadt "
-"ihre Haltung überdenken und sich Ihrem Imperium anschließen, wobei sie "
-"sämtliche in der Nähe befindlichen Einheiten mitbringt, die diese Stadt ihre "
-"Heimat nennen können. Die Stadtgröße reduziert sich dabei um eins, und "
-"Einheiten in anderen Städten bleiben beim Gegner, wohingegen Einheiten "
-"außerhalb von Städten beiden Spielern verloren gehen. Es ist nicht möglich, "
-"eine Rebellion in einer Hauptstadt oder in den Städten eines demokratisch "
+" - „Revolte anzetteln“: Im Austausch gegen Gold wird eine fremde Stadt ihre "
+"Haltung überdenken und sich Ihrem Imperium anschließen, wobei sie sämtliche "
+"in der Nähe befindlichen Einheiten mitbringt, die diese Stadt ihre Heimat "
+"nennen können. Die Stadtgröße reduziert sich dabei um eins, und Einheiten in "
+"anderen Städten bleiben beim Gegner, wohingegen Einheiten außerhalb von "
+"Städten beiden Spielern verloren gehen. Es ist nicht möglich, eine Rebellion "
+"in einer Hauptstadt oder in den Städten eines demokratisch oder föderal "
 "regierten Landes anzuzetteln und obwohl man es immer versuchen kann, führt "
 "diese Aktion in Friedenszeiten zu einem diplomatischen Eklat."
 
 #: data/civ2civ3/units.ruleset:2240
-#, fuzzy
 msgid ""
 "Diplomats built under Communist or Federation governments will start at the "
 "first veteran level (secretary)."
 msgstr ""
-"Diplomaten, die unter einer kommunistischen Regierung ausgebildet werden, "
-"beginnen mit dem ersten Veteranengrad (Sekretär)."
+"Diplomaten, die unter einer kommunistischen oder föderalen Regierung "
+"ausgebildet werden, beginnen mit dem ersten Veteranengrad (Sekretär)."
 
 #: data/civ2civ3/units.ruleset:2309
-#, fuzzy
 msgid ""
 "Spies built under Communist or Federation governments will start at the "
 "first veteran level (handler)."
 msgstr ""
-"Spione, die unter einer kommunistischen Regierung ausgebildet werden, "
-"beginnen mit dem ersten Veteranengrad (V-Mann)."
+"Spione, die unter einer kommunistischen oder föderalen Regierung ausgebildet "
+"werden, beginnen mit dem ersten Veteranengrad (V-Mann)."
 
 #: data/civ2civ3/units.ruleset:2341
-#, fuzzy
 msgid ""
 "A Caravan carries goods or material for trading with foreign countries, or "
 "to help build wonders in your own cities."
 msgstr ""
-"Eine Karawane trägt Güter oder Materialien für den Handel mit entfernten "
-"Städten und fremden Ländern, oder aber hilft beim Bau von Weltwundern in "
-"Ihren Städten."
+"Eine Karawane trägt Güter oder Materialien für den Handel mit fremden "
+"Ländern, oder aber hilft beim Bau von Weltwundern in Ihren Städten."
 
 #: data/civ2civ3/units.ruleset:2344
 msgid ""
@@ -24731,7 +24722,6 @@ msgstr ""
 "von Unruhen erschüttert."
 
 #: data/helpdata.txt:197
-#, fuzzy
 msgid ""
 " 7. Interacting with other players (diplomacy).\n"
 "\n"
@@ -24741,7 +24731,7 @@ msgid ""
 "intelligence about the other, which can be accessed from the 'Nations' "
 "report."
 msgstr ""
-" 7. Zusammenarbeit mit anderen Spielern (Diplomatie)\n"
+" 7. Zusammenarbeit mit anderen Spielern (Diplomatie).\n"
 "\n"
 "Wenn eine Ihrer Einheiten erstmals auf die Einheit einer anderen Nation "
 "trifft oder eine ihrer Städte findet (oder Sie gefunden werden), wird ein "
@@ -24766,7 +24756,6 @@ msgstr ""
 "geschlossen werden."
 
 #: data/helpdata.txt:212
-#, fuzzy
 msgid ""
 "    If you are in contact with another player, then you can arrange a "
 "diplomatic meeting.  From the 'Nations' report, this is done by clicking on "
@@ -24774,9 +24763,9 @@ msgid ""
 "under the embassy column is not blank and the other player is connected (or "
 "is a server AI) then a treaty dialog will pop up."
 msgstr ""
-"Wenn Sie mit einem anderen Spieler in Kontakt stehen, können Sie eine "
+"    Wenn Sie mit einem anderen Spieler in Kontakt stehen, können Sie eine "
 "diplomatische Konferenz anberaumen. Dazu finden Sie im Nationenbericht eine "
-"Schaltfläche »Konferenz«, die Sie anklicken können, nachdem Sie die "
+"Schaltfläche „Konferenz“, die Sie anklicken können, nachdem Sie die "
 "gewünschte Nation ausgewählt haben. Ist der Eintrag zur Botschaft nicht leer "
 "und ist der andere Spieler verbunden (oder ist eine Server-KI), wird ein "
 "Vertragsfenster erscheinen."
@@ -24998,7 +24987,6 @@ msgstr ""
 "Regierungsform als auch von Stadterweiterungen und Weltwundern beeinflusst."
 
 #: data/helpdata.txt:319
-#, fuzzy
 msgid ""
 "It is possible for your units to change the terrain and hence its effects; "
 "see the section on Terrain Alterations for more details. City centers (the "
@@ -25083,7 +25071,6 @@ msgstr ""
 "abhängt."
 
 #: data/helpdata.txt:363
-#, fuzzy
 msgid ""
 "Terrain can sometimes be permanently converted into a type more suitable to "
 "the player's needs, although this usually takes longer than adding an "
@@ -25096,10 +25083,9 @@ msgstr ""
 "sind, können mit ein wenig mehr Aufwand häufig in einen anderen Geländetyp "
 "überführt werden, der Ihren Bedürfnissen mehr entgegenkommt. Wenn das "
 "resultierende Gelände für die momentanen Geländeverbesserungen nicht "
-"geeignet ist, können bei der Umwandlung allerdings auch vorhandene Minen und "
-"Bewässerungssysteme zerstört werden. Es können sogar die speziellen "
-"Ressourcen eines Felder verloren gehen, wenn sie nur auf gewissen "
-"Geländetypen auftreten."
+"geeignet ist, können diese bei der Umwandlung allerdings auch zerstört "
+"werden. Es können sogar die speziellen Ressourcen eines Felder verloren "
+"gehen, wenn sie nur auf gewissen Geländetypen auftreten."
 
 #: data/helpdata.txt:370
 msgid ""
