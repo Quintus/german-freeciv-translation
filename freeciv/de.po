@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-30 12:01+0200\n"
+"PO-Revision-Date: 2015-06-30 13:37+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -21208,16 +21208,17 @@ msgstr ""
 
 #: data/classic/buildings.ruleset:1569
 #: data/experimental/buildings.ruleset:1626
-#, fuzzy
 msgid ""
 "All your new military land units start with an additional veteran level "
 "(this is cumulative with any Barracks building in a city; with both, units "
 "are created as Hardened). The chance of a land unit getting the next veteran "
 "level after a battle increases by half."
 msgstr ""
-"Neue Landeinheiten erhalten automatisch den ersten Veteranengrad. Bereits "
-"bestehenden Truppen erhalten nach jedem gewonnenen Kampf den jeweils "
-"nächsten Grad."
+"Neue Landeinheiten erhalten zusätzlich zu dem wegen Kasernen gewährten "
+"Veteranengrad einen weiteren Rang; neue Truppen werden mit beidem daher "
+"direkt als General ausgebildet. Die Wahrscheinlichkeit, dass eine "
+"Landeinheit nach einer Schlacht den nächsten Veteranengrad erreicht, erhöht "
+"sich um die Hälfte."
 
 #: data/classic/buildings.ruleset:1631
 #: data/experimental/buildings.ruleset:1688
@@ -21380,7 +21381,6 @@ msgstr ""
 
 #: data/classic/terrain.ruleset:1045 data/experimental/terrain.ruleset:1021
 #: data/multiplayer/terrain.ruleset:1019
-#, fuzzy
 msgid ""
 "Fortresses improve defense for land units. Among other effects, a land unit "
 "remaining in a fortress for a whole turn without moving recovers a quarter "
@@ -21390,8 +21390,8 @@ msgstr ""
 "Festungen erleichtern die Verteidigung für Landeinheiten. Neben anderen "
 "Effekten erhalten Landeinheiten, die sich bewegungslos eine ganze Runde in "
 "einer Festung aufhalten, ein Viertel ihrer Lebenspunkte zurück. Zusammen mit "
-"der Erfindung werden Festungen zu Außenposten, von denen aus Einheiten weit "
-"ins Land schauen können."
+"der Erfindung werden Festungen mit Außenposten ausgestattet, von denen aus "
+"Einheiten weit ins Land schauen können."
 
 #: data/classic/terrain.ruleset:1075 data/experimental/terrain.ruleset:1051
 #: data/civ2civ3/terrain.ruleset:1097 data/multiplayer/terrain.ruleset:1053
@@ -21484,7 +21484,6 @@ msgstr ""
 
 #: data/classic/units.ruleset:457 data/experimental/units.ruleset:476
 #: data/multiplayer/units.ruleset:458
-#, fuzzy
 msgid ""
 "Building an irrigation system on a suitable tile causes it to produce some "
 "extra food each turn. This requires a nearby source of water: an ocean, "
@@ -21501,7 +21500,7 @@ msgstr ""
 "dann bestehen, wenn die ursprüngliche Wasserquelle entfernt wird. Wenn Ihre "
 "Nation die Kühltechnik erforscht hat, können Bewässerungssysteme durch "
 "erneute Bewässerung in Ackerland verwandelt werden, welches einer Stadt mit "
-"Supermarkt zusätzliche Nahrung zur Verfügung stellt.\n"
+"Supermarkt zusätzliche Nahrung zur Verfügung stellt."
 
 #: data/classic/units.ruleset:476 data/experimental/units.ruleset:495
 msgid ""
@@ -21513,7 +21512,6 @@ msgstr ""
 
 #: data/classic/units.ruleset:517 data/experimental/units.ruleset:541
 #: data/multiplayer/units.ruleset:517
-#, fuzzy
 msgid ""
 "Engineers are similar to Workers, but they work twice as fast and move twice "
 "as fast. Engineers may also perform major terrain transformations which are "
@@ -21666,7 +21664,6 @@ msgstr ""
 "beginnen mit dem ersten Veteranengrad (V-Mann)."
 
 #: data/classic/units.ruleset:2149 data/experimental/units.ruleset:2175
-#, fuzzy
 msgid ""
 "Caravans can establish trade routes with your own cities or those of other "
 "nations (even enemies) by traveling to them. A route's ongoing revenue is "
@@ -21677,16 +21674,19 @@ msgid ""
 "own one city, trade in each city is doubled, but you only get the benefit "
 "from one end of the route."
 msgstr ""
-"Die beiden beteiligten Städte profitieren von einem dauerhaft eingerichteten "
-"Handelsweg gleichermaßen, indem sie jede Runde Handelspunkte generieren. Das "
-"Geschäftsvolumen des fortbestehenden Handels wächst zusammen mit der Größe "
-"der Städte und ihrer Entfernung; es wird verdoppelt, wenn sich die Städte "
-"auf verschiedenen Kontinenten befinden und ein weiteres Mal verdoppelt, wenn "
-"die Städte unterschiedlichen Nationen angehören. Diese letzte Bedingung hat "
-"zur Folge, dass der Nettogewinn für Ihre Nation stets derselbe ist, ganz "
-"gleich, ob sie nur eines, oder beide Enden der Handelsroute besitzen: Gehört "
-"Ihnen nur eine Stadt, wird der Handel in beiden Städten verdoppelt, aber Sie "
-"erhalten nur den Gewinn von einem Ende des Handelsweges."
+"Zwischen zweien Ihrer Städte oder sogar zu einer gegnerischen Stadt "
+"(einschließlich feindlicher Städte) können Karawanen Handelsrouten "
+"einrichten, indem sie dorthin reisen. Die beiden beteiligten Städte "
+"profitieren von einem dauerhaft eingerichteten Handelsweg gleichermaßen, "
+"indem sie jede Runde Handelspunkte generieren. Das Geschäftsvolumen des "
+"fortbestehenden Handels wächst zusammen mit der Größe der Städte und ihrer "
+"Entfernung; es wird verdoppelt, wenn sich die Städte auf verschiedenen "
+"Kontinenten befinden und ein weiteres Mal verdoppelt, wenn die Städte "
+"unterschiedlichen Nationen angehören. Diese letzte Bedingung hat zur Folge, "
+"dass der Nettogewinn für Ihre Nation stets derselbe ist, ganz gleich, ob sie "
+"nur eines, oder beide Enden der Handelsroute besitzen: Gehört Ihnen nur eine "
+"Stadt, wird der Handel in beiden Städten verdoppelt, aber Sie erhalten nur "
+"den Gewinn von einem Ende des Handelsweges."
 
 #: data/classic/units.ruleset:2158 data/experimental/units.ruleset:2184
 msgid ""
@@ -22047,14 +22047,16 @@ msgstr ""
 "Kenntnisse und sind kostengünstig zu errichten und zu unterhalten."
 
 #: data/civ2civ3/buildings.ruleset:208
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the luxury and tax output in a city by an additional 50%. With "
 "both a Bank and a Marketplace in a city, the total bonus is 100%."
-msgstr "Erhöht die Luxusproduktion und Steuereinnahmen der Stadt um 50%."
+msgstr ""
+"Erhöht die Luxusproduktion und Steuereinnahmen der Stadt um 50%. Zusammen "
+"mit einer Bank und einem Marktplatz erhält die Stadt einen Gesamtbonus von "
+"100%."
 
 #: data/civ2civ3/buildings.ruleset:303
-#, fuzzy
 msgid ""
 "A Cathedral makes 3 unhappy citizens content in a city, making it easier to "
 "maintain order in that city; however, it does not affect citizens made "
@@ -22062,14 +22064,14 @@ msgid ""
 "Cathedral, making an additional unhappy citizen content, except under "
 "Communism."
 msgstr ""
-"Eine Kathedrale macht 3 Unzufriedene einer Stadt zufrieden und erleichtert "
-"es somit, die Ordnung aufrecht zu erhalten; durch militärische Aktivitäten "
-"unzufrieden gemachte Bürger betrifft dies jedoch nicht. Nach Entdeckung der "
-"Theologie macht sie einen zusätzlichen Unzufriedenen zufrieden; nach "
-"Entdeckung des Kommunismus macht sie einen Unzufriedenen weniger zufrieden."
+"Eine Kathedrale stellt drei Unzufriedene einer Stadt zufrieden und "
+"erleichtert es somit, die Ordnung aufrecht zu erhalten; wegen militärischer "
+"Aktivitäten unzufriedene Bürger betrifft dies jedoch nicht. Nach Entdeckung "
+"der Theologie stellt sie einen zusätzlichen Unzufriedenen zufrieden; nach "
+"Entdeckung des Kommunismus stellt sie einen Unzufriedenen weniger zufrieden."
 
 #: data/civ2civ3/buildings.ruleset:328
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "City Walls make it easier to defend a city. They add a +100% bonus to the "
 "intrinsic defense strength of units within the city against land units (that "
@@ -22078,11 +22080,13 @@ msgid ""
 "City Walls also prevent the loss of population which occurs when a defending "
 "unit is defeated by a land unit."
 msgstr ""
-"Eine Stadtmauer hilft, eine Stadt vor Land- und Helikoptereinheiten zu "
-"schützen. Gegenüber anderen Luft- und Seeeinheiten sowie gegenüber Haubitzen "
-"ist sie jedoch wirkungslos. Auch verhindert sie Verluste bei der "
-"Bevölkerung, falls gegnerische Landeinheiten eine in der Stadt stationierte "
-"Einheit vernichten."
+"Eine Stadtmauer hilft, eine Stadt zu schützen, indem sie einen 100%igen "
+"Bonus auf die ursprüngliche Verteidigungskraft in der Stadt stationierter "
+"Einheiten gegenüber angreifenden Landeinheiten gewährt (das ist eine um zwei "
+"Drittel für kleine Stadte bzw. um die Hälfte für Städte größer 8 erhöhte "
+"Verteidigungskraft). Gegenüber Luft- und Seeeinheiten ist sie jedoch "
+"wirkungslos. Auch verhindert sie Verluste bei der Bevölkerung, falls "
+"gegnerische Landeinheiten eine in der Stadt stationierte Einheit vernichten."
 
 #: data/civ2civ3/buildings.ruleset:354
 #, no-c-format
@@ -22114,31 +22118,31 @@ msgstr ""
 "Zusammenarbeit mit einem Gericht die Nahrungsverschwendung erledigen."
 
 #: data/civ2civ3/buildings.ruleset:403
-#, fuzzy
 msgid ""
 "Also makes one unhappy citizen content (unless that citizen is unhappy about "
 "military activity), and makes the revolt cost of the city 4 times bigger."
 msgstr ""
-"In einer Demokratie macht das Gerichtsgebäude einen Unzufriedenen zufrieden "
-"(außer wenn der Betroffene wegen militärischer Aktivität unzufrieden ist)."
+"Stellt einen unzufriedenen Bürger zufrieden, sofern dieser nicht wegen "
+"militärischer Aktivitäten unzufrieden ist. Die Kosten für eine Revolte in "
+"der Stadt vervierfachen sich."
 
 #: data/civ2civ3/buildings.ruleset:425
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the shield production in a city by 25%, or 50% with an electrical "
 "plant of any kind in the same city."
 msgstr ""
-"Erhöht die Schildproduktion in einer Stadt um 50%, trägt aber auch "
-"wesentlich zur Umweltverschmutzung bei."
+"Erhöht die Schildproduktion in einer Stadt um 25%, zusammen mit einem "
+"Elektrizitätswerk welcher Art auch immer sogar um 50%."
 
 #: data/civ2civ3/buildings.ruleset:428
-#, fuzzy
 msgid ""
 "This increase in production may contribute significantly to pollution; a "
 "Factory also increases the pollution caused by the population of the city."
 msgstr ""
-"Erhöht die Schildproduktion in einer Stadt um 50%, trägt aber auch "
-"wesentlich zur Umweltverschmutzung bei."
+"Diese erhebliche Steigerung der Produktion trägt maßgeblich zur "
+"Umweltverschmutzung bei; die durch die Bevölkerung verursachte "
+"Umweltverschmutzung erhöht sich durch eine Fabrik ebenfalls."
 
 #: data/civ2civ3/buildings.ruleset:449
 msgid ""
@@ -22172,17 +22176,16 @@ msgstr ""
 "einen Kornspeicher errichten, bevor die Stadt die Größe von 4 überschreitet."
 
 #: data/civ2civ3/buildings.ruleset:480
-#, fuzzy
 msgid ""
 "Gives one extra food resource on all Ocean or Deep Ocean tiles (but not "
 "Lakes). The city needs to be coastal to build this improvement."
 msgstr ""
-"Gibt +1 Nahrung von allen Ozeanfeldern. Kann nur von Küstenstädten gebaut "
-"werden."
+"Gibt +1 Nahrung von allen Ozean- und Tiefseefeldern, nicht aber von Seen. "
+"Kann nur von Küstenstädten gebaut werden."
 
 #: data/civ2civ3/buildings.ruleset:503 data/civ2civ3/buildings.ruleset:636
 #: data/civ2civ3/buildings.ruleset:787 data/civ2civ3/buildings.ruleset:936
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Any kind of electrical plant increases the shield production effects of any "
 "Factory or Mfg. Plant in its city by 25% each. Thus, an electrical plant in "
@@ -22191,11 +22194,12 @@ msgid ""
 "Factory, and Mfg. Plant together give a 100% production bonus. The extra "
 "production may lead to the city generating more pollution."
 msgstr ""
-"Steigert die Produktion von Fabriken und Fertigungsstätten. In Verbindung "
-"mit einer Fabrik oder einer Fertigungsstätte gibt es einen Bonus von 75%, "
-"sind beide vorhanden, erhöht sich der Bonus auf 150%. Allerdings vergrößert "
-"sich durch die zusätzliche Produktion die durch die Stadt verursachte "
-"Umweltverschmutzung."
+"Elektrizitätswerke jeglicher Art steigern die Produktion von Fabriken und "
+"Fertigungsstätten um jeweils 25%, d.h. bei Existenz eines dieser Bauwerke "
+"wird die Produktion um 50% im Vergleich zur Situation ohne jegliche Gebäude "
+"erhöht. Sind beide vorhanden, erhöht sich der Bonus auf 100%, allerdings "
+"vergrößert sich durch die zusätzliche Produktion die durch die Stadt "
+"verursachte Umweltverschmutzung."
 
 #: data/civ2civ3/buildings.ruleset:514
 #, no-c-format
@@ -22215,29 +22219,33 @@ msgstr ""
 "werden sie denen eines Solarkraftwerks angeglichen.)"
 
 #: data/civ2civ3/buildings.ruleset:542
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the science output in a city by 50%, or by 100% once the Great "
 "Library has been built by any player."
-msgstr "Erhöht das Forschungstempo in der Stadt um 100%."
+msgstr ""
+"Erhöht das Forschungstempo in der Stadt um 50%, ab Fertigstellung der Großen "
+"Bibliothek durch irgendjemanden um 100%."
 
 #: data/civ2civ3/buildings.ruleset:582
-#, fuzzy
 msgid ""
 "Reduces the pollution generated by the population in a city; this building "
 "counteracts the additional pollution associated with any two other buildings."
 msgstr ""
-"Neutralisiert die durch die Bevölkerung verursachte Umweltverschmutzung."
+"Reduziert die durch die Bevölkerung verursachte Umweltverschmutzung. Diese "
+"Einrichtung hebt die Auswirkungen zweier die Verschmutzung erhöhender "
+"Stadtverbesserungen auf."
 
 #: data/civ2civ3/buildings.ruleset:605
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the shield production in a city by an additional 25%, or 50% with "
 "an electrical plant of any kind in the same city; this effect is cumulative "
 "with that of a Factory."
 msgstr ""
-"Erhöht die Schildproduktion in einer Stadt um 50%, trägt aber auch "
-"wesentlich zur Umweltverschmutzung bei."
+"Erhöht die Schildproduktion in einer Stadt um weitere 25%, zusammen mit "
+"einem Elektrizitätswerk welche Art auch immer sogar um 50%. Der Effekt "
+"addiert sich mit demjenigen einer Fabrik."
 
 #: data/civ2civ3/buildings.ruleset:609
 msgid ""
@@ -22250,14 +22258,14 @@ msgstr ""
 "Bevölkerung kosten)."
 
 #: data/civ2civ3/buildings.ruleset:613
-#, fuzzy
 msgid ""
 "This increase in shield production may contribute significantly to "
 "pollution; a Manufacturing Plant also increases the pollution caused by the "
 "population of the city."
 msgstr ""
-"Erhöht die Schildproduktion in einer Stadt um 50%, trägt aber auch "
-"wesentlich zur Umweltverschmutzung bei."
+"Die derart gesteigerte Produktion trägt wesentlich zur Umweltverschmutzung "
+"bei, darüber hinaus erhöht die Fertigungsstätte auch die durch die "
+"Bevölkerung verursachte Umweltverschmutzung."
 
 #: data/civ2civ3/buildings.ruleset:647
 #, no-c-format
@@ -22281,25 +22289,23 @@ msgstr ""
 "kann."
 
 #: data/civ2civ3/buildings.ruleset:675
-#, fuzzy
 msgid ""
 "Every Ocean tile worked by the city yields one extra shield resource, as "
 "well as any Deep Ocean tile containing a Buoy. The city needs to be coastal "
 "to build this improvement."
 msgstr ""
-"+1 Schild von allen Ozeanfeldern\n"
-"Kann nur von Küstenstädten gebaut werden."
+"+1 Schild von allen Ozeanfeldern und von Tiefseefeldern mit Bojen. Kann nur "
+"von Küstenstädten gebaut werden."
 
 #: data/civ2civ3/buildings.ruleset:679
-#, fuzzy
 msgid ""
 "Offshore Platforms also increase the pollution caused by the population of "
 "the city."
 msgstr ""
-"• Vergrößert die durch die Bevölkerung verursachte Umweltverschmutzung\n"
+"Eine Bohrinsel erhöht die durch die Stadtbevölkerung verursachte "
+"Umweltverschmutzung."
 
 #: data/civ2civ3/buildings.ruleset:700
-#, fuzzy
 msgid ""
 "Makes a city the capital and the center of your government. Waste in other "
 "cities (corruption, production waste, and food waste) is often related to "
@@ -22307,22 +22313,21 @@ msgid ""
 "production waste in your capital itself is half of what it would otherwise "
 "be (and a Courthouse will eliminate it entirely)."
 msgstr ""
-"Macht eine Stadt zur Hauptstadt und somit zum Regierungssitz. Außer in einer "
-"Demokratie oder im Kommunismus ist die Korruption in anderen Städten davon "
-"abhängig, wie weit diese von der Hauptstadt entfernt sind; darüber hinaus "
-"sind Korruption und Verschwendung in der Hauptstadt selbst nur halb so "
-"schlimm wie üblich, d.h. verhalten sich so, als ob dort ein Gerichtsgebäude "
-"eingerichtet wäre."
+"Macht eine Stadt zur Hauptstadt und somit zum Regierungssitz. Oftmals ist "
+"die Korruption in anderen Städten davon abhängig, wie weit diese von der "
+"Hauptstadt entfernt sind; darüber hinaus sind Korruption und Verschwendung "
+"in der Hauptstadt selbst nur halb so schlimm wie üblich, ein Gerichtsgebäude "
+"beseitigt sie vollständig."
 
 #: data/civ2civ3/buildings.ruleset:720
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Under Despotism the city containing the palace gains a +75% gold bonus, and "
 "under Monarchy a +50% gold bonus."
 msgstr ""
-"Unter despotischen Regierungen erhält die Stadt, in der sich der "
-"Regierungspalast befindet, einen Produktionsbonus von +75%, in einer "
-"Monarchie einen Bonus von +50%."
+"Unter diktatorischen Regierungen erhält die Stadt, in der sich der "
+"Regierungspalast befindet, einen Goldbonus von +75%, in einer Monarchie "
+"einen Bonus von +50%."
 
 #: data/civ2civ3/buildings.ruleset:740
 msgid ""
@@ -22336,7 +22341,7 @@ msgstr ""
 "unzufrieden sind."
 
 #: data/civ2civ3/buildings.ruleset:817
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Building a Recycling Center reduces the amount of pollution generated by "
 "shield production in a city by 50%, or by an additional 25% in cities with "
@@ -22344,14 +22349,18 @@ msgid ""
 "Solar Plant)."
 msgstr ""
 "Ein Recycling-Zentrum vermindert die durch Produktion verursachte "
-"Umweltverschmutzung einer Stadt um 66%."
+"Umweltverschmutzung einer Stadt um die Hälfte. Ist ein weiteres die "
+"Umweltverschmutzung reduzierendes Bauwerk vorhanden (Kern-, Wasser- oder "
+"Solarkraftwerk), vermindert sie sich um ein weiteres Viertel."
 
 #: data/civ2civ3/buildings.ruleset:841
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the science output in a city by an additional 50%, or by 100% once "
 "the Internet wonder has been built by any player."
-msgstr "Erhöht das Forschungstempo in der Stadt um 100%."
+msgstr ""
+"Erhöht das Forschungstempo in einer Stadt um 50%. Sobald ein Spieler das "
+"Internet entwickelt hat, erhöht es sich um 100%."
 
 #: data/civ2civ3/buildings.ruleset:846
 #, no-c-format
@@ -22366,17 +22375,15 @@ msgstr ""
 "Internet gebaut bzw. entwickelt worden sind."
 
 #: data/civ2civ3/buildings.ruleset:868
-#, fuzzy
 msgid ""
 "Doubles the intrinsic defense strength of units within a city when defending "
 "against aircraft (including helicopters)."
 msgstr ""
-"Verdoppelt die Verteidigungsstärke aller in der Stadt stationierten "
-"Einheiten gegenüber allen Luftwaffeneinheiten abgesehen von Raketen und "
+"Verdoppelt die ursprüngliche Verteidigungsstärke aller in der Stadt "
+"stationierten Einheiten gegenüber allen Luftwaffeneinheiten einschließlich "
 "Helikoptern."
 
 #: data/civ2civ3/buildings.ruleset:888
-#, fuzzy
 msgid ""
 "Protects a city and its environs (up to 2 tiles away) from attacks by "
 "Nuclear units. A Nuclear unit attacking a city with SDI Defense, or "
@@ -22388,18 +22395,17 @@ msgstr ""
 "durch Nuklearwaffen. Wenn eine nukleare Einheit eine Stadt mit einer SDI-"
 "Anlage oder eine Einheit in der Reichweite der Anlage angreift (oder "
 "versehentlich explodiert), wird sie abgeschossen und hat schlicht keinen "
-"Effekt. Verdoppelt zudem die Verteidungswerte von Einheiten in der Stadt "
-"gegenüber nichtnuklearen Raketen."
+"Effekt. Verdoppelt zudem die ursprünglichen Verteidungswerte von Einheiten "
+"in der Stadt gegenüber nichtnuklearen Raketen."
 
 #: data/civ2civ3/buildings.ruleset:914
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Together with an Aqueduct, allows a city to grow larger than size 16, and "
 "further reduces the chance of a plague (by 30% of the base chance)."
 msgstr ""
-"Erlaubt einer Stadt über die Größe 12 hinaus zu wachsen. Vorher benötigt "
-"eine Stadt bereits ein Aquädukt, um größer als 8 werden zu können. Das "
-"Abwassersystem reduziert zudem die Seuchengefahr."
+"Erlaubt einer Stadt über die Größe 16 hinaus zu wachsen. Das Abwassersystem "
+"reduziert zudem die Seuchengefahr um 30% der Grundwahrscheinlichkeit."
 
 #: data/civ2civ3/buildings.ruleset:947
 #, no-c-format
@@ -22426,13 +22432,12 @@ msgstr ""
 "sogar 200%."
 
 #: data/civ2civ3/buildings.ruleset:1088
-#, fuzzy
 msgid ""
 "Each tile around the city with roads, and without farmlands, that is already "
 "generating some trade, produces one extra trade resource."
 msgstr ""
-"Jedes Feld der Stadt, in der dieses Weltwunder steht, und das zumindest "
-"einen Handelspunkt erwirtschaftet, produziert einen zusätzlichen "
+"Jedes Straßenfeld der Stadt, auf dem sich kein Ackerland befindet und "
+"welches bereits Handelspunkte erwirtschaftet, erzeugt einen extra "
 "Handelspunkt."
 
 #: data/civ2civ3/buildings.ruleset:1093
@@ -22445,15 +22450,13 @@ msgstr ""
 "Steueraufkommen um weitere 50%)."
 
 #: data/civ2civ3/buildings.ruleset:1096
-#, fuzzy
 msgid ""
 "Super Highways also increase the pollution caused by the population of the "
 "city."
 msgstr ""
-"• Vergrößert die durch die Bevölkerung verursachte Umweltverschmutzung\n"
+"Autobahnen erhöhen die durch die Bevölkerung verursachte Umweltverschmutzung."
 
 #: data/civ2civ3/buildings.ruleset:1138
-#, fuzzy
 msgid ""
 "Makes one unhappy citizen content. The Mysticism advance doubles this effect "
 "(except under a Communist government). With both Mysticism and the Temple of "
@@ -22461,16 +22464,19 @@ msgid ""
 "citizens made unhappy by aggression."
 msgstr ""
 "Stellt einen unzufriedenen Bürger zufrieden. Sowohl die Erkenntnisse über "
-"die Mystik als auch das Orakel verdoppeln den Effekt. Somit können bis zu "
-"vier Unzufriedene zufrieden gestellt werden. Hat keine Auswirkungen auf "
-"Bürger, die wegen militärischer Aktivitäten unzufrieden sind."
+"die Mystik als auch der Artemistempel verdoppeln den Effekt (außer in "
+"kommunistischen Ländern). Somit können bis zu vier Unzufriedene zufrieden "
+"gestellt werden (drei im Kommunismus). Hat keine Auswirkungen auf Bürger, "
+"die wegen militärischer Aktivitäten unzufrieden sind."
 
 #: data/civ2civ3/buildings.ruleset:1162
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the science output in a city by an additional 50%, or by 100% once "
 "Isaac Newton's College has been built by any player."
-msgstr "Erhöht das Forschungstempo in der Stadt um 100%."
+msgstr ""
+"Erhöht das Forschungstempo in der Stadt um 50%, ab Eröffnung von Isaak "
+"Newtons Universität durch irgendeinen Spieler um 100%."
 
 #: data/civ2civ3/buildings.ruleset:1167
 #, no-c-format
@@ -22484,7 +22490,6 @@ msgstr ""
 "wenn die Große Bibliothek und Isaak Newtons Universität erbaut worden sind."
 
 #: data/civ2civ3/buildings.ruleset:1188
-#, fuzzy
 msgid ""
 "The entire map becomes permanently visible to the player who owns it -- the "
 "player always has up-to-date knowledge of all terrain and cities (but not "
@@ -22511,14 +22516,15 @@ msgstr ""
 "des Eiffelturms verhalten."
 
 #: data/civ2civ3/buildings.ruleset:1217
-#, fuzzy
 msgid ""
 "In every city with a Stock Exchange, city improvements which would normally "
 "have an upkeep of 1 become free of upkeep. (Communist governments inherently "
 "give this benefit, so there is no bonus under Communism.)"
 msgstr ""
-"In allen Städten auf demselben Kontinent muss für Stadterweiterungen mit "
-"Unterhaltskosten von 1 kein Unterhalt mehr bezahlt zu werden."
+"Städte mit einer Börse müssen keinen Unterhalt für Gebäude bezahlen, die "
+"normalerweise 1 Gold unterhalt erfordern würden. Da kommunistische "
+"Regierungen diesen Unterhalt generell nicht zahlen müssen, erhalten sie in "
+"dieser Hinsicht keinen zusätzlichen Bonus."
 
 #: data/civ2civ3/buildings.ruleset:1222
 msgid ""
@@ -22529,17 +22535,15 @@ msgstr ""
 "Steuerfahndern aller Nationen dauerhaft auf 3."
 
 #: data/civ2civ3/buildings.ruleset:1262
-#, fuzzy
 msgid ""
 "Each tile worked by the city where this wonder is built produces one extra "
 "research point."
 msgstr ""
-"Jedes Feld der Stadt, in der dieses Weltwunder steht, und das zumindest "
-"einen Handelspunkt erwirtschaftet, produziert einen zusätzlichen "
-"Handelspunkt."
+"Jedes bewirtschaftete Feld der Stadt, in der dieses Weltwunder steht, "
+"erzeugt einen extra Forschungspunkt."
 
 #: data/civ2civ3/buildings.ruleset:1283
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "This stunning technological achievement makes one content citizen happy in "
 "each of your cities (2 extra luxury per city). It further reduces the risk "
@@ -22547,13 +22551,13 @@ msgid ""
 "Aqueduct, a Sewer System, and knowledge of Medicine, it entirely eliminates "
 "the risk of plague."
 msgstr ""
-"Diese faszinierende technologische Errungenschaft macht in jeder Stadt einen "
-"Unzufriedenen zufrieden, sogar dann, wenn er wegen militärischer Aktionen "
-"unzufrieden ist. Außerdem reduziert es die Gefahr einer Krankheit in Ihren "
-"Städten."
+"Diese faszinierende technologische Errungenschaft macht in jeder Ihre Städte "
+"einen Zufriedenen glücklich (2 extra Luxuspunkte). Außerdem reduziert es die "
+"Gefahr einer Krankheit in Ihren Städten um 10% der Grundwahrscheinlichkeit, "
+"zusammen mit einem Aquädukt, einem Abwassersystem und dem Wissen um die "
+"Medizin wird das Seuchenrisiko vollständig gebannt."
 
 #: data/civ2civ3/buildings.ruleset:1306
-#, fuzzy
 msgid ""
 "Charles Darwin's voyage sparked the discovery of the evolution of the "
 "species, which inspired greater confidence in science. All your cities "
@@ -22561,7 +22565,7 @@ msgid ""
 msgstr ""
 "Die Forschungsreise des Charles Darwin war der Anfangspunkt der modernen "
 "Evolutionstheorie der Arten, die ein größeres Vertrauen in die Wissenschaft "
-"zur Folge hatte. Gewährt zwei sofortige Fortschritte."
+"zur Folge hatte. Alle Ihre Städte erzeugen einen extra Forschungspunkt."
 
 #: data/civ2civ3/buildings.ruleset:1310
 msgid ""
