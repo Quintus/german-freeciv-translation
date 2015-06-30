@@ -598,7 +598,7 @@ msgstr ""
 
 #: client/chatline_common.c:182
 msgid "See the \"Copying\" item on the Help menu."
-msgstr "Siehe unter »Lizenz« im Hilfemenü."
+msgstr "Siehe unter „Lizenz“ im Hilfemenü."
 
 #: client/chatline_common.c:184
 msgid "Now ... Go give 'em hell!"
@@ -9829,7 +9829,7 @@ msgid ""
 msgstr ""
 "• Wenn Sie eine Stadt mit dieser Stadtverbesserung verlieren, wird sie "
 "kostenlos in einer anderen Ihrer Städte neu errichtet (sofern die "
-"Servereinstellung »saveplace« aktiviert ist).\n"
+"Servereinstellung „saveplace“ aktiviert ist).\n"
 
 #. TRANS: continue list, in case comma is not the separator of choice.
 #: client/helpdata.c:2261
@@ -11686,7 +11686,7 @@ msgstr ""
 "Mit dieser Option erscheint jedes Mal ein Popup-Fenster, wenn eine Karawane "
 "eine Stadt erreicht und eine Handelsroute einrichten oder zum Bau eines "
 "Weltwunders beitragen kann. Ohne diese Option muss der Befehl von Hand "
-"gegeben werden, durch drücken von »r« (für eine Handelsroute) oder »b« (zum "
+"gegeben werden, durch drücken von „r“ (für eine Handelsroute) oder „b“ (zum "
 "Bau eines Wunders), wenn die Karawane in der Stadt ist."
 
 #: client/options.c:2037
@@ -11844,8 +11844,8 @@ msgid ""
 "set the option \"Borders layer\" already."
 msgstr ""
 "Zeichnet die Grenzen auch auf Ozeanfeldern (das kann mit vielen Inseln "
-"hässlich aussehen). Diese Option ist nur von Belang, wenn Sie die »Anzeige "
-"der Grenzen« aktiviert haben."
+"hässlich aussehen). Diese Option ist nur von Belang, wenn Sie die „Anzeige "
+"der Grenzen“ aktiviert haben."
 
 #: client/options.c:2111
 msgid "Units layer"
@@ -12406,7 +12406,7 @@ msgstr "Font"
 #: client/options.c:4605
 msgid "If you add a preset by hand, also update \"number_of_presets\""
 msgstr ""
-"Wenn manuell eine Vorgabe hinzugefügt wird, muss auch »number_of_presets« "
+"Wenn manuell eine Vorgabe hinzugefügt wird, muss auch „number_of_presets“ "
 "geändert werden."
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
@@ -13401,7 +13401,7 @@ msgstr "No usable default tileset found, aborting!"
 #: client/tilespec.c:1113
 #, c-format
 msgid "Loading tileset \"%s\"."
-msgstr "Lade Feldgrafiksatz »%s«."
+msgstr "Lade Feldgrafiksatz „%s“."
 
 #: client/tilespec.c:1286
 msgid "Incompatible tileset capabilities"
@@ -19542,7 +19542,7 @@ msgid ""
 "convert, and require no maintenance."
 msgstr ""
 "Stadtverbesserungen, die fürgewöhnlich unzufriedene Bürger in zufriedene "
-"verwandeln, führen stattdessen einen »Zehnten« in Form von Gold ab, dessen "
+"verwandeln, führen stattdessen einen „Zehnten“ in Form von Gold ab, dessen "
 "Größe gleich der Anzahl der Leute ist, die sie sonst zufriedenstellen "
 "würden. Außerdem verursachen sie keine Instandhaltungskosten."
 
@@ -19799,8 +19799,8 @@ msgstr ""
 "Das moderne Spanien wurde gebildet, als die Herrscher Kastiliens und Aragons "
 "die Rückeroberung der iberischen Halbinsel von den Moslems anführten. Die "
 "Reconquista wurde 1492 erreicht, im gleichen Jahr, in dem Kolumbus in See "
-"stach. Die Spanier versuchten nun, ein Imperium zu errichten, »in dem die "
-"Sonne niemals sinkt«."
+"stach. Die Spanier versuchten nun, ein Imperium zu errichten, „in dem die "
+"Sonne niemals sinkt“."
 
 #: data/civ2/nations.ruleset:1824 data/nation/spanish.ruleset:42
 #, c-format
@@ -24292,7 +24292,7 @@ msgid ""
 msgstr ""
 "Freeciv ist freie Software und darf unter bestimmten Bedingungen\n"
 "kopiert und weitergegeben werden; genaueres können Sie unter dem Punkt\n"
-"»Lizenz« im Hilfemenü nachlesen.\n"
+"„Lizenz“ im Hilfemenü nachlesen.\n"
 "Und nun... mach’ ihnen die Hölle heiß!"
 
 #: data/Freeciv.in:3099
@@ -24938,7 +24938,7 @@ msgid ""
 msgstr ""
 "Das Gelände beeinflusst Kämpfe auf eine einfache Art und Weise: Wenn eine "
 "Landeinheit angegriffen wird, so wird ihre Verteidungsstärke mit dem "
-"Verteidungsfaktor (»Bonus«) des unterliegenden Geländes multipliziert. Siehe "
+"Verteidungsfaktor („Bonus“) des unterliegenden Geländes multipliziert. Siehe "
 "den Abschnitt über Kämpfe für mehr Informationen."
 
 #: data/helpdata.txt:301
@@ -24970,7 +24970,7 @@ msgstr ""
 "die Quantität jedes dieser Dinge vom genauen Geländetyp abhängt. Diese drei "
 "Produkte sind so wichtig, dass wir die Ergebnisse einer Bewirtschaftung "
 "übersichtlich durch Schrägstriche geteilt zeigen. So beschreibt zum Beispiel "
-"»1/2/0« ein Feld, das in jeder Runde, in der es bewirtschaftet wird, einen "
+"„1/2/0“ ein Feld, das in jeder Runde, in der es bewirtschaftet wird, einen "
 "Nahrungspunkt, zwei Produktionspunkte und keine Handelspunkte generiert.\n"
 "\n"
 "Zusätzlich zu den Charakteristika jedes Geländetyps finden sich auf einigen "
@@ -25188,7 +25188,7 @@ msgid ""
 "technology, a military unit (occasionally a settler; and sometimes a unit "
 "that the player cannot yet create), or even a new city."
 msgstr ""
-"Dörfer (oder auch »Hütten«) sind Ansiedlungen primitiver Eingeborener "
+"Dörfer (oder auch „Hütten“) sind Ansiedlungen primitiver Eingeborener "
 "überall auf der Welt. Jede Landeinheit kann ein Dorf betreten, wodurch es "
 "verschwindet und einen zufälligen Effekt auslöst. So kann ein Dorf sich etwa "
 "als feindselig herausstellen und Barbaren aussenden oder die Einheit, die "
@@ -26120,7 +26120,7 @@ msgstr ""
 "die sich nicht innerhalb Ihrer Nationalgrenzen, einer freundlich gesonnen "
 "Stadt (eingeschlossen Städte Ihrer Verbündeten) oder einer passenden "
 "Militärbasis im Radius von drei Feldern einer freundlich gesonnen Stadt "
-"befinden. Einige Einheiten jedoch, sogenannte »Feldeinheiten«, sind per "
+"befinden. Einige Einheiten jedoch, sogenannte „Feldeinheiten“, sind per "
 "definitionem aggressiv und führen unabhängig von ihrem Standort zu "
 "Unzufriedenheit."
 
@@ -27433,7 +27433,7 @@ msgid ""
 "your civilization will forget an advance, requiring it to be researched "
 "again."
 msgstr ""
-"Während der größte Teil des sich ergebenden Forschungsaustoßes (»Punkte«) "
+"Während der größte Teil des sich ergebenden Forschungsaustoßes („Punkte“) "
 "fürgewöhnlich in die Entwicklung neuer Technologien investiert wird, gibt es "
 "einige Regelästze, in denen er zum Teil für die Aufrechterhaltung der "
 "Kenntnisse bereits erforschter Technologien verwendet wird (dies ist im "
@@ -27789,13 +27789,13 @@ msgstr ""
 "  Linksklick auf Einheit:            Einheit auswählen\n"
 "                                     (bricht die momentane Aktivität ab, "
 "wenn\n"
-"                                     »Einheitenbefehle bei Auswahl "
-"verwerfen«\n"
+"                                     „Einheitenbefehle bei Auswahl "
+"verwerfen“\n"
 "                                     gesetzt ist)\n"
 "  Shift-Linksklick auf Einheit:      Einheit zur Auswahl hinzufügen (GTK)\n"
 "  Linksklick-und-Ziehen auf Einheit: Gehe-Nach-Befehl für Einheit\n"
-"                                     (wenn die Option »tastaturloses Gehe-"
-"Nach«\n"
+"                                     (wenn die Option „tastaturloses Gehe-"
+"Nach“\n"
 "                                     aktiviert ist)\n"
 "  Mittelklick, Alt-Linksklick:       Zeige Feldinformationen an\n"
 "  Rechtsklick:                       Zentriere Ansicht auf Feld\n"
@@ -28736,7 +28736,7 @@ msgstr ""
 "Handelsrouten deaktiviert sind und die meisten Wunder von jedem Spieler "
 "einmal gebaut werden können und sich ihre Effekte meist nur auf Städte, die "
 "sich auf demselben Kontinent befinden, auswirken. Eine vollständige "
-"Beschreibung der Unterschiede kann der Datei »README.ruleset_multiplayer« "
+"Beschreibung der Unterschiede kann der Datei „README.ruleset_multiplayer“ "
 "entnommen werden."
 
 #. TRANS: Name of a color; used as unique identifier for a team
@@ -29148,7 +29148,7 @@ msgstr ""
 "österreiche Imperium zur Doppelmonarchie Österreich-Ungarn, die 1918 mit dem "
 "Ende des Ersten Weltkriegs kollabierte. Nachdem 1919 die Erste "
 "Österreichische Republik errichtet worden war, trat Österreich 1938 im "
-"sogenannten »Anschluss« Nazi-Deutschland bei. Nach dem Ende des Zweiten "
+"sogenannten „Anschluss“ Nazi-Deutschland bei. Nach dem Ende des Zweiten "
 "Weltkriegs 1945 wurde Österreich von den Truppen der Alliierten besetzt."
 
 #: data/nation/austrian.ruleset:49
@@ -35971,8 +35971,8 @@ msgid ""
 "Demography string validation failed at character: '%c'. Try \"help demography"
 "\"."
 msgstr ""
-"Der Optionsstring zur Lage der Nation enthält das ungültige Zeichen »%c«. "
-"Nähere Informationen sind mit »help demography« erhältlich."
+"Der Optionsstring zur Lage der Nation enthält das ungültige Zeichen „%c“. "
+"Nähere Informationen sind mit „help demography“ erhältlich."
 
 #: server/settings.c:711
 #, c-format
@@ -35993,8 +35993,8 @@ msgid ""
 "Starting units string validation failed at character '%c'. Try \"help "
 "startunits\"."
 msgstr ""
-"Der Optionsstring zu den Starteinheiten enthält das ungültige Zeichen »%c«. "
-"Nähere Informationen sind mit »help startunits« erhältlich."
+"Der Optionsstring zu den Starteinheiten enthält das ungültige Zeichen „%c“. "
+"Nähere Informationen sind mit „help startunits“ erhältlich."
 
 #: server/settings.c:769
 msgid "Cannot set endturn earlier than current turn."
@@ -36040,7 +36040,7 @@ msgstr ""
 msgid ""
 "For autogames ('timeout' = -1) 'unitwaittime' should be deactivated (= 0)."
 msgstr ""
-"Für vollautomatische Spiele (»timeout« = -1) sollte »unitwaittime« "
+"Für vollautomatische Spiele („timeout“ = -1) sollte „unitwaittime“ "
 "deaktiviert werden (= 0)."
 
 #. TRANS: Do not translate setting names in ''.
@@ -36050,8 +36050,8 @@ msgid ""
 "'timeout' can not be lower than 3/2 of the 'unitwaittime' setting (= %d). "
 "Please change 'unitwaittime' first."
 msgstr ""
-"»timeout« kann nicht kleiner sein als 3/2 der Einstellung »unitwaittime« (= "
-"%d). Ändern Sie zunächst »unitwaittime«."
+"„timeout“ kann nicht kleiner sein als 3/2 der Einstellung „unitwaittime“ (= "
+"%d). Ändern Sie zunächst „unitwaittime“."
 
 #. TRANS: Do not translate setting names in ''.
 #: server/settings.c:886
@@ -36060,12 +36060,12 @@ msgid ""
 "'unitwaittime' has to be lower than 2/3 of the 'timeout' setting (= %d). "
 "Please change 'timeout' first."
 msgstr ""
-"»unitwaittime« muss kleiner als 2/3 der Einstellung »timeout« sein (= %d). "
-"Ändern Sie zunächst »timeout«."
+"„unitwaittime“ muss kleiner als 2/3 der Einstellung „timeout“ sein (= %d). "
+"Ändern Sie zunächst „timeout“."
 
 #: server/settings.c:906 server/settings.c:964 server/settings.c:984
 msgid "For an isometric or hexagonal map the ysize must be even."
-msgstr "Für isometrische und hexagonale Karten muss die »ysize« gerade sein."
+msgstr "Für isometrische und hexagonale Karten muss die „ysize“ gerade sein."
 
 #: server/settings.c:924 server/settings.c:949
 #, c-format
@@ -36104,11 +36104,11 @@ msgid ""
 msgstr ""
 "Legt die Methode fest, nach der die Kartengröße berechnet wird. Die "
 "Parameter jeder dieser Methoden werden durch weitere Optionen bestimmt.\n"
-"‒ »Felderanzahl« (FULLSIZE): Kartengröße (Option »size«)\n"
-"‒ »Felder pro Spieler« (PLAYER): Anzahl an (Land-)Feldern je Spieler (Option "
-"»tilesperplayer«).\n"
-"‒ »Breite und Höhe« (XYSIZE): Kartenbreite und -höhe in Feldern (Optionen "
-"»xsize« und »ysize«)"
+"‒ „Felderanzahl“ (FULLSIZE): Kartengröße (Option „size“)\n"
+"‒ „Felder pro Spieler“ (PLAYER): Anzahl an (Land-)Feldern je Spieler (Option "
+"„tilesperplayer“).\n"
+"‒ „Breite und Höhe“ (XYSIZE): Kartenbreite und -höhe in Feldern (Optionen "
+"„xsize“ und „ysize“)"
 
 #: server/settings.c:1081
 msgid "Map area (in thousands of tiles)"
@@ -36130,8 +36130,8 @@ msgstr ""
 "Aus diesem Wert wird die Kartengröße abgeleitet.\n"
 "  size = 4 ist eine normale Karte mit 4.000 Feldern (Standard)\n"
 "  size = 20 ist eine riesige Karte mit 20.000 Feldern\n"
-"Diese Option wird nur ausgewertet, wenn die »Methode zur Berechnung der "
-"Kartengröße« (»mapsize«) auf »Felderanzahl« (FULLSIZE) gesetzt wurde."
+"Diese Option wird nur ausgewertet, wenn die „Methode zur Berechnung der "
+"Kartengröße“ („mapsize“) auf „Felderanzahl“ (FULLSIZE) gesetzt wurde."
 
 #: server/settings.c:1097
 msgid "Number of (land) tiles per player"
@@ -36151,10 +36151,10 @@ msgid ""
 "('mapsize') must be set to \"Tiles per player\" (PLAYER)."
 msgstr ""
 "Aus diesem Wert wird die Kartengröße abgeleitet. Sie wird berechnet, indem "
-"bei Spielstart die Spieleranzahl und der Wert der Einstellung »landmass« "
+"bei Spielstart die Spieleranzahl und der Wert der Einstellung „landmass“ "
 "ausgewertet wird.\n"
-"Diese Option wird nur ausgewertet, wenn die »Methode zur Berechnung der "
-"Kartengröße« (»mapsize«) auf »Felder pro Spieler« (PLAYER) gesetzt wurde."
+"Diese Option wird nur ausgewertet, wenn die „Methode zur Berechnung der "
+"Kartengröße“ („mapsize“) auf „Felder pro Spieler“ (PLAYER) gesetzt wurde."
 
 #: server/settings.c:1114
 msgid "Map width in tiles"
@@ -36172,8 +36172,8 @@ msgid ""
 "('mapsize') must be set to \"Width and height\" (XYSIZE)."
 msgstr ""
 "Legt die Kartenbreite fest.\n"
-"Diese Option wird nur ausgewertet, wenn die »Methode zur Berechnung der "
-"Kartengröße« (»mapsize«) auf »Breite und Höhe« (XYSIZE) gesetzt wurde."
+"Diese Option wird nur ausgewertet, wenn die „Methode zur Berechnung der "
+"Kartengröße“ („mapsize“) auf „Breite und Höhe“ (XYSIZE) gesetzt wurde."
 
 #: server/settings.c:1128
 msgid "Map height in tiles"
@@ -36191,8 +36191,8 @@ msgid ""
 "('mapsize') must be set to \"Width and height\" (XYSIZE)."
 msgstr ""
 "Kartenhöhe in Feldern.\n"
-"Diese Option wird nur ausgewertet, wenn die »Methode zur Berechnung der "
-"Kartengröße« (»mapsize«) auf »Breite und Höhe« (XYSIZE) gesetzt wurde."
+"Diese Option wird nur ausgewertet, wenn die „Methode zur Berechnung der "
+"Kartengröße“ („mapsize“) auf „Breite und Höhe“ (XYSIZE) gesetzt wurde."
 
 #: server/settings.c:1143
 msgid "Map topology index"
@@ -36325,19 +36325,19 @@ msgstr ""
 "Die Methode, nach der der Ort für die ersten Spieleinheiten jedes Spielers "
 "festgelegt wird (in Szenarien mit voreingestellten Startpositionen wird "
 "diese Option ignoriert).\n"
-"‒ »Wahl durch den Generator« (DEFAULT): Die Startpositionen werden durch den "
-"Kartengenerator ausgewählt. Siehe die Option »generator«.\n"
-"‒ »Ein Spieler pro Kontinent« (SINGLE): Ein Spieler wird auf einem einzelnen "
+"‒ „Wahl durch den Generator“ (DEFAULT): Die Startpositionen werden durch den "
+"Kartengenerator ausgewählt. Siehe die Option „generator“.\n"
+"‒ „Ein Spieler pro Kontinent“ (SINGLE): Ein Spieler wird auf einem einzelnen "
 "Kontinent platziert, sodass die Anzahl der Kontinente etwa der der Spieler "
 "entspricht (falls möglich).\n"
-"‒ »Zwei oder drei Spieler pro Kontinent« (2or3): Ähnlich zu SINGLE, "
+"‒ „Zwei oder drei Spieler pro Kontinent“ (2or3): Ähnlich zu SINGLE, "
 "abgesehen davon, dass zesi oder drei Spieler auf jedem Kontinent platziert "
-"werden. Bei einer ungeraden Anzahl von Spielern werden auf dem »besten« "
+"werden. Bei einer ungeraden Anzahl von Spielern werden auf dem „besten“ "
 "Kontinent drei Spieler platziert.\n"
-"‒ »Alle Spieler auf einem einzigen Kontinent« (ALL): Alle Spieler starten "
-"auf dem »besten« zur Verfügung stehenden Kontinent.\n"
-"‒ »Abhängig von der Größe der Kontinente« (VARIABLE): Die Spieler werden so "
-"auf den »besten« zur Verfügung stehenden Kontinenten platziert, dass — so "
+"‒ „Alle Spieler auf einem einzigen Kontinent“ (ALL): Alle Spieler starten "
+"auf dem „besten“ zur Verfügung stehenden Kontinent.\n"
+"‒ „Abhängig von der Größe der Kontinente“ (VARIABLE): Die Spieler werden so "
+"auf den „besten“ zur Verfügung stehenden Kontinenten platziert, dass — so "
 "weit wie möglich — die Anzahl der Spieler auf einem Kontinent proportional "
 "zu dessen Brauchbarkeit ist.\n"
 "Wenn der Server der hier geforderten Einstellung nicht stattgeben kann, weil "
@@ -36672,8 +36672,8 @@ msgid ""
 "If turned on, all cached events will be marked by the turn and time of the "
 "event like '(T2 - 15:29:52)'."
 msgstr ""
-"Wenn eingeschaltet, werden alle Ereignisse mit der Runde (engl. »turn«) und "
-"der Zeit des Ereignisses markiert. Beispiel: »(T2 - 15:29:52).«"
+"Wenn eingeschaltet, werden alle Ereignisse mit der Runde (engl. „turn“) und "
+"der Zeit des Ereignisses markiert. Beispiel: „(T2 - 15:29:52).“"
 
 #: server/settings.c:1464
 msgid "List of players' initial units"
@@ -36750,7 +36750,7 @@ msgid ""
 msgstr ""
 "Die Anzahl von Fortschritten, die jeder Spieler bereits zu Beginn erhält. "
 "Die Fortschritte werden für jeden Spieler per Zufall bestimmt. Ein hoher "
-"Wert für »techlevel« kann abhängig vom Wert »tech_cost_style« im Regelsatz "
+"Wert für „techlevel“ kann abhängig vom Wert „tech_cost_style“ im Regelsatz "
 "das Erforschen der nachfolgenden Technologien sehr teuer machen."
 
 #: server/settings.c:1515
@@ -36852,7 +36852,7 @@ msgstr ""
 
 #: server/settings.c:1583
 msgid "Penalty when getting a free tech"
-msgstr "Abzug für »kostenlose« Entwicklungen"
+msgstr "Abzug für „kostenlose“ Entwicklungen"
 
 #. TRANS: The strings between single quotes are setting names and
 #. * shouldn't be translated.
@@ -36864,8 +36864,8 @@ msgid ""
 "new technology. If this is non-zero, you can end up with negative research "
 "points."
 msgstr ""
-"Für jedes »kostenlose« Forschungsergebnis (abgesehen von denen, die schon "
-"durch »diplcost« und »conquercost« abgdeckt werden; insbesondere sind hier "
+"Für jedes „kostenlose“ Forschungsergebnis (abgesehen von denen, die schon "
+"durch „diplcost“ und „conquercost“ abgdeckt werden; insbesondere sind hier "
 "die Forschungsergebnisse aus der Großen Bibliothek und aus Hütten gemeint), "
 "wird  dieser Prozentsatz der Forschungspunkte in Abzug gebracht. Ein "
 "negatives Forschungskonto ist möglich."
@@ -36965,9 +36965,9 @@ msgid ""
 msgstr ""
 "Städte unter dieser Größe erhalten Abzüge bei den generierten "
 "Handelspunkten. Dieser Abzug beträgt 100% (überhaupt kein Handel) bei "
-"Städten, deren Größen kleiner oder gleich »notradesize« sind und reduziert "
+"Städten, deren Größen kleiner oder gleich „notradesize“ sind und reduziert "
 "sich stufenweise bis auf 0% (kein Abzug abgesehen von der gewöhnlichen "
-"Korruption) bei 'fulltradesize'. Siehe auch »notradesize«."
+"Korruption) bei 'fulltradesize'. Siehe auch „notradesize“."
 
 #: server/settings.c:1670
 msgid "Maximum size of a city without trade"
@@ -36982,8 +36982,8 @@ msgid ""
 "'notradesize' and smaller than 'fulltradesize'. See also 'fulltradesize'."
 msgstr ""
 "Städte bis zu dieser Größe generieren keine Handelspunkte. Die generierten "
-"Handelspunkte steigen stufenweise für Städte, die größer als »notradesize« "
-"und kleiner als »fulltradesize« sind. Siehe auch »fulltradesize«."
+"Handelspunkte steigen stufenweise für Städte, die größer als „notradesize“ "
+"und kleiner als „fulltradesize“ sind. Siehe auch „fulltradesize“."
 
 #: server/settings.c:1682
 msgid "Minimum distance between cities"
@@ -37049,7 +37049,7 @@ msgstr ""
 "Zwei Städte derselben Zivilisation können nur dann einen Handelsweg "
 "eröffnen, wenn sie diese Anzahl von Feldern auseinanderliegen. Für "
 "quadratische Raster wird diese Entfernung mithilfe der sogenannten "
-"»Manhatten-Distanz« berechnet, also die Anzahl der Versetzungen entlang der "
+"„Manhatten-Distanz“ berechnet, also die Anzahl der Versetzungen entlang der "
 "X- und Y-Achsen."
 
 #: server/settings.c:1727
@@ -37163,7 +37163,7 @@ msgid ""
 "until the death of the unit."
 msgstr ""
 "Ist dies größer als 0, wird jede Einheit ohne Heimatstadt jede Runde "
-"Lebenspunkte verlieren. Die genaue Anzahl beträgt »killunhomed« Prozent der "
+"Lebenspunkte verlieren. Die genaue Anzahl beträgt „killunhomed“ Prozent der "
 "Lebenspunkte einer Einheit, jedoch verliert sie immer mindestens einen "
 "Lebenspunkt pro Runde, bis sie schließlich stirbt."
 
@@ -37219,13 +37219,13 @@ msgid ""
 "player isn't allowed to use a default city name of another nation unless it "
 "is a default for their nation also."
 msgstr ""
-"‒ »keine Einschränkungen« (NO_RESTRICTIONS): Spieler können mehrere Stedte "
+"‒ „keine Einschränkungen“ (NO_RESTRICTIONS): Spieler können mehrere Stedte "
 "mit denselben Namen besitzen.\n"
-"‒ »Einmalig je Spieler« (PLAYER_UNIQUE): Ein Spieler kann nicht mehrere "
+"‒ „Einmalig je Spieler“ (PLAYER_UNIQUE): Ein Spieler kann nicht mehrere "
 "Städte mit demselben Namen besitzen.\n"
-"‒ »Global einmalig« (GLOBAL_UNIQUE): Alle Städte im Spiel müssen "
+"‒ „Global einmalig“ (GLOBAL_UNIQUE): Alle Städte im Spiel müssen "
 "unterschiedliche Namen haben.\n"
-"‒ »Kein Namensdiebstahl bei Städten« (NO_STEALING): Wie »Global einmalig«, "
+"‒ „Kein Namensdiebstahl bei Städten“ (NO_STEALING): Wie „Global einmalig“, "
 "aber ein Spieler darf einen der Standardnamen der Städte anderer Spieler "
 "verwenden, wenn es sich nicht auch um einen Standardnamen für seine Nation "
 "handelt."
@@ -38151,24 +38151,24 @@ msgstr ""
 #: server/settings.c:2570
 #, c-format
 msgid "You are not allowed to change the setting '%s'."
-msgstr "Keine Berechtigung zum Ändern von »%s«."
+msgstr "Keine Berechtigung zum Ändern von „%s“."
 
 #: server/settings.c:2578
 #, c-format
 msgid "The setting '%s' is locked by the ruleset."
-msgstr "Die Einstellung »%s« ist durch den Regelsatz gesperrt."
+msgstr "Die Einstellung „%s“ ist durch den Regelsatz gesperrt."
 
 #: server/settings.c:2592
 #, c-format
 msgid "The setting '%s' can't be modified after the map is fixed."
 msgstr ""
-"Die Einstellung »%s« kann nach abgeschlossener Berechnung der Karte nicht "
+"Die Einstellung „%s“ kann nach abgeschlossener Berechnung der Karte nicht "
 "mehr geändert werden."
 
 #: server/settings.c:2609
 #, c-format
 msgid "The setting '%s' can't be modified after the game has started."
-msgstr "Die Einstellung »%s« kann nach Spielstart nicht mehr geändert werden."
+msgstr "Die Einstellung „%s“ kann nach Spielstart nicht mehr geändert werden."
 
 #: server/settings.c:2621
 msgid "Internal error."
@@ -38177,7 +38177,7 @@ msgstr "Interner Fehler."
 #: server/settings.c:2709
 #, c-format
 msgid "\"%s\" prefix is ambiguous. Candidates are: %s."
-msgstr "Das Präfix »%s« ist mehrdeutig. Mögliche Kandidaten: %s."
+msgstr "Das Präfix „%s“ ist mehrdeutig. Mögliche Kandidaten: %s."
 
 #: server/settings.c:2716
 msgid "Missing value."
@@ -38186,7 +38186,7 @@ msgstr "Fehlender Wert."
 #: server/settings.c:2725
 #, c-format
 msgid "No match for \"%s\"."
-msgstr "Kein Treffer für »%s«."
+msgstr "Kein Treffer für „%s“."
 
 #: server/settings.c:2763
 msgid "This setting is not a boolean."
@@ -38233,18 +38233,18 @@ msgstr "Dies ist keine bitbasierte Einstellung."
 #: server/settings.c:3584 server/settings.c:3608
 #, c-format
 msgid "Ruleset: '%s' has been set to %s."
-msgstr "Regelsatz: »%s« wurde auf »%s« gesetzt."
+msgstr "Regelsatz: „%s“ wurde auf „%s“ gesetzt."
 
 #: server/settings.c:3625
 #, c-format
 msgid "Ruleset: '%s' has been locked by the ruleset."
-msgstr "Regelsatz: »%s« wurde durch das Regelwerk gesperrt."
+msgstr "Regelsatz: „%s“ wurde durch das Regelwerk gesperrt."
 
 #: server/settings.c:3884 server/settings.c:3909 server/settings.c:3931
 #: server/settings.c:3958 server/settings.c:3985
 #, c-format
 msgid "Savegame: '%s' has been set to %s."
-msgstr "Spielstand: »%s« wurde auf »%s« gesetzt."
+msgstr "Spielstand: „%s“ wurde auf „%s“ gesetzt."
 
 #: server/settings.h:39
 msgid "Geological"
@@ -39250,13 +39250,13 @@ msgstr "Benutzung: /cancelvote [<nr. d. abstimmung>|all]"
 #: server/stdinhand.c:2641
 #, c-format
 msgid "%s has canceled the vote \"%s\" (number %d)."
-msgstr "%s hat die Abstimmung zu »%s« (Nr. %d) abgebrochen."
+msgstr "%s hat die Abstimmung zu „%s“ (Nr. %d) abgebrochen."
 
 #. TRANS: "vote" as a process
 #: server/stdinhand.c:2648
 #, c-format
 msgid "The vote \"%s\" (number %d) has been canceled."
-msgstr "Die Abstimmung zu »%s« (Nr. %d) wurde abgebrochen."
+msgstr "Die Abstimmung zu „%s“ (Nr. %d) wurde abgebrochen."
 
 #: server/stdinhand.c:2669
 msgid "Can only use this command once game has begun."
@@ -39329,14 +39329,14 @@ msgstr "Einheit %d existiert nicht."
 #: server/stdinhand.c:2891
 #, c-format
 msgid "Option '%s' not recognized."
-msgstr "Unbekannte Option »%s«."
+msgstr "Unbekannte Option „%s“."
 
 #. TRANS: 'rulesetdir' is the command. Do not translate.
 #: server/stdinhand.c:2899
 #, c-format
 msgid "Use the '%srulesetdir' command to change the ruleset directory."
 msgstr ""
-"Das Verzeichnis für Regelsätze kann mit dem Befehl »%srulesetdir« verändert "
+"Das Verzeichnis für Regelsätze kann mit dem Befehl „%srulesetdir“ verändert "
 "werden."
 
 #: server/stdinhand.c:2941
@@ -39347,7 +39347,7 @@ msgstr "Der Parameter %s darf nur die Ziffern 0 bis 9 sowie +- enthalten."
 #: server/stdinhand.c:3029
 #, c-format
 msgid "Console: '%s' has been set to %s."
-msgstr "Konsole: %s auf »%s« gesetzt."
+msgstr "Konsole: %s auf „%s“ gesetzt."
 
 #: server/stdinhand.c:3071
 msgid "Sorry, one can't observe globally in this game."
@@ -40048,7 +40048,7 @@ msgstr "Fehler beim Speichern von Kartenbild %d: %s."
 #: server/stdinhand.c:5454
 #, c-format
 msgid "Bad argument for 'mapimg create': '%s'."
-msgstr "Falscher Parameter für »mapimg create«: »%s«."
+msgstr "Falscher Parameter für „mapimg create“: „%s“."
 
 #: server/stdinhand.c:5498
 msgid "Freeciv database script deactivated at compile time."
@@ -40136,13 +40136,13 @@ msgid ""
 msgstr ""
 "Willkommen — dies ist die einführende Hilfe zum Freeciv-Server!\n"
 "\n"
-"Es gibt Befehle (commands) und Optionen (options). Befehle wie z.B. »help« "
+"Es gibt Befehle (commands) und Optionen (options). Befehle wie z.B. „help“ "
 "werden dazu benutzt, um den Server anzusprechen. Sie können meist ein oder "
 "mehrere durch Abstände getrennte Parameter annehmen und oftmals abgekürzt "
 "werden. Optionen hingegen sind Einstellungen, die beeinflussen, wie der "
 "Server läuft.\n"
 "\n"
-"»help help« zeigt, wie man nähere Informationen zu Befehlen und Optionen "
+"„help help“ zeigt, wie man nähere Informationen zu Befehlen und Optionen "
 "erhält.\n"
 "\n"
 "Für die Ungeduldigen hier die wichtigsten Befehle:\n"
@@ -40301,8 +40301,8 @@ msgstr "Liste der Teams:"
 #, c-format
 msgid "%2d : '%s' : %d player :"
 msgid_plural "%2d : '%s' : %d players :"
-msgstr[0] "%2d : »%s« : %d Spieler :"
-msgstr[1] "%2d : »%s« : %d Spieler :"
+msgstr[0] "%2d : „%s“ : %d Spieler :"
+msgstr[1] "%2d : „%s“ : %d Spieler :"
 
 #: server/stdinhand.c:6400
 msgid "No map image definitions."
@@ -40417,9 +40417,9 @@ msgid ""
 "The required technology for our government '%s' was lost. The citizens have "
 "started a revolution into '%s'."
 msgstr ""
-"Wir wissen nicht mehr, wie unsere Regierungsform »%s« funktioniert, da die "
+"Wir wissen nicht mehr, wie unsere Regierungsform „%s“ funktioniert, da die "
 "erforderlichen Kenntnisse verloren gingen! Das Volk hat eine Revolution mit "
-"dem Ziel »%s« begonnen!"
+"dem Ziel „%s“ begonnen!"
 
 #: server/techtools.c:695
 #, c-format
@@ -40427,8 +40427,8 @@ msgid ""
 "The required technology for our new government '%s' was lost. The citizens "
 "chose '%s' as new target government."
 msgstr ""
-"Die für Ihre angestrebte Regierungsform »%s« erforderlichen Kenntnisse sind "
-"verloren gegangen. Die Bürger entschieden sich stattdessen für »%s«."
+"Die für Ihre angestrebte Regierungsform „%s“ erforderlichen Kenntnisse sind "
+"verloren gegangen. Die Bürger entschieden sich stattdessen für „%s“."
 
 #: server/techtools.c:722 server/techtools.c:735
 #, c-format
@@ -41068,7 +41068,7 @@ msgstr ""
 msgid ""
 "%s %d \"%s\" is passed %d to %d with %d abstentions and %d who did not vote."
 msgstr ""
-"%s %d »%s« wurde mit %d zu %d Stimmen angenommen. Es gab %d Enthaltungen und "
+"%s %d „%s“ wurde mit %d zu %d Stimmen angenommen. Es gab %d Enthaltungen und "
 "%d Leute blieben der Abstimmung fern."
 
 #. TRANS: "[Vote|Teamvote] 3 \"proposed change\" failed ..."
@@ -41078,7 +41078,7 @@ msgid ""
 "%s %d \"%s\" failed with %d against, %d for, %d abstentions and %d who did "
 "not vote."
 msgstr ""
-"%s %d »%s« wurde mit %d zu %d Stimmen abgelehnt. Es gab %d Enthaltungen und "
+"%s %d „%s“ wurde mit %d zu %d Stimmen abgelehnt. Es gab %d Enthaltungen und "
 "%d Leute blieben der Abstimmung fern."
 
 # MG: Das jeweils zweite %s in den folgenden Strings
@@ -41282,7 +41282,7 @@ msgstr "Unvollständige Eingabe ('%s').\n"
 #: utility/shared.c:981 utility/shared.c:1025 utility/shared.c:1084
 #, c-format
 msgid "\"%s\" is set but empty; trying \"%s\" instead."
-msgstr "»%s« ist leer; stattdessen wird »%s« verwendet."
+msgstr "„%s“ ist leer; stattdessen wird „%s“ verwendet."
 
 #. TRANS: <FREECIV_PATH> configuration error
 #: utility/shared.c:987
@@ -41318,7 +41318,7 @@ msgstr ""
 
 #: utility/shared.c:1571
 msgid "Use a non-privileged account instead.\n"
-msgstr "Starten Sie es als »normaler« Benutzer.\n"
+msgstr "Starten Sie es als „normaler“ Benutzer.\n"
 
 #: utility/shared.c:1587
 msgid "exact match"
@@ -41848,10 +41848,10 @@ msgstr "error %d (compiled without strerror)"
 #~ msgstr "• 2fache Verteidigung gegen 'berittene' Einheiten.\n"
 
 #~ msgid "* Counts as 'mounted' against certain defenders.\n"
-#~ msgstr "• Wird als »beritten« gewertet.\n"
+#~ msgstr "• Wird als „beritten“ gewertet.\n"
 
 #~ msgid "* Counts as 'helicopter' against certain attackers.\n"
-#~ msgstr "• Gilt als »Hubschrauber« gegen bestimmte Angreifer.\n"
+#~ msgstr "• Gilt als „Hubschrauber“ gegen bestimmte Angreifer.\n"
 
 #~ msgid "* Very good at attacking 'helicopter' units.\n"
 #~ msgstr "• Kann sehr gut 'Hubschrauber'-Einheiten angreifen.\n"
@@ -41949,7 +41949,7 @@ msgstr "error %d (compiled without strerror)"
 #~ "sometimes known as \"bases\"; see the following sections for details."
 #~ msgstr ""
 #~ "Mit dem technologischen Fortschritt geht die Möglichkeit einher, eine "
-#~ "weitere Art von Bauten zu errichten, die sogenannten »Basen«. Siehe die "
+#~ "weitere Art von Bauten zu errichten, die sogenannten „Basen“. Siehe die "
 #~ "folgenden Abschnitte für mehr Informationen."
 
 #~ msgid "  Pillaging"
@@ -42142,8 +42142,8 @@ msgstr "error %d (compiled without strerror)"
 #~ "No city founder ('c') within the starting units string: '%s'. Try \"help "
 #~ "startunits\"."
 #~ msgstr ""
-#~ "Kein Stadtgründer (»c«) im Optionsstring zu den Starteinheiten: »%s«. "
-#~ "Nähere Informationen sind mit »help startunits« verfügbar."
+#~ "Kein Stadtgründer („c“) im Optionsstring zu den Starteinheiten: „%s“. "
+#~ "Nähere Informationen sind mit „help startunits“ verfügbar."
 
 #~ msgid "Save using the given savegame version"
 #~ msgstr "Spielstand für spezifische Version erstellen"
@@ -42254,13 +42254,13 @@ msgstr "error %d (compiled without strerror)"
 #~ "Surviving requirements are only supported at world and player ranges."
 
 #~ msgid "The path may be set via the \"%s\" environment variable."
-#~ msgstr "Der Suchpfad kann über die Umgebungsvariable »%s« gesetzt werden."
+#~ msgstr "Der Suchpfad kann über die Umgebungsvariable „%s“ gesetzt werden."
 
 #~ msgid "Current path is: \"%s\""
-#~ msgstr "Aktueller Suchpfad: »%s«"
+#~ msgstr "Aktueller Suchpfad: „%s“"
 
 #~ msgid "The \"%s\" file is required ... aborting!"
-#~ msgstr "Die Datei »%s« wird benötigt... Abbruch!"
+#~ msgstr "Die Datei „%s“ wird benötigt... Abbruch!"
 
 #~ msgid ""
 #~ "Oceans cover much of the world, and only sea units (Triremes and other "
