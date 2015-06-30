@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-30 13:37+0200\n"
+"PO-Revision-Date: 2015-06-30 18:01+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -22606,30 +22606,30 @@ msgstr ""
 "Bibliotheken für alle Spieler dauerhaft."
 
 #: data/civ2civ3/buildings.ruleset:1377
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Increases the defense of all your cities by adding a +50% bonus to its "
 "units' intrinsic defense strength against land units (this is cumulative "
 "with any City Walls), and preventing the loss of population which occurs "
 "when a defending unit is defeated by a land unit."
 msgstr ""
-"Eine Stadtmauer hilft, eine Stadt vor Land- und Helikoptereinheiten zu "
-"schützen. Gegenüber anderen Luft- und Seeeinheiten sowie gegenüber Haubitzen "
-"ist sie jedoch wirkungslos. Auch verhindert sie Verluste bei der "
-"Bevölkerung, falls gegnerische Landeinheiten eine in der Stadt stationierte "
-"Einheit vernichten."
+"Erhöht die Verteidigungsstärke Ihrer Städte gegen Landeinheiten um 50% auf "
+"den ursprünglichen Wert der stationierten Einheiten. Der Effekt addiert sich "
+"mit demjenigen der Stadtmauern, außerdem wird der Bevölkerungsverlust "
+"verhindert, der ansonsten bei Überwindung einer Verteidigereinheit durch "
+"eine Landeinheit einträte."
 
 #: data/civ2civ3/buildings.ruleset:1399
-#, fuzzy
 msgid ""
 "Makes one unhappy citizen content in every city of the player that owns it "
 "(not including citizens unhappy about aggression). This wonder also makes "
 "two content citizens happy in the city where it is located (4 extra luxury "
 "points)."
 msgstr ""
-"Stellt in jeder Stadt auf demselben Kontinent zwei unzufriedene Bürger "
-"zufrieden (das schließt Bürger, die aufgrund von militärischen Aktivitäten "
-"glücklich sind, mit ein)."
+"Stellt in jeder Stadt des Eigentümers einen Bürger zufrieden, der nicht "
+"wegen militärischer Aktivitäten unzufrieden ist. Darüber hinaus werden in "
+"der Stadt, in der dieses Weltwunder steht, zwei zufriedene Bürger glücklich "
+"(4 extra Luxuspunkte)."
 
 #: data/civ2civ3/buildings.ruleset:1424
 #, no-c-format
@@ -22661,14 +22661,14 @@ msgstr ""
 "von Universitäten für alle Spieler."
 
 #: data/civ2civ3/buildings.ruleset:1469
-#, fuzzy
 msgid ""
 "Makes one content citizen happy in every city of the player that owns it (2 "
 "extra luxury points per city)."
-msgstr "Macht in jeder Stadt 2 Unzufriedene zufrieden."
+msgstr ""
+"In jeder Stadt des Eigentümers werden zwei zufriedene Bürger glücklich (2 "
+"extra Luxuspunkte pro Stadt)."
 
 #: data/civ2civ3/buildings.ruleset:1489
-#, fuzzy
 msgid ""
 "Reduces the unhappiness caused by aggressively deployed military units owned "
 "by the city by 1 -- in other words, it neutralizes the unhappiness caused by "
@@ -22676,31 +22676,31 @@ msgid ""
 "two citizens unhappy). Under governments where unit upkeep is paid in gold, "
 "it gives two free gold per city towards upkeep every turn."
 msgstr ""
-"Stellt in einer Demokratie zwei und in einer Republik einen über "
-"militärische Aktionen Unzufriedenen zufrieden — im Klartext: Die "
-"Polizeiwache neutralisiert die durch eine einzelne militärische Einheit "
-"verursachte Unzufriedenheit. Unter anderen Regierungsformen hat diese "
-"Stadtverbesserung keine Auswirkungen."
+"Verringert die Anzahl der wegen aggressiver militärischer Aktionen "
+"Unzufriedenen um eins — im Klartext: neutralisiert die durch eine einzelne "
+"Militäreinheit erzeugte Unzufriedenheit (außer in der Demokratie, in der "
+"eine einzelne Einheit zwei unzufriedene Bürger nach sich zieht). In "
+"Regierungsformen, in welchen Unterhalt in Gold gezahlt wird, werden umsonst "
+"zwei Gold zusätzlich zum Unterhalt beigesteuert."
 
 #: data/civ2civ3/buildings.ruleset:1533
-#, fuzzy
 msgid ""
 "Gives all your sea units 1 additional movement point (except Triremes while "
 "moving on rivers). Makes all your new sea units veterans (for all your "
 "cities)."
 msgstr ""
-"Alle Marineeinheiten erhalten 1 zusätzlichen Bewegungspunkt. In allen "
-"eigenen Städten erhalten neue Marineeinheiten Veteran-Status."
+"Alle Marineeinheiten außer Triremen auf Flüssen erhalten einen zusätzlichen "
+"Bewegungspunkt. In allen eigenen Städten erhalten neue Marineeinheiten den "
+"Veteranengrad."
 
 #: data/civ2civ3/buildings.ruleset:1555
-#, fuzzy
 msgid ""
 "Gives all your sea units 1 additional movement point. The chance of a sea "
 "unit getting the next veteran level after a battle increases by half."
 msgstr ""
-"Neue Landeinheiten erhalten automatisch den ersten Veteranengrad und die "
-"Chance, nach einer Schlacht den nächsten Grad zu erreichen, erhöht sich um "
-"die Hälfte."
+"Alle Marineeinheiten erhalten einen zusätzlichen Bewegungspunkt und die "
+"Wahrscheinlichkeit, dass sie in einer Schlacht den nächsten Veteranengrad "
+"erreichen, erhöht sich um die Hälfte."
 
 #: data/civ2civ3/buildings.ruleset:1596
 msgid ""
@@ -22712,64 +22712,63 @@ msgstr ""
 "kennen, reduziert."
 
 #: data/civ2civ3/buildings.ruleset:1617
-#, fuzzy
 msgid ""
 "Doubles the base effect of Cathedrals. This makes 3 additional unhappy "
 "citizens content in each city with a Cathedral; however, it does not affect "
 "citizens made unhappy by aggression."
 msgstr ""
-"Sorgt für Unterhaltung der Bürger einer Stadt und stellt so drei (nach "
-"Entdeckung der Elektrizität vier) Unzufriedene zufrieden, sofern diese nicht "
-"aufgrund von militärischen Aktivitäten unzufrieden sind."
+"Verdoppelt den Grundeffekt von Kathedralen, sodass zusätzlich drei "
+"unzufriedene Bürger zufrieden gestellt werden. Dies betrifft allerdings "
+"keine wegen militärischer Aktivitäten Unzufriedenen."
 
 #: data/civ2civ3/buildings.ruleset:1624
 msgid "Mausoleum of Mausolos"
 msgstr "das Mausoleum des Mausolos"
 
 #: data/civ2civ3/buildings.ruleset:1638
-#, fuzzy
 msgid ""
 "With this wonder, City Walls and Courthouses each make one unhappy citizen "
 "content in their city, unless that citizen is unhappy about aggression. "
 "Also, none of the owner's cities can be incited to revolt."
 msgstr ""
-"In einer Demokratie macht das Gerichtsgebäude einen Unzufriedenen zufrieden "
-"(außer wenn der Betroffene wegen militärischer Aktivität unzufrieden ist)."
+"Die Gerichte und Stadtmauern der Nation, die im Besitz dieses Weltwunders "
+"ist, stellen einen unzufriedenen Bürger in ihren jeweiligen Städten "
+"zufrieden, sofern der betroffene Bürger nicht wegen militärischer "
+"Aktivitäten unzufrieden ist. Es wird unmöglich, in den Städten des Spielers "
+"einen Aufstand herbeizuführen."
 
 #: data/civ2civ3/buildings.ruleset:1645
 msgid "Statue of Zeus"
 msgstr "die Zeusstatue"
 
 #: data/civ2civ3/buildings.ruleset:1659
-#, fuzzy
 msgid ""
 "Reduces the unhappiness caused by aggressively deployed military units owned "
 "by the city by 1 -- in other words, it neutralizes the unhappiness caused by "
 "a single military unit (except under Democracy, where a single unit makes "
 "two citizens unhappy). Each city also avoids one shield of upkeep for units."
 msgstr ""
-"Stellt in einer Demokratie zwei und in einer Republik einen über "
-"militärische Aktionen Unzufriedenen zufrieden — im Klartext: Die "
-"Polizeiwache neutralisiert die durch eine einzelne militärische Einheit "
-"verursachte Unzufriedenheit. Unter anderen Regierungsformen hat diese "
-"Stadtverbesserung keine Auswirkungen."
+"Verringert die Anzahl der wegen aggressiv eingesetzter Militäreinheiten aus "
+"dieser Stadt verursachte Unzufriedenheit um eins, d.h. neutralisiert die "
+"durch eine einzelne Militäreinheit verursachte Unzufriedenheit (außer in der "
+"Demokratie, in der eine einzelne Militäreinheit zwei Bürger unzufrieden "
+"macht). Außerdem ist in jeder Stadt ein Schild weniger Unterhalt für "
+"Einheiten erforderlich."
 
 #: data/civ2civ3/buildings.ruleset:1668
 msgid "Temple of Artemis"
 msgstr "der Artemistempel"
 
 #: data/civ2civ3/buildings.ruleset:1683
-#, fuzzy
 msgid ""
 "Makes 2 additional unhappy citizens content in every city with a Temple. "
 "Does not affect citizens made unhappy by aggression."
 msgstr ""
-"Stellt in jeder Stadt auf dem gleichen Kontinent zwei Unzufriedene "
-"zufrieden, abgesehen von solchen, die wegen militärischer Aktivitäten "
+"Stellt zwei weitere unzufriedene Bürger in jeder Stadt mit Tempel zufrieden. "
+"Hat keine Auswirkungen auf Bürger, die wegen militärischer Aktivitäten "
 "unzufrieden sind."
 
 #: data/civ2civ3/buildings.ruleset:1703
-#, fuzzy
 msgid ""
 "Each tile around the city where this wonder is built that is already "
 "generating some shield output produces one extra shield resource. Under "
@@ -22778,8 +22777,10 @@ msgid ""
 "cities were always celebrating."
 msgstr ""
 "Jedes Feld der Stadt, in der dieses Weltwunder steht, und das zumindest "
-"einen Handelspunkt erwirtschaftet, produziert einen zusätzlichen "
-"Handelspunkt."
+"einen Produktionspunkt erwirtschaftet, produziert einen zusätzlichen "
+"Produktionspunkt. In diktatorischen Regimen und in Stammesverbänden heben "
+"die Pyramiden die Beschränkung auf zwei Erzeugnisse pro Feld auf, so, als ob "
+"alle Ihre Städte feierten."
 
 #: data/civ2civ3/buildings.ruleset:1712
 msgid "Internet"
@@ -22804,11 +22805,11 @@ msgstr ""
 "Forschungslabors für alle Spieler dauerhaft."
 
 #: data/civ2civ3/buildings.ruleset:1752
-#, fuzzy
 msgid ""
 "Gives 1 additional luxury to every city, and 6 luxuries to the city where it "
 "is located."
-msgstr "Macht in jeder Stadt 2 Unzufriedene zufrieden."
+msgstr ""
+"+1 Luxus in jeder Stadt, und +6 Luxus in der Stadt, in der es sich befindet."
 
 #: data/civ2civ3/buildings.ruleset:1755
 msgid ""
@@ -22819,7 +22820,6 @@ msgstr ""
 "jeder Nation erzeugten Luxuspunkte permanent auf 3 erhöht."
 
 #: data/civ2civ3/buildings.ruleset:1775
-#, fuzzy
 msgid ""
 "Allows you to choose any government, including those that have not yet been "
 "researched by your civilization, and without the transition period of "
@@ -22828,18 +22828,19 @@ msgid ""
 "Nations."
 msgstr ""
 "Gestattet die Wahl jeder Regierungsform (auch ohne entsprechende Kenntnisse) "
-"ohne die Periode der Anarchie."
+"ohne die Periode der Anarchie. Ferner erlaubt es die unprovozierte "
+"Kriegserklärung an jeder demokratischen oder föderalen Kontrollinstanz "
+"vorbei, sogar am Senat der Vereinten Nationen."
 
 #: data/civ2civ3/buildings.ruleset:1798
-#, fuzzy
 msgid ""
 "All your new military land units start with an additional veteran level "
 "(this is cumulative with any Barracks building in a city; with both, units "
 "are created as Hardened)."
 msgstr ""
-"Neue Landeinheiten erhalten automatisch den ersten Veteranengrad. Bereits "
-"bestehenden Truppen erhalten nach jedem gewonnenen Kampf den jeweils "
-"nächsten Grad."
+"Neue Landeinheiten erhalten automatisch einen weiteren Veteranengrad, "
+"zusätzlich zu den Auswirkungen einer Kaserne. Mit beidem werden Einheiten "
+"also unmittelbar als Generäle ausgebildet."
 
 #: data/civ2civ3/buildings.ruleset:1819
 msgid ""
@@ -22857,54 +22858,54 @@ msgstr ""
 "Abschluss des Apollo-Programms ändert."
 
 #: data/civ2civ3/buildings.ruleset:1826
-#, fuzzy
 msgid ""
 "Also, if any player's city is in disorder for more than two turns in a row, "
 "that player's government falls (even for governments other than Republic and "
 "Democracy)."
 msgstr ""
-"• Der Staat fällt in Anarchie, wenn irgendeine Stadt sich mehr als zwei "
-"Runden nacheinander in Aufruhr befindet.\n"
+"Wenn sich irgendeine Stadt eines Spielers für mehr als zwei "
+"aufeinanderfolgende Runden in Aufruhr befindet, wird die Regierung des "
+"betreffenden Spielers gestürzt und sein Staat verfällt in Anarchie. Dies "
+"gilt auch dann, wenn es sich um eine andere Regierungsform als Republik und "
+"Demokratie handelt."
 
 #: data/civ2civ3/buildings.ruleset:1847
-#, fuzzy
 msgid ""
 "Neutralizes the unhappiness caused by one aggressively deployed military "
 "unit per city. Under Democracy, it additionally halves the unhappiness "
 "caused by military units (reducing it to the same level as a Republic)."
 msgstr ""
-"Beschwichtigt in einer Demokratie vier und in einer Republik zwei über "
-"militärische Aktivitäten unzufriedenen Bürger — mit anderen Worten, es "
-"neutralisiert den durch zwei militärische Einheiten ausgelösten "
-"Negativeffekt. Unter anderen Regierungen hat diese Stadtverbesserung "
-"keinerlei Auswirkungen."
+"Neutralisiert die durch eine einzelne aggressiv eingesetzte Militäreinheit "
+"verursachte Unzufriedenheit in jeder Stadt. In einer Demokratie werden zudem "
+"die Auswirkungen militärischer Aktivitäten auf die Zufriedenheit des Volks "
+"halbiert, sodass sie denjenigen einer Republik angeglichen werden."
 
 #: data/civ2civ3/cities.ruleset:54
-#, fuzzy
 msgid ""
 "Each entertainer produces two luxury points for their city per turn, "
 "increasing to three once any player has built Shakespeare's Theater. See the "
 "section on Happiness for the effects of luxury points."
 msgstr ""
-"Jeder Unterhalter produziert pro Runde zwei Luxuspunkte für seine Stadt. "
-"Siehe den Abschnitt über Zufriedenheit für den Effekt von Luxuspunkten."
+"Jeder Unterhalter produziert pro Runde zwei Luxuspunkte für seine Stadt, "
+"drei, wenn der Spieler Shakespears Theater erbaut hat. Siehe den Abschnitt "
+"über Zufriedenheit für den Effekt von Luxuspunkten."
 
 #: data/civ2civ3/cities.ruleset:68
-#, fuzzy
 msgid ""
 "Each scientist adds two points to your empire's research output per turn, "
 "increasing to three once any player has built Darwin's Voyage."
 msgstr ""
-"Jeder Wissenschaftler führt pro Runde Ihrem Staat zwei Forschungspunkte zu."
+"Jeder Wissenschaftler führt pro Runde Ihrem Staat zwei Forschungspunkte zu, "
+"ab der Vollendung von Darwins Reise durch irgendeinen Spieler drei."
 
 #: data/civ2civ3/cities.ruleset:82
-#, fuzzy
 msgid ""
 "Each tax collector produces two extra gold for your treasury per turn, "
 "increasing to three once any player has built A.Smith's Trading Co."
 msgstr ""
 "Jeder Steuerfahnder produziert pro Runde zwei extra Goldstücke für Ihre "
-"Schatzkammer."
+"Schatzkammer, ab der Gründung von A. Smiths Handelsgesellschaft durch "
+"irgendeinen Spieler drei."
 
 #: data/civ2civ3/game.ruleset:18
 msgid "Civ2Civ3 ruleset"
@@ -22963,16 +22964,16 @@ msgstr ""
 
 #: data/civ2civ3/governments.ruleset:90
 msgid "Tribal"
-msgstr "Stammesführung"
+msgstr "Stammesverband"
 
 #: data/civ2civ3/governments.ruleset:98
 msgid ""
 "Under a Tribal government, you are part ruler of your people. Your control "
 "over your citizens is maintained largely by spiritual counsel."
 msgstr ""
-"In der Regierungsform der Stammesführung sind Sie Mitglied des Ältestenrats "
-"und dementsprechend eingeschränkter Teilherrscher über Ihr Volk. Ihre "
-"Kontrolle beruht im Wesentlichen auf den Entscheidungen der spirituellen "
+"In einem Stammesverband sind Sie Mitglied des Ältestenrats und "
+"dementsprechend eingeschränkter Teilherrscher über Ihr Volk. Ihre Kontrolle "
+"beruht im Wesentlichen auf den Entscheidungen der spirituellen "
 "Zusammenkünfte des Ältestenrats."
 
 #: data/civ2civ3/governments.ruleset:101
@@ -23015,7 +23016,7 @@ msgstr ""
 #: data/civ2civ3/governments.ruleset:135
 msgid "Compared to Tribalism, a Despotic economy is more trade-oriented."
 msgstr ""
-"Im Vergleich zur Stammesführung ist eine dikatorisch geführte Wirtschaft "
+"Im Vergleich zum Stammesverband ist eine dikatorisch geführte Wirtschaft "
 "handelsorientierter."
 
 #: data/civ2civ3/governments.ruleset:139
@@ -23265,10 +23266,10 @@ msgid "Enables movement of nuclear units."
 msgstr "Erlaubt Verlegung nuklearer Einheiten."
 
 #: data/civ2civ3/techs.ruleset:245
-#, fuzzy
 msgid "Allows Settlers, Migrants, Workers and Engineers to build fortresses."
 msgstr ""
-"Erlaubt es Siedlern, Arbeitern und Ingenieuren, Festungen zu errichten."
+"Erlaubt es Siedlern, Migranten, Arbeitern und Ingenieuren, Festungen zu "
+"errichten."
 
 #: data/civ2civ3/techs.ruleset:284
 msgid ""
@@ -23283,9 +23284,8 @@ msgid "Makes it possible for Engineers to transform terrains."
 msgstr "Ermöglicht es Ingenieuren, Gelände zu verändern."
 
 #: data/civ2civ3/techs.ruleset:414
-#, fuzzy
 msgid "Halves the upgrade cost of your units."
-msgstr "Sie können nur Einheiten in Städten modernisieren."
+msgstr "Halbiert die Modernisierungskosten Ihrer Einheiten."
 
 #: data/civ2civ3/techs.ruleset:524
 #, no-c-format
@@ -23297,15 +23297,14 @@ msgstr ""
 "Grundwahrscheinlichkeit (zusätzlich zu weiteren diesbezüglichen Gebäuden)."
 
 #: data/civ2civ3/techs.ruleset:677
-#, fuzzy
 msgid ""
 "Allows Settlers, Migrants, Workers and Engineers to upgrade roads to "
 "railroads."
 msgstr ""
-"Erlaubt es Siedlern, Arbeitern und Ingenieuren, Festungen zu errichten."
+"Erlaubt es Siedlern, Migranten, Arbeitern und Ingenieuren, Straßen zu "
+"Eisenbahntrassen zu modernisieren."
 
 #: data/civ2civ3/techs.ruleset:680
-#, fuzzy
 msgid "Halves one-time revenue from new trade routes."
 msgstr ""
 "Reduziert den Einmalbetrag, der bei der Einrichtung neuer Handelsrouten "
@@ -23333,10 +23332,10 @@ msgstr ""
 "beseitigt sie im Falle föderaler Regierungen)."
 
 #: data/civ2civ3/techs.ruleset:864
-#, fuzzy
 msgid "Halves the waste of production related to distance from the capital."
 msgstr ""
-"• Die Verschwendung von %s nimmt mit der Entfernung zur Hauptstadt zu.\n"
+"Halbiert die durch die zunehmende Entfernung von der Hauptstadt verursachte "
+"Verschwendung in der Produktion."
 
 #: data/civ2civ3/terrain.ruleset:429
 msgid ""
@@ -23357,11 +23356,13 @@ msgstr ""
 "betroffen sein, die das aktuelle Bauprojekt unterbrechen."
 
 #: data/civ2civ3/terrain.ruleset:607
-#, fuzzy
 msgid ""
 "Jungles are densely overgrown, making agriculture somewhat problematic. Big "
 "Land units may not move into jungle without a road."
-msgstr "Dschungel können landwirtschaftlich nur schwer genutzt werden."
+msgstr ""
+"Die Regenwälder sind dichte, überwucherte Gebiete mit viel Unterholz, in "
+"denen Landwirtschaft sehr schwierig ist. Ohne Straßen können große "
+"Landeinheiten sie nicht durchqueren."
 
 #: data/civ2civ3/terrain.ruleset:653
 msgid ""
@@ -23375,11 +23376,13 @@ msgstr ""
 "Landeinheiten können ohne Straßen nicht auf Bergfelder ziehen."
 
 #: data/civ2civ3/terrain.ruleset:743
-#, fuzzy
 msgid ""
 "Swamps suffer from an over-abundance of water, making agriculture somewhat "
 "problematic. Big Land units may not move in swamps without a road."
-msgstr "Landwirtschaftliche Nutzung ist in Sumpfgebieten nicht einfach."
+msgstr ""
+"Sümpfe sind wasserreiche Feuchtgebiete, in denen eine landwirtschaftliche "
+"Nutzung sich recht schwierig gestaltet. Große Landeinheiten können sie ohne "
+"Straßen nicht passieren."
 
 #: data/civ2civ3/terrain.ruleset:1061
 #, fuzzy
