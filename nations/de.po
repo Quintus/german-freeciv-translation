@@ -1,50 +1,18 @@
-# German Translation for Freeciv
+# German Translation for Freeciv, extended nation set.
 # Copyright (C) 1999-2009 Free Software Foundation, Inc.
 # Egbert Hinzen <egbert@hinzen-koeln.de>, 1999-2002.
 # Christian Knoke <chrisk@cknoke.de>, 2003-2009.
 # Marvin Gülker <quintus@quintilianus.eu>, 2012-2013
 #
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# + '# ?'  markiert Stellen, die noch nicht übersetzt wurden.           +
-# + '# NN' markiert Kommentare des Übersetzers mit den Initialen NN.    +
-# + Hinweis: Diese Markierungen müssen direkt über die mit '#:'         +
-# +          beginnenden Adressverweise gesetzt werden.                 +
-# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#
-# ÄNDERUNGEN / ERGÄNZUNGEN / KORREKTUREN / MITARBEIT
-#
-# Sollten Sie Rechtschreibfehler oder andere offensichtliche Fehler in der
-# Übersetzung finden, senden Sie bitte einen mit 'diff -u' erstellten Patch
-# an den Übersetzer. 
-#
-# Einige Texte sind aus unterschiedlichen Gründen nicht übersetzt:
-#
-# - Einige landessprachliche Bezeichnungen, vor allem Herrschertitel.
-#   Dort findet sich ein Übersetzerkommentar (EH:, CK: oder MG:).
-#
-# - Technische Fehlermeldungen sind nicht übersetzt. Diese Meldungen
-#   sind in erster Linie für Entwickler bestimmt, und die können in der
-#   Regel kein Deutsch. Soweit diesen Meldungen nicht bereits ein
-#   Entwicklerkommentar (TRANS:) migegeben wurde, findet sich dort ein
-#   Übersetzerkomentar (CK: TECHNICAL, EH: oder MG:).
-#
-# - In Deutschland ist bekanntlicherweise alles genormt, so auch
-#   Staaten- und Staatsangehörigenbezeichnungen. Hierzulande übernimmt
-#   diese Aufgabe der Ständige Ausschuss für Geographische Namen
-#   (StAGN), der jährlich eine Liste mit den offiziellen
-#   Staatenbezeichnungen und Bezeichnungen der Einwohner dieser
-#   Staaten herausgibt, die unter http://www.stagn.de abgerufen
-#   werden kann. Für Völkerbezeichnungen in Freeciv sind die dort
-#   gelisteten Bezeichnungen daher verpflichtend. Für dort nicht
-#   gelistete Völker (das betrifft vornehmlich ausgestorbene
-#   Völker) hat sich eine Kombination aus englischer und deutscher
-#   Wikipedia als nützlich erwiesen.
+# Es gelten die in der Hauptübersetzungsdatei beschriebenen
+# Übersetzungshinweise, insbesondere sei hier die Relevanz
+# des StAGN noch einmal besonders betont.
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-21 00:15+0300\n"
-"PO-Revision-Date: 2015-06-28 13:10+0200\n"
+"PO-Revision-Date: 2015-06-30 23:26+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
