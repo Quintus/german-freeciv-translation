@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-29 23:19+0200\n"
+"PO-Revision-Date: 2015-06-30 12:01+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -1705,7 +1705,6 @@ msgid "Start Position"
 msgstr "Startposition"
 
 #: client/editor.c:174
-#, fuzzy
 msgid ""
 "Place a start position which allows any nation to start at the tile. To "
 "allow only certain nations to start there, middle click on the start "
@@ -1715,7 +1714,8 @@ msgstr ""
 "Platziert eine Startposition, die es einer Nation erlaubt, auf dem "
 "angegebenen Feld zu starten. Um nur bestimmte Nationen auf demselben "
 "zuzulassen, können Sie einen Mittelklick auf der Startposition auf der Karte "
-"ausführen und den Eigenschaftseditor verwenden."
+"ausführen und den Eigenschaftseditor verwenden.\n"
+"Kürzel: b"
 
 #: client/editor.c:179
 msgid "Copy/Paste"
@@ -5851,9 +5851,8 @@ msgid "Click left button to change current production"
 msgstr "Änderung des aktuellen Bauvorhabens mit Linksklick"
 
 #: client/gui-qt/citydlg.cpp:805
-#, fuzzy
 msgid "Worklist Option"
-msgstr "Arbeitsliste bearbeiten"
+msgstr "Einstellung für Arbeitsliste"
 
 #: client/gui-qt/citydlg.cpp:828
 msgid "Show future targets"
@@ -5864,9 +5863,8 @@ msgid "Show units"
 msgstr "Einheiten zeigen"
 
 #: client/gui-qt/citydlg.cpp:835
-#, fuzzy
 msgid "Click to change worklist production"
-msgstr "Anklicken, um den Werkzeugmodus zu ändern."
+msgstr "Anklicken, um Inhalt der Arbeitsliste zu ändern"
 
 #: client/gui-qt/citydlg.cpp:844 client/gui-qt/cityrep.cpp:496
 #: client/gui-qt/cityrep.cpp:519 data/Freeciv.in:1405 data/Freeciv.in:1655
@@ -6066,24 +6064,20 @@ msgid "Center"
 msgstr "Zentrieren"
 
 #: client/gui-qt/cityrep.cpp:499
-#, fuzzy
 msgid "Add next"
-msgstr "_Einfügen"
+msgstr "Als Nächstes hinzufügen"
 
 #: client/gui-qt/cityrep.cpp:502
-#, fuzzy
 msgid "Add before last"
-msgstr "Neue Arbeitsliste"
+msgstr "Vor dem Letzten hinzufügen"
 
 #: client/gui-qt/cityrep.cpp:505
-#, fuzzy
 msgid "Add last"
-msgstr "_Hinten anhängen"
+msgstr "Hinten anhängen"
 
 #: client/gui-qt/cityrep.cpp:512
-#, fuzzy
 msgid "Add"
-msgstr "Luft"
+msgstr "Hinzufügen"
 
 #: client/gui-qt/cityrep.cpp:528 client/gui-sdl/citydlg.c:1422
 #: client/gui-sdl/repodlgs.c:1599
@@ -6201,7 +6195,6 @@ msgid "Sabotage Enemy Unit"
 msgstr "Feindliche Einheit sabotieren"
 
 #: client/gui-qt/dialogs.cpp:1337
-#, fuzzy
 msgid "Do nothing"
 msgstr "(nichts)"
 
@@ -6215,11 +6208,10 @@ msgid "Sabotage"
 msgstr "Sabotiere"
 
 #: client/gui-qt/dialogs.cpp:1825
-#, fuzzy
 msgid "Are you sure you want to disband that %1 unit?"
 msgid_plural "Are you sure you want to disband those %1 units?"
-msgstr[0] "Wollen Sie das Programm wirklich beenden?"
-msgstr[1] "Wollen Sie das Programm wirklich beenden?"
+msgstr[0] "Wollen Sie wirklich %1 Einheit auflösen?"
+msgstr[1] "Wollen Sie wirklich %1 Einheiten auflösen?"
 
 #: client/gui-qt/dialogs.cpp:1832
 msgid "Disband units"
@@ -6934,9 +6926,8 @@ msgid "Find Nearest"
 msgstr "Finde nächste"
 
 #: client/gui-qt/repodlgs.cpp:1086
-#, fuzzy
 msgid "Disband Results"
-msgstr "Einheit auflösen"
+msgstr "Ergebnis auflösen"
 
 #: client/gui-qt/spaceshipdlg.cpp:48 client/gui-sdl/spaceshipdlg.c:175
 #: data/Freeciv.in:1727
@@ -14781,10 +14772,10 @@ msgstr "Ackerland"
 msgid "Build_Airborne"
 msgstr "Fliegerhorst_errichten"
 
+# ?
 #: common/tech.h:94
-#, fuzzy
 msgid "Claim_Ocean"
-msgstr "Ozean"
+msgstr "ClaimOzean"
 
 #: common/terrain.c:550 common/terrain.c:840 common/unit.c:762
 msgid "Mine"
@@ -14942,9 +14933,8 @@ msgid "?unitflag:TradeRoute"
 msgstr "HandelsRoute"
 
 #: common/unittype.h:130
-#, fuzzy
 msgid "?unitflag:HelpWonder"
-msgstr "Helikopter"
+msgstr "HilfeWunder"
 
 #. TRANS: unit type flag (rarely shown): "ignore zones of control"
 #: common/unittype.h:133
@@ -14961,57 +14951,46 @@ msgid "?unitflag:IgTer"
 msgstr "IgGel"
 
 #: common/unittype.h:140
-#, fuzzy
 msgid "?unitflag:OneAttack"
-msgstr "Angriff:"
+msgstr "EinAngriff"
 
 #: common/unittype.h:144
-#, fuzzy
 msgid "?unitflag:IgWall"
-msgstr "Seeeinheiten"
+msgstr "IgStadtmauer"
 
 #: common/unittype.h:146
-#, fuzzy
 msgid "?unitflag:FieldUnit"
-msgstr "Einheit im Bau "
+msgstr "FeldEinheit"
 
 #: common/unittype.h:148
-#, fuzzy
 msgid "?unitflag:Marines"
-msgstr "Marschflugkörper"
+msgstr "Marine"
 
 #: common/unittype.h:151
-#, fuzzy
 msgid "?unitflag:Partial_Invis"
-msgstr "Partisanen"
+msgstr "TeilUnsichtb"
 
 #: common/unittype.h:154 common/unittype.h:334
-#, fuzzy
 msgid "?unitflag:Settlers"
-msgstr "Seeeinheiten"
+msgstr "Siedler"
 
 #: common/unittype.h:156 common/unittype.h:340
-#, fuzzy
 msgid "?unitflag:Diplomat"
 msgstr "Diplomat"
 
 #: common/unittype.h:159
-#, fuzzy
 msgid "?unitflag:Trireme"
-msgstr "Triremenartige"
+msgstr "Trireme"
 
 #: common/unittype.h:162
-#, fuzzy
 msgid "?unitflag:Nuclear"
-msgstr "Seeeinheiten"
+msgstr "Nuklear"
 
 #: common/unittype.h:165
-#, fuzzy
 msgid "?unitflag:Spy"
-msgstr "Seeeinheiten"
+msgstr "Spion"
 
 #: common/unittype.h:167
-#, fuzzy
 msgid "?unitflag:Paratroopers"
 msgstr "Fallschirmspringer"
 
@@ -15024,187 +15003,152 @@ msgid "?unitflag:Only_Native_Attack"
 msgstr "Nur_nativer_Angriff"
 
 #: common/unittype.h:176
-#, fuzzy
 msgid "?unitflag:AddToCity"
-msgstr "Zur Stadt hinzufügen"
+msgstr "ZurStadtHinzufügen"
 
 #: common/unittype.h:179
-#, fuzzy
 msgid "?unitflag:Fanatic"
-msgstr "Bodentruppen"
+msgstr "Fanatiker"
 
 #: common/unittype.h:182 common/unittype.h:337
-#, fuzzy
 msgid "?unitflag:GameLoss"
-msgstr "Spiel"
+msgstr "SpielVerlieren"
 
 #: common/unittype.h:185
-#, fuzzy
 msgid "?unitflag:Unique"
-msgstr "Seeeinheiten"
+msgstr "Einzigartig"
 
 #: common/unittype.h:188
-#, fuzzy
 msgid "?unitflag:Unbribable"
-msgstr "Eingeschaltet"
+msgstr "Unbestechlich"
 
 #: common/unittype.h:191
-#, fuzzy
 msgid "?unitflag:Undisbandable"
-msgstr "aus"
+msgstr "Unauflöslich"
 
 #: common/unittype.h:194
-#, fuzzy
 msgid "?unitflag:SuperSpy"
-msgstr "Seeeinheiten"
+msgstr "SuperSpion"
 
 #: common/unittype.h:197
-#, fuzzy
 msgid "?unitflag:NoHome"
-msgstr "Seeeinheiten"
+msgstr "KeineHeimat"
 
 #: common/unittype.h:200
-#, fuzzy
 msgid "?unitflag:NoVeteran"
-msgstr "Veteran"
+msgstr "KeinVeteran"
 
 #: common/unittype.h:203
-#, fuzzy
 msgid "?unitflag:Bombarder"
-msgstr "Anführer"
+msgstr "Bombardier"
 
 #: common/unittype.h:206
-#, fuzzy
 msgid "?unitflag:CityBuster"
-msgstr "_Kaufpreis"
+msgstr "StadtVerbesserer"
 
 #: common/unittype.h:209
-#, fuzzy
 msgid "?unitflag:NoBuild"
-msgstr "Große Landeinheit"
+msgstr "NichtBauen"
 
 #: common/unittype.h:213
 msgid "?unitflag:BadWallAttacker"
 msgstr "SchlechtBeiStadtmauerAngriff"
 
 #: common/unittype.h:216
-#, fuzzy
 msgid "?unitflag:BadCityDefender"
-msgstr "Stadtzentrum"
+msgstr "SchlechterStadtVerteidiger"
 
 #: common/unittype.h:219
-#, fuzzy
 msgid "?unitflag:BarbarianOnly"
-msgstr "barbarisch"
+msgstr "NurBarbaren"
 
 #: common/unittype.h:222
-#, fuzzy
 msgid "?unitflag:Shield2Gold"
-msgstr "Nahrung/Produktion/Gold:"
+msgstr "SchildZuGold"
 
 #: common/unittype.h:225
-#, fuzzy
 msgid "?unitflag:Capturable"
-msgstr "Veraltet"
+msgstr "Fangbar"
 
 #: common/unittype.h:228
-#, fuzzy
 msgid "?unitflag:Capturer"
-msgstr "erobert/zerstört"
+msgstr "Fänger"
 
 #: common/unittype.h:277
-#, fuzzy
 msgid "?unitflag:FirstBuild"
-msgstr "Benötigt:"
+msgstr "ErsterBau"
 
 #: common/unittype.h:280
-#, fuzzy
 msgid "?unitflag:Explorer"
-msgstr "Arbeiter"
+msgstr "Kundschafter"
 
 #: common/unittype.h:283
-#, fuzzy
 msgid "?unitflag:Hut"
-msgstr "„%s“-Einheiten"
+msgstr "Hütte"
 
 #: common/unittype.h:286
-#, fuzzy
 msgid "?unitflag:HutTech"
-msgstr "Seeeinheiten"
+msgstr "HüttenFortschritt"
 
 #: common/unittype.h:289
-#, fuzzy
 msgid "?unitflag:Partisan"
-msgstr "Partisanen"
+msgstr "Partisane"
 
 #: common/unittype.h:292
-#, fuzzy
 msgid "?unitflag:DefendOk"
-msgstr "Verteidigung:"
+msgstr "VerteidigungOK"
 
 #: common/unittype.h:295
 msgid "?unitflag:DefendGood"
 msgstr "GuteVerteidigung"
 
 #: common/unittype.h:298
-#, fuzzy
 msgid "?unitflag:AttackFast"
-msgstr "Angriff:"
+msgstr "SchnellerAngriff"
 
 #: common/unittype.h:301
-#, fuzzy
 msgid "?unitflag:AttackStrong"
-msgstr "Angriff:"
+msgstr "StarkerAngriff"
 
 #: common/unittype.h:304
-#, fuzzy
 msgid "?unitflag:FerryBoat"
-msgstr "Seeeinheiten"
+msgstr "Fähre"
 
 #: common/unittype.h:307
-#, fuzzy
 msgid "?unitflag:Barbarian"
-msgstr "?plural:Barbaren"
+msgstr "?plural:Barbar"
 
 #: common/unittype.h:310
-#, fuzzy
 msgid "?unitflag:BarbarianTech"
-msgstr "barbarisch"
+msgstr "BarbarenFortschritt"
 
 #: common/unittype.h:313
-#, fuzzy
 msgid "?unitflag:BarbarianBoat"
-msgstr "barbarisch"
+msgstr "BarbarenBoot"
 
 #: common/unittype.h:316
-#, fuzzy
 msgid "?unitflag:BarbarianBuild"
-msgstr "barbarisch"
+msgstr "BarbarenBau"
 
 #: common/unittype.h:319
-#, fuzzy
 msgid "?unitflag:BarbarianBuildTech"
-msgstr "barbarisch"
+msgstr "BarbarenBauFortschritt"
 
 #: common/unittype.h:322
-#, fuzzy
 msgid "?unitflag:BarbarianLeader"
-msgstr "Barbarenanführer"
+msgstr "BarbarenAnführer"
 
 #: common/unittype.h:325
-#, fuzzy
 msgid "?unitflag:BarbarianSea"
-msgstr "barbarisch"
+msgstr "BarbarischeSee"
 
 #: common/unittype.h:328
-#, fuzzy
 msgid "?unitflag:BarbarianSeaTech"
-msgstr "Barbarenanführer"
+msgstr "BarbarischerSeeFortschritt"
 
 #: common/unittype.h:343
-#, fuzzy
 msgid "?unitflag:Hunter"
-msgstr "Helikopter"
+msgstr "Jäger"
 
 #: common/version.c:44
 #, c-format
@@ -17384,9 +17328,8 @@ msgstr "Brückenbau"
 #: data/civ1/techs.ruleset:113 data/civ2/techs.ruleset:121
 #: data/classic/techs.ruleset:135 data/experimental/techs.ruleset:144
 #: data/civ2civ3/techs.ruleset:145 data/multiplayer/techs.ruleset:135
-#, fuzzy
 msgid "Allows roads to be built on river tiles."
-msgstr "• %s mit diesem Wissen können Straßen über Flüsse bauen.\n"
+msgstr "Mit diesem Wissen können Straßen auch über Flüsse gebaut werden."
 
 #: data/civ1/techs.ruleset:116 data/civ2/techs.ruleset:124
 #: data/classic/techs.ruleset:138 data/experimental/techs.ruleset:147
@@ -17657,9 +17600,9 @@ msgid "Railroad"
 msgstr "Eisenbahn"
 
 #: data/civ1/techs.ruleset:469
-#, fuzzy
 msgid "Allows Settlers to upgrade roads to railroads."
-msgstr "• %s mit diesem Wissen können Straßen zu Eisenbahnlinien machen.\n"
+msgstr ""
+"Siedler mit diesem Wissen können Straßen zu Eisenbahntrassen moderniseren."
 
 #: data/civ1/techs.ruleset:476 data/civ2/techs.ruleset:602
 #: data/classic/techs.ruleset:610 data/experimental/techs.ruleset:670
@@ -18107,7 +18050,6 @@ msgstr ""
 "Geländeverbesserungen durchzuführen."
 
 #: data/civ1/units.ruleset:289
-#, fuzzy
 msgid ""
 "Building an irrigation system on a suitable tile causes it to produce some "
 "extra food each turn. This requires a nearby source of water: an ocean or "
@@ -18119,16 +18061,11 @@ msgstr ""
 "voller Breite (und nicht nur an einer Ecke) angrenzendes Nachbarfeld ist ein "
 "Ozean-, ein See- oder ein Flussfeld oder besitzt bereits ein "
 "Bewässerungssystem. Ist die Bewässerung einmal eingerichtet, bleibt sie auch "
-"dann bestehen, wenn die ursprüngliche Wasserquelle entfernt wird.\n"
-"\n"
-"Bewässerung hilft, eine größere Menge Nahrung zu erzeugen. Entsprechende "
-"Kenntnisse vorausgesetzt, kann durch eine Verbesserung des "
-"Bewässerungssystems noch produktiveres Ackerland geschaffen werden."
+"dann bestehen, wenn die ursprüngliche Wasserquelle entfernt wird."
 
 #: data/civ1/units.ruleset:296 data/civ2/units.ruleset:302
 #: data/classic/units.ruleset:466 data/experimental/units.ruleset:485
 #: data/civ2civ3/units.ruleset:529 data/multiplayer/units.ruleset:467
-#, fuzzy
 msgid ""
 "Building a mine on suitable terrain increases the number of production "
 "points produced by that tile. However, it is not possible to have an "
@@ -18141,7 +18078,6 @@ msgstr ""
 #: data/civ1/units.ruleset:300 data/civ2/units.ruleset:306
 #: data/classic/units.ruleset:470 data/experimental/units.ruleset:489
 #: data/multiplayer/units.ruleset:471
-#, fuzzy
 msgid ""
 "On terrain unsuitable for irrigation systems or mines, issuing the \"irrigate"
 "\" or \"mine\" order may permanently convert the terrain to another type; "
@@ -18149,13 +18085,13 @@ msgid ""
 "yield Grassland. (Terrain conversion with the \"irrigate\" order does not "
 "require a water source.)"
 msgstr ""
-" ‒ Siedler und Arbeiter verfügen über begrenzte Möglichkeit, "
-"Geländeveränderungen vorzunehmen, die sie nutzen können, indem Sie die "
-"Befehle »Bewässerung einrichten« oder »Mine graben« erteilen, während eine "
-"solche Einheit auf einem Feld steht, das diese Art von Verbesserung nicht "
-"unterstützt; siehe die nachstehende Tabelle. (Die Umwandlung eines Feldes in "
-"ein anderes mit dem Befehl zur Einrichtung einer Bewässerungsanlage "
-"erfordert keine Wasserquelle.)"
+"Einige Einheiten verfügen über begrenzte Möglichkeit, Geländeveränderungen "
+"vorzunehmen, die Sie nutzen können, indem Sie die Befehle „Bewässerung "
+"anlegen“ oder „Bergewerk bauen“ erteilen, während eine solche Einheit auf "
+"einem Feld steht, das diese Art von Verbesserung nicht unterstützt (die "
+"Umwandlung eines Feldes in ein anderes mit dem Befehl zur Einrichtung einer "
+"Bewässerungsanlage erfordert keine Wasserquelle). So kann etwa Sumpfland "
+"„bewässert“ werden, um Grasland zu erzeugen."
 
 #: data/civ1/units.ruleset:306 data/civ2/units.ruleset:312
 #: data/classic/units.ruleset:479 data/experimental/units.ruleset:498
@@ -18809,7 +18745,6 @@ msgstr ""
 "Ihren Städten."
 
 #: data/civ1/units.ruleset:1282 data/civ2/units.ruleset:2049
-#, fuzzy
 msgid ""
 "Caravans can establish trade routes with your own cities or those of other "
 "nations (even enemies) by traveling to them. A route's ongoing revenue is "
@@ -18821,16 +18756,20 @@ msgid ""
 "from one end of the route. Each city can support a maximum of three trade "
 "routes."
 msgstr ""
-"Die beiden beteiligten Städte profitieren von einem dauerhaft eingerichteten "
-"Handelsweg gleichermaßen, indem sie jede Runde Handelspunkte generieren. Das "
-"Geschäftsvolumen des fortbestehenden Handels wächst zusammen mit der Größe "
-"der Städte und ihrer Entfernung; es wird verdoppelt, wenn sich die Städte "
-"auf verschiedenen Kontinenten befinden und ein weiteres Mal verdoppelt, wenn "
-"die Städte unterschiedlichen Nationen angehören. Diese letzte Bedingung hat "
-"zur Folge, dass der Nettogewinn für Ihre Nation stets derselbe ist, ganz "
-"gleich, ob sie nur eines, oder beide Enden der Handelsroute besitzen: Gehört "
-"Ihnen nur eine Stadt, wird der Handel in beiden Städten verdoppelt, aber Sie "
-"erhalten nur den Gewinn von einem Ende des Handelsweges."
+"Zwischen zweien Ihrer Städte oder sogar zu einer gegnerischen Stadt "
+"(einschließlich feindlicher Städte) können Karawanen Handelsrouten "
+"einrichten, indem sie dorthin reisen. Die beiden beteiligten Städte "
+"profitieren von einem dauerhaft eingerichteten Handelsweg gleichermaßen, "
+"indem sie jede Runde Handelspunkte generieren. Das Geschäftsvolumen des "
+"fortbestehenden Handels wächst zusammen mit der Größe der Städte und ihrer "
+"Entfernung; es wird verdoppelt, wenn sich die Städte auf verschiedenen "
+"Kontinenten befinden und ein weiteres Mal verdoppelt, wenn die Städte "
+"unterschiedlichen Nationen angehören. Diese letzte Bedingung hat zur Folge, "
+"dass der Nettogewinn für Ihre Nation stets derselbe ist, ganz gleich, ob sie "
+"nur eines, oder beide Enden der Handelsroute besitzen: Gehört Ihnen nur eine "
+"Stadt, wird der Handel in beiden Städten verdoppelt, aber Sie erhalten nur "
+"den Gewinn von einem Ende des Handelsweges. Jede Stadt kann maximal drei "
+"Handelswege unterhalten."
 
 #: data/civ1/units.ruleset:1292 data/civ2/units.ruleset:2059
 #: data/classic/units.ruleset:2162 data/experimental/units.ruleset:2188
@@ -20032,9 +19971,10 @@ msgid "Allows Settlers and Engineers to build airbases."
 msgstr "Erlaubt es Siedlern und Ingenieuren, Fliegerhorste zu bauen."
 
 #: data/civ2/techs.ruleset:595
-#, fuzzy
 msgid "Allows Settlers and Engineers to upgrade roads to railroads."
-msgstr "Erlaubt es Siedlern und Ingenieuren, Fliegerhorste zu bauen."
+msgstr ""
+"Erlaubt es Siedlern und Ingenieuren, Straßen zu Eisenbahntrassen zu "
+"modernisieren."
 
 #: data/civ2/techs.ruleset:618 data/classic/techs.ruleset:626
 #: data/experimental/techs.ruleset:688 data/civ2civ3/techs.ruleset:708
@@ -20271,7 +20211,6 @@ msgid "?unitclass:Helicopter"
 msgstr "Helikopter"
 
 #: data/civ2/units.ruleset:293
-#, fuzzy
 msgid ""
 "Building an irrigation system on a suitable tile causes it to produce some "
 "extra food each turn. This requires a nearby source of water: an ocean or "
@@ -20285,11 +20224,10 @@ msgstr ""
 "voller Breite (und nicht nur an einer Ecke) angrenzendes Nachbarfeld ist ein "
 "Ozean-, ein See- oder ein Flussfeld oder besitzt bereits ein "
 "Bewässerungssystem. Ist die Bewässerung einmal eingerichtet, bleibt sie auch "
-"dann bestehen, wenn die ursprüngliche Wasserquelle entfernt wird.\n"
-"\n"
-"Bewässerung hilft, eine größere Menge Nahrung zu erzeugen. Entsprechende "
-"Kenntnisse vorausgesetzt, kann durch eine Verbesserung des "
-"Bewässerungssystems noch produktiveres Ackerland geschaffen werden."
+"dann bestehen, wenn die ursprüngliche Wasserquelle entfernt wird. Ab "
+"Erforschung der Kühltechnik können bewässerte Felder durch erneute "
+"Bewässerung in fruchtbares Ackerland umgewandelt werden, welches Städten mit "
+"einem Supermarkt zusätzliche Nahrungspunkte einbringt."
 
 #: data/civ2/units.ruleset:315
 msgid ""
