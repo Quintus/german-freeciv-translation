@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-30 22:04+0200\n"
+"PO-Revision-Date: 2015-06-30 22:36+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -27392,7 +27392,6 @@ msgstr ""
 "verschafft, neue militärische Einheiten und Stadterweiterungen aufzubauen."
 
 #: data/helpdata.txt:1474
-#, fuzzy
 msgid ""
 "There are a few ways to gain advances from other civilizations: you will "
 "sometimes discover enemy technology when you capture a city; your agents can "
@@ -27409,7 +27408,6 @@ msgstr ""
 "Anstrengungen Ihres eigenen Volkes gemacht werden."
 
 #: data/helpdata.txt:1481
-#, fuzzy
 msgid ""
 "Most technology progress comes from trade (see the Trade section) and, in "
 "the classic ruleset, from scientist specialists (see the Specialists "
@@ -27417,14 +27415,13 @@ msgid ""
 "researching, by default all progress is lost by doing so."
 msgstr ""
 "Der größte Teil des technologischen Fortschritts kommt durch den Handel "
-"zustande (siehe den Abschnitt über Handel) sowie — im Standardregelsatz — "
-"durch die Arbeit von Wissenschaftlern (siehe den Abschnitt über "
+"zustande (siehe den Abschnitt über Handel) sowie — im klassischen Regelsatz "
+"— durch die Arbeit von Wissenschaftlern (siehe den Abschnitt über "
 "Spezialisten). Es ist zwar möglich, das aktuelle Forschungsprojekt zu "
 "ändern, allerdings werden Sie standardmäßig den gesamten bis dahin gemachten "
 "Fortschritt einbüßen."
 
 #: data/helpdata.txt:1486
-#, fuzzy
 msgid ""
 "While the majority of the resulting research output (\"bulbs\") usually goes "
 "toward advancing technology, in some rulesets (but not the classic rules), "
@@ -27440,7 +27437,7 @@ msgstr ""
 "fürgewöhnlich in die Entwicklung neuer Technologien investiert wird, gibt es "
 "einige Regelästze, in denen er zum Teil für die Aufrechterhaltung der "
 "Kenntnisse bereits erforschter Technologien verwendet wird (dies ist im "
-"Standardregelsatz jedoch nicht der Fall). Die für den Erhalt bestehender "
+"klassischen Regelsatz jedoch nicht der Fall). Die für den Erhalt bestehender "
 "Technologien erforderlichen Kosten steigen mit den Gesamtforschungskosten "
 "aller Ihnen bekannten Fortschritte, und der Zeitpunkt, zu dem Sie beginnen, "
 "für die Aufrechterhaltung der Kenntnisse einer Technologie zu zahlen, hängt "
@@ -27464,7 +27461,6 @@ msgstr ""
 "jeweiligen Abschnitte für weitere Informationen."
 
 #: data/helpdata.txt:1509
-#, fuzzy
 msgid ""
 "The Space Race is a second option to win the game, besides eliminating all "
 "other civilizations. If your spaceship arrives first at Alpha Centauri, the "
@@ -27478,7 +27474,6 @@ msgstr ""
 "abgeschaltet wurde.)"
 
 #: data/helpdata.txt:1514
-#, fuzzy
 msgid ""
 "In the classic rules, before you can build spaceship parts, the Apollo "
 "Program wonder must have been built by any player. You also need specific "
@@ -27487,26 +27482,24 @@ msgid ""
 "Improvements. (If there are no help texts for these items, it probably means "
 "the 'spacerace' server option is off for your game.)"
 msgstr ""
-"Raumschiffteile können erst gefertigt werden, nachdem irgendein Spieler das "
-"'Apollo Programm' fertiggestellt hat. Außerdem werden für die Fertigung der "
-"Raumschiffteile bestimmte Kenntnisse verlangt. Einzelheiten finden sich bei "
-"'Stadterweiterungen' unter den Punkten 'Raumschiffkörper', "
-"'Raumschiffkomponenten' und 'Raumschiffmodule'."
+"Im klassischen Regelwerk können Raumschiffteile erst gefertigt werden, "
+"nachdem irgendein Spieler das Apollo-Programm abgeschlossen hat. Außerdem "
+"werden für die Fertigung der Raumschiffteile bestimmte Kenntnisse verlangt. "
+"Einzelheiten finden sich bei „Stadterweiterungen“ unter den Punkten "
+"„Raumschiffkörper“, „Raumschiffkomponenten“ und „Raumschiffmodule“."
 
 #: data/helpdata.txt:1522
-#, fuzzy
 msgid ""
 "When you have started building your spaceship, you can see it with the "
 "\"Spaceship\" command in the Report menu. To see spaceships of other "
 "players, select the player in the Nations report and click \"Spaceship\"."
 msgstr ""
 "Sobald mit dem Bau des Raumschiffes begonnen wurde, kann es über den "
-"Menüpunkt 'Raumschiff' unter 'Berichte' angesehen werden. Die Raumschiffe "
+"Menüpunkt „Raumschiff“ unter „Berichte“ angesehen werden. Die Raumschiffe "
 "der anderen Spieler können über den Nationenbericht durch Auswahl des "
-"Spielers und Anklicken von 'Raumschiff' angesehen werden."
+"Spielers und Anklicken von „Raumschiff“ angesehen werden."
 
 #: data/helpdata.txt:1527
-#, fuzzy
 msgid ""
 "If the success probability is below 100%, some fraction of the people on "
 "board may not survive the journey. This reduces the score bonus from the "
@@ -27525,7 +27518,6 @@ msgstr ""
 "Raumschiff verloren."
 
 #: data/helpdata.txt:1534
-#, fuzzy
 msgid ""
 "TIP:  If an enemy civilization has launched a spaceship, try to quickly "
 "build a light spaceship with many propulsion units that will arrive earlier. "
@@ -27547,16 +27539,15 @@ msgstr ""
 "eine ethnische Gruppe oder auch eine vollkommen fiktive Nation."
 
 #: data/helpdata.txt:1550
-#, fuzzy
 msgid ""
 "Nations are distinguished by their flags, leaders and city names; in the "
 "classic rules they are identical in all other aspects and play by the same "
 "rules, but other rules may have nation-specific behavior."
 msgstr ""
 "Nationen unterscheiden sich in ihren Flaggen, Anführern und Stadtnamen, sind "
-"aber zumindest im Standardregelsatz ansonsten vollkommen gleich und folgen "
-"denselben Regeln. Andere Regelsätze können nationenspezifisches Verhalten "
-"enthalten."
+"aber zumindest im klassischen Regelsatz ansonsten vollkommen gleich und "
+"folgen denselben Regeln. Andere Regelsätze können nationenspezifisches "
+"Verhalten enthalten."
 
 #: data/helpdata.txt:1561
 msgid ""
@@ -28627,15 +28618,14 @@ msgid "Upgrades two obsolete units per game turn."
 msgstr "Modernisiert zwei veraltete Einheiten pro Spielrunde."
 
 #: data/multiplayer/buildings.ruleset:1357
-#, fuzzy
 msgid ""
 "All your new sea units built in cities on the same continent start with an "
 "additional veteran level (this is cumulative with any Port Facility in a "
 "city; with both, units are created as Hardened)."
 msgstr ""
-"Neue Landeinheiten erhalten automatisch den ersten Veteranengrad. Bereits "
-"bestehenden Truppen erhalten nach jedem gewonnenen Kampf den jeweils "
-"nächsten Grad."
+"Auf diesem Kontinent ausgebildete neue Seeeinheiten erhalten automatisch "
+"einen weiteren Veteranengrad zusätzlich zu den Auswirkungen eines Hafens, d."
+"h. mit beidem werden Einheiten direkt als General erzeugt."
 
 #: data/multiplayer/buildings.ruleset:1397
 #, no-c-format
@@ -28692,15 +28682,14 @@ msgstr ""
 "Stadt mit einem Forschungslabor um 100%."
 
 #: data/multiplayer/buildings.ruleset:1547
-#, fuzzy
 msgid ""
 "All your new military land units produced in cities on the same continent "
 "start with an additional veteran level (this is cumulative with any Barracks "
 "building in a city; with both, units are created as Hardened)."
 msgstr ""
-"Neue Landeinheiten erhalten automatisch den ersten Veteranengrad. Bereits "
-"bestehenden Truppen erhalten nach jedem gewonnenen Kampf den jeweils "
-"nächsten Grad."
+"Alle auf diesem Kontinent ausgebildeten Landeinheiten erhalten zusätzlich zu "
+"dem durch Kasernenausbildung erlangten Veteranengrad einen weiteren, sodass, "
+"wenn beides vorhanden ist, neue Einheiten direkt als General erzeugt werden."
 
 #: data/multiplayer/buildings.ruleset:1568
 msgid ""
@@ -28735,7 +28724,6 @@ msgid "Multiplayer ruleset"
 msgstr "Mehrspieler-Regelsatz"
 
 #: data/multiplayer/game.ruleset:21
-#, fuzzy
 msgid ""
 "You are playing Freeciv with rules designed for multiplayer gaming. The "
 "biggest differences from the classic ruleset are that trade routes are "
@@ -28744,11 +28732,12 @@ msgid ""
 "be found in README.ruleset_multiplayer."
 msgstr ""
 "Sie spielen Freeciv mit dem für Mehrspieler-Spiele entwickelten Regelwerk. "
-"Der größte Unterschied zum Standardregelsatz ist dabei, dass Handelsrouten "
-"deaktiviert sind und die meisten Wunder von jedem Spieler einmal gebaut "
-"werden können und sich ihre Effekte meist nur auf Städte, die sich auf "
-"demselben Kontinent befinden, auswirken. Eine vollständige Beschreibung der "
-"Unterschiede kann der Datei »README.ruleset_multiplayer« entnommen werden."
+"Der größte Unterschied zum klassischen Regelsatz ist dabei, dass "
+"Handelsrouten deaktiviert sind und die meisten Wunder von jedem Spieler "
+"einmal gebaut werden können und sich ihre Effekte meist nur auf Städte, die "
+"sich auf demselben Kontinent befinden, auswirken. Eine vollständige "
+"Beschreibung der Unterschiede kann der Datei »README.ruleset_multiplayer« "
+"entnommen werden."
 
 #. TRANS: Name of a color; used as unique identifier for a team
 #. TRANS: With this and other color team names, uniqueness is more
@@ -31068,14 +31057,12 @@ msgid "Modpack control file is incompatible"
 msgstr "Modpack-Kontrolldatei ist inkompatibel."
 
 #: tools/download.c:122
-#, fuzzy
 msgid "Modpack name not defined in control file"
-msgstr "Modpack-Kontrolldatei ist inkompatibel."
+msgstr "Kontrolldatei definiert keinen Modpack-Namen"
 
 #: tools/download.c:126
-#, fuzzy
 msgid "Modpack version not defined in control file"
-msgstr "Modpack-Kontrolldatei ist inkompatibel."
+msgstr "Kontrolldatei definiert keine Modpack-Version"
 
 #: tools/download.c:132
 msgid "Illegal modpack type"
@@ -31119,9 +31106,9 @@ msgid "Modpack list is incompatible"
 msgstr "Modpack list is incompatible"
 
 #: tools/modinst.c:74 tools/modinst.c:88
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create control directory \"%s\""
-msgstr "Fehler bei der Generierung des neuen KI-Spielers: %s."
+msgstr "Fehler bei der Erstellung des Kontrollverzeichnisses „%s“"
 
 #. TRANS: ... Ubermod ... Ruleset, not Scenario
 #: tools/modinst.c:127
@@ -31234,14 +31221,12 @@ msgstr "Modpackss in die angegebene Verzeichnishierarchie installieren"
 
 #. TRANS: "install" is exactly what user must type, do not translate.
 #: tools/mpcmdline.c:70
-#, fuzzy
 msgid "install URL"
-msgstr "List URL"
+msgstr "install URL"
 
 #: tools/mpcmdline.c:71
-#, fuzzy
 msgid "Automatically install modpack from a given URL"
-msgstr "Modpack von der angegebenen URL herunterladen"
+msgstr "Modpack von der angegebenen URL automatisch installieren"
 
 #: tools/mpgui_gtk2.c:290 tools/mpgui_gtk3.c:288 tools/mpgui_qt.cpp:307
 msgid "Another download already active"
@@ -31294,41 +31279,36 @@ msgid "Select modpack to install"
 msgstr "Zu installierendes Modpack auswählen"
 
 #: tools/mpgui_gtk2.c:577 tools/mpgui_gtk3.c:583
-#, fuzzy
 msgid ""
 "This modpack installer accepts the standard Gtk command-line options\n"
 "after '--'. See the Gtk documentation.\n"
 "\n"
 msgstr ""
-"Dieser Klient akzeptiert die üblichen GTK-Kommandozeilenoptionen\n"
-"nach '--'. Siehe die GTK-Dokumentation\n"
+"Dieser Modpack-Installer akzeptiert die üblichen GTK-Kommandozeilenoptionen\n"
+"nach '--'. Siehe die GTK-Dokumentation.\n"
 "\n"
 
 #: tools/mpgui_gtk2.c:600
-#, fuzzy
 msgid "Freeciv modpack installer (gtk2)"
-msgstr "Freeciv Modpack-Installer"
+msgstr "Freeciv Modpack-Installer (GTK2)"
 
 #: tools/mpgui_gtk3.c:606
-#, fuzzy
 msgid "Freeciv modpack installer (gtk3)"
-msgstr "Freeciv Modpack-Installer"
+msgstr "Freeciv Modpack-Installer (GTK3)"
 
 #: tools/mpgui_qt.cpp:96
-#, fuzzy
 msgid ""
 "This modpack installer accepts the standard Qt command-line options\n"
 "after '--'. See the Qt documentation.\n"
 "\n"
 msgstr ""
-"Dieser Klient akzeptiert die üblichen GTK-Kommandozeilenoptionen\n"
-"nach '--'. Siehe die GTK-Dokumentation\n"
+"Dieser Modpack-Installer akzeptiert die üblichen Qt-Kommandozeilenoptionen\n"
+"nach '--'. Siehe die Qt-Dokumentation.\n"
 "\n"
 
 #: tools/mpgui_qt.cpp:120
-#, fuzzy
 msgid "Freeciv modpack installer (Qt)"
-msgstr "Freeciv Modpack-Installer"
+msgstr "Freeciv Modpack-Installer (Qt)"
 
 #: server/aiiface.c:83
 #, c-format
@@ -31368,15 +31348,15 @@ msgid "Setup of ai module %s failed."
 msgstr "Einstellen des KI-Moduls %s fehlgeschlagen"
 
 #: server/aiiface.c:164 server/aiiface.c:175
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to setup \"%s\" AI module"
-msgstr "Einstellen des nebenläufigen (threaded) KI-Moduls fehlgeschlagen"
+msgstr "Einstellen des KI-Moduls „%s“ fehlgeschlagen"
 
 #: server/aiiface.c:194
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to setup default AI module \"%s\", cannot continue."
 msgstr ""
-"Einstellen des Standard-KI-Moduls fehlgeschlagen, fortfahren unmöglich."
+"Einstellen des Standard-KI-Moduls „%s“fehlgeschlagen, fortfahren unmöglich."
 
 #: server/auth.c:88
 #, c-format
@@ -31642,19 +31622,19 @@ msgstr ""
 "begeistert!"
 
 #: server/citytools.c:1165 server/citytools.c:1178
-#, fuzzy, c-format
+#, c-format
 msgid "Workers spontaneously gather and upgrade %s with %s."
-msgstr "Arbeiter haben %s spontan mit einer Eisenbahn ausgestattet."
+msgstr "Arbeiter haben %s spontan mit eine/r/m %s ausgestattet."
 
 #: server/citytools.c:1170
-#, fuzzy, c-format
+#, c-format
 msgid "Workers spontaneously gather and upgrade %s roads."
-msgstr "Arbeiter haben %s spontan mit einer Eisenbahn ausgestattet."
+msgstr "Arbeiter haben spontan die %s-Straßen modernisiert."
 
 #: server/citytools.c:1183
-#, fuzzy, c-format
+#, c-format
 msgid "Workers spontaneously gather and upgrade %s bases."
-msgstr "Arbeiter haben %s spontan mit einer Eisenbahn ausgestattet."
+msgstr "Arbeiter haben spontan die %s-Stützpunkte modernisiert."
 
 #: server/citytools.c:1492
 #, c-format
@@ -31742,9 +31722,11 @@ msgid "%s liberated %s."
 msgstr "%s hat %s befreit."
 
 #: server/citytools.c:2450
-#, fuzzy, c-format
+#, c-format
 msgid "Trade between %s and %s lost along with city."
-msgstr "Der Handelsweg zwischen %s und %s ist geschlossen worden."
+msgstr ""
+"Handelspunkte zwischen %s und %s sind zusammen mit der Stadt verlustig "
+"gegangen."
 
 #: server/citytools.c:2455
 #, c-format
@@ -31901,7 +31883,7 @@ msgstr ""
 "Der Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1124
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; no tech with flag \"%s\" yet "
 "available.  Postponing..."
@@ -31995,16 +31977,16 @@ msgstr ""
 "erforderlich. Der Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1276
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can't build %s from the worklist; terrain with \"%s\" flag is required.  "
 "Postponing..."
 msgstr ""
-"%s kann %s aus der Arbeitsliste nicht bauen, die Geländeform %s ist "
-"erforderlich. Der Auftrag wird zurückgestellt."
+"%s kann %s aus der Arbeitsliste nicht bauen, eine Geländeform mit der „%s“-"
+"Flagge ist erforderlich. Der Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1290
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "?road:%s can't build %s from the worklist; %s is required.  Postponing..."
 msgstr ""
@@ -32401,9 +32383,8 @@ msgid "identity ADDR"
 msgstr "identity ADRESSE"
 
 #: server/civserver.c:380
-#, fuzzy
 msgid "Be known as ADDR at metaserver or LAN client"
-msgstr "Am Metaserver unter ADRESSE bekannt sein"
+msgstr "Am Metaserver oder im LAN unter ADRESSE bekannt sein"
 
 #: server/civserver.c:386
 msgid "Notify metaserver and send server's info"
@@ -32551,7 +32532,6 @@ msgid "Show a list of various things."
 msgstr "Zeigt eine Liste verschiedener Dinge."
 
 #: server/commands.c:98
-#, fuzzy
 msgid ""
 "Show a list of:\n"
 " - the player colors,\n"
@@ -32567,16 +32547,17 @@ msgid ""
 "The argument may be abbreviated, and defaults to 'players' if absent."
 msgstr ""
 "Zeigt eine Liste von:\n"
-" • Spielern im Spiel\n"
 " • Spielerfarben\n"
 " • Serververbindungen\n"
-" • Spielerteams\n"
 " • Spielerdelegationen\n"
-" • Verfügbaren Szenarien\n"
-" • Laufenden Abstimmungen\n"
 " • Ihre Ignorierliste\n"
 " • die Liste der definierten Kartenbilder\n"
-" Das Argument kann abgekürzt werden, Standard ist „players“."
+" • Spielern im Spiel\n"
+" • Verfügbaren Szenarien\n"
+" • Verfügbaren Nationensätzen\n"
+" • Spielerteams\n"
+" • Laufenden Abstimmungen\n"
+"Das Argument kann abgekürzt werden, Standard ist „players“."
 
 #: server/commands.c:116
 msgid "Quit the game and shutdown the server."
@@ -33422,21 +33403,18 @@ msgstr ""
 
 #. TRANS: translate text between <> only
 #: server/commands.c:553
-#, fuzzy
 msgid ""
 "scensave\n"
 "scensave <file-name>"
 msgstr ""
-"save\n"
-"save <Dateiname>"
+"screensave\n"
+"screensave <Dateiname>"
 
 #: server/commands.c:555
-#, fuzzy
 msgid "Save game to file as scenario."
-msgstr "Spiel speichern"
+msgstr "Spiel als Szenario speichern."
 
 #: server/commands.c:556
-#, fuzzy
 msgid ""
 "Save the current game to file <file-name> as scenario. If no file-name "
 "argument is given saves to \"<auto-save name prefix><year>m.sav[.gz]\". To "
@@ -33445,10 +33423,11 @@ msgid ""
 "    '--file <filename>' or '-f <filename>'\n"
 "and use the 'start' command once players have reconnected."
 msgstr ""
-"Speichert das Spiel in der Datei <Dateiname>. Wenn kein Dateiname angegeben "
-"wird, heißt die Datei „<auto-save name prefix><year>m.sav[.gz]“. Um ein "
-"gespeichertes Spiel fortzuführen, ruft man den Server mit dem Argument\n"
-"      --file <Dateiname>\n"
+"Speichert das Spiel in der Datei <Dateiname> als Szenario. Wenn kein "
+"Dateiname angegeben wird, heißt die Datei „<auto-save name prefix><year>m."
+"sav[.gz]“. Um ein gespeichertes Spiel fortzuführen, ruft man den Server mit "
+"dem Argument\n"
+"      --file <Dateiname> oder -f <Dateiname>\n"
 "auf und gibt, nachdem alle Mitspieler sich wieder verbunden haben, den "
 "Befehl „start“ ein."
 
@@ -35504,13 +35483,12 @@ msgid "Wonders\n"
 msgstr "Weltwunder\n"
 
 #: server/report.c:1476
-#, fuzzy
 msgid ""
 "Research Speed\n"
 "(bulbs)"
 msgstr ""
 "Forschungstempo\n"
-"(%)"
+"(Punkte)"
 
 #. TRANS: "sq. mi." is abbreviation for "square miles"
 #: server/report.c:1478
@@ -35519,7 +35497,7 @@ msgid ""
 "(sq. mi.)"
 msgstr ""
 "Landfläche\n"
-"(qkm)"
+"(km²)"
 
 #. TRANS: "sq. mi." is abbreviation for "square miles"
 #: server/report.c:1480
@@ -35528,7 +35506,7 @@ msgid ""
 "(sq. mi.)"
 msgstr ""
 "Besiedelte Fläche\n"
-"(qkm)"
+"(km²)"
 
 #: server/report.c:1481
 msgid ""
@@ -35599,14 +35577,14 @@ msgid "%s has been added as human player."
 msgstr "%s ist als menschlicher Spieler dazu gekommen."
 
 #: server/savegame2.c:3504 server/savegame.c:4283
-#, fuzzy, c-format
+#, c-format
 msgid "%s had invalid researching technology."
-msgstr "Sie können diese Technologie nicht erforschen."
+msgstr "Unzulässiges Forschungsprojekt von %s."
 
 #: server/savegame2.c:3515 server/savegame.c:4294
-#, fuzzy, c-format
+#, c-format
 msgid "%s had invalid technology goal."
-msgstr "%s ist eine ungültige Nation und wird geändert auf %s."
+msgstr "Unzulässiges Forschungsziel von %s."
 
 #. TRANS: Minor error message: <Leader> ... <Poles>.
 #: server/savegame2.c:3536 server/savegame.c:4312
@@ -39590,9 +39568,11 @@ msgid "Ruleset directory set to \"%s\""
 msgstr "Ruleset-Verzeichnis ist jetzt '%s'"
 
 #: server/stdinhand.c:3855
-#, fuzzy, c-format
+#, c-format
 msgid "Failed loading rulesets from directory \"%s\", using \"%s\""
-msgstr "Derzeitiges Verzeichnis für Regelsätze: '%s'"
+msgstr ""
+"Konnte Regelsätze nicht aus dem Verzeichnis „%s“ laden, nutze stattdessen "
+"„%s“."
 
 #: server/stdinhand.c:3875 server/stdinhand.c:3911 server/stdinhand.c:6188
 msgid "That would be rather silly, since you are not a player."
@@ -40677,9 +40657,9 @@ msgstr ""
 
 #. TRANS: <unit> ... <unit>
 #: server/unithand.c:1513
-#, fuzzy, c-format
+#, c-format
 msgid "Your %s succeeded in capturing the %s %s."
-msgstr "Ihr %s hat %s erfolgreich gefangen genommen."
+msgstr "Ihr %s hat den %sen %s erfolgreich gefangen genommen."
 
 #. TRANS: <unit> ... <Poles>
 #: server/unithand.c:1519
@@ -40747,10 +40727,10 @@ msgid "Sorry, your %s cannot establish a trade route here!"
 msgstr "%s kann hier keinen Handelsweg gründen!"
 
 #: server/unithand.c:1783 server/unithand.c:1807
-#, fuzzy, c-format
+#, c-format
 msgid "      The city of %s already has %d better trade route!"
 msgid_plural "      The city of %s already has %d better trade routes!"
-msgstr[0] "      Die Stadt %s hat bereits %d bessere Handelswege!"
+msgstr[0] "      Die Stadt %s hat bereits %d besseren Handelsweg!"
 msgstr[1] "      Die Stadt %s hat bereits %d bessere Handelswege!"
 
 #. TRANS: ... Caravan ... Paris ... Stockholm, ...
@@ -40816,9 +40796,10 @@ msgid "%s cannot be converted."
 msgstr "%s kann nicht ausgetauscht werden."
 
 #: server/unittools.c:984
-#, fuzzy, c-format
+#, c-format
 msgid "Orders for %s aborted because activity is no longer available."
-msgstr "Befehle für %s verworfen, da der Zug nicht ausgeführt werden konnte."
+msgstr ""
+"Befehle für %s verworfen, da die Aufgabe nicht mehr zur Verfügung steht."
 
 #: server/unittools.c:1150
 #, c-format
@@ -41075,11 +41056,11 @@ msgid "Your %s has invalid orders."
 msgstr "Befehle für %s sind ungültig."
 
 #: server/unittools.c:4158
-#, fuzzy, c-format
+#, c-format
 msgid "Your unit may not act for another %s this turn. See /help unitwaittime."
 msgstr ""
-"Ihre Einheit kann in dieser Runde noch weitere %s nicht bewegen. Siehe »/"
-"help unwaittime«."
+"Ihre Einheit kann sich in dieser Runde noch weitere %s nicht bewegen. Siehe "
+"„/help unwaittime“."
 
 #. TRANS: "[Vote|Teamvote] 3 \"proposed change\" is ..."
 #: server/voting.c:551
@@ -41197,24 +41178,25 @@ msgstr ", %s"
 msgid "?and-list:, and %s"
 msgstr " und %s"
 
+# Deutsch benötigt die Umlaute mit Sicherheit.
 #: utility/fciconv.c:131
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You are running Freeciv without using iconv. Unless\n"
 "you are using the UTF-8 character set, some characters\n"
 "may not be displayed properly. You can download iconv\n"
 "at http://gnu.org/.\n"
 msgstr ""
-"Sie verwenden Freeciv ohne »iconv«, welches jedoch für die korrekte\n"
-"Darstellung der deutschen Texte erforderlich ist. Sie können\n"
-"»iconv« von http://gnu.org/ herunterladen.\n"
+"Sie verwenden Freeciv ohne „iconv“, welches jedoch für die korrekte\n"
+"Darstellung der deutschen Texte ohne UTF-8 erforderlich ist.\n"
+"Sie können „iconv“ von http://gnu.org/ herunterladen.\n"
 
 #. TRANS: "Could not convert text from <encoding a> to <encoding b>:"
 #. *        <externally translated error string>."
 #: utility/fciconv.c:210
-#, fuzzy, c-format
+#, c-format
 msgid "Could not convert text from %s to %s: %s.\n"
-msgstr "Kann Text nicht von %s nach %s konvertieren: %s"
+msgstr "Kann Text nicht von %s nach %s konvertieren: %s.\n"
 
 #: utility/log.c:104
 #, c-format
