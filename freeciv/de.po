@@ -46,12 +46,23 @@
 #   nutzt • (U+2022 BULLET), die Zweite ‒ (U+2012 FIGURE DASH), und die
 #   Dritte ‣ (U+2023 TRIANGULAR BULLET). Ebenen erkennt man an den vorangehenden
 #   Leerzeichen im zu übersetzenden Text.
+#
+# - Als Anführungszeichen sind „ (U+201E DOUBLE LOW-9 QUOATION MARK) und “
+#   (U+201C LEFT DOUBLE QUOTATION MARK) zu verwenden.
+#
+# - Die Anrede erfolgt in der Höflichkeitsform, außer in begründeten
+#   Einzelfällen (bewusste Herabsetzung des Gegenübers). Freeciv ist
+#   kein billiges Onlinespiel für Kinder, sondern gehobene Unterhaltung.
+#
+# - Es kommt die Neue Rechtschreibung zum Einsatz. Noch nicht umgestellte
+#   Orthografie hat seinen Grund darin, dass die deutsche Übersetzung
+#   jahrelang nicht angefasst wurde.
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 23:17+0300\n"
-"PO-Revision-Date: 2015-06-30 22:36+0200\n"
+"PO-Revision-Date: 2015-06-30 23:24+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -81,7 +92,7 @@ msgid ""
 "*%s (AI)* I would like to see you keep your distance from %s for some time, "
 "%s."
 msgstr ""
-"*%s (KI)* Ich will erst abwarten, ob Du die Feuerpause mit %s einhältst, %s."
+"*%s (KI)* Ich will erst abwarten, ob Sie die Feuerpause mit %s einhalten, %s."
 
 #: ai/default/advdiplomacy.c:375
 #, c-format
@@ -93,24 +104,24 @@ msgstr "*%s (KI)* Laß uns erst die Feindseligkeiten beenden, %s"
 msgid ""
 "*%s (AI)* I wish to see you keep the current ceasefire for a bit longer "
 "first, %s."
-msgstr "*%s (KI)* Ich will erst abwarten, ob Du die Feuerpause einhältst, %s."
+msgstr "*%s (KI)* Ich will erst abwarten, ob Sie die Feuerpause einhalten, %s."
 
 #: ai/default/advdiplomacy.c:403
 #, c-format
 msgid "*%s (AI)* I simply do not trust you with an alliance yet, %s."
-msgstr "*%s (KI)* Ich traue einer Allianz mit Dir noch nicht, %s."
+msgstr "*%s (KI)* Ich traue einer Allianz mit Ihnen noch nicht, %s."
 
 #: ai/default/advdiplomacy.c:497
 #, c-format
 msgid "*%s (AI)* I do not know the city you mention."
-msgstr "*%s (KI)* Die Stadt, die Du nennst, kenne ich nicht."
+msgstr "*%s (KI)* Die Stadt, die Sie nennen, kenne ich nicht."
 
 #: ai/default/advdiplomacy.c:527
 #, c-format
 msgid "*%s (AI)* Sorry, sharing vision with you is not safe."
 msgstr ""
-"*%s (KI)* Tut mir leid, es ist mir zu gefährlich, Dir Karteneinsicht zu "
-"geben."
+"*%s (KI)* Tut mir leid, es ist mir zu gefährlich, Ihnen Karteneinsicht zu "
+"gewähren."
 
 #: ai/default/advdiplomacy.c:639
 #, c-format
@@ -155,13 +166,14 @@ msgstr "*%s (KI)* Der Weltraum wird Dir niemals gehören. "
 #, c-format
 msgid "*%s (AI)* I have tolerated your vicious antics long enough! To war!"
 msgstr ""
-"*%s (KI)* Ich habe Deine feindseligen Aktionen lange genug toleriert! Krieg!"
+"*%s (KI)* Ich habe Ihre feindseligen Aktionen lange genug toleriert! Krieg!"
 
 #: ai/default/advdiplomacy.c:1226
 #, c-format
 msgid "*%s (AI)* Peace in ... some other time."
 msgstr "*%s (KI)* Frieden ... vielleicht ein anderes Mal."
 
+# MG: Das Du bleibt hier stehen. Es ist Ausdruck der Herabsetzung.
 #: ai/default/advdiplomacy.c:1231
 #, c-format
 msgid ""
@@ -175,12 +187,12 @@ msgstr ""
 #, c-format
 msgid "*%s (AI)* Your covert hostilities brought this war upon you!"
 msgstr ""
-"*%s (KI)* Deine verdeckten Feindseligkeiten haben Dir diesen Krieg gebracht!"
+"*%s (KI)* Ihre verdeckten Feindseligkeiten haben Ihnen diesen Krieg gebracht!"
 
 #: ai/default/advdiplomacy.c:1244
 #, c-format
 msgid "*%s (AI)* Your aggression against %s was your last mistake!"
-msgstr "*%s (KI)* Deine Aggression gegen %s war Dein letzter Fehler!"
+msgstr "*%s (KI)* Ihre Aggression gegen %s war Ihr letzter Fehler!"
 
 #: ai/default/advdiplomacy.c:1327
 #, c-format
@@ -203,7 +215,7 @@ msgid ""
 "*%s (AI)* Your aid in this matter will be expected. Long live our glorious "
 "alliance!"
 msgstr ""
-"*%s (KI) Wir erwarten in dieser Angelegenheit Deine Hilfe. Lang lebe unsere "
+"*%s (KI) Wir erwarten in dieser Angelegenheit Ihre Hilfe. Lang lebe unsere "
 "glorreiche Allianz!"
 
 #: ai/default/advdiplomacy.c:1343
@@ -218,12 +230,12 @@ msgid_plural ""
 "us and do likewise!"
 msgstr[0] ""
 "*%s (KI)* %s hat seine Verträge mit uns zum eigenen Vorteil grob verletzt. "
-"Wir werden darauf in %d Runde gemeinsam reagieren und erwarten, daß Du Dich "
-"als unser Verbündeter anschließt!"
+"Wir werden darauf in %d Runde gemeinsam reagieren und erwarten, dass Sie "
+"sich uns als unser Verbündeter anschließen!"
 msgstr[1] ""
 "*%s (KI)* %s hat seine Verträge mit uns zum eigenen Vorteil grob verletzt. "
-"Wir werden darauf in %d Runden gemeinsam reagieren und erwarten, daß Du Dich "
-"als unser Verbündeter anschließt!"
+"Wir werden darauf in %d Runden gemeinsam reagieren und erwarten, dass Sie "
+"sich uns als unser Verbündeter anschließen!"
 
 #: ai/default/advdiplomacy.c:1356
 #, c-format
@@ -245,7 +257,7 @@ msgstr[1] ""
 msgid ""
 "*%s (AI)* If you want a piece of the loot, feel free to join in the action!"
 msgstr ""
-"*%s (KI)* Wenn Du einen Teil der Beute möchtest, kannst Du Dich gerne daran "
+"*%s (KI)* Wenn Sie einen Teil der Beute möchten, können Sie sich gerne daran "
 "beteiligen!"
 
 #: ai/default/advdiplomacy.c:1369
@@ -295,10 +307,10 @@ msgid_plural ""
 "turns.  We expect you to do likewise."
 msgstr[0] ""
 "*%s (KI)* Wir werden unsere Allianz mit %s hochhalten und %s in %d Runde den "
-"Krieg erklären. Wir erwarten, das Du ebenso handelst."
+"Krieg erklären. Wir erwarten, dass Sie ebenso handeln."
 msgstr[1] ""
 "*%s (KI)* Wir werden unsere Allianz mit %s hochhalten und %s in %d Runden "
-"den Krieg erklären. Wir erwarten, das Du ebenso handelst."
+"den Krieg erklären. Wir erwarten, dass Sie ebenso handeln."
 
 #: ai/default/advdiplomacy.c:1467
 #, c-format
@@ -306,7 +318,7 @@ msgid ""
 "*%s (AI)* Your attempt to conquer space for yourself alone betrays your true "
 "intentions, and I will have no more of our alliance!"
 msgstr ""
-"*%s (KI)* Dein Versuch, allein den Weltraum zu erobern, zeigt Deine wahren "
+"*%s (KI)* Ihr Versuch, allein den Weltraum zu erobern, zeigt Ihre wahren "
 "Absichten. Unsere Allianz ist beendet!"
 
 #: ai/default/advdiplomacy.c:1482
@@ -315,7 +327,7 @@ msgid ""
 "*%s (AI)* Your attempt to unilaterally dominate outer space is highly "
 "offensive."
 msgstr ""
-"*%s (KI)* Dein Versuch, einseitig den Weltraum zu beherrschen, ist äußerst "
+"*%s (KI)* Ihr Versuch, einseitig den Weltraum zu beherrschen, ist äußerst "
 "bedrohlich."
 
 #: ai/default/advdiplomacy.c:1485
@@ -324,15 +336,15 @@ msgid ""
 "*%s (AI)* If you do not stop constructing your spaceship, I may be forced to "
 "take action!"
 msgstr ""
-"*%s (KI)* Wenn Du nicht den Raumschiffbau beendest, könnte ich gezwungen "
+"*%s (KI)* Wenn Sie nicht den Raumschiffbau beenden, könnte ich gezwungen "
 "sein zu reagieren!"
 
 #: ai/default/advdiplomacy.c:1602
 #, c-format
 msgid "*%s (AI)* Sorry, sharing vision with you is no longer safe."
 msgstr ""
-"*%s (KI)* Tut mir leid, es ist mir zu gefährlich, Dir länger Karteneinsicht "
-"zu geben"
+"*%s (KI)* Tut mir leid, es ist mir zu gefährlich, Ihnen länger "
+"Karteneinsicht zu gewähren."
 
 #: ai/default/advdiplomacy.c:1669
 #, c-format
@@ -340,8 +352,8 @@ msgid ""
 "*%s (AI)* Greetings our most trustworthy ally. We call upon you to destroy "
 "our enemy, %s."
 msgstr ""
-"*%s (KI)* Sei gegrüßt, ehrenwerter Verbündeter, wir zählen auf Dich, unseren "
-"Feind %s zu vernichten."
+"*%s (KI)* Seien Sie gegrüßt, ehrenwerter Verbündeter, wir zählen auf Sie, "
+"unseren Feind %s zu vernichten."
 
 #: ai/default/advdiplomacy.c:1676
 #, c-format
@@ -349,8 +361,8 @@ msgid ""
 "*%s (AI)* Greetings ally, I see you have not yet made war with our enemy, "
 "%s. Why do I need to remind you of your promises?"
 msgstr ""
-"*%s (KI)* Sei gegrüßt, Verbündeter, wie ich sehe, führst Du immer noch "
-"keinen Krieg gegen unseren Feind %s. Warum müssen wir Dich an Deine "
+"*%s (KI)* Seien Sie gegrüßt, Verbündeter, wie ich sehe, führen Sie immer "
+"noch keinen Krieg gegen unseren Feind %s. Warum müssen wir Sie an Ihre "
 "Versprechen erinnern?"
 
 #: ai/default/advdiplomacy.c:1685
@@ -361,8 +373,8 @@ msgid ""
 "more!"
 msgstr ""
 "*%s (KI)* Ehrverlustiger, wir haben eine Allianz miteinander geschlossen, "
-"und immer noch bist Du im Frieden mit unserem Todfeind %s! Das ist "
-"unakzeptabel, unsere Allianz ist beendet!"
+"und immer noch sind Sie im Frieden mit unserem Todfeind %s! Das ist "
+"inakzeptabel, unsere Allianz ist beendet!"
 
 #: ai/default/advdiplomacy.c:1716
 #, c-format
@@ -370,14 +382,14 @@ msgid ""
 "*%s (AI)* Greetings friend, may we suggest making a common cause and join in "
 "an alliance?"
 msgstr ""
-"*%s (KI)* Sei gegrüßt, Freund, dürfen wir vorschlagen, unsere Anstrengungen "
-"zu bündeln, und eine Allianz zu bilden?"
+"*%s (KI)* Seien Sie gegrüßt, Freund, dürfen wir vorschlagen, unsere "
+"Anstrengungen zu bündeln, und eine Allianz zu bilden?"
 
 #: ai/default/advdiplomacy.c:1732
 #, c-format
 msgid "*%s (AI)* Greetings neighbor, may we suggest more peaceful relations?"
 msgstr ""
-"*%s (KI)* Sei gegrüßt, Nachbar, dürfen wir friedlichere Beziehungen "
+"*%s (KI)* Seien Sie gegrüßt, Nachbar, dürfen wir friedlichere Beziehungen "
 "vorschlagen?"
 
 #: ai/default/advdiplomacy.c:1748
@@ -395,9 +407,9 @@ msgid ""
 "*%s (AI)* We have been savagely attacked by %s, and we need your help! Honor "
 "our glorious alliance and your name will never be forgotten!"
 msgstr ""
-"*%s (KI)* Wir sind von %s schändlich angegriffen worden und brauchen Deine "
-"Hilfe! Ehre unsere ruhmreiche Allianz und Dein Name wird niemals vergessen  "
-"werden!"
+"*%s (KI)* Wir sind von %s schändlich angegriffen worden und brauchen Ihre "
+"Hilfe! Ehren Sie unsere ruhmreiche Allianz und Ihr Name wird niemals "
+"vergessen werden!"
 
 #: ai/default/aicity.c:317 server/citytools.c:2701
 #, c-format
@@ -18140,7 +18152,7 @@ msgstr "Phalanx"
 #: data/civ2civ3/units.ruleset:652 data/multiplayer/units.ruleset:593
 msgid "The Phalanx is armored infantry, suitable for defending your cities."
 msgstr ""
-"Die Phalanx ist eine gepanzerte Fußtruppe, geeignet zur Verteidigung deiner "
+"Die Phalanx ist eine gepanzerte Fußtruppe, geeignet zur Verteidigung Ihrer "
 "Städte."
 
 #: data/civ1/units.ruleset:379 data/civ2/units.ruleset:460
@@ -18352,7 +18364,7 @@ msgid ""
 "The Trireme is your first boat unit. It can act as a transport ship and has "
 "rudimentary offensive capabilities, but may not stray too far from the shore."
 msgstr ""
-"Die Trireme ist deine erste See-Einheit. Sie kann als Transportschiff dienen "
+"Die Trireme ist Ihre erste See-Einheit. Sie kann als Transportschiff dienen "
 "und hat einfache Angriffsstärke, darf sich aber nicht zu weit von der Küste "
 "entfernen."
 
@@ -19267,7 +19279,7 @@ msgid ""
 "Your reputation and goodwill among other nations is recovered four times as "
 "fast."
 msgstr ""
-"Deine Reputation und deine Anerkennung bei anderen Nationen wird viermal so "
+"Ihre Reputation und Ihre Anerkennung bei anderen Nationen wird viermal so "
 "schnell wiederhergestellt als sonst."
 
 #: data/civ2/buildings.ruleset:1161 data/classic/buildings.ruleset:1236
@@ -21149,7 +21161,7 @@ msgstr ""
 msgid ""
 "Your reputation and goodwill among other nations is recovered twice as fast."
 msgstr ""
-"Deine Reputation und deine Anerkennung bei anderen Nationen wird doppelt so "
+"Ihre Reputation und Ihre Anerkennung bei anderen Nationen wird doppelt so "
 "schnell wiederhergestellt als sonst."
 
 #: data/classic/buildings.ruleset:1282
@@ -30233,11 +30245,11 @@ msgid ""
 "and using your settlers to find a good place to build\n"
 "a city.  Use the number pad to move units around."
 msgstr ""
-"Willkommen bei Freeciv. Du lenkst eine Zivilisation. Deine Aufgabe\n"
-"ist es, die Welt zu erobern! Du solltest damit beginnen, das Land\n"
-"um dich herum mit deinem Kundschafter zu erkunden, und für deine\n"
+"Willkommen bei Freeciv. Sie lenken eine Zivilisation, und Ihre Aufgabe\n"
+"ist es, die Welt zu erobern! Sie sollten damit beginnen, das Land\n"
+"um Sie herum mit Ihrem Kundschafter zu erkunden, und für Ihre\n"
 "Siedler einen guten Platz für eine Stadtgründung zu finden.\n"
-"Benutze den Ziffernblock, um deine Einheiten zu bewegen."
+"Benutzen Sie den Ziffernblock, um Ihre Einheiten zu bewegen."
 
 #: data/scenarios/tutorial.sav:82
 msgid ""
@@ -30249,8 +30261,8 @@ msgid ""
 "provide plenty of food."
 msgstr ""
 "Dies sieht nach einem guten Platz für eine Stadtgründung aus. Wenn\n"
-"diese Einheit das nächste Mal am Zug ist, drücke (b) um eine Stadt zu\n"
-"bauen. Am besten baust du deine Städte auf offenem Gelände in der Nähe\n"
+"diese Einheit das nächste Mal am Zug ist, drücken Sie (b) um eine Stadt zu\n"
+"bauen. Am besten bauem Sie Ihre Städte auf offenem Gelände in der Nähe\n"
 "von Wasser. Nahrung ist die wichtigste Ressource für eine Stadt.\n"
 "Grasland und Ebenen liefern viel Nahrung."
 
@@ -30268,16 +30280,16 @@ msgid ""
 "dialog.  If all goes well the city should display the settler\n"
 "production on the map view."
 msgstr ""
-"Nun hast du deine erste Stadt gebaut. Das Stadtfenster sollte sich\n"
-"automatisch geöffnet haben; falls nicht, klicke auf die Stadt um es\n"
+"Nun haben Sie Ihre erste Stadt gebaut. Das Stadtfenster sollte sich\n"
+"automatisch geöffnet haben; falls nicht, klicken Sie auf die Stadt um es\n"
 "zu öffnen. Städte sind ein grundlegendes Konzept von Freeciv, also\n"
-"solltest du dich mit dem Stadtfenster etwas vertraut machen. In der\n"
-"Hilfe findest du weitere Hinweise.\n"
+"sollten Sie sich mit dem Stadtfenster etwas vertraut machen. In der\n"
+"Hilfe finden Sie weitere Hinweise.\n"
 "\n"
-"Am Anfang willst du wahrscheinlich Siedler bauen, um deine Zivilisation\n"
-"weiter ausdehnen zu können. Klicke auf den Produktion-Reiter, dann \n"
+"Am Anfang wollen Sie wahrscheinlich Siedler bauen, um Ihre Zivilisation\n"
+"weiter ausdehnen zu können. Klicken Sie auf den Produktion-Reiter, dann \n"
 "auf die Siedlereinheit in der Liste, und auf den Ändern-Knopf, um\n"
-"mit dem Bau zu beginnen. Wenn du fertig bist, schließe das \n"
+"mit dem Bau zu beginnen. Wenn Sie fertig sind, schließen Sie das \n"
 "Stadtfenster. Wenn alles gut geht, sollte die Siedlerproduktion für\n"
 "die Stadt auf der Karte angezeigt werden."
 
@@ -30288,9 +30300,9 @@ msgid ""
 "because of the terrain around it.  You probably want to build\n"
 "settlers here too."
 msgstr ""
-"Gratulation, du hast deine zweite Stadt gebaut. Diese Stadt wird sich\n"
+"Gratulation, Sie haben Ihre zweite Stadt gebaut. Diese Stadt wird sich\n"
 "fast genauso verhalten wie die erste - etwas unterschiedlich\n"
-"wegen des Geländes drumherum. Du willst hier wahrscheinlich ebenfalls\n"
+"wegen des Geländes drumherum. Sie wollen hier wahrscheinlich ebenfalls\n"
 "Siedler bauen."
 
 #: data/scenarios/tutorial.sav:98
@@ -30309,18 +30321,19 @@ msgid ""
 "append it to the worklist.  As soon as the Barracks are complete the\n"
 "city will automatically switch over to producing the unit."
 msgstr ""
-"Du hast deine dritte Stadt errichtet! Deine Zivilisation scheint\n"
+"Sie haben Ihre dritte Stadt errichtet! Ihre Zivilisation scheint\n"
 "sich gut zu entwickeln. Es könnte an der Zeit sein, über Truppen\n"
-"nachzudenken. Nimm eine Stadt mit einer hohen Produktion, und\n"
-"mache daraus eine Militärbasis. Baue zunächst Kasernen, dann\n"
-"beginne mit dem Bau einer militärischen Einheit. Wähle die beste,\n"
+"nachzudenken. Nehmen Sie eine Stadt mit einer hohen Produktion, und\n"
+"machen Sie daraus eine Militärbasis. Bauen Sie zunächst Kasernen,\n"
+"beginnen Sie dann mit dem Bau einer militärischen Einheit. Wählen Sie die "
+"beste,\n"
 "die verfügbar ist - am Anfang des Spieles sind Krieger die\n"
-"einzige Wahl, aber bald wirst du eine große Auswahl haben.\n"
+"einzige Wahl, aber bald werden Sie eine große Auswahl haben.\n"
 "\n"
 "Dies ist eine gute Gelegenheit, die Arbeitslisten auszuprobieren,\n"
-"mit der die Stadtproduktion gesteuert werden kann. Wähle im\n"
-"Stadtfenster 'Produktion', klicke auf die Kasernen, dann auf\n"
-"'ändern', um sie zu bauen. Klicke dann doppelt auf eine\n"
+"mit der die Stadtproduktion gesteuert werden kann. Wählen Sie im\n"
+"Stadtfenster 'Produktion', klicken Sie auf die Kasernen, dann auf\n"
+"'ändern', um sie zu bauen. Klicken Sie dann doppelt auf eine\n"
 "militärische Einheit, um sie an die Arbeitsliste anzuhängen.\n"
 "Sobald die Kasernen fertig sind, wird die Stadt mit der\n"
 "Produktion der Einheit beginnen."
@@ -30339,13 +30352,13 @@ msgid ""
 "will take; it also shows how long the city will take to grow to the\n"
 "next largest size."
 msgstr ""
-"Eine weitere Stadt! So langsam bekommst du es heraus. Du weißt\n"
-"bestimmt schon ganz gut, was du mit neuen Städten machen kannst.\n"
-"Wirf einmal einen Blick auf die Beschriftung unter der Stadt auf der\n"
+"Eine weitere Stadt! So langsam bekommen Sie es heraus. Sie wissen\n"
+"bestimmt schon ganz gut, was Sie mit neuen Städten machen können.\n"
+"Werfen Sie einmal einen Blick auf die Beschriftung unter der Stadt auf der\n"
 "Karte. Hier werden einige nützliche Informationen über die Stadt\n"
 "angezeigt. Die Flagge und die Hintergrundfarbe zeigen an, zu\n"
 "welcher Zivilisation die Stadt gehört (das ist nützlich, sobald\n"
-"du auf andere Zivilisationen triffst). Die oberste Zeile zeigt\n"
+"Sie auf andere Zivilisationen treffen). Die oberste Zeile zeigt\n"
 "den Namen und die Größe der Stadt, sowie einen oder mehrere\n"
 "Sterne, sobald sich Einheiten in der Stadt befinden. Die unterste\n"
 "Zeile zeigt an, was die Stadt produziert und wieviele Runden es\n"
@@ -30385,15 +30398,15 @@ msgid ""
 "in gold (if you have enough of it) to instantly complete the\n"
 "production."
 msgstr ""
-"Deine Stadt ist gewachsen! Dadurch werden mehr Bürger verfügbar,\n"
+"Ihre Stadt ist gewachsen! Dadurch werden mehr Bürger verfügbar,\n"
 "die auf den Feldern oder als Spezialisten eingesetzt werden können.\n"
 "Eine Stadt von Größe zwei oder darüber kann außerdem Siedler bauen,\n"
 "welche die Bevölkerung wieder um eine Stufe vermindern.\n"
 "\n"
-"Falls deine Stadt Siedler baut, überlege, ob du sie kaufen kannst.\n"
-"Öffne das Stadtfenster und klicke auf 'Kaufen'. Damit gibst du Gold\n"
-"(falls du genug davon hast), um die Produktion augenblicklich\n"
-"fertigzustellen."
+"Falls Ihre Stadt Siedler baut, überlege, ob Sie sie kaufen können.\n"
+"Öffnen Sie das Stadtfenster und klicken Sie auf 'Kaufen'. Damit geben\n"
+"Sie Gold (falls du genug davon hast) aus, um die Produktion\n"
+"augenblicklich fertigzustellen."
 
 #: data/scenarios/tutorial.sav:120
 msgid ""
@@ -30474,12 +30487,12 @@ msgid ""
 "going to continue to grow you should start building one soon.  Building\n"
 "an aqueduct requires the Construction technology."
 msgstr ""
-"Nun hast du eine Stadt auf Größe 8 wachsen lassen. Eine Stadt dieser\n"
+"Nun haben Sie eine Stadt auf Größe 8 wachsen lassen. Eine Stadt dieser\n"
 "Größe kann eine große Produktion erzeugen, Vorausgesetzt, es gibt\n"
 "genug Luxus um die Bevölkerung zufrieden zu stellen.\n"
 "\n"
 "Wenn die Stadt noch größer werden soll, benötigt sie ein Aquädukt.\n"
-"Mit dem Bau solltest du bald beginnen. Ein Aquädukt setzt den\n"
+"Mit dem Bau sollten Sie bald beginnen. Ein Aquädukt setzt den\n"
 "Fortschritt 'Konstruktion' voraus."
 
 #: data/scenarios/tutorial.sav:132
@@ -30488,8 +30501,8 @@ msgid ""
 "it larger, however, you will need to build a Sewer System.  This\n"
 "requires the Sanitation technology."
 msgstr ""
-"Du hast nun eine Stadt der Größe 12. Um sie noch größer werden\n"
-"zu lassen, musst du eine Kanalisation errichten. Dazu muss der\n"
+"Sie haben nun eine Stadt der Größe 12. Um sie noch größer werden\n"
+"zu lassen, müssen Sie eine Kanalisation errichten. Dazu muss der\n"
 "Fortschritt 'Hygiene' bekannt sein."
 
 #: data/scenarios/tutorial.sav:136
@@ -30560,10 +30573,10 @@ msgid ""
 "out cities properly gives each city access to more resources, allowing\n"
 "them to grow to larger sizes."
 msgstr ""
-"Deine zweiten Siedler sollten ebenfalls eine neue Stadt gründen.\n"
-"Wenn du den Siedler bewegst, wird das Gebiet angezeigt, das eine\n"
+"Ihre zweiten Siedler sollten ebenfalls eine neue Stadt gründen.\n"
+"Wenn Sie den Siedler bewegen, wird das Gebiet angezeigt, das eine\n"
 "Stadt an diesem Platz nutzen könnte. Außerdem zeigt eine weiße\n"
-"Linie, welche Felder bereits von deiner Zivilisation genutzt werden.\n"
+"Linie, welche Felder bereits von Ihrer Zivilisation genutzt werden.\n"
 "Es ist empfehlenswert, das alle Felder abgedeckt werden, aber auch,\n"
 "dass sich die Städte so wenig wie möglich überlappen. Dann haben\n"
 "die Städte mehr Ressourcen zur Verfügung und können sehr groß werden."
@@ -30603,15 +30616,15 @@ msgid ""
 "founding a new city, make sure it is built on terrain that provides\n"
 "enough food - grassland is best; plains or hills are almost as good."
 msgstr ""
-"Deine Stadt kann keine Siedler bauen. Siedler verbrauchen eine\n"
+"Ihre Stadt kann keine Siedler bauen. Siedler verbrauchen eine\n"
 "Größeneinheit der Stadt, daher kann eine Stadt der Größe 1 keine\n"
 "Siedler nauen, ohne sich selbst aufzulösen.\n"
 "\n"
 "Ein Gegenmittel ist, die Bürger der Stadt so auf die Felder zu\n"
 "verteilen, daß mehr Nahrung erwirtschaftet wird und die Stadt\n"
 "schneller wächst. Städte ohne große Nahrungsressourcen sollten\n"
-"nicht versuchen, Siedler zu bauen. Wenn du eine neue Stadt baust,\n"
-"achte darauf, das genügend Nahrung zur Verfügung steht - Grasland\n"
+"nicht versuchen, Siedler zu bauen. Wenn Sie eine neue Stadt bauen,\n"
+"achten Sie darauf, dass genügend Nahrung zur Verfügung steht - Grasland\n"
 "ist am besten, Ebenen und Hügel sind beinahe so gut."
 
 #: data/scenarios/tutorial.sav:190
@@ -32127,7 +32140,7 @@ msgstr "In %s wurde die Ordnung wieder hergestellt."
 #: server/cityturn.c:2482
 #, c-format
 msgid "The people have overthrown your %s, your country is in turmoil."
-msgstr "Das Volk hat die %s gestürzt, dein Land befindet sich im Aufruhr."
+msgstr "Das Volk hat den/die %s gestürzt, Ihr Land befindet sich im Aufruhr."
 
 #: server/cityturn.c:2524
 #, c-format
@@ -34033,7 +34046,7 @@ msgstr "%s kann nicht bestochen werden!"
 #: server/diplomats.c:484
 #, c-format
 msgid "Your %s succeeded in bribing the %s."
-msgstr "Dein %s hat %s erfolgreich bestochen."
+msgstr "Ihr %s hat %s erfolgreich bestochen."
 
 #. TRANS: <unit> ... <Poles>
 #: server/diplomats.c:491
@@ -34047,8 +34060,8 @@ msgid ""
 "%s was expecting your attempt to steal technology again. Your %s was caught "
 "and executed."
 msgstr ""
-"%s hat deinen Versuch, erneut eine Technologie zu stehlen, erwartet. %s "
-"wurde gefangen und hingerichtet."
+"%s hat Ihren Versuch, erneut eine Technologie zu stehlen, erwartet. %s wurde "
+"gefangen und hingerichtet."
 
 #: server/diplomats.c:630
 #, c-format
@@ -34781,7 +34794,7 @@ msgstr "%s an globale Beobachter: %s"
 
 #: server/handchat.c:352
 msgid "You are not attached to a player."
-msgstr "Du bist nicht mit einem Spieler verbunden."
+msgstr "Sie sind nicht mit einem Spieler verbunden."
 
 #: server/handchat.c:438
 #, c-format
@@ -34888,12 +34901,12 @@ msgstr ""
 #: server/maphand.c:1743
 #, c-format
 msgid "Moved your %s due to changing terrain."
-msgstr "Deine %s wurde wegen Veränderung des Geländes verschoben."
+msgstr "Ihre %s wurde wegen Veränderung des Geländes verschoben."
 
 #: server/maphand.c:1760
 #, c-format
 msgid "Disbanded your %s due to changing terrain."
-msgstr "Deine %s wurde wegen Veränderung des Geländes aufgelöst."
+msgstr "Ihre %s wurde wegen Veränderung des Geländes aufgelöst."
 
 #: server/meta.c:196
 msgid "Not reporting to the metaserver in this game."
@@ -34973,7 +34986,7 @@ msgid ""
 "The senate will not allow you to break treaty with the %s.  You must either "
 "dissolve the senate or wait until a more timely moment."
 msgstr ""
-"Der Senat erlaubt nicht den Bruch des Paktes mit den %s. Du mußt entweder "
+"Der Senat verweigert den Bruch des Paktes mit den %s. Sie müssen entweder "
 "den Senat auflösen oder auf einen passenderen Moment warten."
 
 #: server/plrhand.c:689
@@ -34990,7 +35003,7 @@ msgid ""
 "The senate refuses to break treaty with the %s, but you have no trouble "
 "finding a new senate."
 msgstr ""
-"Der Senat weigert sich den Pakt mit den %s zu brechen, aber du hast keine "
+"Der Senat weigert sich, den Pakt mit den %s zu brechen, aber Sie haben keine "
 "Schwierigkeiten, einen neuen Senat zu finden."
 
 #: server/plrhand.c:718
@@ -38689,7 +38702,7 @@ msgstr "Server-ID: %s"
 
 #: server/stdinhand.c:740 server/stdinhand.c:758
 msgid "You cannot save games manually on this server."
-msgstr "Du kannst das Spiel auf diesem Server nicht manuell speichern."
+msgstr "Sie können das Spiel auf diesem Server nicht manuell speichern."
 
 #: server/stdinhand.c:777
 #, c-format
@@ -39367,16 +39380,16 @@ msgid_plural ""
 "You cannot take a new player because the maximum of %d players has already "
 "been reached (maxplayers setting)."
 msgstr[0] ""
-"Du kannst keinen neuen Spieler übernehmen, weil die Höchtszahl von %d "
+"Sie können keinen neuen Spieler übernehmen, weil die Höchtszahl von %d "
 "Spieler bereits erreicht ist (Option mayplayers)."
 msgstr[1] ""
-"Du kannst keinen neuen Spieler übernehmen, weil die Höchtszahl von %d "
+"Sie können keinen neuen Spieler übernehmen, weil die Höchtszahl von %d "
 "Spielern bereits erreicht ist (Option mayplayers)."
 
 #: server/stdinhand.c:3099
 msgid "You cannot take a new player because there are no free player slots."
 msgstr ""
-"Du kannst keinen neuen Spieler übernehmen, weil es keine freien Plätze mehr "
+"Sie können keinen neuen Spieler übernehmen, weil es keine freien Plätze mehr "
 "gibt."
 
 #: server/stdinhand.c:3111
@@ -40344,7 +40357,7 @@ msgstr "Die %s haben Zukunftstechnologie %d erforscht."
 #: server/techtools.c:187
 #, c-format
 msgid "%s acquired from %s!"
-msgstr "Du hast %s von den %s übernommen!"
+msgstr "Sie haben %s von den %s übernommen!"
 
 #: server/techtools.c:237
 #, c-format
@@ -40592,7 +40605,7 @@ msgstr "Ihr %s überlebte den mutigen Angriff der %sen %s."
 #: server/unithand.c:1205
 #, c-format
 msgid "Your attacking %s failed against the %s %s!"
-msgstr "Der Angriff deiner %s gegen die %sen %s ist fehlgeschlagen!"
+msgstr "Der Angriff Ihrer %s gegen die %sen %s ist fehlgeschlagen!"
 
 #: server/unithand.c:1281
 msgid "This type of troops cannot take over a city."
@@ -40827,7 +40840,7 @@ msgstr "Konnte %s nicht verteidigen, %s hat das Spiel verloren."
 #, c-format
 msgid "Losing %s meant losing the game! Be more careful next time!"
 msgstr ""
-"Durch den Verlust von %s ist das Spiel verloren. Seien Sie das nächste Mal "
+"Durch den Verlust des %ss ist das Spiel verloren. Seien Sie das nächste Mal "
 "vorsichtiger!"
 
 #: server/unittools.c:1726
@@ -40851,7 +40864,7 @@ msgstr[1] "Barbarenanführer gefasst, %d Goldstücke Belohnung erhalten."
 #: server/unittools.c:2112
 #, c-format
 msgid "Your attacking %s succeeded against the %s %s!"
-msgstr "Der Angriff deiner %s gegen die %sen %s ist geglückt!"
+msgstr "Der Angriff Ihrer %s gegen die %sen %s ist geglückt!"
 
 #. TRANS: "Cannon ... the Polish Destroyer."
 #: server/unittools.c:2121 server/unittools.c:2182
@@ -40866,10 +40879,9 @@ msgid "Your attacking %s succeeded against the %s %s (and %d other unit)!"
 msgid_plural ""
 "Your attacking %s succeeded against the %s %s (and %d other units)!"
 msgstr[0] ""
-"Der Angriff deiner %s gegen die %sen %s (und %d weitere Einheit) ist "
-"geglückt!"
+"Der Angriff Ihrer %s gegen die %sen %s (und %d weitere Einheit) ist geglückt!"
 msgstr[1] ""
-"Der Angriff deiner %s gegen die %sen %s (und %d weitere Einheiten) ist "
+"Der Angriff Ihrer %s gegen die %sen %s (und %d weitere Einheiten) ist "
 "geglückt!"
 
 #. TRANS: "Cannon lost when the Polish Destroyer
