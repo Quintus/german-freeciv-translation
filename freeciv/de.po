@@ -62,7 +62,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-08 19:27+0300\n"
-"PO-Revision-Date: 2015-08-09 21:12+0200\n"
+"PO-Revision-Date: 2015-08-09 21:13+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -5374,7 +5374,9 @@ msgstr "Sollen wir den %s wirklich den Krieg erklären?"
 #: client/gui-gtk-2.0/plrdlg.c:804 client/gui-gtk-3.0/plrdlg.c:815
 #, c-format
 msgid "Cancel %s %s? New diplomatic state will be %s."
-msgstr "Die Vereinbarung über eine %se %s aufkündigen? Der neue diplomatische Zustand wird %s sein."
+msgstr ""
+"Die Vereinbarung über eine %se %s aufkündigen? Der neue diplomatische "
+"Zustand wird %s sein."
 
 #. TRANS: "...from the Belgians?"
 #: client/gui-gtk-2.0/plrdlg.c:834 client/gui-gtk-3.0/plrdlg.c:845
@@ -10772,8 +10774,12 @@ msgid ""
 msgid_plural ""
 "* You can have up to %d cities before an additional unhappy citizen appears "
 "in each city due to civilization size.\n"
-msgstr[0] "• Ab %d Stadt wird je Stadt ein Bürger aufgrund der Zivilisationsgröße unzufrieden.\n"
-msgstr[1] "• Ab %d Städten wird je Stadt ein Bürger aufgrund der Zivilisationsgröße unzufrieden.\n"
+msgstr[0] ""
+"• Ab %d Stadt wird je Stadt ein Bürger aufgrund der Zivilisationsgröße "
+"unzufrieden.\n"
+msgstr[1] ""
+"• Ab %d Städten wird je Stadt ein Bürger aufgrund der Zivilisationsgröße "
+"unzufrieden.\n"
 
 #: client/helpdata.c:3948
 #, c-format
@@ -13391,7 +13397,8 @@ msgstr "Weltwunder: Keine."
 #, c-format
 msgid "Cities: %d total, but no penalty for empire size."
 msgid_plural "Cities: %d total, but no penalty for empire size."
-msgstr[0] "Städte: %d insgesamt. Der Grenzwert für die Nationsgröße wurde abgeschaltet."
+msgstr[0] ""
+"Städte: %d insgesamt. Der Grenzwert für die Nationsgröße wurde abgeschaltet."
 msgstr[1] ""
 "Städte: %d insgesamt. Der Grenzwert für die Nationsgröße wurde abgeschaltet."
 
@@ -13448,8 +13455,12 @@ msgstr[1] "%d wütende Einwohenr."
 #, c-format
 msgid " not more than %d, so no empire size penalty."
 msgid_plural " not more than %d, so no empire size penalty."
-msgstr[0] " nicht mehr als %d, daher keine Strafe wegen Überschreitung des Grenzwerts für die Nationsgröße."
-msgstr[1] " nicht mehr als %d, daher keine Strafe wegen Überschreitung des Grenzwerts für die Nationsgröße."
+msgstr[0] ""
+" nicht mehr als %d, daher keine Strafe wegen Überschreitung des Grenzwerts "
+"für die Nationsgröße."
+msgstr[1] ""
+" nicht mehr als %d, daher keine Strafe wegen Überschreitung des Grenzwerts "
+"für die Nationsgröße."
 
 #: client/text.c:1917
 #, c-format
@@ -13467,7 +13478,9 @@ msgstr[1] "Mit %d weiteren Städten wird ein weiterer Einwohner wütend."
 
 #: client/text.c:1938
 msgid "More cities will not cause more unhappy citizens."
-msgstr "Weitere Städte werden keine weiteren unzufriedenen Einwohner nach sich ziehen."
+msgstr ""
+"Weitere Städte werden keine weiteren unzufriedenen Einwohner nach sich "
+"ziehen."
 
 #: client/text.c:1959
 msgid "Unlimited martial law in effect."
@@ -25357,7 +25370,12 @@ msgid ""
 "Normally borders extend into water only for tiles adjacent to a city; beyond "
 "that, only narrow inlets and inland lakes can be claimed. Border claims can "
 "never extend to remote islands."
-msgstr "Die von den Küstenstädten errichteten, dem offenen Wasser zugewandten Nationalgrenzen erstrecken sich normalerweise nur auf die an das Stadtfeld angrenzenden Seefelder. Darüber hinaus können nur kleine Inselchen und inländische Süßwasserseen als Staatsgebiet beansprucht werden. Grenzansprüche werden sich niemals auf jenseitige Inseln erstrecken."
+msgstr ""
+"Die von den Küstenstädten errichteten, dem offenen Wasser zugewandten "
+"Nationalgrenzen erstrecken sich normalerweise nur auf die an das Stadtfeld "
+"angrenzenden Seefelder. Darüber hinaus können nur kleine Inselchen und "
+"inländische Süßwasserseen als Staatsgebiet beansprucht werden. "
+"Grenzansprüche werden sich niemals auf jenseitige Inseln erstrecken."
 
 #: data/helpdata.txt:455
 msgid ""
@@ -27015,7 +27033,11 @@ msgid ""
 "level. In the classic ruleset, if the winner's civilization has the Sun "
 "Tzu's War Academy (and if it isn't obsolete), the chance is increased by "
 "half in case of land units."
-msgstr "Die siegreiche Einheit hat die Chance, in einen Veteranengrad erhoben zu werden. Im klassischen Regelsatz wird diese Chance um die Hälfte erhöht, wenn die siegreiche Nation Sun Tzus Militärakademie besitzt und diese noch nicht überholt ist."
+msgstr ""
+"Die siegreiche Einheit hat die Chance, in einen Veteranengrad erhoben zu "
+"werden. Im klassischen Regelsatz wird diese Chance um die Hälfte erhöht, "
+"wenn die siegreiche Nation Sun Tzus Militärakademie besitzt und diese noch "
+"nicht überholt ist."
 
 #: data/helpdata.txt:1221
 msgid ""
@@ -38661,7 +38683,9 @@ msgstr "Mehr als die Einstellung „maxplayers“ erlaubt angefordert"
 
 #: server/srv_main.c:1932
 msgid "not enough playable nations in this nationset (see 'nationset' setting)"
-msgstr "nicht ausreichend spielbare Nationen im Nationensatz (siehe Einstellung „nationset“)"
+msgstr ""
+"nicht ausreichend spielbare Nationen im Nationensatz (siehe Einstellung "
+"„nationset“)"
 
 #: server/srv_main.c:1935
 msgid "not enough playable nations"
