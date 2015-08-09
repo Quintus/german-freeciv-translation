@@ -62,7 +62,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-08 19:27+0300\n"
-"PO-Revision-Date: 2015-06-30 23:24+0200\n"
+"PO-Revision-Date: 2015-08-09 21:08+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -529,24 +529,20 @@ msgid "?cma:Very happy"
 msgstr "Sehr glücklich"
 
 #: client/agents/cma_fec.c:428
-#, fuzzy
 msgid "?cma:Prefer food"
-msgstr "Max. Nahrung"
+msgstr "Nahrung bevorzugen"
 
 #: client/agents/cma_fec.c:429
-#, fuzzy
 msgid "?cma:Prefer production"
-msgstr "Max. Produktion"
+msgstr "Produktion bevorzugen"
 
 #: client/agents/cma_fec.c:430
-#, fuzzy
 msgid "?cma:Prefer gold"
-msgstr "Max. Gold"
+msgstr "Einnahmen bevorzugen"
 
 #: client/agents/cma_fec.c:431
-#, fuzzy
 msgid "?cma:Prefer science"
-msgstr "Max. Forschung"
+msgstr "Forschung bevorzugen"
 
 #: client/attribute.c:368
 msgid ""
@@ -725,14 +721,14 @@ msgid "%+4d : Bonus from %s (%+d%%)\n"
 msgstr "%+4d : Bonus von %s (%+d%%)\n"
 
 #: client/citydlg_common.c:512
-#, fuzzy, c-format
+#, c-format
 msgid "%+4d : Loss from %s (%+d%%)\n"
-msgstr "%+4d : Bonus von %s (%+d%%)\n"
+msgstr "%+4d : Verlust durch %s (%+d%%)\n"
 
 #: client/citydlg_common.c:532
 #, c-format
 msgid "%+4d : Size penalty\n"
-msgstr "%+4d : Größeneinbuße\n"
+msgstr "%+4d : Größenstrafe\n"
 
 #. TRANS: %s is normally empty, but becomes '?' if client is
 #. * uncertain about its accounting (should never happen)
@@ -779,6 +775,7 @@ msgstr "%4d : Gesamtüberschuß"
 msgid "Illness deactivated in ruleset."
 msgstr "Krankheiten sind im Regelsatz deaktiviert."
 
+# ? MG: Sollten diese "durch" nicht "wegen" sein?
 #: client/citydlg_common.c:609
 #, c-format
 msgid "%+5.1f : Risk from overcrowding\n"
@@ -800,9 +797,9 @@ msgid "%+5.1f : Bonus from %s\n"
 msgstr "%+5.1f : Bonus von %s\n"
 
 #: client/citydlg_common.c:627
-#, fuzzy, c-format
+#, c-format
 msgid "%+5.1f : Risk from %s\n"
-msgstr "%+5.1f : Risiko durch Handel\n"
+msgstr "%+5.1f : Risiko durch %s\n"
 
 #: client/citydlg_common.c:633
 #, c-format
@@ -5364,29 +5361,28 @@ msgstr "_KI-Modus umschalten"
 
 #. TRANS: %s is a diplomatic state: "Cancel Cease-fire"
 #: client/gui-gtk-2.0/plrdlg.c:797 client/gui-gtk-3.0/plrdlg.c:808
-#, fuzzy, c-format
+#, c-format
 msgid "Cancel %s"
-msgstr "Bundeskanzler %s"
+msgstr "%s aufkündigen"
 
 #: client/gui-gtk-2.0/plrdlg.c:800 client/gui-gtk-3.0/plrdlg.c:811
-#, fuzzy, c-format
+#, c-format
 msgid "Really declare war on the %s?"
-msgstr "Sollen wir ihnen den Krieg erklären?"
+msgstr "Sollen wir den %s wirklich den Krieg erklären?"
 
 #. TRANS: "Cancel Belgian Alliance? ... will be Armistice."
 #: client/gui-gtk-2.0/plrdlg.c:804 client/gui-gtk-3.0/plrdlg.c:815
 #, c-format
 msgid "Cancel %s %s? New diplomatic state will be %s."
-msgstr ""
+msgstr "Die Vereinbarung über eine %se %s aufkündigen? Der neue diplomatische Zustand wird %s sein."
 
 #. TRANS: "...from the Belgians?"
 #: client/gui-gtk-2.0/plrdlg.c:834 client/gui-gtk-3.0/plrdlg.c:845
-#, fuzzy, c-format
+#, c-format
 msgid "Withdraw shared vision from the %s?"
-msgstr "Die %s haben %s von den %s gestohlen."
+msgstr "Den %s das Recht auf Karteneinsicht entziehen?"
 
 #: client/gui-gtk-2.0/plrdlg.c:838 client/gui-gtk-3.0/plrdlg.c:849
-#, fuzzy
 msgid "Withdraw Shared Vision"
 msgstr "Karteneinsicht verbieten"
 
@@ -6033,10 +6029,9 @@ msgid "Insert worklist"
 msgstr "Arbeitsliste einfügen"
 
 #: client/gui-qt/citydlg.cpp:1591
-#, fuzzy
 msgid "Buy (%1 gold)"
 msgid_plural "Buy (%1 gold)"
-msgstr[0] "Kaufen (%1 Goldstücke)"
+msgstr[0] "Kaufen (%1 Goldstück)"
 msgstr[1] "Kaufen (%1 Goldstücke)"
 
 #: client/gui-qt/citydlg.cpp:1597 data/Freeciv.in:1647
@@ -10770,19 +10765,15 @@ msgstr ""
 "%d%%.\n"
 
 #: client/helpdata.c:3936
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* You can have %d city before an additional unhappy citizen appears in each "
 "city due to civilization size.\n"
 msgid_plural ""
 "* You can have up to %d cities before an additional unhappy citizen appears "
 "in each city due to civilization size.\n"
-msgstr[0] ""
-"• Zusätzliche unzufriedene Bürger aufgrund der Zivilisationsgröße gibt es ab "
-"%d Stadt.\n"
-msgstr[1] ""
-"• Zusätzliche unzufriedene Bürger aufgrund der Zivilisationsgröße gibt es ab "
-"%d Städten.\n"
+msgstr[0] "• Ab %d Stadt wird je Stadt ein Bürger aufgrund der Zivilisationsgröße unzufrieden.\n"
+msgstr[1] "• Ab %d Städten wird je Stadt ein Bürger aufgrund der Zivilisationsgröße unzufrieden.\n"
 
 #: client/helpdata.c:3948
 #, c-format
@@ -12838,9 +12829,9 @@ msgstr "Einheit: %s | %s (%s)"
 #. TRANS: on own line immediately following \n, "from <city> |
 #. * <nationality> people"
 #: client/text.c:343
-#, fuzzy, c-format
+#, c-format
 msgid "from %s | %s people"
-msgstr "%ser Staatsbürger"
+msgstr "aus %s | %ser Staatsbürger"
 
 #. TRANS: Nationality of the people comprising a unit, if
 #. * different from owner.
@@ -13397,38 +13388,37 @@ msgid "Wonders: None."
 msgstr "Weltwunder: Keine."
 
 #: client/text.c:1831
-#, fuzzy, c-format
+#, c-format
 msgid "Cities: %d total, but no penalty for empire size."
 msgid_plural "Cities: %d total, but no penalty for empire size."
-msgstr[0] ""
-"Städte: %d insgesamt. Der Grenzwert für die Nationsgröße wurde abgeschaltet."
+msgstr[0] "Städte: %d insgesamt. Der Grenzwert für die Nationsgröße wurde abgeschaltet."
 msgstr[1] ""
 "Städte: %d insgesamt. Der Grenzwert für die Nationsgröße wurde abgeschaltet."
 
 #. TRANS: %d is number of citizens
 #: client/text.c:1837 client/text.c:1911
-#, fuzzy, c-format
+#, c-format
 msgid "%d content per city."
 msgid_plural "%d content per city."
-msgstr[0] "%d zufrieden; "
-msgstr[1] "%d zufrieden; "
+msgstr[0] "%d je Stadt zufrieden."
+msgstr[1] "%d je Stadt zufrieden."
 
 #. TRANS: sentence fragment, will have text appended
 #: client/text.c:1877
-#, fuzzy, c-format
+#, c-format
 msgid "Cities: %d total:"
 msgid_plural "Cities: %d total:"
-msgstr[0] "Stadtbericht"
-msgstr[1] "Stadtbericht"
+msgstr[0] "Städte: %d insgesamt:"
+msgstr[1] "Städte: %d insgesamt:"
 
 #. TRANS: appended to "Cities: %d total:"; preserve leading
 #. * space. Pluralized in "nearest threshold of %d cities".
 #: client/text.c:1884
-#, fuzzy, c-format
+#, c-format
 msgid " %d over nearest threshold of %d city."
 msgid_plural " %d over nearest threshold of %d cities."
-msgstr[0] "Städte: %d insgesamt, %d über dem Grenzwert von %d Städten."
-msgstr[1] "Städte: %d insgesamt, %d über dem Grenzwert von %d Städten."
+msgstr[0] " %d über dem am nächsten liegenden Grenzwert von %d Stadt."
+msgstr[1] " %d über den am nächsten liegenden Grenzwert von %d Städten"
 
 #. TRANS: Number of content [citizen(s)] ...
 #: client/text.c:1889
@@ -13446,11 +13436,11 @@ msgstr[0] "%d zusätzlicher unzufriedener Bürger."
 msgstr[1] "%d zusätzliche unzufriedene Bürger."
 
 #: client/text.c:1898
-#, fuzzy, c-format
+#, c-format
 msgid "%d angry citizen."
 msgid_plural "%d angry citizens."
-msgstr[0] "%s Einwohner"
-msgstr[1] "%s Einwohner"
+msgstr[0] "%d wütender Einwohner."
+msgstr[1] "%d wütende Einwohenr."
 
 #. TRANS: appended to "Cities: %d total:"; preserve leading
 #. * space.
@@ -13458,27 +13448,26 @@ msgstr[1] "%s Einwohner"
 #, c-format
 msgid " not more than %d, so no empire size penalty."
 msgid_plural " not more than %d, so no empire size penalty."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " nicht mehr als %d, daher keine Überbevölkerungsstrafe."
+msgstr[1] " nicht mehr als %d, daher keine Überbevölkerungsstrafe."
 
 #: client/text.c:1917
 #, c-format
 msgid "With %d more city, another citizen will become unhappy."
 msgid_plural "With %d more cities, another citizen will become unhappy."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mit %d weiteren Stadt wird ein weiterer Einwohner unzufrieden."
+msgstr[1] "Mit %d weiteren Städten wird ein weiterer Einwohner unzufrieden."
 
 #: client/text.c:1928
 #, c-format
 msgid "With %d more city, another citizen will become angry."
 msgid_plural "With %d more cities, another citizen will become angry."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mit %d weiteren Stadt wird ein weiterer Einwohner wütend."
+msgstr[1] "Mit %d weiteren Städten wird ein weiterer Einwohner wütend."
 
 #: client/text.c:1938
-#, fuzzy
 msgid "More cities will not cause more unhappy citizens."
-msgstr "• Es gibt keine unzufriedenen Bürger.\n"
+msgstr "Weitere Städte werden keine weiteren unzufriedenen Einwohner nach sich ziehen."
 
 #: client/text.c:1959
 msgid "Unlimited martial law in effect."
@@ -23483,7 +23472,6 @@ msgstr ""
 "Landeinheiten sie nicht durchqueren."
 
 #: data/civ2civ3/terrain.ruleset:653
-#, fuzzy
 msgid ""
 "Land units that move into mountains can see an extra space, but a fast land "
 "unit ending its turn in mountains without a road will start its next turn "
@@ -25369,7 +25357,7 @@ msgid ""
 "Normally borders extend into water only for tiles adjacent to a city; beyond "
 "that, only narrow inlets and inland lakes can be claimed. Border claims can "
 "never extend to remote islands."
-msgstr ""
+msgstr "Die von den Küstenstädten errichteten, dem offenen Wasser zugewandten Nationalgrenzen erstrecken sich normalerweise nur auf die an das Stadtfeld angrenzenden Seefelder. Darüber hinaus können nur kleine Inselchen und inländische Süßwasserseen als Staatsgebiet beansprucht werden. Grenzansprüche werden sich niemals auf jenseitige Inseln erstrecken."
 
 #: data/helpdata.txt:455
 msgid ""
@@ -27021,17 +27009,13 @@ msgstr ""
 "erste Einheit, die keine Trefferpunkte mehr hat, verliert."
 
 #: data/helpdata.txt:1216
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Whichever unit survives the fight has a chance of being promoted a veteran "
 "level. In the classic ruleset, if the winner's civilization has the Sun "
 "Tzu's War Academy (and if it isn't obsolete), the chance is increased by "
 "half in case of land units."
-msgstr ""
-"Die siegreiche Einheit hat die Chance, in einen Veteranengrad erhoben zu "
-"werden. Im klassischen Regelsatz wird diese Chance um die Hälfteerhöht, wenn "
-"die siegreiche Nation Sun Tzus Militärakademie besitzt und diese noch nicht "
-"überholt ist."
+msgstr "Die siegreiche Einheit hat die Chance, in einen Veteranengrad erhoben zu werden. Im klassischen Regelsatz wird diese Chance um die Hälfte erhöht, wenn die siegreiche Nation Sun Tzus Militärakademie besitzt und diese noch nicht überholt ist."
 
 #: data/helpdata.txt:1221
 msgid ""
@@ -30923,25 +30907,23 @@ msgstr "veränderte "
 
 #. TRANS: Modpack subtype, "isometric"
 #: translations/Strings.txt:28
-#, fuzzy
 msgid "iso"
-msgstr "Karteneinsicht"
+msgstr "iso"
 
 #. TRANS: Modpack subtype
 #: translations/Strings.txt:30
 msgid "hex"
-msgstr ""
+msgstr "Hex"
 
 #. TRANS: Modpack subtype, isometric hex
 #: translations/Strings.txt:32
 msgid "hex & iso"
-msgstr ""
+msgstr "Hex & Iso"
 
 #. TRANS: Modpack subtype, overhead tileset
 #: translations/Strings.txt:34
-#, fuzzy
 msgid "overhead"
-msgstr "Gouverneur"
+msgstr "Draufsicht"
 
 #: tools/civmanual.c:177
 #, c-format
@@ -31370,11 +31352,12 @@ msgid "Automatically install modpack from a given URL"
 msgstr "Modpack von der angegebenen URL automatisch installieren"
 
 #: tools/mpgui_gtk2.c:106 tools/mpgui_gtk3.c:106 tools/mpgui_qt.cpp:478
-#, fuzzy
 msgid ""
 "Modpack installation in progress.\n"
 "Are you sure you want to quit?"
-msgstr "Wollen Sie das Programm wirklich beenden?"
+msgstr ""
+"Es läuft eine Modpack-Installation.\n"
+"Wollen Sie das Programm wirklich beenden?"
 
 #: tools/mpgui_gtk2.c:290 tools/mpgui_gtk3.c:288 tools/mpgui_qt.cpp:309
 msgid "Another download already active"
@@ -36090,13 +36073,13 @@ msgstr ""
 "momentan und wenigstens bis zum Ende dieser Runde „%s“."
 
 #: server/settings.c:511 server/settings.c:513
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: aifill not met: %s."
-msgstr "VORSICHT, in %s ist eine Hungersnot zu befürchten!"
+msgstr "Warnung: aifill nicht erreicht: %s"
 
 #: server/settings.c:543
 msgid "Warning: not enough nations for all current players."
-msgstr "Nicht genug Nationen für alle aktiven Spieler."
+msgstr "Warnung: Nicht genug Nationen für alle aktiven Spieler."
 
 #: server/settings.c:634
 #, c-format
@@ -38674,17 +38657,15 @@ msgstr "Warten auf Spielstart: %d von %d Spielern sind bereit zu starten."
 
 #: server/srv_main.c:1925
 msgid "requested more than 'maxplayers' setting"
-msgstr ""
+msgstr "Mehr als die Einstellung „maxplayers“ erlaubt angefordert"
 
 #: server/srv_main.c:1932
 msgid "not enough playable nations in this nationset (see 'nationset' setting)"
-msgstr ""
+msgstr "nicht ausreichend spielbare Nationen im Nationensatz (siehe Einstellung „nationset“)"
 
 #: server/srv_main.c:1935
-#, fuzzy
 msgid "not enough playable nations"
-msgstr ""
-"„aifill“ wird verringert, weil es nicht genügend spielbare Nationen gibt."
+msgstr "nicht genügend spielbare Nationen"
 
 #: server/srv_main.c:2258 server/srv_main.c:2262
 #, c-format
