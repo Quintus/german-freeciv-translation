@@ -62,7 +62,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-08 19:27+0300\n"
-"PO-Revision-Date: 2015-08-09 21:08+0200\n"
+"PO-Revision-Date: 2015-08-09 21:12+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -13448,8 +13448,8 @@ msgstr[1] "%d wütende Einwohenr."
 #, c-format
 msgid " not more than %d, so no empire size penalty."
 msgid_plural " not more than %d, so no empire size penalty."
-msgstr[0] " nicht mehr als %d, daher keine Überbevölkerungsstrafe."
-msgstr[1] " nicht mehr als %d, daher keine Überbevölkerungsstrafe."
+msgstr[0] " nicht mehr als %d, daher keine Strafe wegen Überschreitung des Grenzwerts für die Nationsgröße."
+msgstr[1] " nicht mehr als %d, daher keine Strafe wegen Überschreitung des Grenzwerts für die Nationsgröße."
 
 #: client/text.c:1917
 #, c-format
