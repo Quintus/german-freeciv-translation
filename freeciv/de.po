@@ -62,7 +62,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-08 19:27+0300\n"
-"PO-Revision-Date: 2015-08-09 21:13+0200\n"
+"PO-Revision-Date: 2015-08-16 21:16+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -5368,7 +5368,7 @@ msgstr "%s aufkündigen"
 #: client/gui-gtk-2.0/plrdlg.c:800 client/gui-gtk-3.0/plrdlg.c:811
 #, c-format
 msgid "Really declare war on the %s?"
-msgstr "Sollen wir den %s wirklich den Krieg erklären?"
+msgstr "Sollen wir den %sn wirklich den Krieg erklären?"
 
 #. TRANS: "Cancel Belgian Alliance? ... will be Armistice."
 #: client/gui-gtk-2.0/plrdlg.c:804 client/gui-gtk-3.0/plrdlg.c:815
