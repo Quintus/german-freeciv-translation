@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-02 15:40+0100\n"
-"PO-Revision-Date: 2016-01-02 17:02+0100\n"
+"PO-Revision-Date: 2016-01-02 17:06+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -34166,10 +34166,10 @@ msgid_plural ""
 "You agree on an armistice with the %s. In %d turns, it will become a peace "
 "treaty. Move your units out of %s territory."
 msgstr[0] ""
-"Sie haben einem Waffenstillstand mit den %s zugestimmt, in %d Runde wird "
+"Sie haben einem Waffenstillstand mit den %sn zugestimmt, in %d Runde wird "
 "daraus ein Friedensvertrag. Entfernen Sie Ihre Einheiten aus dem %sen Gebiet."
 msgstr[1] ""
-"Sie haben einem Waffenstillstand mit den %s zugestimmt, in %d Runden wird "
+"Sie haben einem Waffenstillstand mit den %sn zugestimmt, in %d Runden wird "
 "daraus ein Friedensvertrag. Entfernen Sie Ihre Einheiten aus dem %sen Gebiet."
 
 #: server/diplhand.c:596 server/diplhand.c:599
@@ -34441,34 +34441,45 @@ msgstr "%se %s wurden bei dem Versuch %s zu unterwandern ertappt und getötet."
 #: server/diplomats.c:1275
 #, c-format
 msgid "A %s %s eliminated a %s %s while infiltrating %s."
-msgstr "%3$se %4$s wurden bei dem Versuch, %5$s zu unterwandern, von %1$sen %2$s ertappt und getötet."
+msgstr ""
+"%3$se %4$s wurden bei dem Versuch, %5$s zu unterwandern, von %1$sen %2$s "
+"ertappt und getötet."
 
 #: server/diplomats.c:1280
 #, c-format
 msgid "Your %s eliminated a %s %s while infiltrating %s."
-msgstr "%s hat %se %s bei dem Versuch, %s zu unterwandern, ertappt und getötet."
+msgstr ""
+"%s hat %se %s bei dem Versuch, %s zu unterwandern, ertappt und getötet."
 
 #: server/diplomats.c:1288
 #, c-format
 msgid "Eliminated a %s %s while infiltrating our troops."
-msgstr "%se %s wurden bei dem Versuch, unsere Truppen zu unterwandern, ertappt und getötet."
+msgstr ""
+"%se %s wurden bei dem Versuch, unsere Truppen zu unterwandern, ertappt und "
+"getötet."
 
 #: server/diplomats.c:1293
 #, c-format
 msgid "A %s %s eliminated a %s %s while infiltrating our troops."
-msgstr "%se %s haben %se %s bei dem Versuch, unsere Truppen zu unterwandern, ertappt und getötet."
+msgstr ""
+"%se %s haben %se %s bei dem Versuch, unsere Truppen zu unterwandern, ertappt "
+"und getötet."
 
 #. TRANS: ... <unit> ... <diplomat>
 #: server/diplomats.c:1299
 #, c-format
 msgid "Your %s eliminated a %s %s while infiltrating our troops."
-msgstr "%s haben %se %s bei dem Versuch, unsere Truppen zu unterwandern, ertappt und getötet."
+msgstr ""
+"%s haben %se %s bei dem Versuch, unsere Truppen zu unterwandern, ertappt und "
+"getötet."
 
 #: server/diplomats.c:1363
 #, c-format
 msgid ""
 "Your %s has successfully completed the mission and returned unharmed to %s."
-msgstr "%s haben ihre Mission erfolgreich beendet und sind unverletzt nach %s zurückgekehrt."
+msgstr ""
+"%s haben ihre Mission erfolgreich beendet und sind unverletzt nach %s "
+"zurückgekehrt."
 
 #: server/diplomats.c:1382
 #, c-format
@@ -41023,7 +41034,9 @@ msgstr "%s helfen, %s in %s zu bauen (Überschuß: %d)."
 #, c-format
 msgid ""
 "Sorry, your %s cannot establish a trade route because it has no home city."
-msgstr "%s können keinen Handelsweg eröffnen, da dieser Einheit keine Heimatstadt zugeordnet ist."
+msgstr ""
+"%s können keinen Handelsweg eröffnen, da dieser Einheit keine Heimatstadt "
+"zugeordnet ist."
 
 #: server/unithand.c:1781
 #, c-format
@@ -41051,8 +41064,12 @@ msgid ""
 msgid_plural ""
 "Your %s from %s has arrived in %s, and revenues amount to %d in gold and "
 "research."
-msgstr[0] "%s aus %s haben %s erreicht. Der Gewinn beläuft sich auf %d in Gold und Forschung."
-msgstr[1] "%s aus %s haben %s erreicht. Der Gewinn beläuft sich auf %d in Gold und Forschung."
+msgstr[0] ""
+"%s aus %s haben %s erreicht. Der Gewinn beläuft sich auf %d in Gold und "
+"Forschung."
+msgstr[1] ""
+"%s aus %s haben %s erreicht. Der Gewinn beläuft sich auf %d in Gold und "
+"Forschung."
 
 #: server/unithand.c:1897
 #, c-format
