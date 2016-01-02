@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-02 15:40+0100\n"
-"PO-Revision-Date: 2016-01-02 17:44+0100\n"
+"PO-Revision-Date: 2016-01-02 20:23+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -4411,9 +4411,8 @@ msgstr "Weltraum-Rennen"
 
 #: client/gui-gtk-2.0/menu.c:1428 client/gui-gtk-3.0/menu.c:1416
 #: client/include/helpdlg_g.h:38
-#, fuzzy
 msgid "About Current Ruleset"
-msgstr "Über das Regelwerk"
+msgstr "Über das aktive Regelwerk"
 
 #: client/gui-gtk-2.0/menu.c:1430 client/gui-gtk-3.0/menu.c:1418
 #: client/gui-xaw/menu.c:259 client/include/helpdlg_g.h:39
@@ -6381,23 +6380,20 @@ msgid "Observe"
 msgstr "Beobachten"
 
 #: client/gui-qt/fc_client.cpp:857
-#, fuzzy
 msgid ""
 "Number of Players\n"
 "(including AI):"
 msgstr ""
-"An_zahl der Spieler\n"
+"Anzahl der Spieler\n"
 "(einschließlich KI):"
 
 #: client/gui-qt/fc_client.cpp:858
-#, fuzzy
 msgid "AI Skill Level:"
-msgstr "_KI Stärke:"
+msgstr "KI-Stärke:"
 
 #: client/gui-qt/fc_client.cpp:859
-#, fuzzy
 msgid "Ruleset Version:"
-msgstr "_Regelsatz:"
+msgstr "Regelsatzversion:"
 
 #: client/gui-qt/fc_client.cpp:882
 msgid "More Game Options"
@@ -6580,14 +6576,12 @@ msgid "Server Options"
 msgstr "Serveroptionen"
 
 #: client/gui-qt/menu.cpp:425
-#, fuzzy
 msgid "Save Options Now"
 msgstr "Optionen jetzt sichern"
 
 #: client/gui-qt/menu.cpp:428
-#, fuzzy
 msgid "Save Options on Exit"
-msgstr "_Optionen beim Verlassen speichern"
+msgstr "Optionen beim Verlassen speichern"
 
 #: client/gui-qt/menu.cpp:438 client/gui-qt/menu.cpp:2016
 msgid "Save Game As..."
@@ -6708,9 +6702,8 @@ msgid "Full MP"
 msgstr "Volle BP"
 
 #: client/gui-qt/menu.cpp:615
-#, fuzzy
 msgid "Full HP and MP"
-msgstr "Volle TP"
+msgstr "Volle TP und BP"
 
 #: client/gui-qt/menu.cpp:625 client/gui-sdl/menu.c:527
 #: client/gui-xaw/menu.c:202
@@ -7005,9 +6998,8 @@ msgid "Global observers"
 msgstr "Globale Beobachter"
 
 #: client/gui-qt/pages.cpp:1474
-#, fuzzy
 msgid "Not ready"
-msgstr "Nicht _bereit"
+msgstr "Nicht bereit"
 
 #: client/gui-qt/pages.cpp:1598
 msgid "Set difficulty"
@@ -7562,7 +7554,6 @@ msgid "What nation will you be?"
 msgstr "Welche Nation nimmst du?"
 
 #: client/gui-sdl/dialogs.c:3344
-#, fuzzy
 msgid "Nation set"
 msgstr "Nationensatz"
 
@@ -17690,9 +17681,10 @@ msgid "Medicine"
 msgstr "Medizin"
 
 #: data/civ1/techs.ruleset:380
-#, fuzzy
 msgid "Eliminates the risk of population loss from plague in all your cities."
-msgstr "• Erhöht die Seuchengefahr in Ihren Städten.\n"
+msgstr ""
+"Beseitigt in allen Ihren Städten die Gefahr eines Bevölkerungsverlusts durch "
+"Seuchen."
 
 #: data/civ1/techs.ruleset:384 data/civ2/techs.ruleset:464
 #: data/classic/techs.ruleset:472 data/experimental/techs.ruleset:517
@@ -17757,7 +17749,6 @@ msgstr "Töpferei"
 #: data/civ1/techs.ruleset:465 data/civ2/techs.ruleset:589
 #: data/classic/techs.ruleset:597 data/experimental/techs.ruleset:656
 #: data/civ2civ3/techs.ruleset:671 data/multiplayer/techs.ruleset:605
-#, fuzzy
 msgid "?tech:Railroad"
 msgstr "Eisenbahn"
 
@@ -18174,13 +18165,13 @@ msgstr ""
 "Brückenbaus errichtet werden."
 
 #: data/civ1/terrain.ruleset:954
-#, fuzzy
 msgid ""
 "Cities built on or next to rivers are at risk of flooding, which will cause "
 "a loss of population and stored food. City Walls eliminate this risk."
 msgstr ""
 "Es kann in an Flüssen gelegenen Städten gelegentlich zu Überschwemmungen "
-"kommen, welche die aufgespeicherten Nahrungsvorräte verderben."
+"kommen, welche die aufgespeicherten Nahrungsvorräte verderben und Tote nach "
+"sich ziehen können. Stadtmauern beseitigen diese Gefahr."
 
 # MG: Veteranensystem: green -> veteran -> hardened -> elite
 # Muss in den Satz "wurden in den Rang eines XXXs erhoben" passen
@@ -20509,14 +20500,15 @@ msgstr "Lanzenkämpfer"
 
 #: data/civ2/units.ruleset:522 data/classic/units.ruleset:692
 #: data/experimental/units.ruleset:716 data/multiplayer/units.ruleset:692
-#, fuzzy
 msgid ""
 "Equipped with long pikes, Pikemen replaces Phalanx as the preferred city "
 "defender. Pikemen get double defense when attacked by mounted units (except "
 "Cavalry)."
 msgstr ""
-"Bewaffnet mit langen Lanzen, ersetzen die Lanzenkämpfer die Phalanx als "
-"bevorzugte Stadtverteidigung."
+"Die mit langen Lanzen bewaffneten Lanzenkämpfer ersetzen die Phalanx als "
+"bevorzugte Stadtverteidigung. Werden sie von berittenen Einheiten — "
+"ausgenommen die Kavallerie — angegriffen, so erhalten sie einen doppelten "
+"Verteidigungsbonus."
 
 #: data/civ2/units.ruleset:556 data/classic/units.ruleset:726
 #: data/experimental/units.ruleset:750 data/civ2civ3/units.ruleset:780
@@ -20844,13 +20836,13 @@ msgstr "AEGIS-Kreuzer"
 #: data/civ2/units.ruleset:1639 data/classic/units.ruleset:1710
 #: data/experimental/units.ruleset:1736 data/civ2civ3/units.ruleset:1887
 #: data/multiplayer/units.ruleset:1808
-#, fuzzy
 msgid ""
 "The AEGIS Cruiser is equipped with an advanced defensive missile system, "
 "giving it quintuple defense against all (non-nuclear) air attacks."
 msgstr ""
 "Der AEGIS-Kreuzer ist mit einem fortschrittlichen Raketenabwehrsystem "
-"ausgerüstet."
+"ausgerüstet, welches bei einem Angriff durch alle — nichtnuklearen — "
+"Lufteinheiten zu einem verfünffachten Verteidungsbonus führt."
 
 # MG: Der Begriff "Cruise Missile" ist im Deutschen geläufig genug, um ihn stehen zu lassen.
 #: data/civ2/units.ruleset:1782 data/classic/units.ruleset:1853
@@ -24136,7 +24128,6 @@ msgstr ""
 "werden, beginnen mit dem ersten Veteranengrad (V-Mann)."
 
 #: data/civ2civ3/units.ruleset:2342
-#, fuzzy
 msgid ""
 "A Caravan carries goods or material for trading with other nations, or to "
 "help build wonders in your own cities."
@@ -24145,14 +24136,12 @@ msgstr ""
 "Ländern, oder aber hilft beim Bau von Weltwundern in Ihren Städten."
 
 #: data/civ2civ3/units.ruleset:2345
-#, fuzzy
 msgid "Caravans can only travel on roads, railroads, rivers or ships."
 msgstr ""
-"Karawanen können sich nur entlang Straßen, Schienen, Flüssen oder Schiffen "
-"bewegen und sind nicht von Bewegungsmodifikatoren betroffen."
+"Karawanen können sich nur entlang von Straßen, Schienen, Flüssen oder "
+"Schiffen bewegen."
 
 #: data/civ2civ3/units.ruleset:2347
-#, fuzzy
 msgid ""
 "A Caravan sent to a foreign city (even one owned by an enemy) can establish "
 "a trade route. The route's ongoing revenue is doubled if the two cities "
@@ -32305,15 +32294,15 @@ msgstr[1] ""
 
 #. TRANS: Tech from building (Darwin's Voyage)
 #: server/cityturn.c:1685
-#, fuzzy, c-format
+#, c-format
 msgid "?frombldg:Acquired %s from %s."
-msgstr "Die %s haben %s von den %s übernommen."
+msgstr "%2$s gewährt %1$s."
 
 #. TRANS: Tech from building (Darwin's Voyage)
 #: server/cityturn.c:1689
-#, fuzzy, c-format
+#, c-format
 msgid "?frombldg:The %s have acquired %s from %s."
-msgstr "Die %s haben %s von den %s übernommen."
+msgstr "%3$s gewährt den %2$sen %1$s."
 
 #: server/cityturn.c:1696
 #, c-format
@@ -32794,7 +32783,6 @@ msgid "Show a list of various things."
 msgstr "Zeigt eine Liste verschiedener Dinge."
 
 #: server/commands.c:98
-#, fuzzy
 msgid ""
 "Show a list of:\n"
 " - the player colors,\n"
@@ -32810,16 +32798,16 @@ msgid ""
 "The argument may be abbreviated, and defaults to 'players' if absent."
 msgstr ""
 "Zeigt eine Liste von:\n"
-" • Spielerfarben\n"
-" • Serververbindungen\n"
-" • Spielerdelegationen\n"
-" • Ihre Ignorierliste\n"
-" • die Liste der definierten Kartenbilder\n"
-" • Spielern im Spiel\n"
-" • Verfügbaren Szenarien\n"
-" • Verfügbaren Nationensätzen\n"
-" • Spielerteams\n"
-" • Laufenden Abstimmungen\n"
+" • Spielerfarben,\n"
+" • Serververbindungen,\n"
+" • Spielerdelegationen,\n"
+" • Ihre Ignorierliste,\n"
+" • die Liste der definierten Kartenbilder,\n"
+" • Spielern im Spiel,\n"
+" • verfügbaren Szenarien,\n"
+" • verfügbaren Nationensätzen in diesem Regelwerk,\n"
+" • Spielerteams oder\n"
+" • laufenden Abstimmungen.\n"
 "Das Argument kann abgekürzt werden, Standard ist „players“."
 
 #: server/commands.c:116
@@ -34150,9 +34138,9 @@ msgstr "Die Kenntnis über %s wurde vermittelt."
 
 #. TRANS: Tech from another player
 #: server/diplhand.c:455
-#, fuzzy, c-format
+#, c-format
 msgid "?fromplr:The %s have acquired %s from the %s."
-msgstr "Die %s haben %s von den %s übernommen."
+msgstr "Die %s haben %s von den %sn übernommen."
 
 #: server/diplhand.c:472
 #, c-format
@@ -34281,13 +34269,13 @@ msgstr "%s wurde von den %s sabotiert!"
 
 #. TRANS: You already have a Leader.
 #: server/diplomats.c:446
-#, fuzzy, c-format
+#, c-format
 msgid "You already have a %s."
-msgstr "Sie haben bereits eine Stadt mit dem Namen %s."
+msgstr "Sie verfügen bereits über einen %s."
 
 #: server/diplomats.c:458
 msgid "You can't bribe a unit from this nation."
-msgstr "Es ist nicht möglich, eine Einheit dieses Staates zu bestechen"
+msgstr "Es ist nicht möglich, eine Einheit dieses Staates zu bestechen."
 
 #: server/diplomats.c:469
 #, c-format
@@ -34814,7 +34802,7 @@ msgstr ""
 "ändern, weil diese Nation bereits dem Spieler %6$s (%5$d) zugewiesen ist."
 
 #: server/edithand.c:1252
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot change nation for player %d (%s) to nation %d (%s) because that "
 "nation is not in the current nation set."
@@ -36232,9 +36220,10 @@ msgid "Warning: aifill not met: %s."
 msgstr "Warnung: aifill nicht erreicht: %s"
 
 #: server/settings.c:543
-#, fuzzy
 msgid "Warning: not enough nations in this nation set for all current players."
-msgstr "Warnung: Nicht genug Nationen für alle aktiven Spieler."
+msgstr ""
+"Warnung: In diesem Nationensatz sind nicht genug Nationen für alle aktiven "
+"Spieler."
 
 #: server/settings.c:635
 #, c-format
@@ -38821,12 +38810,11 @@ msgid "requested more than 'maxplayers' setting"
 msgstr "Mehr als die Einstellung „maxplayers“ erlaubt angefordert"
 
 #: server/srv_main.c:1976
-#, fuzzy
 msgid ""
 "not enough playable nations in this nation set (see 'nationset' setting)"
 msgstr ""
-"nicht ausreichend spielbare Nationen im Nationensatz (siehe Einstellung "
-"„nationset“)"
+"nicht ausreichend spielbare Nationen in diesem Nationensatz (siehe "
+"Einstellung „nationset“)"
 
 #: server/srv_main.c:1979
 msgid "not enough playable nations"
@@ -38873,9 +38861,9 @@ msgid "Setting '%s' has been adjusted from %s to %s."
 msgstr "Die Einstellung „%s“ wurde von %s nach %s korrigiert."
 
 #: server/srv_main.c:2949
-#, fuzzy, c-format
+#, c-format
 msgid "Now accepting new client connections on port %d."
-msgstr "Warte auf Spieler..."
+msgstr "Bereit zur Annahme von Klientverbindungen auf Port %d."
 
 #: server/stdinhand.c:182
 msgid "Can't use an empty name."
@@ -39028,7 +39016,7 @@ msgid "A living player already exists by that name."
 msgstr "Es gibt schon einen lebenden Spieler dieses Namens."
 
 #: server/stdinhand.c:912
-#, fuzzy, c-format
+#, c-format
 msgid "Can't create player, requested nation %s not in current nation set."
 msgstr ""
 "Kann Spieler nicht erzeugen: die angeforderte Nation %s ist im aktuellen "
@@ -39080,18 +39068,16 @@ msgid "Can't add more players, server is full."
 msgstr "Keine neuen Spieler mehr möglich, der Server ist voll."
 
 #: server/stdinhand.c:1071
-#, fuzzy
 msgid ""
 "Can't add more players, not enough playable nations in current nation set "
 "(see 'nationset' setting)."
 msgstr ""
-"nicht ausreichend spielbare Nationen im Nationensatz (siehe Einstellung "
-"„nationset“)"
+"Kann keine neuen Spieler hinzufügen, weil es nicht ausreichend spielbare "
+"Nationen im aktiven Nationensatz gibt (siehe Einstellung „nationset“)"
 
 #: server/stdinhand.c:1075
-#, fuzzy
 msgid "Can't add more players, not enough playable nations."
-msgstr "Keine neuen Spieler mehr möglich, nicht genug Nationen."
+msgstr "Keine neuen Spieler mehr möglich, nicht genug spielbare Nationen."
 
 #: server/stdinhand.c:1086
 #, c-format
@@ -40391,11 +40377,12 @@ msgid "No players; game will not start."
 msgstr "Keine Mitspieler, Spiel wird nicht gestartet."
 
 #: server/stdinhand.c:5667
-#, fuzzy
 msgid ""
 "Not enough nations in the current nation set for all players; game will not "
 "start. (See 'nationset' setting.)"
-msgstr "Nicht genug Nationen für alle Spieler, Spiel wird nicht gestartet."
+msgstr ""
+"Im aktiven Nationensatz sind zu wenig Nationen für alle Spieler. Spiel wird "
+"nicht gestartet (siehe Einstellung „nationset“)."
 
 #: server/stdinhand.c:5672
 msgid "Not enough nations for all players; game will not start."
@@ -40675,16 +40662,16 @@ msgstr "Die %s haben Zukunftstechnologie %d erforscht."
 #. TRANS: Tech from source of an effect
 #. * (Great Library)
 #: server/techtools.c:189
-#, fuzzy, c-format
+#, c-format
 msgid "?fromeffect:%s acquired from %s!"
-msgstr "Sie haben %s von den %s übernommen!"
+msgstr "%2$s gewährt %1$s!"
 
 #. TRANS: Tech from source of an effect
 #. * (Great Library)
 #: server/techtools.c:195
-#, fuzzy, c-format
+#, c-format
 msgid "?fromeffect:The %s have acquired %s from %s."
-msgstr "Die %s haben %s von den %s übernommen."
+msgstr "%3$s gewährt den %2$sn %1$s."
 
 #: server/techtools.c:241
 #, c-format
@@ -40733,18 +40720,18 @@ msgstr "Erforsche %s."
 
 #. TRANS: Got free tech.
 #: server/techtools.c:434
-#, fuzzy, c-format
+#, c-format
 msgid "Acquired %s."
-msgstr "%s hat %s erobert."
+msgstr "%s erlernt."
 
 #: server/techtools.c:438
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Great scientists from all the world join your civilization: you learn %s "
 "immediately."
 msgstr ""
 "Große Wissenschaftler aus aller Welt haben sich Ihrer Nation angeschlossen: "
-"Ein direkter Fortschritt ist die Folge."
+"Sie erlernen %s."
 
 #: server/techtools.c:444
 #, c-format
@@ -41013,9 +41000,9 @@ msgstr ""
 
 #. TRANS: You can only have one Leader.
 #: server/unithand.c:1520
-#, fuzzy, c-format
+#, c-format
 msgid "You can only have one %s."
-msgstr "Sie haben %s gegründet."
+msgstr "Sie können nur einen einzigen %s haben."
 
 #. TRANS: <unit> ... <unit>
 #: server/unithand.c:1552
