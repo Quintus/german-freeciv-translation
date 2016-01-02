@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-02 15:40+0100\n"
-"PO-Revision-Date: 2016-01-02 17:06+0100\n"
+"PO-Revision-Date: 2016-01-02 17:44+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -5834,7 +5834,7 @@ msgstr "Stadtplan"
 
 #: client/gui-gtk-3.0/gui_main.c:1601
 msgid "Migrating options from gtk2 to gtk3 client"
-msgstr ""
+msgstr "Konvertiere Optionen vom GTK2- zum GTK3-Klienten"
 
 #: client/gui-qt/chatline.cpp:65
 msgid "Allies only"
@@ -6102,6 +6102,8 @@ msgid ""
 "Cost: %1, Upkeep: %2\n"
 "\n"
 msgstr ""
+"Kosten: %1, Unterhalt: %2\n"
+"\n"
 
 #: client/gui-qt/citydlg.cpp:2798 client/gui-qt/dialogs.cpp:229
 #: client/gui-qt/messagedlg.cpp:61 client/gui-qt/optiondlg.cpp:132
@@ -6886,7 +6888,7 @@ msgstr "Spiele speichern"
 
 #: client/gui-qt/optiondlg.cpp:85
 msgid "... read more in help"
-msgstr ""
+msgstr "…mehr dazu in der Hilfe"
 
 #: client/gui-qt/optiondlg.cpp:143 client/gui-qt/pages.cpp:351
 #: data/Freeciv.in:1671 data/Freeciv.in:1818 data/Freeciv.in:1977
@@ -10078,7 +10080,7 @@ msgstr "• Jeder Spieler kann nur eine Einheit dieses Typs besitzen.\n"
 
 #: client/helpdata.c:2471 client/helpdata.c:3097 client/helpdata.c:3211
 msgid "?bullet:* "
-msgstr ""
+msgstr "• "
 
 #: client/helpdata.c:2479
 #, c-format
@@ -15452,6 +15454,8 @@ msgid ""
 "An Aqueduct also eliminates a city's risk of plague causing loss of "
 "population, and of fire causing loss of buildings."
 msgstr ""
+"Daneben eliminiert ein Aquädukt Seuchen als Grund für Bevölkerungsrückgang "
+"und Feuer als Grund für Gebäudezerstörung."
 
 #: data/civ1/buildings.ruleset:50 data/civ2/buildings.ruleset:74
 #: data/classic/buildings.ruleset:109 data/experimental/buildings.ruleset:114
@@ -15490,6 +15494,8 @@ msgid ""
 "Barracks also prevent stored food and goods in coastal cities being lost to "
 "piracy."
 msgstr ""
+"Kasernen in Küstenstädten verhindern außerdem den Diebstahl von Nahrung und "
+"anderen Gütern durch Piraten."
 
 #: data/civ1/buildings.ruleset:99 data/civ2/buildings.ruleset:120
 #: data/classic/buildings.ruleset:156 data/experimental/buildings.ruleset:161
@@ -15540,6 +15546,8 @@ msgid ""
 "For cities near rivers, City Walls also eliminate the risk of population "
 "loss from flooding."
 msgstr ""
+"In Städten an Flüssen unterbinden die Stadtmauern Bevölkerungsverluste durch "
+"Überflutungen."
 
 #: data/civ1/buildings.ruleset:201 data/civ2/buildings.ruleset:238
 #: data/classic/buildings.ruleset:276 data/experimental/buildings.ruleset:281
@@ -15606,6 +15614,11 @@ msgid ""
 "occur at any time due to random crop failure, in which case it causes loss "
 "of population and all stored food; a Granary eliminates this risk."
 msgstr ""
+"Eine Hungersnot kann auftreten, wenn der Nahrungsvorrat der Stadt erschöpft "
+"ist (was ein Kornspeicher nurmehr verzögern kann) oder wenn eine schlechte "
+"Ernte eingebracht wird (was ein Kornspeicher verhindert). Ihr fallen "
+"zunächst alle von der Stadt mit Nahrung unterstützten Siedler zum Opfer, "
+"danach sterben Einwohner der Stadt."
 
 #: data/civ1/buildings.ruleset:295 data/civ2/buildings.ruleset:351
 #: data/classic/buildings.ruleset:391 data/experimental/buildings.ruleset:416
@@ -15940,6 +15953,8 @@ msgid ""
 "A Temple in a city near mountains additionally prevents population loss from "
 "volcanic activity."
 msgstr ""
+"Ein Tempel in einer Bergstadt verhindert Bevölkerungsverluste durch "
+"vulkanische Aktivitäten."
 
 #: data/civ1/buildings.ruleset:654 data/civ1/techs.ruleset:590
 #: data/civ2/buildings.ruleset:938 data/civ2/techs.ruleset:755
@@ -17849,6 +17864,10 @@ msgid ""
 "project are at risk from piracy, unless there is any kind of Barracks in the "
 "city."
 msgstr ""
+"Küstenstädte sind ein beliebtes Ziel von Piraten, welche die "
+"aufgespeicherten Nahrungsvorräte und die in das aktuelle Bauprojekt "
+"investierte Produktion rauben können. Dies lässt sich nur durch Einrichtung "
+"einer Kaserne verhindern."
 
 #: data/civ1/terrain.ruleset:219
 msgid "Arctic"
@@ -17927,6 +17946,9 @@ msgid ""
 "destroy buildings in that city. There is no technology or improvement which "
 "can prevent this disaster."
 msgstr ""
+"Erdbeben können in Städten in oder an Hügeln auftreten und dort Gebäude "
+"zerstören. Das Risiko, Opfer eines solchen Naturphänomens zu werden, lässt "
+"sich durch keine Einrichtung oder Technologie verringern."
 
 #: data/civ1/terrain.ruleset:419 data/civ2/terrain.ruleset:412
 #: data/classic/terrain.ruleset:562 data/experimental/terrain.ruleset:548
@@ -17962,6 +17984,10 @@ msgid ""
 "Temple in the city instils sufficient respect for the forces of nature to "
 "prevent population loss."
 msgstr ""
+"Eine Stadt, die an oder sogar auf Bergen erbaut wurde, kann jederzeit Opfer "
+"eines Vulkanausbruchs werden. Durch Errichtung eines Tempels werden jedoch "
+"die Kräfte der Natur so weit beruhigt, dass ein Bevölkerungsverlust "
+"ausgeschlossen ist."
 
 #: data/civ1/terrain.ruleset:498 data/civ2/terrain.ruleset:490
 #: data/classic/terrain.ruleset:648 data/experimental/terrain.ruleset:630
@@ -20713,6 +20739,8 @@ msgid ""
 "Fighters are particularly effective when attacking Helicopters; the "
 "Helicopter's defense and firepower are both halved."
 msgstr ""
+"Jagdflugzeuge zeichnen sind besonders im Angriff gegen Helikopter aus; "
+"Verteidigungs- und Feuerwerte des Helikopters werden halbiert."
 
 #: data/civ2/units.ruleset:1296 data/classic/units.ruleset:1367
 #: data/experimental/units.ruleset:1392
@@ -24143,6 +24171,10 @@ msgid ""
 "50 shields towards its production. If your city is not building a wonder, "
 "the Caravan can take no special action."
 msgstr ""
+"Wird eine Karawane in eine Stadt entsendet, welche mit dem Bau eines "
+"Weltwunders beschäftigt ist, so kann sie zu dessen Fertigstellug 50 Schilde "
+"beitragen. Baut eine Stadt kein Weltwunder, kann die Karawane keine "
+"besondere Aktion durchführen."
 
 #: data/Freeciv.in:68
 msgid "Connect to Freeciv Server"
@@ -31803,7 +31835,7 @@ msgstr "Heimatstadt von %s ist jetzt %s."
 #: server/citytools.c:623
 #, c-format
 msgid "The %s already have a %s. Can't transfer yours."
-msgstr ""
+msgstr "Die %s verfügen schon über einen %s. Übertragung nicht möglich."
 
 #: server/citytools.c:642
 #, c-format
@@ -35833,6 +35865,8 @@ msgid ""
 "The save game is wrong about what the closest relationship %s and %s have "
 "had is. Fixing."
 msgstr ""
+"Der Spielstand enthält einen Fehler im Bezug auf den früheren Grad der "
+"Beziehungen zwischen %s und %s. Wird korrigiert."
 
 #: server/savegame2.c:6346
 #, c-format
@@ -35840,6 +35874,8 @@ msgid ""
 "%s has multiple units of type %s though it should be possible to have only "
 "one."
 msgstr ""
+"%s verfügt über mehrere Einheiten des Typs „%s“, obwohl nur eine einzelne "
+"möglich sein sollte."
 
 #: server/savegame2.c:6723
 #, c-format
@@ -38703,6 +38739,8 @@ msgstr ""
 #: server/srv_main.c:1093
 msgid "Automatically placed spaceship parts that were still not placed."
 msgstr ""
+"Raumschiffkomponenten, die noch immer nicht eingebaut wurden, wurden "
+"automatisch eingebaut."
 
 # MG: TECHNICAL
 #: server/srv_main.c:1313 server/srv_main.c:1316
@@ -40712,6 +40750,8 @@ msgstr ""
 #, c-format
 msgid "%s acquire %s as a result of learning %s."
 msgstr ""
+"Die %s erlangen als Ergebnis ihrer Bemühungen um die Erforschung von %s "
+"zusätzlich die Kenntnis um %s."
 
 #: server/techtools.c:546
 #, c-format
@@ -41523,7 +41563,7 @@ msgstr "Kann Text nicht von %s nach %s konvertieren: %s.\n"
 
 #: utility/inputfile.c:482
 msgid "End-of-file not in line of its own"
-msgstr ""
+msgstr "Dateiende nicht in eigener Zeile"
 
 #: utility/log.c:104
 #, c-format
