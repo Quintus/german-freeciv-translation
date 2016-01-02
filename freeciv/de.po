@@ -2,7 +2,7 @@
 # Copyright (C) 1999-2009 Free Software Foundation, Inc.
 # Egbert Hinzen <egbert@hinzen-koeln.de>, 1999-2002.
 # Christian Knoke <chrisk@cknoke.de>, 2003-2009.
-# Marvin Gülker <quintus@quintilianus.eu>, 2012-2013,2015
+# Marvin Gülker <quintus@quintilianus.eu>, 2012-2013,2015,2016
 #
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # + '# ?'  markiert Stellen, die noch nicht übersetzt wurden.           +
@@ -54,6 +54,15 @@
 #   Einzelfällen (bewusste Herabsetzung des Gegenübers). Freeciv ist
 #   kein billiges Onlinespiel für Kinder, sondern gehobene Unterhaltung.
 #
+# - Einheitenbezeichnungen müssen entweder im Plural erfolgen („Schlachtschiffe“,
+#   „Diplomaten“) oder ihre Bezeichnung muss im Plural mit derjenigen
+#   im Singular identisch sein („Arbeiter“, „Reiter“). Das hat seine Bewandtnis
+#   darin, dass diese Bezeichnungen oft als Satzfragmente gebraucht werden
+#   und die Satzfragmente Verben und Adjektive enthalten, die man sonst
+#   nicht vorhersehbar beugen könnte: „%s überlebten den mutigen Angriff
+#   der %sen %s“. Testweise einsetzen: Katapult, Infanterie, Schütze, Diplomat,
+#   Schlachtschiff. Gern auch in verschiedenen Numeri. Möglich ist nur Plural.
+#
 # - Es kommt die Neue Rechtschreibung zum Einsatz. Noch nicht umgestellte
 #   Orthografie hat seinen Grund darin, dass die deutsche Übersetzung
 #   jahrelang nicht angefasst wurde.
@@ -62,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-02 15:40+0100\n"
-"PO-Revision-Date: 2015-08-09 21:13+0200\n"
+"PO-Revision-Date: 2016-01-02 17:02+0100\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -72,7 +81,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: German\n"
 "X-Poedit-Country: GERMANY\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: ../../\n"
 
 #: ai/default/advdiplomacy.c:341
 #, c-format
@@ -3142,7 +3151,7 @@ msgstr "_Industrie sabotieren"
 #: client/gui-xaw/diplomat_dialog.c:809
 #, c-format
 msgid "Your %s is waiting for your command."
-msgstr "Ihr %s erwartet Ihre Anweisungen"
+msgstr "%s erwarten Ihre Anweisungen"
 
 #: client/gui-gtk-2.0/diplomat_dialog.c:855
 #: client/gui-gtk-3.0/diplomat_dialog.c:865 client/gui-qt/dialogs.cpp:1326
@@ -5369,7 +5378,7 @@ msgstr "%s aufkündigen"
 #: client/gui-gtk-2.0/plrdlg.c:795 client/gui-gtk-3.0/plrdlg.c:806
 #, c-format
 msgid "Really declare war on the %s?"
-msgstr "Sollen wir den %s wirklich den Krieg erklären?"
+msgstr "Sollen wir den %sn wirklich den Krieg erklären?"
 
 #. TRANS: "Cancel Belgian Alliance? ... will be Armistice."
 #: client/gui-gtk-2.0/plrdlg.c:799 client/gui-gtk-3.0/plrdlg.c:810
@@ -15156,7 +15165,7 @@ msgstr "Siedler"
 
 #: common/unittype.h:156 common/unittype.h:340
 msgid "?unitflag:Diplomat"
-msgstr "Diplomat"
+msgstr "Diplomaten"
 
 #: common/unittype.h:159
 msgid "?unitflag:Trireme"
@@ -18148,7 +18157,7 @@ msgstr ""
 "kommen, welche die aufgespeicherten Nahrungsvorräte verderben."
 
 # MG: Veteranensystem: green -> veteran -> hardened -> elite
-# Muss in den Satz "wurde in den Rang eines XXXs erhoben" passen
+# Muss in den Satz "wurden in den Rang eines XXXs erhoben" passen
 #: data/civ1/units.ruleset:26 data/civ1/units.ruleset:1183
 #: data/civ2/units.ruleset:32 data/civ2/units.ruleset:1895
 #: data/civ2/units.ruleset:1990 data/classic/units.ruleset:37
@@ -18170,7 +18179,7 @@ msgid "green"
 msgstr "Soldat"
 
 # MG: Veteranensystem: green -> veteran -> hardened -> elite
-# Muss in den Satz "wurde in den Rang eines XXXs erhoben" passen
+# Muss in den Satz "wurden in den Rang eines XXXs erhoben" passen
 #: data/civ1/units.ruleset:26 data/civ1/units.ruleset:1183
 #: data/civ2/units.ruleset:32 data/civ2/units.ruleset:1895
 #: data/civ2/units.ruleset:1990 data/classic/units.ruleset:37
@@ -18436,7 +18445,7 @@ msgstr ""
 #: data/classic/units.ruleset:1134 data/experimental/units.ruleset:1159
 #: data/civ2civ3/units.ruleset:1305 data/multiplayer/units.ruleset:1233
 msgid "Catapult"
-msgstr "Katapult"
+msgstr "Katapulte"
 
 #: data/civ1/units.ruleset:666 data/civ2/units.ruleset:1089
 #: data/classic/units.ruleset:1160 data/experimental/units.ruleset:1185
@@ -18486,7 +18495,7 @@ msgstr ""
 #: data/classic/units.ruleset:1266 data/experimental/units.ruleset:1291
 #: data/civ2civ3/units.ruleset:1443 data/multiplayer/units.ruleset:1365
 msgid "Fighter"
-msgstr "Jagdflugzeug"
+msgstr "Jagdflugzeuge"
 
 #: data/civ1/units.ruleset:766 data/civ2/units.ruleset:1227
 #: data/classic/units.ruleset:1298 data/experimental/units.ruleset:1323
@@ -18560,7 +18569,7 @@ msgstr ""
 #: data/classic/units.ruleset:1582 data/experimental/units.ruleset:1608
 #: data/civ2civ3/units.ruleset:1755 data/multiplayer/units.ruleset:1680
 msgid "Ironclad"
-msgstr "Panzerschiff"
+msgstr "Panzerschiffe"
 
 #: data/civ1/units.ruleset:933 data/civ2/units.ruleset:1537
 #: data/classic/units.ruleset:1608 data/experimental/units.ruleset:1634
@@ -18589,7 +18598,7 @@ msgstr "Der Kreuzer ist ein sehr starkes Angriffsschiff."
 #: data/classic/units.ruleset:1717 data/experimental/units.ruleset:1743
 #: data/civ2civ3/units.ruleset:1894 data/multiplayer/units.ruleset:1815
 msgid "Battleship"
-msgstr "Schlachtschiff"
+msgstr "Schlachtschiffe"
 
 #: data/civ1/units.ruleset:997 data/civ2/units.ruleset:1672
 #: data/classic/units.ruleset:1743 data/experimental/units.ruleset:1769
@@ -18606,7 +18615,7 @@ msgstr ""
 #: data/civ2civ3/units.ruleset:31 data/civ2civ3/units.ruleset:1926
 #: data/multiplayer/units.ruleset:1847
 msgid "Submarine"
-msgstr "U-Boot"
+msgstr "U-Boote"
 
 #: data/civ1/units.ruleset:1029 data/civ2/units.ruleset:1706
 #: data/classic/units.ruleset:1777 data/experimental/units.ruleset:1803
@@ -18645,7 +18654,7 @@ msgstr ""
 #: data/classic/units.ruleset:1820 data/experimental/units.ruleset:1846
 #: data/civ2civ3/units.ruleset:1996 data/multiplayer/units.ruleset:1918
 msgid "Transport"
-msgstr "Landungsschiff"
+msgstr "Landungsschiffe"
 
 #: data/civ1/units.ruleset:1099 data/civ2/units.ruleset:1776
 #: data/classic/units.ruleset:1847 data/experimental/units.ruleset:1873
@@ -20875,7 +20884,7 @@ msgstr ""
 #: data/experimental/units.ruleset:2082 data/civ2civ3/units.ruleset:2247
 #: data/multiplayer/units.ruleset:2154
 msgid "Spy"
-msgstr "Spion"
+msgstr "Spione"
 
 #: data/civ2/units.ruleset:1996 data/classic/units.ruleset:2095
 #: data/experimental/units.ruleset:2121 data/civ2civ3/units.ruleset:2286
@@ -21600,7 +21609,7 @@ msgstr ""
 "einem Flussfeld befinden und Sie den Brückenbau noch nicht erforscht haben)."
 
 # MG: Veteranensystem: green -> veteran -> hardened -> elite
-# Muss in den Satz "wurde in den Rang eines XXXs erhoben" passen
+# Muss in den Satz "wurden in den Rang eines XXXs erhoben" passen
 #: data/classic/units.ruleset:37 data/experimental/units.ruleset:40
 #: data/civ2civ3/units.ruleset:36 data/civ2civ3/units.ruleset:573
 #: data/civ2civ3/units.ruleset:2022 data/multiplayer/units.ruleset:37
@@ -21608,7 +21617,7 @@ msgid "hardened"
 msgstr "General"
 
 # MG: Veteranensystem: green -> veteran -> hardened -> elite
-# Muss in den Satz "wurde in den Rang eines XXXs erhoben" passen
+# Muss in den Satz "wurden in den Rang eines XXXs erhoben" passen
 #: data/classic/units.ruleset:37 data/experimental/units.ruleset:40
 #: data/civ2civ3/units.ruleset:36 data/civ2civ3/units.ruleset:573
 #: data/civ2civ3/units.ruleset:2022 data/multiplayer/units.ruleset:37
@@ -34262,13 +34271,13 @@ msgstr "%s kann nicht bestochen werden!"
 #: server/diplomats.c:498
 #, c-format
 msgid "Your %s succeeded in bribing the %s."
-msgstr "Ihr %s hat %s erfolgreich bestochen."
+msgstr "%s haben %s erfolgreich bestochen."
 
 #. TRANS: <unit> ... <Poles>
 #: server/diplomats.c:505
 #, c-format
 msgid "Your %s was bribed by the %s."
-msgstr "%s wurde von den %s bestochen."
+msgstr "%s wurden von den %sn bestochen."
 
 #: server/diplomats.c:637
 #, c-format
@@ -34390,35 +34399,34 @@ msgstr "Ein feindlicher %s wurde von Ihrem %s getötet."
 #: server/diplomats.c:1208
 #, c-format
 msgid "Your %s has been eliminated defending %s against a %s."
-msgstr "Ihr %s wurde während des Dienstes in %s von einem %s getötet."
+msgstr "Ihre %s wurden während des Dienstes in %s von %s getötet."
 
 #. TRANS: <nation adj> <unit> ... <city>
 #. * TRANS: ... <diplomat>
 #: server/diplomats.c:1215
 #, c-format
 msgid "A %s %s has been eliminated defending %s against a %s."
-msgstr "Ein %ser %s wurde während des Dienstes in %s von einem %s getötet."
+msgstr "%se %s wurden während des Dienstes in %s von %s getötet."
 
 #. TRANS: ... <unit> ... <nation adj> <city>
 #. * TRANS: ... <diplomat>
 #: server/diplomats.c:1222
 #, c-format
 msgid "Your %s has been eliminated defending %s %s against a %s."
-msgstr ""
-"Ihr %s wurde während des Dienstes in der %sen Stadt %s von einem %s getötet."
+msgstr "%s wurden während des Dienstes in der %sen Stadt %s von %s getötet."
 
 #. TRANS: <unit> ... <diplomat>
 #. TRANS: ... <unit> ... <diplomat>
 #: server/diplomats.c:1231 server/diplomats.c:1242
 #, c-format
 msgid "Your %s has been eliminated defending against a %s."
-msgstr "Ihr %s wurde im Kampf mit einem %s getötet."
+msgstr "%s wurden im Kampf mit %s getötet."
 
 #. TRANS: <nation adj> <unit> ... <diplomat>
 #: server/diplomats.c:1236
 #, c-format
 msgid "A %s %s has been eliminated defending against a %s."
-msgstr "Ein %ser %s wurde im Kampf mit einem %s getötet."
+msgstr "%se %s wurden im Kampf mit %s getötet."
 
 #: server/diplomats.c:1264
 #, c-format
@@ -34428,62 +34436,49 @@ msgstr "%s wurde von einem Wächter (%s) getötet."
 #: server/diplomats.c:1270
 #, c-format
 msgid "Eliminated a %s %s while infiltrating %s."
-msgstr ""
-"Ein %ser %s wurde bei dem Versuch %s zu unterwandern ertappt und getötet."
+msgstr "%se %s wurden bei dem Versuch %s zu unterwandern ertappt und getötet."
 
 #: server/diplomats.c:1275
 #, c-format
 msgid "A %s %s eliminated a %s %s while infiltrating %s."
-msgstr ""
-"Ein %3$ser %4$s wurde bei dem Versuch, %5$s zu unterwandern, von einem "
-"%1$sen %2$s ertappt und getötet."
+msgstr "%3$se %4$s wurden bei dem Versuch, %5$s zu unterwandern, von %1$sen %2$s ertappt und getötet."
 
 #: server/diplomats.c:1280
 #, c-format
 msgid "Your %s eliminated a %s %s while infiltrating %s."
-msgstr ""
-"Ihr %s hat einen %sen %s bei dem Versuch, %s zu unterwandern, ertappt und "
-"getötet."
+msgstr "%s hat %se %s bei dem Versuch, %s zu unterwandern, ertappt und getötet."
 
 #: server/diplomats.c:1288
 #, c-format
 msgid "Eliminated a %s %s while infiltrating our troops."
-msgstr ""
-"Ein %ser %s wurde bei dem Versuch, unsere Truppen zu unterwandern, ertappt "
-"und getötet."
+msgstr "%se %s wurden bei dem Versuch, unsere Truppen zu unterwandern, ertappt und getötet."
 
 #: server/diplomats.c:1293
 #, c-format
 msgid "A %s %s eliminated a %s %s while infiltrating our troops."
-msgstr ""
-"Ein %ser %s hat einen %sen %s bei dem Versuch, unsere Truppen zu "
-"unterwandern, ertappt und ihn getötet."
+msgstr "%se %s haben %se %s bei dem Versuch, unsere Truppen zu unterwandern, ertappt und getötet."
 
 #. TRANS: ... <unit> ... <diplomat>
 #: server/diplomats.c:1299
 #, c-format
 msgid "Your %s eliminated a %s %s while infiltrating our troops."
-msgstr ""
-"Ihr %s hat einen %sen %s bei dem Versuch, unsere Truppen zu unterwandern, "
-"ertappt und ihn getötet."
+msgstr "%s haben %se %s bei dem Versuch, unsere Truppen zu unterwandern, ertappt und getötet."
 
 #: server/diplomats.c:1363
 #, c-format
 msgid ""
 "Your %s has successfully completed the mission and returned unharmed to %s."
-msgstr ""
-"Ihr %s hat seine Mission erfolgreich beendet und ist unverletzt nach %s "
-"zurückgekehrt."
+msgstr "%s haben ihre Mission erfolgreich beendet und sind unverletzt nach %s zurückgekehrt."
 
 #: server/diplomats.c:1382
 #, c-format
 msgid "Your %s was captured after completing the mission in %s."
-msgstr "Ihr %s wurde nach Beendigung seiner Mission in %s gefangen genommen."
+msgstr "%s wurden nach Beendigung ihrer Mission in %s gefangen genommen."
 
 #: server/diplomats.c:1388
 #, c-format
 msgid "Your %s was captured after completing the mission."
-msgstr "Ihr %s wurde nach Beendigung seiner Mission gefangen genommen."
+msgstr "%s wurden nach Beendigung ihrer Mission gefangen genommen."
 
 #: server/diplomats.c:1413
 #, c-format
@@ -40890,11 +40885,13 @@ msgid "The nuclear attack on %s was avoided by your SDI defense."
 msgstr ""
 "Der nukleare Angriff auf %s wurde von Ihrer SDI-Verteidigung abgewehrt."
 
+# MG: Dieser Satz zwingt allen Einheitennamen Plural auf.
+# MG: Vorn muss es passen und hinten auch.
 #. TRANS: "Your Cannon ... the Polish Destroyer."
 #: server/unithand.c:1196
 #, c-format
 msgid "Your %s survived the pathetic attack from the %s %s."
-msgstr "Ihr %s überlebte den mutigen Angriff der %sen %s."
+msgstr "%s überlebten den mutigen Angriff der %sen %s."
 
 #. TRANS: "... Cannon ... the Polish Destroyer."
 #: server/unithand.c:1206
@@ -40973,13 +40970,13 @@ msgstr "Sie haben %s gegründet."
 #: server/unithand.c:1552
 #, c-format
 msgid "Your %s succeeded in capturing the %s %s."
-msgstr "Ihr %s hat den %sen %s erfolgreich gefangen genommen."
+msgstr "%s haben %se %s erfolgreich gefangen genommen."
 
 #. TRANS: <unit> ... <Poles>
 #: server/unithand.c:1558
 #, c-format
 msgid "Your %s was captured by the %s."
-msgstr "Ihr %s wurde von den %s gefangen genommen."
+msgstr "%s wurden von den %s gefangen genommen."
 
 #: server/unithand.c:1583
 msgid "This unit is being transported, and so cannot bombard."
@@ -40988,7 +40985,7 @@ msgstr "Diese Einheit wird transportiert und kann daher nicht bombardieren."
 #: server/unithand.c:1600
 #, c-format
 msgid "%s is not an attack unit."
-msgstr "%s ist keine Offensiveinheit."
+msgstr "%s sind keine Offensiveinheit."
 
 #: server/unithand.c:1604
 msgid "You can't attack there since there's an unreachable unit."
@@ -40999,12 +40996,12 @@ msgstr ""
 #: server/unithand.c:1608
 #, c-format
 msgid "%s can't launch attack from %s."
-msgstr "%s kann keinen Angriff von einem %s-Feld aus starten."
+msgstr "%s können keinen Angriff von einem %s-Feld aus starten."
 
 #: server/unithand.c:1614
 #, c-format
 msgid "%s can't attack to %s."
-msgstr "%s kann ein %s-Feld nicht angreifen."
+msgstr "%s können ein %s-Feld nicht angreifen."
 
 #: server/unithand.c:1661
 msgid "A transported unit is not allied to all units or city on target tile."
@@ -41015,30 +41012,28 @@ msgstr ""
 #: server/unithand.c:1709
 #, c-format
 msgid "Your %s helps build the %s in %s (%d remaining)."
-msgstr "%s hilft, %s in %s zu bauen (Restkosten: %d)."
+msgstr "%s helfen, %s in %s zu bauen (Restkosten: %d)."
 
 #: server/unithand.c:1711
 #, c-format
 msgid "Your %s helps build the %s in %s (%d surplus)."
-msgstr "%s hilft, %s in %s zu bauen (Überschuß: %d)."
+msgstr "%s helfen, %s in %s zu bauen (Überschuß: %d)."
 
 #: server/unithand.c:1769
 #, c-format
 msgid ""
 "Sorry, your %s cannot establish a trade route because it has no home city."
-msgstr ""
-"%s kann keinen Handelsweg eröffnen, da dieser Einheit keine Heimatstadt "
-"zugeordnet ist."
+msgstr "%s können keinen Handelsweg eröffnen, da dieser Einheit keine Heimatstadt zugeordnet ist."
 
 #: server/unithand.c:1781
 #, c-format
 msgid "Sorry, your %s cannot establish a trade route between %s and %s."
-msgstr "%s kann keinen Handelsweg zwischen %s und %s eröffnen."
+msgstr "%s können keinen Handelsweg zwischen %s und %s eröffnen."
 
 #: server/unithand.c:1816 server/unithand.c:1840
 #, c-format
 msgid "Sorry, your %s cannot establish a trade route here!"
-msgstr "%s kann hier keinen Handelsweg gründen!"
+msgstr "%s können hier keinen Handelsweg gründen!"
 
 #: server/unithand.c:1822 server/unithand.c:1846
 #, c-format
@@ -41056,17 +41051,13 @@ msgid ""
 msgid_plural ""
 "Your %s from %s has arrived in %s, and revenues amount to %d in gold and "
 "research."
-msgstr[0] ""
-"%s aus %s hat %s erreicht. Der Gewinn beläuft sich auf %d in Gold und "
-"Forschung."
-msgstr[1] ""
-"%s aus %s hat %s erreicht. Der Gewinn beläuft sich auf %d in Gold und "
-"Forschung."
+msgstr[0] "%s aus %s haben %s erreicht. Der Gewinn beläuft sich auf %d in Gold und Forschung."
+msgstr[1] "%s aus %s haben %s erreicht. Der Gewinn beläuft sich auf %d in Gold und Forschung."
 
 #: server/unithand.c:1897
 #, c-format
 msgid "New trade route established from %s to %s."
-msgstr "Zwischen %s und %s wurde eine neuer Handelsweg eröffnet."
+msgstr "Zwischen %s und %s wurde ein neuer Handelsweg eröffnet."
 
 #: server/unithand.c:1903
 #, c-format
@@ -41076,28 +41067,28 @@ msgstr "Die %s haben einen Handelsweg zwischen ihrer Stadt %s und %s eröffnet."
 #: server/unittools.c:349
 #, c-format
 msgid "%s was upgraded for free to %s."
-msgstr "%s wurde kostenlos zu %s modernisiert."
+msgstr "%s wurden kostenlos zu %s modernisiert."
 
 #: server/unittools.c:397
 #, c-format
 msgid "Your %s has run out of hit points."
-msgstr "%s hat keine Trefferpunkte mehr."
+msgstr "%s haben keine Trefferpunkte mehr."
 
 #: server/unittools.c:472
 #, c-format
 msgid "Your %s has returned to refuel."
-msgstr "%s ist zum Auftanken zurück gekommen."
+msgstr "%s sind zum Auftanken zurück gekommen."
 
 #: server/unittools.c:503
 #, c-format
 msgid "Your %s has run out of fuel."
-msgstr "%s hat keinen Treibstoff mehr."
+msgstr "%s haben keinen Treibstoff mehr."
 
 #. TRANS: Your <unit> became ... rank of <veteran level>.
 #: server/unittools.c:748
 #, c-format
 msgid "Your %s became more experienced and achieved the rank of %s."
-msgstr "Ihr %s sammelte Erfahrung und wurde in den Rang eines %ss erhoben."
+msgstr "%s sammelten Erfahrung und wurden in den Rang eines %ss erhoben."
 
 #: server/unittools.c:767
 #, c-format
@@ -41107,7 +41098,7 @@ msgstr "%s mit %s ausgetauscht."
 #: server/unittools.c:773
 #, c-format
 msgid "%s cannot be converted."
-msgstr "%s kann nicht ausgetauscht werden."
+msgstr "%s können nicht ausgetauscht werden."
 
 #: server/unittools.c:985
 #, c-format
@@ -41118,25 +41109,27 @@ msgstr ""
 #: server/unittools.c:1151
 #, c-format
 msgid "Teleported your %s to %s."
-msgstr "Habe %s nach %s teleportiert."
+msgstr "%s nach %s teleportiert."
 
 #. TRANS: A unit is moved to resolve stack conflicts.
 #: server/unittools.c:1217
 #, c-format
 msgid "Moved your %s."
-msgstr "%s wurde verschoben."
+msgstr "%s wurden verschoben."
 
 #. TRANS: A unit is disbanded to resolve stack conflicts.
 #: server/unittools.c:1236
 #, c-format
 msgid "Disbanded your %s."
-msgstr "Einheit %s aufgelöst."
+msgstr "Einheit „%s“ aufgelöst."
 
 #: server/unittools.c:1681
 #, c-format
 msgid "Unable to defend %s, %s has lost the game."
 msgstr "Konnte %s nicht verteidigen, %s hat das Spiel verloren."
 
+# MG: „Anführer“ ist die einzige Einheit, die im Singular benutzt
+# MG: werden darf. Es gibt eben nur einen.
 #: server/unittools.c:1685
 #, c-format
 msgid "Losing %s meant losing the game! Be more careful next time!"
@@ -41222,7 +41215,7 @@ msgstr[1] "%d Einheiten beim Angriff der %sen %s auf %sen %s verloren."
 #: server/unittools.c:2563
 #, c-format
 msgid "Your %s was nuked by %s."
-msgstr "%s wurde von %s atomar angegriffen."
+msgstr "%s wurden von %s atomar angegriffen!"
 
 # MG: Gemeint ist der unglückliche Fall, wenn jemand sich
 # versehentlich selbst in die Luft sprengt. Wird in
@@ -41230,7 +41223,7 @@ msgstr "%s wurde von %s atomar angegriffen."
 # "Sie haben XY atomar angegriffen" eingesetzt.
 #: server/unittools.c:2566 server/unittools.c:2584
 msgid "yourself"
-msgstr "sich selbst"
+msgstr "Ihnen selbst"
 
 #: server/unittools.c:2570
 #, c-format
@@ -41240,7 +41233,7 @@ msgstr "Die %sen %s wurden atomar angegriffen."
 #: server/unittools.c:2581
 #, c-format
 msgid "%s was nuked by %s."
-msgstr "%s wurde von %s atomar angegriffen."
+msgstr "%s wurden von %s atomar angegriffen."
 
 #: server/unittools.c:2589
 #, c-format
