@@ -5,4 +5,95 @@ Upstream homepage: http://freeciv.org
 
 This is the German translation for Freeciv.
 
-Get up-to-date files from http://www.cazfi.net/freeciv/translations.
+It targets the S2_5 branch of freeciv for the moment.
+
+## Downloading prerequisites ##
+
+Before starting any translation work, you need a copy of the S2_5
+Freeciv source tree and of this repository.
+
+  $ git clone git://github.com/Quintus/german-freeciv-translation.git
+  $ svn co http://svn.gna.org/svn/freeciv/branches/S2_5 freeciv-2.5
+  $ cd freeciv.2.5
+  $ ./configure
+
+The "configure" step is needed to generate the Makefile freeciv
+provides for updating the translations.
+
+You'll also need a PO editor. If you're familiar with Emacs, you can
+use its po-mode. If you don't know a PO editor, use POEdit (see
+https://poedit.net/).
+
+## How to do translations ##
+
+### Updating the SVN tree ###
+
+First you need to ensure your copy of the freeciv sources is
+current. If you just checked them out, this step is optional.
+
+  $ cd freeciv-2.5
+  $ svn update
+
+Updating will result in a conflict in translations/freeciv/de.po if
+the new translations have not yet been send to the freeciv
+developers. Postpone the conflict (p) and save de.po.mine somewhere
+save. Then accept upstream's changes (overwriting de.po).
+
+  $ cp translations/freeciv/de.po.mine /tmp/de.po.bak
+  $ svn resolve translations/freeciv/de.po
+  > tc
+  $ svn revert translations/freeciv/de.po
+
+This is only to make SVN happy; the conflicts result from line number
+changes and/or new strings in the translation file. Now regenerate the
+de.po file with both your changes and upstream changes (which are
+taken from the freeciv.pot file anyway) applied by copying your saved
+de.po file over the de.po file in the tree and then executing msgmerge
+via make.
+
+  $ cd translations/freeciv
+  $ cp /tmp/de.po.bak de.po
+  $ make de.pox
+  $ rm de.po
+  $ mv de.pox de.po
+
+Now de.po is in a state ready to edit. Check it into this git repository before continuing:
+
+  $ cp de.po ../../../german-freeciv-translation/freeciv/de.po
+  $ cd ../../../german-freeciv-translation
+  $ git add freeciv/de.po
+  $ git commit -m "Resync de.po with upstream"
+
+### Start editing
+
+Continue with editing freeciv-2.5/translations/freeciv/de.po. When
+you're done, copy the file into this Git repository and commit it.
+
+  $ cp ../freeciv-2.5/translations/freeciv/de.po freeciv/de.po
+  $ git add freeciv/de.po
+  $ git commit -m "Translate more strings"
+  $ git push origin master
+
+### Testing ###
+
+To test your translations, you need to compile and run freeciv.
+
+  $ cd freeciv-2.5
+  $ ./configure --prefix=/opt/freeciv-test
+  $ make
+  # make install
+  $ /opt/freeciv/freeciv-gtk2
+
+This will give you a freeciv compiled with your new translations in /opt/freeciv-test.
+
+### Sending translations upstream ###
+
+First you need to subscribe to the freeciv-i18n
+mailinglist. Subscription information is available here:
+http://mail.gna.org/listinfo/freeciv-i18n
+
+Then compress de.po with xz and attach it to a mail send to that mailinglist.
+
+  $ xz de.po
+
+In the mail, indicate that this is a translation for the S2_5 branch.
