@@ -15,7 +15,7 @@
 #
 # Sollten Sie Rechtschreibfehler oder andere offensichtliche Fehler in der
 # Übersetzung finden, senden Sie bitte einen mit 'diff -u' erstellten Patch
-# an den Übersetzer. 
+# an den Übersetzer.
 #
 # Einige Texte sind aus unterschiedlichen Gründen nicht übersetzt:
 #
@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-07 20:54+0200\n"
-"PO-Revision-Date: 2016-01-02 20:23+0100\n"
+"PO-Revision-Date: 2016-08-09 15:10+0200\n"
 "Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -81,7 +81,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: German\n"
 "X-Poedit-Country: GERMANY\n"
-"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: ai/default/advdiplomacy.c:341
 #, c-format
@@ -106,7 +107,7 @@ msgstr ""
 #: ai/default/advdiplomacy.c:375
 #, c-format
 msgid "*%s (AI)* Let us first cease hostilities, %s."
-msgstr "*%s (KI)* Laß uns erst die Feindseligkeiten beenden, %s"
+msgstr "*%s (KI)* Lass uns erst die Feindseligkeiten beenden, %s"
 
 #: ai/default/advdiplomacy.c:380
 #, c-format
@@ -278,7 +279,7 @@ msgid_plural ""
 "*%s (AI)* We have had it with %s. Let us tear this pathetic civilization "
 "apart. We declare war in %d turns."
 msgstr[0] ""
-"*%s (KI)* Wir haben es satt mit %s. Laßt uns diese niedrige Zivilisation "
+"*%s (KI)* Wir haben es satt mit %s. Lasst uns diese niedrige Zivilisation "
 "auseinanderreißen. Wir erklären den Krieg in %d Runde."
 msgstr[1] ""
 "*%s (KI)* Wir haben es satt mit %s. Laßt uns diese niedrige Zivilisation "
@@ -579,11 +580,11 @@ msgstr "Spiel wird ohne Soundunterstützung fortgesetzt."
 
 #: client/audio.c:201
 msgid "For sound support, install SDL_mixer"
-msgstr "Für Sound muß 'SDL_mixer' installiert sein"
+msgstr "Für Sound muss 'SDL_mixer' installiert sein"
 
 #: client/audio.c:214
 msgid "To get sound you need to download a sound set!"
-msgstr "Für Audio muß ein Soundset heruntergeladen werden!"
+msgstr "Für Audio muss ein Soundset heruntergeladen werden!"
 
 #: client/audio.c:215
 #, c-format
@@ -839,7 +840,7 @@ msgstr "%+4d : Faktor Umweltverschmutzung\n"
 
 #: client/cityrepdata.c:107
 msgid "?city_state:Celebrating"
-msgstr "city_state:Feier"
+msgstr "?city_state:Feier"
 
 #: client/cityrepdata.c:108
 msgid "?city_state:Disorder"
@@ -1028,7 +1029,7 @@ msgstr "+N"
 
 #: client/cityrepdata.c:685
 msgid "Surplus: Food"
-msgstr "Überschuß: Nahrung"
+msgstr "Überschuss: Nahrung"
 
 #: client/cityrepdata.c:687
 msgid "?Production surplus [short]:+P"
@@ -1036,7 +1037,7 @@ msgstr "+P"
 
 #: client/cityrepdata.c:688
 msgid "Surplus: Production"
-msgstr "Überschuß: Produktion"
+msgstr "Überschuss: Produktion"
 
 #: client/cityrepdata.c:689
 msgid "?Production loss (waste) [short]:-P"
@@ -1052,7 +1053,7 @@ msgstr "+H"
 
 #: client/cityrepdata.c:691
 msgid "Surplus: Trade"
-msgstr "Überschuß: Handel"
+msgstr "Überschuss: Handel"
 
 #: client/cityrepdata.c:693
 msgid "?Trade loss (corruption) [short]:-T"
@@ -7553,7 +7554,7 @@ msgstr " Siegchance: A:%d%% V:%d%%"
 #: client/gui-sdl/dialogs.c:1278
 #, c-format
 msgid "Terrain Defense Bonus: +%d%% "
-msgstr "Verteidungsbonus durch Gelände: +%d%% "
+msgstr "Verteidigungsbonus durch Gelände: +%d%% "
 
 #: client/gui-sdl/dialogs.c:1303 client/gui-sdl/dialogs.c:1686
 msgid "Terrain Info"
@@ -10648,7 +10649,7 @@ msgstr ""
 #, c-format
 msgid "  * Such units get a %d%% defense bonus on this tile.\n"
 msgstr ""
-"  ‒ Solche Einheiten erhalten auf diesem Feld einen Verteidungsbonus von %d"
+"  ‒ Solche Einheiten erhalten auf diesem Feld einen Verteidigungsbonus von %d"
 "%%.\n"
 
 #: client/helpdata.c:3383
@@ -10656,7 +10657,7 @@ msgstr ""
 msgid "  * Diplomatic units get a 25% defense bonus in diplomatic fights.\n"
 msgstr ""
 "  ‒ Diplomatische Einheiten erhalten in diplomatischen Gefechten einen "
-"25%igen Verteidungsbonus.\n"
+"25%igen Verteidigungsbonus.\n"
 
 #: client/helpdata.c:3391
 msgid "* Cannot be built.\n"
@@ -15929,9 +15930,9 @@ msgid ""
 msgstr ""
 "Schützt eine Stadt und ihren Umkreis (bis zu zwei Felder) vor Angriffen "
 "durch nukleare Waffen. Eine nukleare Einheit, die eine Stadt mit SDI-"
-"Verteidung oder eine Einheit in der Nähe einer solchen Stadt angreift (oder "
-"unglücklicherweise in Reichweite der SDI-Anlage von selbst explodiert), wird "
-"abgeschossen und hat schlicht keinen Effekt mehr."
+"Verteidigung oder eine Einheit in der Nähe einer solchen Stadt angreift "
+"(oder unglücklicherweise in Reichweite der SDI-Anlage von selbst "
+"explodiert), wird abgeschossen und hat schlicht keinen Effekt mehr."
 
 #: data/civ1/buildings.ruleset:552 data/civ2/buildings.ruleset:772
 #: data/classic/buildings.ruleset:841 data/experimental/buildings.ruleset:890
@@ -17647,7 +17648,7 @@ msgstr "Konstruktion"
 
 #: data/civ1/techs.ruleset:195
 msgid "Allows Settlers to build fortresses."
-msgstr "Erlaubt es Siedlner, Festungen zu errichten."
+msgstr "Erlaubt es Siedlern, Festungen zu errichten."
 
 #: data/civ1/techs.ruleset:198 data/civ2/techs.ruleset:215
 #: data/classic/techs.ruleset:229 data/experimental/techs.ruleset:247
@@ -19178,7 +19179,7 @@ msgid ""
 "turn without moving are completely restored."
 msgstr ""
 "Mit Kasernen ist eine Stadt in der Lage, Landeinheiten mit Veteranenstatus "
-"herzustellen, d.h. Einheiten, deren Angriffs- und Verteidungswerte um 50% "
+"herzustellen, d.h. Einheiten, deren Angriffs- und Verteidigungswerte um 50% "
 "erhöht sind. Außerdem werden Landeinheiten, die bewegungslos eine ganze "
 "Runde in der Stadt verweilen, vollständig kuriert."
 
@@ -19444,7 +19445,7 @@ msgstr ""
 "durch Nuklearwaffen. Wenn eine nukleare Einheit eine Stadt mit einer SDI-"
 "Anlage oder eine Einheit in der Reichweite der Anlage angreift (oder "
 "versehentlich explodiert), wird sie abgeschossen und hat schlicht keinen "
-"Effekt. Verdoppelt zudem die Verteidungswerte von Einheiten in der Stadt "
+"Effekt. Verdoppelt zudem die Verteidigungswerte von Einheiten in der Stadt "
 "gegenüber nichtnuklearen Raketen."
 
 #: data/civ2/buildings.ruleset:723 data/classic/buildings.ruleset:786
@@ -20421,7 +20422,7 @@ msgid ""
 "remaining in a fortress for a whole turn without moving recovers a quarter "
 "of its hit points."
 msgstr ""
-"Festungen erleichtern die Verteidung für Landeinheiten. Neben anderen "
+"Festungen erleichtern die Verteidigung für Landeinheiten. Neben anderen "
 "Effekten erhält eine Landeinheit, die sich bewegungslos für eine ganze Runde "
 "in einer Festung aufhält, ein Viertel ihrer Lebenspunkte zurück."
 
@@ -20727,7 +20728,7 @@ msgstr ""
 "Fallschirmspringer sind Experten im Luftangriff. Sie starten in einer "
 "verbündeten Stadt oder von einem verbündeten Fliegerhorst und können, sofern "
 "sie nicht alle Bewegungspunkte verbraucht haben, über einem beliebigen Feld "
-"in Reichwerte abspringen und nach der Landung unmittelbar zum Angriff "
+"in Reichweite abspringen und nach der Landung unmittelbar zum Angriff "
 "übergehen. (Seien Sie beim Absprung über unbekanntem Gelände vorsichtig — "
 "Fallschirmspringer, die auf einem von feindlichen Einheiten besetzten Feld "
 "landen, geben ein leichtes Ziel ab!)"
@@ -20855,7 +20856,7 @@ msgid ""
 "ground units."
 msgstr ""
 "Helikopter sind sehr starke Einheiten, da sie sowohl fliegen als auch Städte "
-"erobern können. Trotzdem muß man sie im Auge behalten, da sie jede Runde — "
+"erobern können. Trotzdem muss man sie im Auge behalten, da sie jede Runde — "
 "sofern Sie nicht die Vereinten Nationen erbaut haben —, die sie sich nicht "
 "in einer Stadt, einem Fliegerhorst oder auf einem Flugzeugträger befinden, "
 "Trefferpunkte verlieren. Außerdem können Helikopter von Landeinheiten "
@@ -20953,7 +20954,7 @@ msgid ""
 msgstr ""
 "Der AEGIS-Kreuzer ist mit einem fortschrittlichen Raketenabwehrsystem "
 "ausgerüstet, welches bei einem Angriff durch alle — nichtnuklearen — "
-"Lufteinheiten zu einem verfünffachten Verteidungsbonus führt."
+"Lufteinheiten zu einem verfünffachten Verteidigungsbonus führt."
 
 # MG: Der Begriff "Cruise Missile" ist im Deutschen geläufig genug, um ihn stehen zu lassen.
 #: data/civ2/units.ruleset:1786 data/classic/units.ruleset:1854
@@ -21562,7 +21563,7 @@ msgstr "v.u.Z."
 
 #: data/classic/game.ruleset:250
 msgid "Pestilence"
-msgstr ""
+msgstr "Pest"
 
 #: data/classic/game.ruleset:260 data/civ2civ3/game.ruleset:278
 msgid "Nuclear Accident"
@@ -22711,7 +22712,7 @@ msgstr ""
 "durch Nuklearwaffen. Wenn eine nukleare Einheit eine Stadt mit einer SDI-"
 "Anlage oder eine Einheit in der Reichweite der Anlage angreift (oder "
 "versehentlich explodiert), wird sie abgeschossen und hat schlicht keinen "
-"Effekt. Verdoppelt zudem die ursprünglichen Verteidungswerte von Einheiten "
+"Effekt. Verdoppelt zudem die ursprünglichen Verteidigungswerte von Einheiten "
 "in der Stadt gegenüber nichtnuklearen Raketen."
 
 #: data/civ2civ3/buildings.ruleset:918
@@ -25266,9 +25267,9 @@ msgid ""
 "terrain beneath it. See the help section on Combat for further details."
 msgstr ""
 "Das Gelände beeinflusst Kämpfe auf eine einfache Art und Weise: Wenn eine "
-"Landeinheit angegriffen wird, so wird ihre Verteidungsstärke mit dem "
-"Verteidungsfaktor („Bonus“) des unterliegenden Geländes multipliziert. Siehe "
-"den Abschnitt über Kämpfe für mehr Informationen."
+"Landeinheit angegriffen wird, so wird ihre Verteidigungsstärke mit dem "
+"Verteidigungsfaktor („Bonus“) des unterliegenden Geländes multipliziert. "
+"Siehe den Abschnitt über Kämpfe für mehr Informationen."
 
 #: data/helpdata.txt:301
 msgid ""
@@ -26942,10 +26943,10 @@ msgid ""
 msgstr ""
 "Eine Einheit kann nicht auf ein Feld ziehen, das von einer feindlichen "
 "Einheit besetzt wird. Erteilen Sie einen solchen Befehl, wird die betroffene "
-"Einheit stattdessen einen Angriff duchführen (sofern sie angreifen kann), "
+"Einheit stattdessen einen Angriff durchführen (sofern sie angreifen kann), "
 "der beide Einheiten so lange in ein Gefecht verwickelt, bis eine der beiden "
 "Einheit zerstört wird. Welche dies ist, hängt von den Eigenschaften der "
-"Kontrahenten ab (Lebenspunkte, Angriffs- und Verteidungsstärke sowie "
+"Kontrahenten ab (Lebenspunkte, Angriffs- und Verteidigungsstärke sowie "
 "Feuerkraft); der genaue Ablauf wird im Abschnitt über Gefechte erläutert. "
 "Die nachfolgenden Abschnitte listen die für eine Einheit typischen "
 "Eigenschaftswerte."
@@ -27146,7 +27147,7 @@ msgstr ""
 msgid ""
 "   - An SDI Defense doubles the defender's strength against missile attacks."
 msgstr ""
-"   ‒ Eine SDI-Verteidung verdoppelt die Stärke des Verteidigers gegenüber "
+"   ‒ Eine SDI-Verteidigung verdoppelt die Stärke des Verteidigers gegenüber "
 "Raketen nochmals."
 
 #: data/helpdata.txt:1176
@@ -28444,7 +28445,7 @@ msgid ""
 msgstr ""
 "  - Nachrichten, die mit 'Hans:' beginnen, sind private Mitteilungen an "
 "'Hans'. Die Namen können abgekürzt werden. Zuerst wird mit den Spielernamen "
-"verglichen, wenn keiner paßt, mit den Benutzernamen."
+"verglichen, wenn keiner passt, mit den Benutzernamen."
 
 #: data/helpdata.txt:1826
 #, fuzzy
@@ -28784,6 +28785,10 @@ msgid ""
 "(including source) freely, but see the the full license text below for full "
 "details."
 msgstr ""
+"Freeciv steht unter der GNU General Public License (Version 2 oder, nach "
+"Ihrer Wahl, jede spätere Version). Kurz gesagt, Sie dürfen dieses Programm "
+"(einschließlich Quelltext) frei kopieren, aber lesen Sie für Details den "
+"gesamten Lizenztext weiter unten an."
 
 #. TRANS: followed by a URL
 #: data/helpdata.txt:2295
@@ -30609,6 +30614,12 @@ msgid ""
 "it's often a good idea to spread units out, avoiding 'stacks' of units\n"
 "like this, particularly on land."
 msgstr ""
+"Wenn mehrere Einheiten auf einem Feld außerhalb einer Stadt,\n"
+"einer Festung oder eines Fliegerhorstes angegriffen werden,\n"
+"verteidigt die stärkste Einheit; Wird diese Einheit besiegt, sterben\n"
+"ALLE Einheiten auf diesem Feld. Deshalb ist es oft eine gute Idee,\n"
+"Einheiten zu verteilen, um so 'Stapel' von Einheiten zu vermeiden,\n"
+"insbesondere an Land."
 
 #: data/scenarios/tutorial.sav:116
 msgid ""
@@ -30791,7 +30802,7 @@ msgstr ""
 "Wahlmöglichkeiten im Hinblick auf die Bündelung der Ressourcen der\n"
 "Stadt. Sie kann nun drei Felder bearbeiten, zusätzlich das\n"
 "Stadtzentrum. Im Stadtfenster zeigt die Karte, welche Felder\n"
-"bearbeitet werden, und wieviel Nahrung, Produktion und Handel daraus\n"
+"bearbeitet werden, und wie viel Nahrung, Produktion und Handel daraus\n"
 "erzielt werden. Mit Nahrung kann die Stadt wachsen, Produktion dient\n"
 "der Erstellung von Stadterweiterungen und Einheiten, und Handel\n"
 "liefert besteuerbares Einkommen, das in Forschung, Gold oder Luxus\n"
@@ -41478,7 +41489,7 @@ msgstr "%s wurden von %s atomar angegriffen!"
 
 # MG: Gemeint ist der unglückliche Fall, wenn jemand sich
 # versehentlich selbst in die Luft sprengt. Wird in
-# "wurde von XY atomar angegriffen" und in 
+# "wurde von XY atomar angegriffen" und in
 # "Sie haben XY atomar angegriffen" eingesetzt.
 #: server/unittools.c:2566 server/unittools.c:2584
 msgid "yourself"
