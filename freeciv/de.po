@@ -71,8 +71,8 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-07 20:54+0200\n"
-"PO-Revision-Date: 2016-08-09 15:10+0200\n"
-"Last-Translator: Marvin Gülker <quintus@quintilianus.eu>\n"
+"PO-Revision-Date: 2016-08-11 02:05+0200\n"
+"Last-Translator: David Rabel <david.rabel@noresoft.com>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -786,7 +786,7 @@ msgstr "==== : ergibt\n"
 #: client/citydlg_common.c:587 client/citydlg_common.c:662
 #, c-format
 msgid "%4d : Total surplus"
-msgstr "%4d : Gesamtüberschuß"
+msgstr "%4d : Gesamtüberschuss"
 
 #: client/citydlg_common.c:602
 msgid "Illness deactivated in ruleset."
@@ -1021,7 +1021,7 @@ msgstr "?food/production/trade:N/P/H"
 
 #: client/cityrepdata.c:683
 msgid "Surplus: Food, Production, Trade"
-msgstr "Überschuß: Nahrung, Produktion, Handel"
+msgstr "Überschuss: Nahrung, Produktion, Handel"
 
 #: client/cityrepdata.c:685
 msgid "?Food surplus [short]:+F"
@@ -2614,7 +2614,7 @@ msgstr "Ergebnisse"
 #: client/gui-gtk-2.0/cma_fe.c:321 client/gui-gtk-3.0/cma_fe.c:340
 #: client/gui-qt/citydlg.cpp:1037 client/gui-sdl/cma_fe.c:928
 msgid "Minimal Surplus"
-msgstr "min. Überschuß"
+msgstr "min. Überschuss"
 
 #: client/gui-gtk-2.0/cma_fe.c:324 client/gui-gtk-3.0/cma_fe.c:344
 #: client/gui-sdl/cma_fe.c:931
@@ -5027,7 +5027,7 @@ msgstr "_Durchsuchen..."
 #: client/gui-qt/pages.cpp:1217 client/gui-sdl/connectdlg.c:937
 #: client/gui-xaw/connectdlg.c:444 client/gui-xaw/connectdlg.c:446
 msgid "Passwords don't match, enter password."
-msgstr "Keine Übereinstimmung, Paßwort eingeben."
+msgstr "Keine Übereinstimmung, Passwort eingeben."
 
 #: client/gui-gtk-2.0/pages.c:1149 client/gui-gtk-2.0/pages.c:1192
 #: client/gui-gtk-3.0/pages.c:1229 client/gui-gtk-3.0/pages.c:1274
@@ -7277,7 +7277,7 @@ msgstr "Nahrung: %d pro Runde"
 #: client/gui-sdl/citydlg.c:2609
 #, c-format
 msgid "?food:Surplus: %d"
-msgstr "Überschuß: %d"
+msgstr "Überschuss: %d"
 
 #: client/gui-sdl/citydlg.c:2657
 #, c-format
@@ -8488,7 +8488,7 @@ msgstr[1] "%2d: Der %s Herrscher %s erreichte %d Punkte.\n"
 
 #: client/gui-sdl/repodlgs.c:3430 client/gui-xaw/repodlgs.c:1200
 msgid "Final Report:"
-msgstr "Abschlußbericht:"
+msgstr "Abschlussbericht:"
 
 #: client/gui-sdl/repodlgs.c:3431 client/gui-xaw/repodlgs.c:1201
 msgid "The Greatest Civilizations in the world."
@@ -12257,7 +12257,7 @@ msgstr ""
 "um das Stadtfenster zu öffnen, und um den Ort auf der Karte zu zentrieren. "
 "Ohne diese Option können diese Funktionen mit Doppelklick links und Rechts-"
 "Klick auf die Nachrichtenzeile ausgelöst werden. Die Änderung wird erst nach "
-"Schliessen und Wiederöffnen des Nachrichtenfensters wirksam."
+"Schließen und Wiederöffnen des Nachrichtenfensters wirksam."
 
 #: client/options.c:2229 client/options.c:2432
 msgid "Metaserver tab first in network page"
@@ -12433,7 +12433,7 @@ msgstr "Diese Schriftart wird zur Anzeige von Raumschiffteilen verwendet."
 
 #: client/options.c:2327 client/options.c:2530 client/options.c:2628
 msgid "Help Label"
-msgstr "Überschriten in Hilfe"
+msgstr "Überschriften in Hilfe"
 
 #: client/options.c:2328 client/options.c:2531
 msgid "This font is used to display the help headers in the help window."
@@ -12562,7 +12562,7 @@ msgid ""
 "If this option is disabled, the cursor will always be displayed in black and "
 "white."
 msgstr ""
-"Wenn diese Option deaktiviert wird, wird der Cursor nur in Schwarzweiss "
+"Wenn diese Option deaktiviert wird, wird der Cursor nur in Schwarzweiß "
 "dargestellt."
 
 #: client/options.c:2629
@@ -16577,7 +16577,7 @@ msgid ""
 "unhappiness."
 msgstr ""
 "In einem anarchischen Staat gibt es zwar weniger Korruption, aber dafür "
-"etwas mehr Unzufriedenheit als in einer Dikatur."
+"etwas mehr Unzufriedenheit als in einer Diktatur."
 
 #: data/civ1/governments.ruleset:79 data/civ2/governments.ruleset:77
 #: data/classic/governments.ruleset:80 data/experimental/governments.ruleset:84
@@ -16723,7 +16723,7 @@ msgid ""
 "Under Communism, corruption does not vary by distance from the capital; all "
 "cities (including the capital) have a modest amount of corruption."
 msgstr ""
-"In komunistischen Staaten ist die Korruption nicht von der Entfernung zur "
+"In kommunistischen Staaten ist die Korruption nicht von der Entfernung zur "
 "Hauptstadt abhängig, vielmehr leiden alle Städte (einschließlich der "
 "Hauptstadt) unter derselben, mäßig ausgeprägten Korruptionsrate."
 
@@ -17331,7 +17331,7 @@ msgstr ""
 #: data/nation/brazilian.ruleset:29 data/nation/roman.ruleset:51
 #, c-format
 msgid "Dictator %s"
-msgstr "Dictator %s"
+msgstr "Diktator %s"
 
 # MG: Korrekter lateinischer Ausdruck ist "Dicatrix". Da es sich hier
 # speziell um Römer und Anverwandte handelt, ist das wohl so in Ordnung.
@@ -17370,7 +17370,7 @@ msgstr "Usurpator %s"
 #: data/nation/roman.ruleset:49 data/nation/sumerian.ruleset:28
 #, c-format
 msgid "?female:Usurper %s"
-msgstr "Usurpatin %s"
+msgstr "Usurpatorin %s"
 
 #: data/civ1/nations.ruleset:1310 data/civ2/nations.ruleset:1632
 #: data/nation/russian.ruleset:5
@@ -17491,7 +17491,7 @@ msgstr "Sprecherin %s"
 #: data/nation/iroquois.ruleset:30 data/nation/polynesian.ruleset:24
 #: data/nation/sioux.ruleset:31 data/nation/tupi.ruleset:25
 #: data/nation/zulu.ruleset:42
-#, c-format
+#, fuzzy, c-format
 msgid "Principal Chief %s"
 msgstr "Prinzipal %s"
 
@@ -17500,7 +17500,7 @@ msgstr "Prinzipal %s"
 #: data/nation/iroquois.ruleset:30 data/nation/polynesian.ruleset:24
 #: data/nation/sioux.ruleset:31 data/nation/tupi.ruleset:25
 #: data/nation/zulu.ruleset:42
-#, c-format
+#, fuzzy, c-format
 msgid "?female:Principal Chief %s"
 msgstr "Prinzipalin %s"
 
@@ -17866,7 +17866,7 @@ msgstr "Eisenbahn"
 #: data/civ1/techs.ruleset:472
 msgid "Allows Settlers to upgrade roads to railroads."
 msgstr ""
-"Siedler mit diesem Wissen können Straßen zu Eisenbahntrassen moderniseren."
+"Siedler mit diesem Wissen können Straßen zu Eisenbahntrassen modernisieren."
 
 #: data/civ1/techs.ruleset:479 data/civ2/techs.ruleset:603
 #: data/classic/techs.ruleset:611 data/experimental/techs.ruleset:671
@@ -18482,7 +18482,7 @@ msgid ""
 "the preferred city defender."
 msgstr ""
 "Musketiere sind Fußtruppen mit einfachen Feuerwaffen und ersetzen die "
-"Phanlanx als bevorzugte Stadtverteidigung."
+"Phalanx als bevorzugte Stadtverteidigung."
 
 #: data/civ1/units.ruleset:450 data/civ2/units.ruleset:675
 #: data/classic/units.ruleset:807 data/experimental/units.ruleset:831
@@ -18675,7 +18675,7 @@ msgstr "Segelschiff"
 msgid ""
 "The Sail replaces the Trireme and is much more reliable on the open seas."
 msgstr ""
-"Das Segelschiff ersetzt die Trireme und ist verläßlicher auf hoher See."
+"Das Segelschiff ersetzt die Trireme und ist verlässlicher auf hoher See."
 
 #: data/civ1/units.ruleset:878 data/civ2/units.ruleset:1481
 #: data/classic/units.ruleset:1549 data/experimental/units.ruleset:1575
@@ -19114,7 +19114,7 @@ msgid ""
 "One Barbarian Leader appears every time there is a barbarian uprising "
 "somewhere in the world."
 msgstr ""
-"Ein Barbarenanführer taucht jedesmal auf, wenn es irgendwo auf der Welt "
+"Ein Barbarenanführer taucht jedes Mal auf, wenn es irgendwo auf der Welt "
 "einen Barbarenaufstand gibt."
 
 #: data/civ1/units.ruleset:1336
@@ -19498,7 +19498,7 @@ msgid ""
 "city by 50%. Together with a Marketplace and a Bank, a Stock Exchange boosts "
 "tax and luxury production in a city by 150%."
 msgstr ""
-"Zusammen mit einer Bank erhäht eine Börse die Steuereinnahmen und die "
+"Zusammen mit einer Bank erhöht eine Börse die Steuereinnahmen und die "
 "Luxusproduktion einer Stadt um 50%. Zusammen mit einem Marktplatz und einer "
 "Bank erhöhen sich diese Werte sogar um 150%."
 
@@ -19546,7 +19546,7 @@ msgid ""
 msgstr ""
 "Der Besitzer sieht die gesamte Karte — der Spieler besitzt immer aktuelles "
 "Wissen um Gelände und Städte rund um den Globus (aber nicht um Einheiten), "
-"ohne Rücksicht auf den Nebel des Krieges. Darüberhinaus wird es allen "
+"ohne Rücksicht auf den Nebel des Krieges. Darüber hinaus wird es allen "
 "Spielern, die die notwendigen Technologien erforscht haben, möglich, mit dem "
 "Raumschiffbau zu beginnen."
 
@@ -19845,7 +19845,7 @@ msgid ""
 "produce `tithes' (gold) equivalent to the number of people they would "
 "convert, and require no maintenance."
 msgstr ""
-"Stadtverbesserungen, die fürgewöhnlich unzufriedene Bürger in zufriedene "
+"Stadtverbesserungen, die für gewöhnlich unzufriedene Bürger in zufriedene "
 "verwandeln, führen stattdessen einen „Zehnten“ in Form von Gold ab, dessen "
 "Größe gleich der Anzahl der Leute ist, die sie sonst zufriedenstellen "
 "würden. Außerdem verursachen sie keine Instandhaltungskosten."
@@ -19909,10 +19909,10 @@ msgid ""
 "civilized peoples of Europe and Asia Minor. The Celts colonized much of "
 "Europe and had a large influence on the development of European civilization."
 msgstr ""
-"Die Kelten waren ein indoeuropäusches Volk in Westeuropa und entstammten "
+"Die Kelten waren ein indoeuropäisches Volk in Westeuropa und entstammten "
 "möglicherweise dem Gebiet zwischen dem Oberrhein und der Donau, wo die "
-"Urnenfelderfelderkultur der Hallstattzeit siedelte. Sie waren als grausame "
-"und wilde Krieger bekannt, die die antiken zivilisierten Völker Europas und "
+"Urnenfelderkultur der Hallstattzeit siedelte. Sie waren als grausame und "
+"wilde Krieger bekannt, die die antiken zivilisierten Völker Europas und "
 "Asiae Minoris terrorisierten. Nichtsdestotrotz kolonisierten sie einen "
 "großen Teil Europas und hatten einen großen Einfluss auf die weitere "
 "Entwicklung der europäischen Zivilisation."
@@ -20143,7 +20143,7 @@ msgid ""
 msgstr ""
 "Die Wikinger raubten und handelten an Europas Küsten zwischen 800 und 1100. "
 "Wikingische Räuber wurden schließlich die Herrscher der Normandie, von "
-"Russland, und, für kurze Zeit, des Königsreiches Sizilien."
+"Russland und, für kurze Zeit, des Königreiches Sizilien."
 
 #: data/civ2/nations.ruleset:1905
 #, c-format
@@ -20465,7 +20465,7 @@ msgid ""
 "by 50%.  Finally, land units may move along a River (but not diagonally) for "
 "fast travel."
 msgstr ""
-"Auf jeder Landgeländeform können Flüsse vorkommen. Ein Fluß gibt einen "
+"Auf jeder Landgeländeform können Flüsse vorkommen. Ein Fluss gibt einen "
 "zusätzlichen Handelspunkt und erhöht den Verteidigungsfaktor um 50%. "
 "Zusätzlich kostet die (nicht-diagonale) Bewegung von Landeinheiten entlang "
 "eines Flusses nur 1/3 Bewegungspunkt pro Feld."
@@ -20579,7 +20579,7 @@ msgid ""
 "upgraded for free."
 msgstr ""
 "TIPP 2: Wenn Sie Leonardos Werkstatt besitzen, sollten Sie sich, bevor sie "
-"ihre Wirkung veliert, möglichst schnell die Kenntnisse über Sprengstoff "
+"ihre Wirkung verliert, möglichst schnell die Kenntnisse über Sprengstoff "
 "aneignen, da Ihre Siedlereinheiten dann kostenlos zu Ingenieuren "
 "modernisiert werden."
 
@@ -20810,7 +20810,7 @@ msgstr "Dragoner sind berittene Krieger mit einfachen Feuerwaffen."
 #: data/experimental/units.ruleset:1122 data/civ2civ3/units.ruleset:1266
 #: data/multiplayer/units.ruleset:1196
 msgid "Cavalry are mounted and highly trained soldiers."
-msgstr "Die Kavallerie betseht aus berittenen und hochtrainierten Soldaten."
+msgstr "Die Kavallerie besteht aus berittenen und hochtrainierten Soldaten."
 
 #: data/civ2/units.ruleset:1160 data/classic/units.ruleset:1228
 #: data/experimental/units.ruleset:1253 data/multiplayer/units.ruleset:1327
@@ -20961,7 +20961,7 @@ msgstr ""
 #: data/experimental/units.ruleset:1880 data/civ2civ3/units.ruleset:2039
 #: data/multiplayer/units.ruleset:1952
 msgid "Cruise Missile"
-msgstr "Cruise Missile"
+msgstr "Cruise-Missile"
 
 #: data/civ2/units.ruleset:1812 data/classic/units.ruleset:1880
 #: data/experimental/units.ruleset:1906 data/civ2civ3/units.ruleset:2065
@@ -20970,7 +20970,7 @@ msgid ""
 "The Cruise Missile is a long-distance missile that can strike deep into "
 "enemy territory."
 msgstr ""
-"Die Cruise Missile ist eine Langstreckenrake, die tief in feindlichem "
+"Die Cruise-Missile ist eine Langstreckenrakete, die tief in feindlichem "
 "Territorium einschlagen kann."
 
 #: data/civ2/units.ruleset:1815 data/classic/units.ruleset:1883
@@ -22038,7 +22038,7 @@ msgid ""
 msgstr ""
 "Erlaubt einer Stadt über die Größe 8 hinaus zu wachsen und reduziert die "
 "Seuchengefahr in einer Stadt. Nach Entdeckung der Industrialisierung "
-"verringt sich der Effekt des Aquädukts."
+"verringert sich der Effekt des Aquädukts."
 
 #: data/experimental/buildings.ruleset:107
 msgid "A Sewer System is required for a city to grow larger than size 12."
@@ -22407,7 +22407,7 @@ msgstr ""
 "Eine Stadtmauer hilft, eine Stadt zu schützen, indem sie einen 100%igen "
 "Bonus auf die ursprüngliche Verteidigungskraft in der Stadt stationierter "
 "Einheiten gegenüber angreifenden Landeinheiten gewährt (das ist eine um zwei "
-"Drittel für kleine Stadte bzw. um die Hälfte für Städte größer 8 erhöhte "
+"Drittel für kleine Städte bzw. um die Hälfte für Städte größer 8 erhöhte "
 "Verteidigungskraft). Gegenüber Luft- und Seeeinheiten ist sie jedoch "
 "wirkungslos. Auch verhindert sie Verluste bei der Bevölkerung, falls "
 "gegnerische Landeinheiten eine in der Stadt stationierte Einheit vernichten."
@@ -22815,7 +22815,7 @@ msgid ""
 msgstr ""
 "Der Besitzer sieht die gesamte Karte — der Spieler besitzt immer aktuelles "
 "Wissen um Gelände und Städte rund um den Globus (aber nicht um Einheiten), "
-"ohne Rücksicht auf den Nebel des Krieges. Darüberhinaus wird es allen "
+"ohne Rücksicht auf den Nebel des Krieges. Darüber hinaus wird es allen "
 "Spielern, die die notwendigen Technologien erforscht haben, möglich, mit dem "
 "Raumschiffbau zu beginnen."
 
@@ -23322,7 +23322,7 @@ msgstr ""
 "• Jede Stadt kann umsonst bis zu zwei Einheiten unterstützen; jede weitere "
 "Einheit kostet ein Schild pro Runde.\n"
 "• Anders als in späteren Regierungsformen führen militärische Einheiten auch "
-"dann nicht zu Unzufriedenheit, wenn sie aggressiv eingsetzt werden.\n"
+"dann nicht zu Unzufriedenheit, wenn sie aggressiv eingesetzt werden.\n"
 "• Die Grundkorruption beträgt 30% (die höchste unter allen "
 "Regierungsformen). Sie erhöht sich mit der Entfernung von der Hauptstadt (ab "
 "Entdeckung der Firma nur noch halb so schnell).\n"
@@ -23765,7 +23765,7 @@ msgid ""
 "resources produced by that tile. It also increases a tile's defense factor "
 "by 25%."
 msgstr ""
-"Auf jeder Landgeländeform können Flüsse vorkommen. Ein Fluß gibt einen "
+"Auf jeder Landgeländeform können Flüsse vorkommen. Ein Fluss gibt einen "
 "zusätzlichen Handelspunkt und erhöht den Verteidigungsfaktor um 25%."
 
 #: data/civ2civ3/terrain.ruleset:1319
@@ -24431,7 +24431,7 @@ msgstr "Deaktivieren"
 
 #: data/Freeciv.in:1492
 msgid "Minimal Surplus:"
-msgstr "Min. Überschuß:"
+msgstr "Min. Überschuss:"
 
 #: data/Freeciv.in:1494
 msgid "Factor:"
@@ -24868,8 +24868,8 @@ msgstr ""
 "die erste Stadt umsehen. Die kleinen Ortschaften (Hütten) sollten zunächst "
 "ignoriert werden, da sie eventuell von feindlichen Eingeborenen bewohnt sein "
 "könnten. Die Stadt sollte nach Möglichkeit in der Umgebung von besonderen "
-"Ressourcen, eventuell am Meer, erbaut werden. Es ist zu beachten, daß diese "
-"Stadt die Hauptstadt wird! Man muß zwischen einem möglichst guten Platz und "
+"Ressourcen, eventuell am Meer, erbaut werden. Es ist zu beachten, dass diese "
+"Stadt die Hauptstadt wird! Man muss zwischen einem möglichst guten Platz und "
 "der Möglichkeit, die erste Stadt so schnell wie möglich zu bauen, sorgfältig "
 "abwägen."
 
@@ -25495,9 +25495,9 @@ msgstr ""
 "Die folgende Tabelle zeigt die Anzahl Runden, die eine Einheit mit einem "
 "Bewegungspunkt für eine Aktion benötigt. Für Einheiten mit mehr "
 "Bewegungspunkten (etwa Ingenieure im klassischen Regelsatz) werden die Werte "
-"entsprechend nach unten hin angepasst; außerdem kann die benötigte Zeit duch "
-"Teamarbeit reduziert werden: arbeiten zwei oder mehr Einheiten auf demselben "
-"Feld an derselben Sache, werden ihre Anstrengungen jede Runde "
+"entsprechend nach unten hin angepasst; außerdem kann die benötigte Zeit "
+"durch Teamarbeit reduziert werden: arbeiten zwei oder mehr Einheiten auf "
+"demselben Feld an derselben Sache, werden ihre Anstrengungen jede Runde "
 "zusammengezählt bis die Aufgabe erfüllt ist. Achten Sie trotzdem darauf, "
 "nicht zu viele Einheiten an einer Aufgabe arbeiten zu lassen, denn "
 "übermäßige Anstrengungen gehen verloren. Auch ist eine Gruppe von Siedlern, "
@@ -25720,9 +25720,9 @@ msgid ""
 "to this rule; they can only be built singly, as can buildings."
 msgstr ""
 "Im klassischen Regelsatz kann eine Stadt unabhängig vom "
-"Prodkutionsüberschuss höchstens ein einzelnes Projekt pro Runde "
+"Produktionsüberschuss höchstens ein einzelnes Projekt pro Runde "
 "fertigstellen; in einigen Regelsätzen hingegen können Faktoren wie "
-"Stadtgrößte und Technologien es einer Stadt unter bestimmten Bedingungen "
+"Stadtgröße und Technologien es einer Stadt unter bestimmten Bedingungen "
 "ermöglichen, mehr als eine Einheit fertigzustellen. Eine Stadt mit mehreren "
 "„Bauplätzen“, die mit der Ausbildung einer Einheit beauftragt wurde, kann so "
 "viele Einheiten diesen speziellen Einheitentyps ausbilden, wie es ihr "
@@ -26291,7 +26291,7 @@ msgstr ""
 "Aufruhr. Während eines Aufruhrs werden keine Produktions- und "
 "Nahrungsüberschüsse generiert, d.h. sowohl das Stadtwachstum als auch die "
 "Produktion stehen still; auch wird weder geforscht, noch werden Steuern "
-"eingetrieben, lediglich die Luxusproduktion bleibt erhalten. Darüberhinaus "
+"eingetrieben, lediglich die Luxusproduktion bleibt erhalten. Darüber hinaus "
 "haben feindliche Diplomaten und Spione in einer solchen Stadt ein leichtes "
 "Spiel und können schnell eine Revolte in Gang setzen. In einem "
 "demokratischen Staat kann fortgesetzter Aufruhr zum spontanen Ausbruch einer "
@@ -26806,9 +26806,9 @@ msgid ""
 "obviously this should be avoided as the improvements chosen might not be "
 "ones you would have preferred to sell."
 msgstr ""
-"Die Errichtung von Stadterbesserungen erfordert Prduktionspunkte, und sind "
+"Die Errichtung von Stadtverbesserungen erfordert Produktionspunkte, und sind "
 "sie erst einmal fertiggestellt, erfordern viele von ihnen Unterhaltskosten "
-"von einem oder mehreren Goldstücken pro Runde. Wird ihnen dies zuviel, "
+"von einem oder mehreren Goldstücken pro Runde. Wird ihnen dies zu viel, "
 "können sie eine Stadtverbesserung verkaufen und erhalten so ein Goldstück "
 "für jeden für seine Errichtung verbrauchten Produktionspunkt zurück "
 "(allerdings können Sie pro Runde und Stadt nur eine einzige "
@@ -26985,7 +26985,7 @@ msgstr ""
 "die nicht bewegt wurde, um einen Trefferpunkt pro Runde, allerdings erhalten "
 "eingegrabene Einheiten einen extra Trefferpunkt. Verbleibt eine Einheit eine "
 "Runde lang in einer Stadt, erhält sie ein Drittel ihrer ursprünglichen "
-"Trefferpunkte zurück, darüberhinaus können Stadterweiterungen, die den "
+"Trefferpunkte zurück, darüber hinaus können Stadterweiterungen, die den "
 "jeweiligen Einheitentyp begünstigen, dies weiter verbessern. Auf dem Land "
 "können Basen die Regenerationsrate verbessern (beispielsweise haben "
 "Festungen im klassischen Regelsatz diesen Effekt), allerdings müssen "
@@ -27293,7 +27293,7 @@ msgid ""
 "20.25."
 msgstr ""
 "Die Verteidiger haben eine Stärke von 3. Da sie sich in einem Wald befinden, "
-"wird daraus 4,5. Sie sind hinter Stadtmauern, so daß dies zu 13,5 "
+"wird daraus 4,5. Sie sind hinter Stadtmauern, so dass dies zu 13,5 "
 "verdreifacht wird. Da es sich um eine Landeinheit in einer Stadt handelt, "
 "wird daraus 20,25."
 
@@ -27371,7 +27371,7 @@ msgstr ""
 "Die Verteidiger haben die Stärke 5, aus denen aufgrund des Veteranen-Status "
 "7,5 wird. Das Gelände wirkt sich nicht aus. Die Küstenverteidigung "
 "verdoppelt den Wert auf 15. Da der Angreifer keine Landeinheit ist, wirkt "
-"sich die Stadtmauer nicht aus. Hinzu kommt nur, daß es sich um eine "
+"sich die Stadtmauer nicht aus. Hinzu kommt nur, dass es sich um eine "
 "Landeinheit in einer Stadt handelt; macht 22,5."
 
 #: data/helpdata.txt:1290
@@ -27426,7 +27426,7 @@ msgid ""
 "unit on it.  Adjacency means any of the eight tiles surrounding a unit for "
 "rectangular grids, or six tiles for hexagonal grids."
 msgstr ""
-"Grundsätzlich gilt, daß eine Landeinheit, die sich auf einem Feld befindet, "
+"Grundsätzlich gilt, dass eine Landeinheit, die sich auf einem Feld befindet, "
 "das an ein von einer gegnerischen Einheit besetztes Feld angrenzt, sich "
 "nicht direkt auf ein anderes Feld begeben kann, das ebenfalls an ein von "
 "einer gegnerischen Einheit besetztes Feld angrenzt. Als angrenzend gilt "
@@ -27526,7 +27526,7 @@ msgid ""
 "Your government type influences your cities' productivity and commerce, your "
 "citizens' happiness, and many other game factors."
 msgstr ""
-"Die Regierungsform beeinflußt die Wirtschaftskraft der Städte, die "
+"Die Regierungsform beeinflusst die Wirtschaftskraft der Städte, die "
 "Zufriedenheit der Bevölkerung und viele andere Faktoren."
 
 #: data/helpdata.txt:1375
@@ -27612,7 +27612,7 @@ msgid ""
 "civil war. Governments with universal franchise are far less likely to "
 "revolt than those more despotic in nature."
 msgstr ""
-"Die Wahrscheinlichkeit wird auch von der Regierungsform beeinflußt: Je "
+"Die Wahrscheinlichkeit wird auch von der Regierungsform beeinflusst: Je "
 "freier sie ist, desto unwahrscheinlicher ist ein Bürgerkrieg."
 
 #: data/helpdata.txt:1422
@@ -27741,7 +27741,7 @@ msgstr ""
 "eine feindliche Stadt einnehmen; sie können Fortschritte mit Diplomaten und "
 "Spionen rauben; Wunder können Ihnen Erkenntnisse vermitteln; und schließlich "
 "kann Ihnen ein anderer Spieler auch vertraglich Technologien zugestehen. "
-"Abgesehen davon müssen Fortschritte jedoch durch die wissentschaftlichen "
+"Abgesehen davon müssen Fortschritte jedoch durch die wissenschaftlichen "
 "Anstrengungen Ihres eigenen Volkes gemacht werden."
 
 #: data/helpdata.txt:1485
@@ -27770,16 +27770,16 @@ msgid ""
 "your civilization will forget an advance, requiring it to be researched "
 "again."
 msgstr ""
-"Während der größte Teil des sich ergebenden Forschungsaustoßes („Punkte“) "
-"fürgewöhnlich in die Entwicklung neuer Technologien investiert wird, gibt es "
-"einige Regelästze, in denen er zum Teil für die Aufrechterhaltung der "
+"Während der größte Teil des sich ergebenden Forschungsausstoßes („Punkte“) "
+"für gewöhnlich in die Entwicklung neuer Technologien investiert wird, gibt "
+"es einige Regelsätze, in denen er zum Teil für die Aufrechterhaltung der "
 "Kenntnisse bereits erforschter Technologien verwendet wird (dies ist im "
 "klassischen Regelsatz jedoch nicht der Fall). Die für den Erhalt bestehender "
 "Technologien erforderlichen Kosten steigen mit den Gesamtforschungskosten "
 "aller Ihnen bekannten Fortschritte, und der Zeitpunkt, zu dem Sie beginnen, "
 "für die Aufrechterhaltung der Kenntnisse einer Technologie zu zahlen, hängt "
 "von verschiedenen Faktoren wie etwa Ihrer Regierungsform ab. Fällt der "
-"Forschungsaustoß unter die Erhaltungskosten, wird Ihre Zivilisation eine "
+"Forschungsausstoß unter die Erhaltungskosten, wird Ihre Zivilisation eine "
 "zufällige Technologie vergessen, und sie müssen Sie von Neuem erforschen."
 
 #: data/helpdata.txt:1500
@@ -27807,7 +27807,7 @@ msgstr ""
 "Mit dem Weltraum-Rennen steht neben der Vernichtung aller anderen "
 "Zivilisationen eine weitere Möglichkeit zur Verfügung, das Spiel zu "
 "gewinnen: Wenn ein Raumschiff Alpha Centauri erreicht, endet das Spiel und "
-"sein Besitzer hat gewonnen. (Es kann sein, daß diese Option am Server "
+"sein Besitzer hat gewonnen. (Es kann sein, dass diese Option am Server "
 "abgeschaltet wurde.)"
 
 #: data/helpdata.txt:1518
@@ -27921,11 +27921,11 @@ msgid ""
 "the metaserver, the player names can be found there."
 msgstr ""
 "Nach Spielbeginn kann man sich nur unter dem Namen von einem der Anführer "
-"anmelden, vorausgesetzt, daß unter diesem Namen kein anderer Spieler "
+"anmelden, vorausgesetzt, dass unter diesem Namen kein anderer Spieler "
 "angemeldet ist. Es ist auch zulässig, sich unter dem Namen eines KI-Spielers "
 "anzumelden - allerdings übernehmen Sie dadurch noch nicht seine Steuerung; "
-"diese muß durch einen gesonderten Serverbefehl übergeben werden. Dies gilt "
-"auch für den Fall, daß eine unterbrochene Verbindung neu aufgenommen werden "
+"diese muss durch einen gesonderten Serverbefehl übergeben werden. Dies gilt "
+"auch für den Fall, dass eine unterbrochene Verbindung neu aufgenommen werden "
 "soll. Wird ein Metaserver benutzt, kann man dort die Namen der Anführer "
 "ersehen."
 
@@ -28751,7 +28751,7 @@ msgstr ""
 "Marvin Gülker <quintus@quintilianus.eu> weitergeführt.\n"
 "\n"
 "Grundsätzlich erkennt Freeciv die für den Benutzer sinnvollste Sprache "
-"selbständig anhand der Systemeinstellungen. Diese Voreinstellung läßt sich "
+"selbständig anhand der Systemeinstellungen. Diese Voreinstellung lässt sich "
 "jedoch ändern, indem man das Programm anstatt mit 'civclient' mit 'LANG=xx "
 "civclient' aufruft, wobei 'xx' der Ländercode ist.\n"
 "\n"
@@ -28760,7 +28760,7 @@ msgstr ""
 "\n"
 "Es gibt auch eine öffentliche Mailingliste, die sich ausschließlich mit der "
 "deutschen Übersetzung beschäftigt. Sie können Sie unter <freeciv-"
-"de@googlegroups.com> erreichen, müssen jedoch zuvor als Abbonent für diese "
+"de@googlegroups.com> erreichen, müssen jedoch zuvor als Abonnent für diese "
 "Liste eingetragen sein."
 
 #: data/helpdata.txt:1965
@@ -28907,7 +28907,7 @@ msgstr ""
 "Gentechnik erforscht haben, zwei zufriedene Bürger glücklich. Sollte der "
 "unwahrscheinliche Fall auftreten, dass es nicht genügend zufriedene Bürger "
 "in einer Stadt gibt, wird der Effekt stattdessen auf unzufriedene Bürger "
-"angwandt (einschließlich solcher, die wegen militärischer Aktivitäten "
+"angewandt (einschließlich solcher, die wegen militärischer Aktivitäten "
 "unzufrieden sind) und machen diese erst zufrieden, dann glücklich."
 
 #: data/multiplayer/buildings.ruleset:1135
@@ -28930,11 +28930,11 @@ msgstr ""
 #, no-c-format
 msgid "Reduces corruption by 50% in all cities on the same continent."
 msgstr ""
-"Verringert in allen Städten auf demselben Kontent die Korruption um 50%."
+"Verringert in allen Städten auf demselben Kontinent die Korruption um 50%."
 
 #: data/multiplayer/buildings.ruleset:1196
 msgid "Works as a City Wall in all your cities on the same continent."
-msgstr "Gilt als Stadtmauer für jede Ihrer Städte auf demselben Kontintent."
+msgstr "Gilt als Stadtmauer für jede Ihrer Städte auf demselben Kontinent."
 
 #: data/multiplayer/buildings.ruleset:1215
 msgid ""
@@ -28965,7 +28965,7 @@ msgid ""
 "Boosts science production by 100% in every city on the same continent that "
 "has a University."
 msgstr ""
-"Verdoppelt das Forschungstempo in jeder Ihrer auf demselben Kontintent "
+"Verdoppelt das Forschungstempo in jeder Ihrer auf demselben Kontinent "
 "gelegenen Stadt, die eine Universität besitzt."
 
 #: data/multiplayer/buildings.ruleset:1281
@@ -29345,7 +29345,7 @@ msgstr ""
 
 #: data/multiplayer/units.ruleset:479
 msgid "Workers can build airbases, which Settlers cannot."
-msgstr "Arbeiter können Fliegerhorste errichen, Siedler nicht."
+msgstr "Arbeiter können Fliegerhorste errichten, Siedler nicht."
 
 #: data/multiplayer/units.ruleset:1467
 msgid ""
@@ -29394,7 +29394,7 @@ msgid ""
 "influence on the rest of the world is enormous."
 msgstr ""
 "Die Vereinigten Staaten von Amerika erlangten die Unabhängigkeit von "
-"Großbrittanien in einer Revolution von 1776-1783 n.Chr und legten 1789 ihre "
+"Großbritannien in einer Revolution von 1776-1783 n.Chr und legten 1789 ihre "
 "Verfassung fest, die sie zu einer der ersten modernen repräsentativen "
 "Republiken machte. Die Vereinigten Staaten gingen danach dazu über, ihr "
 "Territorium zu erweitern, zunächst auf dem nordamerikanischen Hauptland und "
@@ -29505,12 +29505,12 @@ msgstr ""
 "Die Ursprünge Österreichs datieren auf die Zeit des römischen Imperiums "
 "zurück, als das keltische Königreich um 15 v.u.Z. von den Römern besiegt "
 "wurde und später, im ersten Jahrhundert u.Z., zur römischen Provinz Noricum "
-"wurde, die ein etwa dem heutigen Österreich enstprechendes Areal umfasste. "
+"wurde, die ein etwa dem heutigen Österreich entsprechendes Areal umfasste. "
 "Im Jahre 788 u.Z. eroberte der fränkische König Karl der Große das Gebiet "
 "und führte das Christentum ein; unter der habsburgischen Dynastie wurde "
 "Österreich schließlich eine der großen Mächte in Europa. 1867 wurde das "
-"österreiche Imperium zur Doppelmonarchie Österreich-Ungarn, die 1918 mit dem "
-"Ende des Ersten Weltkriegs kollabierte. Nachdem 1919 die Erste "
+"österreichische Imperium zur Doppelmonarchie Österreich-Ungarn, die 1918 mit "
+"dem Ende des Ersten Weltkriegs kollabierte. Nachdem 1919 die Erste "
 "Österreichische Republik errichtet worden war, trat Österreich 1938 im "
 "sogenannten „Anschluss“ Nazi-Deutschland bei. Nach dem Ende des Zweiten "
 "Weltkriegs 1945 wurde Österreich von den Truppen der Alliierten besetzt."
@@ -29523,7 +29523,7 @@ msgstr "Großherzog %s"
 #: data/nation/austrian.ruleset:49
 #, c-format
 msgid "Archduchess %s"
-msgstr "Großherzögin %s"
+msgstr "Großherzogin %s"
 
 #: data/nation/austrian.ruleset:50 data/nation/german.ruleset:36
 #, c-format
@@ -29641,6 +29641,7 @@ msgid "?plural:Cherokees"
 msgstr "Cherokee"
 
 #: data/nation/cherokee.ruleset:8
+#, fuzzy
 msgid ""
 "The Cherokee nation is the largest Native American nation in North America "
 "today."
@@ -29740,7 +29741,7 @@ msgstr "Statthalter %s"
 #: data/nation/dutch.ruleset:41
 #, c-format
 msgid "Stadtholdress %s"
-msgstr "Stadthalterin %s"
+msgstr "Statthalterin %s"
 
 #: data/nation/english.ruleset:27 data/nation/russian.ruleset:48
 #: data/nation/spanish.ruleset:41
@@ -29910,10 +29911,10 @@ msgid ""
 "sweeping through the land."
 msgstr ""
 "Die Inka waren ein indianisches Volk in den nördlichen Anden, die durch "
-"Eroberungen ein Reich errichteten, das von der Westköste Südamerikas "
+"Eroberungen ein Reich errichteten, das von der Westküste Südamerikas "
 "(heutiges Südchile) bis zum Äquator reichte. Dies geschah freilich zu einem "
 "ungünstigen Zeitpunkt, da nur wenige Dekaden später 1530 u.Z. die spanischen "
-"Conquistadoren in ihrem Teil der Welt anlandeten. Bis dahin waren die Inka "
+"Konquistadoren in ihrem Teil der Welt anlandeten. Bis dahin waren die Inka "
 "innerhalb einer kurzen Zeit in der Lage gewesen, über 15.000 km Straßen quer "
 "durch ihr Territorium zu bauen und vor der spanischen Eroberung stellte ihr "
 "Staat den größten in Amerika da. Er wurde mit einer komplexen, "
@@ -29996,7 +29997,7 @@ msgstr "Imama %s"
 
 #: data/nation/iroquois.ruleset:5
 msgid "Iroquois"
-msgstr "irokesich"
+msgstr "irokesisch"
 
 #: data/nation/iroquois.ruleset:6
 msgid "?plural:Iroquois"
@@ -30121,7 +30122,7 @@ msgstr ""
 "Das Afrika südlich der Sahara ist seit Jahrtausenden ein kultureller und "
 "ethnischer Schmelztiegel. Im Mittelalter gab es dort verschiedene "
 "Königreiche. Eines davon, das islamische Großreich Mali mit der Hauptstadt "
-"Timbuktu, war das einflußreichste. Es herrschte vom 14. bis 17. Jahrhundert "
+"Timbuktu, war das einflussreichste. Es herrschte vom 14. bis 17. Jahrhundert "
 "und war berühmt für seine wohlhabenden und wohlwollenden Könige. Die heutige "
 "Republik Mali hat hiervon seinen Namen abgeleitet."
 
@@ -30402,14 +30403,14 @@ msgid ""
 "traders between islands. Recent genetic studies show that roughly half of "
 "Puerto Ricans have Taino maternal descent."
 msgstr ""
-"Die Ureinwohner der Bahamas, Kuba, Hispaniola, Puerto Rico, Jamaica und "
-"anderen karibischen Inseln gaben uns die Wortwurzeln für den Hurrican, "
-"Ananas, Tabak, Kanu, Barbecue, Kaiman und Yukka. Sie waren ein matrilineales "
-"Volk und darüberhinaus das erste, mit dem Kolumbus 1492 in Kontakt trat. "
+"Die Ureinwohner der Bahamas, Kubas, Hispaniolas, Puerto Ricos, Jamaicas und "
+"anderer karibischer Inseln gaben uns die Wortwurzeln für den Hurrikan, "
+"Ananas, Tabak, Kanu, Barbecue, Kaiman und Yukka. Sie waren ein matrilineares "
+"Volk und darüber hinaus das erste, mit dem Kolumbus 1492 in Kontakt trat. "
 "Obwohl sie insgesamt hunderttausende zählten, wenn nicht gar Millionen, "
-"fielen sie in der gesamten Karibik der Sklaverei und Seuchen anheim, sodass "
-"im Ergebnis ihre Anzahl drastisch reduziert wurde. Die Spanier sahen sich "
-"als im Vergleich mit ihren südlicheren karibischen Nachbarn recht "
+"fielen sie in der gesamten Karibik der Sklaverei und Seuchen zum Opfer, "
+"sodass im Ergebnis ihre Anzahl drastisch reduziert wurde. Die Spanier sahen "
+"sie als im Vergleich mit ihren südlicheren karibischen Nachbarn recht "
 "friedliches Volk an. Ihre Einbäume, häufig fast genauso lang wie Kolumbus’ "
 "Schiffe, transportierten Händler zwischen den einzelnen Inseln; jüngste "
 "genetische Studien legen zudem nahe, dass gut die Hälfte der Einwohner "
@@ -30451,7 +30452,7 @@ msgstr ""
 "Die Tupi sind Ureinwohner Brasiliens und mit den Guarani, die die heutigen "
 "brasilianischen Staaten Paraiba, Pernambuco, Ceara, Rio Grande do Norte, "
 "Alogas, Sergipe und einige weitere bewohnten, verwandt. Ihre Stämme wurden "
-"im Zuge zahlreicher portugiesischer Raubüberfälle verskavt, missioniert, "
+"im Zuge zahlreicher portugiesischer Raubüberfälle versklavt, missioniert, "
 "oder starben an Krankheiten. Sie vermischten sich sowohl mit afrikanischen "
 "Sklaven als auch mit Europäern, sodass viele heute bekannte brasilianische "
 "Ortsnamen aus tupischen Wörtern entstanden sind."
@@ -30473,7 +30474,7 @@ msgid ""
 msgstr ""
 "Die heutige Türkei ist der Nachfolgestaat des Ottomanischen Reiches, das im "
 "ersten Weltkrieg die Zentralmächte unterstützte und von den Siegern geteilt "
-"wurde. Im Anschluß wurde das Land von Kemal Mustafa, dem Helden der "
+"wurde. Im Anschluss wurde das Land von Kemal Mustafa, dem Helden der "
 "Verteidigung von Gallipoli, reformiert und säkularisiert."
 
 #: data/nation/turk.ruleset:30
@@ -30732,7 +30733,7 @@ msgstr ""
 "Sie auf andere Zivilisationen treffen). Die oberste Zeile zeigt\n"
 "den Namen und die Größe der Stadt, sowie einen oder mehrere\n"
 "Sterne, sobald sich Einheiten in der Stadt befinden. Die unterste\n"
-"Zeile zeigt an, was die Stadt produziert und wieviele Runden es\n"
+"Zeile zeigt an, was die Stadt produziert und wie viele Runden es\n"
 "dauert; dort steht auch, wann sie auf die nächste Größenstufe\n"
 "wachsen wird."
 
@@ -30897,7 +30898,7 @@ msgstr ""
 "kulturelle Stadterweiterungen haben, um Ihre Bürger zufrieden stellen\n"
 "zu können. Außerdem sollten Sie auf Stadterweiterungen achten, die die\n"
 "Produktion erhöhen. Bibliotheken, Marktplätze, Fabriken und Bohrinseln\n"
-"sind Erweiterungen, die sich lohnen. Überlegen Sie, wieviel Nutzen ein\n"
+"sind Erweiterungen, die sich lohnen. Überlegen Sie, wie viel Nutzen ein\n"
 "Gebäude bringt und was es kostet - für sehr große Städte lohnen sich\n"
 "fast alle Stadterweiterungen. Sie liefern sogar soviel besteuerbares\n"
 "Einkommen (Gold), dass Sie einige Erweiterungen kaufen können, um schneller\n"
@@ -31032,10 +31033,10 @@ msgid ""
 msgstr ""
 "Ihre Stadt kann keine Siedler bauen. Siedler verbrauchen eine\n"
 "Größeneinheit der Stadt, daher kann eine Stadt der Größe 1 keine\n"
-"Siedler nauen, ohne sich selbst aufzulösen.\n"
+"Siedler bauen, ohne sich selbst aufzulösen.\n"
 "\n"
 "Ein Gegenmittel ist, die Bürger der Stadt so auf die Felder zu\n"
-"verteilen, daß mehr Nahrung erwirtschaftet wird und die Stadt\n"
+"verteilen, dass mehr Nahrung erwirtschaftet wird und die Stadt\n"
 "schneller wächst. Städte ohne große Nahrungsressourcen sollten\n"
 "nicht versuchen, Siedler zu bauen. Wenn Sie eine neue Stadt bauen,\n"
 "achten Sie darauf, dass genügend Nahrung zur Verfügung steht - Grasland\n"
@@ -32337,8 +32338,8 @@ msgstr ""
 msgid ""
 "%s can't build %s from the worklist; need to have %s first.  Postponing..."
 msgstr ""
-"%s kann %s aus der Arbeitsliste nicht bauen, zunächst muß %s vorhanden sein. "
-"Der Auftrag wird zurückgestellt."
+"%s kann %s aus der Arbeitsliste nicht bauen, zunächst muss %s vorhanden "
+"sein. Der Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1161
 #, c-format
@@ -32396,7 +32397,7 @@ msgstr ""
 msgid ""
 "%s can't build %s from the worklist; city must be of size %d.  Postponing..."
 msgstr ""
-"%s kann %s aus der Arbeitsliste nicht bauen, die Stadt muß die Größe %d "
+"%s kann %s aus der Arbeitsliste nicht bauen, die Stadt muss die Größe %d "
 "haben. Der Auftrag wird zurückgestellt."
 
 #: server/cityturn.c:1257
@@ -32608,7 +32609,7 @@ msgid ""
 "available!"
 msgstr ""
 "Migranten aus %s können nicht nach %s (%s) ziehen, weil es dort nicht "
-"genügend Nachrung für sie gibt."
+"genügend Nahrung für sie gibt."
 
 #. TRANS: From <city1> (<city1 nation adjective>) to <city2>.
 #: server/cityturn.c:2777
@@ -33741,13 +33742,13 @@ msgid ""
 "assumed to be the last valid ignore list index. To access your current "
 "ignore list, issue \"/list ignore\"."
 msgstr ""
-"Die im angebenen Bereich befindlichen Einträge werden aus Ihrer Filterliste "
-"entfernt, sodass Sie wieder Nachrichten von den jeweiligen Nutzern erhalten. "
-"Der Parameter <Bereich> kann eine einzelne Zahl oder ein von einer Tileder "
-"„~“ getrenntes Zahlenpaar sein; wird die erste Zahl ausgelassen, wird sie "
-"als 1 angenommen, fehlt die zweite, so wird der letzte gültige Index der "
-"Filterliste angenommen. Sie können Ihre momentane Filterliste mit „/list "
-"ignore“ einsehen."
+"Die im angegebenen Bereich befindlichen Einträge werden aus Ihrer "
+"Filterliste entfernt, sodass Sie wieder Nachrichten von den jeweiligen "
+"Nutzern erhalten. Der Parameter <Bereich> kann eine einzelne Zahl oder ein "
+"von einer Tilde „~“ getrenntes Zahlenpaar sein; wird die erste Zahl "
+"ausgelassen, wird sie als 1 angenommen, fehlt die zweite, so wird der letzte "
+"gültige Index der Filterliste angenommen. Sie können Ihre momentane "
+"Filterliste mit „/list ignore“ einsehen."
 
 #. TRANS: translate text between <>
 #: server/commands.c:495
@@ -34412,7 +34413,7 @@ msgstr "%s darf unsere Karte einsehen."
 #: server/diplhand.c:613
 #, c-format
 msgid "%s gives you shared vision."
-msgstr "%s läßt uns die Karte einsehen."
+msgstr "%s lässt uns die Karte einsehen."
 
 #: server/diplhand.c:756
 #, c-format
@@ -34548,7 +34549,7 @@ msgstr "%s wurde beim Versuch eine Revolte auszulösen festgenommen!"
 #: server/diplomats.c:762
 #, c-format
 msgid "You caught %s %s attempting to incite a revolt in %s!"
-msgstr "%ser %s beim Versuch, eine Revolte in %s auszulösen, gefaßt!"
+msgstr "%ser %s beim Versuch, eine Revolte in %s auszulösen, gefasst!"
 
 #: server/diplomats.c:785
 #, c-format
@@ -34568,7 +34569,7 @@ msgstr "%s wurde bei einem Sabotageversuch festgenommen!"
 #: server/diplomats.c:878
 #, c-format
 msgid "You caught %s %s attempting sabotage in %s!"
-msgstr "%ser %s bei Sabotageversuch in %s gefaßt!"
+msgstr "%ser %s bei Sabotageversuch in %s gefasst!"
 
 #: server/diplomats.c:913
 #, c-format
@@ -34604,7 +34605,7 @@ msgstr "%s wurde bei einem Sabotageversuch festgenommen!"
 #: server/diplomats.c:1036
 #, c-format
 msgid "You caught %s %s attempting to sabotage the %s in %s!"
-msgstr "%ser %s bei dem Versuch gefaßt, %s in %s zu sabotieren!"
+msgstr "%ser %s bei dem Versuch gefasst, %s in %s zu sabotieren!"
 
 #: server/diplomats.c:1050
 #, c-format
@@ -34800,7 +34801,7 @@ msgstr ""
 msgid ""
 "Cannot modify road for the tile %s because %d is not a valid road type id."
 msgstr ""
-"Kann Straße auf dem Feld %s nicht verändertn, weil %d keine gültige "
+"Kann Straße auf dem Feld %s nicht verändern, weil %d keine gültige "
 "Straßentyp-ID ist."
 
 #. TRANS: ..." the tile <tile-coordinates> because"...
@@ -35178,7 +35179,7 @@ msgid ""
 "Map size calculated for %d (land) tiles per player and %d player(s) too "
 "large. Setting map size to the maximal size %d."
 msgstr ""
-"Die für %d (Land-)Felder pro Süieler bei %d Spieler(n) berechnete "
+"Die für %d (Land-)Felder pro Spieler bei %d Spieler(n) berechnete "
 "Kartengröße ist zu groß. Es wurde das Maximum %d festgelegt."
 
 #: server/generator/mapgen_topology.c:326
@@ -35432,7 +35433,7 @@ msgstr "Die Luxusquote übersteigt die Höchstgrenze; angepasst."
 #: server/plrhand.c:618
 #, c-format
 msgid "%s no longer gives us shared vision!"
-msgstr "%s läßt uns nicht mehr in die Karte sehen!"
+msgstr "%s lässt uns nicht mehr in die Karte sehen!"
 
 #: server/plrhand.c:629
 #, c-format
@@ -35510,7 +35511,7 @@ msgstr "%s wurde aus dem Spiel entfernt."
 
 #: server/plrhand.c:1686
 msgid "Please choose a non-blank name."
-msgstr "Es muß ein Name gewählt werden."
+msgstr "Es muss ein Name gewählt werden."
 
 #: server/plrhand.c:1699
 msgid "That nation is already in use."
@@ -37030,7 +37031,7 @@ msgid ""
 "setting is usually only of interest while debugging the game."
 msgstr ""
 "Bei Null (der Standardwert) wird eine Zufallszahl aus der aktuellen Uhrzeit "
-"abgeleitet. Diese Einstellung ist fürgewöhnlich nur von Interesse, wenn Sie "
+"abgeleitet. Diese Einstellung ist für gewöhnlich nur von Interesse, wenn Sie "
 "Fehler im Spiel suchen."
 
 #: server/settings.c:1407
@@ -37277,7 +37278,7 @@ msgid ""
 "does not apply when you have just gained a technology this turn."
 msgstr ""
 "Bei Änderung des Forschungsprojekts geht dieser Prozentsatz an (vorhandenen) "
-"Punkten verloren. Unmittelbar nach Abschluß eines Forschungsprojektes gehen "
+"Punkten verloren. Unmittelbar nach Abschluss eines Forschungsprojektes gehen "
 "keine Punkte verloren."
 
 #: server/settings.c:1582
@@ -37358,7 +37359,7 @@ msgid ""
 "points."
 msgstr ""
 "Für jedes „kostenlose“ Forschungsergebnis (abgesehen von denen, die schon "
-"durch „diplcost“ und „conquercost“ abgdeckt werden; insbesondere sind hier "
+"durch „diplcost“ und „conquercost“ abgedeckt werden; insbesondere sind hier "
 "die Forschungsergebnisse aus der Großen Bibliothek und aus Hütten gemeint), "
 "wird  dieser Prozentsatz der Forschungspunkte in Abzug gebracht. Ein "
 "negatives Forschungskonto ist möglich."
@@ -37596,10 +37597,10 @@ msgid ""
 "\"occupying\" territory."
 msgstr ""
 "Die Eingabe von 0 setzt den Civ1/2-Stil (Einheiten bewegen sich beim Angriff "
-"nicht). 100 läßt siegreiche Angreifer immer in das angegriffene Feld ziehen, "
-"wenn dort keine gegnerischen Einheiten mehr vorhanden sind. Werte zwischen 0 "
-"und 100 lassen siegreiche Einheiten mit der gesetzten Wahrscheinlichkeit das "
-"angegriffene Feld besetzen."
+"nicht). 100 lässt siegreiche Angreifer immer in das angegriffene Feld "
+"ziehen, wenn dort keine gegnerischen Einheiten mehr vorhanden sind. Werte "
+"zwischen 0 und 100 lassen siegreiche Einheiten mit der gesetzten "
+"Wahrscheinlichkeit das angegriffene Feld besetzen."
 
 #: server/settings.c:1813
 msgid "Turn on/off server-side autoattack"
@@ -37714,8 +37715,8 @@ msgid ""
 "player isn't allowed to use a default city name of another nation unless it "
 "is a default for their nation also."
 msgstr ""
-"‒ „keine Einschränkungen“ (NO_RESTRICTIONS): Spieler können mehrere Stedte "
-"mit denselben Namen besitzen.\n"
+"‒ „keine Einschränkungen“ (NO_RESTRICTIONS): Spieler können mehrere Städte "
+"mit demselben Namen besitzen.\n"
 "‒ „Einmalig je Spieler“ (PLAYER_UNIQUE): Ein Spieler kann nicht mehrere "
 "Städte mit demselben Namen besitzen.\n"
 "‒ „Global einmalig“ (GLOBAL_UNIQUE): Alle Städte im Spiel müssen "
@@ -38110,7 +38111,7 @@ msgid ""
 "If the distance is lower or equal, migration is possible. This setting has "
 "no effect unless migration is activated by the 'migration' setting."
 msgstr ""
-"Legt die Entfernung fest, die ein migrationswillger Bürger zurückzulegen "
+"Legt die Entfernung fest, die ein migrationswilliger Bürger zurückzulegen "
 "bereit ist. Der Wert wird zum momentanen Stadtgebiet addiert und "
 "anschließend mit der Entfernung der zwei Städte verglichen. Ist die "
 "Entfernung kleiner oder gleich, so kann eine Migration stattfinden. Diese "
@@ -38324,7 +38325,7 @@ msgid ""
 "Any time a unit moves while in sight of an enemy player, the remaining "
 "timeout is increased to this value."
 msgstr ""
-"Jedesmal, wenn eine Einheit in Sichtweite des Gegners zieht, wird der "
+"Jedes Mal, wenn eine Einheit in Sichtweite des Gegners zieht, wird der "
 "Zeitablauf der Runde auf mindestens diesen Wert gesetzt."
 
 #: server/settings.c:2299
@@ -39402,7 +39403,7 @@ msgstr "Zugangsberechtigung für den ersten Spieler: %s"
 #: server/stdinhand.c:1506
 #, c-format
 msgid "Command access level must be one of %s."
-msgstr "Die Zugriffserechtigung muss %s sein."
+msgstr "Die Zugriffsberechtigung muss %s sein."
 
 #: server/stdinhand.c:1512
 #, c-format
@@ -40151,8 +40152,8 @@ msgstr "Zwei Argumente benötigt. Siehe „/help playercolor“."
 msgid ""
 "Can only set player color prior to game start if 'plrcolormode' is PLR_SET."
 msgstr ""
-"Die Spielerfarben können nur dann vor dem Spieleginn ausgewählt werden, wenn "
-"„plrcolormoode“ auf PLR_SET gesetzt ist."
+"Die Spielerfarben können nur dann vor dem Spielbeginn ausgewählt werden, "
+"wenn „plrcolormoode“ auf PLR_SET gesetzt ist."
 
 #: server/stdinhand.c:4070
 msgid "Can only unset player color before game starts."
@@ -40289,7 +40290,7 @@ msgstr "Alle Einstellungen auf die Standardwerte zurücksetzen."
 
 #: server/stdinhand.c:4614
 msgid "Settings re-initialized."
-msgstr "Einstellungen neu feestgelegt."
+msgstr "Einstellungen neu festgelegt."
 
 #: server/stdinhand.c:4675
 #, c-format
@@ -40819,7 +40820,7 @@ msgstr "Liste der verfügbaren Szenarios:"
 #. TRANS: don't translate text between ''
 #: server/stdinhand.c:6381
 msgid "List of nation sets available for 'nationset' option:"
-msgstr "Liste der für die Option „nationeset“ verfügbaren Nationensätze:"
+msgstr "Liste der für die Option „nationset“ verfügbaren Nationensätze:"
 
 #. TRANS: nation set description; %d refers to number of playable
 #. * nations in set
@@ -41189,7 +41190,7 @@ msgstr "%s kann sich nicht weiter von der Küste entfernen."
 #: server/unithand.c:1359 server/unittools.c:2813 server/unittools.c:2843
 #, c-format
 msgid "Cannot invade unless you break peace with %s first."
-msgstr "Kann erst einmaschieren, wenn du den Frieden mit %s brichst."
+msgstr "Kann erst einmarschieren, wenn du den Frieden mit %s brichst."
 
 #: server/unithand.c:1367
 #, c-format
@@ -41275,7 +41276,7 @@ msgstr "%s helfen, %s in %s zu bauen (Restkosten: %d)."
 #: server/unithand.c:1738
 #, c-format
 msgid "Your %s helps build the %s in %s (%d surplus)."
-msgstr "%s helfen, %s in %s zu bauen (Überschuß: %d)."
+msgstr "%s helfen, %s in %s zu bauen (Überschuss: %d)."
 
 #: server/unithand.c:1796
 #, c-format
