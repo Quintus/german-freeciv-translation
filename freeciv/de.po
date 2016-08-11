@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-07 20:54+0200\n"
-"PO-Revision-Date: 2016-08-11 02:05+0200\n"
+"PO-Revision-Date: 2016-08-11 22:04+0200\n"
 "Last-Translator: David Rabel <david.rabel@noresoft.com>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -15706,7 +15706,7 @@ msgid ""
 "of population and all stored food; a Granary eliminates this risk."
 msgstr ""
 "Eine Hungersnot kann auftreten, wenn der Nahrungsvorrat der Stadt erschöpft "
-"ist (was ein Kornspeicher nurmehr verzögern kann) oder wenn eine schlechte "
+"ist (was ein Kornspeicher nur mehr verzögern kann) oder wenn eine schlechte "
 "Ernte eingebracht wird (was ein Kornspeicher verhindert). Ihr fallen "
 "zunächst alle von der Stadt mit Nahrung unterstützten Siedler zum Opfer, "
 "danach sterben Einwohner der Stadt."
@@ -16907,7 +16907,7 @@ msgid ""
 "and Chaldeans."
 msgstr ""
 "Babylon war zwischen dem 18. und 7. Jahrhundert v. Chr. die beherrschende "
-"Stadt in Mesopotamien, während dort Völker wie die Ammoriter, Kassiten, "
+"Stadt in Mesopotamien, während dort Völker wie die Amoriter, Kassiten, "
 "Assyrer und die Chaldäer lebten."
 
 #. TRANS: Lugal = Great Man
@@ -17279,8 +17279,8 @@ msgid ""
 "continent of Asia. They became notorious for their utter ruthlessness in "
 "warfare."
 msgstr ""
-"In den Jahrhunderten nach ihrer Vereinigung durch Genghis Khan eroberten die "
-"Mongolen das größte Reich in der menschlichen Geschichte, das fast ganz "
+"In den Jahrhunderten nach ihrer Vereinigung durch Dschingis Khan eroberten "
+"die Mongolen das größte Reich in der menschlichen Geschichte, das fast ganz "
 "Asien einschloss. Sie waren berüchtigt für ihre schreckliche Grausamkeit im "
 "Kampf."
 
@@ -18398,7 +18398,7 @@ msgid ""
 msgstr ""
 "Einige Einheiten verfügen über begrenzte Möglichkeit, Geländeveränderungen "
 "vorzunehmen, die Sie nutzen können, indem Sie die Befehle „Bewässerung "
-"anlegen“ oder „Bergewerk bauen“ erteilen, während eine solche Einheit auf "
+"anlegen“ oder „Bergwerk bauen“ erteilen, während eine solche Einheit auf "
 "einem Feld steht, das diese Art von Verbesserung nicht unterstützt (die "
 "Umwandlung eines Feldes in ein anderes mit dem Befehl zur Einrichtung einer "
 "Bewässerungsanlage erfordert keine Wasserquelle). So kann etwa Sumpfland "
@@ -29549,7 +29549,7 @@ msgid ""
 "and Chaldeans."
 msgstr ""
 "Babylon war zwischen dem 18. und 7. Jahrhundert v.u.Z. die beherrschende "
-"Stadt in Mesopotamien, während dort Völker wie die Ammoriter, Kassiten, "
+"Stadt in Mesopotamien, während dort Völker wie die Amoriter, Kassiten, "
 "Assyrer und die Chaldäer lebten."
 
 #: data/nation/brazilian.ruleset:5
@@ -29837,11 +29837,11 @@ msgstr "Älteste %s"
 
 #: data/nation/hittite.ruleset:5
 msgid "Hittite"
-msgstr "hittitisch"
+msgstr "hethitisch"
 
 #: data/nation/hittite.ruleset:6
 msgid "?plural:Hittites"
-msgstr "Hittiter"
+msgstr "Hethiter"
 
 #: data/nation/hittite.ruleset:8
 msgid ""
@@ -29850,7 +29850,7 @@ msgid ""
 "controlled central Anatolia, north-western Syria and Mesopotamia down to "
 "Babylon."
 msgstr ""
-"Das hittitische Königreich dauerte von etwa 1680 bis 1180 v.u.Z. Es war die "
+"Das hethitische Königreich dauerte von etwa 1680 bis 1180 v.u.Z. Es war die "
 "erste Zivilisation, die die Eisenverarbeitung beherrschte. Auf ihrem "
 "Höhepunkt kontrollierten sie Zentralanatolien, Nordwest-Syrien und "
 "Mesopotamien bis hinunter nach Babylon."
@@ -30451,7 +30451,7 @@ msgid ""
 msgstr ""
 "Die Tupi sind Ureinwohner Brasiliens und mit den Guarani, die die heutigen "
 "brasilianischen Staaten Paraiba, Pernambuco, Ceara, Rio Grande do Norte, "
-"Alogas, Sergipe und einige weitere bewohnten, verwandt. Ihre Stämme wurden "
+"Alagoas, Sergipe und einige weitere bewohnten, verwandt. Ihre Stämme wurden "
 "im Zuge zahlreicher portugiesischer Raubüberfälle versklavt, missioniert, "
 "oder starben an Krankheiten. Sie vermischten sich sowohl mit afrikanischen "
 "Sklaven als auch mit Europäern, sodass viele heute bekannte brasilianische "
@@ -35649,7 +35649,7 @@ msgstr "Herodot"
 #. TRANS: [year] <name> [reports ...]
 #: server/report.c:100
 msgid "Thucydides"
-msgstr "Thucydides"
+msgstr "Thukydides"
 
 #. TRANS: [year] <name> [reports ...]
 #: server/report.c:102
@@ -39514,7 +39514,7 @@ msgstr "Server Operator: %s"
 #: server/stdinhand.c:1949
 #, c-format
 msgid "Connectmsg truncated to %u bytes."
-msgstr "Connectmsg auf %u Byte abgeschitten."
+msgstr "Connectmsg auf %u Byte abgeschnitten."
 
 #: server/stdinhand.c:1995 server/stdinhand.c:2032 server/stdinhand.c:2050
 #, c-format
@@ -40580,7 +40580,7 @@ msgstr "Falscher Parameter für „mapimg create“: „%s“."
 
 #: server/stdinhand.c:5536
 msgid "Freeciv database script deactivated at compile time."
-msgstr "Freeciv-Datenbanskript zur Kompilationszeit deaktiviert."
+msgstr "Freeciv-Datenbankskript zur Kompilationszeit deaktiviert."
 
 #: server/stdinhand.c:5554
 msgid "Ambiguous fcdb command."
