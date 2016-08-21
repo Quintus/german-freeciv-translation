@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-07 20:54+0200\n"
-"PO-Revision-Date: 2016-08-21 23:23+0200\n"
+"PO-Revision-Date: 2016-08-22 00:02+0200\n"
 "Last-Translator: David Rabel <david.rabel@noresoft.com>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -94,7 +94,7 @@ msgstr ""
 #: ai/default/advdiplomacy.c:351
 #, c-format
 msgid "*%s (AI)* First break alliance with %s, %s."
-msgstr "*%s (KI)* Löse zuerst die Allianz mit %s, %s"
+msgstr "*%s (KI)* Löse zuerst die Allianz mit %s, %s."
 
 #: ai/default/advdiplomacy.c:361
 #, c-format
@@ -107,7 +107,7 @@ msgstr ""
 #: ai/default/advdiplomacy.c:375
 #, c-format
 msgid "*%s (AI)* Let us first cease hostilities, %s."
-msgstr "*%s (KI)* Lass uns erst die Feindseligkeiten beenden, %s"
+msgstr "*%s (KI)* Lass uns erst die Feindseligkeiten beenden, %s."
 
 #: ai/default/advdiplomacy.c:380
 #, c-format
@@ -1175,7 +1175,7 @@ msgstr "Derzeit in Bau"
 
 #: client/cityrepdata.c:767
 msgid "Specialists: "
-msgstr "Spezialisten:"
+msgstr "Spezialisten: "
 
 #: client/cityrepdata.c:773
 msgid "?specialist:S"
@@ -3164,7 +3164,7 @@ msgstr "_Industrie sabotieren"
 #: client/gui-xaw/diplomat_dialog.c:809
 #, c-format
 msgid "Your %s is waiting for your command."
-msgstr "%s erwarten Ihre Anweisungen"
+msgstr "%s erwarten Ihre Anweisungen."
 
 #: client/gui-gtk-2.0/diplomat_dialog.c:855
 #: client/gui-gtk-3.0/diplomat_dialog.c:865 client/gui-qt/dialogs.cpp:1336
@@ -3752,7 +3752,7 @@ msgstr "_Zeige Alle Städte"
 #: client/gui-gtk-2.0/gotodlg.c:341 client/gui-gtk-3.0/gotodlg.c:345
 #: client/gui-qt/mapview.cpp:1824 client/text.c:1173
 msgid "No units selected."
-msgstr "Keine ausgewählt"
+msgstr "Keine ausgewählt."
 
 #. TRANS: goto/airlift dialog. "Paris (airlift: 2/4)".
 #. * A set of these appear in an "and"-separated list.
@@ -3873,7 +3873,7 @@ msgstr "Luxus:"
 #: client/gui-gtk-2.0/happiness.c:197 client/gui-gtk-3.0/happiness.c:204
 #: client/gui-qt/citydlg.cpp:967
 msgid "Buildings:"
-msgstr "Gebäude: "
+msgstr "Gebäude:"
 
 #: client/gui-gtk-2.0/happiness.c:198 client/gui-gtk-3.0/happiness.c:205
 #: client/gui-qt/citydlg.cpp:968
@@ -3883,7 +3883,7 @@ msgstr "Nationalität:"
 #: client/gui-gtk-2.0/happiness.c:199 client/gui-gtk-3.0/happiness.c:206
 #: client/gui-qt/citydlg.cpp:968
 msgid "Units:"
-msgstr "Einheiten"
+msgstr "Einheiten:"
 
 #: client/gui-gtk-2.0/happiness.c:200 client/gui-gtk-3.0/happiness.c:207
 #: client/gui-qt/citydlg.cpp:968
@@ -4667,7 +4667,7 @@ msgstr "_Gehe nach"
 
 #: client/gui-gtk-2.0/menu.c:1610 client/gui-gtk-3.0/menu.c:1598
 msgid "Go _to/Airlift to City..."
-msgstr "Gehe/fliege _nach Stadt"
+msgstr "Gehe/fliege _nach Stadt..."
 
 #: client/gui-gtk-2.0/menu.c:1612 client/gui-gtk-3.0/menu.c:1600
 msgid "_Return to Nearest City"
@@ -4802,7 +4802,7 @@ msgstr "_Regierungsformen"
 
 #: client/gui-gtk-2.0/menu.c:1709 client/gui-gtk-3.0/menu.c:1697
 msgid "_Tax Rates..."
-msgstr "Steuer_quoten"
+msgstr "Steuer_quoten..."
 
 #: client/gui-gtk-2.0/menu.c:1712 client/gui-gtk-3.0/menu.c:1700
 msgid "_Revolution..."
@@ -5261,9 +5261,8 @@ msgstr "_KI Stärke:"
 
 #: client/gui-gtk-2.0/pages.c:2672 client/gui-gtk-3.0/pages.c:2732
 #: client/gui-qt/fc_client.cpp:863
-#, fuzzy
 msgid "Ruleset:"
-msgstr "Regelsatz"
+msgstr "Regelsatz:"
 
 #: client/gui-gtk-2.0/pages.c:2680 client/gui-gtk-3.0/pages.c:2739
 msgid "_More Game Options..."
@@ -12784,7 +12783,7 @@ msgid ""
 "%s."
 msgstr ""
 "Failed to parse the metaserver data from %s:\n"
-"%s"
+"%s."
 
 # CK: TECHNICAL
 #: client/servers.c:282 utility/netfile.c:129
@@ -13701,7 +13700,7 @@ msgstr "Specfile %s has incompatible capabilities"
 #: client/tilespec.c:1551
 #, c-format
 msgid "Couldn't find a supported gfx file extension for \"%s\"."
-msgstr "Couldn't find a supported gfx file extension for “%s”"
+msgstr "Couldn't find a supported gfx file extension for “%s”."
 
 # EH: Diese Fehlermeldung sollte mE nicht übersetzt werden.
 #: client/tilespec.c:1672
@@ -13734,7 +13733,7 @@ msgstr "No [%s] sections supported by tileset \"%s\"."
 #: client/tilespec.c:2165
 #, c-format
 msgid "Couldn't load gfx file \"%s\" for sprite '%s'."
-msgstr "Couldn't load gfx file “%s” for sprite %s"
+msgstr "Couldn't load gfx file “%s” for sprite %s."
 
 #: client/tilespec.c:2175
 #, c-format
@@ -20703,7 +20702,7 @@ msgstr "Gebirgsjäger"
 #: data/experimental/units.ruleset:825 data/civ2civ3/units.ruleset:849
 #: data/multiplayer/units.ruleset:836
 msgid "Alpine Troops are highly mobile units as well as excellent defenders."
-msgstr "Gebirgsjäger sind hochmobile Einheiten und ausgezeichnete Verteidiger"
+msgstr "Gebirgsjäger sind hochmobile Einheiten und ausgezeichnete Verteidiger."
 
 #: data/civ2/units.ruleset:707 data/classic/units.ruleset:839
 #: data/experimental/units.ruleset:863 data/civ2civ3/units.ruleset:935
@@ -21017,7 +21016,7 @@ msgstr ""
 "Siedlern und/oder Ingenieuren in der Nähe der betroffenen Stadt bereit "
 "halten. Nach dem Einschlag können Sie so den Fallout noch in derselben Runde "
 "beseitigen, in der er auftritt, sodass die Wahrscheinlichkeit eines "
-"nuklearen Winters minimiert wird. Umweltfreundliche Atomwaffen!<"
+"nuklearen Winters minimiert wird. Umweltfreundliche Atomwaffen!"
 
 #: data/civ2/units.ruleset:1969 data/classic/units.ruleset:2058
 #: data/experimental/units.ruleset:2084 data/civ2civ3/units.ruleset:2249
@@ -31269,7 +31268,7 @@ msgstr "Vom Regelsatz gesperrt."
 #: tools/civmanual.c:216
 #, c-format
 msgid "Can only be used in server console."
-msgstr "Kann nur in der Serverkonsole verwendet werden. "
+msgstr "Kann nur in der Serverkonsole verwendet werden."
 
 #: tools/civmanual.c:224 server/stdinhand.c:1790
 msgid "Minimum:"
@@ -38178,7 +38177,7 @@ msgstr ""
 "unterschiedlicher Spieler ist. Während Null eine Migration verhindert, führt "
 "100 stets zu einer Migration, wenn ein ansprechendes Ziel vorhanden ist. "
 "Diese Einstellung hat keinen Effekt, wenn die Einstellung „migration“ nicht "
-"aktiviert ist.<"
+"aktiviert ist."
 
 #: server/settings.c:2192
 msgid "Players that users are allowed to take"
