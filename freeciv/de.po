@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-07 20:54+0200\n"
-"PO-Revision-Date: 2016-08-14 15:03+0200\n"
+"PO-Revision-Date: 2016-08-21 23:23+0200\n"
 "Last-Translator: David Rabel <david.rabel@noresoft.com>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -5848,12 +5848,15 @@ msgstr "Stadtplan"
 #: client/gui-gtk-3.0/gui_main.c:282
 msgid "Other gui-specific options are:\n"
 msgstr ""
+"Weitere GUI-spezifische Optionen sind:\n"
+" \n"
 
 #: client/gui-gtk-3.0/gui_main.c:285
 msgid ""
 "-g, --gtk-warnings\tAllow Gtk+ to print warnings to console\n"
 "\n"
 msgstr ""
+"-g, --gtk-warnings\tErlaubt Gtk+, Warnungen auf der Konsole auszugeben\n"
 
 #: client/gui-gtk-3.0/gui_main.c:1650
 msgid "Migrating options from gtk2 to gtk3 client"
@@ -6942,7 +6945,7 @@ msgstr "Spiele speichern"
 
 #: client/gui-qt/messagewin.cpp:72
 msgid "Locks/unlocks interface"
-msgstr ""
+msgstr "Sperrt/entsperrt Oberfläche"
 
 #: client/gui-qt/optiondlg.cpp:85
 msgid "... read more in help"
@@ -15876,6 +15879,10 @@ msgid ""
 "give a better corruption distribution, you can move your palace by "
 "rebuilding it in another city."
 msgstr ""
+"Wenn sich die Hauptstadt an einem gefährlichen Ort befindet, oder wenn eine "
+"zentraler gelegene Hauptstadt die Korruption besser verteilen würde, können "
+"Sie Ihren Herrschaftssitz in eine andere Stadt verlegen, indem Sie in dieser "
+"einen Palast bauen."
 
 #: data/civ1/buildings.ruleset:481 data/civ2/buildings.ruleset:605
 #: data/classic/buildings.ruleset:663 data/experimental/buildings.ruleset:712
@@ -30995,6 +31002,16 @@ msgid ""
 "boat.  When you want to disembark, select the transported unit and\n"
 "press U, or move it onto a land tile."
 msgstr ""
+"Sie haben Ihre erste Wassereinheit fertiggestellt.  Diese können andere\n"
+"Einheiten über Wasser transportieren, wodurch Sie in der Lage sind, \n"
+"neue Länder zu erkunden und zu besiedeln.  Sie können Landeinheiten\n"
+"auf zwei Arten in Ihr Schiff laden.  Wenn sich Ihr Schiff und die Einheit, \n"
+"die Sie transportieren möchten, in der selben Stadt aufhalten, wählen Sie\n"
+"letztere aus und drücken Sie L um die Einheit einzuladen; oder wenn das\n"
+"Schiff sich direkt neben einem Landfeld befindet, können Sie die Einheit\n"
+"von dort aus direkt auf das Schiff bewegen.  Um das Schiff zu entladen,\n"
+"wählen Sie die transportierte Einheit aus und drücken Sie U, oder bewegen\n"
+"Sie sie auf ein Landfeld."
 
 #: data/scenarios/tutorial.sav:234
 msgid ""
@@ -32852,6 +32869,8 @@ msgstr "Setze ADRESSE als Metaserver-Adresse"
 #: server/civserver.c:403
 msgid "Keep updating game information on metaserver even after failure"
 msgstr ""
+"Spielinformation auf dem Metaserver weiterhin aktualisieren, selbst nach "
+"einem Fehler"
 
 #: server/civserver.c:408
 msgid "Listen for clients on port PORT"
@@ -37289,6 +37308,8 @@ msgstr "Wahrscheinlichkeit des Verlusts von erhaltenen Fortschritten"
 #: server/settings.c:1583
 msgid "The chance that learning a technology by treaty or theft will fail."
 msgstr ""
+"Wahrscheinlichkeit des Misserfolgs beim Lernen einer Technologie durch ein "
+"Abkommen oder durch Diebstahl."
 
 #: server/settings.c:1590
 #, fuzzy
@@ -37300,6 +37321,9 @@ msgid ""
 "The chance that your civilization will lose a technology if you teach it to "
 "someone else by treaty, or if it is stolen from you."
 msgstr ""
+"Wahrscheinlichkeit des Verlusts einer Technologie, wenn Sie diese aufgrund "
+"eines Abkommens mit einem Mitspieler teilen, oder wenn sie Ihnen gestohlen "
+"wird."
 
 #: server/settings.c:1599
 msgid "Team pooled research"
