@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-07 20:54+0200\n"
-"PO-Revision-Date: 2016-08-22 00:02+0200\n"
+"PO-Revision-Date: 2016-08-26 15:08+0200\n"
 "Last-Translator: David Rabel <david.rabel@noresoft.com>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -5862,10 +5862,10 @@ msgid "Migrating options from gtk2 to gtk3 client"
 msgstr "Konvertiere Optionen vom GTK2- zum GTK3-Klienten"
 
 #: client/gui-gtk-3.0/happiness.c:262
-#, fuzzy, c-format
+#, c-format
 msgid "Additional information is available%svia left click on the citizens."
 msgstr ""
-"Weitere Informationen sind über einen Linksklick auf die Bürger verfügbar."
+"Weitere Informationen sind über einen%sLinksklick auf die Bürger verfügbar."
 
 #: client/gui-gtk-3.0/pages.c:946
 #, fuzzy
@@ -6361,7 +6361,7 @@ msgid "Help build Wonder (%1 remaining)"
 msgstr "Beim Bau des Weltwunders helfen (noch %1)"
 
 #: client/gui-qt/dialogs.cpp:2065
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Tileset problem, it's probably incompatible with the ruleset:\n"
 "%s\n"
@@ -6369,7 +6369,8 @@ msgid ""
 msgstr ""
 "Problem mit dem Kartenmaterial, es ist wahrscheinlich nicht mit dem\n"
 "Regelsatz kompatibel:\n"
-"%s"
+"%s\n"
+"Das Programm wird jetzt beendet."
 
 #: client/gui-qt/dialogs.cpp:2069
 #, fuzzy
@@ -12629,9 +12630,8 @@ msgstr ""
 "Konnte die Konfigurationsdatei '%s' nicht finden, lade stattdessen '%s'."
 
 #: client/options.c:5186
-#, fuzzy
 msgid "Didn't find the option file. Creating a new one."
-msgstr "Konnte die Konfigurationsdatei nicht finden."
+msgstr "Konnte die Konfigurationsdatei nicht finden. Eine neue wird erstellt."
 
 #: client/options.c:5202 client/options.c:5340
 #, c-format
@@ -31437,11 +31437,10 @@ msgid "Manual file %s successfully written."
 msgstr "Handbuchdatei „%s“ erfolgreich geschrieben."
 
 #: tools/civmanual.c:514
-#, fuzzy
 msgid "Multiple rulesets requested. Only one ruleset at a time is supported.\n"
 msgstr ""
 "Mehrere Regelsätze angefordert. Nur ein einzelner Regelsatz kann zeitgleich "
-"verwendet werden."
+"verwendet werden.\n"
 
 #: tools/civmanual.c:603 server/civserver.c:395
 msgid "Use FILE as logfile"
@@ -33671,9 +33670,8 @@ msgid "timeoutincrease <turn> <turninc> <value> <valuemult>"
 msgstr "timeoutincrease <Zug> <Zugzahl> <Wert> <Faktor>"
 
 #: server/commands.c:448
-#, fuzzy
 msgid "See \"/help timeoutincrease\"."
-msgstr "siehe „help timeoutincrease“"
+msgstr "Siehe „help timeoutincrease“ ."
 
 #: server/commands.c:449
 msgid ""
@@ -33699,9 +33697,8 @@ msgstr ""
 
 #. TRANS: "vote" as a process
 #: server/commands.c:460
-#, fuzzy
 msgid "Cancel a running vote."
-msgstr "Bricht eine laufende Abstimmung ab.\n"
+msgstr "Bricht eine laufende Abstimmung ab."
 
 #. TRANS: "vote" as a process
 #: server/commands.c:462
@@ -35573,11 +35570,10 @@ msgstr ""
 "verfügbar"
 
 #: server/plrhand.c:2602
-#, fuzzy, c-format
+#, c-format
 msgid "Could not throw %s into civil war - no available cities"
 msgstr ""
-"Konnte die %s nicht in den Bürgerkrieg treiben — keine Nationen mehr "
-"verfügbar"
+"Konnte die %s nicht in den Bürgerkrieg treiben — keine Städte verfügbar"
 
 #: server/plrhand.c:2635
 msgid "Your nation is thrust into civil war."
@@ -39192,9 +39188,9 @@ msgid "Metaserver connection is already closed."
 msgstr "Die Verbindung zum Metaserver wurde bereits beendet."
 
 #: server/stdinhand.c:557
-#, fuzzy
 msgid "Argument must be 'u', 'up', 'd', 'down', 'p', 'persistent', or '?'."
-msgstr "Zulässige Parameter sind 'u', 'up', 'd', 'down' und '?'."
+msgstr ""
+"Zulässige Parameter sind 'u', 'up', 'd', 'down', 'p', 'persistent' und '?'."
 
 #: server/stdinhand.c:578
 #, c-format
@@ -40610,11 +40606,13 @@ msgid "Ambiguous fcdb command."
 msgstr "Mehrdeutiges fcdb-Kommando."
 
 #: server/stdinhand.c:5688
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Not enough human players ('minplayers' server setting has value %d); game "
 "will not start."
-msgstr "Zu wenige menschliche Mitspieler, Spiel wird nicht gestartet."
+msgstr ""
+"Zu wenige menschliche Mitspieler (Servereinstellung 'minplayers' hat den "
+"Wert %d), Spiel wird nicht gestartet."
 
 #: server/stdinhand.c:5695
 msgid "No players; game will not start."
@@ -41358,10 +41356,12 @@ msgid "%s was upgraded for free to %s."
 msgstr "%s wurden kostenlos zu %s modernisiert."
 
 #: server/unittools.c:392
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your %s has run out of hit points because it was not supported by a city."
-msgstr "%s haben keine Trefferpunkte mehr."
+msgstr ""
+"%s haben keine Trefferpunkte mehr, weil sie nicht von einer Stadt "
+"unterstützt wurden."
 
 #: server/unittools.c:397
 #, c-format
@@ -41864,9 +41864,9 @@ msgstr[1] " (insgesamt %d Wiederholungen)"
 #. TRANS: first %s is URL, second is Curl error message
 #. * (not in Freeciv translation domain)
 #: utility/netfile.c:92
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to fetch %s: %s"
-msgstr "Konnte %s nicht übertragen"
+msgstr "Konnte %s nicht übertragen: %s"
 
 #: utility/netfile.c:166
 #, c-format
