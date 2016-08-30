@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-07 20:54+0200\n"
-"PO-Revision-Date: 2016-08-26 15:08+0200\n"
+"PO-Revision-Date: 2016-08-30 23:27+0200\n"
 "Last-Translator: David Rabel <david.rabel@noresoft.com>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -41171,7 +41171,7 @@ msgstr ""
 #: server/unithand.c:1223
 #, c-format
 msgid "Your %s survived the pathetic attack from the %s %s."
-msgstr "%s überlebten den mutigen Angriff der %sen %s."
+msgstr "%s überlebten den armseligen Angriff der %sen %s."
 
 #. TRANS: "... Cannon ... the Polish Destroyer."
 #: server/unithand.c:1233
