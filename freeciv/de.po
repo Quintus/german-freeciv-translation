@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-07 09:55+0200\n"
-"PO-Revision-Date: 2016-08-30 23:27+0200\n"
+"PO-Revision-Date: 2016-10-07 10:37+0200\n"
 "Last-Translator: David Rabel <david.rabel@noresoft.com>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -82,7 +82,7 @@ msgstr ""
 "X-Poedit-Language: German\n"
 "X-Poedit-Country: GERMANY\n"
 "X-Poedit-Basepath: ../..\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: ai/default/advdiplomacy.c:341
 #, c-format
@@ -3888,7 +3888,7 @@ msgstr "Einheiten:"
 #: client/gui-gtk-2.0/happiness.c:200 client/gui-gtk-3.0/happiness.c:207
 #: client/gui-qt/citydlg.cpp:968
 msgid "Wonders:"
-msgstr "Weltwunder: "
+msgstr "Weltwunder:"
 
 #: client/gui-gtk-2.0/happiness.c:209 client/gui-gtk-3.0/happiness.c:218
 #: client/gui-qt/citydlg.cpp:682 client/gui-qt/citydlg.cpp:955
@@ -10360,7 +10360,7 @@ msgid "* Can launch attack from non-native tiles.\n"
 msgstr "• Kann einen Angriff von einem nichtnativen Feld aus starten.\n"
 
 #: client/helpdata.c:2790
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "* Can be paradropped from a friendly city or suitable base (range: %d "
 "tile).\n"
@@ -10368,7 +10368,7 @@ msgid_plural ""
 "* Can be paradropped from a friendly city or suitable base (range: %d "
 "tiles).\n"
 msgstr[0] ""
-"• Kann von einer befreundeten Stadt aus abspringen (Reichweite: %d Felder).\n"
+"• Kann von einer befreundeten Stadt aus abspringen (Reichweite: %d Feld).\n"
 msgstr[1] ""
 "• Kann von einer befreundeten Stadt aus abspringen (Reichweite: %d Felder).\n"
 
@@ -12735,7 +12735,7 @@ msgstr "Ping"
 
 #: client/repodlgs_common.c:166
 msgid "You cannot sell improvements."
-msgstr "Sie können keine Stadterweiterungen verkaufen"
+msgstr "Sie können keine Stadterweiterungen verkaufen."
 
 #. TRANS: Obscure observer error.
 #: client/repodlgs_common.c:207
@@ -12774,7 +12774,7 @@ msgstr "Es ist kein aktuelleres %s-Release von Freeciv verfügbar."
 #: client/servers.c:233
 #, c-format
 msgid "Failed to read the metaserver data from %s."
-msgstr "Failed to read the metaserver data from %s"
+msgstr "Failed to read the metaserver data from %s."
 
 # MG: TECHNICAL
 #: client/servers.c:251
@@ -13778,7 +13778,7 @@ msgstr "Grafik tx.darkness fehlt."
 #: client/tilespec.c:2958
 #, c-format
 msgid "Don't have graphics tags \"%s\" or \"%s\" for %s \"%s\"."
-msgstr "Don't have graphics tags “%s” or “%s” for %s “%s”"
+msgstr "Don't have graphics tags “%s” or “%s” for %s “%s”."
 
 # MG: TECHNICAL
 #: client/tilespec.c:3043
@@ -21053,7 +21053,6 @@ msgstr ""
 #: data/civ2/units.ruleset:2008 data/classic/units.ruleset:2105
 #: data/experimental/units.ruleset:2131 data/civ2civ3/units.ruleset:2296
 #: data/multiplayer/units.ruleset:2203
-#, fuzzy
 msgid ""
 "A Spy can also be used to:\n"
 " - sabotage an enemy unit (reducing its hit points to half), if it is alone "
@@ -21070,7 +21069,7 @@ msgstr ""
 "die Hälfte reduzieren, wenn diese sich allein auf einem Feld und die Spieler "
 "sich im Krieg befinden;\n"
 " - Vergiften der Wasserversorgung einer Stadt, wodurch sich die Bevölkerung "
-"um eins reduziert und der Kornspeicher geleert wird;\n"
+"um eins reduziert;\n"
 " - Diebstahl einer bestimmten Technologie (allerdings mit geringerer "
 "Erfolgschance);\n"
 " - Diebstahl weiterer Technologien aus einer Stadt, die bereits bestohlen "
@@ -24671,7 +24670,7 @@ msgstr "Stationierte Einheiten:"
 
 #: data/Freeciv.in:3183
 msgid "Select nation and name:"
-msgstr "Nationalität und Name"
+msgstr "Nationalität und Name:"
 
 #: data/Freeciv.in:3198
 msgid "Pick Name"
