@@ -71,7 +71,7 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-07 09:55+0200\n"
-"PO-Revision-Date: 2016-10-07 10:37+0200\n"
+"PO-Revision-Date: 2016-10-24 10:57+0200\n"
 "Last-Translator: David Rabel <david.rabel@noresoft.com>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
@@ -623,10 +623,9 @@ msgid "See the \"Copying\" item on the Help menu."
 msgstr "Siehe unter „Lizenz“ im Hilfemenü."
 
 #: client/chatline_common.c:186
-#, fuzzy
 msgid "See COPYING file distributed with this program."
 msgstr ""
-"Siehe die mit Freeciv mitgelieferte Datei COPYING für den vollständigen "
+"Siehe die diesem Programm beigelegte Datei COPYING für den vollständigen "
 "Lizenztext."
 
 #: client/chatline_common.c:189
@@ -5059,7 +5058,6 @@ msgstr "Status"
 #: client/gui-gtk-2.0/pages.c:1153 client/gui-gtk-2.0/pages.c:1196
 #: client/gui-gtk-3.0/pages.c:1233 client/gui-gtk-3.0/pages.c:1278
 #: client/gui-qt/pages.cpp:281 client/gui-sdl/connectdlg.c:330
-#, fuzzy
 msgid "?count:Players"
 msgstr "Spieler"
 
@@ -5869,9 +5867,8 @@ msgstr ""
 "Weitere Informationen sind über einen%sLinksklick auf die Bürger verfügbar."
 
 #: client/gui-gtk-3.0/pages.c:946
-#, fuzzy
 msgid "New Pass_word:"
-msgstr "_Passwort:"
+msgstr "Neues Pass_wort:"
 
 #: client/gui-qt/chatline.cpp:69
 msgid "Allies only"
@@ -6374,9 +6371,8 @@ msgstr ""
 "Das Programm wird jetzt beendet."
 
 #: client/gui-qt/dialogs.cpp:2069
-#, fuzzy
 msgid "Tileset error"
-msgstr "Geländegrafik"
+msgstr "Fehler im Graphiksatz"
 
 #. TRANS: MP = Movement points
 #: client/gui-qt/dialogs.cpp:2242
@@ -6904,9 +6900,8 @@ msgstr "Steuern..."
 #. TRANS: Also menu item, but 'headers' should be good enough.
 #: client/gui-qt/menu.cpp:800 client/gui-qt/pages.cpp:1258
 #: client/gui-qt/plrdlg.cpp:641 client/gui-sdl/plrdlg.c:337
-#, fuzzy
 msgid "?header:Players"
-msgstr "Tote Spieler"
+msgstr "Spieler"
 
 #: client/gui-qt/menu.cpp:820 client/gui-xaw/menu.c:229
 msgid "Top Five Cities"
@@ -7018,23 +7013,20 @@ msgid "Confirm Password"
 msgstr "Passwort wiederholen:"
 
 #: client/gui-qt/pages.cpp:376
-#, fuzzy
 msgid "Internet servers:"
-msgstr "Internet _Metaserver"
+msgstr "Internet-Server:"
 
 #: client/gui-qt/pages.cpp:379
-#, fuzzy
 msgid "Local servers:"
-msgstr "Globale Beobachter"
+msgstr "Lokale Server:"
 
 #: client/gui-qt/pages.cpp:429
 msgid "Date"
 msgstr "Datum"
 
 #: client/gui-qt/pages.cpp:456 client/gui-qt/pages.cpp:514
-#, fuzzy
 msgid "Browse..."
-msgstr "_Durchsuchen..."
+msgstr "Durchsuchen..."
 
 #: client/gui-qt/pages.cpp:528
 msgid "Load Scenario"
@@ -8301,9 +8293,8 @@ msgid "Save Local Options"
 msgstr "Lokale Optionen speichern"
 
 #: client/gui-sdl/optiondlg.c:855
-#, fuzzy
 msgid "Help Browser"
-msgstr "Freeciv Hilfe"
+msgstr "Hilfe"
 
 #: client/gui-sdl/optiondlg.c:866
 msgid "Leave Game"
@@ -15195,11 +15186,13 @@ msgid ""
 msgstr "Modernisierung von %s würde %s ergeben, was hier nicht überleben kann."
 
 #: common/unit.c:2270
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Upgrading this %s would result in a %s which its current transport, %s, "
 "could not transport."
-msgstr "Modernisierung von %s würde %s ergeben, was hier nicht überleben kann."
+msgstr ""
+"Modernisierung von %s würde %s ergeben, was aber nicht auf den Transporter "
+"passt."
 
 #: common/unittype.c:425
 #, c-format
@@ -21911,7 +21904,6 @@ msgstr "Botschafter"
 
 #: data/classic/units.ruleset:2007 data/experimental/units.ruleset:2033
 #: data/civ2civ3/units.ruleset:2196 data/multiplayer/units.ruleset:2105
-#, fuzzy
 msgid ""
 "Diplomats can also perform a number of actions in another player's city, "
 "although each Diplomat may attempt only one action. Most of these actions "
@@ -21925,8 +21917,10 @@ msgstr ""
 "Spieler durchführen, wobei ein Diplomat allerdings auf eine einzelne Aktion "
 "beschränkt ist. Die meisten dieser Operationen besitzen nur eine gewisse "
 "Erfolgswahrscheinlichkeit. Dazu kommt, dass feindliche Diplomaten und Spione "
-"in einer Stadt feindlichen Aktionen entgegenhandeln werden; tritt dieser "
-"Fall ein, wird entweder Ihre Einheit oder die Verteidigende sterben. Wenn "
+"sowie in Spielen mit Anführern der Anführer in einer Stadt feindlichen "
+"Aktionen entgegenhandeln werden; tritt dieser Fall ein, wird entweder Ihre "
+"Einheit oder die Verteidigende sterben (eine Aktion gegen den Anführer ist "
+"zum Scheitern verurteilt und führt stets zum Verlust Ihrer Einheit). Wenn "
 "Sie gewinnen, wird Ihre Einheit einen Bewegungspunkt verlieren und kann es "
 "dann noch einmal versuchen."
 
@@ -25120,7 +25114,6 @@ msgstr ""
 "als Kauf und Verkauf an."
 
 #: data/helpdata.txt:225
-#, fuzzy
 msgid ""
 "    Pacts affect where your units can go and what they can do, and a pact "
 "with one nation can affect your relations with others.  Under authoritarian "
@@ -25148,10 +25141,9 @@ msgstr "Ein paar Hinweise:"
 
 #: data/helpdata.txt:237
 msgid "   - You can't give away your capital."
-msgstr "  ‒ Die Hauptsadt ist nicht verhandelbar."
+msgstr "  ‒ Die Hauptstadt ist nicht verhandelbar."
 
 #: data/helpdata.txt:239
-#, fuzzy
 msgid ""
 "   - You can only request property that you know about; so you can't request "
 "technology unless you have an embassy, and if you can't see a city on your "
@@ -25162,9 +25154,10 @@ msgstr ""
 "  ‒ Sie können nur Eigentum verlangen, von dessen Existenz sie wissen; es "
 "ist daher nicht möglich, eine Technologie zu verlangen, wenn Sie keine "
 "Botschaft besitzen, und wenn Sie eine Stadt auf Ihrer Karte nicht sehen "
-"können, können Sie sie auch nicht fordern. Natürlich ist ein großzügiger "
-"Gegenüber trotzdem in der Lage, sie Ihnen zu überlassen, woraufhin der "
-"Kartenbereich um die betreffende Stadt auf Ihrer Karte aufgedeckt wird."
+"können, können Sie sie auch nicht fordern. Natürlich ist ein großzügiges "
+"Gegenüber trotzdem in der Lage, sie Ihnen zu anzubieten, woraufhin der "
+"Kartenbereich um die betreffende Stadt auf Ihrer Karte aufgedeckt wird, noch "
+"bevor Sie dem Vertrag zustimmen."
 
 #: data/helpdata.txt:246
 msgid ""
@@ -25924,7 +25917,6 @@ msgstr ""
 "unterscheiden kann) und der Zielstadt zustande."
 
 #: data/helpdata.txt:611
-#, fuzzy
 msgid ""
 "The origin civilization of the unit gains immediate revenue in gold and "
 "science from selling its trade goods at the destination city. The initial "
@@ -25936,10 +25928,11 @@ msgstr ""
 "erhält durch den Verkauf ihrer Handelsgüter einen sofortigen Bonus in Form "
 "von Gold und Forschungspunkten, dessen genauer Betrag von dem in den zwei "
 "nun verbundenen Städten bereits produzierten Handel und deren Entfernung "
-"abhängt."
+"abhängt. Sofern der anderen Zivilisation die Lage der Heimatstadt der "
+"Händlereinheit nicht bekannt ist, erwirbt sie dieses Wissen mit Einrichtung "
+"der Handelsroute."
 
 #: data/helpdata.txt:617
-#, fuzzy
 msgid ""
 "The ongoing trade route that is established benefits both its origin and "
 "destination cities equally by generating trade points for each city every "
@@ -25954,10 +25947,11 @@ msgstr ""
 "Handelsweg gleichermaßen, indem sie jede Runde Handelspunkte generieren. Das "
 "Geschäftsvolumen des fortbestehenden Handels wächst zusammen mit der Größe "
 "der Städte und ihrer Entfernung, zudem üben die bereits genannten Faktoren "
-"ihren Einfluss aus. Wenn eine Handelsroute jemals uneinträglich werden "
-"sollte — etwa, indem Sie die Partnerstadt in einem Regelsatz erobern, der "
-"keinen innerstaatlichen Handel vorsieht — kann sie dauerhaft eingestellt "
-"werden."
+"ihren Einfluss aus. Außerdem gewährt die Handelsbeziehung den beteiligten "
+"Zivilisationen in einem begrenzten Rahmen Kenntnisse über die jeweilige "
+"Partnerstadt. Wenn eine Handelsroute jemals uneinträglich werden sollte — "
+"etwa, indem Sie die Partnerstadt in einem Regelsatz erobern, der keinen "
+"innerstaatlichen Handel vorsieht — kann sie dauerhaft eingestellt werden."
 
 #: data/helpdata.txt:627
 msgid ""
