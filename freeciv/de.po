@@ -2,7 +2,7 @@
 # Copyright (C) 1999-2009 Free Software Foundation, Inc.
 # Egbert Hinzen <egbert@hinzen-koeln.de>, 1999-2002.
 # Christian Knoke <chrisk@cknoke.de>, 2003-2009.
-# Marvin Gülker <quintus@quintilianus.eu>, 2012-2013,2015,2016
+# Marvin Gülker <m-guelker@phoenixmail.de>, 2012-2013,2015,2016
 #
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # + '# ?'  markiert Stellen, die noch nicht übersetzt wurden.           +
@@ -71,8 +71,8 @@ msgstr ""
 "Project-Id-Version: 1.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-16 22:23+0100\n"
-"PO-Revision-Date: 2016-10-24 10:57+0200\n"
-"Last-Translator: David Rabel <david.rabel@noresoft.com>\n"
+"PO-Revision-Date: 2016-11-16 23:36+0100\n"
+"Last-Translator: Marvin Gülker <m-guelker@phoenixmail.de>\n"
 "Language-Team: German Freeciv Translators <freeciv-de@googlegroups.com>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2585,7 +2585,6 @@ msgstr "Gesamtkosten: %d"
 
 #: client/gui-gtk-2.0/cma_fe.c:256 client/gui-gtk-3.0/cma_fe.c:266
 #: client/gui-xaw/cma_fe.c:83
-#, fuzzy
 msgid ""
 "For information on\n"
 "the citizen governor and governor presets,\n"
@@ -2595,7 +2594,7 @@ msgstr ""
 "Zur Information über\n"
 "den Bürgermeister und Vorgaben\n"
 "(mit Beispielen) siehe\n"
-"Datei doc/de/README.cma.de"
+"Datei doc/README.governor."
 
 #: client/gui-gtk-2.0/cma_fe.c:271 client/gui-gtk-3.0/cma_fe.c:281
 msgid "Prese_ts:"
@@ -6931,9 +6930,8 @@ msgid "Drop Paratrooper"
 msgstr "Fallschirmspringer abwerfen"
 
 #: client/gui-qt/menu.cpp:1221
-#, fuzzy
 msgid "Auto Worker"
-msgstr "Automatisch erkunden"
+msgstr "Arbeiter automatisieren"
 
 #: client/gui-qt/menu.cpp:2057
 msgid "Save Games"
@@ -15192,7 +15190,7 @@ msgid ""
 "could not transport."
 msgstr ""
 "Modernisierung von %s würde %s ergeben, was aber nicht auf den Transporter "
-"passt."
+"(%s) passt."
 
 #: common/unittype.c:425
 #, c-format
@@ -15921,7 +15919,6 @@ msgid "SDI Defense"
 msgstr "SDI-Verteidigung"
 
 #: data/civ1/buildings.ruleset:544
-#, fuzzy
 msgid ""
 "Protects a city and its environs (up to 2 tiles away) from attacks by enemy "
 "Nuclear units. A Nuclear unit not owned by you or an ally which attacks a "
@@ -15929,10 +15926,10 @@ msgid ""
 "within range, is shot down and simply has no effect."
 msgstr ""
 "Schützt eine Stadt und ihren Umkreis (bis zu zwei Felder) vor Angriffen "
-"durch nukleare Waffen. Eine nukleare Einheit, die eine Stadt mit SDI-"
-"Verteidigung oder eine Einheit in der Nähe einer solchen Stadt angreift "
-"(oder unglücklicherweise in Reichweite der SDI-Anlage von selbst "
-"explodiert), wird abgeschossen und hat schlicht keinen Effekt mehr."
+"durch feindliche Nuklearwaffen. Eine nukleare Einheit, die weder Ihnen noch "
+"einem Ihrer Verbündeten gehört und welche eine Stadt mit SDI-Verteidigung "
+"oder eine Einheit in der Nähe einer solchen Stadt angreift (oder absichtlich "
+"gesprengt wird), wird abgeschossen und hat schlicht keinen Effekt mehr."
 
 #: data/civ1/buildings.ruleset:552 data/civ2/buildings.ruleset:772
 #: data/classic/buildings.ruleset:841 data/experimental/buildings.ruleset:890
@@ -17486,23 +17483,25 @@ msgstr "Sprecher %s"
 msgid "Spokeswoman %s"
 msgstr "Sprecherin %s"
 
+# MG: Kollision mit "Chieftain", der aber selten genug genutzt wird, um
+# eine Titelgleichheit nicht wirklich problematisch erscheinen zu lassen.
 #: data/civ1/nations.ruleset:1419 data/civ2/nations.ruleset:1744
 #: data/civ2/nations.ruleset:1986 data/nation/cherokee.ruleset:26
 #: data/nation/iroquois.ruleset:30 data/nation/polynesian.ruleset:24
 #: data/nation/sioux.ruleset:31 data/nation/tupi.ruleset:25
 #: data/nation/zulu.ruleset:42
-#, fuzzy, c-format
+#, c-format
 msgid "Principal Chief %s"
-msgstr "Prinzipal %s"
+msgstr "Stammesführer %s"
 
 #: data/civ1/nations.ruleset:1419 data/civ2/nations.ruleset:1744
 #: data/civ2/nations.ruleset:1986 data/nation/cherokee.ruleset:26
 #: data/nation/iroquois.ruleset:30 data/nation/polynesian.ruleset:24
 #: data/nation/sioux.ruleset:31 data/nation/tupi.ruleset:25
 #: data/nation/zulu.ruleset:42
-#, fuzzy, c-format
+#, c-format
 msgid "?female:Principal Chief %s"
-msgstr "Prinzipalin %s"
+msgstr "Stammesführerin %s"
 
 #: data/civ1/nations.ruleset:1471 data/civ2/nations.ruleset:2038
 #: data/nation/barbarian.ruleset:5 server/stdinhand.c:3526
@@ -19433,7 +19432,6 @@ msgstr ""
 #: data/civ2/buildings.ruleset:712 data/classic/buildings.ruleset:775
 #: data/experimental/buildings.ruleset:824
 #: data/multiplayer/buildings.ruleset:757
-#, fuzzy
 msgid ""
 "Protects a city and its environs (up to 2 tiles away) from attacks by enemy "
 "Nuclear units. A Nuclear unit not owned by you or an ally which attacks a "
@@ -19442,11 +19440,12 @@ msgid ""
 "for units in the city against non-nuclear missiles."
 msgstr ""
 "Schützt eine Stadt und ihre Umgebung (bis zu zwei Felder weit) vor Angriffen "
-"durch Nuklearwaffen. Wenn eine nukleare Einheit eine Stadt mit einer SDI-"
-"Anlage oder eine Einheit in der Reichweite der Anlage angreift (oder "
-"versehentlich explodiert), wird sie abgeschossen und hat schlicht keinen "
-"Effekt. Verdoppelt zudem die Verteidigungswerte von Einheiten in der Stadt "
-"gegenüber nichtnuklearen Raketen."
+"durch Nuklearwaffen. Wenn eine nukleare Einheit, die weder Ihnen noch einem "
+"Ihrer Verbündeten gehört, eine Stadt mit einer SDI-Anlage oder eine Einheit "
+"in der Reichweite der Anlage angreift (oder absichtlich gesprengt wird), "
+"wird sie abgeschossen und hat schlicht keinen Effekt. Verdoppelt zudem die "
+"Verteidigungswerte von Einheiten in der Stadt gegenüber nichtnuklearen "
+"Raketen."
 
 #: data/civ2/buildings.ruleset:723 data/classic/buildings.ruleset:786
 #: data/experimental/buildings.ruleset:835 data/civ2civ3/buildings.ruleset:902
@@ -22699,7 +22698,6 @@ msgstr ""
 "Helikoptern."
 
 #: data/civ2civ3/buildings.ruleset:892
-#, fuzzy
 msgid ""
 "Protects a city and its environs (up to 2 tiles away) from attacks by enemy "
 "Nuclear units. A Nuclear unit not owned by you or an ally which attacks a "
@@ -22709,11 +22707,12 @@ msgid ""
 "conventional missiles."
 msgstr ""
 "Schützt eine Stadt und ihre Umgebung (bis zu zwei Felder weit) vor Angriffen "
-"durch Nuklearwaffen. Wenn eine nukleare Einheit eine Stadt mit einer SDI-"
-"Anlage oder eine Einheit in der Reichweite der Anlage angreift (oder "
-"versehentlich explodiert), wird sie abgeschossen und hat schlicht keinen "
-"Effekt. Verdoppelt zudem die ursprünglichen Verteidigungswerte von Einheiten "
-"in der Stadt gegenüber nichtnuklearen Raketen."
+"durch Nuklearwaffen. Wenn eine nukleare Einheit, die weder Ihnen noch einem "
+"Ihrer Verbündeten gehört, eine Stadt mit einer SDI-Anlage oder eine Einheit "
+"in der Reichweite der Anlage angreift (oder absichtlich gesprengt wird), "
+"wird sie abgeschossen und hat schlicht keinen Effekt. Verdoppelt zudem die "
+"ursprünglichen Verteidigungswerte von Einheiten in der Stadt gegenüber "
+"nichtnuklearen Raketen."
 
 #: data/civ2civ3/buildings.ruleset:918
 #, no-c-format
@@ -28401,7 +28400,6 @@ msgstr ""
 "Ihre Vorgaben dauerhaft zu sichern."
 
 #: data/helpdata.txt:1804
-#, fuzzy
 msgid ""
 "But beware! If you use the governor for some of your cities, you will "
 "encounter some difficulties with managing cities nearby, by hand. It's best "
@@ -28411,72 +28409,72 @@ msgid ""
 msgstr ""
 "Seien Sie vorsichtig! Wenn Sie nur in einigen Ihrer Städte Bürgermeister "
 "einsetzen, wird es zu Problemen bei der händischen Administration "
-"nahegelegener Städte kommen, daher ist es meist am besten, alle Städte eines "
-"Kontinents komplett von Hand oder vollständig mithilfe von Bürgermeistern zu "
-"verwalten. Weitere Hinweise, ein paar Hintergrundinformationen sowie "
+"nahegelegener Städte kommen, weshalb es meist am besten ist, alle Städte "
+"einer Insel komplett von Hand oder vollständig mithilfe von Bürgermeistern "
+"zu verwalten. Weitere Hinweise, ein paar Hintergrundinformationen sowie "
 "Beispieleinstellungen können Sie in der in Freeciv enthaltenen Datei „README."
-"cma“ nachlesen."
+"governor“ nachlesen."
 
 #: data/helpdata.txt:1814
-#, fuzzy
 msgid ""
 "The client has a primitive chat interface. The lines you type are sent to "
 "all players, or only to your allies if the client is configured for that, "
 "except:"
 msgstr ""
 "Der Client bietet eine einfache Möglichkeit zum Chatten. Alle eingegebenen "
-"Zeilen werden an alle Mitspieler geschickt. Ausgenommen davon sind nur:"
+"Zeilen werden abhängig von der Konfiguration des Clients entweder an alle "
+"Mitspieler oder nur an Ihre Verbündeten geschickt. Ausgenommen davon sind "
+"nur:"
 
 #: data/helpdata.txt:1818
 msgid ""
 "  - Messages starting with '/' are interpreted as server commands and "
 "executed, if you have the required access level."
 msgstr ""
-" - Nachrichten, die mit '/' beginnen, werden als Serverbefehle erkannt und "
+" - Nachrichten, die mit „/“ beginnen, werden als Serverbefehle erkannt und "
 "ausgeführt, falls Sie die dafür benötigte Zugangsberechtigung haben."
 
 #: data/helpdata.txt:1821
-#, fuzzy
 msgid ""
 "  - Messages starting with 'John:' are private messages to 'John'. Names can "
 "be abbreviated, or surrounded with double-quotes if they have spaces. The "
 "server looks for players named 'John' and if that fails tries to match a "
 "username beginning with 'John' (like 'Johnathan')."
 msgstr ""
-"  - Nachrichten, die mit 'Hans:' beginnen, sind private Mitteilungen an "
-"'Hans'. Die Namen können abgekürzt werden. Zuerst wird mit den Spielernamen "
-"verglichen, wenn keiner passt, mit den Benutzernamen."
+"  - Nachrichten, die mit „Hans:“ beginnen, sind private Mitteilungen an "
+"„Hans“. Die Namen können abgekürzt oder in den Fällen, in denen sie "
+"Leerzeichen enthalten, mit doppelten Anführungszeichen begrenzt werden. "
+"Zuerst wird mit den Spielernamen verglichen, wenn keiner passt, mit den "
+"Benutzernamen."
 
 #: data/helpdata.txt:1826
-#, fuzzy
 msgid ""
 "  - Messages starting with 'John::' are private messages as above, but will "
 "match only users (not players) named 'John'. A user name 'Johnathan' will "
 "still be matched."
 msgstr ""
-"  - Nachrichten, die mit 'Hans::' beginnen, sind private Mitteilungen wie "
+"  - Nachrichten, die mit „Hans::“ beginnen, sind private Mitteilungen wie "
 "oben, aber werden nur mit den Benutzernamen, nicht den Spielernamen, "
-"verglichen. Die Namen können abgekürzt werden.  - Nachrichten, die mit einem "
-"Spielernamen (oder einer Abkürzung davon), gefolgt von einem Doppelpunkt, "
-"beginnen, sind private Mitteilungen an diesen Spieler."
+"verglichen. Die Namen können abgekürzt werden."
 
 #: data/helpdata.txt:1830
-#, fuzzy
 msgid ""
 "  - Messages starting with ':' will be sent to everyone (even if your client "
 "is configured to send only to allies by default)."
 msgstr ""
-"  - Nachrichten, die mit '.' beginnen, werden an alle Alliierte - und nur an "
-"diese - geschickt."
+"  - Nachrichten, die mit „:“ beginnen, werden an alle Mitspieler geschickt, "
+"und zwar auch dann, wenn Ihr Client so konfiguriert ist, dass er "
+"standardmäßig nur an alle Verbündeten versendet."
 
 #: data/helpdata.txt:1833
-#, fuzzy
 msgid ""
 "  - Messages starting with '.' will be sent only to all your allies (or, if "
 "you're a global observer, only to other global observers)."
 msgstr ""
-"  - Nachrichten, die mit '.' beginnen, werden an alle Alliierte - und nur an "
-"diese - geschickt."
+"  - Nachrichten, die mit „.“ beginnen, werden an alle Verbündeten — und nur "
+"an diese — geschickt. Wenn Sie allerdings ein globaler Beobachter sind, dann "
+"werden die Nachrichten stattdessen an alle anderen globalen Beobachter — und "
+"nur an diese — verschickt."
 
 #: data/helpdata.txt:1836
 msgid ""
@@ -29641,13 +29639,12 @@ msgid "?plural:Cherokees"
 msgstr "Cherokee"
 
 #: data/nation/cherokee.ruleset:8
-#, fuzzy
 msgid ""
 "The Cherokee nation is the largest Native American nation in North America "
 "today."
 msgstr ""
-"Die Cherokee Nation ist die größte nativamerikanische Nation im heutigen "
-"Amerika."
+"Die Cherokee Nation ist der größte Zusammenschluss ehemaliger amerikanischer "
+"Ureinwohner im heutigen Amerika."
 
 #: data/nation/chinese.ruleset:8
 msgid ""
@@ -30586,12 +30583,12 @@ msgid "Tutorial"
 msgstr "Einführung"
 
 #: data/scenarios/tutorial.sav:5
-#, fuzzy
 msgid ""
 "Play this tutorial scenario to get an introduction to Freeciv. This is "
 "intended for single-player games."
 msgstr ""
-"Spielen Sie dieses Szenario, um eine Einführung in Freeciv zu erhalten."
+"Spielen Sie dieses Szenario, um eine Einführung in den Einzelspielermodus "
+"von Freeciv zu erhalten."
 
 #: data/scenarios/tutorial.sav:76
 msgid ""
@@ -30677,7 +30674,6 @@ msgstr ""
 "Siedler bauen."
 
 #: data/scenarios/tutorial.sav:132
-#, fuzzy
 msgid ""
 "You have built your third city!  Your civilization seems to be\n"
 "thriving.  It might be time to think about a military.  Pick one of\n"
@@ -30693,19 +30689,18 @@ msgid ""
 "append it to the worklist.  As soon as the Barracks are complete the\n"
 "city will automatically switch over to producing the unit."
 msgstr ""
-"Sie haben Ihre dritte Stadt errichtet! Ihre Zivilisation scheint\n"
-"sich gut zu entwickeln. Es könnte an der Zeit sein, über Truppen\n"
+"Sie haben Ihre dritte Stadt errichtet! Ihre Zivilisation scheint sich\n"
+"gut zu entwickeln. Es könnte an der Zeit sein, über Truppen\n"
 "nachzudenken. Nehmen Sie eine Stadt mit einer hohen Produktion, und\n"
 "machen Sie daraus eine Militärbasis. Bauen Sie zunächst Kasernen,\n"
-"beginnen Sie dann mit dem Bau einer militärischen Einheit. Wählen Sie die "
-"beste,\n"
-"die verfügbar ist - am Anfang des Spieles sind Krieger die\n"
+"beginnen Sie dann mit dem Bau einer militärischen Einheit. Wählen Sie\n"
+"die beste, die verfügbar ist — am Anfang des Spieles sind Krieger die\n"
 "einzige Wahl, aber bald werden Sie eine große Auswahl haben.\n"
 "\n"
 "Dies ist eine gute Gelegenheit, die Arbeitslisten auszuprobieren,\n"
 "mit der die Stadtproduktion gesteuert werden kann. Wählen Sie im\n"
-"Stadtfenster 'Produktion', klicken Sie auf die Kasernen, dann auf\n"
-"'ändern', um sie zu bauen. Klicken Sie dann doppelt auf eine\n"
+"Stadtfenster „Produktion“, klicken Sie auf die Kasernen, dann auf\n"
+"„ändern“, um sie zu bauen. Klicken Sie dann doppelt auf eine\n"
 "militärische Einheit, um sie an die Arbeitsliste anzuhängen.\n"
 "Sobald die Kasernen fertig sind, wird die Stadt mit der\n"
 "Produktion der Einheit beginnen."
@@ -30781,7 +30776,6 @@ msgstr ""
 "augenblicklich fertigzustellen."
 
 #: data/scenarios/tutorial.sav:154
-#, fuzzy
 msgid ""
 "Your city has grown again!  Now with three citizens you have\n"
 "a fair amount of choice over where the city should focus its\n"
@@ -31837,9 +31831,8 @@ msgstr "Passwort für %s eingeben:"
 
 #. TRANS: Try not to make the translation much longer than the original.
 #: server/auth.c:140
-#, fuzzy
 msgid "First time login. Set a new password and confirm it."
-msgstr "Neues Passwort eingeben (und merken)."
+msgstr "Erstanmeldung. Neues Passwort setzen und bestätigen."
 
 #: server/auth.c:145
 msgid "This server allows only preregistered users. Sorry."
@@ -31974,13 +31967,13 @@ msgstr[1] "%s Die Schatzkammer enthält nur %d Goldstücke."
 
 #. TRANS: bought an unit.
 #: server/cityhand.c:377
-#, fuzzy, c-format
+#, c-format
 msgid "?unit:You bought %s in %s."
 msgstr "Sie haben %s in %s gekauft."
 
 #. TRANS: bought an improvement .
 #: server/cityhand.c:383
-#, fuzzy, c-format
+#, c-format
 msgid "?improvement:You bought %s in %s."
 msgstr "Sie haben %s in %s gekauft."
 
@@ -32236,10 +32229,10 @@ msgid "reduced"
 msgstr "vermindert"
 
 #: server/cityturn.c:231
-#, fuzzy, c-format
+#, c-format
 msgid "%s is selling %s (obsolete) for %d."
 msgid_plural "%s is selling %s (obsolete) for %d."
-msgstr[0] "%s verkauft %s (veraltet) für %d Goldstücke."
+msgstr[0] "%s verkauft %s (veraltet) für %d Goldstück."
 msgstr[1] "%s verkauft %s (veraltet) für %d Goldstücke."
 
 #: server/cityturn.c:426
@@ -33311,7 +33304,6 @@ msgid "Control metaserver connection."
 msgstr "Verbindung zum Metaserver."
 
 #: server/commands.c:267
-#, fuzzy
 msgid ""
 "'metaconnection ?' reports on the status of the connection to metaserver. "
 "'metaconnection down' or 'metac d' brings the metaserver connection down. "
@@ -33321,7 +33313,9 @@ msgid ""
 msgstr ""
 "„metaconnection ?“ zeigt den Verbindungsstatus zum Metaserver an. "
 "„metaconnection down“ oder „metac d“ beendet die Verbindung zum Metaserver. "
-"„metaconnection up“ oder „metac u“ stellt die Verbindung zum Metaserver her."
+"„metaconnection up“ oder „metac u“ stellt die Verbindung zum Metaserver her. "
+"„metaconnection persistent“ oder „metac p“ verhält sich wie „up”, versucht "
+"aber, sich bei Fehlschlag neu zu verbinden."
 
 #. TRANS: translate text between <> only
 #: server/commands.c:276
@@ -35372,9 +35366,8 @@ msgid "Not reporting to the metaserver in this game."
 msgstr "In diesem Spiel werden keine Daten an den Metaserver geschickt."
 
 #: server/meta.c:208
-#, fuzzy
 msgid "Metaserver connection currently failing."
-msgstr "Es besteht bereits eine Verbindung zum Metaserver."
+msgstr "Die Verbindung zum Metaserver ist gestört."
 
 #: server/plrhand.c:144
 #, c-format
@@ -36474,35 +36467,35 @@ msgid "Invalid score name definition: '%s'."
 msgstr "Unzulässige Highscore-Definition: „%s“"
 
 #: server/settings.c:699
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Demography string validation failed at character: '%c'. Try \"/help "
 "demography\"."
 msgstr ""
 "Der Optionsstring zur Lage der Nation enthält das ungültige Zeichen „%c“. "
-"Nähere Informationen sind mit „help demography“ erhältlich."
+"Nähere Informationen sind mit „/help demography“ erhältlich."
 
 #: server/settings.c:741
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Allowed take string validation failed at character: '%c'. Try \"/help "
 "allowtake\"."
 msgstr ""
 "Der Optionsstring zur Übernahme von Spielern enthält das ungültige Zeichen "
-"„%c“. Nähere Informationen sind mit „help allowtake“ erhältlich."
+"„%c“. Nähere Informationen sind mit „/help allowtake“ erhältlich."
 
 #: server/settings.c:764
 msgid "Starting units string cannot be empty."
 msgstr "Die Liste der Starteinheiten darf nicht leer sein."
 
 #: server/settings.c:780
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Starting units string validation failed at character '%c'. Try \"/help "
 "startunits\"."
 msgstr ""
 "Der Optionsstring zu den Starteinheiten enthält das ungültige Zeichen „%c“. "
-"Nähere Informationen sind mit „help startunits“ erhältlich."
+"Nähere Informationen sind mit „/help startunits“ erhältlich."
 
 #: server/settings.c:799
 msgid "Cannot set endturn earlier than current turn."
@@ -37290,7 +37283,6 @@ msgstr ""
 "keine Punkte verloren."
 
 #: server/settings.c:1582
-#, fuzzy
 msgid "Chance to lose a technology while receiving it"
 msgstr "Wahrscheinlichkeit des Verlusts von erhaltenen Fortschritten"
 
@@ -37301,7 +37293,6 @@ msgstr ""
 "Abkommen oder durch Diebstahl."
 
 #: server/settings.c:1590
-#, fuzzy
 msgid "Chance to lose a technology while giving it"
 msgstr "Wahrscheinlichkeit des Verlusts eines gewährten Fortschritts"
 
@@ -37679,14 +37670,14 @@ msgid "National borders"
 msgstr "Landesgrenzen"
 
 #: server/settings.c:1850
-#, fuzzy
 msgid ""
 "If this is not disabled, then any land tiles around a city or border-"
 "claiming base (like the classic ruleset's Fortress) will be owned by that "
 "nation."
 msgstr ""
 "Wenn dies nicht ausgeschaltet wird, gehören alle Felder rund um eine Stadt "
-"oder Festung der jeweiligen Nation."
+"oder einen Stützpunkt, mit dem Sie Territorialansprüche erheben (wie etwa im "
+"klassischen Regelsatz eine Festung) der jeweiligen Nation."
 
 #: server/settings.c:1858
 msgid "Units inside borders cause no unhappiness"
@@ -37748,7 +37739,6 @@ msgstr "Festlegung von Spielerfarben:"
 #. * are setting names and shouldn't be translated. The strings
 #. * between parentheses and in uppercase must not be translated.
 #: server/settings.c:1895
-#, fuzzy
 msgid ""
 "This setting determines how player colors are chosen. Player colors are used "
 "in the Nations report, for national borders on the map, and so on.\n"
